@@ -1,0 +1,4271 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/funique/Documents/wiki",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "kXFVpGusTJJT4ff1SLUEK0eM/a9yA6V7YsSnnyuaNkU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.ClientConnectionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.ClientConnectionDetails.html",
+          "hash": "V61wzDS8kmaXaeox7Gta9fedRvbkTblQqzRvjNkvCYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Demo.StateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Demo.StateManager.html",
+          "hash": "Ua1SDU4p/vZjpKDIC5p/jJwLad/FL72XwWrk7DYRwHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Demo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Demo.html",
+          "hash": "pk6skMb/FLxnfboWvsIWXK3vzBnRzMpGLdEU7IlNN3E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Editor.UNetCommsNetworkEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Editor.UNetCommsNetworkEditor.html",
+          "hash": "Y5Azdd7gRhRjS4iEjJguMhu87yYrSdUjMuWB0iZ2bjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.Editor.html",
+          "hash": "wGVhJcl6qxUuAZ5VAcQlSh+DfBW1/1PRvk3x8i02bhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.ServerConnectionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.ServerConnectionDetails.html",
+          "hash": "QgBAcb+GRulR4Y+T4elgvUUP6KRLVag1e8PLVSlcYlI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.UNetClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.UNetClient.html",
+          "hash": "fg3z81set/TiLJdBea8gzo15Sfuh0OdE5fEtWNKrjMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.UNetCommsNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.UNetCommsNetwork.html",
+          "hash": "0tA4c3XEsPrvKy24sws/H8rJLb6zNp0eFloxW9LsZ94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.UNetServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.UNetServer.html",
+          "hash": "mA6RImgeFlDt/ALB1r7POcAe57k3Pq+UcbyK+a5ONiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dissonance.Integrations.UNet_LLAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dissonance.Integrations.UNet_LLAPI.html",
+          "hash": "2JurVKB473KDLRrZBkqTPv7kbK4uY374LwHYmCFBIeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.BootstrapperBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.BootstrapperBase-1.html",
+          "hash": "2LaVu5T6joicMtxuNLCZim37U95uo+sQ63pP+Oatwt8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.Const.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.Const.html",
+          "hash": "cZgDVc6hTCu/uhgCGXg2k8zsdZCFvF1+QDwalRtJ5w4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.FBAudio360Bootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.FBAudio360Bootstrapper.html",
+          "hash": "kF5K30B4Z2du9mVha5jZ6wEcQKKHID+k0jc4OutKQRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.Job.html",
+          "hash": "OXW+l53Hs4O/E2dWKuKB/HzeGe8IeKb2ORQCEaW3ugI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.ListExtensions.html",
+          "hash": "cqhIYNB6vzEs5Q5ZZUbL6Yu5MXWmmaZb18nG8gYxzUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.SPSCQ-1.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.SPSCQ-1.Reader.html",
+          "hash": "f+CHjRJXq+/U4tU7eStOc2+B+PVWrIMAOyqnWCEpjBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.SPSCQ-1.Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.SPSCQ-1.Writer.html",
+          "hash": "dIYHeKe/pONmHGFsNtDp1XZkG6Snl+0hjgSm4N68eqs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.SPSCQ-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.SPSCQ-1.html",
+          "hash": "9AtVj6HFFLlHF8MSEadF45M9i09idu/4d6oapDY17Zw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.TPool-1.CreateObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.TPool-1.CreateObject.html",
+          "hash": "391vAWNi3W7Jqfo8H8WT+l8k2k41TuAEbwAHN4YEBBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.TPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.TPool-1.html",
+          "hash": "9JXS8c3x0MGsdkeJ+jyPSST1TwFIuuljvKmklF3Nn4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.WavSimpleHeader.WavFileFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.WavSimpleHeader.WavFileFormat.html",
+          "hash": "iWWEHchjL+lYPG/FUeiF27Vy2yx9b7f8v42fiDaiII4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.WavSimpleHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.WavSimpleHeader.html",
+          "hash": "xbeY9zjRZVIedXkDCCm8nbl1fbyhHMuGP9RuSo8zP/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Facebook.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Facebook.Audio.html",
+          "hash": "guAyMh7dN5bUngLQyQKM8OVE4ecJ3wthN36n0RLwsgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AccountData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AccountData.html",
+          "hash": "BMGrOdQ1kNO+2nJ1EHNqZXsVsX0wuWDNYFTfGNu1cvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AudioMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AudioMode.html",
+          "hash": "MIfEZs8gNute6KcvuVVbYkrjujVADgPDZUbwEnBkqJQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AutoRotate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AutoRotate.html",
+          "hash": "VLMy4/5w1gN5dgYzOGYzzr2L58RCz4GPVKDm1Ktz8cE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaDataCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaDataCollection.html",
+          "hash": "kpFLa5h0iDrhvpjkiLR0A9H9uSGDsIq6HP5Fqgf38YE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaLabelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaLabelData.html",
+          "hash": "yGNO5sr5564IgX8swX1ML1/RB/LMEgLarcm4GAKqhm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaLabelListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaLabelListener.html",
+          "hash": "lwv5kC0VRx+LxIYbbwmAhr9sC3yywIHPMEjVD9i68Xc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaLabelListenerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaLabelListenerBase.html",
+          "hash": "c4iVAQd7YmjskCxRsHnBXCmbtOZjjktS4BYhXR57EEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaLabelView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaLabelView.html",
+          "hash": "CudeLPXt4lRTbrx8drvzIslhCpuvaelWbZbQ2g6tkno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaLabelViewBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaLabelViewBase.html",
+          "hash": "ds1heSy7ownvsyORIG6BnufPspxEbujM2hHtD7Cr76k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaManagerClientData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaManagerClientData.html",
+          "hash": "ounzff7qPaxjfZ8uPq7tufsv5eVX2pYu1Y5OQveVu2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaManagerServerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaManagerServerData.html",
+          "hash": "tTDSKbClYHPTHszy6xx6JMPjhQGO2ZBc0y30MMms+gU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaMediaPlayerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaMediaPlayerBase.html",
+          "hash": "VdbVGvHYB2e/6K/qBz2c38vHF0rmWZo/Iv6oU98+LgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.CinemaView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.CinemaView.html",
+          "hash": "3fT+w8iPdrYKprqqa6aEdAyfv2DPQWppJbk9IPGIVqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.ICinema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.ICinema.html",
+          "hash": "7nCXhRr2bq2MM2crV6WeBlPKBfogIsfKVEPWspZ5WJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.ICinemaClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.ICinemaClientUtility.html",
+          "hash": "Hk6l6c2ttbVi34XeiMUAFxzxSp5j91U+ffhtJ/pA0FE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.ICinemaControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.ICinemaControl.html",
+          "hash": "mYF7b7pSzbkiffJuH4+WP5XWMz5kLQHLqnnWH7idZQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.ICinemaRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.ICinemaRegister.html",
+          "hash": "Mt8y1+w+b+mQgeLKlypWXksk77ardg0viSL0LAvlEo4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.ICinemaServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.ICinemaServerUtility.html",
+          "hash": "c/lK61AiM16xquSn6fzOrr9tS3nkMmF5rYxNDseCc50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Cinema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Cinema.html",
+          "hash": "QtVyRTDQ18zEEvATSLDAH7HM0uUE9UjubfsOVMagPHA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.CinemaState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.CinemaState.html",
+          "hash": "E0RL5Rv7zv9++CI2Or+4HLUyz8l4sF2jkVft2ktv5Zk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.ClientAndroidManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.ClientAndroidManagerData.html",
+          "hash": "bR9coHqqBRJFka5RetSahiQrfWtYegANYID25AK41jo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.ClientStandAloneManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.ClientStandAloneManagerData.html",
+          "hash": "EB+Kf3dgRTblXELPIMir1a9vWch/1/jLbH2SD/1FEcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.ClientTheaterManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.ClientTheaterManagerData.html",
+          "hash": "3v/VXcB1AcQdvvLYrk0+LmuQMPktGzUosJdAYeaZGjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.ClientXRManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.ClientXRManagerData.html",
+          "hash": "OrHX8qyIjE6BFBR42+RGwpb++LspA+RUjvAH/k/5Auk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.StandAloneUIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.StandAloneUIController.html",
+          "hash": "oqSP6FOBLRqEL4mygWCDJuic40DUFpltzLddA6Bpa+A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.html",
+          "hash": "vnDztViKpEyeuOaq46lHftGsW6a7/4N2qXkZsua0ZV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ClientActionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ClientActionControl.html",
+          "hash": "XgvO1T/12b+vGkyfTxm1s73bwOBeVxym76j649nb4kU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ClientActionControlBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ClientActionControlBase.html",
+          "hash": "5xaxVoH52gsTeSYlzhGsIRyzZF998mKFUSKz+oXRGH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ClientInMasterPlayerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ClientInMasterPlayerState.html",
+          "hash": "8YGl8IYmhgEFhrAEv/GKmrJXBJ3g0npFiXlbd2ucDd8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ConfirmView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ConfirmView.html",
+          "hash": "7LEQEEQ4Bpd3OwsKCPu5nUzKz6ooLRujOBuMGrAnkNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.CoroutineHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.CoroutineHelper.html",
+          "hash": "W9zhdALFSl5glMnFiPT6kXjTYWPlmIOoTiJtfGkLTcg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Counter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Counter.html",
+          "hash": "iHge0TiGIilNnuz+G2VrKYI7JNSa0zw2ZQGlzSjSwnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.DOF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.DOF.html",
+          "hash": "4lNTGBQ8bCwBEW34hx6wm+chodxdsrjqXHvXp1xebiU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Direction.html",
+          "hash": "egtErkbafv7nrkVfp4deZBYFL38qrrd8c+SnGrFL7Ug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.DynamicDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.DynamicDirection.html",
+          "hash": "2wPPgYhmKLzx2Us+6ldeYCrwJB8GLdQPNQ11JFeoBKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.EnumCycle-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.EnumCycle-1.html",
+          "hash": "2XOphflS/s0NlE6yFRkRbw+jY3rABLAsHjtm37kmrpA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ErroCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ErroCode.html",
+          "hash": "gX3wgCysDeQCPipI8NW56a94EAbnmVkxJZ9Q+LjzW0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.FollowCam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.FollowCam.html",
+          "hash": "c38LFao0clWDDWNkfdH/3VsWIpMKnA92REPUyuMGnyI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ForceActive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ForceActive.html",
+          "hash": "Hn+MD7SLUGuB/CLNGO59m6lbmPGl9mAFuZkhXkjyISk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.FuniqueBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.FuniqueBehaviour.html",
+          "hash": "lr0Elpkz9DacIr8ufIGGpqLXDGvj/fF4mgq9iC9jTbQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.FuniqueLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.FuniqueLogger.html",
+          "hash": "lQwY1X2ytSycLuqHO28oWTiXwXUFIIxModBlrsRb39k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.FuniqueLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.FuniqueLogin.html",
+          "hash": "EiisdwmUyvnD27pP9tZar7BSCvwB0VdsYk/paFPmjec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.FuniqueStreamingLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.FuniqueStreamingLogin.html",
+          "hash": "qrd+GwC3wzYWZWAop09zD/VW7lpx/HHnIk2ulW2rPvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.FuniqueUDPServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.FuniqueUDPServer.html",
+          "hash": "4Hk7H9YFhI4rIkPZBQhqgALPmcHEqWw+XXGURJ7R+YI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.GPU_Texture2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.GPU_Texture2D.html",
+          "hash": "njusfr6+WlhrF1vARJZ23y1eRKKJZ0h4tCxq3x00IzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.HierachyBGListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.HierachyBGListener.html",
+          "hash": "l7oBuPAGsgmQXz6cq4gBdq/dTVfaEN7Oyq0nJaac9os="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ILogger.html",
+          "hash": "UBJhXPwb4LxMwADIwarqvjOWp2VSgA5UoOM21erDzAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.IToolPlayerInformationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.IToolPlayerInformationExtension.html",
+          "hash": "VUWpsDn+o8X4qeGP0EVDbg/XCqfGgCil87ZKLdEW7dI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.IToolStringExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.IToolStringExtension.html",
+          "hash": "BjCwhVFR7RW4EMUjpAiBU36LAlDxldue7aGY7Cg01Gs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.IToolUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.IToolUtility.html",
+          "hash": "QKgArJMYlaqPSYRu02oEOMw10JQyRKGuh3Oxm6h2s9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.IToolVideoInfoExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.IToolVideoInfoExtension.html",
+          "hash": "Ef7+rJnlEw4BOqb5e98pU8RQOXxbB2It5qAd89IpPn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Im3u8Streaming.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Im3u8Streaming.html",
+          "hash": "HaF2FuFbKMfe6SSEXcUb2+ce1GmxaW7bb7xGtDP5FAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.InfoViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.InfoViewer.html",
+          "hash": "aA9GjBXHXiUIj+9neSDCgviI5i5bMn/nw0B1jfK7HIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.InfoViewerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.InfoViewerEditor.html",
+          "hash": "Dolq8YHNQtr0raaOUqNJHnb9xgy6qa7hXdl9k4+J3iw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.LambdaConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.LambdaConfig.html",
+          "hash": "0ggFaCRLWOEjpPxf4bhddk+BeYw2uQ6trXeGHgE8nLw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.LanSniffing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.LanSniffing.html",
+          "hash": "PhUTSoUGrgH9FxQcYv6i9kVNpeuCUBNtOlLnuwj9FRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.LoggerApply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.LoggerApply.html",
+          "hash": "goQAdVBk6slSxBV6Dz6EDv6C3cvIl4xEXP6J7+R1Y1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Main.html",
+          "hash": "LhI4LNL/Bo/Gqep0+3g92+Czmd5p3G63J6oINP6tOTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.CinemaManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.CinemaManager.html",
+          "hash": "7RatAFHQqXZBvhewFcOenxBJuMW3kYgFDfdRjBJCPSM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.CinemaManagerClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.CinemaManagerClientUtility.html",
+          "hash": "o/biGx1xRSW+lXvUcl1gd685MkZtFTlCL+piY7PVcNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.CinemaManagerServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.CinemaManagerServerUtility.html",
+          "hash": "7oAzAE/0tVjlD21GzgIB469NA7cQH7FkUwleahzUi0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.ClientAndroidManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.ClientAndroidManagerUtility.html",
+          "hash": "9Zlwa1JPSRpkdXRAI1Q5Mx+xG2YaYMWnm3XDgM3vNog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.ClientStandAloneManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.ClientStandAloneManagerUtility.html",
+          "hash": "rxdJFLyJA7+sAsTTSXFqN7iY/dPPV7+KjrnB7MWUEuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.ClientTheaterManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.ClientTheaterManagerUtility.html",
+          "hash": "U9hrLayBAWzORVPKEMf9TOhqZf6yQVvinngP92EHp2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.ClientXRManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.ClientXRManagerUtility.html",
+          "hash": "x7/on2zBlwtzSCY4PUEIM1yZTAsfMn+fIIbKmMjas2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.ManagerBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.ManagerBase-1.html",
+          "hash": "zzhgQmKFbMjZt/VwEWwE6v+0K+1eZRbwW0tJSizyxc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.ManagerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.ManagerBase.html",
+          "hash": "7Nzg9Y6YE9Pe2Ad/xdsxRZJBwcOHCUnQ1LaQLlHClQU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.MediaManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.MediaManager.html",
+          "hash": "RnSVbEdjsenRv60s1qYSMmMpGWZqUeOmaj7MchE/wvA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.MediaManagerClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.MediaManagerClientUtility.html",
+          "hash": "F3YOptDItaTfvAxhZhBCWistb5wVr3w75qv9BgmVuUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.MediaManagerServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.MediaManagerServerUtility.html",
+          "hash": "DZ1q6akiG2Fos7Y7AnvGfphvpu2YbdVydgbptG4Lrto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.NetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.NetworkManager.html",
+          "hash": "nXGJtyvLDP4nHec6lIYEqzr5XjTSoEnyXU/wbUjx5M8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.NetworkManagerClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.NetworkManagerClientUtility.html",
+          "hash": "fILsbMWd4dHJdS2YbxTJPXqySIB57E/ZfWnWCqNSeoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.NetworkManagerServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.NetworkManagerServerUtility.html",
+          "hash": "5cwDZE88Ssy1YzL8haG/qs2viqLJWX/LpNJdm4irfvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.PlayerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.PlayerManager.html",
+          "hash": "25s5MHzdEaDMShjP3H2HT9KCtOwnVFUj6y26xil5es4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.PlayerManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.PlayerManagerUtility.html",
+          "hash": "I100TkpXdvhvHGp2WR7Y3E7xFfRP2gYJ3R5cMKTkt6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.SettingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.SettingManager.html",
+          "hash": "0ev38u4V2MCsOfzJ54GNTfIcrkGJmMnttqibCXHo41I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.SettingManagerServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.SettingManagerServerUtility.html",
+          "hash": "D9JzxvSnkxO2HPvvBbhcBE+jbPU6B+pVJzZJM3uopX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.StreamingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.StreamingManager.html",
+          "hash": "B1MGdt5+9tLvoVlVDEduTSbXY7BIBtGSw7lmLlERYM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.StreamingManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.StreamingManagerUtility.html",
+          "hash": "szmd2wLoeeeE6EMgIby6F8SUcSlSueD1qctOPSU0ZJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.UIManager.html",
+          "hash": "R1DoXIFZJKLmF8HgfseifZVpblXgKRQnUln/1HQmv1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.UIManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.UIManagerUtility.html",
+          "hash": "TMDcMYAxgyYECe2u1Fn+M81fvJPKvcobO4YY6OnFYdM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.VideoManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.VideoManager.html",
+          "hash": "4Zet8ycInkk2x5bGTOu3brxa/45n+RJxX3xJpRARjbE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.VideoManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.VideoManagerUtility.html",
+          "hash": "cOtY+tuCHmn48EUysXqbCZkhFzj1KB0OGNU+tMEmy54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Manager.html",
+          "hash": "1exDerLKTLhAj3orCNNMqtU0j+6HkFzrsas9oPG7d3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.MasterInfomation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.MasterInfomation.html",
+          "hash": "r+gwutBqjWSgHPYKLF138l/KNBOHH/3rE/VxAaOIh5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.IMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.IMedia.html",
+          "hash": "ugh8rjCZnBdNNVg7rIO21FwNaRQKTM1HbEc9pRxnxOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.IMediaClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.IMediaClientUtility.html",
+          "hash": "yUT5ujywooN/O4AmsaFFx6/TR1In53xPcCmJbiWTYq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.IMediaControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.IMediaControl.html",
+          "hash": "mbMpbqt8DiIDNCUjihiByHImwedDRmt4nZG9iNsI1VI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.IMediaReceive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.IMediaReceive.html",
+          "hash": "N9TN9+VVZuPDaJBaTGDXZa6UDHEBJIrJc+BE10/iWc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.IMediaSend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.IMediaSend.html",
+          "hash": "RB+NEo7C8gsDXmpFHtIdDa39HnXTfilC84E56sYOKfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.IMediaServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.IMediaServerUtility.html",
+          "hash": "b3FGH+zEZHkIHQVE7NcmK4b/xwHeVDG5Ssgfl0zOhnQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.MediaManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.MediaManagerData.html",
+          "hash": "FJwoh35YKQJKHliOOLFJcKpzOwvqvwOVjQ3j34sBvxM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Media.html",
+          "hash": "Rh4hGCvqIE2GdL6ArVEMwgaBEzieBgfCbF6eA21L9T4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.MediaController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.MediaController.html",
+          "hash": "nV2tLqRXJwtWwlbPcWdtpqqjMjN5evbsPuXCMNnaIHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.MediaControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.MediaControllerBase.html",
+          "hash": "+fmUw+yAI7hOH9QMy/3KaJ0H8VKAJSmlHgVUU6lIyuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.MenuItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.MenuItems.html",
+          "hash": "feYMYtpI+CZoErvp6EKO/jHlYo/60KKNPzbp1YVttVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.DisconnectEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.DisconnectEventArgs.html",
+          "hash": "Eqg1H5mBVAF4Xd8Zi6g3/dE5OUAxtS14af5iswmE3aY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.ErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.ErrorEventArgs.html",
+          "hash": "OgDoxX4Rtwq4tPjmJ+2EBV/L5JuQCtsphRnqtec9Pxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetwork.html",
+          "hash": "ZevNX+5woE6ZbUbU9IZ8MGCvbI9OI4lOYgRFLwc115k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetworkClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetworkClientUtility.html",
+          "hash": "XvqEkG6BEidIJjW9wbdsTWkfhXXnF+FSbAoVYbq4z10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetworkConst.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetworkConst.html",
+          "hash": "C0HenEusmGAX1sm+SBBcfK1v8is20A3CQe6SjXhCnjw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetworkEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetworkEvent.html",
+          "hash": "XB8yeonu8SI9ZnYUAT2ZxLYeHX+FmZpVgWaCWTL+Jeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetworkOSC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetworkOSC.html",
+          "hash": "jxVTFn3SYSax0t6843V8Uj8hVS9je0LFhh3Uiefk4vw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetworkSend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetworkSend.html",
+          "hash": "7cD2f7Ncdu9DPXUSNV7uTVvSSQLt6amX1rDodP5fDyI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.INetworkServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.INetworkServerUtility.html",
+          "hash": "ihsujI66mNtGygCTkNcPR8N8ant3KTPIzOsPNUtwuXg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.LatencyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.LatencyEventArgs.html",
+          "hash": "CjkkRloQxFWlQFsGTp1rLAg/6bDXLy7+nZAurbC1zOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.NetworkManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.NetworkManagerData.html",
+          "hash": "VKq1+dtw/BJA1XHqjVy21MJ0SjKDCJKkjo6AHWfNMiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.PeerEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.PeerEventArgs.html",
+          "hash": "h/ugvL2eg6ulY/VTgtPFFrdv8S4KyexKa+dpvQAoKzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.ReceivedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.ReceivedEventArgs.html",
+          "hash": "uTkuoCr6lNs+x6E6JxnAmNkVEn5L/TA51Lk7GxGx7EM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Network.html",
+          "hash": "jmAQGEdSGS+SVfkm8ErYYUaHLgRax78swovTCttXuq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.OnlineState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.OnlineState.html",
+          "hash": "uFiGT+jPLubKtxolQVWIZ3Zhf45kHSb+/JRf/uB3Ly0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PhotoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PhotoInfo.html",
+          "hash": "GCkuIR/BdIsWyw2VwFuJ97ixOHmkg7hniLAcjUWCYB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayBtnListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayBtnListener.html",
+          "hash": "f2KBAVHyG4KJZ/AFE4briMN+RCNc/MoPM92myMJwVhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayListMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayListMode.html",
+          "hash": "jOj2ch7N5He/mGgGNgBcba1OXQxOAyQqjiT3B9ky5lM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Player.FakePlayerView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Player.FakePlayerView.html",
+          "hash": "x+ZFATOAdcvaNJaS+Fygv3VtYt1FxXdFZyALpoC9zXg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Player.IPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Player.IPlayer.html",
+          "hash": "BLQlr/lBKF/D33o9rgMkAoEUsh10Ph987EdzuPvCWiM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Player.IPlayerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Player.IPlayerUtility.html",
+          "hash": "XOm/yokJDYYT3Z+hMcfNmU5SpeQltHSm1iQZYEMhqIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Player.PlayerManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Player.PlayerManagerData.html",
+          "hash": "Jq9hBeqPrXaLfBCUCP8RDLpLkiBKIteEr5XOu+2Ip5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Player.PlayerViewBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Player.PlayerViewBase.html",
+          "hash": "3+Esrny+PyCUkrV9Ngp0z2I7adQQr9DRi0lc72R2RZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Player.html",
+          "hash": "Z3ScgW5XQJBa19ujGy+oIejTWOIeC5o1YNgOqlTBmoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerInformation.html",
+          "hash": "bFjkgMRm4Kuev7k3e6+CPaHKOUxYwU11C/ergrTC1KA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerInformationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerInformationExtension.html",
+          "hash": "fCZeE6xV4iyeWtg+4yEcGfuYSvPJAtTY1u0EwjuKTMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerListener.html",
+          "hash": "XvU7gCCiNuzmEkBVc4dZ8U7RXFIiNTf2H6rfbP5rVKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerMode.html",
+          "hash": "h2YXyZlnwl9E8EmizPWJG6BINGHsr6OpDDQlzZxv7jI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerScheme.html",
+          "hash": "jySE8JAQ3AWbeguYTcWYkUfyI2kgN90amLhEnlOQtNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerState.html",
+          "hash": "cUDY+H6M4iPQpAO0y4lzeecH7oQaX4hRnN6ERnVz+9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.PlayerView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.PlayerView.html",
+          "hash": "fif08L1TYvCKpHGHGSZvdhcXYol4beehGggpiXlwSNs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ReplayBtnListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ReplayBtnListener.html",
+          "hash": "gKqks1+8jWbrpcnd+3mwB+EWy/r3Ke++yk3ZMLr21Mo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ReplayState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ReplayState.html",
+          "hash": "K3y7IC3ZzY5UKV52aafKS7mXufnwc67Eb67ZVHclwBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SchemeBtnListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SchemeBtnListener.html",
+          "hash": "GAxIvmw3HUvADHcoS0T61qR4HLGLoP9T5lPYn1tpGW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Serialization-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Serialization-1.html",
+          "hash": "au3IvhM0sPDgBnLB4AUDfSYyadjPuvdZMWxP2Vrd0JU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Serialization-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Serialization-2.html",
+          "hash": "FpVbNorwqFs4JUCj6ybqS1RVzlOf09dBEYHs2TuSFKY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SetPropertyUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SetPropertyUtility.html",
+          "hash": "9XJlaetXFyormwf0Nmx4qwwFiQW60vemUXkHYCVqfJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.ISetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.ISetting.html",
+          "hash": "IB7HiH5BVfGb4WY8CjD1vYBViS1Hk0Q9sTw1nGMcTd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.ISettingExhibitionClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.ISettingExhibitionClientUtility.html",
+          "hash": "Pqs3hDVVZDEL5eidMX9GbOHypwzhjRN70PyINsIsddw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.ISettingServerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.ISettingServerUtility.html",
+          "hash": "21hhDThu8ZbDdYd10P0BQ5QeJ2V7YrUTDPYG6KBYD6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.ISettingTheaterClientUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.ISettingTheaterClientUtility.html",
+          "hash": "wlYJYxQOJ9v7vVnNMRSO2WJ+XAAKnlv2tsnCZMDyj0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.PopupPanelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.PopupPanelType.html",
+          "hash": "iq7WKcwdUPl0U9nmWwRHhTUPf3n/8f+ulDlstI3dAwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.SettingController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.SettingController.html",
+          "hash": "RvP2q4+kkbru2Kkj5NP9psz8JAnFdUym2BcZGx+j6Wg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.SettingManagerServerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.SettingManagerServerData.html",
+          "hash": "iKaVk5UMIZTpyjcGr6ZXOSHkMmd9Erfp0EfOTRfXzls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Setting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Setting.html",
+          "hash": "SEcK8OvR2LrJhyuGZng1+xBhfTQApEviKOy8laM7SaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SettingControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SettingControllerBase.html",
+          "hash": "ONWyoeJWpQ/FsNa2mn4mDcn//43PJdEyWZg6tHS1x9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ShcemeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ShcemeController.html",
+          "hash": "jSi5RKLB44KxF13D09JckQHdHY4pff2/0ASbHQG2ZEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SortData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SortData.html",
+          "hash": "kNvsFUBWnkjenDnqRC7a1L/aYiUpIj5GhTUe9FGOtzs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SortMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SortMode.html",
+          "hash": "S0HdEIWLAFwMJoyaHvr1EPu3SRWqTpoC9NKSazNMiE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StereoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StereoController.html",
+          "hash": "xCrGuwYd1IMg7GDFKS0M4rUm4aBIPmvX1zMtRze2xvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StereoMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StereoMode.html",
+          "hash": "KOYxsGwmerG7saL3VZ7NyDiRgsnFAporoB4Bd60sTCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StereoModeUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StereoModeUtility.html",
+          "hash": "63+pPTjqkWTDNstSa0IJTJ2rQ0xPfRnI5j7Oa1g4WIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.FFmpegWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.FFmpegWorker.html",
+          "hash": "b2TonHX5RWAvHKIpFbfEdvGgKPNk3qaKhLjlGwWysQ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.IFFmpegWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.IFFmpegWorker.html",
+          "hash": "tJkuv2kaF2uzxYmYhNdlKD+C2OYW1xZZpYjFBcflrjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.IStreaming.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.IStreaming.html",
+          "hash": "Uymfvi5Gw5PwsIbJvKHmKLwiUL+kMSHJRyBxtduTspw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.IStreamingManagerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.IStreamingManagerUtility.html",
+          "hash": "z1FsD8SOLv8zO+2851dXFE2vfL34Kx8yuBWnFB5Mxes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.M3U8Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.M3U8Handler.html",
+          "hash": "JpJbWG/dFBxRLhaNZ/avbCN/A/JWAssTG+0fWtgAXHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.NginxWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.NginxWorker.html",
+          "hash": "yv3s0LbbT7z6xYdQjUH4pr+YZ5CB7/FbFlWJMRKrKX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.StreamingController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.StreamingController.html",
+          "hash": "RF4TZ19dcc8ZLuXmY0PUxm41ACsFft4tvznt/fnEyM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.StreamingControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.StreamingControllerBase.html",
+          "hash": "bBFFRTGAkCi/DC3oftIOccDLkpfXWuL1FYx8blHXKnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.StreamingManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.StreamingManagerData.html",
+          "hash": "c2R51eLIIIzPI+og49YeXfw49n0svkfxl7xBpyJtrrQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Streaming.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Streaming.html",
+          "hash": "oYCusZwbFItbV7h0sL/WDT8u18JHdKkze5SzAKkjUAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StreamingBtnData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StreamingBtnData.html",
+          "hash": "ZK79qla1EVtQOofA8dVAQKfLirgtIaKJagd6tUIV1Og="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StreamingBtnListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StreamingBtnListener.html",
+          "hash": "EAmUBo3DRZATyBeS4AFvnPKUGFy4pePyAzt6+QD4qHA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StreamingBtnView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StreamingBtnView.html",
+          "hash": "Ec3iyGiuFchOHQZdUCIPDGknw0UX2t45AA55gGxjS7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.StreamingVideoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.StreamingVideoInfo.html",
+          "hash": "duoSPIHlzfHusgyGz+DcH4BXElYveIiIreHvNo775EI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SubtitleBtnListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SubtitleBtnListener.html",
+          "hash": "J5n8+qadwipTDIm4QmsaAbiz7qe2Z1n9IJdCu2aKsuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SubtitleBtnListenerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SubtitleBtnListenerBase.html",
+          "hash": "V0yf4F/M+e2c7LrEeFnz8V0P5o5kgRFW9wbHP+JsoEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.SubtitleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.SubtitleMode.html",
+          "hash": "9QHriGAlnaQoytnSKpM7wn83DzirmlkD3fcmwWi3TUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Teleport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Teleport.html",
+          "hash": "Nn7M8ixjgLnaDzGte9Lg1jYewao/rsji+WXdV9JI7N8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.TheaterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.TheaterMode.html",
+          "hash": "SMGzMRJvM4PWRbvZEZOngqwyBIdcUbZPzCtEmxe9RjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ThirdPartyApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ThirdPartyApplication.html",
+          "hash": "B+YFBGENlBaXHsqsE1YQ1GzKMGBHkFX51/2qpOed86E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.TimelineBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.TimelineBar.html",
+          "hash": "29tJg0dAAvyMNPPRFZKY7+QLi+WCEgX/0MKtq4uK6HU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ToggleButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ToggleButton.html",
+          "hash": "DO0sx3oW0P4xqQ4R58yFq7+9MLJVPDl6Rbytc9Epr6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Tool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Tool.html",
+          "hash": "CmrEmrEeirSw2npSiJBvvKoaYWxQL1+VQJq83Rde4Mc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.CircleChangeColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.CircleChangeColor.html",
+          "hash": "aOmN5uWetADtT8CJAfsM2HbofYmYp8LYe+otiXTUvwI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.CircleChangeDensity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.CircleChangeDensity.html",
+          "hash": "HCAe8LHcZ2PrUBx2gOoYuKiOjdTNXGwXjUKXW+ckfnw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.IUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.IUI.html",
+          "hash": "n1Cezy0T4kz4pH4B+mDni1YUufKbcW7jBA+nUvQd8NY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.IUIUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.IUIUtility.html",
+          "hash": "C+cEBcpM3r0cdnRTDOlKspFRtpM3bpA7xxdQfCJT2So="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.ImageToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.ImageToggle.html",
+          "hash": "TdNQ4s7UrBQ7d/LEbiJqpf9+s9zz4UIpd/rwCeyPkvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.MenuElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.MenuElement.html",
+          "hash": "phqGj4cO5qdEytoPoyXCO8XGsED2wKW5QNJKi1kEmBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.MenuFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.MenuFrame.html",
+          "hash": "2uAvmOp+AFLhuffvfFDc5WdTK/NCUELLL/DUQNidUm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.RightMenuFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.RightMenuFactory.html",
+          "hash": "uwR5cQUcwSdgxZzUkKFuKgExhALBF2BRFPqaLLBUvNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.UIBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.UIBase.html",
+          "hash": "+1tvm7TA4+n+gjOok0lXXxI6F3G8EDMoqVoPjMzj+44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.UIButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.UIButton.html",
+          "hash": "oAK/Euf4wknEIBjOox7AfjgekblQyIwmfCj4sQ9wzKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.UIFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.UIFrame.html",
+          "hash": "PjO7rYDSSE1MW5+opig0Adibm4RAVQRcsgLmpatQGeE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.UIGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.UIGrid.html",
+          "hash": "ff0DntbkzdUUuRnl2WYL0+TaSybIj0bJmAppQ9YApdk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.UITextButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.UITextButton.html",
+          "hash": "tosVaiGwTiDMDki1bIpIAlaE2aL5Y8EwiJAQvktuWFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Menu.html",
+          "hash": "4YbZp/GoqPAu1YizGqHQJ/G9qB//CztHN/l9YPDprI0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.ResolutionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.ResolutionMode.html",
+          "hash": "7VeWTzxAqLrTXl9IuG7Ps0WQBzvUjVtrOHDZBRTIRBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.RightClickMenuOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.RightClickMenuOption.html",
+          "hash": "i6uhyQGMFv6vyuxzWwxAGl8gYq/8viZzapNJEQWBaiA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.RightMenuSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.RightMenuSetting.html",
+          "hash": "D3UcNBHMxMQ2ALsCtFokf2foQHCNJNPCyZwYKlVmmW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.RightSliderComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.RightSliderComponent.html",
+          "hash": "dE9v4qQ877wpRDBDDUwS61Rh2pdYhWUI5mEEvdLrNfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.ToolbarButtonToggleStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.ToolbarButtonToggleStructure.html",
+          "hash": "KqxiKdBEKzYD58Q3ya4nZjajV+/wir3i8byL2q1r5Tg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.Tooltip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.Tooltip.html",
+          "hash": "G3XIpl25BUAtOG8K0wFsOZQ5uxGdeOj8cj+wR67ipuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.TooltipPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.TooltipPanel.html",
+          "hash": "571YYCmdB1J7VyxOWZHVNeAQoyYi2lp3S7Ler3JhDuc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.TriggerRightMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.TriggerRightMenu.html",
+          "hash": "tBjyegeIBaeXn0ewXZq7HQ3yiXCOw8nYAWDecGCjAXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.UICircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.UICircle.html",
+          "hash": "2C1Cd6sYjKz9jJVoJwIAJBCCBxBbOlI0dmjM0wCR1g4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.UIManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.UIManagerData.html",
+          "hash": "aYE52ruVtxslkvSvNHAthdf1+cL0J4WYZf+kl6NV3R8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.html",
+          "hash": "/sEb6XlI8FcmLDU/WL5UGVWMSI2gV5TPr0XE5qMVp7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VelocityZero.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VelocityZero.html",
+          "hash": "eNV0KQqNIW6XtBJvxwMVEbwDXAHBF0T0s8HAuRfBZ3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.IVideo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.IVideo.html",
+          "hash": "lqaSI1v2yEkqbc1+zwXk9fTqCZ0AoRvyQ40iyZryNyE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.IVideoConst.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.IVideoConst.html",
+          "hash": "FYoBk8555PDTVwPkZOfnccUfhBuMheQTEKDT5W+uT2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.IVideoUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.IVideoUtility.html",
+          "hash": "tUTTT3cYkpNcLSdPcyhqLW+3XCIrC0KUNxaN+YqBo0g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.VideoFileRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.VideoFileRecord.html",
+          "hash": "k4DDsLFJl6omr2btQkFihXAfN5asAUAPY2qUnLtc6zs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.VideoManagerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.VideoManagerData.html",
+          "hash": "E5F9inROpClPAEcR1dPR1on38scjYyHJSA3bgVAXBlE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.html",
+          "hash": "4kgF+mv+5j1TsgVhiFTNPHKiqYFJozyO+EkDmRew8fM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoBtnData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoBtnData.html",
+          "hash": "TtNjqWnfhNpcV/DC+MPkH46iwcUOpbbBQgl9RTq5nJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoBtnListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoBtnListener.html",
+          "hash": "uHVrJEMP2jc/dXGvhYTc0/g159TP0WXuEcJ5WB3C2Js="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoBtnView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoBtnView.html",
+          "hash": "dZgTyZwXb3yXaGrU/jDTRGUtq5ZKbOPG1uW8RNYu4dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoIllustration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoIllustration.html",
+          "hash": "g/peSCEBz1VMBIZ70uE/3il2aM/lR/7GW6RBMhUteMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoInfo.html",
+          "hash": "CI/WGuyrBZ43auWKV6mG9+CHrRpoufA1QYXiexW6pyk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoListControlElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoListControlElement.html",
+          "hash": "4dkD3byuMjDnBINvoFnvXFyXIxxA2U7gxPoPyrAFgXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoListController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoListController.html",
+          "hash": "3TWt+vpYbv6Uf07sQ4yEh623Mj9kKfqfE1hgPr4ONWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoListControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoListControllerBase.html",
+          "hash": "THAqg/Tk09WWm7azIQeKA+dSIYwiBasG+TxC62g0kDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.VideoMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.VideoMode.html",
+          "hash": "Ys56XhgaorosrQCsy0ZoUz/Iff4b91LCY2k+6a17ljc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.html",
+          "hash": "IVVPF3G2FgFzCKayYDBXzUfGQ1q/mPCwHRpdfA6bszg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.AutoRotate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.AutoRotate.html",
+          "hash": "0WU3gNYQxwohWpeYaT4R2LtmVxL+DK/BihQVNfCtuBA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.ChangeAudioTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.ChangeAudioTrack.html",
+          "hash": "Ot6yVwOuuoYpgqTwZop3R2w4msoGSnqAwePdcg3rFUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.ChangeStereoMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.ChangeStereoMode.html",
+          "hash": "nOoaZWXvnBRXCLuvi2J5b9hCtINGYD5Sj4JikWbfDf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.ChangeVideoExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.ChangeVideoExample.html",
+          "hash": "kETuhEFYujLGZZ1Kw6C+FC4qgnkwAyi9jHVmVBoUWq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.DemoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.DemoInfo.html",
+          "hash": "pdYVxHp403DrI24Mp8b0y9Jty7+pMT10NgkEukY1PTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.FrameExtract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.FrameExtract.html",
+          "hash": "4Lb3rDUyNS6u4XZR3rDHY+1CAH4Ws9SpIndeHaoBi+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.LoadFromBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.LoadFromBuffer.html",
+          "hash": "2RR4Nzi+H0cDm1Rwhg5ZcokvOa8DUow4ZtrxZJ84Zxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.LoadFromBufferInChunks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.LoadFromBufferInChunks.html",
+          "hash": "Nv3JEkfd/QPlZMFEmonAoARcComhyuinLkPk3SLDqAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.Mapping3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.Mapping3D.html",
+          "hash": "A34d/QJ2iKX26nyMUy/5xD0sguiN+J733f4WAI5i1DI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.NativeMediaOpen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.NativeMediaOpen.html",
+          "hash": "mSv47VcpliAA0/MZswsj5Eoy8BKlu+H7J6Hyea10bdQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.PlaybackSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.PlaybackSync.html",
+          "hash": "DDitQSOdbjmhqbEC4LWbte3DPpv/CZIYUdyUYjW+m/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.SimpleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.SimpleController.html",
+          "hash": "yMRXrEIyajMZQzH59Xajo7GgP6xsQlKF1VeB5UtRUok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.SphereDemo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.SphereDemo.html",
+          "hash": "pEMt4nUwLs5oDqhJRi8zYeLvGdJUi1r6xtZR2CLa0ow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.StartEndPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.StartEndPoint.html",
+          "hash": "FWACpAYLllPAvO+ZtklLVTZkVHY4nZNCtm79wViFf9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.VideoTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.VideoTrigger.html",
+          "hash": "tlMq/mY2aIdFkwLk9m6pb6TYPSYwspOf8DuUCEcAyic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RenderHeads.Media.AVProVideo.Demos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RenderHeads.Media.AVProVideo.Demos.html",
+          "hash": "HWSoHI2ur7hYp56bCOAu4ylzW23DN0jkpxJQcf16bS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AmbisonicRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AmbisonicRenderer.html",
+          "hash": "n0lsKwS+JDZjXSoalY9GjTGG5603awkozDbmiNvAaSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AssetAccessMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AssetAccessMode.html",
+          "hash": "VEgB2/ICxCPtIXKPHZlUUCaXiFwDk3qLeV9YeJ/yHPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AssetDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AssetDescriptor.html",
+          "hash": "ujXnrActlYSHtFDcP3P8i8euHtqNNiKqqnvhqFe94JM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AttenuationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AttenuationMode.html",
+          "hash": "NL3+r1Br1rxwybyT9F/mg3+GZnHapxQ+xnZVrfY9Y2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AttenuationProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AttenuationProps.html",
+          "hash": "nN8zmhnfDPtE23zAGg5NF/xqtbIf/8EZVUyDPZcNmFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Audio360CSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Audio360CSharp.html",
+          "hash": "9im75CBjCpfs6YMfkXgGJs0TaNRzmvtGa4exR0mr7Ls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioAssetHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioAssetHandle.html",
+          "hash": "wKzUbW0x5Y329GVDKROavXyZpZiFC9LCTFKu4M0mF4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioAssetManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioAssetManager.html",
+          "hash": "t8M3G11EFu3Phf35jPcuNnv+dZuGAu7Ci3hkCeTvAzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioDeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioDeviceType.html",
+          "hash": "EkCkRY+nUsaIZADhpFY1URLqLt1wCYip+17fzPLCwJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioEngine.html",
+          "hash": "sYV+OJlxsPGT/OUxMeuQzu5MSVi2j5K3WMS01po4nVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioEngineManager.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioEngineManager.Client.html",
+          "hash": "B+d/m7f5VCmhJhG4NvYUnK7/xmabSrN90eT1pdfbyas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioEngineManager.Statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioEngineManager.Statistics.html",
+          "hash": "popnJKtUBMEFqjZ+mhldhmSWf6sZA/6CunLvGmM/RNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioEngineManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioEngineManager.html",
+          "hash": "8NbtucUKJE6SE/4jgov2dVqx3Vq5MMfcD/Hv4O4XmaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioFormat.html",
+          "hash": "N64rxFI7QFohN8I+Fq5v+OHTQwdZS5SBsnBf+x+dbhI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioFormatDecoder.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioFormatDecoder.Info.html",
+          "hash": "8B8yJQ+vSHDOv9WzJ25QoeRK4Zxs5AUt8D0Z7ApMbZ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioFormatDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioFormatDecoder.html",
+          "hash": "I6Ig743UP6bgAOTS3HQ2urJ2Xyk9t5Tcw39E60QTnFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioFormatEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioFormatEncoder.html",
+          "hash": "PXwl8Ofazxu7uPO8NI74ltcd8LBNniSjahtaQ+3fQOs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioFormatQuality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioFormatQuality.html",
+          "hash": "jtnrsBCLeRDVl8mid0NkVP4CWpC5QVeKJ/JAPnpCyGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioInterleavedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioInterleavedCallback.html",
+          "hash": "jSinE2Kw0zw0SYb8WwMWCrUyl5UhcS29er72G746ces="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioObject.html",
+          "hash": "3Z8A5+8I6s34ThHKqd1f6u45kj65im3FGgxPXDyzszw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioObjectBufferCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioObjectBufferCallback.html",
+          "hash": "vK7BDiJeyLnA+r+MZTFzI3perbNLCB7/sXSNI4mjrIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioObjectEventListener.EventDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioObjectEventListener.EventDelegate.html",
+          "hash": "03datO41483ckO4sSbooivNnsXLc6ViR7kBwsgeEsYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioObjectEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioObjectEventListener.html",
+          "hash": "Hq2rj1QdUZtn147B6CW0qp5fXnjMldCCKaTbwI3g+gk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioResampler.Quality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioResampler.Quality.html",
+          "hash": "bKdvvM6H0uKRTMkdklR7kIp4N7s0MNz3ypOxWUPpIgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioResampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioResampler.html",
+          "hash": "C1m05Ff5PrJwTnukiBpn1jSe8V6HrU849OQfSENr7q8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.AudioSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.AudioSettings.html",
+          "hash": "n4c5Yvk8GQU6IdvM0da0iyfa/+NdFC/BaqHPDCnUXLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.ChannelMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.ChannelMap.html",
+          "hash": "D6WWeb/C2kLJ9XDJ1Ys7gYvisU6ttuNaFsWlvL+4y24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.DirectionalProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.DirectionalProps.html",
+          "hash": "kpBaC477l8JGdXxNvMo5kXMfM8vm8NhdbkZt6iPEn0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EffectIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EffectIndex.html",
+          "hash": "BOfuHxO9ln75YpDrL7G82L9lzO8KGeZVYZ8Fdxfm15w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EffectParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EffectParam.html",
+          "hash": "Tz2inTC+tcO5/TykxH/ys78y6Hj73vBDxjEhkwUzXdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EffectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EffectType.html",
+          "hash": "6vX0rOkAc7F6IqIiiSoft0257o2hjVUcem+/0QB2Zmg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EngineError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EngineError.html",
+          "hash": "+R66itYotAOoVluiq3CCQb288CRKn5bHTlpK9EfX28c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EngineInitSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EngineInitSettings.html",
+          "hash": "HXX1+FOKgbpTDUldJXza5WoDMbzIeapEoBNTejg4Tq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EngineStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EngineStatistics.html",
+          "hash": "hYKXt7FbPkEvoEcWXmT9Z4qq9jIZ8WpCW5i5VZwW0z8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Event.html",
+          "hash": "TOINXWYpNliuBBsWFCJSrM1lVd4gSPGsrdfp7RXryMM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventCallback.html",
+          "hash": "zvyvgygaLKabOHQcGE656tcIeMpOJRosTfn6OzOQY6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventListener.EventDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventListener.EventDelegate.html",
+          "hash": "8szx00nEjjGbYDwIm+UTRXhJqIvTP6B7GzNOHxxS7UU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventListener.html",
+          "hash": "C3sLdbBqJWm94Zt9tB4NNNuy6pAup7bKlh+OYnX0IqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventTransport.html",
+          "hash": "lKh5asIP6wgfumr8buFp13m4IcD8ufNXNOtTU6kDt0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventTransportCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventTransportCallback.html",
+          "hash": "aUuM2AbwFuTC71Mo3v/RfsO/gkmjIfKrEmC+eb3x/nw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventTransportMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventTransportMessage.html",
+          "hash": "anFe8nVqFFWv3Cwlluf9Hu3kt4Lk4FJ+3OR5cm/zfTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.EventTransportMessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.EventTransportMessageType.html",
+          "hash": "1tuNolGiChw9Gk7KTitT+y7sofVOirm+hJ4NQtGk+Ws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Experimental.html",
+          "hash": "c3csLVP3B2mGnfGOw6/w8AvE8lF7X6FBESVixjnuy78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.IOStream.StreamOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.IOStream.StreamOptions.html",
+          "hash": "H0nTJzdLdHirC2xTixtxH9LxzPV5Rd3EZrlw1kjcOOE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.IOStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.IOStream.html",
+          "hash": "LkLp63qQsGENzgx/la+TREmDdPlTlCegxZhrs6WUMc0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.IObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.IObject.html",
+          "hash": "1P7FaefIIfNO0cNG/Lz4n11lSoXJA5oZyGJg0vHdRHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.LoggerVerbosity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.LoggerVerbosity.html",
+          "hash": "2kNdxnhUO61ONjCN8Xxnid066lQeUUBKoQCn4fehSHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.LoudnessStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.LoudnessStatistics.html",
+          "hash": "v+EDoEFzma/pFRphoTgizFLyPJcBqV0K8wmzey3GMuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.MemorySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.MemorySettings.html",
+          "hash": "YAKLoIkUsPogwaX5uVoA++03TFXXIZ8kRJdqLT+itKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.NativeAudioObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.NativeAudioObject.html",
+          "hash": "PSmW0ihzRIX2yiCjvLBr9LGBIWFKpgs4i7sOBUcQsrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.NativeSpatDecoderFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.NativeSpatDecoderFile.html",
+          "hash": "1tV2b1zRiILS+iS/fNuyRpbJ35gvmEfjWL/rWpWjpCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.NativeSpatDecoderQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.NativeSpatDecoderQueue.html",
+          "hash": "MiUpXEm0A57duce6jvcMuSKT2s/qAgKSH2yVzMyCMb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.NetworkSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.NetworkSettings.html",
+          "hash": "m2gIkUQ1Gty0c046CEAPRN2b2mbrhe0uUS+fL0pqp0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.ObbExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.ObbExtractor.html",
+          "hash": "LrH8pD9NFOEc2yeH29cP3NTbac/PzxAsuHrDfiOvK4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Object3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Object3D.html",
+          "hash": "CNXB9VUCpnBwdW1wPvH72532glQ/ZGodVpSvlrVts5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Options.html",
+          "hash": "vIG3XkAF3ZshCZ2VAkdNSoe4ZlUFsxksOVaCiAg0Lg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.PCMType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.PCMType.html",
+          "hash": "XjyBOcwejW5TbdTXqJC7BqZQOqnWnNf7aPt0wlyDGaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.PathType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.PathType.html",
+          "hash": "++yo2ZKE9K58BR11K2RWIH3zD2HR1hBjJpKCMNtGtOo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.PlatformSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.PlatformSettings.html",
+          "hash": "Huc6f9ERd1Q+fNdYW0TcLCs8X+mSPDRbx0MNFBY+f+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.PlayState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.PlayState.html",
+          "hash": "vrr3zZpMcyzY+FAygrGRhM7LAZYcsvnT+XkmLQGAClg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.RuntimeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.RuntimeOptions.html",
+          "hash": "NhUExTQVnpDxuOklOqHRJAQODtMTocaCVUM9g8nLVCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.SampleRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.SampleRate.html",
+          "hash": "osFIhRSF5PNp5V1ngigOuPVOtIp3ldtcy0Q5uEOrb6s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Singleton-1.html",
+          "hash": "vhRG0BwVzhzEQis7vAZqxexQ3d4mN72CX5pxFYScjLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.SpatDecoderFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.SpatDecoderFile.html",
+          "hash": "QpYgpzz+EuKZs2PMCfrZ9qyBzgVbxnUlfJKT3zljyq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.SpatDecoderInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.SpatDecoderInterface.html",
+          "hash": "H0jDlG2XQMGORbti/xQPhC0bvJRRjgAEG6n4mIqbHCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.SpatialisationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.SpatialisationType.html",
+          "hash": "trP7iIjqWVIMLXN5ajQGBY+hXWBzX4w/qvqtbOBxVng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.SyncMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.SyncMode.html",
+          "hash": "Rcbz3y/mEfOL4KtiymBSotgD8ZCL1PNnWbw4a1U+7fQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.TBQuat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.TBQuat.html",
+          "hash": "ys31tYbhQ2IyXo7dfYWwAdTRoh5e38zyITU2ifMJbmg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.TBVector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.TBVector.html",
+          "hash": "xvJTp941+n0FPKvv01A+84GMujpuOt8Jto69p4Mp2WE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.ThreadSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.ThreadSettings.html",
+          "hash": "Pk0m/wcdqrZ4lQYqcPf5mWuxu0MkTuYTTl8SKFxQDsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.TransportControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.TransportControl.html",
+          "hash": "4Jh2iE4uUxx4ymjwZOyaPeRiSAPGn93dubNTqyTCmFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.Utils.html",
+          "hash": "vZa+uWFfoWidqVOMNovznpcKfEnT5w3YQuraJjrj8ak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceManager.html",
+          "hash": "uq+cmPsHKRafRL4OPeyJinHxnHzpUkjyJvo9D614cMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceManagerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceManagerEvent.html",
+          "hash": "SR7BpGkl7Ds+fBfzmX3kmvhVl+9Jw/3DW5uETsRiLPk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceManagerEventCb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceManagerEventCb.html",
+          "hash": "HHBz1Ju1dRvYwAr/FgmWg1G2mnmqgYBA6XhAjs0PmCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceManagerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceManagerSettings.html",
+          "hash": "K1JvARFdqMqeSzLTqsUWmNsAyci5UkcvOD9OggTGwy8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceMode.html",
+          "hash": "UMEy0fZnW3c2NLrt2UB0n1DfFaxYhMnTXWw1m/BMnQo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceParam.html",
+          "hash": "NGmk+UiMSpl3X3kMYoRCSWLgtEv3iaDyteToKehEmZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.VoiceParamDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.VoiceParamDescription.html",
+          "hash": "E4l/sUvomw+htmna+Hzsim5my6CrWxT2BIBWM4VeFcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TBE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TBE.html",
+          "hash": "NCZcci4Q+OGFZEoIFxLVGltk0SK81J8x8PEPU+d8lLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "iSwkffvo4r2Tbs0PhMDv/LvnxHk+4SxzpxOYP0MvEjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Advanced.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Advanced.html",
+          "hash": "MlNeLsGoDA2YDepiUhrG4jWAPMMWo6MDn7Qw8Pub2Ec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/BuildIn.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/BuildIn.html",
+          "hash": "QvNdLuFPi4DDuuVTjfa8A/96WCvwM30w/rq1zErDIgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DeveloperGuide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DeveloperGuide.html",
+          "hash": "LtD2x9j8vDcQBZPnNcXYFlAwqYSA2/hHHfRC+T8haNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/GUI/Connection.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/GUI/Connection.html",
+          "hash": "aox2nPL4YGWnFpmzEUyTrt2wEndIKyBe3UxD2SxMlW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/GUI/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/GUI/Installation.html",
+          "hash": "aox2nPL4YGWnFpmzEUyTrt2wEndIKyBe3UxD2SxMlW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/GUIGuide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/GUIGuide.html",
+          "hash": "LtD2x9j8vDcQBZPnNcXYFlAwqYSA2/hHHfRC+T8haNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/Config.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/Config.html",
+          "hash": "aox2nPL4YGWnFpmzEUyTrt2wEndIKyBe3UxD2SxMlW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/CreateBot.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/CreateBot.html",
+          "hash": "PvvrN2D0BhnjmqcFYcWTgWx8PWwn/3n2qM6BWe78p14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/ImportMod.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/ImportMod.html",
+          "hash": "aox2nPL4YGWnFpmzEUyTrt2wEndIKyBe3UxD2SxMlW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/Installation.html",
+          "hash": "gKcj7SGP2Fk6EA5oCCguywqiCYOMLF8lh8V/q01tDgc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Guide/QuickStart.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Guide/QuickStart.html",
+          "hash": "aox2nPL4YGWnFpmzEUyTrt2wEndIKyBe3UxD2SxMlW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ServerGuide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ServerGuide.html",
+          "hash": "IhFZ06xAK2IhU/7/wU8/inKhCt3eVsAPsHvOFu48hMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "aLX7s5moyHFhWvx4f4BLNL9kKuofKV+Ez35vFOagw3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "XnMHvl+vvcnLOYwgZipmnSnnKyUIlBl46w+moHVJJV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ZzKlcOwssUmzxSg8m+fC00F1d6YU089UaEkgTOFl7U8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "xEUcbY/fRYZdvH0ytG0Cfh3RZpqtaR3CBx9yIpI484Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 332,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+- name: Introduction
+  href: intro.md
+- name: Server Guide
+  href: ServerGuide.md
+  items:
+  - name: Quick Start
+    href: Guide/QuickStart.md
+  - name: Installation
+    href: Guide/Installation.md
+  - name: Create Bot Profile
+    href: Guide/CreateBot.md
+  - name: Import Mods
+    href: Guide/ImportMod.md
+  - name: Modify Config
+    href: Guide/Config.md
+- name: GUI Guide
+  href: GUIGuide.md
+  items:
+- name: Developer Guide
+  href: DeveloperGuide.md
+  items:
+- name: Advanced
+  href: Advanced.md
+- name: BuildIn
+  href: BuildIn.md

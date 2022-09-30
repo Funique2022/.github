@@ -18,4 +18,4 @@ Another benifit is that, it's better have a docsmentation here to do things. so 
 
 ## Quick start
 
-[Installation](Guide/Installation.md)
+[Installation](./articles/intro.md)

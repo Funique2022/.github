@@ -77,7 +77,7 @@
   - name: Quick Start
     href: Server/QuickStart.md
 
-- name: Advanced
-  href: Advanced.md
+- name: Developer
+  href: Developer.md
 - name: Contribute
   href: Contribute.md

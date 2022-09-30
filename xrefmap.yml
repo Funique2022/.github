@@ -3073,6 +3073,32 @@ references:
   commentId: T:Funique.DynamicDirection
   fullName: Funique.DynamicDirection
   nameWithType: DynamicDirection
+- uid: Funique.DynamicDirection.Dir
+  name: Dir
+  href: api/Funique.DynamicDirection.html#Funique_DynamicDirection_Dir
+  commentId: P:Funique.DynamicDirection.Dir
+  fullName: Funique.DynamicDirection.Dir
+  nameWithType: DynamicDirection.Dir
+- uid: Funique.DynamicDirection.Dir*
+  name: Dir
+  href: api/Funique.DynamicDirection.html#Funique_DynamicDirection_Dir_
+  commentId: Overload:Funique.DynamicDirection.Dir
+  isSpec: "True"
+  fullName: Funique.DynamicDirection.Dir
+  nameWithType: DynamicDirection.Dir
+- uid: Funique.DynamicDirection.QB
+  name: QB
+  href: api/Funique.DynamicDirection.html#Funique_DynamicDirection_QB
+  commentId: P:Funique.DynamicDirection.QB
+  fullName: Funique.DynamicDirection.QB
+  nameWithType: DynamicDirection.QB
+- uid: Funique.DynamicDirection.QB*
+  name: QB
+  href: api/Funique.DynamicDirection.html#Funique_DynamicDirection_QB_
+  commentId: Overload:Funique.DynamicDirection.QB
+  isSpec: "True"
+  fullName: Funique.DynamicDirection.QB
+  nameWithType: DynamicDirection.QB
 - uid: Funique.EnumCycle`1
   name: EnumCycle<T>
   href: api/Funique.EnumCycle-1.html
@@ -15157,6 +15183,19 @@ references:
   commentId: T:Funique.ToggleButton
   fullName: Funique.ToggleButton
   nameWithType: ToggleButton
+- uid: Funique.ToggleButton.DeselectAnything
+  name: DeselectAnything()
+  href: api/Funique.ToggleButton.html#Funique_ToggleButton_DeselectAnything
+  commentId: M:Funique.ToggleButton.DeselectAnything
+  fullName: Funique.ToggleButton.DeselectAnything()
+  nameWithType: ToggleButton.DeselectAnything()
+- uid: Funique.ToggleButton.DeselectAnything*
+  name: DeselectAnything
+  href: api/Funique.ToggleButton.html#Funique_ToggleButton_DeselectAnything_
+  commentId: Overload:Funique.ToggleButton.DeselectAnything
+  isSpec: "True"
+  fullName: Funique.ToggleButton.DeselectAnything
+  nameWithType: ToggleButton.DeselectAnything
 - uid: Funique.ToggleButton.SetState(System.Boolean)
   name: SetState(Boolean)
   href: api/Funique.ToggleButton.html#Funique_ToggleButton_SetState_System_Boolean_

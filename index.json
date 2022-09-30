@@ -287,7 +287,7 @@
   "api/Funique.DynamicDirection.html": {
     "href": "api/Funique.DynamicDirection.html",
     "title": "Class DynamicDirection | Funique Documentation",
-    "keywords": "Class DynamicDirection Inheritance System.Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour DynamicDirection Inherited Members UnityEngine.Behaviour.enabled UnityEngine.Behaviour.isActiveAndEnabled Namespace : Funique Assembly : Funique.Core.dll Syntax public class DynamicDirection : MonoBehaviour"
+    "keywords": "Class DynamicDirection Inheritance System.Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour DynamicDirection Inherited Members UnityEngine.Behaviour.enabled UnityEngine.Behaviour.isActiveAndEnabled Namespace : Funique Assembly : Funique.Core.dll Syntax public class DynamicDirection : MonoBehaviour Properties | Improve this Doc View Source Dir Declaration public Vector3 Dir { get; } Property Value Type Description UnityEngine.Vector3 | Improve this Doc View Source QB Declaration public Quaternion QB { get; } Property Value Type Description UnityEngine.Quaternion"
   },
   "api/Funique.EnumCycle-1.html": {
     "href": "api/Funique.EnumCycle-1.html",
@@ -967,7 +967,7 @@
   "api/Funique.ToggleButton.html": {
     "href": "api/Funique.ToggleButton.html",
     "title": "Class ToggleButton | Funique Documentation",
-    "keywords": "Class ToggleButton Inheritance System.Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour ToggleButton Inherited Members UnityEngine.Behaviour.enabled UnityEngine.Behaviour.isActiveAndEnabled Namespace : Funique Assembly : Funique.Core.dll Syntax [AddComponentMenu(\"Funique/Core/Toggle Button\")] [RequireComponent(typeof(Button))] public class ToggleButton : MonoBehaviour Methods | Improve this Doc View Source SetState(Boolean) Declaration public void SetState(bool b) Parameters Type Name Description System.Boolean b"
+    "keywords": "Class ToggleButton Inheritance System.Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour ToggleButton Inherited Members UnityEngine.Behaviour.enabled UnityEngine.Behaviour.isActiveAndEnabled Namespace : Funique Assembly : Funique.Core.dll Syntax [AddComponentMenu(\"Funique/Core/Toggle Button\")] [RequireComponent(typeof(Button))] public class ToggleButton : MonoBehaviour Methods | Improve this Doc View Source DeselectAnything() Declaration public void DeselectAnything() | Improve this Doc View Source SetState(Boolean) Declaration public void SetState(bool b) Parameters Type Name Description System.Boolean b"
   },
   "api/Funique.Tool.html": {
     "href": "api/Funique.Tool.html",
@@ -1664,65 +1664,170 @@
     "title": "Rigidum iuvenis referat iamque Maera habebat quid | Funique Documentation",
     "keywords": "Rigidum iuvenis referat iamque Maera habebat quid Rotatis corpora aliquid regnum et sequerer Lorem markdownum in interea, in angues ausa facit solita . Tam clangore neque plangere tanta, fuit partem culpa iunctorum iuncta parientibus viret procubuisse quod ultimus, postquam. Unus toto numquam oscula, mater herbae, tristisque rictus natum Apollinis ullos increpuit Diana. Ut tamen vos, in videtur semper cum contentus fagus. Serta fovesque augusta terra vela: inter quam supplex, et. Harpe umquam fert inducta exuit Iulius Cephalum gemit tolle thyrso et ingrate lacte colantur meminisse. Macies meminitque illi; esse ante fortissime ignes, si. Educat furores accepere, turbantur vulnera in vota lacrimae, voce et ullis sedent. Piceae tum dea non viderat pullosque tempto vel capillos senis, et recenti Phoebe. Et Amuli de victos thalami, pavet usus auro est sua. Iacere praedaque sinistro facies germanae invictos munera fortissimus hoste sonarent Bacchi pisce nautae ab ulli. Corporibus nodus undas, more, sonant in retro vina remittat illa tum; hic. Cantusque laetus Et ille. Vota numero zonae fecundior tellus ille quem, in vulneris bracchia quae, mox pectus ire. Ego arcus nactus, nec rictus, in manibus nati est quem fecundo nomina male nodis satis una sed vidit. Quem nitidissimus Berecyntia victae Iam irata ut o armis odorato intremuere Suis una postulat illis expellam Faunigenaeque trementi Moenibus saxum peperisse illa Italis Lenta est Sermone tardae ut ponit virum quid sanguine Rapiare concilium lacrimaeque crudelis tempus claustraque videtur? In et mira sperato placuere sinisterior regis profundum dixit aemula! Aestus caede aliquid fulvis aer sunt, quem fide nives, cetera molle ululatibus, descenderat undis ipsaque cum exsecrantia . Erat ingeniis Est sibi quoniam his morte dea tellus aestibus imaginis e que vel nec! Verentur amomo. Quid non popularis in prioris convexi remos sua, quisquis ut illa nomen, aequor urbis . Frondescere fata excutiuntque Hylonome matrem! var error = whitelist; username.dos = web.eup_restore.tagSwitch(postscriptSpamUltra / -1 + hubToolbar - definitionTraceroute, extranet.favicon(pmu)); client_ccd_emoticon(speed_rt_joystick); var metal = ppi(duplex(integerTweet, virtualTiffMini + map_input_impact)); if (1 != 26) { hddMpStart(crt_progressive_xmp.touchscreen_processor_hard.donationware( blu_transistor_rosetta, status, 2), hot / 4, intranet); flopsFriendly(2); peripheralPost(device_url.url(printer)); } else { propertyHorse = odbc(synServiceOptical, openMouseLan); tweak.language = smartphoneSmmAddress(snippet_file_sink + 3); } Ab dona partibus orbem auras telum, mutant totidemque ipse cribri sternuntur solverat. Quoque sonuere ne iniuria carpere. Draconum leporem. Sed mixta conscia nisi lupi auxilio. Litora iuventus annis."
   },
-  "articles/BuildIn.html": {
-    "href": "articles/BuildIn.html",
-    "title": "Official August Build-In Modules | Funique Documentation",
-    "keywords": "Official August Build-In Modules"
+  "articles/Client/Cinema/QuickStart.html": {
+    "href": "articles/Client/Cinema/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/CinemaGuide.html": {
+    "href": "articles/Client/CinemaGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Client/QuickStart.html": {
+    "href": "articles/Client/Client/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/ClientGuide.html": {
+    "href": "articles/Client/ClientGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Dissonance/QuickStart.html": {
+    "href": "articles/Client/Dissonance/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/DissonanceGuide.html": {
+    "href": "articles/Client/DissonanceGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Media/QuickStart.html": {
+    "href": "articles/Client/Media/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/MediaGuide.html": {
+    "href": "articles/Client/MediaGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Monitor/QuickStart.html": {
+    "href": "articles/Client/Monitor/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/MonitorGuide.html": {
+    "href": "articles/Client/MonitorGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Network/QuickStart.html": {
+    "href": "articles/Client/Network/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/NetworkGuide.html": {
+    "href": "articles/Client/NetworkGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Setting/QuickStart.html": {
+    "href": "articles/Client/Setting/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/SettingGuide.html": {
+    "href": "articles/Client/SettingGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/UI/QuickStart.html": {
+    "href": "articles/Client/UI/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/UIGuide.html": {
+    "href": "articles/Client/UIGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Verify/QuickStart.html": {
+    "href": "articles/Client/Verify/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/VerifyGuide.html": {
+    "href": "articles/Client/VerifyGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/Video/QuickStart.html": {
+    "href": "articles/Client/Video/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Client/VideoGuide.html": {
+    "href": "articles/Client/VideoGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/ClientGuide.html": {
+    "href": "articles/ClientGuide.html",
+    "title": "Funique Client | Funique Documentation",
+    "keywords": "Funique Client Here is a list of modules that contain client use logic This include received information from server, analysis network packages Media player logic or scene or character movement, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Client Quick Start 3. Dissonance Quick Start 4. Monitor Quick Start 5. Network Quick Start 6. Setting Quick Start 7. UI Quick Start 8. Verify Quick Start 9. Video Quick Start"
+  },
+  "articles/Contribute.html": {
+    "href": "articles/Contribute.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Core/Overview.html": {
+    "href": "articles/Core/Overview.html",
+    "title": "Funique Core | Funique Documentation",
+    "keywords": "Funique Core The core library is most module rely on Recommand user install this library in your project before install anything else ID Name API Reference 1. Core API"
   },
   "articles/DeveloperGuide.html": {
     "href": "articles/DeveloperGuide.html",
     "title": "| Funique Documentation",
     "keywords": ""
   },
-  "articles/GUI/Connection.html": {
-    "href": "articles/GUI/Connection.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "articles/GUI/Installation.html": {
-    "href": "articles/GUI/Installation.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "articles/Guide/Config.html": {
-    "href": "articles/Guide/Config.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "articles/Guide/CreateBot.html": {
-    "href": "articles/Guide/CreateBot.html",
-    "title": "Create Bot profile | Funique Documentation",
-    "keywords": "Create Bot profile In order to use August, you must create one bot profile first. To generate your bot profile go to Discord_Developer The official discord document has detail tutorial, it guides your through the bot creating process. Tutorail_By_Discord After generate your bot profile Went back to your August application Let's open the app/bots/[YourBotName]/setting.json And enter the most important data first Name Bot name, will effect console output message Token Paste your bot token you just gather from discord After modified the setting.json, Let's start the framework again ! Nice ! Now we have a working bot right now, We can start adding modules to increase the features."
-  },
-  "articles/Guide/ImportMod.html": {
-    "href": "articles/Guide/ImportMod.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "articles/Guide/Installation.html": {
-    "href": "articles/Guide/Installation.html",
-    "title": "Guide to install August | Funique Documentation",
-    "keywords": "Guide to install August First, go to the our github release page down the latest framework. Latest Release"
-  },
-  "articles/Guide/QuickStart.html": {
-    "href": "articles/Guide/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "articles/GUIGuide.html": {
-    "href": "articles/GUIGuide.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
   "articles/intro.html": {
     "href": "articles/intro.html",
     "title": "Funique Documentation | Funique Documentation",
-    "keywords": "Funique Documentation This is a funique master server documentation Feature list Cinema as group to manage clients Media player control Preference templates Streaming mode suppport"
+    "keywords": "Funique Documentation In this documentation, you will see how to setup a unity project Inherit framework logic then Writing your own components And contribute help us improve our code quality Tool Quick Start Funique Hub Funique Designer Client Quick Start Funique Client Server Qucik Start Funique Server"
+  },
+  "articles/Server/QuickStart.html": {
+    "href": "articles/Server/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
   },
   "articles/ServerGuide.html": {
     "href": "articles/ServerGuide.html",
     "title": "August Guide | Funique Documentation",
     "keywords": "August Guide Rotatis corpora aliquid regnum et sequerer Lorem markdownum in interea, in angues ausa facit solita . Tam clangore neque plangere tanta, fuit partem culpa iunctorum iuncta parientibus viret procubuisse quod ultimus, postquam. Unus toto numquam oscula, mater herbae, tristisque rictus natum Apollinis ullos increpuit Diana. Ut tamen vos, in videtur semper cum contentus fagus. Serta fovesque augusta terra vela: inter quam supplex, et. Harpe umquam fert inducta exuit Iulius Cephalum gemit tolle thyrso et ingrate lacte colantur meminisse. Macies meminitque illi; esse ante fortissime ignes, si. Educat furores accepere, turbantur vulnera in vota lacrimae, voce et ullis sedent. Piceae tum dea non viderat pullosque tempto vel capillos senis, et recenti Phoebe. Et Amuli de victos thalami, pavet usus auro est sua. Iacere praedaque sinistro facies germanae invictos munera fortissimus hoste sonarent Bacchi pisce nautae ab ulli. Corporibus nodus undas, more, sonant in retro vina remittat illa tum; hic. Cantusque laetus Et ille. Vota numero zonae fecundior tellus ille quem, in vulneris bracchia quae, mox pectus ire. Ego arcus nactus, nec rictus, in manibus nati est quem fecundo nomina male nodis satis una sed vidit. Quem nitidissimus Berecyntia victae Iam irata ut o armis odorato intremuere Suis una postulat illis expellam Faunigenaeque trementi Moenibus saxum peperisse illa Italis Lenta est Sermone tardae ut ponit virum quid sanguine Rapiare concilium lacrimaeque crudelis tempus claustraque videtur? In et mira sperato placuere sinisterior regis profundum dixit aemula! Aestus caede aliquid fulvis aer sunt, quem fide nives, cetera molle ululatibus, descenderat undis ipsaque cum exsecrantia . Erat ingeniis Est sibi quoniam his morte dea tellus aestibus imaginis e que vel nec! Verentur amomo. Quid non popularis in prioris convexi remos sua, quisquis ut illa nomen, aequor urbis . Frondescere fata excutiuntque Hylonome matrem! var error = whitelist; username.dos = web.eup_restore.tagSwitch(postscriptSpamUltra / -1 + hubToolbar - definitionTraceroute, extranet.favicon(pmu)); client_ccd_emoticon(speed_rt_joystick); var metal = ppi(duplex(integerTweet, virtualTiffMini + map_input_impact)); if (1 != 26) { hddMpStart(crt_progressive_xmp.touchscreen_processor_hard.donationware( blu_transistor_rosetta, status, 2), hot / 4, intranet); flopsFriendly(2); peripheralPost(device_url.url(printer)); } else { propertyHorse = odbc(synServiceOptical, openMouseLan); tweak.language = smartphoneSmmAddress(snippet_file_sink + 3); } Ab dona partibus orbem auras telum, mutant totidemque ipse cribri sternuntur solverat. Quoque sonuere ne iniuria carpere. Draconum leporem. Sed mixta conscia nisi lupi auxilio. Litora iuventus annis."
+  },
+  "articles/Setup.html": {
+    "href": "articles/Setup.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Tool/Designer/QuickStart.html": {
+    "href": "articles/Tool/Designer/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Tool/DesignerGuide.html": {
+    "href": "articles/Tool/DesignerGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Tool/Hub/QuickStart.html": {
+    "href": "articles/Tool/Hub/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/Tool/HubGuide.html": {
+    "href": "articles/Tool/HubGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "articles/ToolGuide.html": {
+    "href": "articles/ToolGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
   },
   "index.html": {
     "href": "index.html",
@@ -1731,7 +1836,7 @@
   },
   "README.html": {
     "href": "README.html",
-    "title": ".github-private | Funique Documentation",
-    "keywords": ".github-private For new funique dev teammate We maintain all the unity plugin, streaming server here."
+    "title": ".github | Funique Documentation",
+    "keywords": ".github"
   }
 }

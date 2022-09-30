@@ -1,10 +1,16 @@
 # Funique Documentation
 
-This is a funique master server documentation
+In this documentation, you will see how to setup a unity project\
+Inherit framework logic then Writing your own components\
+And contribute help us improve our code quality
 
-## Feature list
+## Tool Quick Start
+[Funique Hub](./Tool/Hub/QuickStart.md)\
+[Funique Designer](./Tool/Designer/QuickStart.md)
 
-1. Cinema as group to manage clients
-2. Media player control
-3. Preference templates
-4. Streaming mode suppport
+## Client Quick Start
+[Funique Client](./Client/QuickStart.md)
+
+## Server Qucik Start
+[Funique Server](./Server/QuickStart.md)
+

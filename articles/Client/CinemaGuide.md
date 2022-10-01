@@ -1,0 +1,3 @@
+# Cinema Client Guide
+
+## Features

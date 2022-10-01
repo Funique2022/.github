@@ -9,7 +9,14 @@ And contribute help us improve our code quality
 The funique project has several strict rule apply on each project\
 Before you start build a project, we recommend you read [this](./Setup.md) first
 
+## Notice
+
+Some modules has neutral part of mechanism which could applies to server side or client side, in this scenario we put these part at client side document.
+
 ## Tool Quick Start
+
+The tools are editor tool help user setup project and imporve editor user experience.
+
 [Funique Hub](./Tool/Hub/QuickStart.md)\
 [Funique Designer](./Tool/Designer/QuickStart.md)
 

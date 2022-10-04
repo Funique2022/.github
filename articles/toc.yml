@@ -7,15 +7,15 @@
   href: ToolGuide.md
   items:
   - name: Hub
-    href: Client/HubGuide.md
+    href: Tool/HubGuide.md
     items:
     - name: Quick Start
-      href: Client/Hub/QuickStart.md
+      href: Tool/Hub/QuickStart.md
   - name: Designer
-    href: Client/DesignerGuide.md
+    href: Tool/DesignerGuide.md
     items:
     - name: Quick Start
-      href: Client/Designer/QuickStart.md
+      href: Tool/Designer/QuickStart.md
 
 - name: Client
   href: ClientGuide.md

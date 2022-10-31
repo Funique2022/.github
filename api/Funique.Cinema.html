@@ -102,17 +102,29 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Funique.Cinema.CinemaDataCollection.html">CinemaDataCollection</a></h4>
-      <section></section>
+      <section><p>A pair data for View instance, Tab label instance, Label view instance <br>
+This object is for convenient access for dev <br>
+To get the pair data, check detail: <a class="xref" href="Funique.Cinema.ICinemaServerUtility.html#Funique_Cinema_ICinemaServerUtility_GetDataCollectionByCinemaIndex_System_Int32_">GetDataCollectionByCinemaIndex(Int32)</a> <br>
+------------------------------------------------ <br>
+劇院實體, 上方標籤, 標籤資料 的配對資料 <br>
+這個物件是幫助開發人員 快速簡單存取配對 <br>
+得到這個配對資料, 詳細: <a class="xref" href="Funique.Cinema.ICinemaServerUtility.html#Funique_Cinema_ICinemaServerUtility_GetDataCollectionByCinemaIndex_System_Int32_">GetDataCollectionByCinemaIndex(Int32)</a></p>
+</section>
       <h4><a class="xref" href="Funique.Cinema.CinemaLabelData.html">CinemaLabelData</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Funique.Cinema.CinemaLabelListener.html">CinemaLabelListener</a></h4>
-      <section></section>
+      <section><p>Server use top cinema tab label data structure <br>
+------------------------------------------------ <br>
+伺服器使用劇院標籤資料</p>
+</section>
       <h4><a class="xref" href="Funique.Cinema.CinemaLabelListenerBase.html">CinemaLabelListenerBase</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Funique.Cinema.CinemaLabelView.html">CinemaLabelView</a></h4>
-      <section></section>
+      <section><p>Server use label event listener <br>
+------------------------------------------------ <br>
+伺服器使用劇院標籤事件監聽</p>
+</section>
       <h4><a class="xref" href="Funique.Cinema.CinemaLabelViewBase.html">CinemaLabelViewBase</a></h4>
-      <section></section>
+      <section><p>Server use top cinema view instance <br>
+------------------------------------------------ <br>
+伺服器使用劇院實體</p>
+</section>
       <h4><a class="xref" href="Funique.Cinema.CinemaMediaPlayerBase.html">CinemaMediaPlayerBase</a></h4>
       <section><p>This component is meant to control the AV-pro media player <br>
 The translation stage between network layer and controller layer <br>
@@ -125,42 +137,62 @@ The translation stage between network layer and controller layer <br>
 ------------------------------------------------ <br>
 元件的主要功能是鎖定客戶端元件生成的父物件</p>
 </section>
+      <h4><a class="xref" href="Funique.Cinema.GazeToPlay.html">GazeToPlay</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Funique.Cinema.SetGazeUI.html">SetGazeUI</a></h4>
+      <section></section>
     <h3 id="structs">Structs
   </h3>
       <h4><a class="xref" href="Funique.Cinema.CinemaManagerClientData.html">CinemaManagerClientData</a></h4>
-      <section></section>
+      <section><p>Client use cinema manager data <br>
+------------------------------------------------ <br>
+劇場客戶端只用靜態資料</p>
+</section>
       <h4><a class="xref" href="Funique.Cinema.CinemaManagerServerData.html">CinemaManagerServerData</a></h4>
       <section><p>Server use cinema manager data <br>
 ------------------------------------------------ <br>
 劇場伺服器端只用靜態資料</p>
 </section>
+      <h4><a class="xref" href="Funique.Cinema.GazeEventArgs.html">GazeEventArgs</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Funique.Cinema.MapStereoConfig.html">MapStereoConfig</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Funique.Cinema.MediaPlayerOption.html">MediaPlayerOption</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Funique.Cinema.NowPlaying.html">NowPlaying</a></h4>
+      <section><p>Currently playing mark <br>
+The temp structure represent the playing media <br>
+------------------------------------------------ <br>
+目前播放的媒體標示 <br>
+暫時存取使用的結構, 用於表示當前播放的媒體</p>
+</section>
+      <h4><a class="xref" href="Funique.Cinema.StereoConfig.html">StereoConfig</a></h4>
+      <section></section>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="Funique.Cinema.ICinema.html">ICinema</a></h4>
-      <section><p>Cinema features <br>
------------------------------------------------- <br>
-劇場功能集</p>
-</section>
       <h4><a class="xref" href="Funique.Cinema.ICinemaClientUtility.html">ICinemaClientUtility</a></h4>
       <section><p>Cinema client utility, Unit testable <br>
 ------------------------------------------------ <br>
 客戶端劇場功能. 可被單元測試</p>
-</section>
-      <h4><a class="xref" href="Funique.Cinema.ICinemaControl.html">ICinemaControl</a></h4>
-      <section><p>Cinema control <br>
------------------------------------------------- <br>
-劇場控制</p>
-</section>
-      <h4><a class="xref" href="Funique.Cinema.ICinemaRegister.html">ICinemaRegister</a></h4>
-      <section><p>Cinema component getter <br>
------------------------------------------------- <br>
-劇場元件抓取</p>
 </section>
       <h4><a class="xref" href="Funique.Cinema.ICinemaServerUtility.html">ICinemaServerUtility</a></h4>
       <section><p>Cinema server utility, Unit testable <br>
 ------------------------------------------------ <br>
 伺服器劇場功能. 可被單元測試</p>
 </section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Funique.Cinema.ApplyMeshType.html">ApplyMeshType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Funique.Cinema.PlayableType.html">PlayableType</a></h4>
+      <section><p>Playing media type
+------------------------------------------------ <br>
+播放媒體型態</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="Funique.Cinema.GazeEventHandler.html">GazeEventHandler</a></h4>
+      <section></section>
 </article>
               
                 </div>

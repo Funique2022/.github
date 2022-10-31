@@ -101,15 +101,16 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="Funique.Manager.CinemaManager.html">CinemaManager</a></h4>
-      <section><p>Managing the different cinema groups <br>
------------------------------------------------- <br>
-管理不同劇場</p>
-</section>
       <h4><a class="xref" href="Funique.Manager.CinemaManagerClientUtility.html">CinemaManagerClientUtility</a></h4>
-      <section></section>
+      <section><p>Client cinema manager <br>
+------------------------------------------------ <br>
+客戶端劇院管理員</p>
+</section>
       <h4><a class="xref" href="Funique.Manager.CinemaManagerServerUtility.html">CinemaManagerServerUtility</a></h4>
-      <section></section>
+      <section><p>Server cinema manager <br>
+------------------------------------------------ <br>
+伺服器劇院管理員</p>
+</section>
       <h4><a class="xref" href="Funique.Manager.ClientAndroidManagerUtility.html">ClientAndroidManagerUtility</a></h4>
       <section></section>
       <h4><a class="xref" href="Funique.Manager.ClientStandAloneManagerUtility.html">ClientStandAloneManagerUtility</a></h4>
@@ -118,6 +119,11 @@
       <section></section>
       <h4><a class="xref" href="Funique.Manager.ClientXRManagerUtility.html">ClientXRManagerUtility</a></h4>
       <section></section>
+      <h4><a class="xref" href="Funique.Manager.FileClientManagerUtility.html">FileClientManagerUtility</a></h4>
+      <section><p>File manager configuration <br>
+------------------------------------------------ <br>
+檔案管理配置</p>
+</section>
       <h4><a class="xref" href="Funique.Manager.ManagerBase.html">ManagerBase</a></h4>
       <section><p>Base class for manager class, function and properties <br>
 ------------------------------------------------ <br>
@@ -128,26 +134,10 @@
 ------------------------------------------------ <br>
 管理基礎類別, 簡單管理</p>
 </section>
-      <h4><a class="xref" href="Funique.Manager.MediaManager.html">MediaManager</a></h4>
-      <section><p>Manage the media files <br>
-And control the bottom user interface of toolbar <br>
------------------------------------------------- <br>
-管理多媒體檔案 <br>
-控制底下工具列跟撥放器</p>
-</section>
       <h4><a class="xref" href="Funique.Manager.MediaManagerClientUtility.html">MediaManagerClientUtility</a></h4>
       <section></section>
       <h4><a class="xref" href="Funique.Manager.MediaManagerServerUtility.html">MediaManagerServerUtility</a></h4>
       <section></section>
-      <h4><a class="xref" href="Funique.Manager.NetworkManager.html">NetworkManager</a></h4>
-      <section><p>Defined the network behaviour for the application <br>
-Default server port is 5000 <br>
-Has basic sending and recevied methods, Watchdog functionality <br>
------------------------------------------------- <br>
-定義網路應用程式行為 <br>
-預設的 Port 為 5000 <br>
-包含了基礎的傳輸以及接收, 看門狗功能</p>
-</section>
       <h4><a class="xref" href="Funique.Manager.NetworkManagerClientUtility.html">NetworkManagerClientUtility</a></h4>
       <section></section>
       <h4><a class="xref" href="Funique.Manager.NetworkManagerServerUtility.html">NetworkManagerServerUtility</a></h4>
@@ -159,50 +149,20 @@ The collection of solution for server side utility <br>
 處理多種第三方程式庫 包括了 OSC, LiteNetLib, NetCoreSocket <br>
 多項網路方案的集合類別</p>
 </section>
-      <h4><a class="xref" href="Funique.Manager.PlayerManager.html">PlayerManager</a></h4>
-      <section><p>Managing all clients instances <br>
------------------------------------------------- <br>
-管理用戶實體</p>
-</section>
       <h4><a class="xref" href="Funique.Manager.PlayerManagerUtility.html">PlayerManagerUtility</a></h4>
       <section></section>
-      <h4><a class="xref" href="Funique.Manager.SettingManager.html">SettingManager</a></h4>
-      <section><p>Manage user preference setting interact with application, data store <br>
------------------------------------------------- <br>
-管理用戶偏好設定</p>
-</section>
       <h4><a class="xref" href="Funique.Manager.SettingManagerServerUtility.html">SettingManagerServerUtility</a></h4>
       <section></section>
-      <h4><a class="xref" href="Funique.Manager.StreamingManager.html">StreamingManager</a></h4>
-      <section><p>Handle all things related to streaming services <br>
-VOD and Live and Casting and None-Casting <br>
-And handle the interaction between UI component and other manager <br> <br>
-Casting mode will transcoding the HLS streaming to master server local directroy <br>
-Then user can get the streaming from nginx services <br> <br>
-The purposes of this is to save network usages <br>
-None-Casting mode will send the URL to user, telling them to get video from online <br>
------------------------------------------------- <br>
-處裡所有跟串流服務相關的事務 <br>
-VOD 和 Live and 轉介 和 非轉介 <br>
-還有處理與使用者介面 跟 其他元件的互動  <br> <br>
-轉介模式會將 HLS 串流存在 伺服器的本地資料夾 <br>
-然後用戶再透過 Nginx 撈 <br> <br>
-目的是為了節省網路流量 <br>
-非轉介模式會直接命令用戶播放 URL, 用戶會直接占用頻寬</p>
-</section>
       <h4><a class="xref" href="Funique.Manager.StreamingManagerUtility.html">StreamingManagerUtility</a></h4>
       <section></section>
-      <h4><a class="xref" href="Funique.Manager.UIManager.html">UIManager</a></h4>
-      <section><p>Binding user interface events to presentation objects <br>
------------------------------------------------- <br>
-幫助 UI 綁定事件</p>
-</section>
+      <h4><a class="xref" href="Funique.Manager.UIClientManagerUtility.html">UIClientManagerUtility</a></h4>
+      <section></section>
       <h4><a class="xref" href="Funique.Manager.UIManagerUtility.html">UIManagerUtility</a></h4>
       <section><p>Network utility base <br>
 ------------------------------------------------ <br>
 網路功能底層</p>
 </section>
-      <h4><a class="xref" href="Funique.Manager.VideoManager.html">VideoManager</a></h4>
+      <h4><a class="xref" href="Funique.Manager.VerifyClientUtility.html">VerifyClientUtility</a></h4>
       <section></section>
       <h4><a class="xref" href="Funique.Manager.VideoManagerUtility.html">VideoManagerUtility</a></h4>
       <section><p>Video manager handles video list and loading video list record files <br>

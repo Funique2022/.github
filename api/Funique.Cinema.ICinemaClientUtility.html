@@ -102,28 +102,70 @@
 客戶端劇場功能. 可被單元測試</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Funique.IModuleBase-1.html#Funique_IModuleBase_1_config">IModuleBase&lt;CinemaManagerClientData&gt;.config</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Funique.Cinema.html">Funique.Cinema</a></h6>
   <h6><strong>Assembly</strong>: Funique.Cinema.dll</h6>
   <h5 id="Funique_Cinema_ICinemaClientUtility_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ICinemaClientUtility</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ICinemaClientUtility : IModuleBase&lt;CinemaManagerClientData&gt;</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_CurMedia.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.CurMedia%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L14">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L29">View Source</a>
   </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_" data-uid="Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer" data-uid="Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer">CurrentMediaPlayer</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Funique_Cinema_ICinemaClientUtility_CurMedia_" data-uid="Funique.Cinema.ICinemaClientUtility.CurMedia*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_CurMedia" data-uid="Funique.Cinema.ICinemaClientUtility.CurMedia">CurMedia</h4>
+  <div class="markdown level1 summary"><p>Current select media <br>
+------------------------------------------------ <br>
+目前選擇的媒體</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">MediaPlayer CurrentMediaPlayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">InfoBase CurMedia { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Funique.InfoBase.html">InfoBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L23">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_" data-uid="Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer" data-uid="Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer">CurrentMediaPlayer</h4>
+  <div class="markdown level1 summary"><p>Current select media player instance <br>
+------------------------------------------------ <br>
+目前使用的 Av-Pro 播放器實體</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">MediaPlayer CurrentMediaPlayer { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,18 +184,21 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_CurVideo.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.CurVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_MasterPlayerState.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.MasterPlayerState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L15">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L47">View Source</a>
   </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_CurVideo_" data-uid="Funique.Cinema.ICinemaClientUtility.CurVideo*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_CurVideo" data-uid="Funique.Cinema.ICinemaClientUtility.CurVideo">CurVideo</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Funique_Cinema_ICinemaClientUtility_MasterPlayerState_" data-uid="Funique.Cinema.ICinemaClientUtility.MasterPlayerState*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_MasterPlayerState" data-uid="Funique.Cinema.ICinemaClientUtility.MasterPlayerState">MasterPlayerState</h4>
+  <div class="markdown level1 summary"><p>Media player state <br>
+------------------------------------------------ <br>
+媒體播放器 狀態</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">VideoInfo CurVideo { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">ClientInMasterPlayerState MasterPlayerState { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,25 +210,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Funique.VideoInfo.html">VideoInfo</a></td>
+        <td><a class="xref" href="Funique.ClientInMasterPlayerState.html">ClientInMasterPlayerState</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_PlayerMode.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.PlayerMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_OnMediaPlay.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.OnMediaPlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L16">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L58">View Source</a>
   </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_PlayerMode_" data-uid="Funique.Cinema.ICinemaClientUtility.PlayerMode*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_PlayerMode" data-uid="Funique.Cinema.ICinemaClientUtility.PlayerMode">PlayerMode</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Funique_Cinema_ICinemaClientUtility_OnMediaPlay_" data-uid="Funique.Cinema.ICinemaClientUtility.OnMediaPlay*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_OnMediaPlay" data-uid="Funique.Cinema.ICinemaClientUtility.OnMediaPlay">OnMediaPlay</h4>
+  <div class="markdown level1 summary"><p>Media player event <br>
+------------------------------------------------ <br>
+媒體播放事件</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">PlayerMode PlayerMode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">UnityEvent&lt;string&gt; OnMediaPlay { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,21 +243,123 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Funique.PlayerMode.html">PlayerMode</a></td>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_readyPlayFile.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.readyPlayFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_OnMediaPlayPrepare.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L17">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L64">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_OnMediaPlayPrepare_" data-uid="Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_OnMediaPlayPrepare" data-uid="Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare">OnMediaPlayPrepare</h4>
+  <div class="markdown level1 summary"><p>Media ready event <br>
+------------------------------------------------ <br>
+媒體準備事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UnityEvent&lt;string&gt; OnMediaPlayPrepare { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_OnSwitchMediaPlayer.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L70">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_OnSwitchMediaPlayer_" data-uid="Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_OnSwitchMediaPlayer" data-uid="Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer">OnSwitchMediaPlayer</h4>
+  <div class="markdown level1 summary"><p>Media player instance switch event <br>
+------------------------------------------------ <br>
+媒體播放器實體 切換事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UnityEvent&lt;MediaPlayer&gt; OnSwitchMediaPlayer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span>&lt;<span class="xref">RenderHeads.Media.AVProVideo.MediaPlayer</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_OnWaitroomStateChange.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L76">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_OnWaitroomStateChange_" data-uid="Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_OnWaitroomStateChange" data-uid="Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange">OnWaitroomStateChange</h4>
+  <div class="markdown level1 summary"><p>Waiting room event <br>
+------------------------------------------------ <br>
+等待房間事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UnityEvent&lt;bool&gt; OnWaitroomStateChange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_readyPlayFile.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.readyPlayFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L35">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_readyPlayFile_" data-uid="Funique.Cinema.ICinemaClientUtility.readyPlayFile*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_readyPlayFile" data-uid="Funique.Cinema.ICinemaClientUtility.readyPlayFile">readyPlayFile</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ready play file name <br>
+------------------------------------------------ <br>
+準備影片名稱</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -232,14 +382,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SphereOBJ.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SphereOBJ%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SphereOBJ.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SphereOBJ%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L18">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L41">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SphereOBJ_" data-uid="Funique.Cinema.ICinemaClientUtility.SphereOBJ*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_SphereOBJ" data-uid="Funique.Cinema.ICinemaClientUtility.SphereOBJ">SphereOBJ</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Media resource play mesh scene object <br>
+------------------------------------------------ <br>
+播放媒體 場景物建</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -264,104 +417,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_applyStereoSetting.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.applyStereoSetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_DetectPlayerMode_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L95">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_applyStereoSetting_" data-uid="Funique.Cinema.ICinemaClientUtility.applyStereoSetting*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_applyStereoSetting" data-uid="Funique.Cinema.ICinemaClientUtility.applyStereoSetting">applyStereoSetting()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator applyStereoSetting()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_ChangeStereoMode_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.ChangeStereoMode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L94">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_ChangeStereoMode_" data-uid="Funique.Cinema.ICinemaClientUtility.ChangeStereoMode*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_ChangeStereoMode_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.ChangeStereoMode(System.String)">ChangeStereoMode(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ChangeStereoMode(string value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_DetectMediaPlayerUI_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.DetectMediaPlayerUI(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L96">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_DetectMediaPlayerUI_" data-uid="Funique.Cinema.ICinemaClientUtility.DetectMediaPlayerUI*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_DetectMediaPlayerUI_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.DetectMediaPlayerUI(System.Boolean)">DetectMediaPlayerUI(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DetectMediaPlayerUI(bool b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_DetectPlayerMode_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L88">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L235">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_DetectPlayerMode_" data-uid="Funique.Cinema.ICinemaClientUtility.DetectPlayerMode*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_DetectPlayerMode_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)">DetectPlayerMode(String)</h4>
@@ -406,89 +465,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_DetectSRT_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.DetectSRT(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetReadyImageName.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetReadyImageName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L93">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_DetectSRT_" data-uid="Funique.Cinema.ICinemaClientUtility.DetectSRT*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_DetectSRT_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.DetectSRT(System.String)">DetectSRT(String)</h4>
-  <div class="markdown level1 summary"><p>字幕</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DetectSRT(string videoPath)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">videoPath</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetMediaPlayerStatus_RenderHeads_Media_AVProVideo_MediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayerEvent_EventType_RenderHeads_Media_AVProVideo_ErrorCode_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer%2CRenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType%2CRenderHeads.Media.AVProVideo.ErrorCode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L45">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_GetMediaPlayerStatus_" data-uid="Funique.Cinema.ICinemaClientUtility.GetMediaPlayerStatus*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_GetMediaPlayerStatus_RenderHeads_Media_AVProVideo_MediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayerEvent_EventType_RenderHeads_Media_AVProVideo_ErrorCode_" data-uid="Funique.Cinema.ICinemaClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,RenderHeads.Media.AVProVideo.ErrorCode)">GetMediaPlayerStatus(MediaPlayer, MediaPlayerEvent.EventType, ErrorCode)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void GetMediaPlayerStatus(MediaPlayer mediaPlayer, MediaPlayerEvent.EventType eventType, ErrorCode errorCode)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">RenderHeads.Media.AVProVideo.MediaPlayer</span></td>
-        <td><span class="parametername">mediaPlayer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType</span></td>
-        <td><span class="parametername">eventType</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">RenderHeads.Media.AVProVideo.ErrorCode</span></td>
-        <td><span class="parametername">errorCode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetReadyImageName.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetReadyImageName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L75">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L208">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_GetReadyImageName_" data-uid="Funique.Cinema.ICinemaClientUtility.GetReadyImageName*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_GetReadyImageName" data-uid="Funique.Cinema.ICinemaClientUtility.GetReadyImageName">GetReadyImageName()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ready image name <br>
+------------------------------------------------ <br>
+準備圖片名稱</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -511,14 +498,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetReadyVideoName.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetReadyVideoName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetReadyVideoName.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetReadyVideoName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L76">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L215">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_GetReadyVideoName_" data-uid="Funique.Cinema.ICinemaClientUtility.GetReadyVideoName*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_GetReadyVideoName" data-uid="Funique.Cinema.ICinemaClientUtility.GetReadyVideoName">GetReadyVideoName()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ready video name <br>
+------------------------------------------------ <br>
+準備影片名稱</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -541,45 +531,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L67">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime">GetVideoDurationTime()</h4>
-  <div class="markdown level1 summary"><p>取得影片撥放總長</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float GetVideoDurationTime()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L68">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L193">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_GetVideoDurationTime_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)">GetVideoDurationTime(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get video length <br>
+------------------------------------------------ <br>
+取得影片撥放總長</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -598,7 +560,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">showMilliseconds</span></td>
-        <td></td>
+        <td><p>Use Millisecond</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -619,14 +582,16 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoDurationTimeString_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoDurationTimeString_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L74">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L201">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_GetVideoDurationTimeString_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_GetVideoDurationTimeString_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)">GetVideoDurationTimeString(Boolean)</h4>
-  <div class="markdown level1 summary"><p>取得影片撥放總長:轉換文字</p>
+  <div class="markdown level1 summary"><p>Get video length <br>
+------------------------------------------------ <br>
+取得影片撥放總長</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -646,7 +611,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">showMilliseconds</span></td>
-        <td></td>
+        <td><p>Use Millisecond</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -667,45 +633,16 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoTime.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoTime_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L50">View Source</a>
-  </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_GetVideoTime_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoTime*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_GetVideoTime" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoTime">GetVideoTime()</h4>
-  <div class="markdown level1 summary"><p>取得影片目前撥放時間</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float GetVideoTime()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoTime_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L56">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L177">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_GetVideoTime_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoTime*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_GetVideoTime_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)">GetVideoTime(Boolean)</h4>
-  <div class="markdown level1 summary"><p>取得影片目前撥放時間(useMs:是否換算秒)</p>
+  <div class="markdown level1 summary"><p>Get video current time <br>
+------------------------------------------------ <br>
+取得影片目前撥放時間</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -725,7 +662,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">showMilliseconds</span></td>
-        <td></td>
+        <td><p>Use Millisecond</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -746,14 +684,16 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoTimeString_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_GetVideoTimeString_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L62">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L185">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_GetVideoTimeString_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoTimeString*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_GetVideoTimeString_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)">GetVideoTimeString(Boolean)</h4>
-  <div class="markdown level1 summary"><p>取得影片目前撥放時間:轉換文字</p>
+  <div class="markdown level1 summary"><p>Get video current time <br>
+------------------------------------------------ <br>
+取得影片目前撥放時間</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -773,7 +713,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">showMilliseconds</span></td>
-        <td></td>
+        <td><p>Use Millisecond</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -794,14 +735,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_HeadsetReset.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.HeadsetReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_HeadsetReset.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.HeadsetReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L81">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L228">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_HeadsetReset_" data-uid="Funique.Cinema.ICinemaClientUtility.HeadsetReset*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_HeadsetReset" data-uid="Funique.Cinema.ICinemaClientUtility.HeadsetReset">HeadsetReset()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reset headset position</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -809,49 +751,91 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_ICheckSeek.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.ICheckSeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SelectMediaPlayerInstance_System_Int32_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L25">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L88">View Source</a>
   </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_ICheckSeek_" data-uid="Funique.Cinema.ICinemaClientUtility.ICheckSeek*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_ICheckSeek" data-uid="Funique.Cinema.ICinemaClientUtility.ICheckSeek">ICheckSeek()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Funique_Cinema_ICinemaClientUtility_SelectMediaPlayerInstance_" data-uid="Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SelectMediaPlayerInstance_System_Int32_" data-uid="Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)">SelectMediaPlayerInstance(Int32)</h4>
+  <div class="markdown level1 summary"><p>Select media player instance by index <br>
+------------------------------------------------ <br>
+從目錄 選擇播放器</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator ICheckSeek()</code></pre>
+    <pre><code class="lang-csharp hljs">void SelectMediaPlayerInstance(int index)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_System_String_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SelectMediaPlayerInstance_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L32">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L95">View Source</a>
   </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_" data-uid="Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_System_String_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String,System.String)">SetReadyPlayFile(String, String)</h4>
-  <div class="markdown level1 summary"><p>設定影片檔案路徑</p>
+  <a id="Funique_Cinema_ICinemaClientUtility_SelectMediaPlayerInstance_" data-uid="Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SelectMediaPlayerInstance_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)">SelectMediaPlayerInstance(String)</h4>
+  <div class="markdown level1 summary"><p>Select media player instance by key name <br>
+------------------------------------------------ <br>
+從註冊名稱 選擇播放器</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetReadyPlayFile(string recivedReadyPlayFile, string folderName = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">void SelectMediaPlayerInstance(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L117">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_" data-uid="Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)">SetReadyPlayFile(String)</h4>
+  <div class="markdown level1 summary"><p>Set ready play file <br>
+------------------------------------------------ <br>
+設定影片檔案路徑</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetReadyPlayFile(string recivedReadyPlayFile)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -868,27 +852,177 @@
         <td><span class="parametername">recivedReadyPlayFile</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetReplay_Funique_ReplayState_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L147">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetReplay_" data-uid="Funique.Cinema.ICinemaClientUtility.SetReplay*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetReplay_Funique_ReplayState_" data-uid="Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)">SetReplay(ReplayState)</h4>
+  <div class="markdown level1 summary"><p>Set replay policy <br>
+------------------------------------------------ <br>
+設置重播政策</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetReplay(ReplayState replay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">folderName</span></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Funique.ReplayState.html">ReplayState</a></td>
+        <td><span class="parametername">replay</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoLoop_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetStereoMode_Funique_StereoMode_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L35">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L141">View Source</a>
   </span>
-  <a id="Funique_Cinema_ICinemaClientUtility_SetVideoLoop_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoLoop*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoLoop_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)">SetVideoLoop(Boolean)</h4>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetStereoMode_" data-uid="Funique.Cinema.ICinemaClientUtility.SetStereoMode*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetStereoMode_Funique_StereoMode_" data-uid="Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)">SetStereoMode(StereoMode)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetVideoLoop(bool isLoop)</code></pre>
+    <pre><code class="lang-csharp hljs">void SetStereoMode(StereoMode value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Funique.StereoMode.html">StereoMode</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetStereoMode_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L140">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetStereoMode_" data-uid="Funique.Cinema.ICinemaClientUtility.SetStereoMode*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetStereoMode_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)">SetStereoMode(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetStereoMode(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetSubtitle_Funique_SubtitleMode_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L153">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetSubtitle_" data-uid="Funique.Cinema.ICinemaClientUtility.SetSubtitle*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetSubtitle_Funique_SubtitleMode_" data-uid="Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)">SetSubtitle(SubtitleMode)</h4>
+  <div class="markdown level1 summary"><p>Set subtitle mode <br>
+------------------------------------------------ <br>
+設置字幕模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetSubtitle(SubtitleMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Funique.SubtitleMode.html">SubtitleMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoClose.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoClose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L164">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetVideoClose_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoClose*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoClose" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoClose">SetVideoClose()</h4>
+  <div class="markdown level1 summary"><p>Closing current media player <br>
+關閉播放</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetVideoClose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoLoop_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L138">View Source</a>
+  </span>
+  <a id="Funique_Cinema_ICinemaClientUtility_SetVideoLoop_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoLoop*"></a>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoLoop_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)">SetVideoLoop(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set the media player loop option <br>
+------------------------------------------------ <br>
+設置循環</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Try use replay policy to control the loop options&quot;)]
+void SetVideoLoop(bool isLoop)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -909,14 +1043,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoPause.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoPause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoPause.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoPause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L34">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L131">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SetVideoPause_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoPause*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoPause" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoPause">SetVideoPause()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Pauing current media player <br>
+------------------------------------------------ <br>
+暫停播放</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -924,18 +1061,21 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoPlay_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoPlay_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L33">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L125">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SetVideoPlay_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoPlay*"></a>
-  <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoPlay_System_Boolean_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean,System.String)">SetVideoPlay(Boolean, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoPlay_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)">SetVideoPlay(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Play current setup media <br>
+------------------------------------------------ <br>
+播放目前選擇媒體</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetVideoPlay(bool url = false, string folderName = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">bool SetVideoPlay(bool url = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -950,25 +1090,38 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">url</span></td>
-        <td></td>
+        <td><p>Is URL</p>
+</td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">folderName</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoSeek_System_Single_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoSeek_System_Single_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L24">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L102">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SetVideoSeek_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoSeek*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoSeek_System_Single_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)">SetVideoSeek(Single)</h4>
-  <div class="markdown level1 summary"><p>影片快轉時間軸</p>
+  <div class="markdown level1 summary"><p>Video seek <br>
+------------------------------------------------ <br>
+影片快轉時間軸</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -988,20 +1141,24 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>Second</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoStop.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoStop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetVideoStop.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetVideoStop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L36">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L159">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SetVideoStop_" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoStop*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_SetVideoStop" data-uid="Funique.Cinema.ICinemaClientUtility.SetVideoStop">SetVideoStop()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Stop current media player <br>
+------------------------------------------------ <br>
+停止播放</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1009,14 +1166,17 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetWaitRoom_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SetWaitRoom_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L26">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L109">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SetWaitRoom_" data-uid="Funique.Cinema.ICinemaClientUtility.SetWaitRoom*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_SetWaitRoom_System_Boolean_" data-uid="Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)">SetWaitRoom(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set waiting room state <br>
+------------------------------------------------ <br>
+設置 等待房間狀態</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1041,10 +1201,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_ShowTexture_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_ShowTexture_System_String_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L41">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L224">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_ShowTexture_" data-uid="Funique.Cinema.ICinemaClientUtility.ShowTexture*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_ShowTexture_System_String_" data-uid="Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)">ShowTexture(String)</h4>
@@ -1053,7 +1213,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ShowTexture(string imageName)</code></pre>
+    <pre><code class="lang-csharp hljs">bool ShowTexture(string imageName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1072,12 +1232,27 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SwitchMediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayer_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Cinema_ICinemaClientUtility_SwitchMediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayer_.md&amp;value=---%0Auid%3A%20Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v0.1.1/ICinemaClientUtility.cs/#L82">View Source</a>
+    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Interface/ICinemaClientUtility.cs/#L229">View Source</a>
   </span>
   <a id="Funique_Cinema_ICinemaClientUtility_SwitchMediaPlayer_" data-uid="Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer*"></a>
   <h4 id="Funique_Cinema_ICinemaClientUtility_SwitchMediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayer_" data-uid="Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)">SwitchMediaPlayer(MediaPlayer)</h4>

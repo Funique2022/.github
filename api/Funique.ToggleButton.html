@@ -125,22 +125,84 @@
 [RequireComponent(typeof(Button))]
 public class ToggleButton : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v0.1.1/apiSpec/new?filename=Funique_ToggleButton_SetState_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.ToggleButton.SetState(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_ToggleButton_OffClick.md&amp;value=---%0Auid%3A%20Funique.ToggleButton.OffClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_core/blob/v0.1.1/Component/ToggleButton.cs/#L34">View Source</a>
+    <a href="https://github.com/Funique2022/funique_core/blob/v1.0.0/Component/ToggleButton.cs/#L12">View Source</a>
   </span>
-  <a id="Funique_ToggleButton_SetState_" data-uid="Funique.ToggleButton.SetState*"></a>
-  <h4 id="Funique_ToggleButton_SetState_System_Boolean_" data-uid="Funique.ToggleButton.SetState(System.Boolean)">SetState(Boolean)</h4>
+  <h4 id="Funique_ToggleButton_OffClick" data-uid="Funique.ToggleButton.OffClick">OffClick</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetState(bool b)</code></pre>
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public UnityEvent OffClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_ToggleButton_OnClick.md&amp;value=---%0Auid%3A%20Funique.ToggleButton.OnClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_core/blob/v1.0.0/Component/ToggleButton.cs/#L11">View Source</a>
+  </span>
+  <h4 id="Funique_ToggleButton_OnClick" data-uid="Funique.ToggleButton.OnClick">OnClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public UnityEvent OnClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_ToggleButton_SetState_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Funique.ToggleButton.SetState(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_core/blob/v1.0.0/Component/ToggleButton.cs/#L34">View Source</a>
+  </span>
+  <a id="Funique_ToggleButton_SetState_" data-uid="Funique.ToggleButton.SetState*"></a>
+  <h4 id="Funique_ToggleButton_SetState_System_Boolean_System_Boolean_" data-uid="Funique.ToggleButton.SetState(System.Boolean,System.Boolean)">SetState(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetState(bool b, bool call = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,6 +217,11 @@ public class ToggleButton : MonoBehaviour</code></pre>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">call</span></td>
         <td></td>
       </tr>
     </tbody>

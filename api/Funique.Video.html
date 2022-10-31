@@ -99,8 +99,28 @@
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Funique.Video.Container-1.html">Container&lt;T&gt;</a></h4>
+      <section><p>File or playalibe object information list <br>
+This extends the action of list class <br>
+When push into the list it will trying to generate instance of object and assign reference to it <br>
+When remove the object in list, It trying destroy object for it <br>
+User can inherit the class to override Add(T t), Remove(T t) to extends to action <br>
+------------------------------------------------ <br>
+檔案 或是 可被播放物件 的 資訊清單 <br>
+延伸 List 類別的動作 <br>
+當加入新的物件, 嘗試生成 參考物件 並且 賦值 <br>
+刪除時將場景物件直接銷毀 <br>
+用戶能嘗試繼承此類別來延伸更多動作</p>
+</section>
     <h3 id="structs">Structs
   </h3>
+      <h4><a class="xref" href="Funique.Video.FileClientManagerData.html">FileClientManagerData</a></h4>
+      <section><p>File manager configuration <br>
+------------------------------------------------ <br>
+檔案管理配置</p>
+</section>
       <h4><a class="xref" href="Funique.Video.VideoFileRecord.html">VideoFileRecord</a></h4>
       <section><p>The video files record structure <br>
 ------------------------------------------------ <br>
@@ -110,10 +130,41 @@
       <section></section>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="Funique.Video.IVideo.html">IVideo</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Funique.Video.IVideoConst.html">IVideoConst</a></h4>
-      <section></section>
+      <h4><a class="xref" href="Funique.Video.IFileAudio.html">IFileAudio</a></h4>
+      <section><p>File manager, responsible for audio related files <br>
+------------------------------------------------ <br>
+檔案管理, 負責音效相關</p>
+</section>
+      <h4><a class="xref" href="Funique.Video.IFileImage.html">IFileImage</a></h4>
+      <section><p>File manager, responsible for image related files <br>
+------------------------------------------------ <br>
+檔案管理, 負責圖片相關</p>
+</section>
+      <h4><a class="xref" href="Funique.Video.IFileStreaming.html">IFileStreaming</a></h4>
+      <section><p>File manager, responsible for streaming related files <br>
+------------------------------------------------ <br>
+檔案管理, 負責串流相關</p>
+</section>
+      <h4><a class="xref" href="Funique.Video.IFileURL.html">IFileURL</a></h4>
+      <section><p>File manager, responsible for url related files <br>
+------------------------------------------------ <br>
+檔案管理, 負責連結相關</p>
+</section>
+      <h4><a class="xref" href="Funique.Video.IFileUtility.html">IFileUtility</a></h4>
+      <section><p>Merge interface for file manager <br>
+------------------------------------------------ <br>
+給 檔案管理者的 整合介面</p>
+</section>
+      <h4><a class="xref" href="Funique.Video.IFileVerify.html">IFileVerify</a></h4>
+      <section><p>File manager, responsible for verify related files <br>
+------------------------------------------------ <br>
+檔案管理, 負責認證相關</p>
+</section>
+      <h4><a class="xref" href="Funique.Video.IFileVideo.html">IFileVideo</a></h4>
+      <section><p>File manager, responsible for video related files <br>
+------------------------------------------------ <br>
+檔案管理, 負責影片相關</p>
+</section>
       <h4><a class="xref" href="Funique.Video.IVideoUtility.html">IVideoUtility</a></h4>
       <section><p>Video utility, Unit testable <br>
 ------------------------------------------------ <br>

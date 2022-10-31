@@ -2764,6 +2764,12 @@ references:
   commentId: F:Funique.Client.ClientXRManagerData.VideoSphere
   fullName: Funique.Client.ClientXRManagerData.VideoSphere
   nameWithType: ClientXRManagerData.VideoSphere
+- uid: Funique.Client.IClientAndroidUtility
+  name: IClientAndroidUtility
+  href: api/Funique.Client.IClientAndroidUtility.html
+  commentId: T:Funique.Client.IClientAndroidUtility
+  fullName: Funique.Client.IClientAndroidUtility
+  nameWithType: IClientAndroidUtility
 - uid: Funique.Client.IXRManagerUtility
   name: IXRManagerUtility
   href: api/Funique.Client.IXRManagerUtility.html

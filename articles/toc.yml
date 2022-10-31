@@ -74,8 +74,46 @@
 - name: Server
   href: ServerGuide.md
   items:
-  - name: Quick Start
-    href: Server/QuickStart.md
+  - name: Cinema
+    href: Server/CinemaGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Cinema/QuickStart.md
+  - name: Media
+    href: Server/MediaGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Media/QuickStart.md
+  - name: Network
+    href: Server/NetworkGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Network/QuickStart.md
+  - name: Player
+    href: Server/PlayerGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Player/QuickStart.md
+  - name: Setting
+    href: Server/SettingGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Setting/QuickStart.md
+  - name: Streaming
+    href: Server/StreamingGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Streaming/QuickStart.md
+  - name: UI
+    href: Server/UIGuide.md
+    items:
+    - name: Quick Start
+      href: Server/UI/QuickStart.md
+  - name: Video
+    href: Server/VideoGuide.md
+    items:
+    - name: Quick Start
+      href: Server/Video/QuickStart.md
 
 - name: Developer
   href: Developer.md

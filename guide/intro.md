@@ -1,8 +1,17 @@
-# Funique Documentation
+# Funique Documentation For User
 
 In this documentation, you will see how to setup a unity project\
 Inherit framework logic then Writing your own components\
 And contribute help us improve our code quality
+
+If you spot a bug or something want to report to dev, you can use the github issue feature\
+You can find it in any project page
+
+![issue1](../images/github_issue.png)
+
+Post your issues there, we'll investigate them
+
+![issue2](../images/github_issue2.png)
 
 ## Architecture
 

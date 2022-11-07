@@ -114,8 +114,3 @@
     items:
     - name: Quick Start
       href: Server/Video/QuickStart.md
-
-- name: Developer
-  href: Developer.md
-- name: Contribute
-  href: Contribute.md

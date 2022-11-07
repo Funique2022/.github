@@ -6,8 +6,6 @@
 - name: Core
   href: CoreGuide.md
   items:
-  - name: Overview
-  href: Core/Overview.md
   - name: Manager
   href: Core/Manager.md
   -name: Preprocessor

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/funique/Documents/github_head/.github",
+  "source_base_path": "C:/Users/funique/Documents/GitHub/github_head/.github",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.ICinemaClientUtility.html",
-          "hash": "ibt8w01UuJ9h+PLNNbJc6KpV9K+15aasSTsr2WYMO1o="
+          "hash": "OjIE1qlKPzi0SHxJ83pCsZRh4vgJcqMtGEFVck/2MPA="
         }
       },
       "is_incremental": false,
@@ -650,6 +650,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Designer.AssetBundleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Designer.AssetBundleHelper.html",
+          "hash": "KZOhWxbSJJmdhUVzS9q2ID7V4EG97z30deNeNuUnncw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Funique.Designer._MenuItem.yml",
       "output": {
         ".html": {
@@ -666,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Designer.html",
-          "hash": "l8HE1YUHnPWWcryIB7f5M+B2SiyeZGanZpZtq77YdmY="
+          "hash": "++lG2vLFRfy8WCHB63m/pOCLizcKrHKoVCC1j07miNQ="
         }
       },
       "is_incremental": false,
@@ -906,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Im3u8Streaming.html",
-          "hash": "b47MSKK5kCPaaCcuIRVfLWiEoOZd+wnBpyuIQCRfhUc="
+          "hash": "PNFwL7Sgs49komwn/xXgWO/hIWcSR5W2gO3Q2z4zQ9c="
         }
       },
       "is_incremental": false,
@@ -942,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ListExtensions.html",
-          "hash": "WoOSpvHUVt9w1Ow2/3O0sNzFvy1pdL6Z4fYMqGWRG48="
+          "hash": "s62J/EVzHBIQGQg0b3RdNryrrLDNbuwufeYMOqKescc="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.StreamingManagerUtility.html",
-          "hash": "1lXmr5vBWblrUCXllt+n9RMnFQ/g1ARtEz0w6nq6tFk="
+          "hash": "+mwVbybz7FYPPajf+/QNXnuU7FVchdtneZWEpzUUWas="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.UIClientManagerUtility.html",
-          "hash": "MLWgsvmlYRK6ejkBDifsf420j596C0dTFI+VKJQWwpE="
+          "hash": "Lt5jLLoqnCIDiu50VIxYTuKDKeimuMunQTvI5jVpcwg="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.UIManagerUtility.html",
-          "hash": "6HG5WYIv/SaYXJ4AivwcJgCoJ/QUK96bZExSTy/9qpE="
+          "hash": "bBQ6yO93ashsrMkWLq0IXc5rGI+klpXrFB2ukT/4EjA="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.VerifyClientUtility.html",
-          "hash": "3EJePFkRBLQUHr7017hXHfYGg32D7uF3TUZ+sU93hnM="
+          "hash": "2RlfkFi/PtR+bDayK1WBTuhZpYg/CbEBiMuUp+48H6I="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.html",
-          "hash": "dDjOqPv5OQ1NRifqOg36tatAnTVrL6u717O8oAGIvKU="
+          "hash": "tIYLUEAfOenD2OJibJ1YXdzOlaJRbhZRRWA8R8uvJDw="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.FFmpegWorker.html",
-          "hash": "eKVRJpmbtFZ52XocOPAhOmSGAXYI5/WroXG/B482ebw="
+          "hash": "ZppguZDBW3gX6nOEkJ996jk2sSOwZkRRS0lm3CaZdDU="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.IFFmpegWorker.html",
-          "hash": "yLPomfei7u2wBRHGsMlRcKOzM/VovsutsBRmqt/AnL8="
+          "hash": "+hR0dRzzccgwbDA8JHpCqtFw+B3q4aTEDAV9NDLEyL4="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.IStreamingManagerUtility.html",
-          "hash": "4JnXM4M3g/Fwhp1Z9XrJcbv73NxqCGODa6r7K3OS5rg="
+          "hash": "9g0WeBBP0Nnj6KN1e+F9OCGtJ+vQbBSfILNTjo7qq/k="
         }
       },
       "is_incremental": false,
@@ -1878,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.StreamingControllerBase.html",
-          "hash": "TLXxnQSJA18A5n+Wiv/ySFyxiitJUuGM7ArxyMWiSIs="
+          "hash": "SW64ROHyEmWAhaAJAJVeo/u4eB3RKPRBhEIFASowPFE="
         }
       },
       "is_incremental": false,
@@ -1890,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.StreamingManagerData.html",
-          "hash": "BQ6N7eSvAI6UKFVeZxO1EHkj/ldQOgPm/tmPMhzJUu4="
+          "hash": "CHzgvQZHTk4O+kyQrKrTo1vGTCeEvBnGSis+nm6Sny8="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Tool.html",
-          "hash": "LxJ2PVVXPyuVxyt9JkjS97Ca0nhAR1aOMAWFaAywhJQ="
+          "hash": "Z8gJo8c7P4zZHTrfLKqyEp5/F+imzlzQv2g13GplHuA="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ClientRightMenuSetting.html",
-          "hash": "bk62ChNeDnq0zsGAiyFS2LQo181zl7X2RLWjMy0Umv8="
+          "hash": "FcPJOGlH5nma/zdF5Jik4eGqx44SvBDYwRJwNY0buLo="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IFuniqueToggle.html",
-          "hash": "O1YfbqXLvcZRXU1M4fSJ/0/RYrKr/8YqlPELa8EHkGI="
+          "hash": "aZZfhzwZTur+pvzIOqqD8lB64iVvS71W2xl0Ywkl5Nk="
         }
       },
       "is_incremental": false,
@@ -2130,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IUIClientUtility.html",
-          "hash": "QH7wvJCqEAJeMz9vPhzGhpSR+hcwFoM+K/8cEOh5VD8="
+          "hash": "+UxRp6525cF4SNZaVhQTTHpdPLMbAuGxC8n2qdnXC+A="
         }
       },
       "is_incremental": false,
@@ -2142,7 +2154,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IUIUtility.html",
-          "hash": "ypWfzT5xD6Is7Y236ykBEHd9wXDtghelE4IkF4BBOI8="
+          "hash": "7Umkhi9bskZ+85LtBN6JbT4hX/Ag8viJTLFXB2yhZqo="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.RightMenuSetting.html",
-          "hash": "SD1NLR3dgOLA3nbun/GhJxQT1EwApL+c8fmYj/y9ZBo="
+          "hash": "B21X2uQBv2cMd3H8vG0yGmDU+hZMOIxSHXsCRY/3044="
         }
       },
       "is_incremental": false,
@@ -2466,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.UIClientManagerData.html",
-          "hash": "l39QMSZrEiwkEOGZ9b3OfwPqFP63SY3izpsyM5xDMXM="
+          "hash": "JxuKKq4aNsF078M/p0EYnUoLmlWUVBZ0IuQAKlWqaPo="
         }
       },
       "is_incremental": false,
@@ -2478,7 +2490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.UIManagerData.html",
-          "hash": "o9Zy/3h0scM9e3meT+V+MDJqIm/7irkskkK0j90MZDk="
+          "hash": "pBKx1Vge3RmakiIMhkjz8qhaAeYYzVaSuqGH57Cz25o="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.DynamicValidation.html",
-          "hash": "v8h36MpIDFXM3tkthMOklZMGZQpJsyAv1SmXZ/dmDyI="
+          "hash": "5Bni+i1i3qKagg3bXqFWuKTMYkN7KQ7TJGpGo9lynrw="
         }
       },
       "is_incremental": false,
@@ -2562,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.FuniqueSetting.html",
-          "hash": "0z8N8ozFprmENv1jdAlPS1M+TSDNnPNaMWXx1GxfvBM="
+          "hash": "GMtzQdnXfpk6APgFnLQJYpGNF67j5F9iJGcgjOWrNZQ="
         }
       },
       "is_incremental": false,
@@ -2574,7 +2586,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.ICRM.html",
-          "hash": "pyo1Hf4wKseyT2sVp3dTFAldutsfDHt9jOdRnUS5wFY="
+          "hash": "Hq5IMw8OCLPVDYDuBxD/oxIKUXYgFrNkkPvGe5dVUtA="
         }
       },
       "is_incremental": false,
@@ -2586,7 +2598,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.IVerifyClientUtility.html",
-          "hash": "9AvliXS+wnjrYCHV9liz82ENv1pETfYZX0OWPbV9eww="
+          "hash": "YDYQ0SXeAzMm6ZFadA49UsrbID81uMt26qRnFsv4jCM="
         }
       },
       "is_incremental": false,
@@ -2610,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.UserData.html",
-          "hash": "48UNObGwdDzhTSMFxM7P9Bv67FWeilz1a1F5pYALnMA="
+          "hash": "ITSC4g1Qh+GgE+qDt8iHnbV1lV0H2zETyMYmSgM9g3o="
         }
       },
       "is_incremental": false,
@@ -2622,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.VerifyClientData.html",
-          "hash": "pTf4TE2+e0xjCJLHgnBW7CLjBQucNEnv0tIaHlcyhPU="
+          "hash": "nHJY4yKmTAxZVQAumpBL6axITYLzDfxfHxziQKwJyjE="
         }
       },
       "is_incremental": false,
@@ -2634,7 +2646,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.html",
-          "hash": "lT4lKRQvp+4lD5t+1cw2HUncRIC+0PEX6FqUnYOSMOU="
+          "hash": "zJCMpU8mF598g8jUUkOpDk00IWNkcHx6MNZRYCne3pk="
         }
       },
       "is_incremental": false,
@@ -2742,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileVideo.html",
-          "hash": "cKiuJ4qTkXzUqOwNhXbqnBHb/ZePssujmbU10T7NAi0="
+          "hash": "H5+QklZGbiA1X+bro2TWVM+5iy2GiV+OPy6CiA0rthk="
         }
       },
       "is_incremental": false,
@@ -2874,595 +2886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "XFNwKAONpPF7wFrsjPdKO9T1ecJTUq0JUwJyU1SI4+g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Cinema/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Cinema/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/CinemaGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/CinemaGuide.html",
-          "hash": "f2bRwVjw/YqIFONx7/AZSKvh2J3z7dEk5SudC0MT72E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Client/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Client/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/ClientGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/ClientGuide.html",
-          "hash": "tJbnPHmW1wi6zM3HmvEE9Gbhqlu0HpjCnBBax4Q/3TI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Dissonance/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Dissonance/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/DissonanceGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/DissonanceGuide.html",
-          "hash": "o/l8+kuyvH3Mu8/+ZOSkWyQYsGkOEWNLkhJ/rWeZhQE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Media/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Media/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/MediaGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/MediaGuide.html",
-          "hash": "ou2aQZ55JvK0zo72WNlJUGU0qyb2NsAd/TKysmDv8ZE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Monitor/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Monitor/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/MonitorGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/MonitorGuide.html",
-          "hash": "gTg22kyGm9Kr1p82N7GxrSGWKq09BamJ7oeMxxRGl1A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Network/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Network/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/NetworkGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/NetworkGuide.html",
-          "hash": "JeZTZ/W+MoipLPUJonPOi5GpQGbyh9X2VlZ+wWKIbN8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Setting/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Setting/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/SettingGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/SettingGuide.html",
-          "hash": "RAB4nCfH+ofFFGruZ+Sm88WiE7DAxPwp14DPCF0uwNk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/UI/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/UI/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/UIGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/UIGuide.html",
-          "hash": "5r6HhWz5BhQAQmDyYWXsWIO53WuO+XZqJG8yb7Hjhv4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Verify/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Verify/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/VerifyGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/VerifyGuide.html",
-          "hash": "Epcln36d6X8UDnHcdowvjmpS0QDg9SHCMR0C4n+KLdU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/Video/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/Video/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Client/VideoGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Client/VideoGuide.html",
-          "hash": "cK0LhL6GXJtend+T7N3mlmysciNFKq0XhmK49cx27qk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/ClientGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/ClientGuide.html",
-          "hash": "0/f7gd3ea0vR4x/fbBmw0Cyptw2EOEGvqoZaRMWZ6yY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Contribute.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Contribute.html",
-          "hash": "K7XClVySyz83aKoCmRz4OfamFW7cvHuD6viUHsHZJQA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Core/Overview.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Core/Overview.html",
-          "hash": "Ws1wOwF29wFP4IAiUDQQ9PZQt7hebzvR9UL794CNyqM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Developer.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Developer.html",
-          "hash": "hWbJJ+skX/K+bMvttHoBvEZWhvniIVwE7F5MuBHmXfc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Cinema/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Cinema/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/CinemaGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/CinemaGuide.html",
-          "hash": "6b1fk8KPAVzvtfYirWMairy3lDd8pgTr8DhoBFKGWAc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Media/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Media/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/MediaGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/MediaGuide.html",
-          "hash": "ctDhgEPlYvmv8PyZAYdUidcQRJtxOWnyUCTSAo+cp8I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Network/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Network/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/NetworkGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/NetworkGuide.html",
-          "hash": "QCiFJuVVk/IQPDMiZveWwVdjgLEAngL8b01ia/CPtIY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Player/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Player/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/PlayerGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/PlayerGuide.html",
-          "hash": "cbP6rHbNyBKKogntFAuaEazZePR27iKG/iikm+Cq5Dw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Setting/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Setting/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/SettingGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/SettingGuide.html",
-          "hash": "HGK5mLVwKc9O7g0PS3NiMmIBLBwv9in9pNcSWbS3vpY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Streaming/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Streaming/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/StreamingGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/StreamingGuide.html",
-          "hash": "SucnWxJzyFoQzwu84lTKTYaCUXnk4Dm7gzBiheoC+8Y="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/UI/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/UI/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/UIGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/UIGuide.html",
-          "hash": "JKnLniHN+cMZwpIzFbI7avZQLa8vJrw/YdLO0XMYzYY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/Video/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/Video/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Server/VideoGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Server/VideoGuide.html",
-          "hash": "wkcnMoLdAd7fP4J0u4xYKuum/mx49Q00/w/wfU5HHhc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/ServerGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/ServerGuide.html",
-          "hash": "jj8uDftbig1N51N2CPTab55AG6yQc1vVPW6XpguonKU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Setup.html",
-          "hash": "hbuH/5MNYqW3g6GtDY1v78hza0PW9NQxKejh59HC/d0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Tool/Designer/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Tool/Designer/QuickStart.html",
-          "hash": "sqg8erh58uLsSBQzA9bVWJCio9uWYez7W3kw8qrSOFg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Tool/DesignerGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Tool/DesignerGuide.html",
-          "hash": "357aJBZwXJdiQh7HGdMk7+EUf81eMsVjGMAhh+tN/p8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Tool/Hub/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Tool/Hub/QuickStart.html",
-          "hash": "Qa1DriBg6aEhEskJKmsMS94uNi/2VaGIpNX5k6SbIbg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Tool/HubGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Tool/HubGuide.html",
-          "hash": "aPwMSi0jM/IvLLi7B3rLJn2g/7e2Oeb4juRFbckedIc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/ToolGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/ToolGuide.html",
-          "hash": "e3JpJPQ1eJJZ94lutYFexjT7I3aQPpGKclzZuUv//q4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "WKYnsVG/Uy2lSptOlws3nqSF9fnj29LIrg9Zryc6Mm8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "rgaO6bnNWDdszUyVzpWlWBCC6t91lZm9IjjadJzoCPc="
+          "hash": "/ctKOXiM4Uzt83m8fSBUIyL0EVWj8kF3VHxif3ycdOo="
         }
       },
       "is_incremental": false,
@@ -3513,12 +2937,92 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/dependencies.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/dependencies.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/github_issue.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/github_issue.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/github_issue2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/github_issue2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/mainscript.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/mainscript.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/media_fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/media_fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/mediaplayer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/mediaplayer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/verify.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/verify.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ytoHCcIPbAvtZCLAStWQE6wTqS4K1Vg2kuoO+it3JgA="
+          "hash": "LdgNaCe8pYCkLND3NBmEEcX+KmZFDKkZZCHYwqh1rJg="
         }
       },
       "is_incremental": false,
@@ -3530,7 +3034,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "gXz4HSBpma5toAtO7XszbFPTGoy38vgfCMOEhTTnE2c="
+          "hash": "P2C9xXpLacNrD8CJDRExVyACR4xfalNZZzhMR56jqps="
         }
       },
       "is_incremental": false,
@@ -3551,13 +3055,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 50,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 237,
+          "total_file_count": 238,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

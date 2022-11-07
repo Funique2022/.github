@@ -3343,6 +3343,25 @@ references:
   isSpec: "True"
   fullName: Funique.Designer._MenuItem.ScanFixed
   nameWithType: _MenuItem.ScanFixed
+- uid: Funique.Designer.AssetBundleHelper
+  name: AssetBundleHelper
+  href: api/Funique.Designer.AssetBundleHelper.html
+  commentId: T:Funique.Designer.AssetBundleHelper
+  fullName: Funique.Designer.AssetBundleHelper
+  nameWithType: AssetBundleHelper
+- uid: Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper
+  name: OpenAssetBundleHelper()
+  href: api/Funique.Designer.AssetBundleHelper.html#Funique_Designer_AssetBundleHelper_OpenAssetBundleHelper
+  commentId: M:Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper
+  fullName: Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper()
+  nameWithType: AssetBundleHelper.OpenAssetBundleHelper()
+- uid: Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper*
+  name: OpenAssetBundleHelper
+  href: api/Funique.Designer.AssetBundleHelper.html#Funique_Designer_AssetBundleHelper_OpenAssetBundleHelper_
+  commentId: Overload:Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper
+  isSpec: "True"
+  fullName: Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper
+  nameWithType: AssetBundleHelper.OpenAssetBundleHelper
 - uid: Funique.Direction
   name: Direction
   href: api/Funique.Direction.html

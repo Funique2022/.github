@@ -6,6 +6,9 @@ apiRules:
         uidRegex: ^UnityEngine\.MonoBehaviour
         type: Type
     - exclude:
+        uidRegex: ^Facebook
+        type: Type
+    - exclude:
         uidRegex: ^UnityEngine\.Component
         type: Type
     - exclude:

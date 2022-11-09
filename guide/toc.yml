@@ -7,9 +7,9 @@
   href: CoreGuide.md
   items:
   - name: Manager
-  href: Core/Manager.md
-  -name: Preprocessor
-  href: Core/Preprocessor.md
+    href: Core/Manager.md
+  - name: Preprocessor
+    href: Core/Preprocessor.md
 
 - name: Tool
   href: ToolGuide.md

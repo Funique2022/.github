@@ -26,162 +26,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.BootstrapperBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.BootstrapperBase-1.html",
-          "hash": "V2nSND16li7rL5iOLn9SNi2Q+W33PC9GisgHcRo9r5A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.Const.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.Const.html",
-          "hash": "fS3x2aCmNtq/pp/ii1eXadu6GtqKaCJ9yQuQJPqHpTM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.FBAudio360Bootstrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.FBAudio360Bootstrapper.html",
-          "hash": "UmTP9s/NCDZT+e7efH74Xk4BwERM8eB1PM25LN7gQ/U="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.Job.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.Job.html",
-          "hash": "1cKPh1S1n7UKYYL7APr73FA+f2hLbk6rk/Z3dXJfH8E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.ListExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.ListExtensions.html",
-          "hash": "JYGItOOYEIkwrRl9ExGVuvRVWUIKkc9G+hL7iEtS1Fs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.SPSCQ-1.Reader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.SPSCQ-1.Reader.html",
-          "hash": "f+CHjRJXq+/U4tU7eStOc2+B+PVWrIMAOyqnWCEpjBg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.SPSCQ-1.Writer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.SPSCQ-1.Writer.html",
-          "hash": "dIYHeKe/pONmHGFsNtDp1XZkG6Snl+0hjgSm4N68eqs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.SPSCQ-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.SPSCQ-1.html",
-          "hash": "QiipnS5LmsyybzmjAN2fpm32ccZGQ18zLpAW1bET+2U="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.TPool-1.CreateObject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.TPool-1.CreateObject.html",
-          "hash": "391vAWNi3W7Jqfo8H8WT+l8k2k41TuAEbwAHN4YEBBI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.TPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.TPool-1.html",
-          "hash": "RUE91uKQ8IceK9LhyPd3Mv6sTIKxS0ormVXA8m85EDk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.WavSimpleHeader.WavFileFormat.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.WavSimpleHeader.WavFileFormat.html",
-          "hash": "iWWEHchjL+lYPG/FUeiF27Vy2yx9b7f8v42fiDaiII4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.WavSimpleHeader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.WavSimpleHeader.html",
-          "hash": "RVYK3MnvVSWBD4wEVFUtlyu1xmlsioVbGukLoakDrqQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Facebook.Audio.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Facebook.Audio.html",
-          "hash": "guAyMh7dN5bUngLQyQKM8OVE4ecJ3wthN36n0RLwsgk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Funique.AccountData.yml",
       "output": {
         ".html": {
@@ -2658,7 +2502,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.Container-1.html",
-          "hash": "DpA1BPRd3LL55oFYFBu2D0yHxQugnK4WjU88S7w65QY="
+          "hash": "Tdeaq2cTJ/qmC4CtvlbmOC5AvG0PwQdChQFTFPvQ3jo="
         }
       },
       "is_incremental": false,
@@ -2886,7 +2730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/ctKOXiM4Uzt83m8fSBUIyL0EVWj8kF3VHxif3ycdOo="
+          "hash": "PyZ9uBmxJs38+OJ3PZ6k6eeeJaMPaGl3xmlD1Iz43Ok="
         }
       },
       "is_incremental": false,
@@ -3522,7 +3366,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/toc.html",
-          "hash": "q026IJAdsiI3wFQV/MCgpYw6LQU6uZpPiCPmQrqOs3s="
+          "hash": "2u7xjROySwHz7beam89DjyRWz7LKGnMBN9fzcmNTKAg="
         }
       },
       "is_incremental": false,
@@ -3667,7 +3511,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "oQ6nyPvH+E5FJo9Xr/WblHne8O4l7oMf3msy50IxCYY="
+          "hash": "EWdw327ZPG9KFD9nLdWDgZCg14/mLkIFubTnU1OKCfI="
         }
       },
       "is_incremental": false,
@@ -3694,7 +3538,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 238,
+          "total_file_count": 225,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

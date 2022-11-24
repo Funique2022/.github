@@ -97,7 +97,14 @@
   
   <h1 id="Funique_DynamicDirection" data-uid="Funique.DynamicDirection" class="text-break">Class DynamicDirection
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Facing direction reflection <br>
+Dynamically copy a rotation to another object <br>
+This could apply offset, multiple with eularangle, and with ignore direction flag <br>
+------------------------------------------------ <br>
+面向方向映射 <br>
+動態的映射一個物件的旋轉至另一個物件 <br>
+可以套用位移, 乘積到歐拉角, 還有忽略座標軸</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -121,20 +128,24 @@
   <h6><strong>Assembly</strong>: Funique.Core.dll</h6>
   <h5 id="Funique_DynamicDirection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DynamicDirection : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Funique/Core/Dynamic Direction&quot;)]
+public class DynamicDirection : MonoBehaviour</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_DynamicDirection_Dir.md&amp;value=---%0Auid%3A%20Funique.DynamicDirection.Dir%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_DynamicDirection_Dir.md&amp;value=---%0Auid%3A%20Funique.DynamicDirection.Dir%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_core/blob/v1.0.0/Component/DynamicDirection.cs/#L21">View Source</a>
+    <a href="https://github.com/Funique2022/funique_core/blob/v1.0/Component/DynamicDirection.cs/#L37">View Source</a>
   </span>
   <a id="Funique_DynamicDirection_Dir_" data-uid="Funique.DynamicDirection.Dir*"></a>
   <h4 id="Funique_DynamicDirection_Dir" data-uid="Funique.DynamicDirection.Dir">Dir</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A vector that player pointing to center <br>
+------------------------------------------------ <br>
+玩家指向中心的向量</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -157,14 +168,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_DynamicDirection_QB.md&amp;value=---%0Auid%3A%20Funique.DynamicDirection.QB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_DynamicDirection_QB.md&amp;value=---%0Auid%3A%20Funique.DynamicDirection.QB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_core/blob/v1.0.0/Component/DynamicDirection.cs/#L23">View Source</a>
+    <a href="https://github.com/Funique2022/funique_core/blob/v1.0/Component/DynamicDirection.cs/#L43">View Source</a>
   </span>
   <a id="Funique_DynamicDirection_QB_" data-uid="Funique.DynamicDirection.QB*"></a>
   <h4 id="Funique_DynamicDirection_QB" data-uid="Funique.DynamicDirection.QB">QB</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The quaternion of the direction vector <br>
+------------------------------------------------ <br>
+方向向量的四元數換算</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

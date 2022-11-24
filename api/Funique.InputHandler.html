@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WavSimpleHeader
+    <title>Class InputHandler
    | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WavSimpleHeader
+    <meta name="title" content="Class InputHandler
    | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
@@ -92,40 +92,60 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="Facebook.Audio.WavSimpleHeader">
+                    <article class="content wrap" id="_content" data-uid="Funique.InputHandler">
   
   
-  <h1 id="Facebook_Audio_WavSimpleHeader" data-uid="Facebook.Audio.WavSimpleHeader" class="text-break">Class WavSimpleHeader
+  <h1 id="Funique_InputHandler" data-uid="Funique.InputHandler" class="text-break">Class InputHandler
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">WavSimpleHeader</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">InputHandler</span></div>
+      <div class="level4"><a class="xref" href="Funique.AxisHandler.html">AxisHandler</a></div>
+      <div class="level4"><a class="xref" href="Funique.AxisHandler2D.html">AxisHandler2D</a></div>
+      <div class="level4"><a class="xref" href="Funique.ButtonHandler.html">ButtonHandler</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Facebook.Audio.html">Facebook.Audio</a></h6>
-  <h6><strong>Assembly</strong>: Funique.Cinema.dll</h6>
-  <h5 id="Facebook_Audio_WavSimpleHeader_syntax">Syntax</h5>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Funique.html">Funique</a></h6>
+  <h6><strong>Assembly</strong>: Funique.Client.dll</h6>
+  <h5 id="Funique_InputHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WavSimpleHeader</code></pre>
+    <pre><code class="lang-csharp hljs">public class InputHandler : ScriptableObject</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Facebook_Audio_WavSimpleHeader_UpdateDuration_System_IO_BinaryWriter_.md&amp;value=---%0Auid%3A%20Facebook.Audio.WavSimpleHeader.UpdateDuration(System.IO.BinaryWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/main/apiSpec/new?filename=Funique_InputHandler_HandleState_XRController_.md&amp;value=---%0Auid%3A%20Funique.InputHandler.HandleState(XRController)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Facebook.Audio/WavSimpleHeader.cs/#L96">View Source</a>
+    <a href="https://github.com/Funique2022/project_unity_development/blob/main/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/InputHandler.cs/#L8">View Source</a>
   </span>
-  <a id="Facebook_Audio_WavSimpleHeader_UpdateDuration_" data-uid="Facebook.Audio.WavSimpleHeader.UpdateDuration*"></a>
-  <h4 id="Facebook_Audio_WavSimpleHeader_UpdateDuration_System_IO_BinaryWriter_" data-uid="Facebook.Audio.WavSimpleHeader.UpdateDuration(System.IO.BinaryWriter)">UpdateDuration(BinaryWriter)</h4>
+  <a id="Funique_InputHandler_HandleState_" data-uid="Funique.InputHandler.HandleState*"></a>
+  <h4 id="Funique_InputHandler_HandleState_XRController_" data-uid="Funique.InputHandler.HandleState(XRController)">HandleState(XRController)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateDuration(BinaryWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void HandleState(XRController controller)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,60 +158,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.BinaryWriter</span></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Facebook_Audio_WavSimpleHeader_WriteHeader_System_IO_BinaryWriter_System_UInt32_System_UInt16_System_UInt16_Facebook_Audio_WavSimpleHeader_WavFileFormat_.md&amp;value=---%0Auid%3A%20Facebook.Audio.WavSimpleHeader.WriteHeader(System.IO.BinaryWriter%2CSystem.UInt32%2CSystem.UInt16%2CSystem.UInt16%2CFacebook.Audio.WavSimpleHeader.WavFileFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_cinema/blob/v1.0.0/Facebook.Audio/WavSimpleHeader.cs/#L74">View Source</a>
-  </span>
-  <a id="Facebook_Audio_WavSimpleHeader_WriteHeader_" data-uid="Facebook.Audio.WavSimpleHeader.WriteHeader*"></a>
-  <h4 id="Facebook_Audio_WavSimpleHeader_WriteHeader_System_IO_BinaryWriter_System_UInt32_System_UInt16_System_UInt16_Facebook_Audio_WavSimpleHeader_WavFileFormat_" data-uid="Facebook.Audio.WavSimpleHeader.WriteHeader(System.IO.BinaryWriter,System.UInt32,System.UInt16,System.UInt16,Facebook.Audio.WavSimpleHeader.WavFileFormat)">WriteHeader(BinaryWriter, UInt32, UInt16, UInt16, WavSimpleHeader.WavFileFormat)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void WriteHeader(BinaryWriter writer, uint fileSampleRate, ushort numOfChannels, ushort numBitsPerSample, WavSimpleHeader.WavFileFormat format)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IO.BinaryWriter</span></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.UInt32</span></td>
-        <td><span class="parametername">fileSampleRate</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.UInt16</span></td>
-        <td><span class="parametername">numOfChannels</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.UInt16</span></td>
-        <td><span class="parametername">numBitsPerSample</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Facebook.Audio.WavSimpleHeader.WavFileFormat.html">WavSimpleHeader.WavFileFormat</a></td>
-        <td><span class="parametername">format</span></td>
+        <td><span class="xref">XRController</span></td>
+        <td><span class="parametername">controller</span></td>
         <td></td>
       </tr>
     </tbody>

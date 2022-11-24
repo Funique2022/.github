@@ -26,11 +26,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ABRDisplayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ABRDisplayType.html",
+          "hash": "9WKSg8LXqO6QkHXXtGs0Q0J+AfdvB7cKY8PjpKPrenI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Funique.AccountData.yml",
       "output": {
         ".html": {
           "relative_path": "api/Funique.AccountData.html",
-          "hash": "2xfjt3esk+hPqVmm4JTcPaGuyxs+QBWIkomVDbNhegE="
+          "hash": "+TI279TRrjpR10vWxiw68ryjWG+XuiGrfnrdihD+vy8="
         }
       },
       "is_incremental": false,
@@ -62,6 +74,150 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler.Axis.html",
+          "hash": "fQfvNPtbX6Z2m+ncMtCBRiezM5dKjEGs3WgNFdhJHTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler.StateChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler.StateChange.html",
+          "hash": "m/fBNRyxfgkh0LgeBkdqz9FG+vl89muvNFxtlUZQr9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler.ValueChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler.ValueChange.html",
+          "hash": "FLyUQVvqN91kghYEqaQ3Gn8s1TU8/fgE+Nq4B3zLMJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler.html",
+          "hash": "WcVaNfs4bL/8o8Fy29pEFou6YjaFF463DvYT8vUVYNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler2D.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler2D.Axis.html",
+          "hash": "HLMB/3f14K6MSRlKQlOtubNZ4U5q/PZBc816PBxZHXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler2D.DebugText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler2D.DebugText.html",
+          "hash": "E5PlvydX5/wTYcKl2rnUzph6zkY1A8hFvv9wt2g2jKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler2D.StateChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler2D.StateChange.html",
+          "hash": "6oGM7efeLBajrLTR7QEUywt8l/92mhPpMlAUtlLSTZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler2D.ValueChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler2D.ValueChange.html",
+          "hash": "ade6TMW/AJ6/F2PfRAaA+m0pQpmqtKT+FbzoXxT3VMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler2D.ValueChangeVector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler2D.ValueChangeVector.html",
+          "hash": "4NlgomNFnXb6Y7wvWdyAtsUf/Up1HzDu+q9iioHXAWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.AxisHandler2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.AxisHandler2D.html",
+          "hash": "mg/HPKoft9C2Iv/wruhX4iDiO3db5Su4qDOoPGsZd1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ButtonHandler.StateChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ButtonHandler.StateChange.html",
+          "hash": "Cs1MoLMDMWvK0WGv2eey5JW7kLErVmcUJpTSMkLCEx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ButtonHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ButtonHandler.html",
+          "hash": "Bx6BxzWzuSTa55OEFq9iC3Sgwzuefnhbggq0DIdxLos="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Funique.Cinema.ApplyMeshType.yml",
       "output": {
         ".html": {
@@ -78,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaDataCollection.html",
-          "hash": "xK/zbqDQ13shEaiNvD7zeghqk+Txum5yCugGLkMV7zQ="
+          "hash": "kHlBRDi/44L6+2pHiDMgSSlLajPUaWfMsww/ENO+dFA="
         }
       },
       "is_incremental": false,
@@ -90,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaLabelData.html",
-          "hash": "JnCEWc2oioyplj4SA+Y4eATdIetFyedUbVkhASxmr4c="
+          "hash": "Dopu4bzZWQWYAUHI+9D9EgLTn7c3B17skcK+QHP1XSo="
         }
       },
       "is_incremental": false,
@@ -102,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaLabelListenerBase.html",
-          "hash": "u+zImeSojOtNS1YWwAJmN+HZumlPuC2Nhi2NHW8pWvg="
+          "hash": "/l4Fj1zghUWGashE4M/nA0tKfG3WnHBpDyOXSzpsTRM="
         }
       },
       "is_incremental": false,
@@ -114,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaLabelViewBase.html",
-          "hash": "/T0RF7+4nfagIGahX2nKj1uC1Z/NNp0v/e/f0v2Vg6Q="
+          "hash": "qpOIZhbPhGLb+5EPJinqcFSq1K2VhO0C/OsmthnTnek="
         }
       },
       "is_incremental": false,
@@ -126,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaManagerClientData.html",
-          "hash": "YNBtzDhoqRDg2mwHl+Yvm08+SJUV9tH+29ixcVysgUw="
+          "hash": "J6Cp7KC0iZ7uNqfl6yuA0brtXvbcJVH5af76Ms70lfg="
         }
       },
       "is_incremental": false,
@@ -138,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaManagerServerData.html",
-          "hash": "y4U/Wv/V1rcqfU+O4glnq0vwDw+WHAZKs62aiEzTmoA="
+          "hash": "xYlt/KG26hwGq0lSM8QUWUtJ54yO5up5rIcTDo3bLBc="
         }
       },
       "is_incremental": false,
@@ -150,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaMediaPlayerBase.html",
-          "hash": "yydJ+Qyn5+lzEAX7yMw9tAaGZKGGN3r7RARpBYIFwsY="
+          "hash": "cgJCPmuXYYmo7gsafAGKA7ci1yfm2raDd15hfeO209s="
         }
       },
       "is_incremental": false,
@@ -162,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.CinemaView.html",
-          "hash": "Lw5kBLkovDKQqXGcsq4SfxIPXabeoOeBQNaowjIRu7A="
+          "hash": "Hg4reZNzm9D0s0hUJ0qtZOua3j5XxhgzZLFW/O1nhYg="
         }
       },
       "is_incremental": false,
@@ -174,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.GazeEventArgs.html",
-          "hash": "hP/7kNYqm3Tt1rOGAQ1syDR1kQj5gv2musYVhTRu3d4="
+          "hash": "kS2UPb+YJwLOikDsJ4RUqkjG3Sbd2tzy/Gnwn7mrh3g="
         }
       },
       "is_incremental": false,
@@ -198,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.GazeToPlay.html",
-          "hash": "VQwLNofs8Pcej9VrCiufxG6758/P5y7fKILAWn9dHH8="
+          "hash": "ltLhUGBW+c6j6m4838JYw/HJdfML0r/FiYiUX9cQ4d8="
         }
       },
       "is_incremental": false,
@@ -210,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.ICinemaClientUtility.html",
-          "hash": "OjIE1qlKPzi0SHxJ83pCsZRh4vgJcqMtGEFVck/2MPA="
+          "hash": "seBlXyG4up5tWRR/Wn1cyl0GIJslD77ubSJiAunSU8o="
         }
       },
       "is_incremental": false,
@@ -222,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.ICinemaServerUtility.html",
-          "hash": "d+tn5fXhljetkVn4gdWceFInzNR2M9TVL6MbHajf3+4="
+          "hash": "vVXAdFZzesrPWBjmfpkAPwLt7XrVBctOaPHXg3hVvyM="
         }
       },
       "is_incremental": false,
@@ -234,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.MapStereoConfig.html",
-          "hash": "zr/+vWxkNd23WKhsuC++xYfvPgqYUpWRB94MUxz3Vtc="
+          "hash": "zUGhB+8fYL6iWtGU7p3Wul5usfj3tzoRs0gTArHw2K8="
         }
       },
       "is_incremental": false,
@@ -246,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.MediaPlayerOption.html",
-          "hash": "B5MJl2qyWAqJXxXv5Hj+dyNOTFXqnyvDbgLJ4/4C9vU="
+          "hash": "fQhBoUBqVMwXo32ekLtSxOsImXGZ7nwbB+lAzZL3+YA="
         }
       },
       "is_incremental": false,
@@ -258,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.NowPlaying.html",
-          "hash": "bGC606shbP+sbQy5Q35bxo73edSdA0/PblBJI45eiJE="
+          "hash": "o2KJUFHQdMEQWX5RKbN3iSWvOZT7xj8TvfOtZZ1enE8="
         }
       },
       "is_incremental": false,
@@ -270,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.PlayableType.html",
-          "hash": "5YaTCdaZ3K1UxAdVUyqYJPSng1II1zqG97dNyv9QzkA="
+          "hash": "cdb1kcsGtvHv63Jg5a9gFjifalxFG+hLAm4W+mpMeFw="
         }
       },
       "is_incremental": false,
@@ -282,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.SetGazeUI.html",
-          "hash": "QsuPT/qz4htTY4yu4YdtPeWBtlxVqbBTy/cXBme32RQ="
+          "hash": "/nXcJUKXRHg6DODcOZPsZCbaVUonMSIyUkslhx3cQaE="
         }
       },
       "is_incremental": false,
@@ -294,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Cinema.StereoConfig.html",
-          "hash": "A1hZKClqtJMqsbn8Q1LIfSPdgHi9KFvClkxQp7nzOv8="
+          "hash": "nXr/inptdR6SAPg+Ltwg6yKgLkgzTM9bqaex0tI1u78="
         }
       },
       "is_incremental": false,
@@ -342,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Client.ClientStandAloneManagerData.html",
-          "hash": "/G+LMZL6E89lEYk+KhWmwX49vMFIrF01iFG7A2edKoY="
+          "hash": "/PLO4KEwziDGZnqf12PHVtLWKqDXmtolTQna6J+8l+A="
         }
       },
       "is_incremental": false,
@@ -354,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Client.ClientTheaterManagerData.html",
-          "hash": "KDcQtFJ5OeqXyQ4volX6IXloiQsmzf/lWgokgvlx8Ws="
+          "hash": "Gw1zs0nw18+QqIp3YnZMKM88Tf4UryCyGs7IYPyEhzY="
         }
       },
       "is_incremental": false,
@@ -366,7 +522,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Client.ClientXRManagerData.html",
-          "hash": "erOyj8PMYvTD8Y3VYMVEyl1EyjcyCHtaNWXHOaCWx6M="
+          "hash": "jPsAWMzjbUFjLXVd2G86lFRnGsUpVPFkWubUODdM7n8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.HomeMark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.HomeMark.html",
+          "hash": "OeQHP9u1wxY1aW3sgbhB9Zygc92g9EKTolry8JA3X40="
         }
       },
       "is_incremental": false,
@@ -390,7 +558,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Client.IXRManagerUtility.html",
-          "hash": "b07SvQEKrMvQ7SK284WeaHb1kkm9IOn8XxiAL3o/jZ4="
+          "hash": "IGtmNZ6n9rJbY7++q9fV73vS7ZTKftPOE82TFWl68rY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Client.Movement_Fly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Client.Movement_Fly.html",
+          "hash": "cfxDF+Rw3Agl3FqCuWzqmnc+ZF16qi05DsLjs9w/RvM="
         }
       },
       "is_incremental": false,
@@ -402,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Client.StandAloneUIController.html",
-          "hash": "HKk0AP/95N1QSxYJgXdf79wIwyHJJxpejW1AoG8irnY="
+          "hash": "Ax8bRucXIKPfSpdo+ZCKBjq0Q+MNE0pUyljjMbNVO5I="
         }
       },
       "is_incremental": false,
@@ -414,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Client.html",
-          "hash": "yuiA9UWoOmait3p+4fSzfvVoiw3k1IqhbVfIsi89m0s="
+          "hash": "fXgG/SV8WPD3Ez0o0XP0Luj1/B8fLML4heLU5FDSK94="
         }
       },
       "is_incremental": false,
@@ -426,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ClientActionControlBase.html",
-          "hash": "ivO4F2LdI5VMLJUHGOoM70Dr4U3lH9/VOW6GliLH+do="
+          "hash": "fZj3QvHGvCpmesI/JjyEb8utdBrp9osYQGoEozh3B6Y="
         }
       },
       "is_incremental": false,
@@ -438,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ClientInMasterPlayerState.html",
-          "hash": "aG8O2TD+NH7/r3UDMQbXNLATs0IrY6IvV0Xgr7XIP5Y="
+          "hash": "c9cjO1gc0GK5+H6adqIHpNc15xVNi6yw43gI17TUgDE="
         }
       },
       "is_incremental": false,
@@ -450,7 +630,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ConfirmView.html",
-          "hash": "uZlsSmrsw8F1Jv0dYQ+ya+ii2Are2BUQ7nv9Pva/Re8="
+          "hash": "RztnLdU1h2JQL9f/FuAU+CMwvLSaBidAVIGObXqULR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.ConstString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.ConstString.html",
+          "hash": "wbKOcX9FhDMtRBF+f0d/CWzT4aKbnevAkSQVownrMDE="
         }
       },
       "is_incremental": false,
@@ -462,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.CoroutineHelper.html",
-          "hash": "X7NzVchuFnp4zbmE67gJIZwrxVqxmUCGQO4W4K5J36Q="
+          "hash": "kpaMdEroePOd026Ns7grg8G++8hXXXofCuIeatHk7+I="
         }
       },
       "is_incremental": false,
@@ -474,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Counter.html",
-          "hash": "FkPMC8iEGBvKG9eYSoCz2+JYT5p4/M4rVWrLSLNVI1I="
+          "hash": "FEg/1uvBzYZJuhYlAqGt8Fppr4KDvk1r27OZhtzK2ow="
         }
       },
       "is_incremental": false,
@@ -486,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.DOF.html",
-          "hash": "akSAqjjkVn4lXWevQdHKvRzfMuO/Q3uJwPSAClO9U1M="
+          "hash": "iMebwhtNSoRH8gFqUNcCurSDBuOo+Aa7IO3gJZgyIZ0="
         }
       },
       "is_incremental": false,
@@ -498,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Designer.AssetBundleHelper.html",
-          "hash": "KZOhWxbSJJmdhUVzS9q2ID7V4EG97z30deNeNuUnncw="
+          "hash": "j6DFHMNCDQWCC69Ytb6krueR+MTrg1fwswrUSTzAJPo="
         }
       },
       "is_incremental": false,
@@ -510,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Designer._MenuItem.html",
-          "hash": "2xTR+bzyOA0TC4I7ZiIawAiL4E7pYqzbYxdSHxazNuE="
+          "hash": "iItqoDiHIIqYmttKaf7mFC4w0ICZF+V3ZKhzWrm+JOU="
         }
       },
       "is_incremental": false,
@@ -530,11 +722,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Funique.Direction.yml",
+      "source_relative_path": "api/Funique.DevMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Funique.Direction.html",
-          "hash": "egtErkbafv7nrkVfp4deZBYFL38qrrd8c+SnGrFL7Ug="
+          "relative_path": "api/Funique.DevMode.html",
+          "hash": "6fAD7qvUqCmonyekGoN6blXwEgjtxIVnVKVEJMLH0W0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.DirectionFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.DirectionFlag.html",
+          "hash": "Y3YZf+eSLXzUQlpkfs3xJisFt963biPGFUnpimQG5m0="
         }
       },
       "is_incremental": false,
@@ -546,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Disable.html",
-          "hash": "rxLPMqZGlWF7Iz7b48cPabomfIkmz6lhkTogz4kliVA="
+          "hash": "t/YQEzty0s0aUEWt8W18EhF097hfHkH1b0dQiumVCfM="
         }
       },
       "is_incremental": false,
@@ -558,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.DisableIf.html",
-          "hash": "/3L73/lwWewBXkErDbexQwscXJ1eSZE65WBMVaa90D4="
+          "hash": "bJ66HMb59I/L0TeGeY/fLzinRdpCCoeikr0zhog2zvE="
         }
       },
       "is_incremental": false,
@@ -570,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.DynamicDirection.html",
-          "hash": "8OY+S4JFUoYMOcO98pdXKJt79hEZnM+7gNRKkPVQeEc="
+          "hash": "wCeo7doRwflHw/blICHiEtvAlR5kwwGIbKdaOIOfwmU="
         }
       },
       "is_incremental": false,
@@ -582,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.EnumCycle-1.html",
-          "hash": "NVO+7Yh8YOwMFMHerGjVyVQzA0BJYPLJLLIka+sA57o="
+          "hash": "7Mfsh5sfl2L6bsm61FCk8/zNB4yj+PqssOKT3aZNQ3Y="
         }
       },
       "is_incremental": false,
@@ -590,11 +794,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Funique.ErroCode.yml",
+      "source_relative_path": "api/Funique.ExampleListener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Funique.ErroCode.html",
-          "hash": "Po80am0orOlDb33xqPRw8kLxaZseifwJ2io1EK61GdQ="
+          "relative_path": "api/Funique.ExampleListener.html",
+          "hash": "5ogMJ0phtCQe6OKE5bVMPVcMkQjKLzTuEwobxemUdPc="
         }
       },
       "is_incremental": false,
@@ -606,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.FFmpegExtensions.html",
-          "hash": "MmKLn3R59y8MwvlCG6U00jkoxyjgOvBU8Aj/3GIk2iI="
+          "hash": "dizCjGYKF+OnRbsmW9XTHrRxxSGYEJYgfwPbv+0IRNU="
         }
       },
       "is_incremental": false,
@@ -618,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.FPath.html",
-          "hash": "0s9t6ki/w4Cb7dyTTyfxVlKOQbneLZOvmv8st4Jy+eE="
+          "hash": "mJs3UkYK1DtStb5gfjQ98L3Vlyi50Hpf6pFdB/e8AQQ="
         }
       },
       "is_incremental": false,
@@ -630,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.FollowCam.html",
-          "hash": "IR+2qQp7f4j4ycCnTwx7PJsR052mqUQ9HrEwLR+i12o="
+          "hash": "v1uIA56F94C2eH0vk+rOKhi290K5WiW0lRpIGver5ok="
         }
       },
       "is_incremental": false,
@@ -642,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ForceActive.html",
-          "hash": "Hn+MD7SLUGuB/CLNGO59m6lbmPGl9mAFuZkhXkjyISk="
+          "hash": "DUrowjr58VQOdwuVy7Ht1k3cSOPJRLlYUUzl1y1CdB0="
         }
       },
       "is_incremental": false,
@@ -654,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.FuniqueLogger.html",
-          "hash": "HBZUYAH/1l+YxqWsalXpX+mi+SvvO+Ziqu8XNpdCBoE="
+          "hash": "TM9TRhfmdYyqPC4qmC/8CEDhdzhHraNunfFzJFpCHx8="
         }
       },
       "is_incremental": false,
@@ -666,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.GPU_Texture2D.html",
-          "hash": "ZGFee3ulHzcHkXtsQpqAsDa+ughhUC+cMx35QYUPhKQ="
+          "hash": "q1vMN5S524gx2JkqGBAlugOcmrHW/XnuKWdNRxbaB5o="
         }
       },
       "is_incremental": false,
@@ -678,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.HideIf.html",
-          "hash": "DlbEDh6+IHEG1McJQ6+vmOn6Jjc6RIWS8olU97E28YU="
+          "hash": "tqytXyYhTeZliAjhxc02OFqjb6G2hwIzDE7QDzdsCeI="
         }
       },
       "is_incremental": false,
@@ -690,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ILogger.html",
-          "hash": "P4pXcVg2EQbCnoChRBF5CSvtbidzimqMRVGBY+4KZUE="
+          "hash": "P3fyetYH/fv08txt5/7Hv/HJUpnvIoa7xTnbFfCznHQ="
         }
       },
       "is_incremental": false,
@@ -702,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.IModuleBase-1.html",
-          "hash": "frcsoDC5MOJWMM3bmqoZnRThgPMx2sgNAh252O6kCEE="
+          "hash": "gp5cpY2fF5yiPrwll9FiEfHIyRzxacEeNFbpboh7nGw="
         }
       },
       "is_incremental": false,
@@ -714,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.IToolPlayerInformationExtension.html",
-          "hash": "qXehX6HQUYUdGAIYoi9pTV8ySEvlwLDSgGIBvn+pNio="
+          "hash": "8FQ19IglqoXJUTRtq/QuQIwmsvLAewsDtJTF90QNHXs="
         }
       },
       "is_incremental": false,
@@ -726,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.IToolStringExtension.html",
-          "hash": "x4A4udeWttiBmCT+YlrVTHbnIEpt5M910vxvCmOzFD8="
+          "hash": "x97SH4bCeN6jhh7CJVZpNuziNqxR4vxheQeNKmBRlqw="
         }
       },
       "is_incremental": false,
@@ -738,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.IToolUtility.html",
-          "hash": "atu36XqXPuuo0Q93CeEonfrBm8Cmgq59cX8xDNg4W/w="
+          "hash": "QFUwECDhH763puX2jLhXXkEh6VHW23Vm6AV8V0zki3A="
         }
       },
       "is_incremental": false,
@@ -750,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.IToolVideoInfoExtension.html",
-          "hash": "hVs2JG1eOf52ZRR8wGfTW/aZCnvIfvPfc9I3B010OEM="
+          "hash": "+xuJXu9746LrtyQB2rHGqiKtOrZi/0GGzlzROWGwYLg="
         }
       },
       "is_incremental": false,
@@ -762,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Im3u8Streaming.html",
-          "hash": "PNFwL7Sgs49komwn/xXgWO/hIWcSR5W2gO3Q2z4zQ9c="
+          "hash": "5OQARdyrQb/7ouFVY9rSRORBF8pK7r6xriy8nQxDiYE="
         }
       },
       "is_incremental": false,
@@ -774,7 +978,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.InfoBase.html",
-          "hash": "zL9hgwIDNymCv8Ps0WMIXKJY21dThqciqTqoZNM1XF4="
+          "hash": "py2f92YFndk6rDV8oKvu9Zf/LFEbe0TkRRXFDQwcAq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.InputHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.InputHandler.html",
+          "hash": "dfNz3TGBmnhLOGsu2KInvI0KYWsKBb+n/Td7XkJ2qGY="
         }
       },
       "is_incremental": false,
@@ -786,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.LanSniffing.html",
-          "hash": "5fXO0wSNVeK2g8UAWd/xNFe6aQCOq5jicZ6dIoQHfJ4="
+          "hash": "Mqg1GcbadlDH5Z73q53FRkXngJtlq1kWu80Hw+a2fdc="
         }
       },
       "is_incremental": false,
@@ -798,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ListExtensions.html",
-          "hash": "s62J/EVzHBIQGQg0b3RdNryrrLDNbuwufeYMOqKescc="
+          "hash": "unwHEW7953RTkZBPohbjFS1xhO5U8G9Phi/mH2RwDHA="
         }
       },
       "is_incremental": false,
@@ -834,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.CinemaManagerClientUtility.html",
-          "hash": "mrD40+SeNIeHy3WCHnJGQn75RIinKlzAhxpbAr7AniQ="
+          "hash": "TJ1bfx+l9hbPTTt565lcnR0SXRNgHi4v09P5AmYYDFw="
         }
       },
       "is_incremental": false,
@@ -846,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.CinemaManagerServerUtility.html",
-          "hash": "JSjAuHeMB7+BPh8PjxtlolE2QAoVofkrnGtBrL6qE/8="
+          "hash": "wOJ2aQyMqeZvwKn7VqnwmPt6x7X4xFm8fDtWDllaoeE="
         }
       },
       "is_incremental": false,
@@ -858,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.ClientAndroidManagerUtility.html",
-          "hash": "Wmnvwt3wHXPnseuRMUoE3/vlFyG0wJZtcyjcpTpCW2A="
+          "hash": "Q53eyIbdKrkxuFJOSoFj/oSMAy1/FbHPjJgObUxl4Q0="
         }
       },
       "is_incremental": false,
@@ -870,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.ClientStandAloneManagerUtility.html",
-          "hash": "RJb5q2a+YLL+p4ENDkWJ6rIHsoGXsdCoYbWXuJg3Hwc="
+          "hash": "OoHfSrZhtjeYUfEc6RVm5j0Q3z8oPlAyHvSAXSvAm1M="
         }
       },
       "is_incremental": false,
@@ -882,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.ClientTheaterManagerUtility.html",
-          "hash": "mWHLHD6v5He0CcijenTJ+WVIuov/3zZ6cJemmJzMwnA="
+          "hash": "KOz13K4ZVgUzsywxqqWkcW/Gb3WfIyZZgOIGINupR0s="
         }
       },
       "is_incremental": false,
@@ -894,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.ClientXRManagerUtility.html",
-          "hash": "wEOv4oiq9lh5O9D2eQxoo4Xv7myPmhbSFo+pVGCsnU0="
+          "hash": "6yJLtcLx0lQalNtj+0ch09BdKGh6zgWWMZKAj3Ui2rM="
         }
       },
       "is_incremental": false,
@@ -906,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.FileClientManagerUtility.html",
-          "hash": "wWQaDmB3gyeYZ4rDCGSrD8ET1Cr1XxvQ/gOl6DYw4e4="
+          "hash": "LFKMFsKY6teMXt1vmMq22if8wRnxpjZaGG58UMoZ4JI="
         }
       },
       "is_incremental": false,
@@ -918,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.ManagerBase-1.html",
-          "hash": "Xk61FGfomKZVB5jz/pTI1uzy4xxe78+Cg3IstKn5ywk="
+          "hash": "BTtmLcaCnJkJlVDCnVCBs1/qe0mMahjEIuH0z7AzMdg="
         }
       },
       "is_incremental": false,
@@ -930,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.ManagerBase.html",
-          "hash": "MCcLwYSzv4aNp51a4swRugbuPCJJ8pV/AQ7BDhdiZ8k="
+          "hash": "glzjLsasGTCH1tgdoM55OiO7sct/1w3ncjSx9xztaTA="
         }
       },
       "is_incremental": false,
@@ -954,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.MediaManagerServerUtility.html",
-          "hash": "4lqlqLH99VOnKr+1gh0qzH63Ur1CKiS/t+DOB7yHOFo="
+          "hash": "xPGfuDflW350cYj6q5qZE06knx/NKKLFBpFD6gw5hvw="
         }
       },
       "is_incremental": false,
@@ -966,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.NetworkManagerClientUtility.html",
-          "hash": "Bui71WLsDFDvr87YF1bq20O/5k3fMw0FBxDJJ3OPQwI="
+          "hash": "aWwDfrDygUulX/oRFcTL9eF7LVyAifHegdgPTKHl3Ws="
         }
       },
       "is_incremental": false,
@@ -978,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.NetworkManagerServerUtility.html",
-          "hash": "+I4X9RbBaefkMNH69ED/PO1CqV5x3YL7Y/rPAih8p74="
+          "hash": "dx+oChYglgNwjAfMj0vfKXcQuKOWsMelP7dl1CAYtSQ="
         }
       },
       "is_incremental": false,
@@ -990,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.PlayerManagerUtility.html",
-          "hash": "3YfiRkhtfENXljT/PJYxPz6mWsOj6DcQV7VQKyh6Zfo="
+          "hash": "mm80IZPYq9V9IZE9/Rkf39Z5ajo5P3HdFfypnsVyCUc="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.SettingManagerServerUtility.html",
-          "hash": "m2rcUV0LnJ8XkGyN2u40w4z6AVNWhibh+DG3lwri6Kc="
+          "hash": "QdZEaLwsO+CBfWGgYNL4Z01pEST7oHCD0zYtkX5QaCo="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.StreamingManagerUtility.html",
-          "hash": "+mwVbybz7FYPPajf+/QNXnuU7FVchdtneZWEpzUUWas="
+          "hash": "gYFuzqH+PPOarmAIwO53GFsgxWjxFhVALyhSKaP4/6E="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.UIClientManagerUtility.html",
-          "hash": "Lt5jLLoqnCIDiu50VIxYTuKDKeimuMunQTvI5jVpcwg="
+          "hash": "aoC1ApxECeMX+v+c3HJxvxrzgUeQx6sMhvWB+lR/GgY="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.UIManagerUtility.html",
-          "hash": "bBQ6yO93ashsrMkWLq0IXc5rGI+klpXrFB2ukT/4EjA="
+          "hash": "6tCR9KWE/JOAOgq9m0CSKkJ6fPQ84pQgM5+Pzq+KNdw="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.VerifyClientUtility.html",
-          "hash": "2RlfkFi/PtR+bDayK1WBTuhZpYg/CbEBiMuUp+48H6I="
+          "hash": "x8vrNvUia1T4U+rGzd19PQ1vFnr+vjnjxQPk9tTISoU="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Manager.VideoManagerUtility.html",
-          "hash": "g2G0ZnFaIg5PPIo4MUIXi78uSpg5ZeBSaU4UjEKCWMc="
+          "hash": "l/8+EmEHHJHQ2VVWnCmuChdM5msd//bBCe/d6zyCyuc="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.MasterInfomation.html",
-          "hash": "DXOWrs/PmzQh2EPCtW6DwIp8an5y+pT8vkcjaykSd+E="
+          "hash": "bzZ4SztoPDfYcr1SIxnbrwRfpz0CAaCFmAhXMDH12LM="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Media.IMediaControl.html",
-          "hash": "/vE8otrh/4KBwZryylLHU1+R9tNPJvpijnK9zZnstag="
+          "hash": "5qhrH8d+pxlhxUhRNKr/XQZdzGlct/88jVwn0j9Sxsc="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Media.IMediaSend.html",
-          "hash": "IdkK7qGfCAKJAyaMmTJhnkusds90YyUHNTN2jjAaEHc="
+          "hash": "EaxsPsqRoKDyDZoR9WQ9/9BvANH/eJMYqW9QhVwyRd0="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Media.IMediaServerUtility.html",
-          "hash": "ucF/DGoVJBGMdMxW6U3SDSBIwkCSrMXAgnbXV4sYAAc="
+          "hash": "sTDw12lz/m134uz676maQ0rJrQxiwnS5ApcZeBpIB00="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Media.MediaManagerData.html",
-          "hash": "grq6+rN7WA8FK3t6pNvPp+AhBWsvrzaHT04ltlS1MX4="
+          "hash": "vSobl9SIc/yNCIb53tvGo3yPi0y9Cv8Pskh0kkAqrvM="
         }
       },
       "is_incremental": false,
@@ -1178,11 +1394,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Funique.MediaChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.MediaChannel.html",
+          "hash": "T6mT3/Rf50l7oHIzmqV04TXT/Hu65Tsicno2PIoTQJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Funique.MediaControllerBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/Funique.MediaControllerBase.html",
-          "hash": "rNncZYBefwI68T8NEGTsHfNJGMR+5fZ06meeYSE+tLU="
+          "hash": "Zi8ezZT4Zzp6Pp3xkLOKM1FZCpwvbSjTLAjNO+9tDRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.MediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.MediaType.html",
+          "hash": "dNJfkzFJCcWtliSdvVv0Q5ppHp0mOTl/oU+EyIjWuC8="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.DisconnectEventArgs.html",
-          "hash": "aY+rU5r8IRoxcdt5W/yps+j2/O71CpVNCRWecbFGavU="
+          "hash": "0Bu0zpeJN/donQd2Qk4Vtc0TTOgB19mCZDGH9pyGet4="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.ErrorEventArgs.html",
-          "hash": "Xh1TWhbpKQ4NVaGFCrmrk3xTv21AoXXqqG+rKlAwnn4="
+          "hash": "PWdmJc30OqJ+tsqID0T6r03R+8IDxtYTYLUihsO67HE="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.INetworkClientUtility.html",
-          "hash": "rOKV+cnB9260YLQZASEz+MdThufUdJwFwcedxDy4o04="
+          "hash": "XTD43/ybsypPOLmYTx5477j/SRoy2BDlk+YREx1riK4="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.INetworkEvent.html",
-          "hash": "x8ALeGq6gVxKXVRgiR3f7jq8dKfCRcsx+UNUgWr5/tg="
+          "hash": "VPmrlH6VyWlGLOEEUBu9rB80JoctjW/zhxWK+1Xtatg="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.INetworkOSC.html",
-          "hash": "UBiASyTAC/PeZNDOfaI3H4aSkYKxiaNJrXUlGNpoHm0="
+          "hash": "jnI1cVF+B6woLmTpMbO+D/wpVy5ZGS9s5axYsODDddA="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.INetworkServerUtility.html",
-          "hash": "lWEXIY19Zlzsh/c31oceg9jmWrOnZxayK+lBobgMzHI="
+          "hash": "1JTgxOJg6nLCG6CHyyYQUo2SfQcvLWHliE/5Gvg1uNo="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.LatencyEventArgs.html",
-          "hash": "AbnH4tB6zyjnH+Gh8yqpiZ5OmF3PErCR4KuSe9tWmjM="
+          "hash": "OhBj9XVd5+COAT59RxuE8FI1C5yCMwLH5g5ca9GvrVE="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.NetworkConst.html",
-          "hash": "3KFCFCa7pdvpGJpHASWGCLo8ihenWibDaCpTBtKWfUs="
+          "hash": "/JdY3yamKVOTgdxf1kvp7KMVYbFLFpfXia+Ks58M1+c="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.NetworkManagerData.html",
-          "hash": "EZrmeDFqt1/o/lhiFCNJYU6yr8kOxnbE52A0PyOfIkI="
+          "hash": "zyGZnjZc7kNkPs82iqTCzUrb2VvRCkTKONaZBDRtxuo="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.PeerEventArgs.html",
-          "hash": "0T1ud5qyVGajvjwWmEk2GBHSTs1435rOD5LKDYYVi/M="
+          "hash": "VE2Cut+2kE7VKOLg9uVkWJ0mP9JGOkatol9qSZVzKAU="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Network.ReceivedEventArgs.html",
-          "hash": "0zrs381SZtshY3Uv6jlNrYqnwy6vgVf5yXAcOwft1xc="
+          "hash": "lzEvHeCl3azPKPYrV8bATUU0LDtdrjgmA+e4leYzl+c="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.PhotoInfo.html",
-          "hash": "7DJDlCP8SiWWrQD92dOQkWlTlX1MayD7CWHqaJ1w7DU="
+          "hash": "Ee8poJ1ma1pu+GnQYAjq3Y5ZJT1I2kNsMUo9bE7qSS8="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Player.FakePlayerView.html",
-          "hash": "/3Dhpo3l7rvrSQEAKHXnjfZT+8VL2o1LlmC5umDs3dQ="
+          "hash": "bTHbvhqJvv0hLCQShUiBkh88SZyu+rWvsWusqTK6PIg="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Player.IPlayerUtility.html",
-          "hash": "E0uPZzgG+voVdgu5XDSZqAgfeCL+LtOZ3xBOWiYDjCI="
+          "hash": "1YpA0KcpJ238ISIO1abtRsxcSRA7lapvLMMHlwhZ/kg="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Player.PlayerManagerData.html",
-          "hash": "OEIR1r3V2pfNA0P2Q/62lrLTDPAlWwgQ944Qd3aYbtY="
+          "hash": "4C8sR9ZrCnwdcE5PKYrsFqBiOhI8XUv+eMSB/0C5kiQ="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1650,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Player.PlayerViewBase.html",
-          "hash": "xMZya5wuRtazCl6+DomIWbDO0tNzJ8Ng1+ffN66ITi4="
+          "hash": "fj7g7Gj2oVOBk85lOfQOyLEw/v+9wRxsVs9qvABdbj4="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.PlayerInformation.html",
-          "hash": "N9fmeQrv3jwgc6jfQXKANfn2bVcsVyitDnwRQEg5+IY="
+          "hash": "1cVddQq302VRLzMR3hJlTvXCOu60VPN6dipZRByZ6/Q="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.PlayerInformationExtensions.html",
-          "hash": "Qqg+iYK7QgWSQ264/ipNTFvjIoKqskmQMLP/dGPeyJU="
+          "hash": "sYi4mFeW6VcVEWn7Yu+ccar1BOlICxAZKsx9O6Y9OrE="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.SavedPlayerName.html",
-          "hash": "FnPM5DKHwi9rQI752GGKH9OKYJP+FPZGKzO36PW67Yc="
+          "hash": "RzJkYhh/yCR3+2XLsavLmW6m34wyrLklUCBPMkjCxFI="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Serialization-1.html",
-          "hash": "uWO+5+44+zbRohw7RDqCNkRxFDHDNkbpMIEuHpxe798="
+          "hash": "B1yJfiBSbDSeXzZh8nQD6X5FGFqCjZTx8flIlFdMknQ="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Serialization-2.html",
-          "hash": "wG9IFT1JnEM49QAfN2sLsi913+hrVCuVPehJecZzkLc="
+          "hash": "LebFaZTo9nqF5YCHbaEBYbcNqh5JU2n+wv4QOAkRpaQ="
         }
       },
       "is_incremental": false,
@@ -1542,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.SetPropertyUtility.html",
-          "hash": "qGQ+Tc217qxjU6/ru+kddRfAHm4DDc8j4N2zxnkUPm4="
+          "hash": "8ZBbto9adAgXAv+UlcNwvAs6Y0o0HmkLsWEhwohP5Gc="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Setting.ISettingServerUtility.html",
-          "hash": "S8kEMO9hd6kKFvZt31xkbldPu+NZCXC9eewY0YeQhqk="
+          "hash": "mMSBcuDRtCZ/tiUH+/ZIKDTt4vLxyoYC52RDllsoZS4="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Setting.SettingManagerServerData.html",
-          "hash": "Dy4qnsswU5Ov5tQEzTl72EcZEUPOk/PfdGNLVZriqrw="
+          "hash": "RFAjp0fS/DuusezhUXavUSjMxNj1uaVgYJxeD73H1WU="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.SettingControllerBase.html",
-          "hash": "pX1Eo1jgW30qf9He0c+m2wvOPBWHk+qm4u7SJmD7XTo="
+          "hash": "p/jgdq72JyvpVeTX+URIViUKhyb9qVVoS+mRkSdMmq0="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.StereoModeUtility.html",
-          "hash": "sig4CyFadlqB92okLs3Tx6AQAfn1Yxgl9r13FJ5WPdQ="
+          "hash": "iyMV7Mt2snJzk/5Ur5XaleXa4vcL/IJeaRTo43F0KRE="
         }
       },
       "is_incremental": false,
@@ -1674,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.FFmpegWorker.html",
-          "hash": "ZppguZDBW3gX6nOEkJ996jk2sSOwZkRRS0lm3CaZdDU="
+          "hash": "viFJdemnYqDy1MwFFWFAmpPjqFO/TjppPRKT2Qx5Y8o="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.IFFmpegWorker.html",
-          "hash": "+hR0dRzzccgwbDA8JHpCqtFw+B3q4aTEDAV9NDLEyL4="
+          "hash": "yubnl3Z/bUmoL46pKHcfxjQbEmB2KAwH/99s0mywy3s="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.IStreamingManagerUtility.html",
-          "hash": "9g0WeBBP0Nnj6KN1e+F9OCGtJ+vQbBSfILNTjo7qq/k="
+          "hash": "CsI3ryxU1fpYnBxYE08n5DtN/1Lr527p5+X99FE0nxM="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.M3U8Handler.html",
-          "hash": "v8tQJwWVTnH3uNkwyQvzjsjjEQxwxp07vImbofG2moI="
+          "hash": "mcNDXURheHRG1DqAKpFEJ2mVk199INzEOGTtoHFILD8="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.NginxWorker.html",
-          "hash": "BhqWDV6uTfLJvxdsIE+u+49F6G0BBcIdf+z+Ppp1BAQ="
+          "hash": "9hREPJ75YstjpDEnIgcgQzpfc3D2rH9PlDHv2/HtsHk="
         }
       },
       "is_incremental": false,
@@ -1734,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.StreamingControllerBase.html",
-          "hash": "SW64ROHyEmWAhaAJAJVeo/u4eB3RKPRBhEIFASowPFE="
+          "hash": "cKRFkIXOiegOcfT7bOwWaf4WuZCUAbP2EzzrY2Pp0q0="
         }
       },
       "is_incremental": false,
@@ -1746,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Streaming.StreamingManagerData.html",
-          "hash": "CHzgvQZHTk4O+kyQrKrTo1vGTCeEvBnGSis+nm6Sny8="
+          "hash": "3Z/U3kW69yqiyr/dJ/Jx0COAn+9e3F2xopVyOekyITA="
         }
       },
       "is_incremental": false,
@@ -1782,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.StreamingVideoInfo.html",
-          "hash": "QxCZIV2JklFURe342JMts0gKTvlkBiPitRbjIzu9360="
+          "hash": "1Nnei1hMHk3dHyzydfFkjRNlW3rirkTOAs4Uum4Tl4w="
         }
       },
       "is_incremental": false,
@@ -1794,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.StringExtensions.html",
-          "hash": "jkU0eJoel6XfHoTE0VAuh72Cc7MSOoe3ziJkzQX0Y7A="
+          "hash": "hwXsPusMHkdqLFey2RIUzmlvWOScI7/JX+i3WpgnLfg="
         }
       },
       "is_incremental": false,
@@ -1806,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.SubtitleBtnListenerBase.html",
-          "hash": "m1PyYUftUumBL0soUkajxPql2X7SwF+wmUYhE4wga6A="
+          "hash": "FgrcB1FWiLeAB8MRNvl+YRthGzcrjpx/4MM+23+1Cs0="
         }
       },
       "is_incremental": false,
@@ -1830,7 +2070,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Teleport.html",
-          "hash": "cW1EJtyXcuxWBj46TR2RLS5f7jJPSS+TLL0BhYZmuEU="
+          "hash": "9aSbaltzkb+II2Lb4EW8wuc2c8jQh3shMR5rLGwravI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.TeleportStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.TeleportStruct.html",
+          "hash": "62CXNDiEXB5NPWrOS60spem1WHUl74dBQe+VgjI6jW0="
         }
       },
       "is_incremental": false,
@@ -1854,7 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ThirdPartyApplication.html",
-          "hash": "0Wx3h6tbgLkDXV/Zl+TuEjNo7NCNgCUcI51FMl6vHik="
+          "hash": "2MMc8/sk/vIPp2/Z2npI7GiAh4+EQb6ZtMzMsZAX4fw="
         }
       },
       "is_incremental": false,
@@ -1866,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ToggleButton.html",
-          "hash": "B+BD//EaOkC3UPC6/eY0jpkm6X/lbRFqKw9+tLcwVag="
+          "hash": "Ay2Ym6ftIIO/i+phmNSOh1CGw3kfigD7mP8AZ5JXrJs="
         }
       },
       "is_incremental": false,
@@ -1878,7 +2130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Tool.html",
-          "hash": "Z8gJo8c7P4zZHTrfLKqyEp5/F+imzlzQv2g13GplHuA="
+          "hash": "rk1+ZQPFou562DTyWef2Qo9usyDlt+Qg8e1LJ5tdC8Y="
         }
       },
       "is_incremental": false,
@@ -1890,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.TypeDropdownAttribute.html",
-          "hash": "wYwYD/0sQPxyNzHZsmmxmZga1qoGbWjazHo6hIwBxhw="
+          "hash": "ly/BGT2jzP97R8q4/DE68JQZOmG3US4nKTWktzysIXI="
         }
       },
       "is_incremental": false,
@@ -1902,7 +2154,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.CircleChangeColor.html",
-          "hash": "izac4NeJCxNb3C5Oo7QsRuXE5/ZebZutVPZC+G1WPf0="
+          "hash": "E8wq0c0Vd8OYhC1EnQqyPwyGNdoaYH3niDRAxdS9Tlo="
         }
       },
       "is_incremental": false,
@@ -1914,7 +2166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.CircleChangeDensity.html",
-          "hash": "4ecyk7cZ5iFxgkj0njxayXxc+D5JjemVvvw7s3zopXU="
+          "hash": "JN5X0JphLgg27F2Ff5BKIlrLZq9Va6EsGNvH/+Cy/hE="
         }
       },
       "is_incremental": false,
@@ -1926,7 +2178,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ClientRightMenuSetting.html",
-          "hash": "FcPJOGlH5nma/zdF5Jik4eGqx44SvBDYwRJwNY0buLo="
+          "hash": "I+0xiFZZUW1CnwT4KSAo+Ha2r5Ss2WFTVa0PVtRL/GU="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2190,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ClientUIConfiguration.html",
-          "hash": "UaOA3jsO6qrAtO2rr5c4RbWABRJZZiSWGUB9n0xYb2I="
+          "hash": "WgniZdVpChJer4n0HaaP/TzkkbqqzhRfO+kZZAAnNlg="
         }
       },
       "is_incremental": false,
@@ -1950,7 +2202,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ClientUIPairData.html",
-          "hash": "ZxGq4fz2+tXmNWFE0kFLX0oaE07JerjB72SnStXrplE="
+          "hash": "7WC7iTp5qCb5YCptsI+2e3b4WB691Hv82Ng+ALvfhmc="
         }
       },
       "is_incremental": false,
@@ -1962,7 +2214,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IFuniqueToggle.html",
-          "hash": "aZZfhzwZTur+pvzIOqqD8lB64iVvS71W2xl0Ywkl5Nk="
+          "hash": "+0z06U8jaInHCActNMTW99A/1eUu33CeV8Zz3D1Qm2A="
         }
       },
       "is_incremental": false,
@@ -1974,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IFuniqueToggleMultiple.html",
-          "hash": "R/GufAGOLzxUNhouAHiHhod2MAErl9sjiy1OYFdyYOg="
+          "hash": "wywnY2yAP+LTAeWy9pAGHIAoRV4hr6QbmP7e+VIlXUo="
         }
       },
       "is_incremental": false,
@@ -1986,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IUIClientUtility.html",
-          "hash": "+UxRp6525cF4SNZaVhQTTHpdPLMbAuGxC8n2qdnXC+A="
+          "hash": "1xlLjSQEECnn8fU3eRML8W3pBSc5QJFO7CE74EoCp6w="
         }
       },
       "is_incremental": false,
@@ -1998,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.IUIUtility.html",
-          "hash": "7Umkhi9bskZ+85LtBN6JbT4hX/Ag8viJTLFXB2yhZqo="
+          "hash": "LWmqJYZ/eBvZ7AHbI7zanvEpDYbbCHH5mAQlNpKLIQw="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2262,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ImageToggle.html",
-          "hash": "yNIj6Tx317+Kz/yH4NcVfGPkEJMzc8wC6GEQpUtcmBo="
+          "hash": "u/eP8LSFLuNhgLvLqZJSA0HO/FmLnSXBwdKILJgIZeA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.KeyboardInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.KeyboardInterface.html",
+          "hash": "BYb1ClHlhKhHcV5/hjKvAhCIAvocjd3Epn0tc5t74NE="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Marquee.html",
-          "hash": "/OAJlP2LJ29DaTvBDi9DVtpsy6X1ET33Tfhad7AGhVM="
+          "hash": "E6pHuheJ1Ce/8EvNTaH/8hrc5fCi0qmePpIVj2PUnLQ="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Menu.MenuElement.html",
-          "hash": "WTNWAaRT2lXM3OcvbZPr8pclZRh5Vhty9nM7CIATAAI="
+          "hash": "t2bAL6uTqw6bzzfo2VHiPqB0tMSXNlKOfde1t0AoS2c="
         }
       },
       "is_incremental": false,
@@ -2046,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Menu.MenuFrame.html",
-          "hash": "J/tV5LVQ5Wpj2KfE24HVbh6gX6nn+QnLLN8TpENzB84="
+          "hash": "Jf3Py19F8+kWKkncDcSKTj+Updyj5owFdKScGy2/9M8="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Menu.RightMenuFactory.html",
-          "hash": "ackVXEVtk4MTGNfuxxbTjO6XNVxDjcEmkVDJDFFmEU0="
+          "hash": "W+CkVF2S5b2SbbG4sF9KkaBxkwLy7199yMIXWTTraus="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Menu.UIButton.html",
-          "hash": "x4xhUQAoKdxZt94jaJdEZ1uy7MGzjdDxt0vZsND1DIA="
+          "hash": "Aj16LjkqboeXPiwNiMyMYGqE1XiEpUMscpcBPCh6Mxo="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Menu.UIGrid.html",
-          "hash": "RlKm0kIlOFzdTPn8GSBeuuzyP3btoi6xoQDuB3DibvY="
+          "hash": "Zs+pfNXlcTwNO5EDDQq/OikG/TggwA3EsoXEiW/kjtY="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.Menu.UITextButton.html",
-          "hash": "/28najCrlxs2zj+b0a+w25jvY8unRBIpdTNJpw2KNQQ="
+          "hash": "13lpJPIS17ac1NFfUBHMZsHoSP4wqgGLoaU81twSNYw="
         }
       },
       "is_incremental": false,
@@ -2154,7 +2418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ReminderArray.html",
-          "hash": "zJUjnm4SA8gmbe94pG99ZvfAyQuqJkJIbENVgrZcAAM="
+          "hash": "MHgDy/y0lb4Ydye+1N9WngmlQCdEyEdym0Jbg150epE="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.RightMenuSetting.html",
-          "hash": "B21X2uQBv2cMd3H8vG0yGmDU+hZMOIxSHXsCRY/3044="
+          "hash": "HFd+r4zLBXs+Wfj7pZzkcuP/vN4X6owsJ4sg3toKlGI="
         }
       },
       "is_incremental": false,
@@ -2202,7 +2466,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.RightSliderComponent.html",
-          "hash": "6YkVDq0aARLSKKYPFC2ycGt9J8CDRBoTKPwuPF9E7cE="
+          "hash": "3M+wsLeJ9lB2V7cBPQdSoFpuMIm4pSo1YRDgZoGFWAk="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ToggleMultipleSprite.html",
-          "hash": "Aaphh/yNQHeAu+ycdCyTd4CX5KiJqiYgpADl0bd/lno="
+          "hash": "qll2s7eZBxH5TzTuNwU17I6cvNSgJsecJmIfYWyBao8="
         }
       },
       "is_incremental": false,
@@ -2226,7 +2490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ToggleMultipleVisibility.html",
-          "hash": "Xd13y9DJ83Mpc8h/poeS6Ql/4mjsIocWd7nnAAarOhc="
+          "hash": "nn7ejHWdWayem+iRNY670NUk+UhFna7pDh/cJpGEbWI="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2502,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ToggleSwitchSprite.html",
-          "hash": "QPAF2nwqOtCpoi/2WMzR0vD/YgeLuWoksbyVD9RRJtw="
+          "hash": "boDyevCmKwolbcfBS07xcci7hgW1prV9T2RAQMoyHVE="
         }
       },
       "is_incremental": false,
@@ -2250,7 +2514,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ToggleSwitchSubUIInstance.html",
-          "hash": "8GChGFKB056RBPOusCg8qQm1+rwTEk89P35YsWzYPBI="
+          "hash": "CtNDvoVEtoF8eiZJU0cBAPUa0Cga+8veEXpKmeu6m5Q="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ToggleSwitchVisibility.html",
-          "hash": "+FDCGS3fw90e2ErGzI9HTWwks4BlrHZQY597O7Sz+L4="
+          "hash": "RvOOv5snFVV7w119uACQkXmRPQrHHcjq/9+Keq1SlkM="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2538,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.ToolbarButtonToggleStructure.html",
-          "hash": "1+H2CutzcIQrAcoNYajJ4weCmGOJjqnA1AhVxnWCCDA="
+          "hash": "gOd81tT1f2VMb66haEq6zz9F82SM1XNloaS5nUEJGDA="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.TooltipPanel.html",
-          "hash": "idgjsFsnIPyIjQwZR5UbK0t+mdMwZAnk5Ec7wZhAldQ="
+          "hash": "EMkqdeIdkstVsor7QMYNKsqZjNAjuwOxp9dR87DT4EY="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.UICircle.html",
-          "hash": "XfCRKvSsRoC0dN1kzEOaExO+wfBnrNL/mweK3VjZck0="
+          "hash": "wlzHmctTZca9bsHpWxo23qQF2vL3/M7uugSk2Irtzoc="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2586,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.UIClientManagerData.html",
-          "hash": "JxuKKq4aNsF078M/p0EYnUoLmlWUVBZ0IuQAKlWqaPo="
+          "hash": "kVsCEwivUEWO/Y3m1TbLXIfxguTRMJh/X46Js+zPJz8="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2598,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.UIManagerData.html",
-          "hash": "pBKx1Vge3RmakiIMhkjz8qhaAeYYzVaSuqGH57Cz25o="
+          "hash": "kAroxRRUYEcoSfnD7Zgj9cmYgG+q4x296UkN1YFJViw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.UI.UIVerifyMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.UI.UIVerifyMethod.html",
+          "hash": "WIVdFa648GM8H5r88ycdRSvbcJRPxJCsarAbHi7AfVw="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UI.html",
-          "hash": "AJ2P2Yd7i7oeQ38pNBD2HA3vtM6JT8s8A2evbG2bR2g="
+          "hash": "YuMPrgnoBmkN0YeNMg9A60Lfu5AwLeAjlFnDZYQZoe0="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UIExtensions.html",
-          "hash": "RB5TDeu/8KAtkmgnBpABAATe4BodWymPxbYAC9juYY4="
+          "hash": "C9JnSdXsD8zL/2FtcE93oWG0SYfze/Oa1vVpWmaZPCQ="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2646,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.UtilityExtensions.html",
-          "hash": "y2vh6EU4mMaub7JJ2ND3BjIfk4eS09hRusY9Dp7KGYo="
+          "hash": "Gp0tVbl5/MNk9AYCA+2KSs9zPuoGIW40qAlwiopMaIA="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.VelocityZero.html",
-          "hash": "eNV0KQqNIW6XtBJvxwMVEbwDXAHBF0T0s8HAuRfBZ3k="
+          "hash": "CC87eSLjozzNwIm8C+lJKyx9Rq6XpV+wv/7VYU4XRBg="
         }
       },
       "is_incremental": false,
@@ -2394,7 +2670,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.CRMStructure.html",
-          "hash": "eXQOZzy3Hw9Ao+zYZZhHrx26YC1u2jThj7iqXIsFGkQ="
+          "hash": "mzxYurKP9jO0hGEocYC5GjW0/5oy8/RYak3OhYac40s="
         }
       },
       "is_incremental": false,
@@ -2406,7 +2682,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.DynamicValidation.html",
-          "hash": "5Bni+i1i3qKagg3bXqFWuKTMYkN7KQ7TJGpGo9lynrw="
+          "hash": "gToJfelqQWyinJWx07IUAiI3VN5HMj0x3eo4GK0KZBE="
         }
       },
       "is_incremental": false,
@@ -2418,7 +2694,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.FuniqueSetting.html",
-          "hash": "GMtzQdnXfpk6APgFnLQJYpGNF67j5F9iJGcgjOWrNZQ="
+          "hash": "crq4IKVnNWmfjvsP4IAScXzhbigJaAsTUcKILTRJN7k="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2706,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.ICRM.html",
-          "hash": "Hq5IMw8OCLPVDYDuBxD/oxIKUXYgFrNkkPvGe5dVUtA="
+          "hash": "CWd3Y2aSgbDWBZvXsatKyPpaJXyW7DGaJ/gSnikqhC8="
         }
       },
       "is_incremental": false,
@@ -2442,7 +2718,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.IVerifyClientUtility.html",
-          "hash": "YDYQ0SXeAzMm6ZFadA49UsrbID81uMt26qRnFsv4jCM="
+          "hash": "LtS4KG0iiCATw8R3vC//DZgB/TpPczxrqis4JxZuSb8="
         }
       },
       "is_incremental": false,
@@ -2454,7 +2730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.NewMessageData.html",
-          "hash": "XyH9mCPjTt4DhS38VHh8ZXaRvf3l6KMFkvYgBLqpT3Q="
+          "hash": "nUI9kX/WpgCHiCeg793UPx8+Nt6sBLiLmlof1osKRRY="
         }
       },
       "is_incremental": false,
@@ -2466,7 +2742,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.UserData.html",
-          "hash": "ITSC4g1Qh+GgE+qDt8iHnbV1lV0H2zETyMYmSgM9g3o="
+          "hash": "s90HAeulL3+6dx3a+1faT12/ZwGh4Q4DXmQQj/h5CH0="
         }
       },
       "is_incremental": false,
@@ -2478,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Verify.VerifyClientData.html",
-          "hash": "nHJY4yKmTAxZVQAumpBL6axITYLzDfxfHxziQKwJyjE="
+          "hash": "Ef+vbJR3rKvWFX+ieWUCrNPghQMKf6MfHhDm+Zk2sBw="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.Container-1.html",
-          "hash": "Tdeaq2cTJ/qmC4CtvlbmOC5AvG0PwQdChQFTFPvQ3jo="
+          "hash": "geWVovtjXyIcG0r31Dv1VVqRwYUpc3hJdwUfNp/FLus="
         }
       },
       "is_incremental": false,
@@ -2514,7 +2790,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.FileClientManagerData.html",
-          "hash": "8fUwye7/Gq9m+IKAIQTRg3w68AUK+lBEULySq7DX/iE="
+          "hash": "ettGzzCMFf94mDRN5Jd3/F/MFveVkNjwdA8MZUFTGPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Funique.Video.IFileABR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.Video.IFileABR.html",
+          "hash": "Gv1AH8BW55Y8UrQf/cScAGWg9LhGru7AOBMBpUvnzm0="
         }
       },
       "is_incremental": false,
@@ -2538,7 +2826,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileImage.html",
-          "hash": "MbkGnG96GyOEchacKvTpX/y3pwX8imjD72rMLLlwmmU="
+          "hash": "Jt9a9+9eUjybT3YKYz8yndCgRwFVo1DVptX6MlYIu1s="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileStreaming.html",
-          "hash": "sYnUkTHjjK72cE0r2N8yRAMeCiGKj+iScrM3ZBc74YI="
+          "hash": "iO0uVj+vNYw2A6XoNjBqOKdHnlMrhtmP3Y043g0EovI="
         }
       },
       "is_incremental": false,
@@ -2562,7 +2850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileURL.html",
-          "hash": "+PrHSLSTywWZ6NoeJErUTyFKpabjI+XC2J8LfbHsiwg="
+          "hash": "QB0l38QYTfvvYriB3ydwfK0fCwTKhU6FRunpAEULB8A="
         }
       },
       "is_incremental": false,
@@ -2574,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileUtility.html",
-          "hash": "e+FCGs7Iln9ClDmfAyCfXq+NcNcarVKmerQWwaIm96U="
+          "hash": "OsFYmJbFdfj71Q+oKD0eGmlcpuWl3y1WjSOQrG8izjg="
         }
       },
       "is_incremental": false,
@@ -2586,7 +2874,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileVerify.html",
-          "hash": "r1iS7JPzkYTNdwmdmx6kjVvaV+wBFsMP64+Yyww+/Po="
+          "hash": "KQjhkdvsqjRyy5LTlmkEGh4f+kcbD4avWfZlHkvqEtE="
         }
       },
       "is_incremental": false,
@@ -2598,7 +2886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IFileVideo.html",
-          "hash": "H5+QklZGbiA1X+bro2TWVM+5iy2GiV+OPy6CiA0rthk="
+          "hash": "nlJdeIPXBZFQoMchSW1IWQqcc+QK+N2smiaYj+tAl+4="
         }
       },
       "is_incremental": false,
@@ -2610,7 +2898,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.IVideoUtility.html",
-          "hash": "KqrqKEH7XRdv3Zqs6pXPHmeuo0rVKu7Op98W5t7BS0M="
+          "hash": "2jWRTAwlXcUfJeckbU1Tne0oU04RhiB7o9PnqEbe5Go="
         }
       },
       "is_incremental": false,
@@ -2622,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.VideoFileRecord.html",
-          "hash": "/VrdW9wq1cY8DxvAaQceJ2PrwGfF95FlCMZmecNUcRQ="
+          "hash": "oyWm8v+AwxFjplaPblHL2UHJhvu4RoTrzT/aL+3XkZY="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.Video.html",
-          "hash": "HQMaP52TXtHuqk0nqKGqHthbKP7+wLMm666R3/mC/mw="
+          "hash": "T5J9b3sCdai3bqf8c0xI2Br3crhTEQuWwPOhzmRBun4="
         }
       },
       "is_incremental": false,
@@ -2658,7 +2946,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.VideoInfo.html",
-          "hash": "ucKdFXB2jRxR7nTb4ZOkZzEUW72OlyVgp+2tNg9udNw="
+          "hash": "Ja8XntDWiVz7mXhU32wyT3+/Nv4V3DMo8iqamZA/K2A="
         }
       },
       "is_incremental": false,
@@ -2670,7 +2958,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.VideoInfoExtensions.html",
-          "hash": "vlMnQhnIAT5VNWD8UtgoqOEiY96wxpV3cNNUmEqgewY="
+          "hash": "OZtKyGbFbFDm9C3ub2QwkesHSVZrlTo3TY4btk1MpX4="
         }
       },
       "is_incremental": false,
@@ -2682,7 +2970,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.VideoListControlElement.html",
-          "hash": "an/XR2ZxlcbI1RUr7xcu1mONcaOIjrTZfiTorsh6swM="
+          "hash": "lrFPCIQnYwjPudby7KZeUl3D6IFI7j8H/7DIEvMxhPE="
         }
       },
       "is_incremental": false,
@@ -2694,7 +2982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.VideoListControllerBase.html",
-          "hash": "rT9vIe8HvFl5Bk58rww8mfuBmqGp+9suh+obPnOmYLE="
+          "hash": "n/3jIEEjuMw982qNnMOLeTyiT2TMfqx/jGLpOOiTpzc="
         }
       },
       "is_incremental": false,
@@ -2714,11 +3002,83 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Funique.XRControllerGenericPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Funique.XRControllerGenericPort.html",
+          "hash": "c+q8i4aj2FSC+Yxy83kHl/yi53qHq01nkr+yEq6NaPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Funique.yml",
       "output": {
         ".html": {
           "relative_path": "api/Funique.html",
-          "hash": "wANubntVDfPm1pxbxoKfwq7uF0qpd0WhUt0aE3T4C9U="
+          "hash": "vqNa5BmsuWrwYOXmnc3c05HBR0x+g3VFsEeQ3A7cc7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.html",
+          "hash": "fSmOa/dITYLAHSSACcC4xXXL6kcgaJXhKn1lErNTQaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TalesFromTheRift.CanvasKeyboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TalesFromTheRift.CanvasKeyboard.html",
+          "hash": "86mbU+Uol/zYJAYgI0FEXROSieVhojAV/QFnSO8DTZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TalesFromTheRift.CanvasKeyboardASCII.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TalesFromTheRift.CanvasKeyboardASCII.html",
+          "hash": "lj2ydNe88Tk9gtBfyBx5zA2iqataVs3ogU+uModW174="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TalesFromTheRift.OpenCanvasKeyboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TalesFromTheRift.OpenCanvasKeyboard.html",
+          "hash": "174oFjLglUYDe6618NUMxGZCn9QpnzxhXB5B09qsa0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TalesFromTheRift.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TalesFromTheRift.html",
+          "hash": "sF/Qh5VqnjFtptWGj6EwIBLvb7xhx+JiQSOASETOgAg="
         }
       },
       "is_incremental": false,
@@ -2730,7 +3090,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "PyZ9uBmxJs38+OJ3PZ6k6eeeJaMPaGl3xmlD1Iz43Ok="
+          "hash": "gf5P70E4ivR1Q9QZKMTGulIH+QD2fjAoDBZueXsrC5Y="
         }
       },
       "is_incremental": false,
@@ -3038,6 +3398,57 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "guide/Core/CoroutineHelper.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/Core/CoroutineHelper.html",
+          "hash": "9z3jTA5lg4wW7yDVPLWm2ijAnexHCy3XnwYIIWXjXcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide/Core/EnumCycle.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/Core/EnumCycle.html",
+          "hash": "7wWRiRDHyolT4lPlHet8k4JpELabzm75ymtLnI4HEFQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide/Core/Extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/Core/Extensions.html",
+          "hash": "qppoaN71pzfAyVZfJBgMeZKXsT4HWk4KF34AeMF2j54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "guide/Core/Logger.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/Core/Logger.html",
+          "hash": "7tqDHus/kell7ISyhvVCzlof+5naVSqe1NRmZLEUZfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "guide/Core/Manager.md",
       "output": {
         ".html": {
@@ -3054,7 +3465,19 @@
       "output": {
         ".html": {
           "relative_path": "guide/Core/Preprocessor.html",
-          "hash": "aox2nPL4YGWnFpmzEUyTrt2wEndIKyBe3UxD2SxMlW8="
+          "hash": "TvXHPqaDAbH5KX4i1RLiTXfwHh6HdnJ4bT3Kqkb2Qxw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide/Core/ThirdParty.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/Core/ThirdParty.html",
+          "hash": "rXTw9Ct+4hSSDcmrk8SHHIo7109u2jkYLf3AefpJ2TU="
         }
       },
       "is_incremental": false,
@@ -3366,7 +3789,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/toc.html",
-          "hash": "2u7xjROySwHz7beam89DjyRWz7LKGnMBN9fzcmNTKAg="
+          "hash": "esF1HBGufueRoik4ICn9IKpA5tIHNyfCee58Dl6/ZaU="
         }
       },
       "is_incremental": false,
@@ -3532,13 +3955,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 53,
+          "total_file_count": 58,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 225,
+          "total_file_count": 255,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

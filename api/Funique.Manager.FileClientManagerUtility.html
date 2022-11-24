@@ -119,6 +119,7 @@
     <div><a class="xref" href="Funique.Video.IFileStreaming.html">IFileStreaming</a></div>
     <div><a class="xref" href="Funique.Video.IFileURL.html">IFileURL</a></div>
     <div><a class="xref" href="Funique.Video.IFileVerify.html">IFileVerify</a></div>
+    <div><a class="xref" href="Funique.Video.IFileABR.html">IFileABR</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -145,16 +146,46 @@
   <h6><strong>Assembly</strong>: Funique.Video.dll</h6>
   <h5 id="Funique_Manager_FileClientManagerUtility_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FileClientManagerUtility : ManagerBase&lt;FileClientManagerData&gt;, IDisposable, IFileUtility, IFileAudio, IFileImage, IFileVideo, IFileStreaming, IFileURL, IFileVerify</code></pre>
+    <pre><code class="lang-csharp hljs">public class FileClientManagerUtility : ManagerBase&lt;FileClientManagerData&gt;, IDisposable, IFileUtility, IFileAudio, IFileImage, IFileVideo, IFileStreaming, IFileURL, IFileVerify, IFileABR</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_CurrentMode.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.CurrentMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_abrList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.abrList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L58">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L52">View Source</a>
+  </span>
+  <a id="Funique_Manager_FileClientManagerUtility_abrList_" data-uid="Funique.Manager.FileClientManagerUtility.abrList*"></a>
+  <h4 id="Funique_Manager_FileClientManagerUtility_abrList" data-uid="Funique.Manager.FileClientManagerUtility.abrList">abrList</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Container&lt;InfoBase&gt; abrList { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Funique.Video.Container-1.html">Container</a>&lt;<a class="xref" href="Funique.InfoBase.html">InfoBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_CurrentMode.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.CurrentMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L59">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_CurrentMode_" data-uid="Funique.Manager.FileClientManagerUtility.CurrentMode*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_CurrentMode" data-uid="Funique.Manager.FileClientManagerUtility.CurrentMode">CurrentMode</h4>
@@ -181,10 +212,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_image_extensions.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.image_extensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_image_extensions.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.image_extensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L74">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L80">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_image_extensions_" data-uid="Funique.Manager.FileClientManagerUtility.image_extensions*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_image_extensions" data-uid="Funique.Manager.FileClientManagerUtility.image_extensions">image_extensions</h4>
@@ -211,10 +242,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Image_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Image_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Image_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Image_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L65">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L71">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_Image_Path_" data-uid="Funique.Manager.FileClientManagerUtility.Image_Path*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_Image_Path" data-uid="Funique.Manager.FileClientManagerUtility.Image_Path">Image_Path</h4>
@@ -241,10 +272,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ImageLabelPrefab.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ImageLabelPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ImageLabelPrefab.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ImageLabelPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L43">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L43">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_ImageLabelPrefab_" data-uid="Funique.Manager.FileClientManagerUtility.ImageLabelPrefab*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_ImageLabelPrefab" data-uid="Funique.Manager.FileClientManagerUtility.ImageLabelPrefab">ImageLabelPrefab</h4>
@@ -272,10 +303,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_NowProgress.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.NowProgress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_NowProgress.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.NowProgress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L62">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L63">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_NowProgress_" data-uid="Funique.Manager.FileClientManagerUtility.NowProgress*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_NowProgress" data-uid="Funique.Manager.FileClientManagerUtility.NowProgress">NowProgress</h4>
@@ -302,10 +333,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Paths.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Paths%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Paths.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Paths%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L69">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L75">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_Paths_" data-uid="Funique.Manager.FileClientManagerUtility.Paths*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_Paths" data-uid="Funique.Manager.FileClientManagerUtility.Paths">Paths</h4>
@@ -332,10 +363,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_photoList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.photoList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_photoList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.photoList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L49">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L49">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_photoList_" data-uid="Funique.Manager.FileClientManagerUtility.photoList*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_photoList" data-uid="Funique.Manager.FileClientManagerUtility.photoList">photoList</h4>
@@ -362,10 +393,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadFinish_Image.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadFinish_Image%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadFinish_Image.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadFinish_Image%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L60">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L61">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_ReadFinish_Image_" data-uid="Funique.Manager.FileClientManagerUtility.ReadFinish_Image*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_ReadFinish_Image" data-uid="Funique.Manager.FileClientManagerUtility.ReadFinish_Image">ReadFinish_Image</h4>
@@ -392,10 +423,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadFinish_Video.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadFinish_Video%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadFinish_Video.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadFinish_Video%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L56">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L57">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_ReadFinish_Video_" data-uid="Funique.Manager.FileClientManagerUtility.ReadFinish_Video*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_ReadFinish_Video" data-uid="Funique.Manager.FileClientManagerUtility.ReadFinish_Video">ReadFinish_Video</h4>
@@ -422,10 +453,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadyImageName.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadyImageName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadyImageName.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadyImageName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L61">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L62">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_ReadyImageName_" data-uid="Funique.Manager.FileClientManagerUtility.ReadyImageName*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_ReadyImageName" data-uid="Funique.Manager.FileClientManagerUtility.ReadyImageName">ReadyImageName</h4>
@@ -452,10 +483,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadyVideoName.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadyVideoName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_ReadyVideoName.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.ReadyVideoName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L57">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L58">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_ReadyVideoName_" data-uid="Funique.Manager.FileClientManagerUtility.ReadyVideoName*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_ReadyVideoName" data-uid="Funique.Manager.FileClientManagerUtility.ReadyVideoName">ReadyVideoName</h4>
@@ -482,10 +513,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_RefreshImage.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.RefreshImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_RefreshImage.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.RefreshImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L54">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L55">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_RefreshImage_" data-uid="Funique.Manager.FileClientManagerUtility.RefreshImage*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_RefreshImage" data-uid="Funique.Manager.FileClientManagerUtility.RefreshImage">RefreshImage</h4>
@@ -512,10 +543,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_RefreshVideo.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.RefreshVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_RefreshVideo.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.RefreshVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L53">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L54">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_RefreshVideo_" data-uid="Funique.Manager.FileClientManagerUtility.RefreshVideo*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_RefreshVideo" data-uid="Funique.Manager.FileClientManagerUtility.RefreshVideo">RefreshVideo</h4>
@@ -542,10 +573,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_SRT_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.SRT_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_SRT_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.SRT_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L66">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L72">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_SRT_Path_" data-uid="Funique.Manager.FileClientManagerUtility.SRT_Path*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_SRT_Path" data-uid="Funique.Manager.FileClientManagerUtility.SRT_Path">SRT_Path</h4>
@@ -572,10 +603,10 @@ public GameObject ImageLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_StreamingLabelPrefab.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_StreamingLabelPrefab.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L45">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L45">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_StreamingLabelPrefab_" data-uid="Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_StreamingLabelPrefab" data-uid="Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab">StreamingLabelPrefab</h4>
@@ -603,10 +634,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_TBE_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.TBE_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_TBE_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.TBE_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L67">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L73">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_TBE_Path_" data-uid="Funique.Manager.FileClientManagerUtility.TBE_Path*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_TBE_Path" data-uid="Funique.Manager.FileClientManagerUtility.TBE_Path">TBE_Path</h4>
@@ -633,10 +664,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_URL_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.URL_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_URL_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.URL_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L68">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L74">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_URL_Path_" data-uid="Funique.Manager.FileClientManagerUtility.URL_Path*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_URL_Path" data-uid="Funique.Manager.FileClientManagerUtility.URL_Path">URL_Path</h4>
@@ -663,10 +694,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_urlList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.urlList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_urlList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.urlList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L50">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L50">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_urlList_" data-uid="Funique.Manager.FileClientManagerUtility.urlList*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_urlList" data-uid="Funique.Manager.FileClientManagerUtility.urlList">urlList</h4>
@@ -693,10 +724,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_verifyList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.verifyList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_verifyList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.verifyList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L51">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L51">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_verifyList_" data-uid="Funique.Manager.FileClientManagerUtility.verifyList*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_verifyList" data-uid="Funique.Manager.FileClientManagerUtility.verifyList">verifyList</h4>
@@ -723,10 +754,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_video_extensions.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.video_extensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_video_extensions.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.video_extensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L73">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L79">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_video_extensions_" data-uid="Funique.Manager.FileClientManagerUtility.video_extensions*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_video_extensions" data-uid="Funique.Manager.FileClientManagerUtility.video_extensions">video_extensions</h4>
@@ -753,10 +784,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Video_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Video_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Video_Path.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Video_Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L64">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L70">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_Video_Path_" data-uid="Funique.Manager.FileClientManagerUtility.Video_Path*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_Video_Path" data-uid="Funique.Manager.FileClientManagerUtility.Video_Path">Video_Path</h4>
@@ -783,10 +814,10 @@ public GameObject StreamingLabelPrefab { get; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_VideoLabelPrefab.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.VideoLabelPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_VideoLabelPrefab.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.VideoLabelPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L42">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L42">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_VideoLabelPrefab_" data-uid="Funique.Manager.FileClientManagerUtility.VideoLabelPrefab*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_VideoLabelPrefab" data-uid="Funique.Manager.FileClientManagerUtility.VideoLabelPrefab">VideoLabelPrefab</h4>
@@ -818,10 +849,10 @@ Normally this object root should have some component to store the playable info 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_videoList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.videoList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_videoList.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.videoList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L48">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L48">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_videoList_" data-uid="Funique.Manager.FileClientManagerUtility.videoList*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_videoList" data-uid="Funique.Manager.FileClientManagerUtility.videoList">videoList</h4>
@@ -850,10 +881,10 @@ Normally this object root should have some component to store the playable info 
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Initialization.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Initialization%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_Initialization.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.Initialization%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L80">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L86">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_Initialization_" data-uid="Funique.Manager.FileClientManagerUtility.Initialization*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_Initialization" data-uid="Funique.Manager.FileClientManagerUtility.Initialization">Initialization()</h4>
@@ -867,10 +898,10 @@ Normally this object root should have some component to store the playable info 
   <div><a class="xref" href="Funique.Manager.ManagerBase.html#Funique_Manager_ManagerBase_Initialization">ManagerBase.Initialization()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_LoadAllImageFile.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.LoadAllImageFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_LoadAllImageFile.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.LoadAllImageFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L229">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L234">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_LoadAllImageFile_" data-uid="Funique.Manager.FileClientManagerUtility.LoadAllImageFile*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_LoadAllImageFile" data-uid="Funique.Manager.FileClientManagerUtility.LoadAllImageFile">LoadAllImageFile()</h4>
@@ -882,10 +913,10 @@ Normally this object root should have some component to store the playable info 
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_LoadAllURLFile.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.LoadAllURLFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_LoadAllURLFile.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.LoadAllURLFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L422">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L373">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_LoadAllURLFile_" data-uid="Funique.Manager.FileClientManagerUtility.LoadAllURLFile*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_LoadAllURLFile" data-uid="Funique.Manager.FileClientManagerUtility.LoadAllURLFile">LoadAllURLFile()</h4>
@@ -897,10 +928,10 @@ Normally this object root should have some component to store the playable info 
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_LoadVideoFile.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.LoadVideoFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_LoadVideoFile.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.LoadVideoFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L107">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L112">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_LoadVideoFile_" data-uid="Funique.Manager.FileClientManagerUtility.LoadVideoFile*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_LoadVideoFile" data-uid="Funique.Manager.FileClientManagerUtility.LoadVideoFile">LoadVideoFile()</h4>
@@ -912,10 +943,10 @@ Normally this object root should have some component to store the playable info 
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_NextImage.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.NextImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_NextImage.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.NextImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L389">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L340">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_NextImage_" data-uid="Funique.Manager.FileClientManagerUtility.NextImage*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_NextImage" data-uid="Funique.Manager.FileClientManagerUtility.NextImage">NextImage()</h4>
@@ -942,10 +973,10 @@ Normally this object root should have some component to store the playable info 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_NextVideo.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.NextVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_NextVideo.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.NextVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L190">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L195">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_NextVideo_" data-uid="Funique.Manager.FileClientManagerUtility.NextVideo*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_NextVideo" data-uid="Funique.Manager.FileClientManagerUtility.NextVideo">NextVideo()</h4>
@@ -972,10 +1003,10 @@ Normally this object root should have some component to store the playable info 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_PreviousImage.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.PreviousImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_PreviousImage.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.PreviousImage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L359">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L310">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_PreviousImage_" data-uid="Funique.Manager.FileClientManagerUtility.PreviousImage*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_PreviousImage" data-uid="Funique.Manager.FileClientManagerUtility.PreviousImage">PreviousImage()</h4>
@@ -1002,10 +1033,10 @@ Normally this object root should have some component to store the playable info 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Funique2022/.github/new/v1.0.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_PreviousVideo.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.PreviousVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Funique2022/.github/new/v1.0/apiSpec/new?filename=Funique_Manager_FileClientManagerUtility_PreviousVideo.md&amp;value=---%0Auid%3A%20Funique.Manager.FileClientManagerUtility.PreviousVideo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Funique2022/funique_video/blob/v1.0.0/FileClientManagerUtility.cs/#L158">View Source</a>
+    <a href="https://github.com/Funique2022/funique_video/blob/v1.0/FileClientManagerUtility.cs/#L163">View Source</a>
   </span>
   <a id="Funique_Manager_FileClientManagerUtility_PreviousVideo_" data-uid="Funique.Manager.FileClientManagerUtility.PreviousVideo*"></a>
   <h4 id="Funique_Manager_FileClientManagerUtility_PreviousVideo" data-uid="Funique.Manager.FileClientManagerUtility.PreviousVideo">PreviousVideo()</h4>
@@ -1054,6 +1085,9 @@ Normally this object root should have some component to store the playable info 
   </div>
   <div>
       <a class="xref" href="Funique.Video.IFileVerify.html">IFileVerify</a>
+  </div>
+  <div>
+      <a class="xref" href="Funique.Video.IFileABR.html">IFileABR</a>
   </div>
 </article>
               

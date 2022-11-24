@@ -7,6 +7,42 @@ references:
   commentId: N:Funique
   fullName: Funique
   nameWithType: Funique
+- uid: Funique.ABRDisplayType
+  name: ABRDisplayType
+  href: api/Funique.ABRDisplayType.html
+  commentId: T:Funique.ABRDisplayType
+  fullName: Funique.ABRDisplayType
+  nameWithType: ABRDisplayType
+- uid: Funique.ABRDisplayType.Bitrate
+  name: Bitrate
+  href: api/Funique.ABRDisplayType.html#Funique_ABRDisplayType_Bitrate
+  commentId: F:Funique.ABRDisplayType.Bitrate
+  fullName: Funique.ABRDisplayType.Bitrate
+  nameWithType: ABRDisplayType.Bitrate
+- uid: Funique.ABRDisplayType.Resolution
+  name: Resolution
+  href: api/Funique.ABRDisplayType.html#Funique_ABRDisplayType_Resolution
+  commentId: F:Funique.ABRDisplayType.Resolution
+  fullName: Funique.ABRDisplayType.Resolution
+  nameWithType: ABRDisplayType.Resolution
+- uid: Funique.ABRDisplayType.ScanLine
+  name: ScanLine
+  href: api/Funique.ABRDisplayType.html#Funique_ABRDisplayType_ScanLine
+  commentId: F:Funique.ABRDisplayType.ScanLine
+  fullName: Funique.ABRDisplayType.ScanLine
+  nameWithType: ABRDisplayType.ScanLine
+- uid: Funique.ABRDisplayType.ScanLine_Bitrate
+  name: ScanLine_Bitrate
+  href: api/Funique.ABRDisplayType.html#Funique_ABRDisplayType_ScanLine_Bitrate
+  commentId: F:Funique.ABRDisplayType.ScanLine_Bitrate
+  fullName: Funique.ABRDisplayType.ScanLine_Bitrate
+  nameWithType: ABRDisplayType.ScanLine_Bitrate
+- uid: Funique.ABRDisplayType.URL
+  name: URL
+  href: api/Funique.ABRDisplayType.html#Funique_ABRDisplayType_URL
+  commentId: F:Funique.ABRDisplayType.URL
+  fullName: Funique.ABRDisplayType.URL
+  nameWithType: ABRDisplayType.URL
 - uid: Funique.AccountData
   name: AccountData
   href: api/Funique.AccountData.html
@@ -55,6 +91,360 @@ references:
   commentId: T:Funique.AutoRotate
   fullName: Funique.AutoRotate
   nameWithType: AutoRotate
+- uid: Funique.AxisHandler
+  name: AxisHandler
+  href: api/Funique.AxisHandler.html
+  commentId: T:Funique.AxisHandler
+  fullName: Funique.AxisHandler
+  nameWithType: AxisHandler
+- uid: Funique.AxisHandler.axis
+  name: axis
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_axis
+  commentId: F:Funique.AxisHandler.axis
+  fullName: Funique.AxisHandler.axis
+  nameWithType: AxisHandler.axis
+- uid: Funique.AxisHandler.Axis
+  name: AxisHandler.Axis
+  href: api/Funique.AxisHandler.Axis.html
+  commentId: T:Funique.AxisHandler.Axis
+  fullName: Funique.AxisHandler.Axis
+  nameWithType: AxisHandler.Axis
+- uid: Funique.AxisHandler.Axis.Grip
+  name: Grip
+  href: api/Funique.AxisHandler.Axis.html#Funique_AxisHandler_Axis_Grip
+  commentId: F:Funique.AxisHandler.Axis.Grip
+  fullName: Funique.AxisHandler.Axis.Grip
+  nameWithType: AxisHandler.Axis.Grip
+- uid: Funique.AxisHandler.Axis.None
+  name: None
+  href: api/Funique.AxisHandler.Axis.html#Funique_AxisHandler_Axis_None
+  commentId: F:Funique.AxisHandler.Axis.None
+  fullName: Funique.AxisHandler.Axis.None
+  nameWithType: AxisHandler.Axis.None
+- uid: Funique.AxisHandler.Axis.Trigger
+  name: Trigger
+  href: api/Funique.AxisHandler.Axis.html#Funique_AxisHandler_Axis_Trigger
+  commentId: F:Funique.AxisHandler.Axis.Trigger
+  fullName: Funique.AxisHandler.Axis.Trigger
+  nameWithType: AxisHandler.Axis.Trigger
+- uid: Funique.AxisHandler.GetValue(XRController)
+  name: GetValue(XRController)
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_GetValue_XRController_
+  commentId: M:Funique.AxisHandler.GetValue(XRController)
+  fullName: Funique.AxisHandler.GetValue(XRController)
+  nameWithType: AxisHandler.GetValue(XRController)
+- uid: Funique.AxisHandler.GetValue*
+  name: GetValue
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_GetValue_
+  commentId: Overload:Funique.AxisHandler.GetValue
+  isSpec: "True"
+  fullName: Funique.AxisHandler.GetValue
+  nameWithType: AxisHandler.GetValue
+- uid: Funique.AxisHandler.HandleState(XRController)
+  name: HandleState(XRController)
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_HandleState_XRController_
+  commentId: M:Funique.AxisHandler.HandleState(XRController)
+  fullName: Funique.AxisHandler.HandleState(XRController)
+  nameWithType: AxisHandler.HandleState(XRController)
+- uid: Funique.AxisHandler.HandleState*
+  name: HandleState
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_HandleState_
+  commentId: Overload:Funique.AxisHandler.HandleState
+  isSpec: "True"
+  fullName: Funique.AxisHandler.HandleState
+  nameWithType: AxisHandler.HandleState
+- uid: Funique.AxisHandler.IsPressed
+  name: IsPressed
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_IsPressed
+  commentId: P:Funique.AxisHandler.IsPressed
+  fullName: Funique.AxisHandler.IsPressed
+  nameWithType: AxisHandler.IsPressed
+- uid: Funique.AxisHandler.IsPressed*
+  name: IsPressed
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_IsPressed_
+  commentId: Overload:Funique.AxisHandler.IsPressed
+  isSpec: "True"
+  fullName: Funique.AxisHandler.IsPressed
+  nameWithType: AxisHandler.IsPressed
+- uid: Funique.AxisHandler.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnAfterDeserialize
+  commentId: M:Funique.AxisHandler.OnAfterDeserialize
+  fullName: Funique.AxisHandler.OnAfterDeserialize()
+  nameWithType: AxisHandler.OnAfterDeserialize()
+- uid: Funique.AxisHandler.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnAfterDeserialize_
+  commentId: Overload:Funique.AxisHandler.OnAfterDeserialize
+  isSpec: "True"
+  fullName: Funique.AxisHandler.OnAfterDeserialize
+  nameWithType: AxisHandler.OnAfterDeserialize
+- uid: Funique.AxisHandler.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnBeforeSerialize
+  commentId: M:Funique.AxisHandler.OnBeforeSerialize
+  fullName: Funique.AxisHandler.OnBeforeSerialize()
+  nameWithType: AxisHandler.OnBeforeSerialize()
+- uid: Funique.AxisHandler.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnBeforeSerialize_
+  commentId: Overload:Funique.AxisHandler.OnBeforeSerialize
+  isSpec: "True"
+  fullName: Funique.AxisHandler.OnBeforeSerialize
+  nameWithType: AxisHandler.OnBeforeSerialize
+- uid: Funique.AxisHandler.OnRelease
+  name: OnRelease
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnRelease
+  commentId: E:Funique.AxisHandler.OnRelease
+  fullName: Funique.AxisHandler.OnRelease
+  nameWithType: AxisHandler.OnRelease
+- uid: Funique.AxisHandler.OnUse
+  name: OnUse
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnUse
+  commentId: E:Funique.AxisHandler.OnUse
+  fullName: Funique.AxisHandler.OnUse
+  nameWithType: AxisHandler.OnUse
+- uid: Funique.AxisHandler.OnValueChange
+  name: OnValueChange
+  href: api/Funique.AxisHandler.html#Funique_AxisHandler_OnValueChange
+  commentId: E:Funique.AxisHandler.OnValueChange
+  fullName: Funique.AxisHandler.OnValueChange
+  nameWithType: AxisHandler.OnValueChange
+- uid: Funique.AxisHandler.StateChange
+  name: AxisHandler.StateChange
+  href: api/Funique.AxisHandler.StateChange.html
+  commentId: T:Funique.AxisHandler.StateChange
+  fullName: Funique.AxisHandler.StateChange
+  nameWithType: AxisHandler.StateChange
+- uid: Funique.AxisHandler.ValueChange
+  name: AxisHandler.ValueChange
+  href: api/Funique.AxisHandler.ValueChange.html
+  commentId: T:Funique.AxisHandler.ValueChange
+  fullName: Funique.AxisHandler.ValueChange
+  nameWithType: AxisHandler.ValueChange
+- uid: Funique.AxisHandler2D
+  name: AxisHandler2D
+  href: api/Funique.AxisHandler2D.html
+  commentId: T:Funique.AxisHandler2D
+  fullName: Funique.AxisHandler2D
+  nameWithType: AxisHandler2D
+- uid: Funique.AxisHandler2D.axis
+  name: axis
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_axis
+  commentId: F:Funique.AxisHandler2D.axis
+  fullName: Funique.AxisHandler2D.axis
+  nameWithType: AxisHandler2D.axis
+- uid: Funique.AxisHandler2D.Axis
+  name: AxisHandler2D.Axis
+  href: api/Funique.AxisHandler2D.Axis.html
+  commentId: T:Funique.AxisHandler2D.Axis
+  fullName: Funique.AxisHandler2D.Axis
+  nameWithType: AxisHandler2D.Axis
+- uid: Funique.AxisHandler2D.Axis.None
+  name: None
+  href: api/Funique.AxisHandler2D.Axis.html#Funique_AxisHandler2D_Axis_None
+  commentId: F:Funique.AxisHandler2D.Axis.None
+  fullName: Funique.AxisHandler2D.Axis.None
+  nameWithType: AxisHandler2D.Axis.None
+- uid: Funique.AxisHandler2D.Axis.Primary2DAxis
+  name: Primary2DAxis
+  href: api/Funique.AxisHandler2D.Axis.html#Funique_AxisHandler2D_Axis_Primary2DAxis
+  commentId: F:Funique.AxisHandler2D.Axis.Primary2DAxis
+  fullName: Funique.AxisHandler2D.Axis.Primary2DAxis
+  nameWithType: AxisHandler2D.Axis.Primary2DAxis
+- uid: Funique.AxisHandler2D.Axis.Secondary2DAxis
+  name: Secondary2DAxis
+  href: api/Funique.AxisHandler2D.Axis.html#Funique_AxisHandler2D_Axis_Secondary2DAxis
+  commentId: F:Funique.AxisHandler2D.Axis.Secondary2DAxis
+  fullName: Funique.AxisHandler2D.Axis.Secondary2DAxis
+  nameWithType: AxisHandler2D.Axis.Secondary2DAxis
+- uid: Funique.AxisHandler2D.DebugText
+  name: AxisHandler2D.DebugText
+  href: api/Funique.AxisHandler2D.DebugText.html
+  commentId: T:Funique.AxisHandler2D.DebugText
+  fullName: Funique.AxisHandler2D.DebugText
+  nameWithType: AxisHandler2D.DebugText
+- uid: Funique.AxisHandler2D.GetValue(XRController)
+  name: GetValue(XRController)
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_GetValue_XRController_
+  commentId: M:Funique.AxisHandler2D.GetValue(XRController)
+  fullName: Funique.AxisHandler2D.GetValue(XRController)
+  nameWithType: AxisHandler2D.GetValue(XRController)
+- uid: Funique.AxisHandler2D.GetValue*
+  name: GetValue
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_GetValue_
+  commentId: Overload:Funique.AxisHandler2D.GetValue
+  isSpec: "True"
+  fullName: Funique.AxisHandler2D.GetValue
+  nameWithType: AxisHandler2D.GetValue
+- uid: Funique.AxisHandler2D.HandleState(XRController)
+  name: HandleState(XRController)
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_HandleState_XRController_
+  commentId: M:Funique.AxisHandler2D.HandleState(XRController)
+  fullName: Funique.AxisHandler2D.HandleState(XRController)
+  nameWithType: AxisHandler2D.HandleState(XRController)
+- uid: Funique.AxisHandler2D.HandleState*
+  name: HandleState
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_HandleState_
+  commentId: Overload:Funique.AxisHandler2D.HandleState
+  isSpec: "True"
+  fullName: Funique.AxisHandler2D.HandleState
+  nameWithType: AxisHandler2D.HandleState
+- uid: Funique.AxisHandler2D.IsPressed
+  name: IsPressed
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_IsPressed
+  commentId: P:Funique.AxisHandler2D.IsPressed
+  fullName: Funique.AxisHandler2D.IsPressed
+  nameWithType: AxisHandler2D.IsPressed
+- uid: Funique.AxisHandler2D.IsPressed*
+  name: IsPressed
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_IsPressed_
+  commentId: Overload:Funique.AxisHandler2D.IsPressed
+  isSpec: "True"
+  fullName: Funique.AxisHandler2D.IsPressed
+  nameWithType: AxisHandler2D.IsPressed
+- uid: Funique.AxisHandler2D.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnAfterDeserialize
+  commentId: M:Funique.AxisHandler2D.OnAfterDeserialize
+  fullName: Funique.AxisHandler2D.OnAfterDeserialize()
+  nameWithType: AxisHandler2D.OnAfterDeserialize()
+- uid: Funique.AxisHandler2D.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnAfterDeserialize_
+  commentId: Overload:Funique.AxisHandler2D.OnAfterDeserialize
+  isSpec: "True"
+  fullName: Funique.AxisHandler2D.OnAfterDeserialize
+  nameWithType: AxisHandler2D.OnAfterDeserialize
+- uid: Funique.AxisHandler2D.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnBeforeSerialize
+  commentId: M:Funique.AxisHandler2D.OnBeforeSerialize
+  fullName: Funique.AxisHandler2D.OnBeforeSerialize()
+  nameWithType: AxisHandler2D.OnBeforeSerialize()
+- uid: Funique.AxisHandler2D.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnBeforeSerialize_
+  commentId: Overload:Funique.AxisHandler2D.OnBeforeSerialize
+  isSpec: "True"
+  fullName: Funique.AxisHandler2D.OnBeforeSerialize
+  nameWithType: AxisHandler2D.OnBeforeSerialize
+- uid: Funique.AxisHandler2D.OnDebugText
+  name: OnDebugText
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnDebugText
+  commentId: E:Funique.AxisHandler2D.OnDebugText
+  fullName: Funique.AxisHandler2D.OnDebugText
+  nameWithType: AxisHandler2D.OnDebugText
+- uid: Funique.AxisHandler2D.OnRelease
+  name: OnRelease
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnRelease
+  commentId: E:Funique.AxisHandler2D.OnRelease
+  fullName: Funique.AxisHandler2D.OnRelease
+  nameWithType: AxisHandler2D.OnRelease
+- uid: Funique.AxisHandler2D.OnUse
+  name: OnUse
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnUse
+  commentId: E:Funique.AxisHandler2D.OnUse
+  fullName: Funique.AxisHandler2D.OnUse
+  nameWithType: AxisHandler2D.OnUse
+- uid: Funique.AxisHandler2D.OnValueChange
+  name: OnValueChange
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnValueChange
+  commentId: E:Funique.AxisHandler2D.OnValueChange
+  fullName: Funique.AxisHandler2D.OnValueChange
+  nameWithType: AxisHandler2D.OnValueChange
+- uid: Funique.AxisHandler2D.OnValueChangeVector
+  name: OnValueChangeVector
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_OnValueChangeVector
+  commentId: E:Funique.AxisHandler2D.OnValueChangeVector
+  fullName: Funique.AxisHandler2D.OnValueChangeVector
+  nameWithType: AxisHandler2D.OnValueChangeVector
+- uid: Funique.AxisHandler2D.previousPress
+  name: previousPress
+  href: api/Funique.AxisHandler2D.html#Funique_AxisHandler2D_previousPress
+  commentId: F:Funique.AxisHandler2D.previousPress
+  fullName: Funique.AxisHandler2D.previousPress
+  nameWithType: AxisHandler2D.previousPress
+- uid: Funique.AxisHandler2D.StateChange
+  name: AxisHandler2D.StateChange
+  href: api/Funique.AxisHandler2D.StateChange.html
+  commentId: T:Funique.AxisHandler2D.StateChange
+  fullName: Funique.AxisHandler2D.StateChange
+  nameWithType: AxisHandler2D.StateChange
+- uid: Funique.AxisHandler2D.ValueChange
+  name: AxisHandler2D.ValueChange
+  href: api/Funique.AxisHandler2D.ValueChange.html
+  commentId: T:Funique.AxisHandler2D.ValueChange
+  fullName: Funique.AxisHandler2D.ValueChange
+  nameWithType: AxisHandler2D.ValueChange
+- uid: Funique.AxisHandler2D.ValueChangeVector
+  name: AxisHandler2D.ValueChangeVector
+  href: api/Funique.AxisHandler2D.ValueChangeVector.html
+  commentId: T:Funique.AxisHandler2D.ValueChangeVector
+  fullName: Funique.AxisHandler2D.ValueChangeVector
+  nameWithType: AxisHandler2D.ValueChangeVector
+- uid: Funique.ButtonHandler
+  name: ButtonHandler
+  href: api/Funique.ButtonHandler.html
+  commentId: T:Funique.ButtonHandler
+  fullName: Funique.ButtonHandler
+  nameWithType: ButtonHandler
+- uid: Funique.ButtonHandler.button
+  name: button
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_button
+  commentId: F:Funique.ButtonHandler.button
+  fullName: Funique.ButtonHandler.button
+  nameWithType: ButtonHandler.button
+- uid: Funique.ButtonHandler.HandleState(XRController)
+  name: HandleState(XRController)
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_HandleState_XRController_
+  commentId: M:Funique.ButtonHandler.HandleState(XRController)
+  fullName: Funique.ButtonHandler.HandleState(XRController)
+  nameWithType: ButtonHandler.HandleState(XRController)
+- uid: Funique.ButtonHandler.HandleState*
+  name: HandleState
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_HandleState_
+  commentId: Overload:Funique.ButtonHandler.HandleState
+  isSpec: "True"
+  fullName: Funique.ButtonHandler.HandleState
+  nameWithType: ButtonHandler.HandleState
+- uid: Funique.ButtonHandler.IsPressed
+  name: IsPressed
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_IsPressed
+  commentId: P:Funique.ButtonHandler.IsPressed
+  fullName: Funique.ButtonHandler.IsPressed
+  nameWithType: ButtonHandler.IsPressed
+- uid: Funique.ButtonHandler.IsPressed*
+  name: IsPressed
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_IsPressed_
+  commentId: Overload:Funique.ButtonHandler.IsPressed
+  isSpec: "True"
+  fullName: Funique.ButtonHandler.IsPressed
+  nameWithType: ButtonHandler.IsPressed
+- uid: Funique.ButtonHandler.OnDown
+  name: OnDown
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_OnDown
+  commentId: E:Funique.ButtonHandler.OnDown
+  fullName: Funique.ButtonHandler.OnDown
+  nameWithType: ButtonHandler.OnDown
+- uid: Funique.ButtonHandler.OnUP
+  name: OnUP
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_OnUP
+  commentId: E:Funique.ButtonHandler.OnUP
+  fullName: Funique.ButtonHandler.OnUP
+  nameWithType: ButtonHandler.OnUP
+- uid: Funique.ButtonHandler.previousPress
+  name: previousPress
+  href: api/Funique.ButtonHandler.html#Funique_ButtonHandler_previousPress
+  commentId: F:Funique.ButtonHandler.previousPress
+  fullName: Funique.ButtonHandler.previousPress
+  nameWithType: ButtonHandler.previousPress
+- uid: Funique.ButtonHandler.StateChange
+  name: ButtonHandler.StateChange
+  href: api/Funique.ButtonHandler.StateChange.html
+  commentId: T:Funique.ButtonHandler.StateChange
+  fullName: Funique.ButtonHandler.StateChange
+  nameWithType: ButtonHandler.StateChange
 - uid: Funique.Cinema
   name: Funique.Cinema
   href: api/Funique.Cinema.html
@@ -650,6 +1040,12 @@ references:
   commentId: F:Funique.Cinema.CinemaManagerClientData.applyToMesh
   fullName: Funique.Cinema.CinemaManagerClientData.applyToMesh
   nameWithType: CinemaManagerClientData.applyToMesh
+- uid: Funique.Cinema.CinemaManagerClientData.AudioSource
+  name: AudioSource
+  href: api/Funique.Cinema.CinemaManagerClientData.html#Funique_Cinema_CinemaManagerClientData_AudioSource
+  commentId: F:Funique.Cinema.CinemaManagerClientData.AudioSource
+  fullName: Funique.Cinema.CinemaManagerClientData.AudioSource
+  nameWithType: CinemaManagerClientData.AudioSource
 - uid: Funique.Cinema.CinemaManagerClientData.Default_MediaPlayer
   name: Default_MediaPlayer
   href: api/Funique.Cinema.CinemaManagerClientData.html#Funique_Cinema_CinemaManagerClientData_Default_MediaPlayer
@@ -812,6 +1208,12 @@ references:
   commentId: F:Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer
   fullName: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer
   nameWithType: CinemaMediaPlayerBase._mediaPlayer
+- uid: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  name: _mediaPlayer_swap
+  href: api/Funique.Cinema.CinemaMediaPlayerBase.html#Funique_Cinema_CinemaMediaPlayerBase__mediaPlayer_swap
+  commentId: F:Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  fullName: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  nameWithType: CinemaMediaPlayerBase._mediaPlayer_swap
 - uid: Funique.Cinema.CinemaMediaPlayerBase.AudioMode
   name: AudioMode
   href: api/Funique.Cinema.CinemaMediaPlayerBase.html#Funique_Cinema_CinemaMediaPlayerBase_AudioMode
@@ -929,6 +1331,19 @@ references:
   isSpec: "True"
   fullName: Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
   nameWithType: CinemaMediaPlayerBase.NowPlaying
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  name: PlayABR(InfoBase)
+  href: api/Funique.Cinema.CinemaMediaPlayerBase.html#Funique_Cinema_CinemaMediaPlayerBase_PlayABR_Funique_InfoBase_
+  commentId: M:Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  nameWithType: CinemaMediaPlayerBase.PlayABR(InfoBase)
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayABR*
+  name: PlayABR
+  href: api/Funique.Cinema.CinemaMediaPlayerBase.html#Funique_Cinema_CinemaMediaPlayerBase_PlayABR_
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.PlayABR
+  isSpec: "True"
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayABR
+  nameWithType: CinemaMediaPlayerBase.PlayABR
 - uid: Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
   name: PlayerMode
   href: api/Funique.Cinema.CinemaMediaPlayerBase.html#Funique_Cinema_CinemaMediaPlayerBase_PlayerMode
@@ -1281,6 +1696,19 @@ references:
   isSpec: "True"
   fullName: Funique.Cinema.ICinemaClientUtility.CurMedia
   nameWithType: ICinemaClientUtility.CurMedia
+- uid: Funique.Cinema.ICinemaClientUtility.Current_Display
+  name: Current_Display
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_Current_Display
+  commentId: P:Funique.Cinema.ICinemaClientUtility.Current_Display
+  fullName: Funique.Cinema.ICinemaClientUtility.Current_Display
+  nameWithType: ICinemaClientUtility.Current_Display
+- uid: Funique.Cinema.ICinemaClientUtility.Current_Display*
+  name: Current_Display
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_Current_Display_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.Current_Display
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.Current_Display
+  nameWithType: ICinemaClientUtility.Current_Display
 - uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer
   name: CurrentMediaPlayer
   href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer
@@ -1294,6 +1722,45 @@ references:
   isSpec: "True"
   fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer
   nameWithType: ICinemaClientUtility.CurrentMediaPlayer
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  name: CurrentMediaPlayer_Another
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_Another
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Another
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another*
+  name: CurrentMediaPlayer_Another
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_Another_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Another
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  name: CurrentMediaPlayer_Display
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_Display
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Display
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display*
+  name: CurrentMediaPlayer_Display
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_Display_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Display
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  name: CurrentMediaPlayer_Swap
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_Swap
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Swap
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap*
+  name: CurrentMediaPlayer_Swap
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_CurrentMediaPlayer_Swap_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Swap
 - uid: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
   name: DetectPlayerMode(String)
   href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_DetectPlayerMode_System_String_
@@ -1307,6 +1774,19 @@ references:
   isSpec: "True"
   fullName: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode
   nameWithType: ICinemaClientUtility.DetectPlayerMode
+- uid: Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+  name: GetMediaPath(String, Boolean)
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_GetMediaPath_System_String_System_Boolean_
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String, System.Boolean)
+  nameWithType: ICinemaClientUtility.GetMediaPath(String, Boolean)
+- uid: Funique.Cinema.ICinemaClientUtility.GetMediaPath*
+  name: GetMediaPath
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_GetMediaPath_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.GetMediaPath
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.GetMediaPath
+  nameWithType: ICinemaClientUtility.GetMediaPath
 - uid: Funique.Cinema.ICinemaClientUtility.GetReadyImageName
   name: GetReadyImageName()
   href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_GetReadyImageName
@@ -1495,6 +1975,25 @@ references:
   isSpec: "True"
   fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance
   nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance
+- uid: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  name: SetFirstBuffer()
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SetFirstBuffer
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  fullName: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer()
+  nameWithType: ICinemaClientUtility.SetFirstBuffer()
+- uid: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer*
+  name: SetFirstBuffer
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SetFirstBuffer_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  nameWithType: ICinemaClientUtility.SetFirstBuffer
+- uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  name: SetReadyPlayFile(InfoBase)
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_Funique_InfoBase_
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  nameWithType: ICinemaClientUtility.SetReadyPlayFile(InfoBase)
 - uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
   name: SetReadyPlayFile(String)
   href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SetReadyPlayFile_System_String_
@@ -1670,6 +2169,32 @@ references:
   isSpec: "True"
   fullName: Funique.Cinema.ICinemaClientUtility.SphereOBJ
   nameWithType: ICinemaClientUtility.SphereOBJ
+- uid: Funique.Cinema.ICinemaClientUtility.Support_Swap
+  name: Support_Swap
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_Support_Swap
+  commentId: P:Funique.Cinema.ICinemaClientUtility.Support_Swap
+  fullName: Funique.Cinema.ICinemaClientUtility.Support_Swap
+  nameWithType: ICinemaClientUtility.Support_Swap
+- uid: Funique.Cinema.ICinemaClientUtility.Support_Swap*
+  name: Support_Swap
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_Support_Swap_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.Support_Swap
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.Support_Swap
+  nameWithType: ICinemaClientUtility.Support_Swap
+- uid: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  name: SwapBuffer()
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SwapBuffer
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  fullName: Funique.Cinema.ICinemaClientUtility.SwapBuffer()
+  nameWithType: ICinemaClientUtility.SwapBuffer()
+- uid: Funique.Cinema.ICinemaClientUtility.SwapBuffer*
+  name: SwapBuffer
+  href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SwapBuffer_
+  commentId: Overload:Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  isSpec: "True"
+  fullName: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  nameWithType: ICinemaClientUtility.SwapBuffer
 - uid: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
   name: SwitchMediaPlayer(MediaPlayer)
   href: api/Funique.Cinema.ICinemaClientUtility.html#Funique_Cinema_ICinemaClientUtility_SwitchMediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayer_
@@ -1855,6 +2380,18 @@ references:
   commentId: F:Funique.Cinema.MediaPlayerOption.Name
   fullName: Funique.Cinema.MediaPlayerOption.Name
   nameWithType: MediaPlayerOption.Name
+- uid: Funique.Cinema.MediaPlayerOption.Support_Swap
+  name: Support_Swap
+  href: api/Funique.Cinema.MediaPlayerOption.html#Funique_Cinema_MediaPlayerOption_Support_Swap
+  commentId: F:Funique.Cinema.MediaPlayerOption.Support_Swap
+  fullName: Funique.Cinema.MediaPlayerOption.Support_Swap
+  nameWithType: MediaPlayerOption.Support_Swap
+- uid: Funique.Cinema.MediaPlayerOption.Swap
+  name: Swap
+  href: api/Funique.Cinema.MediaPlayerOption.html#Funique_Cinema_MediaPlayerOption_Swap
+  commentId: F:Funique.Cinema.MediaPlayerOption.Swap
+  fullName: Funique.Cinema.MediaPlayerOption.Swap
+  nameWithType: MediaPlayerOption.Swap
 - uid: Funique.Cinema.MediaPlayerOption.Target
   name: Target
   href: api/Funique.Cinema.MediaPlayerOption.html#Funique_Cinema_MediaPlayerOption_Target
@@ -1917,6 +2454,12 @@ references:
   commentId: T:Funique.Cinema.PlayableType
   fullName: Funique.Cinema.PlayableType
   nameWithType: PlayableType
+- uid: Funique.Cinema.PlayableType.ABR
+  name: ABR
+  href: api/Funique.Cinema.PlayableType.html#Funique_Cinema_PlayableType_ABR
+  commentId: F:Funique.Cinema.PlayableType.ABR
+  fullName: Funique.Cinema.PlayableType.ABR
+  nameWithType: PlayableType.ABR
 - uid: Funique.Cinema.PlayableType.Image
   name: Image
   href: api/Funique.Cinema.PlayableType.html#Funique_Cinema_PlayableType_Image
@@ -2145,6 +2688,38 @@ references:
   commentId: F:Funique.Client.ClientXRManagerData.VideoSphere
   fullName: Funique.Client.ClientXRManagerData.VideoSphere
   nameWithType: ClientXRManagerData.VideoSphere
+- uid: Funique.Client.HomeMark
+  name: HomeMark
+  href: api/Funique.Client.HomeMark.html
+  commentId: T:Funique.Client.HomeMark
+  fullName: Funique.Client.HomeMark
+  nameWithType: HomeMark
+- uid: Funique.Client.HomeMark.Return
+  name: Return()
+  href: api/Funique.Client.HomeMark.html#Funique_Client_HomeMark_Return
+  commentId: M:Funique.Client.HomeMark.Return
+  fullName: Funique.Client.HomeMark.Return()
+  nameWithType: HomeMark.Return()
+- uid: Funique.Client.HomeMark.Return*
+  name: Return
+  href: api/Funique.Client.HomeMark.html#Funique_Client_HomeMark_Return_
+  commentId: Overload:Funique.Client.HomeMark.Return
+  isSpec: "True"
+  fullName: Funique.Client.HomeMark.Return
+  nameWithType: HomeMark.Return
+- uid: Funique.Client.HomeMark.Switch(UnityEngine.Transform)
+  name: Switch(Transform)
+  href: api/Funique.Client.HomeMark.html#Funique_Client_HomeMark_Switch_UnityEngine_Transform_
+  commentId: M:Funique.Client.HomeMark.Switch(UnityEngine.Transform)
+  fullName: Funique.Client.HomeMark.Switch(UnityEngine.Transform)
+  nameWithType: HomeMark.Switch(Transform)
+- uid: Funique.Client.HomeMark.Switch*
+  name: Switch
+  href: api/Funique.Client.HomeMark.html#Funique_Client_HomeMark_Switch_
+  commentId: Overload:Funique.Client.HomeMark.Switch
+  isSpec: "True"
+  fullName: Funique.Client.HomeMark.Switch
+  nameWithType: HomeMark.Switch
 - uid: Funique.Client.IClientAndroidUtility
   name: IClientAndroidUtility
   href: api/Funique.Client.IClientAndroidUtility.html
@@ -2235,6 +2810,44 @@ references:
   isSpec: "True"
   fullName: Funique.Client.IXRManagerUtility.SoftReset
   nameWithType: IXRManagerUtility.SoftReset
+- uid: Funique.Client.Movement_Fly
+  name: Movement_Fly
+  href: api/Funique.Client.Movement_Fly.html
+  commentId: T:Funique.Client.Movement_Fly
+  fullName: Funique.Client.Movement_Fly
+  nameWithType: Movement_Fly
+- uid: Funique.Client.Movement_Fly._speed
+  name: _speed
+  href: api/Funique.Client.Movement_Fly.html#Funique_Client_Movement_Fly__speed
+  commentId: F:Funique.Client.Movement_Fly._speed
+  fullName: Funique.Client.Movement_Fly._speed
+  nameWithType: Movement_Fly._speed
+- uid: Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  name: SetButtonPress(Boolean)
+  href: api/Funique.Client.Movement_Fly.html#Funique_Client_Movement_Fly_SetButtonPress_System_Boolean_
+  commentId: M:Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  fullName: Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  nameWithType: Movement_Fly.SetButtonPress(Boolean)
+- uid: Funique.Client.Movement_Fly.SetButtonPress*
+  name: SetButtonPress
+  href: api/Funique.Client.Movement_Fly.html#Funique_Client_Movement_Fly_SetButtonPress_
+  commentId: Overload:Funique.Client.Movement_Fly.SetButtonPress
+  isSpec: "True"
+  fullName: Funique.Client.Movement_Fly.SetButtonPress
+  nameWithType: Movement_Fly.SetButtonPress
+- uid: Funique.Client.Movement_Fly.speed
+  name: speed
+  href: api/Funique.Client.Movement_Fly.html#Funique_Client_Movement_Fly_speed
+  commentId: P:Funique.Client.Movement_Fly.speed
+  fullName: Funique.Client.Movement_Fly.speed
+  nameWithType: Movement_Fly.speed
+- uid: Funique.Client.Movement_Fly.speed*
+  name: speed
+  href: api/Funique.Client.Movement_Fly.html#Funique_Client_Movement_Fly_speed_
+  commentId: Overload:Funique.Client.Movement_Fly.speed
+  isSpec: "True"
+  fullName: Funique.Client.Movement_Fly.speed
+  nameWithType: Movement_Fly.speed
 - uid: Funique.Client.StandAloneUIController
   name: StandAloneUIController
   href: api/Funique.Client.StandAloneUIController.html
@@ -2565,6 +3178,468 @@ references:
   isSpec: "True"
   fullName: Funique.ConfirmView.Value
   nameWithType: ConfirmView.Value
+- uid: Funique.ConstString
+  name: ConstString
+  href: api/Funique.ConstString.html
+  commentId: T:Funique.ConstString
+  fullName: Funique.ConstString
+  nameWithType: ConstString
+- uid: Funique.ConstString.BACKGROUNDVOLUMEMUTE
+  name: BACKGROUNDVOLUMEMUTE
+  href: api/Funique.ConstString.html#Funique_ConstString_BACKGROUNDVOLUMEMUTE
+  commentId: F:Funique.ConstString.BACKGROUNDVOLUMEMUTE
+  fullName: Funique.ConstString.BACKGROUNDVOLUMEMUTE
+  nameWithType: ConstString.BACKGROUNDVOLUMEMUTE
+- uid: Funique.ConstString.BACKGROUNDVOLUMEVALUE
+  name: BACKGROUNDVOLUMEVALUE
+  href: api/Funique.ConstString.html#Funique_ConstString_BACKGROUNDVOLUMEVALUE
+  commentId: F:Funique.ConstString.BACKGROUNDVOLUMEVALUE
+  fullName: Funique.ConstString.BACKGROUNDVOLUMEVALUE
+  nameWithType: ConstString.BACKGROUNDVOLUMEVALUE
+- uid: Funique.ConstString.CHANGEDBGMUSIC
+  name: CHANGEDBGMUSIC
+  href: api/Funique.ConstString.html#Funique_ConstString_CHANGEDBGMUSIC
+  commentId: F:Funique.ConstString.CHANGEDBGMUSIC
+  fullName: Funique.ConstString.CHANGEDBGMUSIC
+  nameWithType: ConstString.CHANGEDBGMUSIC
+- uid: Funique.ConstString.ClientAudioMode
+  name: ClientAudioMode
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientAudioMode
+  commentId: F:Funique.ConstString.ClientAudioMode
+  fullName: Funique.ConstString.ClientAudioMode
+  nameWithType: ConstString.ClientAudioMode
+- uid: Funique.ConstString.ClientBattery
+  name: ClientBattery
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientBattery
+  commentId: F:Funique.ConstString.ClientBattery
+  fullName: Funique.ConstString.ClientBattery
+  nameWithType: ConstString.ClientBattery
+- uid: Funique.ConstString.ClientHeadsetProblem
+  name: ClientHeadsetProblem
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientHeadsetProblem
+  commentId: F:Funique.ConstString.ClientHeadsetProblem
+  fullName: Funique.ConstString.ClientHeadsetProblem
+  nameWithType: ConstString.ClientHeadsetProblem
+- uid: Funique.ConstString.CLIENTINMASTERPLAYERSTATE
+  name: CLIENTINMASTERPLAYERSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTINMASTERPLAYERSTATE
+  commentId: F:Funique.ConstString.CLIENTINMASTERPLAYERSTATE
+  fullName: Funique.ConstString.CLIENTINMASTERPLAYERSTATE
+  nameWithType: ConstString.CLIENTINMASTERPLAYERSTATE
+- uid: Funique.ConstString.CLIENTIP
+  name: CLIENTIP
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTIP
+  commentId: F:Funique.ConstString.CLIENTIP
+  fullName: Funique.ConstString.CLIENTIP
+  nameWithType: ConstString.CLIENTIP
+- uid: Funique.ConstString.CLIENTISCONNECT
+  name: CLIENTISCONNECT
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTISCONNECT
+  commentId: F:Funique.ConstString.CLIENTISCONNECT
+  fullName: Funique.ConstString.CLIENTISCONNECT
+  nameWithType: ConstString.CLIENTISCONNECT
+- uid: Funique.ConstString.CLIENTISONLINE
+  name: CLIENTISONLINE
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTISONLINE
+  commentId: F:Funique.ConstString.CLIENTISONLINE
+  fullName: Funique.ConstString.CLIENTISONLINE
+  nameWithType: ConstString.CLIENTISONLINE
+- uid: Funique.ConstString.ClientLiveStalled
+  name: ClientLiveStalled
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientLiveStalled
+  commentId: F:Funique.ConstString.ClientLiveStalled
+  fullName: Funique.ConstString.ClientLiveStalled
+  nameWithType: ConstString.ClientLiveStalled
+- uid: Funique.ConstString.ClientLiveUnstalled
+  name: ClientLiveUnstalled
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientLiveUnstalled
+  commentId: F:Funique.ConstString.ClientLiveUnstalled
+  fullName: Funique.ConstString.ClientLiveUnstalled
+  nameWithType: ConstString.ClientLiveUnstalled
+- uid: Funique.ConstString.ClientName
+  name: ClientName
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientName
+  commentId: F:Funique.ConstString.ClientName
+  fullName: Funique.ConstString.ClientName
+  nameWithType: ConstString.ClientName
+- uid: Funique.ConstString.CLIENTNAME
+  name: CLIENTNAME
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTNAME
+  commentId: F:Funique.ConstString.CLIENTNAME
+  fullName: Funique.ConstString.CLIENTNAME
+  nameWithType: ConstString.CLIENTNAME
+- uid: Funique.ConstString.CLIENTPORT
+  name: CLIENTPORT
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTPORT
+  commentId: F:Funique.ConstString.CLIENTPORT
+  fullName: Funique.ConstString.CLIENTPORT
+  nameWithType: ConstString.CLIENTPORT
+- uid: Funique.ConstString.CLIENTROT
+  name: CLIENTROT
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTROT
+  commentId: F:Funique.ConstString.CLIENTROT
+  fullName: Funique.ConstString.CLIENTROT
+  nameWithType: ConstString.CLIENTROT
+- uid: Funique.ConstString.CLIENTSCREENSHOT
+  name: CLIENTSCREENSHOT
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTSCREENSHOT
+  commentId: F:Funique.ConstString.CLIENTSCREENSHOT
+  fullName: Funique.ConstString.CLIENTSCREENSHOT
+  nameWithType: ConstString.CLIENTSCREENSHOT
+- uid: Funique.ConstString.CLIENTSTATE
+  name: CLIENTSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTSTATE
+  commentId: F:Funique.ConstString.CLIENTSTATE
+  fullName: Funique.ConstString.CLIENTSTATE
+  nameWithType: ConstString.CLIENTSTATE
+- uid: Funique.ConstString.ClientSubttleState
+  name: ClientSubttleState
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientSubttleState
+  commentId: F:Funique.ConstString.ClientSubttleState
+  fullName: Funique.ConstString.ClientSubttleState
+  nameWithType: ConstString.ClientSubttleState
+- uid: Funique.ConstString.ClientTime
+  name: ClientTime
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientTime
+  commentId: F:Funique.ConstString.ClientTime
+  fullName: Funique.ConstString.ClientTime
+  nameWithType: ConstString.ClientTime
+- uid: Funique.ConstString.CLIENTTIME
+  name: CLIENTTIME
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTTIME
+  commentId: F:Funique.ConstString.CLIENTTIME
+  fullName: Funique.ConstString.CLIENTTIME
+  nameWithType: ConstString.CLIENTTIME
+- uid: Funique.ConstString.CLIENTVIDEOIMG
+  name: CLIENTVIDEOIMG
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTVIDEOIMG
+  commentId: F:Funique.ConstString.CLIENTVIDEOIMG
+  fullName: Funique.ConstString.CLIENTVIDEOIMG
+  nameWithType: ConstString.CLIENTVIDEOIMG
+- uid: Funique.ConstString.ClientVideoList
+  name: ClientVideoList
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientVideoList
+  commentId: F:Funique.ConstString.ClientVideoList
+  fullName: Funique.ConstString.ClientVideoList
+  nameWithType: ConstString.ClientVideoList
+- uid: Funique.ConstString.CLIENTVIDEOLISTINFO
+  name: CLIENTVIDEOLISTINFO
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTVIDEOLISTINFO
+  commentId: F:Funique.ConstString.CLIENTVIDEOLISTINFO
+  fullName: Funique.ConstString.CLIENTVIDEOLISTINFO
+  nameWithType: ConstString.CLIENTVIDEOLISTINFO
+- uid: Funique.ConstString.ClientVideoName
+  name: ClientVideoName
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientVideoName
+  commentId: F:Funique.ConstString.ClientVideoName
+  fullName: Funique.ConstString.ClientVideoName
+  nameWithType: ConstString.ClientVideoName
+- uid: Funique.ConstString.CLIENTVIDEONAME
+  name: CLIENTVIDEONAME
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTVIDEONAME
+  commentId: F:Funique.ConstString.CLIENTVIDEONAME
+  fullName: Funique.ConstString.CLIENTVIDEONAME
+  nameWithType: ConstString.CLIENTVIDEONAME
+- uid: Funique.ConstString.ClientVideoState
+  name: ClientVideoState
+  href: api/Funique.ConstString.html#Funique_ConstString_ClientVideoState
+  commentId: F:Funique.ConstString.ClientVideoState
+  fullName: Funique.ConstString.ClientVideoState
+  nameWithType: ConstString.ClientVideoState
+- uid: Funique.ConstString.CLIENTVIDEOSTATE
+  name: CLIENTVIDEOSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_CLIENTVIDEOSTATE
+  commentId: F:Funique.ConstString.CLIENTVIDEOSTATE
+  fullName: Funique.ConstString.CLIENTVIDEOSTATE
+  nameWithType: ConstString.CLIENTVIDEOSTATE
+- uid: Funique.ConstString.CONITNENTSTATE
+  name: CONITNENTSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_CONITNENTSTATE
+  commentId: F:Funique.ConstString.CONITNENTSTATE
+  fullName: Funique.ConstString.CONITNENTSTATE
+  nameWithType: ConstString.CONITNENTSTATE
+- uid: Funique.ConstString.DISCONNECT
+  name: DISCONNECT
+  href: api/Funique.ConstString.html#Funique_ConstString_DISCONNECT
+  commentId: F:Funique.ConstString.DISCONNECT
+  fullName: Funique.ConstString.DISCONNECT
+  nameWithType: ConstString.DISCONNECT
+- uid: Funique.ConstString.GetVideoTime
+  name: GetVideoTime
+  href: api/Funique.ConstString.html#Funique_ConstString_GetVideoTime
+  commentId: F:Funique.ConstString.GetVideoTime
+  fullName: Funique.ConstString.GetVideoTime
+  nameWithType: ConstString.GetVideoTime
+- uid: Funique.ConstString.GETVIDEOTIME
+  name: GETVIDEOTIME
+  href: api/Funique.ConstString.html#Funique_ConstString_GETVIDEOTIME
+  commentId: F:Funique.ConstString.GETVIDEOTIME
+  fullName: Funique.ConstString.GETVIDEOTIME
+  nameWithType: ConstString.GETVIDEOTIME
+- uid: Funique.ConstString.HEADSETPROBLEM
+  name: HEADSETPROBLEM
+  href: api/Funique.ConstString.html#Funique_ConstString_HEADSETPROBLEM
+  commentId: F:Funique.ConstString.HEADSETPROBLEM
+  fullName: Funique.ConstString.HEADSETPROBLEM
+  nameWithType: ConstString.HEADSETPROBLEM
+- uid: Funique.ConstString.LASERPOINT
+  name: LASERPOINT
+  href: api/Funique.ConstString.html#Funique_ConstString_LASERPOINT
+  commentId: F:Funique.ConstString.LASERPOINT
+  fullName: Funique.ConstString.LASERPOINT
+  nameWithType: ConstString.LASERPOINT
+- uid: Funique.ConstString.MEDIAHEADSETRESET
+  name: MEDIAHEADSETRESET
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAHEADSETRESET
+  commentId: F:Funique.ConstString.MEDIAHEADSETRESET
+  fullName: Funique.ConstString.MEDIAHEADSETRESET
+  nameWithType: ConstString.MEDIAHEADSETRESET
+- uid: Funique.ConstString.MEDIAPATH
+  name: MEDIAPATH
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPATH
+  commentId: F:Funique.ConstString.MEDIAPATH
+  fullName: Funique.ConstString.MEDIAPATH
+  nameWithType: ConstString.MEDIAPATH
+- uid: Funique.ConstString.MEDIAPAUSE
+  name: MEDIAPAUSE
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPAUSE
+  commentId: F:Funique.ConstString.MEDIAPAUSE
+  fullName: Funique.ConstString.MEDIAPAUSE
+  nameWithType: ConstString.MEDIAPAUSE
+- uid: Funique.ConstString.MEDIAPLAY
+  name: MEDIAPLAY
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPLAY
+  commentId: F:Funique.ConstString.MEDIAPLAY
+  fullName: Funique.ConstString.MEDIAPLAY
+  nameWithType: ConstString.MEDIAPLAY
+- uid: Funique.ConstString.MEDIAPLAYLIVE
+  name: MEDIAPLAYLIVE
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPLAYLIVE
+  commentId: F:Funique.ConstString.MEDIAPLAYLIVE
+  fullName: Funique.ConstString.MEDIAPLAYLIVE
+  nameWithType: ConstString.MEDIAPLAYLIVE
+- uid: Funique.ConstString.MEDIAPLAYURL
+  name: MEDIAPLAYURL
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPLAYURL
+  commentId: F:Funique.ConstString.MEDIAPLAYURL
+  fullName: Funique.ConstString.MEDIAPLAYURL
+  nameWithType: ConstString.MEDIAPLAYURL
+- uid: Funique.ConstString.MEDIAPLAYVOD
+  name: MEDIAPLAYVOD
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPLAYVOD
+  commentId: F:Funique.ConstString.MEDIAPLAYVOD
+  fullName: Funique.ConstString.MEDIAPLAYVOD
+  nameWithType: ConstString.MEDIAPLAYVOD
+- uid: Funique.ConstString.MEDIAPLYAINGVIDEOLIST
+  name: MEDIAPLYAINGVIDEOLIST
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAPLYAINGVIDEOLIST
+  commentId: F:Funique.ConstString.MEDIAPLYAINGVIDEOLIST
+  fullName: Funique.ConstString.MEDIAPLYAINGVIDEOLIST
+  nameWithType: ConstString.MEDIAPLYAINGVIDEOLIST
+- uid: Funique.ConstString.MEDIAREPLAYSTATE
+  name: MEDIAREPLAYSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAREPLAYSTATE
+  commentId: F:Funique.ConstString.MEDIAREPLAYSTATE
+  fullName: Funique.ConstString.MEDIAREPLAYSTATE
+  nameWithType: ConstString.MEDIAREPLAYSTATE
+- uid: Funique.ConstString.MediaStereoMode
+  name: MediaStereoMode
+  href: api/Funique.ConstString.html#Funique_ConstString_MediaStereoMode
+  commentId: F:Funique.ConstString.MediaStereoMode
+  fullName: Funique.ConstString.MediaStereoMode
+  nameWithType: ConstString.MediaStereoMode
+- uid: Funique.ConstString.MEDIASTEREOMODE
+  name: MEDIASTEREOMODE
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIASTEREOMODE
+  commentId: F:Funique.ConstString.MEDIASTEREOMODE
+  fullName: Funique.ConstString.MEDIASTEREOMODE
+  nameWithType: ConstString.MEDIASTEREOMODE
+- uid: Funique.ConstString.MEDIASTOP
+  name: MEDIASTOP
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIASTOP
+  commentId: F:Funique.ConstString.MEDIASTOP
+  fullName: Funique.ConstString.MEDIASTOP
+  nameWithType: ConstString.MEDIASTOP
+- uid: Funique.ConstString.MEDIASUBTITLEMODE
+  name: MEDIASUBTITLEMODE
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIASUBTITLEMODE
+  commentId: F:Funique.ConstString.MEDIASUBTITLEMODE
+  fullName: Funique.ConstString.MEDIASUBTITLEMODE
+  nameWithType: ConstString.MEDIASUBTITLEMODE
+- uid: Funique.ConstString.MEDIATIME
+  name: MEDIATIME
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIATIME
+  commentId: F:Funique.ConstString.MEDIATIME
+  fullName: Funique.ConstString.MEDIATIME
+  nameWithType: ConstString.MEDIATIME
+- uid: Funique.ConstString.MEDIAVIDEOPATH
+  name: MEDIAVIDEOPATH
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVIDEOPATH
+  commentId: F:Funique.ConstString.MEDIAVIDEOPATH
+  fullName: Funique.ConstString.MEDIAVIDEOPATH
+  nameWithType: ConstString.MEDIAVIDEOPATH
+- uid: Funique.ConstString.MEDIAVIDEOTIME
+  name: MEDIAVIDEOTIME
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVIDEOTIME
+  commentId: F:Funique.ConstString.MEDIAVIDEOTIME
+  fullName: Funique.ConstString.MEDIAVIDEOTIME
+  nameWithType: ConstString.MEDIAVIDEOTIME
+- uid: Funique.ConstString.MEDIAVIDEOURLPATH
+  name: MEDIAVIDEOURLPATH
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVIDEOURLPATH
+  commentId: F:Funique.ConstString.MEDIAVIDEOURLPATH
+  fullName: Funique.ConstString.MEDIAVIDEOURLPATH
+  nameWithType: ConstString.MEDIAVIDEOURLPATH
+- uid: Funique.ConstString.MEDIAVIHEADSETRESET
+  name: MEDIAVIHEADSETRESET
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVIHEADSETRESET
+  commentId: F:Funique.ConstString.MEDIAVIHEADSETRESET
+  fullName: Funique.ConstString.MEDIAVIHEADSETRESET
+  nameWithType: ConstString.MEDIAVIHEADSETRESET
+- uid: Funique.ConstString.MEDIAVILOOPCLOSE
+  name: MEDIAVILOOPCLOSE
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVILOOPCLOSE
+  commentId: F:Funique.ConstString.MEDIAVILOOPCLOSE
+  fullName: Funique.ConstString.MEDIAVILOOPCLOSE
+  nameWithType: ConstString.MEDIAVILOOPCLOSE
+- uid: Funique.ConstString.MEDIAVILOOPOPEN
+  name: MEDIAVILOOPOPEN
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVILOOPOPEN
+  commentId: F:Funique.ConstString.MEDIAVILOOPOPEN
+  fullName: Funique.ConstString.MEDIAVILOOPOPEN
+  nameWithType: ConstString.MEDIAVILOOPOPEN
+- uid: Funique.ConstString.MEDIAVIWAITROOM
+  name: MEDIAVIWAITROOM
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAVIWAITROOM
+  commentId: F:Funique.ConstString.MEDIAVIWAITROOM
+  fullName: Funique.ConstString.MEDIAVIWAITROOM
+  nameWithType: ConstString.MEDIAVIWAITROOM
+- uid: Funique.ConstString.MEDIAWAITROOM
+  name: MEDIAWAITROOM
+  href: api/Funique.ConstString.html#Funique_ConstString_MEDIAWAITROOM
+  commentId: F:Funique.ConstString.MEDIAWAITROOM
+  fullName: Funique.ConstString.MEDIAWAITROOM
+  nameWithType: ConstString.MEDIAWAITROOM
+- uid: Funique.ConstString.MEIDAPLAYERSCHEME
+  name: MEIDAPLAYERSCHEME
+  href: api/Funique.ConstString.html#Funique_ConstString_MEIDAPLAYERSCHEME
+  commentId: F:Funique.ConstString.MEIDAPLAYERSCHEME
+  fullName: Funique.ConstString.MEIDAPLAYERSCHEME
+  nameWithType: ConstString.MEIDAPLAYERSCHEME
+- uid: Funique.ConstString.MUTE
+  name: MUTE
+  href: api/Funique.ConstString.html#Funique_ConstString_MUTE
+  commentId: F:Funique.ConstString.MUTE
+  fullName: Funique.ConstString.MUTE
+  nameWithType: ConstString.MUTE
+- uid: Funique.ConstString.PLAYERSCHEME
+  name: PLAYERSCHEME
+  href: api/Funique.ConstString.html#Funique_ConstString_PLAYERSCHEME
+  commentId: F:Funique.ConstString.PLAYERSCHEME
+  fullName: Funique.ConstString.PLAYERSCHEME
+  nameWithType: ConstString.PLAYERSCHEME
+- uid: Funique.ConstString.PlAYERSTATE
+  name: PlAYERSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_PlAYERSTATE
+  commentId: F:Funique.ConstString.PlAYERSTATE
+  fullName: Funique.ConstString.PlAYERSTATE
+  nameWithType: ConstString.PlAYERSTATE
+- uid: Funique.ConstString.REPLAYSTATE
+  name: REPLAYSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_REPLAYSTATE
+  commentId: F:Funique.ConstString.REPLAYSTATE
+  fullName: Funique.ConstString.REPLAYSTATE
+  nameWithType: ConstString.REPLAYSTATE
+- uid: Funique.ConstString.SERVERADRESS
+  name: SERVERADRESS
+  href: api/Funique.ConstString.html#Funique_ConstString_SERVERADRESS
+  commentId: F:Funique.ConstString.SERVERADRESS
+  fullName: Funique.ConstString.SERVERADRESS
+  nameWithType: ConstString.SERVERADRESS
+- uid: Funique.ConstString.SETCONITNENT
+  name: SETCONITNENT
+  href: api/Funique.ConstString.html#Funique_ConstString_SETCONITNENT
+  commentId: F:Funique.ConstString.SETCONITNENT
+  fullName: Funique.ConstString.SETCONITNENT
+  nameWithType: ConstString.SETCONITNENT
+- uid: Funique.ConstString.SETLESSON
+  name: SETLESSON
+  href: api/Funique.ConstString.html#Funique_ConstString_SETLESSON
+  commentId: F:Funique.ConstString.SETLESSON
+  fullName: Funique.ConstString.SETLESSON
+  nameWithType: ConstString.SETLESSON
+- uid: Funique.ConstString.SETMENUSTATE
+  name: SETMENUSTATE
+  href: api/Funique.ConstString.html#Funique_ConstString_SETMENUSTATE
+  commentId: F:Funique.ConstString.SETMENUSTATE
+  fullName: Funique.ConstString.SETMENUSTATE
+  nameWithType: ConstString.SETMENUSTATE
+- uid: Funique.ConstString.STRSPLIT
+  name: STRSPLIT
+  href: api/Funique.ConstString.html#Funique_ConstString_STRSPLIT
+  commentId: F:Funique.ConstString.STRSPLIT
+  fullName: Funique.ConstString.STRSPLIT
+  nameWithType: ConstString.STRSPLIT
+- uid: Funique.ConstString.SUBTITLEMODE
+  name: SUBTITLEMODE
+  href: api/Funique.ConstString.html#Funique_ConstString_SUBTITLEMODE
+  commentId: F:Funique.ConstString.SUBTITLEMODE
+  fullName: Funique.ConstString.SUBTITLEMODE
+  nameWithType: ConstString.SUBTITLEMODE
+- uid: Funique.ConstString.TEACHERCALL_HEADSETRESET
+  name: TEACHERCALL_HEADSETRESET
+  href: api/Funique.ConstString.html#Funique_ConstString_TEACHERCALL_HEADSETRESET
+  commentId: F:Funique.ConstString.TEACHERCALL_HEADSETRESET
+  fullName: Funique.ConstString.TEACHERCALL_HEADSETRESET
+  nameWithType: ConstString.TEACHERCALL_HEADSETRESET
+- uid: Funique.ConstString.TOURSTART
+  name: TOURSTART
+  href: api/Funique.ConstString.html#Funique_ConstString_TOURSTART
+  commentId: F:Funique.ConstString.TOURSTART
+  fullName: Funique.ConstString.TOURSTART
+  nameWithType: ConstString.TOURSTART
+- uid: Funique.ConstString.UNMUTE
+  name: UNMUTE
+  href: api/Funique.ConstString.html#Funique_ConstString_UNMUTE
+  commentId: F:Funique.ConstString.UNMUTE
+  fullName: Funique.ConstString.UNMUTE
+  nameWithType: ConstString.UNMUTE
+- uid: Funique.ConstString.VIDEOSEQUENCEPATH
+  name: VIDEOSEQUENCEPATH
+  href: api/Funique.ConstString.html#Funique_ConstString_VIDEOSEQUENCEPATH
+  commentId: F:Funique.ConstString.VIDEOSEQUENCEPATH
+  fullName: Funique.ConstString.VIDEOSEQUENCEPATH
+  nameWithType: ConstString.VIDEOSEQUENCEPATH
+- uid: Funique.ConstString.VIDEOVOLUMEMUTE
+  name: VIDEOVOLUMEMUTE
+  href: api/Funique.ConstString.html#Funique_ConstString_VIDEOVOLUMEMUTE
+  commentId: F:Funique.ConstString.VIDEOVOLUMEMUTE
+  fullName: Funique.ConstString.VIDEOVOLUMEMUTE
+  nameWithType: ConstString.VIDEOVOLUMEMUTE
+- uid: Funique.ConstString.VIDEOVOLUMEVALUE
+  name: VIDEOVOLUMEVALUE
+  href: api/Funique.ConstString.html#Funique_ConstString_VIDEOVOLUMEVALUE
+  commentId: F:Funique.ConstString.VIDEOVOLUMEVALUE
+  fullName: Funique.ConstString.VIDEOVOLUMEVALUE
+  nameWithType: ConstString.VIDEOVOLUMEVALUE
+- uid: Funique.ConstString.VOCALMUTE
+  name: VOCALMUTE
+  href: api/Funique.ConstString.html#Funique_ConstString_VOCALMUTE
+  commentId: F:Funique.ConstString.VOCALMUTE
+  fullName: Funique.ConstString.VOCALMUTE
+  nameWithType: ConstString.VOCALMUTE
+- uid: Funique.ConstString.VOCALVALUE
+  name: VOCALVALUE
+  href: api/Funique.ConstString.html#Funique_ConstString_VOCALVALUE
+  commentId: F:Funique.ConstString.VOCALVALUE
+  fullName: Funique.ConstString.VOCALVALUE
+  nameWithType: ConstString.VOCALVALUE
+- uid: Funique.ConstString.VOICEMUTE
+  name: VOICEMUTE
+  href: api/Funique.ConstString.html#Funique_ConstString_VOICEMUTE
+  commentId: F:Funique.ConstString.VOICEMUTE
+  fullName: Funique.ConstString.VOICEMUTE
+  nameWithType: ConstString.VOICEMUTE
 - uid: Funique.CoroutineHelper
   name: CoroutineHelper
   href: api/Funique.CoroutineHelper.html
@@ -2743,36 +3818,146 @@ references:
   isSpec: "True"
   fullName: Funique.Designer.AssetBundleHelper.OpenAssetBundleHelper
   nameWithType: AssetBundleHelper.OpenAssetBundleHelper
-- uid: Funique.Direction
-  name: Direction
-  href: api/Funique.Direction.html
-  commentId: T:Funique.Direction
-  fullName: Funique.Direction
-  nameWithType: Direction
-- uid: Funique.Direction.None
+- uid: Funique.DevMode
+  name: DevMode
+  href: api/Funique.DevMode.html
+  commentId: T:Funique.DevMode
+  fullName: Funique.DevMode
+  nameWithType: DevMode
+- uid: Funique.DevMode.CheckBias
+  name: CheckBias()
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBias
+  commentId: M:Funique.DevMode.CheckBias
+  fullName: Funique.DevMode.CheckBias()
+  nameWithType: DevMode.CheckBias()
+- uid: Funique.DevMode.CheckBias*
+  name: CheckBias
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBias_
+  commentId: Overload:Funique.DevMode.CheckBias
+  isSpec: "True"
+  fullName: Funique.DevMode.CheckBias
+  nameWithType: DevMode.CheckBias
+- uid: Funique.DevMode.CheckBiasSetDefault
+  name: CheckBiasSetDefault()
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetDefault
+  commentId: M:Funique.DevMode.CheckBiasSetDefault
+  fullName: Funique.DevMode.CheckBiasSetDefault()
+  nameWithType: DevMode.CheckBiasSetDefault()
+- uid: Funique.DevMode.CheckBiasSetDefault*
+  name: CheckBiasSetDefault
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetDefault_
+  commentId: Overload:Funique.DevMode.CheckBiasSetDefault
+  isSpec: "True"
+  fullName: Funique.DevMode.CheckBiasSetDefault
+  nameWithType: DevMode.CheckBiasSetDefault
+- uid: Funique.DevMode.CheckBiasSetHigh
+  name: CheckBiasSetHigh()
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetHigh
+  commentId: M:Funique.DevMode.CheckBiasSetHigh
+  fullName: Funique.DevMode.CheckBiasSetHigh()
+  nameWithType: DevMode.CheckBiasSetHigh()
+- uid: Funique.DevMode.CheckBiasSetHigh*
+  name: CheckBiasSetHigh
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetHigh_
+  commentId: Overload:Funique.DevMode.CheckBiasSetHigh
+  isSpec: "True"
+  fullName: Funique.DevMode.CheckBiasSetHigh
+  nameWithType: DevMode.CheckBiasSetHigh
+- uid: Funique.DevMode.CheckBiasSetHighest
+  name: CheckBiasSetHighest()
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetHighest
+  commentId: M:Funique.DevMode.CheckBiasSetHighest
+  fullName: Funique.DevMode.CheckBiasSetHighest()
+  nameWithType: DevMode.CheckBiasSetHighest()
+- uid: Funique.DevMode.CheckBiasSetHighest*
+  name: CheckBiasSetHighest
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetHighest_
+  commentId: Overload:Funique.DevMode.CheckBiasSetHighest
+  isSpec: "True"
+  fullName: Funique.DevMode.CheckBiasSetHighest
+  nameWithType: DevMode.CheckBiasSetHighest
+- uid: Funique.DevMode.CheckBiasSetlow
+  name: CheckBiasSetlow()
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetlow
+  commentId: M:Funique.DevMode.CheckBiasSetlow
+  fullName: Funique.DevMode.CheckBiasSetlow()
+  nameWithType: DevMode.CheckBiasSetlow()
+- uid: Funique.DevMode.CheckBiasSetlow*
+  name: CheckBiasSetlow
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetlow_
+  commentId: Overload:Funique.DevMode.CheckBiasSetlow
+  isSpec: "True"
+  fullName: Funique.DevMode.CheckBiasSetlow
+  nameWithType: DevMode.CheckBiasSetlow
+- uid: Funique.DevMode.CheckBiasSetLowest
+  name: CheckBiasSetLowest()
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetLowest
+  commentId: M:Funique.DevMode.CheckBiasSetLowest
+  fullName: Funique.DevMode.CheckBiasSetLowest()
+  nameWithType: DevMode.CheckBiasSetLowest()
+- uid: Funique.DevMode.CheckBiasSetLowest*
+  name: CheckBiasSetLowest
+  href: api/Funique.DevMode.html#Funique_DevMode_CheckBiasSetLowest_
+  commentId: Overload:Funique.DevMode.CheckBiasSetLowest
+  isSpec: "True"
+  fullName: Funique.DevMode.CheckBiasSetLowest
+  nameWithType: DevMode.CheckBiasSetLowest
+- uid: Funique.DevMode.TunrOff
+  name: TunrOff()
+  href: api/Funique.DevMode.html#Funique_DevMode_TunrOff
+  commentId: M:Funique.DevMode.TunrOff
+  fullName: Funique.DevMode.TunrOff()
+  nameWithType: DevMode.TunrOff()
+- uid: Funique.DevMode.TunrOff*
+  name: TunrOff
+  href: api/Funique.DevMode.html#Funique_DevMode_TunrOff_
+  commentId: Overload:Funique.DevMode.TunrOff
+  isSpec: "True"
+  fullName: Funique.DevMode.TunrOff
+  nameWithType: DevMode.TunrOff
+- uid: Funique.DevMode.TunrOn
+  name: TunrOn()
+  href: api/Funique.DevMode.html#Funique_DevMode_TunrOn
+  commentId: M:Funique.DevMode.TunrOn
+  fullName: Funique.DevMode.TunrOn()
+  nameWithType: DevMode.TunrOn()
+- uid: Funique.DevMode.TunrOn*
+  name: TunrOn
+  href: api/Funique.DevMode.html#Funique_DevMode_TunrOn_
+  commentId: Overload:Funique.DevMode.TunrOn
+  isSpec: "True"
+  fullName: Funique.DevMode.TunrOn
+  nameWithType: DevMode.TunrOn
+- uid: Funique.DirectionFlag
+  name: DirectionFlag
+  href: api/Funique.DirectionFlag.html
+  commentId: T:Funique.DirectionFlag
+  fullName: Funique.DirectionFlag
+  nameWithType: DirectionFlag
+- uid: Funique.DirectionFlag.None
   name: None
-  href: api/Funique.Direction.html#Funique_Direction_None
-  commentId: F:Funique.Direction.None
-  fullName: Funique.Direction.None
-  nameWithType: Direction.None
-- uid: Funique.Direction.X
+  href: api/Funique.DirectionFlag.html#Funique_DirectionFlag_None
+  commentId: F:Funique.DirectionFlag.None
+  fullName: Funique.DirectionFlag.None
+  nameWithType: DirectionFlag.None
+- uid: Funique.DirectionFlag.X
   name: X
-  href: api/Funique.Direction.html#Funique_Direction_X
-  commentId: F:Funique.Direction.X
-  fullName: Funique.Direction.X
-  nameWithType: Direction.X
-- uid: Funique.Direction.Y
+  href: api/Funique.DirectionFlag.html#Funique_DirectionFlag_X
+  commentId: F:Funique.DirectionFlag.X
+  fullName: Funique.DirectionFlag.X
+  nameWithType: DirectionFlag.X
+- uid: Funique.DirectionFlag.Y
   name: Y
-  href: api/Funique.Direction.html#Funique_Direction_Y
-  commentId: F:Funique.Direction.Y
-  fullName: Funique.Direction.Y
-  nameWithType: Direction.Y
-- uid: Funique.Direction.Z
+  href: api/Funique.DirectionFlag.html#Funique_DirectionFlag_Y
+  commentId: F:Funique.DirectionFlag.Y
+  fullName: Funique.DirectionFlag.Y
+  nameWithType: DirectionFlag.Y
+- uid: Funique.DirectionFlag.Z
   name: Z
-  href: api/Funique.Direction.html#Funique_Direction_Z
-  commentId: F:Funique.Direction.Z
-  fullName: Funique.Direction.Z
-  nameWithType: Direction.Z
+  href: api/Funique.DirectionFlag.html#Funique_DirectionFlag_Z
+  commentId: F:Funique.DirectionFlag.Z
+  fullName: Funique.DirectionFlag.Z
+  nameWithType: DirectionFlag.Z
 - uid: Funique.Disable
   name: Disable
   href: api/Funique.Disable.html
@@ -2913,6 +4098,14 @@ references:
   fullName.vb: Funique.EnumCycle(Of T)
   nameWithType: EnumCycle<T>
   nameWithType.vb: EnumCycle(Of T)
+- uid: Funique.EnumCycle`1.Last(`0)
+  name: Last(T)
+  href: api/Funique.EnumCycle-1.html#Funique_EnumCycle_1_Last__0_
+  commentId: M:Funique.EnumCycle`1.Last(`0)
+  fullName: Funique.EnumCycle<T>.Last(T)
+  fullName.vb: Funique.EnumCycle(Of T).Last(T)
+  nameWithType: EnumCycle<T>.Last(T)
+  nameWithType.vb: EnumCycle(Of T).Last(T)
 - uid: Funique.EnumCycle`1.Last(System.Int32)
   name: Last(Int32)
   href: api/Funique.EnumCycle-1.html#Funique_EnumCycle_1_Last_System_Int32_
@@ -2930,6 +4123,14 @@ references:
   fullName.vb: Funique.EnumCycle(Of T).Last
   nameWithType: EnumCycle<T>.Last
   nameWithType.vb: EnumCycle(Of T).Last
+- uid: Funique.EnumCycle`1.Next(`0)
+  name: Next(T)
+  href: api/Funique.EnumCycle-1.html#Funique_EnumCycle_1_Next__0_
+  commentId: M:Funique.EnumCycle`1.Next(`0)
+  fullName: Funique.EnumCycle<T>.Next(T)
+  fullName.vb: Funique.EnumCycle(Of T).Next(T)
+  nameWithType: EnumCycle<T>.Next(T)
+  nameWithType.vb: EnumCycle(Of T).Next(T)
 - uid: Funique.EnumCycle`1.Next(System.Int32)
   name: Next(Int32)
   href: api/Funique.EnumCycle-1.html#Funique_EnumCycle_1_Next_System_Int32_
@@ -2947,44 +4148,86 @@ references:
   fullName.vb: Funique.EnumCycle(Of T).Next
   nameWithType: EnumCycle<T>.Next
   nameWithType.vb: EnumCycle(Of T).Next
-- uid: Funique.ErroCode
-  name: ErroCode
-  href: api/Funique.ErroCode.html
-  commentId: T:Funique.ErroCode
-  fullName: Funique.ErroCode
-  nameWithType: ErroCode
-- uid: Funique.ErroCode.#ctor
-  name: ErroCode()
-  href: api/Funique.ErroCode.html#Funique_ErroCode__ctor
-  commentId: M:Funique.ErroCode.#ctor
-  fullName: Funique.ErroCode.ErroCode()
-  nameWithType: ErroCode.ErroCode()
-- uid: Funique.ErroCode.#ctor*
-  name: ErroCode
-  href: api/Funique.ErroCode.html#Funique_ErroCode__ctor_
-  commentId: Overload:Funique.ErroCode.#ctor
+- uid: Funique.ExampleListener
+  name: ExampleListener
+  href: api/Funique.ExampleListener.html
+  commentId: T:Funique.ExampleListener
+  fullName: Funique.ExampleListener
+  nameWithType: ExampleListener
+- uid: Funique.ExampleListener.controller
+  name: controller
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_controller
+  commentId: F:Funique.ExampleListener.controller
+  fullName: Funique.ExampleListener.controller
+  nameWithType: ExampleListener.controller
+- uid: Funique.ExampleListener.OnAxis2D
+  name: OnAxis2D
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnAxis2D
+  commentId: F:Funique.ExampleListener.OnAxis2D
+  fullName: Funique.ExampleListener.OnAxis2D
+  nameWithType: ExampleListener.OnAxis2D
+- uid: Funique.ExampleListener.OnDisable
+  name: OnDisable()
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnDisable
+  commentId: M:Funique.ExampleListener.OnDisable
+  fullName: Funique.ExampleListener.OnDisable()
+  nameWithType: ExampleListener.OnDisable()
+- uid: Funique.ExampleListener.OnDisable*
+  name: OnDisable
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnDisable_
+  commentId: Overload:Funique.ExampleListener.OnDisable
   isSpec: "True"
-  fullName: Funique.ErroCode.ErroCode
-  nameWithType: ErroCode.ErroCode
-- uid: Funique.ErroCode._aErroCode
-  name: _aErroCode
-  href: api/Funique.ErroCode.html#Funique_ErroCode__aErroCode
-  commentId: F:Funique.ErroCode._aErroCode
-  fullName: Funique.ErroCode._aErroCode
-  nameWithType: ErroCode._aErroCode
-- uid: Funique.ErroCode.TryGetErroCode(System.Int32)
-  name: TryGetErroCode(Int32)
-  href: api/Funique.ErroCode.html#Funique_ErroCode_TryGetErroCode_System_Int32_
-  commentId: M:Funique.ErroCode.TryGetErroCode(System.Int32)
-  fullName: Funique.ErroCode.TryGetErroCode(System.Int32)
-  nameWithType: ErroCode.TryGetErroCode(Int32)
-- uid: Funique.ErroCode.TryGetErroCode*
-  name: TryGetErroCode
-  href: api/Funique.ErroCode.html#Funique_ErroCode_TryGetErroCode_
-  commentId: Overload:Funique.ErroCode.TryGetErroCode
+  fullName: Funique.ExampleListener.OnDisable
+  nameWithType: ExampleListener.OnDisable
+- uid: Funique.ExampleListener.OnDown
+  name: OnDown
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnDown
+  commentId: F:Funique.ExampleListener.OnDown
+  fullName: Funique.ExampleListener.OnDown
+  nameWithType: ExampleListener.OnDown
+- uid: Funique.ExampleListener.OnEnable
+  name: OnEnable()
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnEnable
+  commentId: M:Funique.ExampleListener.OnEnable
+  fullName: Funique.ExampleListener.OnEnable()
+  nameWithType: ExampleListener.OnEnable()
+- uid: Funique.ExampleListener.OnEnable*
+  name: OnEnable
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnEnable_
+  commentId: Overload:Funique.ExampleListener.OnEnable
   isSpec: "True"
-  fullName: Funique.ErroCode.TryGetErroCode
-  nameWithType: ErroCode.TryGetErroCode
+  fullName: Funique.ExampleListener.OnEnable
+  nameWithType: ExampleListener.OnEnable
+- uid: Funique.ExampleListener.OnTriggerValue
+  name: OnTriggerValue
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnTriggerValue
+  commentId: F:Funique.ExampleListener.OnTriggerValue
+  fullName: Funique.ExampleListener.OnTriggerValue
+  nameWithType: ExampleListener.OnTriggerValue
+- uid: Funique.ExampleListener.OnUP
+  name: OnUP
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_OnUP
+  commentId: F:Funique.ExampleListener.OnUP
+  fullName: Funique.ExampleListener.OnUP
+  nameWithType: ExampleListener.OnUP
+- uid: Funique.ExampleListener.primaryAxis2DHandler
+  name: primaryAxis2DHandler
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_primaryAxis2DHandler
+  commentId: F:Funique.ExampleListener.primaryAxis2DHandler
+  fullName: Funique.ExampleListener.primaryAxis2DHandler
+  nameWithType: ExampleListener.primaryAxis2DHandler
+- uid: Funique.ExampleListener.primaryAxisClickHandler
+  name: primaryAxisClickHandler
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_primaryAxisClickHandler
+  commentId: F:Funique.ExampleListener.primaryAxisClickHandler
+  fullName: Funique.ExampleListener.primaryAxisClickHandler
+  nameWithType: ExampleListener.primaryAxisClickHandler
+- uid: Funique.ExampleListener.triggerHandler
+  name: triggerHandler
+  href: api/Funique.ExampleListener.html#Funique_ExampleListener_triggerHandler
+  commentId: F:Funique.ExampleListener.triggerHandler
+  fullName: Funique.ExampleListener.triggerHandler
+  nameWithType: ExampleListener.triggerHandler
 - uid: Funique.FFmpegExtensions
   name: FFmpegExtensions
   href: api/Funique.FFmpegExtensions.html
@@ -3102,6 +4345,90 @@ references:
   commentId: T:Funique.ForceActive
   fullName: Funique.ForceActive
   nameWithType: ForceActive
+- uid: Funique.ForceActive.AddActive(UnityEngine.MeshRenderer)
+  name: AddActive(MeshRenderer)
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddActive_UnityEngine_MeshRenderer_
+  commentId: M:Funique.ForceActive.AddActive(UnityEngine.MeshRenderer)
+  fullName: Funique.ForceActive.AddActive(UnityEngine.MeshRenderer)
+  nameWithType: ForceActive.AddActive(MeshRenderer)
+- uid: Funique.ForceActive.AddActive*
+  name: AddActive
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddActive_
+  commentId: Overload:Funique.ForceActive.AddActive
+  isSpec: "True"
+  fullName: Funique.ForceActive.AddActive
+  nameWithType: ForceActive.AddActive
+- uid: Funique.ForceActive.AddActives(UnityEngine.MeshRenderer[])
+  name: AddActives(MeshRenderer[])
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddActives_UnityEngine_MeshRenderer___
+  commentId: M:Funique.ForceActive.AddActives(UnityEngine.MeshRenderer[])
+  name.vb: AddActives(MeshRenderer())
+  fullName: Funique.ForceActive.AddActives(UnityEngine.MeshRenderer[])
+  fullName.vb: Funique.ForceActive.AddActives(UnityEngine.MeshRenderer())
+  nameWithType: ForceActive.AddActives(MeshRenderer[])
+  nameWithType.vb: ForceActive.AddActives(MeshRenderer())
+- uid: Funique.ForceActive.AddActives*
+  name: AddActives
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddActives_
+  commentId: Overload:Funique.ForceActive.AddActives
+  isSpec: "True"
+  fullName: Funique.ForceActive.AddActives
+  nameWithType: ForceActive.AddActives
+- uid: Funique.ForceActive.AddDisactive(UnityEngine.MeshRenderer)
+  name: AddDisactive(MeshRenderer)
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddDisactive_UnityEngine_MeshRenderer_
+  commentId: M:Funique.ForceActive.AddDisactive(UnityEngine.MeshRenderer)
+  fullName: Funique.ForceActive.AddDisactive(UnityEngine.MeshRenderer)
+  nameWithType: ForceActive.AddDisactive(MeshRenderer)
+- uid: Funique.ForceActive.AddDisactive*
+  name: AddDisactive
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddDisactive_
+  commentId: Overload:Funique.ForceActive.AddDisactive
+  isSpec: "True"
+  fullName: Funique.ForceActive.AddDisactive
+  nameWithType: ForceActive.AddDisactive
+- uid: Funique.ForceActive.AddDisactives(UnityEngine.MeshRenderer[])
+  name: AddDisactives(MeshRenderer[])
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddDisactives_UnityEngine_MeshRenderer___
+  commentId: M:Funique.ForceActive.AddDisactives(UnityEngine.MeshRenderer[])
+  name.vb: AddDisactives(MeshRenderer())
+  fullName: Funique.ForceActive.AddDisactives(UnityEngine.MeshRenderer[])
+  fullName.vb: Funique.ForceActive.AddDisactives(UnityEngine.MeshRenderer())
+  nameWithType: ForceActive.AddDisactives(MeshRenderer[])
+  nameWithType.vb: ForceActive.AddDisactives(MeshRenderer())
+- uid: Funique.ForceActive.AddDisactives*
+  name: AddDisactives
+  href: api/Funique.ForceActive.html#Funique_ForceActive_AddDisactives_
+  commentId: Overload:Funique.ForceActive.AddDisactives
+  isSpec: "True"
+  fullName: Funique.ForceActive.AddDisactives
+  nameWithType: ForceActive.AddDisactives
+- uid: Funique.ForceActive.CleanActive
+  name: CleanActive()
+  href: api/Funique.ForceActive.html#Funique_ForceActive_CleanActive
+  commentId: M:Funique.ForceActive.CleanActive
+  fullName: Funique.ForceActive.CleanActive()
+  nameWithType: ForceActive.CleanActive()
+- uid: Funique.ForceActive.CleanActive*
+  name: CleanActive
+  href: api/Funique.ForceActive.html#Funique_ForceActive_CleanActive_
+  commentId: Overload:Funique.ForceActive.CleanActive
+  isSpec: "True"
+  fullName: Funique.ForceActive.CleanActive
+  nameWithType: ForceActive.CleanActive
+- uid: Funique.ForceActive.CleanDisactive
+  name: CleanDisactive()
+  href: api/Funique.ForceActive.html#Funique_ForceActive_CleanDisactive
+  commentId: M:Funique.ForceActive.CleanDisactive
+  fullName: Funique.ForceActive.CleanDisactive()
+  nameWithType: ForceActive.CleanDisactive()
+- uid: Funique.ForceActive.CleanDisactive*
+  name: CleanDisactive
+  href: api/Funique.ForceActive.html#Funique_ForceActive_CleanDisactive_
+  commentId: Overload:Funique.ForceActive.CleanDisactive
+  isSpec: "True"
+  fullName: Funique.ForceActive.CleanDisactive
+  nameWithType: ForceActive.CleanDisactive
 - uid: Funique.FPath
   name: FPath
   href: api/Funique.FPath.html
@@ -3121,6 +4448,19 @@ references:
   isSpec: "True"
   fullName: Funique.FPath.AndroidMoviePath
   nameWithType: FPath.AndroidMoviePath
+- uid: Funique.FPath.Init
+  name: Init()
+  href: api/Funique.FPath.html#Funique_FPath_Init
+  commentId: M:Funique.FPath.Init
+  fullName: Funique.FPath.Init()
+  nameWithType: FPath.Init()
+- uid: Funique.FPath.Init*
+  name: Init
+  href: api/Funique.FPath.html#Funique_FPath_Init_
+  commentId: Overload:Funique.FPath.Init
+  isSpec: "True"
+  fullName: Funique.FPath.Init
+  nameWithType: FPath.Init
 - uid: Funique.FuniqueLogger
   name: FuniqueLogger
   href: api/Funique.FuniqueLogger.html
@@ -3322,6 +4662,25 @@ references:
   commentId: T:Funique.ILogger
   fullName: Funique.ILogger
   nameWithType: ILogger
+- uid: Funique.ILogger.Assert(System.Boolean,System.Object,System.Int32)
+  name: Assert(Boolean, Object, Int32)
+  href: api/Funique.ILogger.html#Funique_ILogger_Assert_System_Boolean_System_Object_System_Int32_
+  commentId: M:Funique.ILogger.Assert(System.Boolean,System.Object,System.Int32)
+  fullName: Funique.ILogger.Assert(System.Boolean, System.Object, System.Int32)
+  nameWithType: ILogger.Assert(Boolean, Object, Int32)
+- uid: Funique.ILogger.Assert(System.Boolean,System.Object,System.String,System.Int32)
+  name: Assert(Boolean, Object, String, Int32)
+  href: api/Funique.ILogger.html#Funique_ILogger_Assert_System_Boolean_System_Object_System_String_System_Int32_
+  commentId: M:Funique.ILogger.Assert(System.Boolean,System.Object,System.String,System.Int32)
+  fullName: Funique.ILogger.Assert(System.Boolean, System.Object, System.String, System.Int32)
+  nameWithType: ILogger.Assert(Boolean, Object, String, Int32)
+- uid: Funique.ILogger.Assert*
+  name: Assert
+  href: api/Funique.ILogger.html#Funique_ILogger_Assert_
+  commentId: Overload:Funique.ILogger.Assert
+  isSpec: "True"
+  fullName: Funique.ILogger.Assert
+  nameWithType: ILogger.Assert
 - uid: Funique.ILogger.Error(System.Object,System.Int32)
   name: Error(Object, Int32)
   href: api/Funique.ILogger.html#Funique_ILogger_Error_System_Object_System_Int32_
@@ -3341,6 +4700,19 @@ references:
   isSpec: "True"
   fullName: Funique.ILogger.Error
   nameWithType: ILogger.Error
+- uid: Funique.ILogger.Exception(System.Exception,System.Int32)
+  name: Exception(Exception, Int32)
+  href: api/Funique.ILogger.html#Funique_ILogger_Exception_System_Exception_System_Int32_
+  commentId: M:Funique.ILogger.Exception(System.Exception,System.Int32)
+  fullName: Funique.ILogger.Exception(System.Exception, System.Int32)
+  nameWithType: ILogger.Exception(Exception, Int32)
+- uid: Funique.ILogger.Exception*
+  name: Exception
+  href: api/Funique.ILogger.html#Funique_ILogger_Exception_
+  commentId: Overload:Funique.ILogger.Exception
+  isSpec: "True"
+  fullName: Funique.ILogger.Exception
+  nameWithType: ILogger.Exception
 - uid: Funique.ILogger.Log(System.Object,System.Int32)
   name: Log(Object, Int32)
   href: api/Funique.ILogger.html#Funique_ILogger_Log_System_Object_System_Int32_
@@ -3572,6 +4944,12 @@ references:
   commentId: F:Funique.InfoBase.FilterName
   fullName: Funique.InfoBase.FilterName
   nameWithType: InfoBase.FilterName
+- uid: Funique.InfoBase.Meta
+  name: Meta
+  href: api/Funique.InfoBase.html#Funique_InfoBase_Meta
+  commentId: F:Funique.InfoBase.Meta
+  fullName: Funique.InfoBase.Meta
+  nameWithType: InfoBase.Meta
 - uid: Funique.InfoBase.PlayableType
   name: PlayableType
   href: api/Funique.InfoBase.html#Funique_InfoBase_PlayableType
@@ -3584,6 +4962,25 @@ references:
   commentId: F:Funique.InfoBase.SourceName
   fullName: Funique.InfoBase.SourceName
   nameWithType: InfoBase.SourceName
+- uid: Funique.InputHandler
+  name: InputHandler
+  href: api/Funique.InputHandler.html
+  commentId: T:Funique.InputHandler
+  fullName: Funique.InputHandler
+  nameWithType: InputHandler
+- uid: Funique.InputHandler.HandleState(XRController)
+  name: HandleState(XRController)
+  href: api/Funique.InputHandler.html#Funique_InputHandler_HandleState_XRController_
+  commentId: M:Funique.InputHandler.HandleState(XRController)
+  fullName: Funique.InputHandler.HandleState(XRController)
+  nameWithType: InputHandler.HandleState(XRController)
+- uid: Funique.InputHandler.HandleState*
+  name: HandleState
+  href: api/Funique.InputHandler.html#Funique_InputHandler_HandleState_
+  commentId: Overload:Funique.InputHandler.HandleState
+  isSpec: "True"
+  fullName: Funique.InputHandler.HandleState
+  nameWithType: InputHandler.HandleState
 - uid: Funique.IToolPlayerInformationExtension
   name: IToolPlayerInformationExtension
   href: api/Funique.IToolPlayerInformationExtension.html
@@ -4232,6 +5629,19 @@ references:
   isSpec: "True"
   fullName: Funique.Manager.CinemaManagerClientUtility.CurMedia
   nameWithType: CinemaManagerClientUtility.CurMedia
+- uid: Funique.Manager.CinemaManagerClientUtility.Current_Display
+  name: Current_Display
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_Current_Display
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.Current_Display
+  fullName: Funique.Manager.CinemaManagerClientUtility.Current_Display
+  nameWithType: CinemaManagerClientUtility.Current_Display
+- uid: Funique.Manager.CinemaManagerClientUtility.Current_Display*
+  name: Current_Display
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_Current_Display_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.Current_Display
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.Current_Display
+  nameWithType: CinemaManagerClientUtility.Current_Display
 - uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
   name: CurrentMediaPlayer
   href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer
@@ -4245,6 +5655,45 @@ references:
   isSpec: "True"
   fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
   nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  name: CurrentMediaPlayer_Another
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer_Another
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Another
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another*
+  name: CurrentMediaPlayer_Another
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer_Another_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Another
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  name: CurrentMediaPlayer_Display
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer_Display
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Display
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display*
+  name: CurrentMediaPlayer_Display
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer_Display_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Display
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  name: CurrentMediaPlayer_Swap
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer_Swap
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap*
+  name: CurrentMediaPlayer_Swap
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_CurrentMediaPlayer_Swap_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Swap
 - uid: Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI(System.Boolean)
   name: DetectMediaPlayerUI(Boolean)
   href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_DetectMediaPlayerUI_System_Boolean_
@@ -4297,6 +5746,19 @@ references:
   isSpec: "True"
   fullName: Funique.Manager.CinemaManagerClientUtility.GetControlState
   nameWithType: CinemaManagerClientUtility.GetControlState
+- uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String,System.Boolean)
+  name: GetMediaPath(String, Boolean)
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_GetMediaPath_System_String_System_Boolean_
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String,System.Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String, System.Boolean)
+  nameWithType: CinemaManagerClientUtility.GetMediaPath(String, Boolean)
+- uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPath*
+  name: GetMediaPath
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_GetMediaPath_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetMediaPath
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetMediaPath
+  nameWithType: CinemaManagerClientUtility.GetMediaPath
 - uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,RenderHeads.Media.AVProVideo.ErrorCode)
   name: GetMediaPlayerStatus(MediaPlayer, MediaPlayerEvent.EventType, ErrorCode)
   href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_GetMediaPlayerStatus_RenderHeads_Media_AVProVideo_MediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayerEvent_EventType_RenderHeads_Media_AVProVideo_ErrorCode_
@@ -4611,6 +6073,25 @@ references:
   isSpec: "True"
   fullName: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance
   nameWithType: CinemaManagerClientUtility.SelectMediaPlayerInstance
+- uid: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  name: SetFirstBuffer()
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SetFirstBuffer
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer()
+  nameWithType: CinemaManagerClientUtility.SetFirstBuffer()
+- uid: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer*
+  name: SetFirstBuffer
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SetFirstBuffer_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  nameWithType: CinemaManagerClientUtility.SetFirstBuffer
+- uid: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  name: SetReadyPlayFile(InfoBase)
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SetReadyPlayFile_Funique_InfoBase_
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  nameWithType: CinemaManagerClientUtility.SetReadyPlayFile(InfoBase)
 - uid: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(System.String)
   name: SetReadyPlayFile(String)
   href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SetReadyPlayFile_System_String_
@@ -4802,6 +6283,32 @@ references:
   isSpec: "True"
   fullName: Funique.Manager.CinemaManagerClientUtility.SphereOBJ
   nameWithType: CinemaManagerClientUtility.SphereOBJ
+- uid: Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  name: Support_Swap
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_Support_Swap
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  fullName: Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  nameWithType: CinemaManagerClientUtility.Support_Swap
+- uid: Funique.Manager.CinemaManagerClientUtility.Support_Swap*
+  name: Support_Swap
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_Support_Swap_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  nameWithType: CinemaManagerClientUtility.Support_Swap
+- uid: Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  name: SwapBuffer()
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SwapBuffer
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  fullName: Funique.Manager.CinemaManagerClientUtility.SwapBuffer()
+  nameWithType: CinemaManagerClientUtility.SwapBuffer()
+- uid: Funique.Manager.CinemaManagerClientUtility.SwapBuffer*
+  name: SwapBuffer
+  href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SwapBuffer_
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  isSpec: "True"
+  fullName: Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  nameWithType: CinemaManagerClientUtility.SwapBuffer
 - uid: Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
   name: SwitchMediaPlayer(MediaPlayer)
   href: api/Funique.Manager.CinemaManagerClientUtility.html#Funique_Manager_CinemaManagerClientUtility_SwitchMediaPlayer_RenderHeads_Media_AVProVideo_MediaPlayer_
@@ -5194,6 +6701,19 @@ references:
   commentId: T:Funique.Manager.FileClientManagerUtility
   fullName: Funique.Manager.FileClientManagerUtility
   nameWithType: FileClientManagerUtility
+- uid: Funique.Manager.FileClientManagerUtility.abrList
+  name: abrList
+  href: api/Funique.Manager.FileClientManagerUtility.html#Funique_Manager_FileClientManagerUtility_abrList
+  commentId: P:Funique.Manager.FileClientManagerUtility.abrList
+  fullName: Funique.Manager.FileClientManagerUtility.abrList
+  nameWithType: FileClientManagerUtility.abrList
+- uid: Funique.Manager.FileClientManagerUtility.abrList*
+  name: abrList
+  href: api/Funique.Manager.FileClientManagerUtility.html#Funique_Manager_FileClientManagerUtility_abrList_
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.abrList
+  isSpec: "True"
+  fullName: Funique.Manager.FileClientManagerUtility.abrList
+  nameWithType: FileClientManagerUtility.abrList
 - uid: Funique.Manager.FileClientManagerUtility.CurrentMode
   name: CurrentMode
   href: api/Funique.Manager.FileClientManagerUtility.html#Funique_Manager_FileClientManagerUtility_CurrentMode
@@ -8273,6 +9793,19 @@ references:
   isSpec: "True"
   fullName: Funique.Manager.VerifyClientUtility._AutoPlay
   nameWithType: VerifyClientUtility._AutoPlay
+- uid: Funique.Manager.VerifyClientUtility._Config
+  name: _Config
+  href: api/Funique.Manager.VerifyClientUtility.html#Funique_Manager_VerifyClientUtility__Config
+  commentId: P:Funique.Manager.VerifyClientUtility._Config
+  fullName: Funique.Manager.VerifyClientUtility._Config
+  nameWithType: VerifyClientUtility._Config
+- uid: Funique.Manager.VerifyClientUtility._Config*
+  name: _Config
+  href: api/Funique.Manager.VerifyClientUtility.html#Funique_Manager_VerifyClientUtility__Config_
+  commentId: Overload:Funique.Manager.VerifyClientUtility._Config
+  isSpec: "True"
+  fullName: Funique.Manager.VerifyClientUtility._Config
+  nameWithType: VerifyClientUtility._Config
 - uid: Funique.Manager.VerifyClientUtility._Date
   name: _Date
   href: api/Funique.Manager.VerifyClientUtility.html#Funique_Manager_VerifyClientUtility__Date
@@ -8993,6 +10526,98 @@ references:
   commentId: F:Funique.Media.MediaManagerData.MediaController
   fullName: Funique.Media.MediaManagerData.MediaController
   nameWithType: MediaManagerData.MediaController
+- uid: Funique.MediaChannel
+  name: MediaChannel
+  href: api/Funique.MediaChannel.html
+  commentId: T:Funique.MediaChannel
+  fullName: Funique.MediaChannel
+  nameWithType: MediaChannel
+- uid: Funique.MediaChannel.a_codec
+  name: a_codec
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_a_codec
+  commentId: F:Funique.MediaChannel.a_codec
+  fullName: Funique.MediaChannel.a_codec
+  nameWithType: MediaChannel.a_codec
+- uid: Funique.MediaChannel.average
+  name: average
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_average
+  commentId: F:Funique.MediaChannel.average
+  fullName: Funique.MediaChannel.average
+  nameWithType: MediaChannel.average
+- uid: Funique.MediaChannel.bandwidth
+  name: bandwidth
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_bandwidth
+  commentId: F:Funique.MediaChannel.bandwidth
+  fullName: Funique.MediaChannel.bandwidth
+  nameWithType: MediaChannel.bandwidth
+- uid: Funique.MediaChannel.Bitrate_Simplify
+  name: Bitrate_Simplify
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_Bitrate_Simplify
+  commentId: P:Funique.MediaChannel.Bitrate_Simplify
+  fullName: Funique.MediaChannel.Bitrate_Simplify
+  nameWithType: MediaChannel.Bitrate_Simplify
+- uid: Funique.MediaChannel.Bitrate_Simplify*
+  name: Bitrate_Simplify
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_Bitrate_Simplify_
+  commentId: Overload:Funique.MediaChannel.Bitrate_Simplify
+  isSpec: "True"
+  fullName: Funique.MediaChannel.Bitrate_Simplify
+  nameWithType: MediaChannel.Bitrate_Simplify
+- uid: Funique.MediaChannel.framerate
+  name: framerate
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_framerate
+  commentId: F:Funique.MediaChannel.framerate
+  fullName: Funique.MediaChannel.framerate
+  nameWithType: MediaChannel.framerate
+- uid: Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  name: GetOptionTitle(ABRDisplayType)
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_GetOptionTitle_Funique_ABRDisplayType_
+  commentId: M:Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  fullName: Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  nameWithType: MediaChannel.GetOptionTitle(ABRDisplayType)
+- uid: Funique.MediaChannel.GetOptionTitle*
+  name: GetOptionTitle
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_GetOptionTitle_
+  commentId: Overload:Funique.MediaChannel.GetOptionTitle
+  isSpec: "True"
+  fullName: Funique.MediaChannel.GetOptionTitle
+  nameWithType: MediaChannel.GetOptionTitle
+- uid: Funique.MediaChannel.height
+  name: height
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_height
+  commentId: F:Funique.MediaChannel.height
+  fullName: Funique.MediaChannel.height
+  nameWithType: MediaChannel.height
+- uid: Funique.MediaChannel.inf
+  name: inf
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_inf
+  commentId: F:Funique.MediaChannel.inf
+  fullName: Funique.MediaChannel.inf
+  nameWithType: MediaChannel.inf
+- uid: Funique.MediaChannel.mediaType
+  name: mediaType
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_mediaType
+  commentId: F:Funique.MediaChannel.mediaType
+  fullName: Funique.MediaChannel.mediaType
+  nameWithType: MediaChannel.mediaType
+- uid: Funique.MediaChannel.path
+  name: path
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_path
+  commentId: F:Funique.MediaChannel.path
+  fullName: Funique.MediaChannel.path
+  nameWithType: MediaChannel.path
+- uid: Funique.MediaChannel.v_codec
+  name: v_codec
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_v_codec
+  commentId: F:Funique.MediaChannel.v_codec
+  fullName: Funique.MediaChannel.v_codec
+  nameWithType: MediaChannel.v_codec
+- uid: Funique.MediaChannel.width
+  name: width
+  href: api/Funique.MediaChannel.html#Funique_MediaChannel_width
+  commentId: F:Funique.MediaChannel.width
+  fullName: Funique.MediaChannel.width
+  nameWithType: MediaChannel.width
 - uid: Funique.MediaControllerBase
   name: MediaControllerBase
   href: api/Funique.MediaControllerBase.html
@@ -9101,6 +10726,30 @@ references:
   isSpec: "True"
   fullName: Funique.MediaControllerBase.UpdateTimeBar
   nameWithType: MediaControllerBase.UpdateTimeBar
+- uid: Funique.MediaType
+  name: MediaType
+  href: api/Funique.MediaType.html
+  commentId: T:Funique.MediaType
+  fullName: Funique.MediaType
+  nameWithType: MediaType
+- uid: Funique.MediaType.Audio
+  name: Audio
+  href: api/Funique.MediaType.html#Funique_MediaType_Audio
+  commentId: F:Funique.MediaType.Audio
+  fullName: Funique.MediaType.Audio
+  nameWithType: MediaType.Audio
+- uid: Funique.MediaType.Text
+  name: Text
+  href: api/Funique.MediaType.html#Funique_MediaType_Text
+  commentId: F:Funique.MediaType.Text
+  fullName: Funique.MediaType.Text
+  nameWithType: MediaType.Text
+- uid: Funique.MediaType.Video
+  name: Video
+  href: api/Funique.MediaType.html#Funique_MediaType_Video
+  commentId: F:Funique.MediaType.Video
+  fullName: Funique.MediaType.Video
+  nameWithType: MediaType.Video
 - uid: Funique.Network
   name: Funique.Network
   href: api/Funique.Network.html
@@ -12741,6 +14390,54 @@ references:
   isSpec: "True"
   fullName: Funique.Teleport.StartTeleport
   nameWithType: Teleport.StartTeleport
+- uid: Funique.TeleportStruct
+  name: TeleportStruct
+  href: api/Funique.TeleportStruct.html
+  commentId: T:Funique.TeleportStruct
+  fullName: Funique.TeleportStruct
+  nameWithType: TeleportStruct
+- uid: Funique.TeleportStruct.ApplyOffset
+  name: ApplyOffset
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_ApplyOffset
+  commentId: F:Funique.TeleportStruct.ApplyOffset
+  fullName: Funique.TeleportStruct.ApplyOffset
+  nameWithType: TeleportStruct.ApplyOffset
+- uid: Funique.TeleportStruct.Camera
+  name: Camera
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_Camera
+  commentId: F:Funique.TeleportStruct.Camera
+  fullName: Funique.TeleportStruct.Camera
+  nameWithType: TeleportStruct.Camera
+- uid: Funique.TeleportStruct.Chain
+  name: Chain
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_Chain
+  commentId: F:Funique.TeleportStruct.Chain
+  fullName: Funique.TeleportStruct.Chain
+  nameWithType: TeleportStruct.Chain
+- uid: Funique.TeleportStruct.Offset
+  name: Offset
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_Offset
+  commentId: F:Funique.TeleportStruct.Offset
+  fullName: Funique.TeleportStruct.Offset
+  nameWithType: TeleportStruct.Offset
+- uid: Funique.TeleportStruct.OffsetVec
+  name: OffsetVec
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_OffsetVec
+  commentId: F:Funique.TeleportStruct.OffsetVec
+  fullName: Funique.TeleportStruct.OffsetVec
+  nameWithType: TeleportStruct.OffsetVec
+- uid: Funique.TeleportStruct.Player
+  name: Player
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_Player
+  commentId: F:Funique.TeleportStruct.Player
+  fullName: Funique.TeleportStruct.Player
+  nameWithType: TeleportStruct.Player
+- uid: Funique.TeleportStruct.Target
+  name: Target
+  href: api/Funique.TeleportStruct.html#Funique_TeleportStruct_Target
+  commentId: F:Funique.TeleportStruct.Target
+  fullName: Funique.TeleportStruct.Target
+  nameWithType: TeleportStruct.Target
 - uid: Funique.TheaterMode
   name: TheaterMode
   href: api/Funique.TheaterMode.html
@@ -13592,6 +15289,12 @@ references:
   commentId: F:Funique.UI.ClientUIConfiguration.ShowTimeline
   fullName: Funique.UI.ClientUIConfiguration.ShowTimeline
   nameWithType: ClientUIConfiguration.ShowTimeline
+- uid: Funique.UI.ClientUIConfiguration.ShowToolbarIcon
+  name: ShowToolbarIcon
+  href: api/Funique.UI.ClientUIConfiguration.html#Funique_UI_ClientUIConfiguration_ShowToolbarIcon
+  commentId: F:Funique.UI.ClientUIConfiguration.ShowToolbarIcon
+  fullName: Funique.UI.ClientUIConfiguration.ShowToolbarIcon
+  nameWithType: ClientUIConfiguration.ShowToolbarIcon
 - uid: Funique.UI.ClientUIConfiguration.ZoomSlider
   name: ZoomSlider
   href: api/Funique.UI.ClientUIConfiguration.html#Funique_UI_ClientUIConfiguration_ZoomSlider
@@ -14184,6 +15887,12 @@ references:
   isSpec: "True"
   fullName: Funique.UI.IUIUtility.VideoListPanelControl
   nameWithType: IUIUtility.VideoListPanelControl
+- uid: Funique.UI.KeyboardInterface
+  name: KeyboardInterface
+  href: api/Funique.UI.KeyboardInterface.html
+  commentId: T:Funique.UI.KeyboardInterface
+  fullName: Funique.UI.KeyboardInterface
+  nameWithType: KeyboardInterface
 - uid: Funique.UI.Marquee
   name: Marquee
   href: api/Funique.UI.Marquee.html
@@ -16019,6 +17728,18 @@ references:
   commentId: F:Funique.UI.UIClientManagerData.TimeLineUI
   fullName: Funique.UI.UIClientManagerData.TimeLineUI
   nameWithType: UIClientManagerData.TimeLineUI
+- uid: Funique.UI.UIClientManagerData.ToolbarIcon
+  name: ToolbarIcon
+  href: api/Funique.UI.UIClientManagerData.html#Funique_UI_UIClientManagerData_ToolbarIcon
+  commentId: F:Funique.UI.UIClientManagerData.ToolbarIcon
+  fullName: Funique.UI.UIClientManagerData.ToolbarIcon
+  nameWithType: UIClientManagerData.ToolbarIcon
+- uid: Funique.UI.UIClientManagerData.UI_Method
+  name: UI_Method
+  href: api/Funique.UI.UIClientManagerData.html#Funique_UI_UIClientManagerData_UI_Method
+  commentId: F:Funique.UI.UIClientManagerData.UI_Method
+  fullName: Funique.UI.UIClientManagerData.UI_Method
+  nameWithType: UIClientManagerData.UI_Method
 - uid: Funique.UI.UIClientManagerData.Use_RightClickMenu
   name: Use_RightClickMenu
   href: api/Funique.UI.UIClientManagerData.html#Funique_UI_UIClientManagerData_Use_RightClickMenu
@@ -16200,6 +17921,24 @@ references:
   commentId: F:Funique.UI.UIManagerData.WaitRoomBtn
   fullName: Funique.UI.UIManagerData.WaitRoomBtn
   nameWithType: UIManagerData.WaitRoomBtn
+- uid: Funique.UI.UIVerifyMethod
+  name: UIVerifyMethod
+  href: api/Funique.UI.UIVerifyMethod.html
+  commentId: T:Funique.UI.UIVerifyMethod
+  fullName: Funique.UI.UIVerifyMethod
+  nameWithType: UIVerifyMethod
+- uid: Funique.UI.UIVerifyMethod.CRM
+  name: CRM
+  href: api/Funique.UI.UIVerifyMethod.html#Funique_UI_UIVerifyMethod_CRM
+  commentId: F:Funique.UI.UIVerifyMethod.CRM
+  fullName: Funique.UI.UIVerifyMethod.CRM
+  nameWithType: UIVerifyMethod.CRM
+- uid: Funique.UI.UIVerifyMethod.First
+  name: First
+  href: api/Funique.UI.UIVerifyMethod.html#Funique_UI_UIVerifyMethod_First
+  commentId: F:Funique.UI.UIVerifyMethod.First
+  fullName: Funique.UI.UIVerifyMethod.First
+  nameWithType: UIVerifyMethod.First
 - uid: Funique.UIExtensions
   name: UIExtensions
   href: api/Funique.UIExtensions.html
@@ -16535,6 +18274,19 @@ references:
   isSpec: "True"
   fullName: Funique.Verify.ICRM._AutoPlay
   nameWithType: ICRM._AutoPlay
+- uid: Funique.Verify.ICRM._Config
+  name: _Config
+  href: api/Funique.Verify.ICRM.html#Funique_Verify_ICRM__Config
+  commentId: P:Funique.Verify.ICRM._Config
+  fullName: Funique.Verify.ICRM._Config
+  nameWithType: ICRM._Config
+- uid: Funique.Verify.ICRM._Config*
+  name: _Config
+  href: api/Funique.Verify.ICRM.html#Funique_Verify_ICRM__Config_
+  commentId: Overload:Funique.Verify.ICRM._Config
+  isSpec: "True"
+  fullName: Funique.Verify.ICRM._Config
+  nameWithType: ICRM._Config
 - uid: Funique.Verify.ICRM._Date
   name: _Date
   href: api/Funique.Verify.ICRM.html#Funique_Verify_ICRM__Date
@@ -16786,6 +18538,19 @@ references:
   isSpec: "True"
   fullName: Funique.Verify.UserData._AutoPlay
   nameWithType: UserData._AutoPlay
+- uid: Funique.Verify.UserData._Config
+  name: _Config
+  href: api/Funique.Verify.UserData.html#Funique_Verify_UserData__Config
+  commentId: P:Funique.Verify.UserData._Config
+  fullName: Funique.Verify.UserData._Config
+  nameWithType: UserData._Config
+- uid: Funique.Verify.UserData._Config*
+  name: _Config
+  href: api/Funique.Verify.UserData.html#Funique_Verify_UserData__Config_
+  commentId: Overload:Funique.Verify.UserData._Config
+  isSpec: "True"
+  fullName: Funique.Verify.UserData._Config
+  nameWithType: UserData._Config
 - uid: Funique.Verify.UserData._Date
   name: _Date
   href: api/Funique.Verify.UserData.html#Funique_Verify_UserData__Date
@@ -16889,6 +18654,12 @@ references:
   commentId: F:Funique.Verify.UserData.AutoPlay
   fullName: Funique.Verify.UserData.AutoPlay
   nameWithType: UserData.AutoPlay
+- uid: Funique.Verify.UserData.Config
+  name: Config
+  href: api/Funique.Verify.UserData.html#Funique_Verify_UserData_Config
+  commentId: F:Funique.Verify.UserData.Config
+  fullName: Funique.Verify.UserData.Config
+  nameWithType: UserData.Config
 - uid: Funique.Verify.UserData.Date
   name: Date
   href: api/Funique.Verify.UserData.html#Funique_Verify_UserData_Date
@@ -17226,6 +18997,25 @@ references:
   commentId: F:Funique.Video.FileClientManagerData.Video_UseRoot
   fullName: Funique.Video.FileClientManagerData.Video_UseRoot
   nameWithType: FileClientManagerData.Video_UseRoot
+- uid: Funique.Video.IFileABR
+  name: IFileABR
+  href: api/Funique.Video.IFileABR.html
+  commentId: T:Funique.Video.IFileABR
+  fullName: Funique.Video.IFileABR
+  nameWithType: IFileABR
+- uid: Funique.Video.IFileABR.abrList
+  name: abrList
+  href: api/Funique.Video.IFileABR.html#Funique_Video_IFileABR_abrList
+  commentId: P:Funique.Video.IFileABR.abrList
+  fullName: Funique.Video.IFileABR.abrList
+  nameWithType: IFileABR.abrList
+- uid: Funique.Video.IFileABR.abrList*
+  name: abrList
+  href: api/Funique.Video.IFileABR.html#Funique_Video_IFileABR_abrList_
+  commentId: Overload:Funique.Video.IFileABR.abrList
+  isSpec: "True"
+  fullName: Funique.Video.IFileABR.abrList
+  nameWithType: IFileABR.abrList
 - uid: Funique.Video.IFileAudio
   name: IFileAudio
   href: api/Funique.Video.IFileAudio.html
@@ -18436,3 +20226,339 @@ references:
   commentId: F:Funique.VideoMode.Video
   fullName: Funique.VideoMode.Video
   nameWithType: VideoMode.Video
+- uid: Funique.XRControllerGenericPort
+  name: XRControllerGenericPort
+  href: api/Funique.XRControllerGenericPort.html
+  commentId: T:Funique.XRControllerGenericPort
+  fullName: Funique.XRControllerGenericPort
+  nameWithType: XRControllerGenericPort
+- uid: Funique.XRControllerGenericPort.controller
+  name: controller
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_controller
+  commentId: F:Funique.XRControllerGenericPort.controller
+  fullName: Funique.XRControllerGenericPort.controller
+  nameWithType: XRControllerGenericPort.controller
+- uid: Funique.XRControllerGenericPort.OnAxis2D
+  name: OnAxis2D
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnAxis2D
+  commentId: F:Funique.XRControllerGenericPort.OnAxis2D
+  fullName: Funique.XRControllerGenericPort.OnAxis2D
+  nameWithType: XRControllerGenericPort.OnAxis2D
+- uid: Funique.XRControllerGenericPort.OnAxis2DRelease
+  name: OnAxis2DRelease
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnAxis2DRelease
+  commentId: F:Funique.XRControllerGenericPort.OnAxis2DRelease
+  fullName: Funique.XRControllerGenericPort.OnAxis2DRelease
+  nameWithType: XRControllerGenericPort.OnAxis2DRelease
+- uid: Funique.XRControllerGenericPort.OnAxis2DUse
+  name: OnAxis2DUse
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnAxis2DUse
+  commentId: F:Funique.XRControllerGenericPort.OnAxis2DUse
+  fullName: Funique.XRControllerGenericPort.OnAxis2DUse
+  nameWithType: XRControllerGenericPort.OnAxis2DUse
+- uid: Funique.XRControllerGenericPort.OnAxisVector2D
+  name: OnAxisVector2D
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnAxisVector2D
+  commentId: F:Funique.XRControllerGenericPort.OnAxisVector2D
+  fullName: Funique.XRControllerGenericPort.OnAxisVector2D
+  nameWithType: XRControllerGenericPort.OnAxisVector2D
+- uid: Funique.XRControllerGenericPort.OnDisable
+  name: OnDisable()
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnDisable
+  commentId: M:Funique.XRControllerGenericPort.OnDisable
+  fullName: Funique.XRControllerGenericPort.OnDisable()
+  nameWithType: XRControllerGenericPort.OnDisable()
+- uid: Funique.XRControllerGenericPort.OnDisable*
+  name: OnDisable
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnDisable_
+  commentId: Overload:Funique.XRControllerGenericPort.OnDisable
+  isSpec: "True"
+  fullName: Funique.XRControllerGenericPort.OnDisable
+  nameWithType: XRControllerGenericPort.OnDisable
+- uid: Funique.XRControllerGenericPort.OnDown
+  name: OnDown
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnDown
+  commentId: F:Funique.XRControllerGenericPort.OnDown
+  fullName: Funique.XRControllerGenericPort.OnDown
+  nameWithType: XRControllerGenericPort.OnDown
+- uid: Funique.XRControllerGenericPort.OnEnable
+  name: OnEnable()
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnEnable
+  commentId: M:Funique.XRControllerGenericPort.OnEnable
+  fullName: Funique.XRControllerGenericPort.OnEnable()
+  nameWithType: XRControllerGenericPort.OnEnable()
+- uid: Funique.XRControllerGenericPort.OnEnable*
+  name: OnEnable
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnEnable_
+  commentId: Overload:Funique.XRControllerGenericPort.OnEnable
+  isSpec: "True"
+  fullName: Funique.XRControllerGenericPort.OnEnable
+  nameWithType: XRControllerGenericPort.OnEnable
+- uid: Funique.XRControllerGenericPort.OnTriggerRelease
+  name: OnTriggerRelease
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnTriggerRelease
+  commentId: F:Funique.XRControllerGenericPort.OnTriggerRelease
+  fullName: Funique.XRControllerGenericPort.OnTriggerRelease
+  nameWithType: XRControllerGenericPort.OnTriggerRelease
+- uid: Funique.XRControllerGenericPort.OnTriggerUse
+  name: OnTriggerUse
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnTriggerUse
+  commentId: F:Funique.XRControllerGenericPort.OnTriggerUse
+  fullName: Funique.XRControllerGenericPort.OnTriggerUse
+  nameWithType: XRControllerGenericPort.OnTriggerUse
+- uid: Funique.XRControllerGenericPort.OnTriggerValue
+  name: OnTriggerValue
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnTriggerValue
+  commentId: F:Funique.XRControllerGenericPort.OnTriggerValue
+  fullName: Funique.XRControllerGenericPort.OnTriggerValue
+  nameWithType: XRControllerGenericPort.OnTriggerValue
+- uid: Funique.XRControllerGenericPort.OnUP
+  name: OnUP
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_OnUP
+  commentId: F:Funique.XRControllerGenericPort.OnUP
+  fullName: Funique.XRControllerGenericPort.OnUP
+  nameWithType: XRControllerGenericPort.OnUP
+- uid: Funique.XRControllerGenericPort.primaryAxis2DHandler
+  name: primaryAxis2DHandler
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_primaryAxis2DHandler
+  commentId: F:Funique.XRControllerGenericPort.primaryAxis2DHandler
+  fullName: Funique.XRControllerGenericPort.primaryAxis2DHandler
+  nameWithType: XRControllerGenericPort.primaryAxis2DHandler
+- uid: Funique.XRControllerGenericPort.primaryAxisClickHandler
+  name: primaryAxisClickHandler
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_primaryAxisClickHandler
+  commentId: F:Funique.XRControllerGenericPort.primaryAxisClickHandler
+  fullName: Funique.XRControllerGenericPort.primaryAxisClickHandler
+  nameWithType: XRControllerGenericPort.primaryAxisClickHandler
+- uid: Funique.XRControllerGenericPort.triggerHandler
+  name: triggerHandler
+  href: api/Funique.XRControllerGenericPort.html#Funique_XRControllerGenericPort_triggerHandler
+  commentId: F:Funique.XRControllerGenericPort.triggerHandler
+  fullName: Funique.XRControllerGenericPort.triggerHandler
+  nameWithType: XRControllerGenericPort.triggerHandler
+- uid: TalesFromTheRift
+  name: TalesFromTheRift
+  href: api/TalesFromTheRift.html
+  commentId: N:TalesFromTheRift
+  fullName: TalesFromTheRift
+  nameWithType: TalesFromTheRift
+- uid: TalesFromTheRift.CanvasKeyboard
+  name: CanvasKeyboard
+  href: api/TalesFromTheRift.CanvasKeyboard.html
+  commentId: T:TalesFromTheRift.CanvasKeyboard
+  fullName: TalesFromTheRift.CanvasKeyboard
+  nameWithType: CanvasKeyboard
+- uid: TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType
+  name: CanvasKeyboard.CanvasKeyboardType
+  href: api/TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.html
+  commentId: T:TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType
+  fullName: TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType
+  nameWithType: CanvasKeyboard.CanvasKeyboardType
+- uid: TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.ASCIICapable
+  name: ASCIICapable
+  href: api/TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.html#TalesFromTheRift_CanvasKeyboard_CanvasKeyboardType_ASCIICapable
+  commentId: F:TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.ASCIICapable
+  fullName: TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType.ASCIICapable
+  nameWithType: CanvasKeyboard.CanvasKeyboardType.ASCIICapable
+- uid: TalesFromTheRift.CanvasKeyboard.Close
+  name: Close()
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_Close
+  commentId: M:TalesFromTheRift.CanvasKeyboard.Close
+  fullName: TalesFromTheRift.CanvasKeyboard.Close()
+  nameWithType: CanvasKeyboard.Close()
+- uid: TalesFromTheRift.CanvasKeyboard.Close*
+  name: Close
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_Close_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboard.Close
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboard.Close
+  nameWithType: CanvasKeyboard.Close
+- uid: TalesFromTheRift.CanvasKeyboard.CloseKeyboard
+  name: CloseKeyboard()
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_CloseKeyboard
+  commentId: M:TalesFromTheRift.CanvasKeyboard.CloseKeyboard
+  fullName: TalesFromTheRift.CanvasKeyboard.CloseKeyboard()
+  nameWithType: CanvasKeyboard.CloseKeyboard()
+- uid: TalesFromTheRift.CanvasKeyboard.CloseKeyboard*
+  name: CloseKeyboard
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_CloseKeyboard_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboard.CloseKeyboard
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboard.CloseKeyboard
+  nameWithType: CanvasKeyboard.CloseKeyboard
+- uid: TalesFromTheRift.CanvasKeyboard.inputObject
+  name: inputObject
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_inputObject
+  commentId: F:TalesFromTheRift.CanvasKeyboard.inputObject
+  fullName: TalesFromTheRift.CanvasKeyboard.inputObject
+  nameWithType: CanvasKeyboard.inputObject
+- uid: TalesFromTheRift.CanvasKeyboard.IsOpen
+  name: IsOpen
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_IsOpen
+  commentId: P:TalesFromTheRift.CanvasKeyboard.IsOpen
+  fullName: TalesFromTheRift.CanvasKeyboard.IsOpen
+  nameWithType: CanvasKeyboard.IsOpen
+- uid: TalesFromTheRift.CanvasKeyboard.IsOpen*
+  name: IsOpen
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_IsOpen_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboard.IsOpen
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboard.IsOpen
+  nameWithType: CanvasKeyboard.IsOpen
+- uid: TalesFromTheRift.CanvasKeyboard.Open(UnityEngine.Canvas,UnityEngine.UI.InputField,TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType)
+  name: Open(Canvas, InputField, CanvasKeyboard.CanvasKeyboardType)
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_Open_UnityEngine_Canvas_UnityEngine_UI_InputField_TalesFromTheRift_CanvasKeyboard_CanvasKeyboardType_
+  commentId: M:TalesFromTheRift.CanvasKeyboard.Open(UnityEngine.Canvas,UnityEngine.UI.InputField,TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType)
+  fullName: TalesFromTheRift.CanvasKeyboard.Open(UnityEngine.Canvas, UnityEngine.UI.InputField, TalesFromTheRift.CanvasKeyboard.CanvasKeyboardType)
+  nameWithType: CanvasKeyboard.Open(Canvas, InputField, CanvasKeyboard.CanvasKeyboardType)
+- uid: TalesFromTheRift.CanvasKeyboard.Open*
+  name: Open
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_Open_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboard.Open
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboard.Open
+  nameWithType: CanvasKeyboard.Open
+- uid: TalesFromTheRift.CanvasKeyboard.SendKeyString(System.String)
+  name: SendKeyString(String)
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_SendKeyString_System_String_
+  commentId: M:TalesFromTheRift.CanvasKeyboard.SendKeyString(System.String)
+  fullName: TalesFromTheRift.CanvasKeyboard.SendKeyString(System.String)
+  nameWithType: CanvasKeyboard.SendKeyString(String)
+- uid: TalesFromTheRift.CanvasKeyboard.SendKeyString*
+  name: SendKeyString
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_SendKeyString_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboard.SendKeyString
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboard.SendKeyString
+  nameWithType: CanvasKeyboard.SendKeyString
+- uid: TalesFromTheRift.CanvasKeyboard.text
+  name: text
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_text
+  commentId: P:TalesFromTheRift.CanvasKeyboard.text
+  fullName: TalesFromTheRift.CanvasKeyboard.text
+  nameWithType: CanvasKeyboard.text
+- uid: TalesFromTheRift.CanvasKeyboard.text*
+  name: text
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_text_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboard.text
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboard.text
+  nameWithType: CanvasKeyboard.text
+- uid: TalesFromTheRift.CanvasKeyboard.Top
+  name: Top
+  href: api/TalesFromTheRift.CanvasKeyboard.html#TalesFromTheRift_CanvasKeyboard_Top
+  commentId: F:TalesFromTheRift.CanvasKeyboard.Top
+  fullName: TalesFromTheRift.CanvasKeyboard.Top
+  nameWithType: CanvasKeyboard.Top
+- uid: TalesFromTheRift.CanvasKeyboardASCII
+  name: CanvasKeyboardASCII
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html
+  commentId: T:TalesFromTheRift.CanvasKeyboardASCII
+  fullName: TalesFromTheRift.CanvasKeyboardASCII
+  nameWithType: CanvasKeyboardASCII
+- uid: TalesFromTheRift.CanvasKeyboardASCII.alphaBoardSfhifted
+  name: alphaBoardSfhifted
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_alphaBoardSfhifted
+  commentId: F:TalesFromTheRift.CanvasKeyboardASCII.alphaBoardSfhifted
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.alphaBoardSfhifted
+  nameWithType: CanvasKeyboardASCII.alphaBoardSfhifted
+- uid: TalesFromTheRift.CanvasKeyboardASCII.alphaBoardUnsfhifted
+  name: alphaBoardUnsfhifted
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_alphaBoardUnsfhifted
+  commentId: F:TalesFromTheRift.CanvasKeyboardASCII.alphaBoardUnsfhifted
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.alphaBoardUnsfhifted
+  nameWithType: CanvasKeyboardASCII.alphaBoardUnsfhifted
+- uid: TalesFromTheRift.CanvasKeyboardASCII.canvasKeyboard
+  name: canvasKeyboard
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_canvasKeyboard
+  commentId: F:TalesFromTheRift.CanvasKeyboardASCII.canvasKeyboard
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.canvasKeyboard
+  nameWithType: CanvasKeyboardASCII.canvasKeyboard
+- uid: TalesFromTheRift.CanvasKeyboardASCII.numberBoardShifted
+  name: numberBoardShifted
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_numberBoardShifted
+  commentId: F:TalesFromTheRift.CanvasKeyboardASCII.numberBoardShifted
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.numberBoardShifted
+  nameWithType: CanvasKeyboardASCII.numberBoardShifted
+- uid: TalesFromTheRift.CanvasKeyboardASCII.numberBoardUnshifted
+  name: numberBoardUnshifted
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_numberBoardUnshifted
+  commentId: F:TalesFromTheRift.CanvasKeyboardASCII.numberBoardUnshifted
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.numberBoardUnshifted
+  nameWithType: CanvasKeyboardASCII.numberBoardUnshifted
+- uid: TalesFromTheRift.CanvasKeyboardASCII.OnKeyDown(UnityEngine.GameObject)
+  name: OnKeyDown(GameObject)
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_OnKeyDown_UnityEngine_GameObject_
+  commentId: M:TalesFromTheRift.CanvasKeyboardASCII.OnKeyDown(UnityEngine.GameObject)
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.OnKeyDown(UnityEngine.GameObject)
+  nameWithType: CanvasKeyboardASCII.OnKeyDown(GameObject)
+- uid: TalesFromTheRift.CanvasKeyboardASCII.OnKeyDown*
+  name: OnKeyDown
+  href: api/TalesFromTheRift.CanvasKeyboardASCII.html#TalesFromTheRift_CanvasKeyboardASCII_OnKeyDown_
+  commentId: Overload:TalesFromTheRift.CanvasKeyboardASCII.OnKeyDown
+  isSpec: "True"
+  fullName: TalesFromTheRift.CanvasKeyboardASCII.OnKeyDown
+  nameWithType: CanvasKeyboardASCII.OnKeyDown
+- uid: TalesFromTheRift.OpenCanvasKeyboard
+  name: OpenCanvasKeyboard
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html
+  commentId: T:TalesFromTheRift.OpenCanvasKeyboard
+  fullName: TalesFromTheRift.OpenCanvasKeyboard
+  nameWithType: OpenCanvasKeyboard
+- uid: TalesFromTheRift.OpenCanvasKeyboard.CanvasKeyboardObject
+  name: CanvasKeyboardObject
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_CanvasKeyboardObject
+  commentId: F:TalesFromTheRift.OpenCanvasKeyboard.CanvasKeyboardObject
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.CanvasKeyboardObject
+  nameWithType: OpenCanvasKeyboard.CanvasKeyboardObject
+- uid: TalesFromTheRift.OpenCanvasKeyboard.CanvasObject
+  name: CanvasObject
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_CanvasObject
+  commentId: F:TalesFromTheRift.OpenCanvasKeyboard.CanvasObject
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.CanvasObject
+  nameWithType: OpenCanvasKeyboard.CanvasObject
+- uid: TalesFromTheRift.OpenCanvasKeyboard.CloseKeyboard
+  name: CloseKeyboard()
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_CloseKeyboard
+  commentId: M:TalesFromTheRift.OpenCanvasKeyboard.CloseKeyboard
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.CloseKeyboard()
+  nameWithType: OpenCanvasKeyboard.CloseKeyboard()
+- uid: TalesFromTheRift.OpenCanvasKeyboard.CloseKeyboard*
+  name: CloseKeyboard
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_CloseKeyboard_
+  commentId: Overload:TalesFromTheRift.OpenCanvasKeyboard.CloseKeyboard
+  isSpec: "True"
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.CloseKeyboard
+  nameWithType: OpenCanvasKeyboard.CloseKeyboard
+- uid: TalesFromTheRift.OpenCanvasKeyboard.inputObject
+  name: inputObject
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_inputObject
+  commentId: F:TalesFromTheRift.OpenCanvasKeyboard.inputObject
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.inputObject
+  nameWithType: OpenCanvasKeyboard.inputObject
+- uid: TalesFromTheRift.OpenCanvasKeyboard.OpenKeyboard(UnityEngine.UI.InputField)
+  name: OpenKeyboard(InputField)
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_OpenKeyboard_UnityEngine_UI_InputField_
+  commentId: M:TalesFromTheRift.OpenCanvasKeyboard.OpenKeyboard(UnityEngine.UI.InputField)
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.OpenKeyboard(UnityEngine.UI.InputField)
+  nameWithType: OpenCanvasKeyboard.OpenKeyboard(InputField)
+- uid: TalesFromTheRift.OpenCanvasKeyboard.OpenKeyboard*
+  name: OpenKeyboard
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_OpenKeyboard_
+  commentId: Overload:TalesFromTheRift.OpenCanvasKeyboard.OpenKeyboard
+  isSpec: "True"
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.OpenKeyboard
+  nameWithType: OpenCanvasKeyboard.OpenKeyboard
+- uid: TalesFromTheRift.OpenCanvasKeyboard.SetInput(UnityEngine.UI.InputField)
+  name: SetInput(InputField)
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_SetInput_UnityEngine_UI_InputField_
+  commentId: M:TalesFromTheRift.OpenCanvasKeyboard.SetInput(UnityEngine.UI.InputField)
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.SetInput(UnityEngine.UI.InputField)
+  nameWithType: OpenCanvasKeyboard.SetInput(InputField)
+- uid: TalesFromTheRift.OpenCanvasKeyboard.SetInput*
+  name: SetInput
+  href: api/TalesFromTheRift.OpenCanvasKeyboard.html#TalesFromTheRift_OpenCanvasKeyboard_SetInput_
+  commentId: Overload:TalesFromTheRift.OpenCanvasKeyboard.SetInput
+  isSpec: "True"
+  fullName: TalesFromTheRift.OpenCanvasKeyboard.SetInput
+  nameWithType: OpenCanvasKeyboard.SetInput

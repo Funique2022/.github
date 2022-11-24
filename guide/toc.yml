@@ -10,6 +10,16 @@
     href: Core/Manager.md
   - name: Preprocessor
     href: Core/Preprocessor.md
+  - name: Logger
+    href: Core/Logger.md
+  - name: Enum Cycle
+    href: Core/EnumCycle.md
+  - name: Coroutine
+    href: Core/CoroutineHelper.md
+  - name: Extensions
+    href: Core/Extensions.md
+  - name: ThirdParty
+    href: Core/ThirdParty.md
 
 - name: Tool
   href: ToolGuide.md

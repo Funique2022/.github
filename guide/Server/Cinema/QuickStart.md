@@ -26,4 +26,4 @@ public class Main : MonoBehaviour {
 
 For API detail, check here
 
-[API Reference](../../api/Funique.Cinema.ICinemaServerUtility.html)
+[API Reference](../../../api/Funique.Cinema.ICinemaServerUtility.html)

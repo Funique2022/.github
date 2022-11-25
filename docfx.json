@@ -3,10 +3,14 @@
     "content": [
       {
         "files": [
+          "stream/**.md",
+          "stream/**.yml",
+          "ci/**.md",
+          "ci/**.yml",
           "dev/**.md",
           "dev/**.yml",
-          "guide/**.md",
-          "guide/**.yml",
+          "unity/**.md",
+          "unity/**.yml",
           "toc.yml",
           "*.md",
           "api/**.md",

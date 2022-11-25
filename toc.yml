@@ -1,7 +1,11 @@
-- name: User Guide
-  href: guide/
+- name: Unity Guide
+  href: unity/
+- name: Stream Guide
+  href: stream/
 - name: Developer Documentation
   href: dev/
+- name: Continuous Integration Documentation
+  href: ci/
 - name: API Documentation
   href: api/
 - name: GitHub

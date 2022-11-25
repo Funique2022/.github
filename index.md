@@ -18,6 +18,8 @@ Another benifit is that, it's better have a docsmentation here to do things. so 
 
 ## Quick start
 
-[User Quick Start](./guide/intro.md)\
-[Developer Quick Start](./dev/intro.md)
+[Streaming Quick Start](./stream/intro.md)\
+[Unity Quick Start](./unity/intro.md)\
+[Developer Quick Start](./dev/intro.md)\
+[Continuous Integration Quick Start](./ci/intro.md)
 

@@ -1,1 +1,2 @@
-# Funique Documentation For DevOps
+# Funique Documentation For Continuous Integration
+

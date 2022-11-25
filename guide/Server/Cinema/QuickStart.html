@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | Funique Documentation </title>
+    <title>Cinema Server Logic Qucik Start | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | Funique Documentation ">
+    <meta name="title" content="Cinema Server Logic Qucik Start | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -91,7 +91,28 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
+<h1 id="cinema-server-logic-qucik-start">Cinema Server Logic Qucik Start</h1>
 
+<p>Create a class inherit cinema server manager</p>
+<pre><code class="lang-csharp">public class CinemaServer : CinemaManagerServerUtility {
+
+}
+</code></pre>
+<pre><code class="lang-csharp">public class Main : MonoBehaviour {
+    // Explose the config to editor level, provide desginer to tweek the value
+    [SerializeField] CinemaManagerServerData data;
+    // Our manager instance
+    CinemaServer cinema;
+
+    void Start(){
+        // Create cinema server manager process
+        cinema = new CinemaServer();
+        cinema.RegisterConfig(data);
+    }
+}
+</code></pre>
+<p>For API detail, check here</p>
+<p><a href="../../api/Funique.Cinema.ICinemaServerUtility.html">API Reference</a></p>
 </article>
               
                 </div>

@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.EnumCycle-1.html",
-          "hash": "7Mfsh5sfl2L6bsm61FCk8/zNB4yj+PqssOKT3aZNQ3Y="
+          "hash": "E35Pzg72Ywh5eOOkTQVJnW9CMaYZfS6EU6CwIBYBLrE="
         }
       },
       "is_incremental": false,
@@ -1782,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.SetPropertyUtility.html",
-          "hash": "8ZBbto9adAgXAv+UlcNwvAs6Y0o0HmkLsWEhwohP5Gc="
+          "hash": "9se9JDLYCCjJNpwuMOCFAG4ubUAuaEU8RGFEtubbIK0="
         }
       },
       "is_incremental": false,
@@ -3822,7 +3822,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/Client/Client/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
+          "hash": "cj5kJBAztCogjzwp5mNaH1xgR9qk1+V1aXNEoFcU1bU="
         }
       },
       "is_incremental": false,
@@ -4045,24 +4045,30 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Core/CoroutineHelper.md",
       "output": {
         ".html": {
           "relative_path": "guide/Core/CoroutineHelper.html",
-          "hash": "0R2gdrq/Aqa3TBq7eSkUOLFWVSXW9iyCGTvvGFN5Rsg="
+          "hash": "ZQ11vWrcN9fBG9kOFrJkZXyqo9F5ykNwqiWkdfi2/cg="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Core/Counter.md",
       "output": {
         ".html": {
           "relative_path": "guide/Core/Counter.html",
-          "hash": "UsTmd5+OFKh+b2SOR0kA7gCc75eUn8RPbClwvO65PHE="
+          "hash": "pR+8DnHvH2ds6iJgknpH55SaooRrnud7uagUQy5O0bU="
         }
       },
       "is_incremental": false,
@@ -4077,7 +4083,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/Core/EnumCycle.html",
-          "hash": "pePDRy1PCdMpK9S8I1vFQKjsEP+vJis8LN+o9rrfvts="
+          "hash": "qJNsbF71OjIPoD+bPAm9ihVHuYLkl/xfKiNcgW1foeE="
         }
       },
       "is_incremental": false,
@@ -4114,36 +4120,30 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Core/Manager.md",
       "output": {
         ".html": {
           "relative_path": "guide/Core/Manager.html",
-          "hash": "nH9KPVn3LQ8FbjEwvHWysWqXfmP+9qGhkO/x61cxQX4="
+          "hash": "Mqkdi6lygIN8EKe5LVeeVbiI2qN6wXxZMA/T4+jmOpc="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "guide/Core/Preprocessor.md",
-      "output": {
-        ".html": {
-          "relative_path": "guide/Core/Preprocessor.html",
-          "hash": "TvXHPqaDAbH5KX4i1RLiTXfwHh6HdnJ4bT3Kqkb2Qxw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Core/ThirdParty.md",
       "output": {
         ".html": {
           "relative_path": "guide/Core/ThirdParty.html",
-          "hash": "VuLME46Qyo27TJngxgz8AhMuIbBdm/RXUszHAoBRDjs="
+          "hash": "g+DcZsEHunTtFOFgeGBV91ydCJjE/fRlouOdZ1TCJKs="
         }
       },
       "is_incremental": false,
@@ -4162,12 +4162,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Server/Cinema/QuickStart.md",
       "output": {
         ".html": {
           "relative_path": "guide/Server/Cinema/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
+          "hash": "cxQPXP4+exYmgzBxLIwIdQ6Oy3zunLSZPiXNV14Bc10="
         }
       },
       "is_incremental": false,
@@ -4210,12 +4213,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Server/Network/QuickStart.md",
       "output": {
         ".html": {
           "relative_path": "guide/Server/Network/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
+          "hash": "MKdCogqrRpLCCyQLKino/YSPL/TvUqjWCQWCBarvcOY="
         }
       },
       "is_incremental": false,
@@ -4282,12 +4288,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Server/Streaming/QuickStart.md",
       "output": {
         ".html": {
           "relative_path": "guide/Server/Streaming/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
+          "hash": "4clhDsa79GR/TAop/MAhTkqtGt9CVhbo5Q1CLB2jyiU="
         }
       },
       "is_incremental": false,
@@ -4402,36 +4411,15 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "guide/Tool/Hub/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "guide/Tool/Hub/QuickStart.html",
-          "hash": "44NTlPC23buzBcY7A9HgYzhvqe0mOXzKgW6x+7jldEk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "guide/Tool/HubGuide.md",
-      "output": {
-        ".html": {
-          "relative_path": "guide/Tool/HubGuide.html",
-          "hash": "MSryfd4/TwoZlCL4irOQyJOC116ChwpNS4vAUEU/uPg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/ToolGuide.md",
       "output": {
         ".html": {
           "relative_path": "guide/ToolGuide.html",
-          "hash": "aApP1pFrBL2g2kBwqspS0ri1+wBaBzG2vCpakShFI60="
+          "hash": "ifz1TcwKZUwSsW8VLzh12KBVGmmC879YaMhUDC36YCE="
         }
       },
       "is_incremental": false,
@@ -4455,7 +4443,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/toc.html",
-          "hash": "qyNRP0I6lUQ4CsY7LzZMj0SZwfCoWW9C9wU/qoJLNEI="
+          "hash": "IuzJZQeagD3LVR1TLZVFaqhR+Zb3OSujGKGLIrC/iiY="
         }
       },
       "is_incremental": false,
@@ -4467,28 +4455,6 @@
       "output": {
         "resource": {
           "relative_path": "images/ApplicationArchitecture.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/GitManage.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/GitManage.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/ModulePage.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/ModulePage.png"
         }
       },
       "is_incremental": false,
@@ -4632,7 +4598,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 59,
+          "total_file_count": 56,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

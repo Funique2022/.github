@@ -1571,8 +1571,8 @@
   },
   "guide/Client/Client/QuickStart.html": {
     "href": "guide/Client/Client/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "Client Logic Qucik Start | Funique Documentation",
+    "keywords": "Client Logic Qucik Start The problem of this modules is that it contains multiple manager base XR Manager Utility Android Manager Utility"
   },
   "guide/Client/ClientGuide.html": {
     "href": "guide/Client/ClientGuide.html",
@@ -1667,12 +1667,12 @@
   "guide/Core/CoroutineHelper.html": {
     "href": "guide/Core/CoroutineHelper.html",
     "title": "Coroutine Helper | Funique Documentation",
-    "keywords": "Coroutine Helper Help thoes class which need access unity monobehaviour coroutine feature. Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member. class SampleA { void Use(){ Coroutine coroutine = CoroutineHelper.Instance.Run(Go); } IEnumerator Go(){ yield return new WaitForEndOfFrame(); } }"
+    "keywords": "Coroutine Helper Help thoes class which need access unity monobehaviour coroutine feature. Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member. class SampleA { void Use(){ Coroutine coroutine = CoroutineHelper.Instance.Run(Go); } IEnumerator Go(){ yield return new WaitForEndOfFrame(); } } For API detail, check here API Reference"
   },
   "guide/Core/Counter.html": {
     "href": "guide/Core/Counter.html",
     "title": "Counter | Funique Documentation",
-    "keywords": "Counter Core library provide a simple timer Counter counter = new Counter(5f, true); 5f means that the length of the time we want to set as target true will tell the counter auto reset and start the next cycle Put this line of code in update function, simply activate the timer private void Update(){ counter.Update(Time.deltaTime); } ```"
+    "keywords": "Counter Core library provide a simple timer Counter counter = new Counter(5f, true); 5f means that the length of the time we want to set as target true will tell the counter auto reset and start the next cycle Put this line of code in update function, simply activate the timer private void Update(){ counter.Update(Time.deltaTime); } For API detail, check here API Reference"
   },
   "guide/Core/EnumCycle.html": {
     "href": "guide/Core/EnumCycle.html",
@@ -1692,17 +1692,12 @@
   "guide/Core/Manager.html": {
     "href": "guide/Core/Manager.html",
     "title": "Manager Setup Guide | Funique Documentation",
-    "keywords": "Manager Setup Guide We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself."
-  },
-  "guide/Core/Preprocessor.html": {
-    "href": "guide/Core/Preprocessor.html",
-    "title": "Preprocessor Define | Funique Documentation",
-    "keywords": "Preprocessor Define"
+    "keywords": "Manager Setup Guide We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself. API Reference"
   },
   "guide/Core/ThirdParty.html": {
     "href": "guide/Core/ThirdParty.html",
     "title": "Third Party Application | Funique Documentation",
-    "keywords": "Third Party Application There are times when we want to open the third-party application and access application pointer by C# script, In order to achieve that, we provide a simple base class for this kind of purposes. First, inherit our custom third-party application handler public class Demo : ThirdPartyApplication { // This will effect debug label protected override string => \"WorkerName\"; public Demo() : base() { MainProcess.StartInfo.FileName = \"cmd.exe\"; MainProcess.StartInfo.WorkingDirectory = \"C:/work_directory\"; // For access standard IO MainProcess.StartInfo.RedirectStandardError = true; MainProcess.StartInfo.RedirectStandardInput = true; MainProcess.StartInfo.RedirectStandardOutput = true; MainProcess.StartInfo.CreateNoWindow = true; MainProcess.StartInfo.UseShellExecute = false; } } Then we can just use it as template for the application we want to target public class component : MonoBehaviour{ Demo demo; void Start(){ // Prepare the process start info demo = new Demo(); // Actually start the process demo.Run(); } void OnDestroy(){ // Do not forget the release the resource after we leave // Otherwise this will causing buggy beheviour demo.Dispose(); } }"
+    "keywords": "Third Party Application There are times when we want to open the third-party application and access application pointer by C# script, In order to achieve that, we provide a simple base class for this kind of purposes. First, inherit our custom third-party application handler public class Demo : ThirdPartyApplication { // This will effect debug label protected override string => \"WorkerName\"; public Demo() : base() { MainProcess.StartInfo.FileName = \"cmd.exe\"; MainProcess.StartInfo.WorkingDirectory = \"C:/work_directory\"; // For access standard IO MainProcess.StartInfo.RedirectStandardError = true; MainProcess.StartInfo.RedirectStandardInput = true; MainProcess.StartInfo.RedirectStandardOutput = true; MainProcess.StartInfo.CreateNoWindow = true; MainProcess.StartInfo.UseShellExecute = false; } } Then we can just use it as template for the application we want to target public class component : MonoBehaviour{ Demo demo; void Start(){ // Prepare the process start info demo = new Demo(); // Actually start the process demo.Run(); } void OnDestroy(){ // Do not forget the release the resource after we leave // Otherwise this will causing buggy beheviour demo.Dispose(); } } API Reference"
   },
   "guide/CoreGuide.html": {
     "href": "guide/CoreGuide.html",
@@ -1716,8 +1711,8 @@
   },
   "guide/Server/Cinema/QuickStart.html": {
     "href": "guide/Server/Cinema/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "Cinema Server Logic Qucik Start | Funique Documentation",
+    "keywords": "Cinema Server Logic Qucik Start Create a class inherit cinema server manager public class CinemaServer : CinemaManagerServerUtility { } public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerServerData data; // Our manager instance CinemaServer cinema; void Start(){ // Create cinema server manager process cinema = new CinemaServer(); cinema.RegisterConfig(data); } } For API detail, check here API Reference"
   },
   "guide/Server/CinemaGuide.html": {
     "href": "guide/Server/CinemaGuide.html",
@@ -1736,8 +1731,8 @@
   },
   "guide/Server/Network/QuickStart.html": {
     "href": "guide/Server/Network/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "Server Network Module Quick Start | Funique Documentation",
+    "keywords": "Server Network Module Quick Start Create a class inherit network server manager public class NetworkServer : NetworkManagerServerUtility { } For API detail, check here API Reference"
   },
   "guide/Server/NetworkGuide.html": {
     "href": "guide/Server/NetworkGuide.html",
@@ -1766,8 +1761,8 @@
   },
   "guide/Server/Streaming/QuickStart.html": {
     "href": "guide/Server/Streaming/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "Server Streaming Module Quick Start | Funique Documentation",
+    "keywords": "Server Streaming Module Quick Start Create a class inherit streaming server manager public class StreamingServer : StreamingManagerUtility { } For API detail, check here API Reference"
   },
   "guide/Server/StreamingGuide.html": {
     "href": "guide/Server/StreamingGuide.html",
@@ -1813,16 +1808,6 @@
     "href": "guide/Tool/DesignerGuide.html",
     "title": "Designer Guide | Funique Documentation",
     "keywords": "Designer Guide Designer plugin is a agnostic unity packages that provides different editor tools helps you quick setup scenes, logic, or improve the pipeline. Components"
-  },
-  "guide/Tool/Hub/QuickStart.html": {
-    "href": "guide/Tool/Hub/QuickStart.html",
-    "title": "Funique Hub Quick Start | Funique Documentation",
-    "keywords": "Funique Hub Quick Start Installation In the project folder git init git submodule add --force --branch v0.1.1 \"https://github.com/Funique2022/funique_hub.git\" \"Assets/FuniquePlugin/Hub\" Module Loading Select the desire module and click Load button to import Or you can choose manually import the module. git init git submodule add --force --branch [Branch_Name] [Git_URL] [Target_Folder] Module Git Manager Switch to git management page. This will scan all the used submodule and manage their git pipeline. Alternative Visual Studio Code Visual studio code also provides module scan and management"
-  },
-  "guide/Tool/HubGuide.html": {
-    "href": "guide/Tool/HubGuide.html",
-    "title": "Hub Guide | Funique Documentation",
-    "keywords": "Hub Guide Provide a git management and submodule management solution Features [x] Submodule management [x] Submodule load [ ] Submodule unload [x] Git management [x] Git Status, Commit, Push, Pull"
   },
   "guide/ToolGuide.html": {
     "href": "guide/ToolGuide.html",

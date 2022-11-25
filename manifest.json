@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.AxisHandler.ValueChange.html",
-          "hash": "FLyUQVvqN91kghYEqaQ3Gn8s1TU8/fgE+Nq4B3zLMJM="
+          "hash": "UB/i4ysNFuYBEYeTWkEHccmDezaSZOm1bntU26A5usw="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.AxisHandler.html",
-          "hash": "WcVaNfs4bL/8o8Fy29pEFou6YjaFF463DvYT8vUVYNk="
+          "hash": "NxqbnhBDfDMCU0OefE84EPdboq78RfyBV6v9SWy48fE="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.AxisHandler2D.ValueChange.html",
-          "hash": "ade6TMW/AJ6/F2PfRAaA+m0pQpmqtKT+FbzoXxT3VMs="
+          "hash": "Q0Hyd3YXf3cIZTbvGsUkNSfKikp03TRUKzQ9AqXzpF0="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.AxisHandler2D.html",
-          "hash": "mg/HPKoft9C2Iv/wruhX4iDiO3db5Su4qDOoPGsZd1o="
+          "hash": "QgsYkBxXmQrMbdIYx0tYrSBeAFXxJtEKVGnTN4x74VU="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ButtonHandler.StateChange.html",
-          "hash": "Cs1MoLMDMWvK0WGv2eey5JW7kLErVmcUJpTSMkLCEx4="
+          "hash": "Wwrue1PX2d4FirNjhsQ7aBB3cqYzcwf4fnNBwGtrgaY="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ButtonHandler.html",
-          "hash": "Bx6BxzWzuSTa55OEFq9iC3Sgwzuefnhbggq0DIdxLos="
+          "hash": "3kheYPvFmVX30FmCBMWt9JVk3BDj7C1mcZRMKc9+1jM="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.ExampleListener.html",
-          "hash": "5ogMJ0phtCQe6OKE5bVMPVcMkQjKLzTuEwobxemUdPc="
+          "hash": "pSxH8hBQlr1Hz9QsUvrz5QuL25D5LneZ+OezaIsGzF8="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.InputHandler.html",
-          "hash": "dfNz3TGBmnhLOGsu2KInvI0KYWsKBb+n/Td7XkJ2qGY="
+          "hash": "GH5sOhvdI7rdJYAv4hsoOCzSCoLSFUZDcvT+I3OvdGM="
         }
       },
       "is_incremental": false,
@@ -3006,7 +3006,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Funique.XRControllerGenericPort.html",
-          "hash": "c+q8i4aj2FSC+Yxy83kHl/yi53qHq01nkr+yEq6NaPw="
+          "hash": "nB6fO3qSfNLqyTvgQxrm2+3ETsAzlF2UZwhEExs4SG0="
         }
       },
       "is_incremental": false,
@@ -3019,6 +3019,654 @@
         ".html": {
           "relative_path": "api/Funique.html",
           "hash": "vqNa5BmsuWrwYOXmnc3c05HBR0x+g3VFsEeQ3A7cc7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.AllowNestingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.AllowNestingAttribute.html",
+          "hash": "widK2hmHPTG8EqEPqvaS4vH9Y7DAYinyLWmukw2GpkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.AnimatorParamAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.AnimatorParamAttribute.html",
+          "hash": "kP5c//wjSb60L7SdapUgEBp2z85zHe+vwhkdVQcPT88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.BoxGroupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.BoxGroupAttribute.html",
+          "hash": "kH+swPmDo+NUaijz8WL54RCrQxdZmjw/2LgUDLHkApI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ButtonAttribute.html",
+          "hash": "Eg5nV4a1QQlLbferBkDY7KvSR+cMTLHf6Jla3V07pCc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.CurveRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.CurveRangeAttribute.html",
+          "hash": "M6kA9fHSE7Y2Vt0RTNYekWyoqnPITgQZMfHeezJUtv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.DisableIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.DisableIfAttribute.html",
+          "hash": "IgbXw1/xITuBga9lKRfqfYgdtNYM1/97XrAOmLvT99U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.DrawerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.DrawerAttribute.html",
+          "hash": "acGFlLyDU4lGuAINg1Awv/bF2y0/UMroLrIQ5IKBTPg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.DropdownAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.DropdownAttribute.html",
+          "hash": "dKAY+JBz85J0TwtcmxShHL3jJqMuef2TmNQIlbkjlvI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.DropdownList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.DropdownList-1.html",
+          "hash": "7RWg7mru9zcitla3ecy3QmBirMeNQ2tcw05TWFNWpQ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EButtonEnableMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EButtonEnableMode.html",
+          "hash": "VCrA+Oz+7/qHMZAzOf4K9TxnOU+vg+yNFatq1jv70nY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EColor.html",
+          "hash": "pPwy+UxwUj43AzsOji7cDDUeGJDQYL8hy6TesvgNhW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EColorExtensions.html",
+          "hash": "rMuhnIn2OUlYsCDgq87+5mwYUwnPWBV5KHOfxiTasvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EConditionOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EConditionOperator.html",
+          "hash": "wZncTQhmh6QJnfZKzsu456jTn6Hkkxv6CitdU6WHZpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EInfoBoxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EInfoBoxType.html",
+          "hash": "906qrWbgUlwYve4ZK6O8JI1X92Ey/ZoDz2Mx8HFQfp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EnableIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EnableIfAttribute.html",
+          "hash": "FLfhUnZbWgsyKO+o/FL33x1Yu0euXAHjTueIBnYftIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EnableIfAttributeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EnableIfAttributeBase.html",
+          "hash": "xUbelON3ZJ4A3YyHQQEmGV9K/UaRatjmLDAVoJgtoSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.EnumFlagsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.EnumFlagsAttribute.html",
+          "hash": "HaYXKFbk+l749Q+uw0dWBidRCtxkZa/TMh4cnWXU2cA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ExpandableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ExpandableAttribute.html",
+          "hash": "EKitxOHJjupj0FwIJXVH/Tz5wxgvxm4+jipg9Q4PaaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.FoldoutAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.FoldoutAttribute.html",
+          "hash": "A68BFynAut1QwY7cuifASZG+6QfC1fL+ZJJl3XDy7rY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.HideIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.HideIfAttribute.html",
+          "hash": "Vq7Sx/08JTDq7+SNxi1eYeyMtxwuCC7dD+VnmxCxcpo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.HorizontalLineAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.HorizontalLineAttribute.html",
+          "hash": "7+19owaP+CHx+2HplXXYCK8KLAyi/kWmIFNGQVQkc9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.IDropdownList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.IDropdownList.html",
+          "hash": "bK+htU7vdMQpMyXK1k8fwCq0+NlDUVrGJ0+ZHvTc0O8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.IGroupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.IGroupAttribute.html",
+          "hash": "plBBaxv3iPMT+K1qUtFzANlopHPcyOVCQ/YA0AiB5a0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.INaughtyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.INaughtyAttribute.html",
+          "hash": "BJ5DNoc9tO0GsUJVXwqpK4P+7r4bnd0j2+pGreg+G6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.InfoBoxAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.InfoBoxAttribute.html",
+          "hash": "WsGt121Bh9OtZpZpixH2axjvSRsZkgF8IUnJIBuxRWE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.InputAxisAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.InputAxisAttribute.html",
+          "hash": "lIwDAE1RFAjxljbsZXAmqQzitvrLtFJ/Fg0LV+azswk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.LabelAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.LabelAttribute.html",
+          "hash": "BnDCQX5NNImm4sXWxK+zhccvcR0Hu2Y2hvVs7Yxy8wk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.LayerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.LayerAttribute.html",
+          "hash": "tMn6Wriji2fV16gcjp+2TBUejgYFkmp+EqtSlYL28Xs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.MaxValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.MaxValueAttribute.html",
+          "hash": "nwAWoI2FkG3MnBZNaFubXSoD07TX2zqNmtveS0bVk/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.MetaAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.MetaAttribute.html",
+          "hash": "r5iq2mcLKaTqgS/LS+9T/ZUhnzDYzEOUxLG0cec7RN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.MinMaxSliderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.MinMaxSliderAttribute.html",
+          "hash": "dE/8EQTUK0CXlni+S+Sw+aDRHugb/mdjsu5ZsKaSii8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.MinValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.MinValueAttribute.html",
+          "hash": "+y4baf6U59U43NimH0mQg1OngqIcJBL3NSDV+QZ7lKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.OnValueChangedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.OnValueChangedAttribute.html",
+          "hash": "7ksNTM+hgqNP2pAfo9eJPLX7cqTk5JEfMr87jB+AVns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ProgressBarAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ProgressBarAttribute.html",
+          "hash": "sPA6DCsLVbNrDx2vooR808V2W1A1RZCdEpGK3lGBvFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ReadOnlyAttribute.html",
+          "hash": "bGYq0/6hnudD1eKbY8ocUuBBfCyDufqC28M4PT556dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ReorderableListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ReorderableListAttribute.html",
+          "hash": "+tW/q6CR7VDNLaCQPOr+F1No9mNbafHL5aCjpY6RnM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.RequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.RequiredAttribute.html",
+          "hash": "cYE2ZQ9PY4oB7303St4LQ7aPYJujMesrwCaXzVvC8Eo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ResizableTextAreaAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ResizableTextAreaAttribute.html",
+          "hash": "XP45AmxOTP3kUOudUGvOotBzkRJrMB08f1tgz+l68TQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.SceneAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.SceneAttribute.html",
+          "hash": "iNs4RuBAcR+JdCpLd6e8FVT6cPtrEWAE+QxOESGkbSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ShowAssetPreviewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ShowAssetPreviewAttribute.html",
+          "hash": "MKN48Lsf8emt7okIQc7FzjBwaD8hQe1Hr8McF98eg2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ShowIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ShowIfAttribute.html",
+          "hash": "SsgvWV2MIWgHvXyMn2k0Fg0uN8XqLigdRXgrrcdMxII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ShowIfAttributeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ShowIfAttributeBase.html",
+          "hash": "5qceFTzKk9S3Doz9AeNfq0lAK99iLltjjHLKfAbBNOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ShowNativePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ShowNativePropertyAttribute.html",
+          "hash": "1eQ7K1bahAnEPpxsmDiYJGaDTlBy4B3GyjheXVdPSy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ShowNonSerializedFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ShowNonSerializedFieldAttribute.html",
+          "hash": "sAS0sc/KynCnF46xH5KP2BK6KCHO7X0E0iutLbXzoAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.SortingLayerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.SortingLayerAttribute.html",
+          "hash": "T/tul+jImGABrYQuP8vM1HXh4fj5F1CmMYX5f/C8N0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.SpecialCaseDrawerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.SpecialCaseDrawerAttribute.html",
+          "hash": "9rwklI6lBOe6QO7dFJoC723JpWom2IWgBYt0/2pNdoE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.TagAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.TagAttribute.html",
+          "hash": "Ki0gZmFs3yQSa26BMDpvuzJbR4dYiEKLVAV+ycjyc8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ValidateInputAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ValidateInputAttribute.html",
+          "hash": "biKzO+jkskHvIBYJQZZwqCYltD85ocz4Hs8V3IWk5x8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.ValidatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.ValidatorAttribute.html",
+          "hash": "KaY5MjOwMNftkRjyQCG2Tjp67wfaLe5NVawCiz9hPyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyAttributes.html",
+          "hash": "GILwazpJPkDDT+1r4UAHPaKGpZZTYph+yr9Jf5KdqcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SVerdeTools.FastGizmos.FastGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SVerdeTools.FastGizmos.FastGizmos.html",
+          "hash": "Wqvy+q/z2Qxkx90EIYkowCK/pmtEtb3VK+J7eQ3iqX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SVerdeTools.FastGizmos.FastGizmosExtra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SVerdeTools.FastGizmos.FastGizmosExtra.html",
+          "hash": "SXjVCyBXHP13I2zqlly8IsMHxt36sQ3y+eCQsFpGxqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SVerdeTools.FastGizmos.FastGizmosHandleText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SVerdeTools.FastGizmos.FastGizmosHandleText.html",
+          "hash": "pmz+KIqQSNSZBSqcasJJiK5Dy+fqq4kz8Vw/4ytqsjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SVerdeTools.FastGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SVerdeTools.FastGizmos.html",
+          "hash": "TqrSGgXp2Fmw2VzCTkMDgdfBKOf4Fpxzl2R9uu5gc3E="
         }
       },
       "is_incremental": false,
@@ -3090,7 +3738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gf5P70E4ivR1Q9QZKMTGulIH+QD2fjAoDBZueXsrC5Y="
+          "hash": "H5qcMtXV914YdN7R3nHTZxWaMvKzSA1sIBgI5g3t5dY="
         }
       },
       "is_incremental": false,
@@ -3282,7 +3930,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/Client/NetworkGuide.html",
-          "hash": "Ld8fnhjYaoot6lvbLM52D5NWSZX4IcFvq6GUR5WhVfA="
+          "hash": "7JrFrLp+TCxMhuFVwMmtR1xegsrTnRdmtFmcgru5/vw="
         }
       },
       "is_incremental": false,
@@ -3402,31 +4050,49 @@
       "output": {
         ".html": {
           "relative_path": "guide/Core/CoroutineHelper.html",
-          "hash": "9z3jTA5lg4wW7yDVPLWm2ijAnexHCy3XnwYIIWXjXcw="
+          "hash": "0R2gdrq/Aqa3TBq7eSkUOLFWVSXW9iyCGTvvGFN5Rsg="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "guide/Core/Counter.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/Core/Counter.html",
+          "hash": "UsTmd5+OFKh+b2SOR0kA7gCc75eUn8RPbClwvO65PHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Core/EnumCycle.md",
       "output": {
         ".html": {
           "relative_path": "guide/Core/EnumCycle.html",
-          "hash": "7wWRiRDHyolT4lPlHet8k4JpELabzm75ymtLnI4HEFQ="
+          "hash": "pePDRy1PCdMpK9S8I1vFQKjsEP+vJis8LN+o9rrfvts="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "guide/Core/Extensions.md",
       "output": {
         ".html": {
           "relative_path": "guide/Core/Extensions.html",
-          "hash": "qppoaN71pzfAyVZfJBgMeZKXsT4HWk4KF34AeMF2j54="
+          "hash": "GxQCMj1l9HyIVSsj9sfeLAWYB0KtQ17FTqKd5UN8gvo="
         }
       },
       "is_incremental": false,
@@ -3441,7 +4107,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/Core/Logger.html",
-          "hash": "7tqDHus/kell7ISyhvVCzlof+5naVSqe1NRmZLEUZfg="
+          "hash": "AKWZyLuQXhNWAMsCkTX3s4ktKdtH5LlVv9Jh8vhfYzg="
         }
       },
       "is_incremental": false,
@@ -3477,7 +4143,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/Core/ThirdParty.html",
-          "hash": "rXTw9Ct+4hSSDcmrk8SHHIo7109u2jkYLf3AefpJ2TU="
+          "hash": "VuLME46Qyo27TJngxgz8AhMuIbBdm/RXUszHAoBRDjs="
         }
       },
       "is_incremental": false,
@@ -3489,7 +4155,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/CoreGuide.html",
-          "hash": "azHCej+GgnIKmEg+jLKE95gOP5uBdeG/j9AsjpU/uxc="
+          "hash": "XlqoeBuJQlBG+bgExqHmTpPjct7lyLrEmHfKLQu3v08="
         }
       },
       "is_incremental": false,
@@ -3789,7 +4455,7 @@
       "output": {
         ".html": {
           "relative_path": "guide/toc.html",
-          "hash": "esF1HBGufueRoik4ICn9IKpA5tIHNyfCee58Dl6/ZaU="
+          "hash": "qyNRP0I6lUQ4CsY7LzZMj0SZwfCoWW9C9wU/qoJLNEI="
         }
       },
       "is_incremental": false,
@@ -3834,6 +4500,17 @@
       "output": {
         "resource": {
           "relative_path": "images/VisualStudioCodeGit.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/coroutine_helper.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/coroutine_helper.png"
         }
       },
       "is_incremental": false,
@@ -3955,13 +4632,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 58,
+          "total_file_count": 59,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 255,
+          "total_file_count": 309,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -93,6 +93,19 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="coroutine-helper">Coroutine Helper</h1>
 
+<p>Help thoes class which need access unity monobehaviour coroutine feature.<br>
+Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member.</p>
+<p><img src="../../images/coroutine_helper.png" alt="Component"></p>
+<pre><code class="lang-csharp">class SampleA {
+    void Use(){
+        Coroutine coroutine = CoroutineHelper.Instance.Run(Go);
+    }
+
+    IEnumerator Go(){
+        yield return new WaitForEndOfFrame();
+    }
+}
+</code></pre>
 </article>
               
                 </div>

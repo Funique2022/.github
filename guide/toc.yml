@@ -8,8 +8,6 @@
   items:
   - name: Manager
     href: Core/Manager.md
-  - name: Preprocessor
-    href: Core/Preprocessor.md
   - name: Logger
     href: Core/Logger.md
   - name: Enum Cycle
@@ -26,11 +24,6 @@
 - name: Tool
   href: ToolGuide.md
   items:
-  - name: Hub
-    href: Tool/HubGuide.md
-    items:
-    - name: Quick Start
-      href: Tool/Hub/QuickStart.md
   - name: Designer
     href: Tool/DesignerGuide.md
     items:

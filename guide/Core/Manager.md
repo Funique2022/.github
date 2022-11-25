@@ -22,3 +22,5 @@ This just combine the global manager config setting fields together.
 
 For example\
 If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself.
+
+[API Reference](../../api/Funique.Manager.ManagerBase-1.html)

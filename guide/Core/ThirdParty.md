@@ -45,3 +45,5 @@ public class component : MonoBehaviour{
     }
 }
 ```
+
+[API Reference](../../api/Funique.ThirdPartyApplication.html)

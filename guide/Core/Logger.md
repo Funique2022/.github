@@ -7,9 +7,11 @@ void Start(){
     FuniqueLogger.Init();
     FuniqueLogger.Log("This will log", "Main");
 }
+```
 
-// You can select the log mode
+You can select the log mode
 
+```csharp
 void Start(){
     // This will only use build unity log, not output the message to file
     FuniqueLogger.Init(LoggerApply.Unity);
@@ -21,4 +23,4 @@ void Start(){
 
 for the usage, check detail here
 
-[API link](../../api/Funique.ILogger)
+[API Reference](../../api/Funique.ILogger.html)

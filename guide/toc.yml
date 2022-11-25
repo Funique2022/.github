@@ -20,6 +20,8 @@
     href: Core/Extensions.md
   - name: ThirdParty
     href: Core/ThirdParty.md
+  - name: Counter
+    href: Core/Counter.md
 
 - name: Tool
   href: ToolGuide.md

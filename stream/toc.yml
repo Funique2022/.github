@@ -21,3 +21,9 @@
   items:
   - name: Overview
     href: nginx/overview.md
+  - name: Setup
+    href: nginx/setup.md
+  - name: Push
+    href: nginx/push.md
+  - name: Monitor
+    href: nginx/monitor.md

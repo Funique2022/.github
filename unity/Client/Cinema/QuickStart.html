@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | Funique Documentation </title>
+    <title>Cinema Logic Qucik Start | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | Funique Documentation ">
+    <meta name="title" content="Cinema Logic Qucik Start | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -91,7 +91,95 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
+<h1 id="cinema-logic-qucik-start">Cinema Logic Qucik Start</h1>
 
+<p>Create a class inherit cinema server manager</p>
+<h2 id="configuration">Configuration</h2>
+<p>check cinema data section</p>
+<p><img src="../../../images/Cinema_Config.png" alt="Cinema_Config"></p>
+<ul>
+<li>Media Control -&gt; Targeting the media player ui controller</li>
+</ul>
+<p>If you follow the component you will see a much more detail UI controller component. We recommand you not touch this component, unless you know what you are doing.</p>
+<p><img src="../../../images/MediaPlayerMaster.png" alt="Cinema_Config"></p>
+<ul>
+<li>Audio Source -&gt; AvPro audio output</li>
+<li>FLive Compute Shader for decoding (deprecated)</li>
+<li>VideoBtn -&gt; Menu use element button (deprecated)</li>
+<li>Default_Media Player -&gt; Assign this index of media player by default</li>
+<li>Default_Stereo Mode -&gt; Assign this stereo when we have no idea what stereo the source is</li>
+<li>Options -&gt; AvPro Media Player list
+<ul>
+<li>Name -&gt; Just for name, no effect for code</li>
+<li>Meta -&gt; Hmmm,</li>
+<li>Support_Swap -&gt; Support smooth transition, It must assign second media player</li>
+<li>Target -&gt; AvPro media player instance</li>
+</ul>
+</li>
+<li>Stereo Config -&gt; The UV layout and material manipulate config
+<ul>
+<li>Mode -&gt; The use mode</li>
+</ul>
+</li>
+</ul>
+<h2 id="writing-your-own-implementation">Writing Your Own Implementation</h2>
+<pre><code class="lang-csharp">// Writing your own manager
+public class CinemaClient : CinemaManagerClientUtility {
+
+}
+</code></pre>
+<p>In the main component, you could modify the class or</p>
+<pre><code class="lang-csharp">public class Main : MonoBehaviour {
+    // Explose the config to editor level, provide desginer to tweek the value
+    [SerializeField] CinemaManagerClientData data;
+    // Our manager instance
+    CinemaClient cinema;
+
+    void Start(){
+        // Create cinema server manager process
+        cinema = new CinemaClient();
+        cinema.RegisterConfig(data);
+    }
+
+    void Update(){
+        cinema.FrameUpdate();
+    }
+}
+</code></pre>
+<p>You could override a main</p>
+<pre><code class="lang-csharp">public class Main_Second : Main {
+    // Explose the config to editor level, provide desginer to tweek the value
+    [SerializeField] CinemaManagerClientData data;
+
+    CinemaClient _CinemaClient;
+    public override ICinema CinemaManager =&gt; _CustomCinemaManager;
+
+    // You can override the default init manager behaviour
+    protected override void InitManager(){
+      _CinemaClient = new CinemaClient(); // Switch default cinema to ours
+      _CinemaClient_.RegisterConfig(CinemaData);
+      _XRManager.RegisterConfig(XRData);
+      _UIManager.RegisterConfig(UIData);
+      _VerifyManager.RegisterConfig(VerifyData);
+      _FileManager.RegisterConfig(FileData);
+      _AndroidManager.RegisterConfig(AndroidData);
+
+      _VerifyManager.OnLogin.AddListener(() =&gt;
+      {
+          _NetworkManager.Initialization();
+      });
+
+      Main.Managers.ToList().ForEach(x =&gt;
+      {
+          if (x.GetType() != typeof(NetworkManager))
+              x.Initialization();
+      });
+      (NetworkManager as NetworkManager).Initialization();
+    }
+}
+</code></pre>
+<p>For API detail, check here</p>
+<p><a href="../../../api/Funique.Cinema.ICinemaClientUtility.html">API Reference</a></p>
 </article>
               
                 </div>

@@ -3793,12 +3793,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "dev/Maintainer.md",
       "output": {
         ".html": {
           "relative_path": "dev/Maintainer.html",
-          "hash": "uPeYALhrkIiuDJszDdXkeYr3xOqFnAEUsotP3AyypCc="
+          "hash": "bLSAYjE3r2ogbhLEagJGIRGRsb5BsKdqUJQ83CN+klk="
         }
       },
       "is_incremental": false,
@@ -3846,6 +3849,39 @@
       "output": {
         "resource": {
           "relative_path": "images/ApplicationArchitecture.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Cinema_Config.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Cinema_Config.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Main.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Main.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MediaPlayerMaster.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/MediaPlayerMaster.png"
         }
       },
       "is_incremental": false,
@@ -3901,6 +3937,17 @@
       "output": {
         "resource": {
           "relative_path": "images/RTMP_Setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SceneGameManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SceneGameManager.png"
         }
       },
       "is_incremental": false,
@@ -3996,6 +4043,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/npm_publish.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/npm_publish.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/rtmp_stat.png",
       "output": {
         "resource": {
@@ -4034,7 +4092,7 @@
       "output": {
         ".html": {
           "relative_path": "stream/Intro.html",
-          "hash": "lulLHCUptl7Fv1h3xni+xvqL4+LlqaToItEtFkfQ+WY="
+          "hash": "CTM57kztDoSLLzdTKlH+GB9OsccQ8lAMq8QTFhCFbjM="
         }
       },
       "is_incremental": false,
@@ -4209,12 +4267,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "unity/Client/Cinema/QuickStart.md",
       "output": {
         ".html": {
           "relative_path": "unity/Client/Cinema/QuickStart.html",
-          "hash": "wjgwEToIcNblqqG5Z1xXUrJ/202FaI6dSLDEmvHJ7Qs="
+          "hash": "eSa1ItKopSaeN2qyctPVOqjKqqtoiJit4Ph7GnbQqT0="
         }
       },
       "is_incremental": false,
@@ -4449,12 +4510,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "unity/ClientGuide.md",
       "output": {
         ".html": {
           "relative_path": "unity/ClientGuide.html",
-          "hash": "RwM5UGl7o+zba8yq4zHc4+ABuoCGQWaVKryG9Zl1T2A="
+          "hash": "TQKxvR67lHG+2QUPAb3stH5EIDtPE56OuDzD3GMjn9Y="
         }
       },
       "is_incremental": false,

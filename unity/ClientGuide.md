@@ -17,5 +17,21 @@ In this documentation, we will show you how to apply the components and even ove
 | 7.  | [UI](https://github.com/Funique2022/funique_ui.git)                 | [Quick Start](./Client/UI/QuickStart.md)         |
 | 8.  | [Verify](https://github.com/Funique2022/funique_verify.git)         | [Quick Start](./Client/Verify/QuickStart.md)     |
 | 9.  | [Video](https://github.com/Funique2022/funique_video.git)           | [Quick Start](./Client/Video/QuickStart.md)      |
+| 10. | [AD](https://github.com/Funique2022/funique_ad.git)                 | [Quick Start](./Client/AD/QuickStart.md)         |
 
 [Back To Intro](./intro.md)
+
+## Basic Start
+
+Open any demo scene and find GameManager object in hierarchy
+
+![game manager](./../images/SceneGameManager.png)
+
+And check main component
+
+![main](./../images/Main.png)
+
+This is the primary configuration component, You modify any value here it will effect the whole application work mode.
+
+Everything should be setup already, Unless you have reason or you know what you're doing, do not touch other gameobject.
+

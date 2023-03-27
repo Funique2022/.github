@@ -6,16 +6,16 @@ In this section you will see how do we map layout of video stream pipeline under
 
 System design part
 
-[Funique Tool](./pipeline.md)
+[Pipeline](./pipeline.md)
 
 ## FFmpeg
 
 A open source commandline tool for encode, decode, transcode
 
-[Funique Tool](./ffmpeg.md)
+[FFmpeg Tool](./ffmpeg.md)
 
 ## Nginx
 
 A open source high-performance HTTP server application
 
-[Funique Tool](./nginx.md)
+[Nginx Tool](./nginx.md)

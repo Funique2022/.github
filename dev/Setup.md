@@ -6,6 +6,11 @@
 [Funique Hub](https://github.com/Funique2022/tool_unity_module_hub/releases)
 
 
+## Dev Project Repository
+
+Each intergration project has its own repository with git sub modules attached to it,
+You could clone it in order to contribute.
+
 ## Project Architecture
 ![Architecture](./../images/ApplicationArchitecture.png)
 

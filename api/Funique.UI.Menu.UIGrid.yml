@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.Menu.UIGrid
+  commentId: T:Funique.UI.Menu.UIGrid
+  id: UIGrid
+  parent: Funique.UI.Menu
+  children:
+  - Funique.UI.Menu.UIGrid.CellSize_X
+  - Funique.UI.Menu.UIGrid.CellSize_Y
+  langs:
+  - csharp
+  - vb
+  name: UIGrid
+  nameWithType: UIGrid
+  fullName: Funique.UI.Menu.UIGrid
+  type: Class
+  source:
+    remote:
+      path: Base/UIBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UIGrid
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/UIBase.cs
+    startLine: 14
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: 'public abstract class UIGrid : UIBase'
+    content.vb: >-
+      Public MustInherit Class UIGrid
+
+          Inherits UIBase
+  inheritance:
+  - System.Object
+  - Funique.UI.Menu.UIBase
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Funique.UI.Menu.UIGrid.CellSize_X
+  commentId: M:Funique.UI.Menu.UIGrid.CellSize_X
+  id: CellSize_X
+  parent: Funique.UI.Menu.UIGrid
+  langs:
+  - csharp
+  - vb
+  name: CellSize_X()
+  nameWithType: UIGrid.CellSize_X()
+  fullName: Funique.UI.Menu.UIGrid.CellSize_X()
+  type: Method
+  source:
+    remote:
+      path: Base/UIBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CellSize_X
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/UIBase.cs
+    startLine: 16
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: public virtual float CellSize_X()
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function CellSize_X As Single
+  overload: Funique.UI.Menu.UIGrid.CellSize_X*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.UI.Menu.UIGrid.CellSize_Y
+  commentId: M:Funique.UI.Menu.UIGrid.CellSize_Y
+  id: CellSize_Y
+  parent: Funique.UI.Menu.UIGrid
+  langs:
+  - csharp
+  - vb
+  name: CellSize_Y()
+  nameWithType: UIGrid.CellSize_Y()
+  fullName: Funique.UI.Menu.UIGrid.CellSize_Y()
+  type: Method
+  source:
+    remote:
+      path: Base/UIBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CellSize_Y
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/UIBase.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: public virtual float CellSize_Y()
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function CellSize_Y As Single
+  overload: Funique.UI.Menu.UIGrid.CellSize_Y*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique.UI.Menu
+  commentId: N:Funique.UI.Menu
+  name: Funique.UI.Menu
+  nameWithType: Funique.UI.Menu
+  fullName: Funique.UI.Menu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.UI.Menu.UIBase
+  commentId: T:Funique.UI.Menu.UIBase
+  parent: Funique.UI.Menu
+  name: UIBase
+  nameWithType: UIBase
+  fullName: Funique.UI.Menu.UIBase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.UI.Menu.UIGrid.CellSize_X*
+  commentId: Overload:Funique.UI.Menu.UIGrid.CellSize_X
+  name: CellSize_X
+  nameWithType: UIGrid.CellSize_X
+  fullName: Funique.UI.Menu.UIGrid.CellSize_X
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.UI.Menu.UIGrid.CellSize_Y*
+  commentId: Overload:Funique.UI.Menu.UIGrid.CellSize_Y
+  name: CellSize_Y
+  nameWithType: UIGrid.CellSize_Y
+  fullName: Funique.UI.Menu.UIGrid.CellSize_Y

@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.ClientStandAloneManagerUtility
+  commentId: T:Funique.Manager.ClientStandAloneManagerUtility
+  id: ClientStandAloneManagerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ClientStandAloneManagerUtility
+  nameWithType: ClientStandAloneManagerUtility
+  fullName: Funique.Manager.ClientStandAloneManagerUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/ClientStandAloneManagerUtility.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: ClientStandAloneManagerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/ClientStandAloneManagerUtility.cs
+    startLine: 9
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Manager
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public class ClientStandAloneManagerUtility : ManagerBase<ClientStandAloneManagerData>, IDisposable
+    content.vb: >-
+      <Obsolete>
+
+      Public Class ClientStandAloneManagerUtility
+
+          Inherits ManagerBase(Of ClientStandAloneManagerData)
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.config
+  - Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.RegisterConfig(Funique.Client.ClientStandAloneManagerData)
+  - Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.Loaded(Funique.Client.ClientStandAloneManagerData)
+  - Funique.Manager.ManagerBase.Initialization
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState(System.Boolean)
+  commentId: M:Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState(System.Boolean)
+  id: SetAutoResetState(System.Boolean)
+  parent: Funique.Manager.ClientStandAloneManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: SetAutoResetState(Boolean)
+  nameWithType: ClientStandAloneManagerUtility.SetAutoResetState(Boolean)
+  fullName: Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/ClientStandAloneManagerUtility.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: SetAutoResetState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/ClientStandAloneManagerUtility.cs
+    startLine: 12
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Manager
+  syntax:
+    content: public void SetAutoResetState(bool state)
+    parameters:
+    - id: state
+      type: System.Boolean
+    content.vb: Public Sub SetAutoResetState(state As Boolean)
+  overload: Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<ClientStandAloneManagerData>
+  nameWithType: ManagerBase<ClientStandAloneManagerData>
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientStandAloneManagerData>
+  nameWithType.vb: ManagerBase(Of ClientStandAloneManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientStandAloneManagerData)
+  name.vb: ManagerBase(Of ClientStandAloneManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Client.ClientStandAloneManagerData
+    name: ClientStandAloneManagerData
+    nameWithType: ClientStandAloneManagerData
+    fullName: Funique.Client.ClientStandAloneManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Client.ClientStandAloneManagerData
+    name: ClientStandAloneManagerData
+    nameWithType: ClientStandAloneManagerData
+    fullName: Funique.Client.ClientStandAloneManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<ClientStandAloneManagerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientStandAloneManagerData>.config
+  nameWithType.vb: ManagerBase(Of ClientStandAloneManagerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientStandAloneManagerData).config
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.RegisterConfig(Funique.Client.ClientStandAloneManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.RegisterConfig(Funique.Client.ClientStandAloneManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(ClientStandAloneManagerData)
+  nameWithType: ManagerBase<ClientStandAloneManagerData>.RegisterConfig(ClientStandAloneManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientStandAloneManagerData>.RegisterConfig(Funique.Client.ClientStandAloneManagerData)
+  nameWithType.vb: ManagerBase(Of ClientStandAloneManagerData).RegisterConfig(ClientStandAloneManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientStandAloneManagerData).RegisterConfig(Funique.Client.ClientStandAloneManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<ClientStandAloneManagerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Client.ClientStandAloneManagerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientStandAloneManagerData
+    name: ClientStandAloneManagerData
+    nameWithType: ClientStandAloneManagerData
+    fullName: Funique.Client.ClientStandAloneManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of ClientStandAloneManagerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Client.ClientStandAloneManagerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientStandAloneManagerData
+    name: ClientStandAloneManagerData
+    nameWithType: ClientStandAloneManagerData
+    fullName: Funique.Client.ClientStandAloneManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.Loaded(Funique.Client.ClientStandAloneManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}.Loaded(Funique.Client.ClientStandAloneManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Client.ClientStandAloneManagerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(ClientStandAloneManagerData)
+  nameWithType: ManagerBase<ClientStandAloneManagerData>.Loaded(ClientStandAloneManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientStandAloneManagerData>.Loaded(Funique.Client.ClientStandAloneManagerData)
+  nameWithType.vb: ManagerBase(Of ClientStandAloneManagerData).Loaded(ClientStandAloneManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientStandAloneManagerData).Loaded(Funique.Client.ClientStandAloneManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<ClientStandAloneManagerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Client.ClientStandAloneManagerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientStandAloneManagerData
+    name: ClientStandAloneManagerData
+    nameWithType: ClientStandAloneManagerData
+    fullName: Funique.Client.ClientStandAloneManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of ClientStandAloneManagerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Client.ClientStandAloneManagerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientStandAloneManagerData
+    name: ClientStandAloneManagerData
+    nameWithType: ClientStandAloneManagerData
+    fullName: Funique.Client.ClientStandAloneManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState*
+  commentId: Overload:Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState
+  name: SetAutoResetState
+  nameWithType: ClientStandAloneManagerUtility.SetAutoResetState
+  fullName: Funique.Manager.ClientStandAloneManagerUtility.SetAutoResetState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.ListExtensions
+  commentId: T:Funique.ListExtensions
+  id: ListExtensions
+  parent: Funique
+  children:
+  - Funique.ListExtensions.MoveListItem``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ListExtensions
+  nameWithType: ListExtensions
+  fullName: Funique.ListExtensions
+  type: Class
+  source:
+    remote:
+      path: Extension/ListExtensions.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ListExtensions
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Extension/ListExtensions.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nExtensions: List <br />\n------------------------------------------------ <br />\n擴充: List\n"
+  example: []
+  syntax:
+    content: public static class ListExtensions
+    content.vb: Public Module ListExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Funique.ListExtensions.MoveListItem``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  commentId: M:Funique.ListExtensions.MoveListItem``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  id: MoveListItem``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Funique.ListExtensions
+  langs:
+  - csharp
+  - vb
+  name: MoveListItem<T>(IList<T>, Int32, Int32)
+  nameWithType: ListExtensions.MoveListItem<T>(IList<T>, Int32, Int32)
+  fullName: Funique.ListExtensions.MoveListItem<T>(System.Collections.Generic.IList<T>, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Extension/ListExtensions.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: MoveListItem
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Extension/ListExtensions.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static IList<T> MoveListItem<T>(this IList<T> list, int indexA, int indexB)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.IList{{T}}
+    - id: indexA
+      type: System.Int32
+    - id: indexB
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IList{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MoveListItem(Of T)(list As IList(Of T), indexA As Integer, indexB As Integer) As IList(Of T)
+  overload: Funique.ListExtensions.MoveListItem*
+  nameWithType.vb: ListExtensions.MoveListItem(Of T)(IList(Of T), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Funique.ListExtensions.MoveListItem(Of T)(System.Collections.Generic.IList(Of T), System.Int32, System.Int32)
+  name.vb: MoveListItem(Of T)(IList(Of T), Int32, Int32)
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.ListExtensions.MoveListItem*
+  commentId: Overload:Funique.ListExtensions.MoveListItem
+  name: MoveListItem
+  nameWithType: ListExtensions.MoveListItem
+  fullName: Funique.ListExtensions.MoveListItem
+- uid: System.Collections.Generic.IList{{T}}
+  commentId: T:System.Collections.Generic.IList{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

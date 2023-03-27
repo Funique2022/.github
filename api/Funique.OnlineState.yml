@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.OnlineState
+  commentId: T:Funique.OnlineState
+  id: OnlineState
+  parent: Funique
+  children:
+  - Funique.OnlineState.Breakdown
+  - Funique.OnlineState.Online
+  - Funique.OnlineState.Unonline
+  langs:
+  - csharp
+  - vb
+  name: OnlineState
+  nameWithType: OnlineState
+  fullName: Funique.OnlineState
+  type: Enum
+  source:
+    remote:
+      path: Enum/OnlineState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: OnlineState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/OnlineState.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCurrent client network status <br />\n------------------------------------------------ <br />\n顯示目前用戶的上線狀況\n"
+  example: []
+  syntax:
+    content: public enum OnlineState
+    content.vb: Public Enum OnlineState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.OnlineState.Breakdown
+  commentId: F:Funique.OnlineState.Breakdown
+  id: Breakdown
+  parent: Funique.OnlineState
+  langs:
+  - csharp
+  - vb
+  name: Breakdown
+  nameWithType: OnlineState.Breakdown
+  fullName: Funique.OnlineState.Breakdown
+  type: Field
+  source:
+    remote:
+      path: Enum/OnlineState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Breakdown
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/OnlineState.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nNormal online state <br />\n------------------------------------------------ <br />\n正常上線狀態\n"
+  example: []
+  syntax:
+    content: Breakdown = -1
+    return:
+      type: Funique.OnlineState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.OnlineState.Unonline
+  commentId: F:Funique.OnlineState.Unonline
+  id: Unonline
+  parent: Funique.OnlineState
+  langs:
+  - csharp
+  - vb
+  name: Unonline
+  nameWithType: OnlineState.Unonline
+  fullName: Funique.OnlineState.Unonline
+  type: Field
+  source:
+    remote:
+      path: Enum/OnlineState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Unonline
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/OnlineState.cs
+    startLine: 20
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nOffline state <br />\n------------------------------------------------ <br />\n離線狀態\n"
+  example: []
+  syntax:
+    content: Unonline = 0
+    return:
+      type: Funique.OnlineState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.OnlineState.Online
+  commentId: F:Funique.OnlineState.Online
+  id: Online
+  parent: Funique.OnlineState
+  langs:
+  - csharp
+  - vb
+  name: Online
+  nameWithType: OnlineState.Online
+  fullName: Funique.OnlineState.Online
+  type: Field
+  source:
+    remote:
+      path: Enum/OnlineState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Online
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/OnlineState.cs
+    startLine: 26
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nOnline but not prepare <br />\n------------------------------------------------ <br />\n有連線到, 但有意外狀況\n"
+  example: []
+  syntax:
+    content: Online = 1
+    return:
+      type: Funique.OnlineState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.OnlineState
+  commentId: T:Funique.OnlineState
+  parent: Funique
+  name: OnlineState
+  nameWithType: OnlineState
+  fullName: Funique.OnlineState

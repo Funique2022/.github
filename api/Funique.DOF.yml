@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.DOF
+  commentId: T:Funique.DOF
+  id: DOF
+  parent: Funique
+  children:
+  - Funique.DOF.DebugSwitch
+  - Funique.DOF.dis
+  - Funique.DOF.IslookAtHeadset
+  - Funique.DOF.Len
+  - Funique.DOF.MinMax(System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Funique.DOF.Resize
+  - Funique.DOF.Scale
+  langs:
+  - csharp
+  - vb
+  name: DOF
+  nameWithType: DOF
+  fullName: Funique.DOF
+  type: Class
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: DOF
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nDegree of freedom behaviour <br />\n------------------------------------------------ <br />\n自由角 行為\n"
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Core/DOF")]
+
+      public class DOF : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Core/DOF")>
+
+      Public Class DOF
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Core/DOF
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.DOF.Scale
+  commentId: F:Funique.DOF.Scale
+  id: Scale
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: DOF.Scale
+  fullName: Funique.DOF.Scale
+  type: Field
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Scale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float Scale
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public Scale As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.DOF.Len
+  commentId: F:Funique.DOF.Len
+  id: Len
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: Len
+  nameWithType: DOF.Len
+  fullName: Funique.DOF.Len
+  type: Field
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Len
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float Len
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public Len As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.DOF.Resize
+  commentId: F:Funique.DOF.Resize
+  id: Resize
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: Resize
+  nameWithType: DOF.Resize
+  fullName: Funique.DOF.Resize
+  type: Field
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Resize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 17
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool Resize
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public Resize As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.DOF.DebugSwitch
+  commentId: F:Funique.DOF.DebugSwitch
+  id: DebugSwitch
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: DebugSwitch
+  nameWithType: DOF.DebugSwitch
+  fullName: Funique.DOF.DebugSwitch
+  type: Field
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: DebugSwitch
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 18
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool DebugSwitch
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public DebugSwitch As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.DOF.IslookAtHeadset
+  commentId: F:Funique.DOF.IslookAtHeadset
+  id: IslookAtHeadset
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: IslookAtHeadset
+  nameWithType: DOF.IslookAtHeadset
+  fullName: Funique.DOF.IslookAtHeadset
+  type: Field
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: IslookAtHeadset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 19
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool IslookAtHeadset
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public IslookAtHeadset As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.DOF.dis
+  commentId: P:Funique.DOF.dis
+  id: dis
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: dis
+  nameWithType: DOF.dis
+  fullName: Funique.DOF.dis
+  type: Property
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: dis
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 20
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public float dis { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property dis As Single
+  overload: Funique.DOF.dis*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.DOF.MinMax(System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Funique.DOF.MinMax(System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: MinMax(System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Funique.DOF
+  langs:
+  - csharp
+  - vb
+  name: MinMax(Single, Single, Single, Single, Single)
+  nameWithType: DOF.MinMax(Single, Single, Single, Single, Single)
+  fullName: Funique.DOF.MinMax(System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/DOF.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: MinMax
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/DOF.cs
+    startLine: 69
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public float MinMax(float x, float max, float min, float new_max, float new_min)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: max
+      type: System.Single
+    - id: min
+      type: System.Single
+    - id: new_max
+      type: System.Single
+    - id: new_min
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Function MinMax(x As Single, max As Single, min As Single, new_max As Single, new_min As Single) As Single
+  overload: Funique.DOF.MinMax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.DOF.dis*
+  commentId: Overload:Funique.DOF.dis
+  name: dis
+  nameWithType: DOF.dis
+  fullName: Funique.DOF.dis
+- uid: Funique.DOF.MinMax*
+  commentId: Overload:Funique.DOF.MinMax
+  name: MinMax
+  nameWithType: DOF.MinMax
+  fullName: Funique.DOF.MinMax

@@ -1,0 +1,1168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.VideoListControlElement
+  commentId: T:Funique.VideoListControlElement
+  id: VideoListControlElement
+  parent: Funique
+  children:
+  - Funique.VideoListControlElement.Controller
+  - Funique.VideoListControlElement.DragDelta
+  - Funique.VideoListControlElement.DragOffset
+  - Funique.VideoListControlElement.DragOriginal
+  - Funique.VideoListControlElement.DragPos
+  - Funique.VideoListControlElement.Index
+  - Funique.VideoListControlElement.InfoPressed
+  - Funique.VideoListControlElement.InfoVisibility
+  - Funique.VideoListControlElement.IsDrag
+  - Funique.VideoListControlElement.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  - Funique.VideoListControlElement.OnClickInfo
+  - Funique.VideoListControlElement.OnClickRemove
+  - Funique.VideoListControlElement.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  - Funique.VideoListControlElement.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  - Funique.VideoListControlElement.OnValueChanged
+  - Funique.VideoListControlElement.RemovePressed
+  - Funique.VideoListControlElement.Value
+  - Funique.VideoListControlElement.Videobuffer
+  langs:
+  - csharp
+  - vb
+  name: VideoListControlElement
+  nameWithType: VideoListControlElement
+  fullName: Funique.VideoListControlElement
+  type: Class
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: VideoListControlElement
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 7
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Setting/VideoList Element")]
+
+      public class VideoListControlElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IEventSystemHandler
+    content.vb: >-
+      <AddComponentMenu("Funique/Setting/VideoList Element")>
+
+      Public Class VideoListControlElement
+
+          Inherits MonoBehaviour
+
+          Implements IBeginDragHandler, IDragHandler, IEndDragHandler, IEventSystemHandler
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  implements:
+  - UnityEngine.EventSystems.IBeginDragHandler
+  - UnityEngine.EventSystems.IDragHandler
+  - UnityEngine.EventSystems.IEndDragHandler
+  - UnityEngine.EventSystems.IEventSystemHandler
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Setting/VideoList Element
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.VideoListControlElement.OnClickInfo
+  commentId: E:Funique.VideoListControlElement.OnClickInfo
+  id: OnClickInfo
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: OnClickInfo
+  nameWithType: VideoListControlElement.OnClickInfo
+  fullName: Funique.VideoListControlElement.OnClickInfo
+  type: Event
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnClickInfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 13
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public event EventHandler<VideoInfo> OnClickInfo
+    return:
+      type: System.EventHandler{Funique.VideoInfo}
+    content.vb: Public Event OnClickInfo As EventHandler(Of VideoInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.OnClickRemove
+  commentId: E:Funique.VideoListControlElement.OnClickRemove
+  id: OnClickRemove
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: OnClickRemove
+  nameWithType: VideoListControlElement.OnClickRemove
+  fullName: Funique.VideoListControlElement.OnClickRemove
+  type: Event
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnClickRemove
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 14
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public event EventHandler OnClickRemove
+    return:
+      type: System.EventHandler
+    content.vb: Public Event OnClickRemove As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.OnValueChanged
+  commentId: E:Funique.VideoListControlElement.OnValueChanged
+  id: OnValueChanged
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: OnValueChanged
+  nameWithType: VideoListControlElement.OnValueChanged
+  fullName: Funique.VideoListControlElement.OnValueChanged
+  type: Event
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnValueChanged
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 15
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public event EventHandler<string> OnValueChanged
+    return:
+      type: System.EventHandler{System.String}
+    content.vb: Public Event OnValueChanged As EventHandler(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.Controller
+  commentId: P:Funique.VideoListControlElement.Controller
+  id: Controller
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: VideoListControlElement.Controller
+  fullName: Funique.VideoListControlElement.Controller
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Controller
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 16
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public VideoListControllerBase Controller { get; set; }
+    parameters: []
+    return:
+      type: Funique.VideoListControllerBase
+    content.vb: Public Property Controller As VideoListControllerBase
+  overload: Funique.VideoListControlElement.Controller*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.InfoVisibility
+  commentId: P:Funique.VideoListControlElement.InfoVisibility
+  id: InfoVisibility
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: InfoVisibility
+  nameWithType: VideoListControlElement.InfoVisibility
+  fullName: Funique.VideoListControlElement.InfoVisibility
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: InfoVisibility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 17
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public bool InfoVisibility { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property InfoVisibility As Boolean
+  overload: Funique.VideoListControlElement.InfoVisibility*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.Index
+  commentId: P:Funique.VideoListControlElement.Index
+  id: Index
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: VideoListControlElement.Index
+  fullName: Funique.VideoListControlElement.Index
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Index
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 22
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: Funique.VideoListControlElement.Index*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControlElement.Value
+  commentId: P:Funique.VideoListControlElement.Value
+  id: Value
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: VideoListControlElement.Value
+  fullName: Funique.VideoListControlElement.Value
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Value
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 23
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Funique.VideoListControlElement.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.IsDrag
+  commentId: P:Funique.VideoListControlElement.IsDrag
+  id: IsDrag
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: IsDrag
+  nameWithType: VideoListControlElement.IsDrag
+  fullName: Funique.VideoListControlElement.IsDrag
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: IsDrag
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 34
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public bool IsDrag { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDrag As Boolean
+  overload: Funique.VideoListControlElement.IsDrag*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControlElement.DragOriginal
+  commentId: P:Funique.VideoListControlElement.DragOriginal
+  id: DragOriginal
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: DragOriginal
+  nameWithType: VideoListControlElement.DragOriginal
+  fullName: Funique.VideoListControlElement.DragOriginal
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DragOriginal
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 35
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public Vector2 DragOriginal { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public ReadOnly Property DragOriginal As Vector2
+  overload: Funique.VideoListControlElement.DragOriginal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControlElement.DragPos
+  commentId: P:Funique.VideoListControlElement.DragPos
+  id: DragPos
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: DragPos
+  nameWithType: VideoListControlElement.DragPos
+  fullName: Funique.VideoListControlElement.DragPos
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DragPos
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 36
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public Vector2 DragPos { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public ReadOnly Property DragPos As Vector2
+  overload: Funique.VideoListControlElement.DragPos*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControlElement.DragDelta
+  commentId: P:Funique.VideoListControlElement.DragDelta
+  id: DragDelta
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: DragDelta
+  nameWithType: VideoListControlElement.DragDelta
+  fullName: Funique.VideoListControlElement.DragDelta
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DragDelta
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 37
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public Vector2 DragDelta { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public ReadOnly Property DragDelta As Vector2
+  overload: Funique.VideoListControlElement.DragDelta*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControlElement.DragOffset
+  commentId: P:Funique.VideoListControlElement.DragOffset
+  id: DragOffset
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: DragOffset
+  nameWithType: VideoListControlElement.DragOffset
+  fullName: Funique.VideoListControlElement.DragOffset
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DragOffset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 38
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public Vector2 DragOffset { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public ReadOnly Property DragOffset As Vector2
+  overload: Funique.VideoListControlElement.DragOffset*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControlElement.Videobuffer
+  commentId: P:Funique.VideoListControlElement.Videobuffer
+  id: Videobuffer
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: Videobuffer
+  nameWithType: VideoListControlElement.Videobuffer
+  fullName: Funique.VideoListControlElement.Videobuffer
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Videobuffer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 39
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public VideoInfo Videobuffer { get; set; }
+    parameters: []
+    return:
+      type: Funique.VideoInfo
+    content.vb: Public Property Videobuffer As VideoInfo
+  overload: Funique.VideoListControlElement.Videobuffer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:Funique.VideoListControlElement.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  id: OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: OnBeginDrag(PointerEventData)
+  nameWithType: VideoListControlElement.OnBeginDrag(PointerEventData)
+  fullName: Funique.VideoListControlElement.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnBeginDrag
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 49
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void OnBeginDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: UnityEngine.EventSystems.PointerEventData
+    content.vb: Public Sub OnBeginDrag(eventData As PointerEventData)
+  overload: Funique.VideoListControlElement.OnBeginDrag*
+  implements:
+  - UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:Funique.VideoListControlElement.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  id: OnDrag(UnityEngine.EventSystems.PointerEventData)
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: OnDrag(PointerEventData)
+  nameWithType: VideoListControlElement.OnDrag(PointerEventData)
+  fullName: Funique.VideoListControlElement.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnDrag
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 55
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void OnDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: UnityEngine.EventSystems.PointerEventData
+    content.vb: Public Sub OnDrag(eventData As PointerEventData)
+  overload: Funique.VideoListControlElement.OnDrag*
+  implements:
+  - UnityEngine.EventSystems.IDragHandler.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:Funique.VideoListControlElement.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  id: OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: OnEndDrag(PointerEventData)
+  nameWithType: VideoListControlElement.OnEndDrag(PointerEventData)
+  fullName: Funique.VideoListControlElement.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnEndDrag
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 62
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void OnEndDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: UnityEngine.EventSystems.PointerEventData
+    content.vb: Public Sub OnEndDrag(eventData As PointerEventData)
+  overload: Funique.VideoListControlElement.OnEndDrag*
+  implements:
+  - UnityEngine.EventSystems.IEndDragHandler.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.InfoPressed
+  commentId: M:Funique.VideoListControlElement.InfoPressed
+  id: InfoPressed
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: InfoPressed()
+  nameWithType: VideoListControlElement.InfoPressed()
+  fullName: Funique.VideoListControlElement.InfoPressed()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: InfoPressed
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 67
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void InfoPressed()
+    content.vb: Public Sub InfoPressed
+  overload: Funique.VideoListControlElement.InfoPressed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControlElement.RemovePressed
+  commentId: M:Funique.VideoListControlElement.RemovePressed
+  id: RemovePressed
+  parent: Funique.VideoListControlElement
+  langs:
+  - csharp
+  - vb
+  name: RemovePressed()
+  nameWithType: VideoListControlElement.RemovePressed()
+  fullName: Funique.VideoListControlElement.RemovePressed()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControlElement.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: RemovePressed
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControlElement.cs
+    startLine: 72
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void RemovePressed()
+    content.vb: Public Sub RemovePressed
+  overload: Funique.VideoListControlElement.RemovePressed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.EventSystems.IBeginDragHandler
+  commentId: T:UnityEngine.EventSystems.IBeginDragHandler
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: IBeginDragHandler
+  nameWithType: IBeginDragHandler
+  fullName: UnityEngine.EventSystems.IBeginDragHandler
+- uid: UnityEngine.EventSystems.IDragHandler
+  commentId: T:UnityEngine.EventSystems.IDragHandler
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: IDragHandler
+  nameWithType: IDragHandler
+  fullName: UnityEngine.EventSystems.IDragHandler
+- uid: UnityEngine.EventSystems.IEndDragHandler
+  commentId: T:UnityEngine.EventSystems.IEndDragHandler
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: IEndDragHandler
+  nameWithType: IEndDragHandler
+  fullName: UnityEngine.EventSystems.IEndDragHandler
+- uid: UnityEngine.EventSystems.IEventSystemHandler
+  commentId: T:UnityEngine.EventSystems.IEventSystemHandler
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: IEventSystemHandler
+  nameWithType: IEventSystemHandler
+  fullName: UnityEngine.EventSystems.IEventSystemHandler
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.EventSystems
+  commentId: N:UnityEngine.EventSystems
+  isExternal: true
+  name: UnityEngine.EventSystems
+  nameWithType: UnityEngine.EventSystems
+  fullName: UnityEngine.EventSystems
+- uid: System.EventHandler{Funique.VideoInfo}
+  commentId: T:System.EventHandler{Funique.VideoInfo}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<VideoInfo>
+  nameWithType: EventHandler<VideoInfo>
+  fullName: System.EventHandler<Funique.VideoInfo>
+  nameWithType.vb: EventHandler(Of VideoInfo)
+  fullName.vb: System.EventHandler(Of Funique.VideoInfo)
+  name.vb: EventHandler(Of VideoInfo)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: System.EventHandler{System.String}
+  commentId: T:System.EventHandler{System.String}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<String>
+  nameWithType: EventHandler<String>
+  fullName: System.EventHandler<System.String>
+  nameWithType.vb: EventHandler(Of String)
+  fullName.vb: System.EventHandler(Of System.String)
+  name.vb: EventHandler(Of String)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.VideoListControlElement.Controller*
+  commentId: Overload:Funique.VideoListControlElement.Controller
+  name: Controller
+  nameWithType: VideoListControlElement.Controller
+  fullName: Funique.VideoListControlElement.Controller
+- uid: Funique.VideoListControllerBase
+  commentId: T:Funique.VideoListControllerBase
+  parent: Funique
+  name: VideoListControllerBase
+  nameWithType: VideoListControllerBase
+  fullName: Funique.VideoListControllerBase
+- uid: Funique.VideoListControlElement.InfoVisibility*
+  commentId: Overload:Funique.VideoListControlElement.InfoVisibility
+  name: InfoVisibility
+  nameWithType: VideoListControlElement.InfoVisibility
+  fullName: Funique.VideoListControlElement.InfoVisibility
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.VideoListControlElement.Index*
+  commentId: Overload:Funique.VideoListControlElement.Index
+  name: Index
+  nameWithType: VideoListControlElement.Index
+  fullName: Funique.VideoListControlElement.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.VideoListControlElement.Value*
+  commentId: Overload:Funique.VideoListControlElement.Value
+  name: Value
+  nameWithType: VideoListControlElement.Value
+  fullName: Funique.VideoListControlElement.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.VideoListControlElement.IsDrag*
+  commentId: Overload:Funique.VideoListControlElement.IsDrag
+  name: IsDrag
+  nameWithType: VideoListControlElement.IsDrag
+  fullName: Funique.VideoListControlElement.IsDrag
+- uid: Funique.VideoListControlElement.DragOriginal*
+  commentId: Overload:Funique.VideoListControlElement.DragOriginal
+  name: DragOriginal
+  nameWithType: VideoListControlElement.DragOriginal
+  fullName: Funique.VideoListControlElement.DragOriginal
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: Funique.VideoListControlElement.DragPos*
+  commentId: Overload:Funique.VideoListControlElement.DragPos
+  name: DragPos
+  nameWithType: VideoListControlElement.DragPos
+  fullName: Funique.VideoListControlElement.DragPos
+- uid: Funique.VideoListControlElement.DragDelta*
+  commentId: Overload:Funique.VideoListControlElement.DragDelta
+  name: DragDelta
+  nameWithType: VideoListControlElement.DragDelta
+  fullName: Funique.VideoListControlElement.DragDelta
+- uid: Funique.VideoListControlElement.DragOffset*
+  commentId: Overload:Funique.VideoListControlElement.DragOffset
+  name: DragOffset
+  nameWithType: VideoListControlElement.DragOffset
+  fullName: Funique.VideoListControlElement.DragOffset
+- uid: Funique.VideoListControlElement.Videobuffer*
+  commentId: Overload:Funique.VideoListControlElement.Videobuffer
+  name: Videobuffer
+  nameWithType: VideoListControlElement.Videobuffer
+  fullName: Funique.VideoListControlElement.Videobuffer
+- uid: Funique.VideoInfo
+  commentId: T:Funique.VideoInfo
+  parent: Funique
+  name: VideoInfo
+  nameWithType: VideoInfo
+  fullName: Funique.VideoInfo
+- uid: Funique.VideoListControlElement.OnBeginDrag*
+  commentId: Overload:Funique.VideoListControlElement.OnBeginDrag
+  name: OnBeginDrag
+  nameWithType: VideoListControlElement.OnBeginDrag
+  fullName: Funique.VideoListControlElement.OnBeginDrag
+- uid: UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  parent: UnityEngine.EventSystems.IBeginDragHandler
+  isExternal: true
+  name: OnBeginDrag(PointerEventData)
+  nameWithType: IBeginDragHandler.OnBeginDrag(PointerEventData)
+  fullName: UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+    name: OnBeginDrag
+    nameWithType: IBeginDragHandler.OnBeginDrag
+    fullName: UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.EventSystems.PointerEventData
+    name: PointerEventData
+    nameWithType: PointerEventData
+    fullName: UnityEngine.EventSystems.PointerEventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+    name: OnBeginDrag
+    nameWithType: IBeginDragHandler.OnBeginDrag
+    fullName: UnityEngine.EventSystems.IBeginDragHandler.OnBeginDrag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.EventSystems.PointerEventData
+    name: PointerEventData
+    nameWithType: PointerEventData
+    fullName: UnityEngine.EventSystems.PointerEventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.EventSystems.PointerEventData
+  commentId: T:UnityEngine.EventSystems.PointerEventData
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: UnityEngine.EventSystems.PointerEventData
+- uid: Funique.VideoListControlElement.OnDrag*
+  commentId: Overload:Funique.VideoListControlElement.OnDrag
+  name: OnDrag
+  nameWithType: VideoListControlElement.OnDrag
+  fullName: Funique.VideoListControlElement.OnDrag
+- uid: UnityEngine.EventSystems.IDragHandler.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:UnityEngine.EventSystems.IDragHandler.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  parent: UnityEngine.EventSystems.IDragHandler
+  isExternal: true
+  name: OnDrag(PointerEventData)
+  nameWithType: IDragHandler.OnDrag(PointerEventData)
+  fullName: UnityEngine.EventSystems.IDragHandler.OnDrag(UnityEngine.EventSystems.PointerEventData)
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.IDragHandler.OnDrag(UnityEngine.EventSystems.PointerEventData)
+    name: OnDrag
+    nameWithType: IDragHandler.OnDrag
+    fullName: UnityEngine.EventSystems.IDragHandler.OnDrag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.EventSystems.PointerEventData
+    name: PointerEventData
+    nameWithType: PointerEventData
+    fullName: UnityEngine.EventSystems.PointerEventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.IDragHandler.OnDrag(UnityEngine.EventSystems.PointerEventData)
+    name: OnDrag
+    nameWithType: IDragHandler.OnDrag
+    fullName: UnityEngine.EventSystems.IDragHandler.OnDrag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.EventSystems.PointerEventData
+    name: PointerEventData
+    nameWithType: PointerEventData
+    fullName: UnityEngine.EventSystems.PointerEventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.VideoListControlElement.OnEndDrag*
+  commentId: Overload:Funique.VideoListControlElement.OnEndDrag
+  name: OnEndDrag
+  nameWithType: VideoListControlElement.OnEndDrag
+  fullName: Funique.VideoListControlElement.OnEndDrag
+- uid: UnityEngine.EventSystems.IEndDragHandler.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:UnityEngine.EventSystems.IEndDragHandler.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  parent: UnityEngine.EventSystems.IEndDragHandler
+  isExternal: true
+  name: OnEndDrag(PointerEventData)
+  nameWithType: IEndDragHandler.OnEndDrag(PointerEventData)
+  fullName: UnityEngine.EventSystems.IEndDragHandler.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.IEndDragHandler.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+    name: OnEndDrag
+    nameWithType: IEndDragHandler.OnEndDrag
+    fullName: UnityEngine.EventSystems.IEndDragHandler.OnEndDrag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.EventSystems.PointerEventData
+    name: PointerEventData
+    nameWithType: PointerEventData
+    fullName: UnityEngine.EventSystems.PointerEventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.IEndDragHandler.OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+    name: OnEndDrag
+    nameWithType: IEndDragHandler.OnEndDrag
+    fullName: UnityEngine.EventSystems.IEndDragHandler.OnEndDrag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.EventSystems.PointerEventData
+    name: PointerEventData
+    nameWithType: PointerEventData
+    fullName: UnityEngine.EventSystems.PointerEventData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.VideoListControlElement.InfoPressed*
+  commentId: Overload:Funique.VideoListControlElement.InfoPressed
+  name: InfoPressed
+  nameWithType: VideoListControlElement.InfoPressed
+  fullName: Funique.VideoListControlElement.InfoPressed
+- uid: Funique.VideoListControlElement.RemovePressed*
+  commentId: Overload:Funique.VideoListControlElement.RemovePressed
+  name: RemovePressed
+  nameWithType: VideoListControlElement.RemovePressed
+  fullName: Funique.VideoListControlElement.RemovePressed

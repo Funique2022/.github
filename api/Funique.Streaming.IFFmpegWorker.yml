@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Streaming.IFFmpegWorker
+  commentId: T:Funique.Streaming.IFFmpegWorker
+  id: IFFmpegWorker
+  parent: Funique.Streaming
+  children:
+  - Funique.Streaming.IFFmpegWorker.index
+  - Funique.Streaming.IFFmpegWorker.Init_OK
+  - Funique.Streaming.IFFmpegWorker.mode
+  - Funique.Streaming.IFFmpegWorker.url
+  langs:
+  - csharp
+  - vb
+  name: IFFmpegWorker
+  nameWithType: IFFmpegWorker
+  fullName: Funique.Streaming.IFFmpegWorker
+  type: Interface
+  source:
+    remote:
+      path: Interface/IFFmpegWorker.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: IFFmpegWorker
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/IFFmpegWorker.cs
+    startLine: 2
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: public interface IFFmpegWorker
+    content.vb: Public Interface IFFmpegWorker
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Streaming.IFFmpegWorker.index
+  commentId: P:Funique.Streaming.IFFmpegWorker.index
+  id: index
+  parent: Funique.Streaming.IFFmpegWorker
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: IFFmpegWorker.index
+  fullName: Funique.Streaming.IFFmpegWorker.index
+  type: Property
+  source:
+    remote:
+      path: Interface/IFFmpegWorker.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: index
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/IFFmpegWorker.cs
+    startLine: 9
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nCinema index <br />\n------------------------------------------------ <br />\n劇院目錄\n"
+  example: []
+  syntax:
+    content: int index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property index As Integer
+  overload: Funique.Streaming.IFFmpegWorker.index*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Streaming.IFFmpegWorker.url
+  commentId: P:Funique.Streaming.IFFmpegWorker.url
+  id: url
+  parent: Funique.Streaming.IFFmpegWorker
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: IFFmpegWorker.url
+  fullName: Funique.Streaming.IFFmpegWorker.url
+  type: Property
+  source:
+    remote:
+      path: Interface/IFFmpegWorker.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: url
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/IFFmpegWorker.cs
+    startLine: 15
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nDestination <br />\n------------------------------------------------ <br />\n目的地\n"
+  example: []
+  syntax:
+    content: string url { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property url As String
+  overload: Funique.Streaming.IFFmpegWorker.url*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Streaming.IFFmpegWorker.mode
+  commentId: P:Funique.Streaming.IFFmpegWorker.mode
+  id: mode
+  parent: Funique.Streaming.IFFmpegWorker
+  langs:
+  - csharp
+  - vb
+  name: mode
+  nameWithType: IFFmpegWorker.mode
+  fullName: Funique.Streaming.IFFmpegWorker.mode
+  type: Property
+  source:
+    remote:
+      path: Interface/IFFmpegWorker.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: mode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/IFFmpegWorker.cs
+    startLine: 21
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nStreaming mode <br />\n------------------------------------------------ <br />\n串流模式\n"
+  example: []
+  syntax:
+    content: StreamingMode mode { get; }
+    parameters: []
+    return:
+      type: Funique.StreamingMode
+    content.vb: ReadOnly Property mode As StreamingMode
+  overload: Funique.Streaming.IFFmpegWorker.mode*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Streaming.IFFmpegWorker.Init_OK
+  commentId: P:Funique.Streaming.IFFmpegWorker.Init_OK
+  id: Init_OK
+  parent: Funique.Streaming.IFFmpegWorker
+  langs:
+  - csharp
+  - vb
+  name: Init_OK
+  nameWithType: IFFmpegWorker.Init_OK
+  fullName: Funique.Streaming.IFFmpegWorker.Init_OK
+  type: Property
+  source:
+    remote:
+      path: Interface/IFFmpegWorker.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: Init_OK
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/IFFmpegWorker.cs
+    startLine: 27
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nInitialization state <br />\n------------------------------------------------ <br />\n初始化狀態\n"
+  example: []
+  syntax:
+    content: int Init_OK { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Init_OK As Integer
+  overload: Funique.Streaming.IFFmpegWorker.Init_OK*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Funique.Streaming
+  commentId: N:Funique.Streaming
+  name: Funique.Streaming
+  nameWithType: Funique.Streaming
+  fullName: Funique.Streaming
+- uid: Funique.Streaming.IFFmpegWorker.index*
+  commentId: Overload:Funique.Streaming.IFFmpegWorker.index
+  name: index
+  nameWithType: IFFmpegWorker.index
+  fullName: Funique.Streaming.IFFmpegWorker.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Streaming.IFFmpegWorker.url*
+  commentId: Overload:Funique.Streaming.IFFmpegWorker.url
+  name: url
+  nameWithType: IFFmpegWorker.url
+  fullName: Funique.Streaming.IFFmpegWorker.url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Streaming.IFFmpegWorker.mode*
+  commentId: Overload:Funique.Streaming.IFFmpegWorker.mode
+  name: mode
+  nameWithType: IFFmpegWorker.mode
+  fullName: Funique.Streaming.IFFmpegWorker.mode
+- uid: Funique.StreamingMode
+  commentId: T:Funique.StreamingMode
+  parent: Funique
+  name: StreamingMode
+  nameWithType: StreamingMode
+  fullName: Funique.StreamingMode
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Streaming.IFFmpegWorker.Init_OK*
+  commentId: Overload:Funique.Streaming.IFFmpegWorker.Init_OK
+  name: Init_OK
+  nameWithType: IFFmpegWorker.Init_OK
+  fullName: Funique.Streaming.IFFmpegWorker.Init_OK

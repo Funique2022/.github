@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.IFuniqueToggleMultiple
+  commentId: T:Funique.UI.IFuniqueToggleMultiple
+  id: IFuniqueToggleMultiple
+  parent: Funique.UI
+  children:
+  - Funique.UI.IFuniqueToggleMultiple.ClickEvent
+  - Funique.UI.IFuniqueToggleMultiple.Interactable
+  - Funique.UI.IFuniqueToggleMultiple.Length
+  - Funique.UI.IFuniqueToggleMultiple.OnUpdate
+  - Funique.UI.IFuniqueToggleMultiple.Target
+  langs:
+  - csharp
+  - vb
+  name: IFuniqueToggleMultiple
+  nameWithType: IFuniqueToggleMultiple
+  fullName: Funique.UI.IFuniqueToggleMultiple
+  type: Interface
+  source:
+    remote:
+      path: Interface/IFuniqueToggleMultiple.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: IFuniqueToggleMultiple
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Interface/IFuniqueToggleMultiple.cs
+    startLine: 10
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nFunique custom made multiple state support toggle controller <br />\n------------------------------------------------ <br />\nFunique 自製多模式支援 Toggle 控制器\n"
+  example: []
+  syntax:
+    content: public interface IFuniqueToggleMultiple
+    content.vb: Public Interface IFuniqueToggleMultiple
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.UI.IFuniqueToggleMultiple.Target
+  commentId: P:Funique.UI.IFuniqueToggleMultiple.Target
+  id: Target
+  parent: Funique.UI.IFuniqueToggleMultiple
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: IFuniqueToggleMultiple.Target
+  fullName: Funique.UI.IFuniqueToggleMultiple.Target
+  type: Property
+  source:
+    remote:
+      path: Interface/IFuniqueToggleMultiple.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Target
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Interface/IFuniqueToggleMultiple.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nTarget Graphics <br />\n------------------------------------------------ <br />\n目標圖像\n"
+  example: []
+  syntax:
+    content: Image Target { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UI.Image
+    content.vb: ReadOnly Property Target As Image
+  overload: Funique.UI.IFuniqueToggleMultiple.Target*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.UI.IFuniqueToggleMultiple.ClickEvent
+  commentId: P:Funique.UI.IFuniqueToggleMultiple.ClickEvent
+  id: ClickEvent
+  parent: Funique.UI.IFuniqueToggleMultiple
+  langs:
+  - csharp
+  - vb
+  name: ClickEvent
+  nameWithType: IFuniqueToggleMultiple.ClickEvent
+  fullName: Funique.UI.IFuniqueToggleMultiple.ClickEvent
+  type: Property
+  source:
+    remote:
+      path: Interface/IFuniqueToggleMultiple.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ClickEvent
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Interface/IFuniqueToggleMultiple.cs
+    startLine: 23
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nToggle delegate <br />\n------------------------------------------------ <br />\nToggle 委派物件\n"
+  example: []
+  syntax:
+    content: Button.ButtonClickedEvent ClickEvent { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UI.Button.ButtonClickedEvent
+    content.vb: ReadOnly Property ClickEvent As Button.ButtonClickedEvent
+  overload: Funique.UI.IFuniqueToggleMultiple.ClickEvent*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.UI.IFuniqueToggleMultiple.Interactable
+  commentId: P:Funique.UI.IFuniqueToggleMultiple.Interactable
+  id: Interactable
+  parent: Funique.UI.IFuniqueToggleMultiple
+  langs:
+  - csharp
+  - vb
+  name: Interactable
+  nameWithType: IFuniqueToggleMultiple.Interactable
+  fullName: Funique.UI.IFuniqueToggleMultiple.Interactable
+  type: Property
+  source:
+    remote:
+      path: Interface/IFuniqueToggleMultiple.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Interactable
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Interface/IFuniqueToggleMultiple.cs
+    startLine: 29
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nCurrent toggle interactable state <br />\n------------------------------------------------ <br />\n目前 Toggle 互動開關\n"
+  example: []
+  syntax:
+    content: bool Interactable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Interactable As Boolean
+  overload: Funique.UI.IFuniqueToggleMultiple.Interactable*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.UI.IFuniqueToggleMultiple.Length
+  commentId: P:Funique.UI.IFuniqueToggleMultiple.Length
+  id: Length
+  parent: Funique.UI.IFuniqueToggleMultiple
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: IFuniqueToggleMultiple.Length
+  fullName: Funique.UI.IFuniqueToggleMultiple.Length
+  type: Property
+  source:
+    remote:
+      path: Interface/IFuniqueToggleMultiple.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Length
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Interface/IFuniqueToggleMultiple.cs
+    startLine: 35
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nAmounts of state <br />\n------------------------------------------------ <br />\n總共模式數\n"
+  example: []
+  syntax:
+    content: int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Length As Integer
+  overload: Funique.UI.IFuniqueToggleMultiple.Length*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.UI.IFuniqueToggleMultiple.OnUpdate
+  commentId: P:Funique.UI.IFuniqueToggleMultiple.OnUpdate
+  id: OnUpdate
+  parent: Funique.UI.IFuniqueToggleMultiple
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate
+  nameWithType: IFuniqueToggleMultiple.OnUpdate
+  fullName: Funique.UI.IFuniqueToggleMultiple.OnUpdate
+  type: Property
+  source:
+    remote:
+      path: Interface/IFuniqueToggleMultiple.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: OnUpdate
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Interface/IFuniqueToggleMultiple.cs
+    startLine: 41
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nUpdate state event <br />\n------------------------------------------------ <br />\n更新模式事件\n"
+  example: []
+  syntax:
+    content: UnityEvent<int> OnUpdate { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{System.Int32}
+    content.vb: ReadOnly Property OnUpdate As UnityEvent(Of Integer)
+  overload: Funique.UI.IFuniqueToggleMultiple.OnUpdate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: Funique.UI.IFuniqueToggleMultiple.Target*
+  commentId: Overload:Funique.UI.IFuniqueToggleMultiple.Target
+  name: Target
+  nameWithType: IFuniqueToggleMultiple.Target
+  fullName: Funique.UI.IFuniqueToggleMultiple.Target
+- uid: UnityEngine.UI.Image
+  commentId: T:UnityEngine.UI.Image
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: UnityEngine.UI.Image
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: Funique.UI.IFuniqueToggleMultiple.ClickEvent*
+  commentId: Overload:Funique.UI.IFuniqueToggleMultiple.ClickEvent
+  name: ClickEvent
+  nameWithType: IFuniqueToggleMultiple.ClickEvent
+  fullName: Funique.UI.IFuniqueToggleMultiple.ClickEvent
+- uid: UnityEngine.UI.Button.ButtonClickedEvent
+  commentId: T:UnityEngine.UI.Button.ButtonClickedEvent
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button.ButtonClickedEvent
+  nameWithType: Button.ButtonClickedEvent
+  fullName: UnityEngine.UI.Button.ButtonClickedEvent
+- uid: Funique.UI.IFuniqueToggleMultiple.Interactable*
+  commentId: Overload:Funique.UI.IFuniqueToggleMultiple.Interactable
+  name: Interactable
+  nameWithType: IFuniqueToggleMultiple.Interactable
+  fullName: Funique.UI.IFuniqueToggleMultiple.Interactable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.UI.IFuniqueToggleMultiple.Length*
+  commentId: Overload:Funique.UI.IFuniqueToggleMultiple.Length
+  name: Length
+  nameWithType: IFuniqueToggleMultiple.Length
+  fullName: Funique.UI.IFuniqueToggleMultiple.Length
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.UI.IFuniqueToggleMultiple.OnUpdate*
+  commentId: Overload:Funique.UI.IFuniqueToggleMultiple.OnUpdate
+  name: OnUpdate
+  nameWithType: IFuniqueToggleMultiple.OnUpdate
+  fullName: Funique.UI.IFuniqueToggleMultiple.OnUpdate
+- uid: UnityEngine.Events.UnityEvent{System.Int32}
+  commentId: T:UnityEngine.Events.UnityEvent{System.Int32}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<Int32>
+  nameWithType: UnityEvent<Int32>
+  fullName: UnityEngine.Events.UnityEvent<System.Int32>
+  nameWithType.vb: UnityEvent(Of Int32)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of System.Int32)
+  name.vb: UnityEvent(Of Int32)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events.UnityEvent`1
+  commentId: T:UnityEngine.Events.UnityEvent`1
+  isExternal: true
+  name: UnityEvent<T0>
+  nameWithType: UnityEvent<T0>
+  fullName: UnityEngine.Events.UnityEvent<T0>
+  nameWithType.vb: UnityEvent(Of T0)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of T0)
+  name.vb: UnityEvent(Of T0)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events

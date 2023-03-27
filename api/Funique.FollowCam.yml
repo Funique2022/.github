@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.FollowCam
+  commentId: T:Funique.FollowCam
+  id: FollowCam
+  parent: Funique
+  children:
+  - Funique.FollowCam.is3dh
+  - Funique.FollowCam.is4dof
+  - Funique.FollowCam.On4dof
+  langs:
+  - csharp
+  - vb
+  name: FollowCam
+  nameWithType: FollowCam
+  fullName: Funique.FollowCam
+  type: Class
+  source:
+    remote:
+      path: Component/FollowCam.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: FollowCam
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/FollowCam.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCamera following mode control <br />\n------------------------------------------------ <br />\n攝影機跟隨模式控制器\n"
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Core/Follow Camera")]
+
+      public class FollowCam : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Core/Follow Camera")>
+
+      Public Class FollowCam
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Core/Follow Camera
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.FollowCam.is3dh
+  commentId: F:Funique.FollowCam.is3dh
+  id: is3dh
+  parent: Funique.FollowCam
+  langs:
+  - csharp
+  - vb
+  name: is3dh
+  nameWithType: FollowCam.is3dh
+  fullName: Funique.FollowCam.is3dh
+  type: Field
+  source:
+    remote:
+      path: Component/FollowCam.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: is3dh
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/FollowCam.cs
+    startLine: 19
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool is3dh
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public is3dh As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.FollowCam.is4dof
+  commentId: F:Funique.FollowCam.is4dof
+  id: is4dof
+  parent: Funique.FollowCam
+  langs:
+  - csharp
+  - vb
+  name: is4dof
+  nameWithType: FollowCam.is4dof
+  fullName: Funique.FollowCam.is4dof
+  type: Field
+  source:
+    remote:
+      path: Component/FollowCam.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: is4dof
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/FollowCam.cs
+    startLine: 20
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public bool is4dof
+    return:
+      type: System.Boolean
+    content.vb: Public is4dof As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.FollowCam.On4dof
+  commentId: M:Funique.FollowCam.On4dof
+  id: On4dof
+  parent: Funique.FollowCam
+  langs:
+  - csharp
+  - vb
+  name: On4dof()
+  nameWithType: FollowCam.On4dof()
+  fullName: Funique.FollowCam.On4dof()
+  type: Method
+  source:
+    remote:
+      path: Component/FollowCam.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: On4dof
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/FollowCam.cs
+    startLine: 63
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public void On4dof()
+    content.vb: Public Sub On4dof
+  overload: Funique.FollowCam.On4dof*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.FollowCam.On4dof*
+  commentId: Overload:Funique.FollowCam.On4dof
+  name: On4dof
+  nameWithType: FollowCam.On4dof
+  fullName: Funique.FollowCam.On4dof

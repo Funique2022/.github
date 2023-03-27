@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Network.NetworkManagerData
+  commentId: T:Funique.Network.NetworkManagerData
+  id: NetworkManagerData
+  parent: Funique.Network
+  children:
+  - Funique.Network.NetworkManagerData.key_name
+  langs:
+  - csharp
+  - vb
+  name: NetworkManagerData
+  nameWithType: NetworkManagerData
+  fullName: Funique.Network.NetworkManagerData
+  type: Struct
+  source:
+    remote:
+      path: NetworkManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_network.git
+    id: NetworkManagerData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Network/NetworkManagerData.cs
+    startLine: 4
+  assemblies:
+  - Funique.Network
+  namespace: Funique.Network
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct NetworkManagerData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure NetworkManagerData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.Network.NetworkManagerData.key_name
+  commentId: F:Funique.Network.NetworkManagerData.key_name
+  id: key_name
+  parent: Funique.Network.NetworkManagerData
+  langs:
+  - csharp
+  - vb
+  name: key_name
+  nameWithType: NetworkManagerData.key_name
+  fullName: Funique.Network.NetworkManagerData.key_name
+  type: Field
+  source:
+    remote:
+      path: NetworkManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_network.git
+    id: key_name
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Network/NetworkManagerData.cs
+    startLine: 12
+  assemblies:
+  - Funique.Network
+  namespace: Funique.Network
+  summary: "\nConnection key <br />\n------------------------------------------------ <br />\n連接金鑰\n"
+  example: []
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public string key_name
+    return:
+      type: System.String
+    content.vb: >-
+      <SerializeField>
+
+      Public key_name As String
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Network
+  commentId: N:Funique.Network
+  name: Funique.Network
+  nameWithType: Funique.Network
+  fullName: Funique.Network
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

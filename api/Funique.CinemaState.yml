@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.CinemaState
+  commentId: T:Funique.CinemaState
+  id: CinemaState
+  parent: Funique
+  children:
+  - Funique.CinemaState.Finished
+  - Funique.CinemaState.NearlyFinished
+  - Funique.CinemaState.None
+  - Funique.CinemaState.Playing
+  langs:
+  - csharp
+  - vb
+  name: CinemaState
+  nameWithType: CinemaState
+  fullName: Funique.CinemaState
+  type: Enum
+  source:
+    remote:
+      path: Enum/CinemaState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: CinemaState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/CinemaState.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nShow the cinema current state <br />\n------------------------------------------------ <br />\n顯示目前劇院的狀態\n"
+  example: []
+  syntax:
+    content: public enum CinemaState
+    content.vb: Public Enum CinemaState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.CinemaState.None
+  commentId: F:Funique.CinemaState.None
+  id: None
+  parent: Funique.CinemaState
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CinemaState.None
+  fullName: Funique.CinemaState.None
+  type: Field
+  source:
+    remote:
+      path: Enum/CinemaState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: None
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/CinemaState.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nDefault none state <br />\n------------------------------------------------ <br />\n預設無狀態\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Funique.CinemaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.CinemaState.Playing
+  commentId: F:Funique.CinemaState.Playing
+  id: Playing
+  parent: Funique.CinemaState
+  langs:
+  - csharp
+  - vb
+  name: Playing
+  nameWithType: CinemaState.Playing
+  fullName: Funique.CinemaState.Playing
+  type: Field
+  source:
+    remote:
+      path: Enum/CinemaState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Playing
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/CinemaState.cs
+    startLine: 20
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlaying video or streaming <br />\n------------------------------------------------ <br />\n正在播放影片或是串流\n"
+  example: []
+  syntax:
+    content: Playing = 1
+    return:
+      type: Funique.CinemaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.CinemaState.NearlyFinished
+  commentId: F:Funique.CinemaState.NearlyFinished
+  id: NearlyFinished
+  parent: Funique.CinemaState
+  langs:
+  - csharp
+  - vb
+  name: NearlyFinished
+  nameWithType: CinemaState.NearlyFinished
+  fullName: Funique.CinemaState.NearlyFinished
+  type: Field
+  source:
+    remote:
+      path: Enum/CinemaState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: NearlyFinished
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/CinemaState.cs
+    startLine: 26
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nIt&apos;s about to end, Prepare for replay or end event<br />\n------------------------------------------------ <br />\n快要結束, 準備重播結束或是事件\n"
+  example: []
+  syntax:
+    content: NearlyFinished = 2
+    return:
+      type: Funique.CinemaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.CinemaState.Finished
+  commentId: F:Funique.CinemaState.Finished
+  id: Finished
+  parent: Funique.CinemaState
+  langs:
+  - csharp
+  - vb
+  name: Finished
+  nameWithType: CinemaState.Finished
+  fullName: Funique.CinemaState.Finished
+  type: Field
+  source:
+    remote:
+      path: Enum/CinemaState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Finished
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/CinemaState.cs
+    startLine: 32
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nFinished playing, Only happen when not replay <br />\n------------------------------------------------ <br />\n結束狀態, 只有要沒有重播或環播狀態時會出現\n"
+  example: []
+  syntax:
+    content: Finished = 3
+    return:
+      type: Funique.CinemaState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.CinemaState
+  commentId: T:Funique.CinemaState
+  parent: Funique
+  name: CinemaState
+  nameWithType: CinemaState
+  fullName: Funique.CinemaState

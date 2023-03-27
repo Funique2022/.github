@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Network.DisconnectEventArgs
+  commentId: T:Funique.Network.DisconnectEventArgs
+  id: DisconnectEventArgs
+  parent: Funique.Network
+  children:
+  - Funique.Network.DisconnectEventArgs.#ctor(LiteNetLib.NetPeer,LiteNetLib.DisconnectInfo)
+  - Funique.Network.DisconnectEventArgs.disconnectInfo
+  - Funique.Network.DisconnectEventArgs.peer
+  langs:
+  - csharp
+  - vb
+  name: DisconnectEventArgs
+  nameWithType: DisconnectEventArgs
+  fullName: Funique.Network.DisconnectEventArgs
+  type: Class
+  source:
+    remote:
+      path: EventArgs/DisconnectEventArgs.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_network.git
+    id: DisconnectEventArgs
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Network/EventArgs/DisconnectEventArgs.cs
+    startLine: 5
+  assemblies:
+  - Funique.Network
+  namespace: Funique.Network
+  syntax:
+    content: 'public class DisconnectEventArgs : EventArgs'
+    content.vb: >-
+      Public Class DisconnectEventArgs
+
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Network.DisconnectEventArgs.#ctor(LiteNetLib.NetPeer,LiteNetLib.DisconnectInfo)
+  commentId: M:Funique.Network.DisconnectEventArgs.#ctor(LiteNetLib.NetPeer,LiteNetLib.DisconnectInfo)
+  id: '#ctor(LiteNetLib.NetPeer,LiteNetLib.DisconnectInfo)'
+  parent: Funique.Network.DisconnectEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DisconnectEventArgs(NetPeer, DisconnectInfo)
+  nameWithType: DisconnectEventArgs.DisconnectEventArgs(NetPeer, DisconnectInfo)
+  fullName: Funique.Network.DisconnectEventArgs.DisconnectEventArgs(LiteNetLib.NetPeer, LiteNetLib.DisconnectInfo)
+  type: Constructor
+  source:
+    remote:
+      path: EventArgs/DisconnectEventArgs.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_network.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Network/EventArgs/DisconnectEventArgs.cs
+    startLine: 7
+  assemblies:
+  - Funique.Network
+  namespace: Funique.Network
+  syntax:
+    content: public DisconnectEventArgs(NetPeer peer, DisconnectInfo disconnectInfo)
+    parameters:
+    - id: peer
+      type: LiteNetLib.NetPeer
+    - id: disconnectInfo
+      type: LiteNetLib.DisconnectInfo
+    content.vb: Public Sub New(peer As NetPeer, disconnectInfo As DisconnectInfo)
+  overload: Funique.Network.DisconnectEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Network.DisconnectEventArgs.peer
+  commentId: P:Funique.Network.DisconnectEventArgs.peer
+  id: peer
+  parent: Funique.Network.DisconnectEventArgs
+  langs:
+  - csharp
+  - vb
+  name: peer
+  nameWithType: DisconnectEventArgs.peer
+  fullName: Funique.Network.DisconnectEventArgs.peer
+  type: Property
+  source:
+    remote:
+      path: EventArgs/DisconnectEventArgs.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_network.git
+    id: peer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Network/EventArgs/DisconnectEventArgs.cs
+    startLine: 13
+  assemblies:
+  - Funique.Network
+  namespace: Funique.Network
+  syntax:
+    content: public NetPeer peer { get; }
+    parameters: []
+    return:
+      type: LiteNetLib.NetPeer
+    content.vb: Public ReadOnly Property peer As NetPeer
+  overload: Funique.Network.DisconnectEventArgs.peer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Network.DisconnectEventArgs.disconnectInfo
+  commentId: P:Funique.Network.DisconnectEventArgs.disconnectInfo
+  id: disconnectInfo
+  parent: Funique.Network.DisconnectEventArgs
+  langs:
+  - csharp
+  - vb
+  name: disconnectInfo
+  nameWithType: DisconnectEventArgs.disconnectInfo
+  fullName: Funique.Network.DisconnectEventArgs.disconnectInfo
+  type: Property
+  source:
+    remote:
+      path: EventArgs/DisconnectEventArgs.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_network.git
+    id: disconnectInfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Network/EventArgs/DisconnectEventArgs.cs
+    startLine: 14
+  assemblies:
+  - Funique.Network
+  namespace: Funique.Network
+  syntax:
+    content: public DisconnectInfo disconnectInfo { get; }
+    parameters: []
+    return:
+      type: LiteNetLib.DisconnectInfo
+    content.vb: Public ReadOnly Property disconnectInfo As DisconnectInfo
+  overload: Funique.Network.DisconnectEventArgs.disconnectInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Funique.Network
+  commentId: N:Funique.Network
+  name: Funique.Network
+  nameWithType: Funique.Network
+  fullName: Funique.Network
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Network.DisconnectEventArgs.#ctor*
+  commentId: Overload:Funique.Network.DisconnectEventArgs.#ctor
+  name: DisconnectEventArgs
+  nameWithType: DisconnectEventArgs.DisconnectEventArgs
+  fullName: Funique.Network.DisconnectEventArgs.DisconnectEventArgs
+- uid: LiteNetLib.NetPeer
+  commentId: T:LiteNetLib.NetPeer
+  parent: LiteNetLib
+  isExternal: true
+  name: NetPeer
+  nameWithType: NetPeer
+  fullName: LiteNetLib.NetPeer
+- uid: LiteNetLib.DisconnectInfo
+  commentId: T:LiteNetLib.DisconnectInfo
+  parent: LiteNetLib
+  isExternal: true
+  name: DisconnectInfo
+  nameWithType: DisconnectInfo
+  fullName: LiteNetLib.DisconnectInfo
+- uid: LiteNetLib
+  commentId: N:LiteNetLib
+  isExternal: true
+  name: LiteNetLib
+  nameWithType: LiteNetLib
+  fullName: LiteNetLib
+- uid: Funique.Network.DisconnectEventArgs.peer*
+  commentId: Overload:Funique.Network.DisconnectEventArgs.peer
+  name: peer
+  nameWithType: DisconnectEventArgs.peer
+  fullName: Funique.Network.DisconnectEventArgs.peer
+- uid: Funique.Network.DisconnectEventArgs.disconnectInfo*
+  commentId: Overload:Funique.Network.DisconnectEventArgs.disconnectInfo
+  name: disconnectInfo
+  nameWithType: DisconnectEventArgs.disconnectInfo
+  fullName: Funique.Network.DisconnectEventArgs.disconnectInfo

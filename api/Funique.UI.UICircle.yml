@@ -1,0 +1,4948 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.UICircle
+  commentId: T:Funique.UI.UICircle
+  id: UICircle
+  parent: Funique.UI
+  children:
+  - Funique.UI.UICircle.#ctor
+  - Funique.UI.UICircle.activeSprite
+  - Funique.UI.UICircle.Arc
+  - Funique.UI.UICircle.ArcInvert
+  - Funique.UI.UICircle.ArcRotation
+  - Funique.UI.UICircle.ArcSteps
+  - Funique.UI.UICircle.CalculateLayoutInputHorizontal
+  - Funique.UI.UICircle.CalculateLayoutInputVertical
+  - Funique.UI.UICircle.defaultETC1GraphicMaterial
+  - Funique.UI.UICircle.eventAlphaThreshold
+  - Funique.UI.UICircle.Fill
+  - Funique.UI.UICircle.flexibleHeight
+  - Funique.UI.UICircle.flexibleWidth
+  - Funique.UI.UICircle.GeneratedUVs
+  - Funique.UI.UICircle.hasBorder
+  - Funique.UI.UICircle.ImproveResolution
+  - Funique.UI.UICircle.IncreaseResolution(System.Collections.Generic.List{UnityEngine.Vector2})
+  - Funique.UI.UICircle.IncreaseResolution(UnityEngine.Vector2[])
+  - Funique.UI.UICircle.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  - Funique.UI.UICircle.layoutPriority
+  - Funique.UI.UICircle.m_Resolution
+  - Funique.UI.UICircle.mainTexture
+  - Funique.UI.UICircle.material
+  - Funique.UI.UICircle.minHeight
+  - Funique.UI.UICircle.minWidth
+  - Funique.UI.UICircle.OnEnable
+  - Funique.UI.UICircle.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  - Funique.UI.UICircle.overrideSprite
+  - Funique.UI.UICircle.Padding
+  - Funique.UI.UICircle.pixelsPerUnit
+  - Funique.UI.UICircle.preferredHeight
+  - Funique.UI.UICircle.preferredWidth
+  - Funique.UI.UICircle.Progress
+  - Funique.UI.UICircle.ProgressColor
+  - Funique.UI.UICircle.Resoloution
+  - Funique.UI.UICircle.ResolutionToNativeSize(System.Single)
+  - Funique.UI.UICircle.s_ETC1DefaultUI
+  - Funique.UI.UICircle.SetArcRotation(System.Int32)
+  - Funique.UI.UICircle.SetArcSteps(System.Int32)
+  - Funique.UI.UICircle.SetBaseColor(UnityEngine.Color)
+  - Funique.UI.UICircle.SetFill(System.Boolean)
+  - Funique.UI.UICircle.SetInvertArc(System.Boolean)
+  - Funique.UI.UICircle.SetPadding(System.Int32)
+  - Funique.UI.UICircle.SetProgress(System.Single)
+  - Funique.UI.UICircle.SetProgressColor(UnityEngine.Color)
+  - Funique.UI.UICircle.SetThickness(System.Int32)
+  - Funique.UI.UICircle.SetVbo(UnityEngine.Vector2[],UnityEngine.Vector2[])
+  - Funique.UI.UICircle.sprite
+  - Funique.UI.UICircle.Thickness
+  - Funique.UI.UICircle.UpdateBaseAlpha(System.Single)
+  - Funique.UI.UICircle.UpdateProgressAlpha(System.Single)
+  - Funique.UI.UICircle.UseNativeSize
+  langs:
+  - csharp
+  - vb
+  name: UICircle
+  nameWithType: UICircle
+  fullName: Funique.UI.UICircle
+  type: Class
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UICircle
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 7
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [AddComponentMenu("UI/Extensions/Primitives/UI Circle")]
+
+      public class UICircle : MaskableGraphic, ICanvasElement, IClippable, IMaskable, IMaterialModifier, ILayoutElement, ICanvasRaycastFilter
+    content.vb: >-
+      <AddComponentMenu("UI/Extensions/Primitives/UI Circle")>
+
+      Public Class UICircle
+
+          Inherits MaskableGraphic
+
+          Implements ICanvasElement, IClippable, IMaskable, IMaterialModifier, ILayoutElement, ICanvasRaycastFilter
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - UnityEngine.EventSystems.UIBehaviour
+  - UnityEngine.UI.Graphic
+  - UnityEngine.UI.MaskableGraphic
+  implements:
+  - UnityEngine.UI.ICanvasElement
+  - UnityEngine.UI.IClippable
+  - UnityEngine.UI.IMaskable
+  - UnityEngine.UI.IMaterialModifier
+  - UnityEngine.UI.ILayoutElement
+  - UnityEngine.ICanvasRaycastFilter
+  inheritedMembers:
+  - UnityEngine.UI.MaskableGraphic.m_ShouldRecalculateStencil
+  - UnityEngine.UI.MaskableGraphic.m_MaskMaterial
+  - UnityEngine.UI.MaskableGraphic.m_StencilValue
+  - UnityEngine.UI.MaskableGraphic.GetModifiedMaterial(UnityEngine.Material)
+  - UnityEngine.UI.MaskableGraphic.Cull(UnityEngine.Rect,System.Boolean)
+  - UnityEngine.UI.MaskableGraphic.SetClipRect(UnityEngine.Rect,System.Boolean)
+  - UnityEngine.UI.MaskableGraphic.SetClipSoftness(UnityEngine.Vector2)
+  - UnityEngine.UI.MaskableGraphic.OnDisable
+  - UnityEngine.UI.MaskableGraphic.OnValidate
+  - UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+  - UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+  - UnityEngine.UI.MaskableGraphic.RecalculateClipping
+  - UnityEngine.UI.MaskableGraphic.RecalculateMasking
+  - UnityEngine.UI.MaskableGraphic.UnityEngine#UI#IClippable#get_gameObject
+  - UnityEngine.UI.MaskableGraphic.onCullStateChanged
+  - UnityEngine.UI.MaskableGraphic.maskable
+  - UnityEngine.UI.MaskableGraphic.isMaskingGraphic
+  - UnityEngine.UI.Graphic.s_DefaultUI
+  - UnityEngine.UI.Graphic.s_WhiteTexture
+  - UnityEngine.UI.Graphic.m_Material
+  - UnityEngine.UI.Graphic.m_SkipLayoutUpdate
+  - UnityEngine.UI.Graphic.m_SkipMaterialUpdate
+  - UnityEngine.UI.Graphic.m_OnDirtyLayoutCallback
+  - UnityEngine.UI.Graphic.m_OnDirtyVertsCallback
+  - UnityEngine.UI.Graphic.m_OnDirtyMaterialCallback
+  - UnityEngine.UI.Graphic.s_Mesh
+  - UnityEngine.UI.Graphic.m_CachedMesh
+  - UnityEngine.UI.Graphic.m_CachedUvs
+  - UnityEngine.UI.Graphic.SetAllDirty
+  - UnityEngine.UI.Graphic.SetLayoutDirty
+  - UnityEngine.UI.Graphic.SetVerticesDirty
+  - UnityEngine.UI.Graphic.SetMaterialDirty
+  - UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+  - UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+  - UnityEngine.UI.Graphic.OnDestroy
+  - UnityEngine.UI.Graphic.OnCullingChanged
+  - UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)
+  - UnityEngine.UI.Graphic.LayoutComplete
+  - UnityEngine.UI.Graphic.GraphicUpdateComplete
+  - UnityEngine.UI.Graphic.UpdateMaterial
+  - UnityEngine.UI.Graphic.UpdateGeometry
+  - UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)
+  - UnityEngine.UI.Graphic.OnRebuildRequested
+  - UnityEngine.UI.Graphic.Reset
+  - UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+  - UnityEngine.UI.Graphic.SetNativeSize
+  - UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2,UnityEngine.Camera)
+  - UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)
+  - UnityEngine.UI.Graphic.GetPixelAdjustedRect
+  - UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean)
+  - UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean,System.Boolean)
+  - UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single,System.Single,System.Boolean)
+  - UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  - UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  - UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  - UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  - UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  - UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  - UnityEngine.UI.Graphic.UnityEngine#UI#ICanvasElement#get_transform
+  - UnityEngine.UI.Graphic.defaultGraphicMaterial
+  - UnityEngine.UI.Graphic.color
+  - UnityEngine.UI.Graphic.raycastTarget
+  - UnityEngine.UI.Graphic.raycastPadding
+  - UnityEngine.UI.Graphic.useLegacyMeshGeneration
+  - UnityEngine.UI.Graphic.depth
+  - UnityEngine.UI.Graphic.rectTransform
+  - UnityEngine.UI.Graphic.canvas
+  - UnityEngine.UI.Graphic.canvasRenderer
+  - UnityEngine.UI.Graphic.defaultMaterial
+  - UnityEngine.UI.Graphic.materialForRendering
+  - UnityEngine.UI.Graphic.workerMesh
+  - UnityEngine.EventSystems.UIBehaviour.Awake
+  - UnityEngine.EventSystems.UIBehaviour.Start
+  - UnityEngine.EventSystems.UIBehaviour.IsActive
+  - UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+  - UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UI/Extensions/Primitives/UI Circle
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.UI.UICircle.#ctor
+  commentId: M:Funique.UI.UICircle.#ctor
+  id: '#ctor'
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: UICircle()
+  nameWithType: UICircle.UICircle()
+  fullName: Funique.UI.UICircle.UICircle()
+  type: Constructor
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 10
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public UICircle()
+    content.vb: Public Sub New
+  overload: Funique.UI.UICircle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.ArcInvert
+  commentId: F:Funique.UI.UICircle.ArcInvert
+  id: ArcInvert
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: ArcInvert
+  nameWithType: UICircle.ArcInvert
+  fullName: Funique.UI.UICircle.ArcInvert
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ArcInvert
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Tooltip("The Arc Invert property will invert the construction of the Arc.")]
+
+      public bool ArcInvert
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("The Arc Invert property will invert the construction of the Arc.")>
+
+      Public ArcInvert As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The Arc Invert property will invert the construction of the Arc.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.Arc
+  commentId: F:Funique.UI.UICircle.Arc
+  id: Arc
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: Arc
+  nameWithType: UICircle.Arc
+  fullName: Funique.UI.UICircle.Arc
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Arc
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 21
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Tooltip("The Arc property is a percentage of the entire circumference of the circle.")]
+
+      [Range(0F, 1F)]
+
+      public float Arc
+    return:
+      type: System.Single
+    content.vb: >-
+      <Tooltip("The Arc property is a percentage of the entire circumference of the circle.")>
+
+      <Range(0F, 1F)>
+
+      Public Arc As Single
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The Arc property is a percentage of the entire circumference of the circle.
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+    - type: System.Single
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.ArcSteps
+  commentId: F:Funique.UI.UICircle.ArcSteps
+  id: ArcSteps
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: ArcSteps
+  nameWithType: UICircle.ArcSteps
+  fullName: Funique.UI.UICircle.ArcSteps
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ArcSteps
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 25
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Tooltip("The Arc Steps property defines the number of segments that the Arc will be divided into.")]
+
+      [Range(0F, 1000F)]
+
+      public int ArcSteps
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Tooltip("The Arc Steps property defines the number of segments that the Arc will be divided into.")>
+
+      <Range(0F, 1000F)>
+
+      Public ArcSteps As Integer
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The Arc Steps property defines the number of segments that the Arc will be divided into.
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+    - type: System.Single
+      value: 1000
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.ArcRotation
+  commentId: F:Funique.UI.UICircle.ArcRotation
+  id: ArcRotation
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: ArcRotation
+  nameWithType: UICircle.ArcRotation
+  fullName: Funique.UI.UICircle.ArcRotation
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ArcRotation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 29
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Tooltip("The Arc Rotation property permits adjusting the geometry orientation around the Z axis.")]
+
+      [Range(0F, 360F)]
+
+      public int ArcRotation
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Tooltip("The Arc Rotation property permits adjusting the geometry orientation around the Z axis.")>
+
+      <Range(0F, 360F)>
+
+      Public ArcRotation As Integer
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The Arc Rotation property permits adjusting the geometry orientation around the Z axis.
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+    - type: System.Single
+      value: 360
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.Progress
+  commentId: F:Funique.UI.UICircle.Progress
+  id: Progress
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: Progress
+  nameWithType: UICircle.Progress
+  fullName: Funique.UI.UICircle.Progress
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Progress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 33
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Tooltip("The Progress property allows the primitive to be used as a progression indicator.")]
+
+      [Range(0F, 1F)]
+
+      public float Progress
+    return:
+      type: System.Single
+    content.vb: >-
+      <Tooltip("The Progress property allows the primitive to be used as a progression indicator.")>
+
+      <Range(0F, 1F)>
+
+      Public Progress As Single
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The Progress property allows the primitive to be used as a progression indicator.
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+    - type: System.Single
+      value: 1
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.ProgressColor
+  commentId: F:Funique.UI.UICircle.ProgressColor
+  id: ProgressColor
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: ProgressColor
+  nameWithType: UICircle.ProgressColor
+  fullName: Funique.UI.UICircle.ProgressColor
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ProgressColor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 37
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public Color ProgressColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public ProgressColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.Fill
+  commentId: F:Funique.UI.UICircle.Fill
+  id: Fill
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: Fill
+  nameWithType: UICircle.Fill
+  fullName: Funique.UI.UICircle.Fill
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Fill
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 39
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public bool Fill
+    return:
+      type: System.Boolean
+    content.vb: Public Fill As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.Thickness
+  commentId: F:Funique.UI.UICircle.Thickness
+  id: Thickness
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: Thickness
+  nameWithType: UICircle.Thickness
+  fullName: Funique.UI.UICircle.Thickness
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Thickness
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 41
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public float Thickness
+    return:
+      type: System.Single
+    content.vb: Public Thickness As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.Padding
+  commentId: F:Funique.UI.UICircle.Padding
+  id: Padding
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: Padding
+  nameWithType: UICircle.Padding
+  fullName: Funique.UI.UICircle.Padding
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Padding
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 43
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public int Padding
+    return:
+      type: System.Int32
+    content.vb: Public Padding As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  commentId: M:Funique.UI.UICircle.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  id: OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: OnPopulateMesh(VertexHelper)
+  nameWithType: UICircle.OnPopulateMesh(VertexHelper)
+  fullName: Funique.UI.UICircle.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: OnPopulateMesh
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 51
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected override void OnPopulateMesh(VertexHelper vh)
+    parameters:
+    - id: vh
+      type: UnityEngine.UI.VertexHelper
+    content.vb: Protected Overrides Sub OnPopulateMesh(vh As VertexHelper)
+  overridden: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  overload: Funique.UI.UICircle.OnPopulateMesh*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Funique.UI.UICircle.SetProgress(System.Single)
+  commentId: M:Funique.UI.UICircle.SetProgress(System.Single)
+  id: SetProgress(System.Single)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetProgress(Single)
+  nameWithType: UICircle.SetProgress(Single)
+  fullName: Funique.UI.UICircle.SetProgress(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetProgress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 132
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetProgress(float progress)
+    parameters:
+    - id: progress
+      type: System.Single
+    content.vb: Public Sub SetProgress(progress As Single)
+  overload: Funique.UI.UICircle.SetProgress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetArcSteps(System.Int32)
+  commentId: M:Funique.UI.UICircle.SetArcSteps(System.Int32)
+  id: SetArcSteps(System.Int32)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetArcSteps(Int32)
+  nameWithType: UICircle.SetArcSteps(Int32)
+  fullName: Funique.UI.UICircle.SetArcSteps(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetArcSteps
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 138
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetArcSteps(int steps)
+    parameters:
+    - id: steps
+      type: System.Int32
+    content.vb: Public Sub SetArcSteps(steps As Integer)
+  overload: Funique.UI.UICircle.SetArcSteps*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetInvertArc(System.Boolean)
+  commentId: M:Funique.UI.UICircle.SetInvertArc(System.Boolean)
+  id: SetInvertArc(System.Boolean)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetInvertArc(Boolean)
+  nameWithType: UICircle.SetInvertArc(Boolean)
+  fullName: Funique.UI.UICircle.SetInvertArc(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetInvertArc
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 144
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetInvertArc(bool invert)
+    parameters:
+    - id: invert
+      type: System.Boolean
+    content.vb: Public Sub SetInvertArc(invert As Boolean)
+  overload: Funique.UI.UICircle.SetInvertArc*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetArcRotation(System.Int32)
+  commentId: M:Funique.UI.UICircle.SetArcRotation(System.Int32)
+  id: SetArcRotation(System.Int32)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetArcRotation(Int32)
+  nameWithType: UICircle.SetArcRotation(Int32)
+  fullName: Funique.UI.UICircle.SetArcRotation(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetArcRotation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 150
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetArcRotation(int rotation)
+    parameters:
+    - id: rotation
+      type: System.Int32
+    content.vb: Public Sub SetArcRotation(rotation As Integer)
+  overload: Funique.UI.UICircle.SetArcRotation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetFill(System.Boolean)
+  commentId: M:Funique.UI.UICircle.SetFill(System.Boolean)
+  id: SetFill(System.Boolean)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetFill(Boolean)
+  nameWithType: UICircle.SetFill(Boolean)
+  fullName: Funique.UI.UICircle.SetFill(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetFill
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 156
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetFill(bool fill)
+    parameters:
+    - id: fill
+      type: System.Boolean
+    content.vb: Public Sub SetFill(fill As Boolean)
+  overload: Funique.UI.UICircle.SetFill*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetBaseColor(UnityEngine.Color)
+  commentId: M:Funique.UI.UICircle.SetBaseColor(UnityEngine.Color)
+  id: SetBaseColor(UnityEngine.Color)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetBaseColor(Color)
+  nameWithType: UICircle.SetBaseColor(Color)
+  fullName: Funique.UI.UICircle.SetBaseColor(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetBaseColor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 162
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetBaseColor(Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+    content.vb: Public Sub SetBaseColor(color As Color)
+  overload: Funique.UI.UICircle.SetBaseColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.UpdateBaseAlpha(System.Single)
+  commentId: M:Funique.UI.UICircle.UpdateBaseAlpha(System.Single)
+  id: UpdateBaseAlpha(System.Single)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: UpdateBaseAlpha(Single)
+  nameWithType: UICircle.UpdateBaseAlpha(Single)
+  fullName: Funique.UI.UICircle.UpdateBaseAlpha(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UpdateBaseAlpha
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 168
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void UpdateBaseAlpha(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub UpdateBaseAlpha(value As Single)
+  overload: Funique.UI.UICircle.UpdateBaseAlpha*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetProgressColor(UnityEngine.Color)
+  commentId: M:Funique.UI.UICircle.SetProgressColor(UnityEngine.Color)
+  id: SetProgressColor(UnityEngine.Color)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetProgressColor(Color)
+  nameWithType: UICircle.SetProgressColor(Color)
+  fullName: Funique.UI.UICircle.SetProgressColor(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetProgressColor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 176
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetProgressColor(Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+    content.vb: Public Sub SetProgressColor(color As Color)
+  overload: Funique.UI.UICircle.SetProgressColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.UpdateProgressAlpha(System.Single)
+  commentId: M:Funique.UI.UICircle.UpdateProgressAlpha(System.Single)
+  id: UpdateProgressAlpha(System.Single)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: UpdateProgressAlpha(Single)
+  nameWithType: UICircle.UpdateProgressAlpha(Single)
+  fullName: Funique.UI.UICircle.UpdateProgressAlpha(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UpdateProgressAlpha
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 182
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void UpdateProgressAlpha(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub UpdateProgressAlpha(value As Single)
+  overload: Funique.UI.UICircle.UpdateProgressAlpha*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetPadding(System.Int32)
+  commentId: M:Funique.UI.UICircle.SetPadding(System.Int32)
+  id: SetPadding(System.Int32)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetPadding(Int32)
+  nameWithType: UICircle.SetPadding(Int32)
+  fullName: Funique.UI.UICircle.SetPadding(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetPadding
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 188
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetPadding(int padding)
+    parameters:
+    - id: padding
+      type: System.Int32
+    content.vb: Public Sub SetPadding(padding As Integer)
+  overload: Funique.UI.UICircle.SetPadding*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.SetThickness(System.Int32)
+  commentId: M:Funique.UI.UICircle.SetThickness(System.Int32)
+  id: SetThickness(System.Int32)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetThickness(Int32)
+  nameWithType: UICircle.SetThickness(Int32)
+  fullName: Funique.UI.UICircle.SetThickness(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetThickness
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 194
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetThickness(int thickness)
+    parameters:
+    - id: thickness
+      type: System.Int32
+    content.vb: Public Sub SetThickness(thickness As Integer)
+  overload: Funique.UI.UICircle.SetThickness*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.s_ETC1DefaultUI
+  commentId: F:Funique.UI.UICircle.s_ETC1DefaultUI
+  id: s_ETC1DefaultUI
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: s_ETC1DefaultUI
+  nameWithType: UICircle.s_ETC1DefaultUI
+  fullName: Funique.UI.UICircle.s_ETC1DefaultUI
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: s_ETC1DefaultUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 202
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected static Material s_ETC1DefaultUI
+    return:
+      type: UnityEngine.Material
+    content.vb: Protected Shared s_ETC1DefaultUI As Material
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Funique.UI.UICircle.m_Resolution
+  commentId: F:Funique.UI.UICircle.m_Resolution
+  id: m_Resolution
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: m_Resolution
+  nameWithType: UICircle.m_Resolution
+  fullName: Funique.UI.UICircle.m_Resolution
+  type: Field
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: m_Resolution
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 218
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected float m_Resolution
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Protected m_Resolution As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.UI.UICircle.sprite
+  commentId: P:Funique.UI.UICircle.sprite
+  id: sprite
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: UICircle.sprite
+  fullName: Funique.UI.UICircle.sprite
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: sprite
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 223
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public Sprite sprite { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Sprite
+    content.vb: Public Property sprite As Sprite
+  overload: Funique.UI.UICircle.sprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.overrideSprite
+  commentId: P:Funique.UI.UICircle.overrideSprite
+  id: overrideSprite
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: overrideSprite
+  nameWithType: UICircle.overrideSprite
+  fullName: Funique.UI.UICircle.overrideSprite
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: overrideSprite
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 239
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public Sprite overrideSprite { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Sprite
+    content.vb: Public Property overrideSprite As Sprite
+  overload: Funique.UI.UICircle.overrideSprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.activeSprite
+  commentId: P:Funique.UI.UICircle.activeSprite
+  id: activeSprite
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: activeSprite
+  nameWithType: UICircle.activeSprite
+  fullName: Funique.UI.UICircle.activeSprite
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: activeSprite
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 255
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected Sprite activeSprite { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Sprite
+    content.vb: Protected ReadOnly Property activeSprite As Sprite
+  overload: Funique.UI.UICircle.activeSprite*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Funique.UI.UICircle.eventAlphaThreshold
+  commentId: P:Funique.UI.UICircle.eventAlphaThreshold
+  id: eventAlphaThreshold
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: eventAlphaThreshold
+  nameWithType: UICircle.eventAlphaThreshold
+  fullName: Funique.UI.UICircle.eventAlphaThreshold
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: eventAlphaThreshold
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 267
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public float eventAlphaThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property eventAlphaThreshold As Single
+  overload: Funique.UI.UICircle.eventAlphaThreshold*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.ImproveResolution
+  commentId: P:Funique.UI.UICircle.ImproveResolution
+  id: ImproveResolution
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: ImproveResolution
+  nameWithType: UICircle.ImproveResolution
+  fullName: Funique.UI.UICircle.ImproveResolution
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ImproveResolution
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 279
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public ResolutionMode ImproveResolution { get; set; }
+    parameters: []
+    return:
+      type: Funique.UI.ResolutionMode
+    content.vb: Public Property ImproveResolution As ResolutionMode
+  overload: Funique.UI.UICircle.ImproveResolution*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.Resoloution
+  commentId: P:Funique.UI.UICircle.Resoloution
+  id: Resoloution
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: Resoloution
+  nameWithType: UICircle.Resoloution
+  fullName: Funique.UI.UICircle.Resoloution
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Resoloution
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 292
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public float Resoloution { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Resoloution As Single
+  overload: Funique.UI.UICircle.Resoloution*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.UseNativeSize
+  commentId: P:Funique.UI.UICircle.UseNativeSize
+  id: UseNativeSize
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: UseNativeSize
+  nameWithType: UICircle.UseNativeSize
+  fullName: Funique.UI.UICircle.UseNativeSize
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UseNativeSize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 305
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public bool UseNativeSize { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseNativeSize As Boolean
+  overload: Funique.UI.UICircle.UseNativeSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UICircle.defaultETC1GraphicMaterial
+  commentId: P:Funique.UI.UICircle.defaultETC1GraphicMaterial
+  id: defaultETC1GraphicMaterial
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: defaultETC1GraphicMaterial
+  nameWithType: UICircle.defaultETC1GraphicMaterial
+  fullName: Funique.UI.UICircle.defaultETC1GraphicMaterial
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: defaultETC1GraphicMaterial
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 318
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public static Material defaultETC1GraphicMaterial { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Shared ReadOnly Property defaultETC1GraphicMaterial As Material
+  overload: Funique.UI.UICircle.defaultETC1GraphicMaterial*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Funique.UI.UICircle.mainTexture
+  commentId: P:Funique.UI.UICircle.mainTexture
+  id: mainTexture
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: mainTexture
+  nameWithType: UICircle.mainTexture
+  fullName: Funique.UI.UICircle.mainTexture
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: mainTexture
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 330
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public override Texture mainTexture { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Texture
+    content.vb: Public Overrides ReadOnly Property mainTexture As Texture
+  overridden: UnityEngine.UI.Graphic.mainTexture
+  overload: Funique.UI.UICircle.mainTexture*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Funique.UI.UICircle.hasBorder
+  commentId: P:Funique.UI.UICircle.hasBorder
+  id: hasBorder
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: hasBorder
+  nameWithType: UICircle.hasBorder
+  fullName: Funique.UI.UICircle.hasBorder
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: hasBorder
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 346
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public bool hasBorder { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasBorder As Boolean
+  overload: Funique.UI.UICircle.hasBorder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.UI.UICircle.pixelsPerUnit
+  commentId: P:Funique.UI.UICircle.pixelsPerUnit
+  id: pixelsPerUnit
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: pixelsPerUnit
+  nameWithType: UICircle.pixelsPerUnit
+  fullName: Funique.UI.UICircle.pixelsPerUnit
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: pixelsPerUnit
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 358
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public float pixelsPerUnit { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property pixelsPerUnit As Single
+  overload: Funique.UI.UICircle.pixelsPerUnit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.UI.UICircle.material
+  commentId: P:Funique.UI.UICircle.material
+  id: material
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: material
+  nameWithType: UICircle.material
+  fullName: Funique.UI.UICircle.material
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: material
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 376
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public override Material material { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Overrides Property material As Material
+  overridden: UnityEngine.UI.Graphic.material
+  overload: Funique.UI.UICircle.material*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.UI.UICircle.minWidth
+  commentId: P:Funique.UI.UICircle.minWidth
+  id: minWidth
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: minWidth
+  nameWithType: UICircle.minWidth
+  fullName: Funique.UI.UICircle.minWidth
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: minWidth
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 396
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual float minWidth { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property minWidth As Single
+  overload: Funique.UI.UICircle.minWidth*
+  implements:
+  - UnityEngine.UI.ILayoutElement.minWidth
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.preferredWidth
+  commentId: P:Funique.UI.UICircle.preferredWidth
+  id: preferredWidth
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: preferredWidth
+  nameWithType: UICircle.preferredWidth
+  fullName: Funique.UI.UICircle.preferredWidth
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: preferredWidth
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 398
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual float preferredWidth { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property preferredWidth As Single
+  overload: Funique.UI.UICircle.preferredWidth*
+  implements:
+  - UnityEngine.UI.ILayoutElement.preferredWidth
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.flexibleWidth
+  commentId: P:Funique.UI.UICircle.flexibleWidth
+  id: flexibleWidth
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: flexibleWidth
+  nameWithType: UICircle.flexibleWidth
+  fullName: Funique.UI.UICircle.flexibleWidth
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: flexibleWidth
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 410
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual float flexibleWidth { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property flexibleWidth As Single
+  overload: Funique.UI.UICircle.flexibleWidth*
+  implements:
+  - UnityEngine.UI.ILayoutElement.flexibleWidth
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.minHeight
+  commentId: P:Funique.UI.UICircle.minHeight
+  id: minHeight
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: minHeight
+  nameWithType: UICircle.minHeight
+  fullName: Funique.UI.UICircle.minHeight
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: minHeight
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 412
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual float minHeight { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property minHeight As Single
+  overload: Funique.UI.UICircle.minHeight*
+  implements:
+  - UnityEngine.UI.ILayoutElement.minHeight
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.preferredHeight
+  commentId: P:Funique.UI.UICircle.preferredHeight
+  id: preferredHeight
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: preferredHeight
+  nameWithType: UICircle.preferredHeight
+  fullName: Funique.UI.UICircle.preferredHeight
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: preferredHeight
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 414
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual float preferredHeight { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property preferredHeight As Single
+  overload: Funique.UI.UICircle.preferredHeight*
+  implements:
+  - UnityEngine.UI.ILayoutElement.preferredHeight
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.flexibleHeight
+  commentId: P:Funique.UI.UICircle.flexibleHeight
+  id: flexibleHeight
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: flexibleHeight
+  nameWithType: UICircle.flexibleHeight
+  fullName: Funique.UI.UICircle.flexibleHeight
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: flexibleHeight
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 426
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual float flexibleHeight { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property flexibleHeight As Single
+  overload: Funique.UI.UICircle.flexibleHeight*
+  implements:
+  - UnityEngine.UI.ILayoutElement.flexibleHeight
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.layoutPriority
+  commentId: P:Funique.UI.UICircle.layoutPriority
+  id: layoutPriority
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: layoutPriority
+  nameWithType: UICircle.layoutPriority
+  fullName: Funique.UI.UICircle.layoutPriority
+  type: Property
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: layoutPriority
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 428
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual int layoutPriority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property layoutPriority As Integer
+  overload: Funique.UI.UICircle.layoutPriority*
+  implements:
+  - UnityEngine.UI.ILayoutElement.layoutPriority
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.UI.UICircle.SetVbo(UnityEngine.Vector2[],UnityEngine.Vector2[])
+  commentId: M:Funique.UI.UICircle.SetVbo(UnityEngine.Vector2[],UnityEngine.Vector2[])
+  id: SetVbo(UnityEngine.Vector2[],UnityEngine.Vector2[])
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: SetVbo(Vector2[], Vector2[])
+  nameWithType: UICircle.SetVbo(Vector2[], Vector2[])
+  fullName: Funique.UI.UICircle.SetVbo(UnityEngine.Vector2[], UnityEngine.Vector2[])
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetVbo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 430
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected UIVertex[] SetVbo(Vector2[] vertices, Vector2[] uvs)
+    parameters:
+    - id: vertices
+      type: UnityEngine.Vector2[]
+    - id: uvs
+      type: UnityEngine.Vector2[]
+    return:
+      type: UnityEngine.UIVertex[]
+    content.vb: Protected Function SetVbo(vertices As Vector2(), uvs As Vector2()) As UIVertex()
+  overload: Funique.UI.UICircle.SetVbo*
+  nameWithType.vb: UICircle.SetVbo(Vector2(), Vector2())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Funique.UI.UICircle.SetVbo(UnityEngine.Vector2(), UnityEngine.Vector2())
+  name.vb: SetVbo(Vector2(), Vector2())
+- uid: Funique.UI.UICircle.IncreaseResolution(UnityEngine.Vector2[])
+  commentId: M:Funique.UI.UICircle.IncreaseResolution(UnityEngine.Vector2[])
+  id: IncreaseResolution(UnityEngine.Vector2[])
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: IncreaseResolution(Vector2[])
+  nameWithType: UICircle.IncreaseResolution(Vector2[])
+  fullName: Funique.UI.UICircle.IncreaseResolution(UnityEngine.Vector2[])
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: IncreaseResolution
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 444
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected Vector2[] IncreaseResolution(Vector2[] input)
+    parameters:
+    - id: input
+      type: UnityEngine.Vector2[]
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Protected Function IncreaseResolution(input As Vector2()) As Vector2()
+  overload: Funique.UI.UICircle.IncreaseResolution*
+  nameWithType.vb: UICircle.IncreaseResolution(Vector2())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Funique.UI.UICircle.IncreaseResolution(UnityEngine.Vector2())
+  name.vb: IncreaseResolution(Vector2())
+- uid: Funique.UI.UICircle.IncreaseResolution(System.Collections.Generic.List{UnityEngine.Vector2})
+  commentId: M:Funique.UI.UICircle.IncreaseResolution(System.Collections.Generic.List{UnityEngine.Vector2})
+  id: IncreaseResolution(System.Collections.Generic.List{UnityEngine.Vector2})
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: IncreaseResolution(List<Vector2>)
+  nameWithType: UICircle.IncreaseResolution(List<Vector2>)
+  fullName: Funique.UI.UICircle.IncreaseResolution(System.Collections.Generic.List<UnityEngine.Vector2>)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: IncreaseResolution
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 449
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected List<Vector2> IncreaseResolution(List<Vector2> input)
+    parameters:
+    - id: input
+      type: System.Collections.Generic.List{UnityEngine.Vector2}
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector2}
+    content.vb: Protected Function IncreaseResolution(input As List(Of Vector2)) As List(Of Vector2)
+  overload: Funique.UI.UICircle.IncreaseResolution*
+  nameWithType.vb: UICircle.IncreaseResolution(List(Of Vector2))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Funique.UI.UICircle.IncreaseResolution(System.Collections.Generic.List(Of UnityEngine.Vector2))
+  name.vb: IncreaseResolution(List(Of Vector2))
+- uid: Funique.UI.UICircle.GeneratedUVs
+  commentId: M:Funique.UI.UICircle.GeneratedUVs
+  id: GeneratedUVs
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: GeneratedUVs()
+  nameWithType: UICircle.GeneratedUVs()
+  fullName: Funique.UI.UICircle.GeneratedUVs()
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: GeneratedUVs
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 502
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected virtual void GeneratedUVs()
+    content.vb: Protected Overridable Sub GeneratedUVs
+  overload: Funique.UI.UICircle.GeneratedUVs*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.UI.UICircle.ResolutionToNativeSize(System.Single)
+  commentId: M:Funique.UI.UICircle.ResolutionToNativeSize(System.Single)
+  id: ResolutionToNativeSize(System.Single)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: ResolutionToNativeSize(Single)
+  nameWithType: UICircle.ResolutionToNativeSize(Single)
+  fullName: Funique.UI.UICircle.ResolutionToNativeSize(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ResolutionToNativeSize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 506
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected virtual void ResolutionToNativeSize(float distance)
+    parameters:
+    - id: distance
+      type: System.Single
+    content.vb: Protected Overridable Sub ResolutionToNativeSize(distance As Single)
+  overload: Funique.UI.UICircle.ResolutionToNativeSize*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.UI.UICircle.CalculateLayoutInputHorizontal
+  commentId: M:Funique.UI.UICircle.CalculateLayoutInputHorizontal
+  id: CalculateLayoutInputHorizontal
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: CalculateLayoutInputHorizontal()
+  nameWithType: UICircle.CalculateLayoutInputHorizontal()
+  fullName: Funique.UI.UICircle.CalculateLayoutInputHorizontal()
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CalculateLayoutInputHorizontal
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 510
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual void CalculateLayoutInputHorizontal()
+    content.vb: Public Overridable Sub CalculateLayoutInputHorizontal
+  overload: Funique.UI.UICircle.CalculateLayoutInputHorizontal*
+  implements:
+  - UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.UI.UICircle.CalculateLayoutInputVertical
+  commentId: M:Funique.UI.UICircle.CalculateLayoutInputVertical
+  id: CalculateLayoutInputVertical
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: CalculateLayoutInputVertical()
+  nameWithType: UICircle.CalculateLayoutInputVertical()
+  fullName: Funique.UI.UICircle.CalculateLayoutInputVertical()
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CalculateLayoutInputVertical
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 514
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual void CalculateLayoutInputVertical()
+    content.vb: Public Overridable Sub CalculateLayoutInputVertical
+  overload: Funique.UI.UICircle.CalculateLayoutInputVertical*
+  implements:
+  - UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.UI.UICircle.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  commentId: M:Funique.UI.UICircle.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  id: IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: IsRaycastLocationValid(Vector2, Camera)
+  nameWithType: UICircle.IsRaycastLocationValid(Vector2, Camera)
+  fullName: Funique.UI.UICircle.IsRaycastLocationValid(UnityEngine.Vector2, UnityEngine.Camera)
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: IsRaycastLocationValid
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 518
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public virtual bool IsRaycastLocationValid(Vector2 screenPoint, Camera eventCamera)
+    parameters:
+    - id: screenPoint
+      type: UnityEngine.Vector2
+    - id: eventCamera
+      type: UnityEngine.Camera
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function IsRaycastLocationValid(screenPoint As Vector2, eventCamera As Camera) As Boolean
+  overload: Funique.UI.UICircle.IsRaycastLocationValid*
+  implements:
+  - UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.UI.UICircle.OnEnable
+  commentId: M:Funique.UI.UICircle.OnEnable
+  id: OnEnable
+  parent: Funique.UI.UICircle
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: UICircle.OnEnable()
+  fullName: Funique.UI.UICircle.OnEnable()
+  type: Method
+  source:
+    remote:
+      path: Component/Circle.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: OnEnable
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Circle.cs
+    startLine: 570
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: protected override void OnEnable()
+    content.vb: Protected Overrides Sub OnEnable
+  overridden: UnityEngine.UI.MaskableGraphic.OnEnable
+  overload: Funique.UI.UICircle.OnEnable*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.EventSystems.UIBehaviour
+  commentId: T:UnityEngine.EventSystems.UIBehaviour
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: UIBehaviour
+  nameWithType: UIBehaviour
+  fullName: UnityEngine.EventSystems.UIBehaviour
+- uid: UnityEngine.UI.Graphic
+  commentId: T:UnityEngine.UI.Graphic
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Graphic
+  nameWithType: Graphic
+  fullName: UnityEngine.UI.Graphic
+- uid: UnityEngine.UI.MaskableGraphic
+  commentId: T:UnityEngine.UI.MaskableGraphic
+  parent: UnityEngine.UI
+  isExternal: true
+  name: MaskableGraphic
+  nameWithType: MaskableGraphic
+  fullName: UnityEngine.UI.MaskableGraphic
+- uid: UnityEngine.UI.ICanvasElement
+  commentId: T:UnityEngine.UI.ICanvasElement
+  parent: UnityEngine.UI
+  isExternal: true
+  name: ICanvasElement
+  nameWithType: ICanvasElement
+  fullName: UnityEngine.UI.ICanvasElement
+- uid: UnityEngine.UI.IClippable
+  commentId: T:UnityEngine.UI.IClippable
+  parent: UnityEngine.UI
+  isExternal: true
+  name: IClippable
+  nameWithType: IClippable
+  fullName: UnityEngine.UI.IClippable
+- uid: UnityEngine.UI.IMaskable
+  commentId: T:UnityEngine.UI.IMaskable
+  parent: UnityEngine.UI
+  isExternal: true
+  name: IMaskable
+  nameWithType: IMaskable
+  fullName: UnityEngine.UI.IMaskable
+- uid: UnityEngine.UI.IMaterialModifier
+  commentId: T:UnityEngine.UI.IMaterialModifier
+  parent: UnityEngine.UI
+  isExternal: true
+  name: IMaterialModifier
+  nameWithType: IMaterialModifier
+  fullName: UnityEngine.UI.IMaterialModifier
+- uid: UnityEngine.UI.ILayoutElement
+  commentId: T:UnityEngine.UI.ILayoutElement
+  parent: UnityEngine.UI
+  isExternal: true
+  name: ILayoutElement
+  nameWithType: ILayoutElement
+  fullName: UnityEngine.UI.ILayoutElement
+- uid: UnityEngine.ICanvasRaycastFilter
+  commentId: T:UnityEngine.ICanvasRaycastFilter
+  parent: UnityEngine
+  isExternal: true
+  name: ICanvasRaycastFilter
+  nameWithType: ICanvasRaycastFilter
+  fullName: UnityEngine.ICanvasRaycastFilter
+- uid: UnityEngine.UI.MaskableGraphic.m_ShouldRecalculateStencil
+  commentId: F:UnityEngine.UI.MaskableGraphic.m_ShouldRecalculateStencil
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: m_ShouldRecalculateStencil
+  nameWithType: MaskableGraphic.m_ShouldRecalculateStencil
+  fullName: UnityEngine.UI.MaskableGraphic.m_ShouldRecalculateStencil
+- uid: UnityEngine.UI.MaskableGraphic.m_MaskMaterial
+  commentId: F:UnityEngine.UI.MaskableGraphic.m_MaskMaterial
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: m_MaskMaterial
+  nameWithType: MaskableGraphic.m_MaskMaterial
+  fullName: UnityEngine.UI.MaskableGraphic.m_MaskMaterial
+- uid: UnityEngine.UI.MaskableGraphic.m_StencilValue
+  commentId: F:UnityEngine.UI.MaskableGraphic.m_StencilValue
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: m_StencilValue
+  nameWithType: MaskableGraphic.m_StencilValue
+  fullName: UnityEngine.UI.MaskableGraphic.m_StencilValue
+- uid: UnityEngine.UI.MaskableGraphic.GetModifiedMaterial(UnityEngine.Material)
+  commentId: M:UnityEngine.UI.MaskableGraphic.GetModifiedMaterial(UnityEngine.Material)
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: GetModifiedMaterial(Material)
+  nameWithType: MaskableGraphic.GetModifiedMaterial(Material)
+  fullName: UnityEngine.UI.MaskableGraphic.GetModifiedMaterial(UnityEngine.Material)
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.GetModifiedMaterial(UnityEngine.Material)
+    name: GetModifiedMaterial
+    nameWithType: MaskableGraphic.GetModifiedMaterial
+    fullName: UnityEngine.UI.MaskableGraphic.GetModifiedMaterial
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Material
+    name: Material
+    nameWithType: Material
+    fullName: UnityEngine.Material
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.GetModifiedMaterial(UnityEngine.Material)
+    name: GetModifiedMaterial
+    nameWithType: MaskableGraphic.GetModifiedMaterial
+    fullName: UnityEngine.UI.MaskableGraphic.GetModifiedMaterial
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Material
+    name: Material
+    nameWithType: Material
+    fullName: UnityEngine.Material
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.Cull(UnityEngine.Rect,System.Boolean)
+  commentId: M:UnityEngine.UI.MaskableGraphic.Cull(UnityEngine.Rect,System.Boolean)
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: Cull(Rect, Boolean)
+  nameWithType: MaskableGraphic.Cull(Rect, Boolean)
+  fullName: UnityEngine.UI.MaskableGraphic.Cull(UnityEngine.Rect, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.Cull(UnityEngine.Rect,System.Boolean)
+    name: Cull
+    nameWithType: MaskableGraphic.Cull
+    fullName: UnityEngine.UI.MaskableGraphic.Cull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: UnityEngine.Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.Cull(UnityEngine.Rect,System.Boolean)
+    name: Cull
+    nameWithType: MaskableGraphic.Cull
+    fullName: UnityEngine.UI.MaskableGraphic.Cull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: UnityEngine.Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.SetClipRect(UnityEngine.Rect,System.Boolean)
+  commentId: M:UnityEngine.UI.MaskableGraphic.SetClipRect(UnityEngine.Rect,System.Boolean)
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: SetClipRect(Rect, Boolean)
+  nameWithType: MaskableGraphic.SetClipRect(Rect, Boolean)
+  fullName: UnityEngine.UI.MaskableGraphic.SetClipRect(UnityEngine.Rect, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.SetClipRect(UnityEngine.Rect,System.Boolean)
+    name: SetClipRect
+    nameWithType: MaskableGraphic.SetClipRect
+    fullName: UnityEngine.UI.MaskableGraphic.SetClipRect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: UnityEngine.Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.SetClipRect(UnityEngine.Rect,System.Boolean)
+    name: SetClipRect
+    nameWithType: MaskableGraphic.SetClipRect
+    fullName: UnityEngine.UI.MaskableGraphic.SetClipRect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: UnityEngine.Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.SetClipSoftness(UnityEngine.Vector2)
+  commentId: M:UnityEngine.UI.MaskableGraphic.SetClipSoftness(UnityEngine.Vector2)
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: SetClipSoftness(Vector2)
+  nameWithType: MaskableGraphic.SetClipSoftness(Vector2)
+  fullName: UnityEngine.UI.MaskableGraphic.SetClipSoftness(UnityEngine.Vector2)
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.SetClipSoftness(UnityEngine.Vector2)
+    name: SetClipSoftness
+    nameWithType: MaskableGraphic.SetClipSoftness
+    fullName: UnityEngine.UI.MaskableGraphic.SetClipSoftness
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.SetClipSoftness(UnityEngine.Vector2)
+    name: SetClipSoftness
+    nameWithType: MaskableGraphic.SetClipSoftness
+    fullName: UnityEngine.UI.MaskableGraphic.SetClipSoftness
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.OnDisable
+  commentId: M:UnityEngine.UI.MaskableGraphic.OnDisable
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: OnDisable()
+  nameWithType: MaskableGraphic.OnDisable()
+  fullName: UnityEngine.UI.MaskableGraphic.OnDisable()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.OnDisable
+    name: OnDisable
+    nameWithType: MaskableGraphic.OnDisable
+    fullName: UnityEngine.UI.MaskableGraphic.OnDisable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.OnDisable
+    name: OnDisable
+    nameWithType: MaskableGraphic.OnDisable
+    fullName: UnityEngine.UI.MaskableGraphic.OnDisable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.OnValidate
+  commentId: M:UnityEngine.UI.MaskableGraphic.OnValidate
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: OnValidate()
+  nameWithType: MaskableGraphic.OnValidate()
+  fullName: UnityEngine.UI.MaskableGraphic.OnValidate()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.OnValidate
+    name: OnValidate
+    nameWithType: MaskableGraphic.OnValidate
+    fullName: UnityEngine.UI.MaskableGraphic.OnValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.OnValidate
+    name: OnValidate
+    nameWithType: MaskableGraphic.OnValidate
+    fullName: UnityEngine.UI.MaskableGraphic.OnValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+  commentId: M:UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: OnTransformParentChanged()
+  nameWithType: MaskableGraphic.OnTransformParentChanged()
+  fullName: UnityEngine.UI.MaskableGraphic.OnTransformParentChanged()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+    name: OnTransformParentChanged
+    nameWithType: MaskableGraphic.OnTransformParentChanged
+    fullName: UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+    name: OnTransformParentChanged
+    nameWithType: MaskableGraphic.OnTransformParentChanged
+    fullName: UnityEngine.UI.MaskableGraphic.OnTransformParentChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+  commentId: M:UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: OnCanvasHierarchyChanged()
+  nameWithType: MaskableGraphic.OnCanvasHierarchyChanged()
+  fullName: UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+    name: OnCanvasHierarchyChanged
+    nameWithType: MaskableGraphic.OnCanvasHierarchyChanged
+    fullName: UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+    name: OnCanvasHierarchyChanged
+    nameWithType: MaskableGraphic.OnCanvasHierarchyChanged
+    fullName: UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.RecalculateClipping
+  commentId: M:UnityEngine.UI.MaskableGraphic.RecalculateClipping
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: RecalculateClipping()
+  nameWithType: MaskableGraphic.RecalculateClipping()
+  fullName: UnityEngine.UI.MaskableGraphic.RecalculateClipping()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.RecalculateClipping
+    name: RecalculateClipping
+    nameWithType: MaskableGraphic.RecalculateClipping
+    fullName: UnityEngine.UI.MaskableGraphic.RecalculateClipping
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.RecalculateClipping
+    name: RecalculateClipping
+    nameWithType: MaskableGraphic.RecalculateClipping
+    fullName: UnityEngine.UI.MaskableGraphic.RecalculateClipping
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.RecalculateMasking
+  commentId: M:UnityEngine.UI.MaskableGraphic.RecalculateMasking
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: RecalculateMasking()
+  nameWithType: MaskableGraphic.RecalculateMasking()
+  fullName: UnityEngine.UI.MaskableGraphic.RecalculateMasking()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.RecalculateMasking
+    name: RecalculateMasking
+    nameWithType: MaskableGraphic.RecalculateMasking
+    fullName: UnityEngine.UI.MaskableGraphic.RecalculateMasking
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.RecalculateMasking
+    name: RecalculateMasking
+    nameWithType: MaskableGraphic.RecalculateMasking
+    fullName: UnityEngine.UI.MaskableGraphic.RecalculateMasking
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.UnityEngine#UI#IClippable#get_gameObject
+  commentId: M:UnityEngine.UI.MaskableGraphic.UnityEngine#UI#IClippable#get_gameObject
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: IClippable.get_gameObject()
+  nameWithType: MaskableGraphic.IClippable.get_gameObject()
+  fullName: UnityEngine.UI.MaskableGraphic.UnityEngine.UI.IClippable.get_gameObject()
+  nameWithType.vb: MaskableGraphic.UnityEngine.UI.IClippable.get_gameObject()
+  name.vb: UnityEngine.UI.IClippable.get_gameObject()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.UnityEngine#UI#IClippable#get_gameObject
+    name: IClippable.get_gameObject
+    nameWithType: MaskableGraphic.IClippable.get_gameObject
+    fullName: UnityEngine.UI.MaskableGraphic.UnityEngine.UI.IClippable.get_gameObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.UnityEngine#UI#IClippable#get_gameObject
+    name: UnityEngine.UI.IClippable.get_gameObject
+    nameWithType: MaskableGraphic.UnityEngine.UI.IClippable.get_gameObject
+    fullName: UnityEngine.UI.MaskableGraphic.UnityEngine.UI.IClippable.get_gameObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.MaskableGraphic.onCullStateChanged
+  commentId: P:UnityEngine.UI.MaskableGraphic.onCullStateChanged
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: onCullStateChanged
+  nameWithType: MaskableGraphic.onCullStateChanged
+  fullName: UnityEngine.UI.MaskableGraphic.onCullStateChanged
+- uid: UnityEngine.UI.MaskableGraphic.maskable
+  commentId: P:UnityEngine.UI.MaskableGraphic.maskable
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: maskable
+  nameWithType: MaskableGraphic.maskable
+  fullName: UnityEngine.UI.MaskableGraphic.maskable
+- uid: UnityEngine.UI.MaskableGraphic.isMaskingGraphic
+  commentId: P:UnityEngine.UI.MaskableGraphic.isMaskingGraphic
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: isMaskingGraphic
+  nameWithType: MaskableGraphic.isMaskingGraphic
+  fullName: UnityEngine.UI.MaskableGraphic.isMaskingGraphic
+- uid: UnityEngine.UI.Graphic.s_DefaultUI
+  commentId: F:UnityEngine.UI.Graphic.s_DefaultUI
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: s_DefaultUI
+  nameWithType: Graphic.s_DefaultUI
+  fullName: UnityEngine.UI.Graphic.s_DefaultUI
+- uid: UnityEngine.UI.Graphic.s_WhiteTexture
+  commentId: F:UnityEngine.UI.Graphic.s_WhiteTexture
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: s_WhiteTexture
+  nameWithType: Graphic.s_WhiteTexture
+  fullName: UnityEngine.UI.Graphic.s_WhiteTexture
+- uid: UnityEngine.UI.Graphic.m_Material
+  commentId: F:UnityEngine.UI.Graphic.m_Material
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_Material
+  nameWithType: Graphic.m_Material
+  fullName: UnityEngine.UI.Graphic.m_Material
+- uid: UnityEngine.UI.Graphic.m_SkipLayoutUpdate
+  commentId: F:UnityEngine.UI.Graphic.m_SkipLayoutUpdate
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_SkipLayoutUpdate
+  nameWithType: Graphic.m_SkipLayoutUpdate
+  fullName: UnityEngine.UI.Graphic.m_SkipLayoutUpdate
+- uid: UnityEngine.UI.Graphic.m_SkipMaterialUpdate
+  commentId: F:UnityEngine.UI.Graphic.m_SkipMaterialUpdate
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_SkipMaterialUpdate
+  nameWithType: Graphic.m_SkipMaterialUpdate
+  fullName: UnityEngine.UI.Graphic.m_SkipMaterialUpdate
+- uid: UnityEngine.UI.Graphic.m_OnDirtyLayoutCallback
+  commentId: F:UnityEngine.UI.Graphic.m_OnDirtyLayoutCallback
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_OnDirtyLayoutCallback
+  nameWithType: Graphic.m_OnDirtyLayoutCallback
+  fullName: UnityEngine.UI.Graphic.m_OnDirtyLayoutCallback
+- uid: UnityEngine.UI.Graphic.m_OnDirtyVertsCallback
+  commentId: F:UnityEngine.UI.Graphic.m_OnDirtyVertsCallback
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_OnDirtyVertsCallback
+  nameWithType: Graphic.m_OnDirtyVertsCallback
+  fullName: UnityEngine.UI.Graphic.m_OnDirtyVertsCallback
+- uid: UnityEngine.UI.Graphic.m_OnDirtyMaterialCallback
+  commentId: F:UnityEngine.UI.Graphic.m_OnDirtyMaterialCallback
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_OnDirtyMaterialCallback
+  nameWithType: Graphic.m_OnDirtyMaterialCallback
+  fullName: UnityEngine.UI.Graphic.m_OnDirtyMaterialCallback
+- uid: UnityEngine.UI.Graphic.s_Mesh
+  commentId: F:UnityEngine.UI.Graphic.s_Mesh
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: s_Mesh
+  nameWithType: Graphic.s_Mesh
+  fullName: UnityEngine.UI.Graphic.s_Mesh
+- uid: UnityEngine.UI.Graphic.m_CachedMesh
+  commentId: F:UnityEngine.UI.Graphic.m_CachedMesh
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_CachedMesh
+  nameWithType: Graphic.m_CachedMesh
+  fullName: UnityEngine.UI.Graphic.m_CachedMesh
+- uid: UnityEngine.UI.Graphic.m_CachedUvs
+  commentId: F:UnityEngine.UI.Graphic.m_CachedUvs
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: m_CachedUvs
+  nameWithType: Graphic.m_CachedUvs
+  fullName: UnityEngine.UI.Graphic.m_CachedUvs
+- uid: UnityEngine.UI.Graphic.SetAllDirty
+  commentId: M:UnityEngine.UI.Graphic.SetAllDirty
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: SetAllDirty()
+  nameWithType: Graphic.SetAllDirty()
+  fullName: UnityEngine.UI.Graphic.SetAllDirty()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.SetAllDirty
+    name: SetAllDirty
+    nameWithType: Graphic.SetAllDirty
+    fullName: UnityEngine.UI.Graphic.SetAllDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.SetAllDirty
+    name: SetAllDirty
+    nameWithType: Graphic.SetAllDirty
+    fullName: UnityEngine.UI.Graphic.SetAllDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.SetLayoutDirty
+  commentId: M:UnityEngine.UI.Graphic.SetLayoutDirty
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: SetLayoutDirty()
+  nameWithType: Graphic.SetLayoutDirty()
+  fullName: UnityEngine.UI.Graphic.SetLayoutDirty()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.SetLayoutDirty
+    name: SetLayoutDirty
+    nameWithType: Graphic.SetLayoutDirty
+    fullName: UnityEngine.UI.Graphic.SetLayoutDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.SetLayoutDirty
+    name: SetLayoutDirty
+    nameWithType: Graphic.SetLayoutDirty
+    fullName: UnityEngine.UI.Graphic.SetLayoutDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.SetVerticesDirty
+  commentId: M:UnityEngine.UI.Graphic.SetVerticesDirty
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: SetVerticesDirty()
+  nameWithType: Graphic.SetVerticesDirty()
+  fullName: UnityEngine.UI.Graphic.SetVerticesDirty()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.SetVerticesDirty
+    name: SetVerticesDirty
+    nameWithType: Graphic.SetVerticesDirty
+    fullName: UnityEngine.UI.Graphic.SetVerticesDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.SetVerticesDirty
+    name: SetVerticesDirty
+    nameWithType: Graphic.SetVerticesDirty
+    fullName: UnityEngine.UI.Graphic.SetVerticesDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.SetMaterialDirty
+  commentId: M:UnityEngine.UI.Graphic.SetMaterialDirty
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: SetMaterialDirty()
+  nameWithType: Graphic.SetMaterialDirty()
+  fullName: UnityEngine.UI.Graphic.SetMaterialDirty()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.SetMaterialDirty
+    name: SetMaterialDirty
+    nameWithType: Graphic.SetMaterialDirty
+    fullName: UnityEngine.UI.Graphic.SetMaterialDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.SetMaterialDirty
+    name: SetMaterialDirty
+    nameWithType: Graphic.SetMaterialDirty
+    fullName: UnityEngine.UI.Graphic.SetMaterialDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+  commentId: M:UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnRectTransformDimensionsChange()
+  nameWithType: Graphic.OnRectTransformDimensionsChange()
+  fullName: UnityEngine.UI.Graphic.OnRectTransformDimensionsChange()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+    name: OnRectTransformDimensionsChange
+    nameWithType: Graphic.OnRectTransformDimensionsChange
+    fullName: UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+    name: OnRectTransformDimensionsChange
+    nameWithType: Graphic.OnRectTransformDimensionsChange
+    fullName: UnityEngine.UI.Graphic.OnRectTransformDimensionsChange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+  commentId: M:UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnBeforeTransformParentChanged()
+  nameWithType: Graphic.OnBeforeTransformParentChanged()
+  fullName: UnityEngine.UI.Graphic.OnBeforeTransformParentChanged()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+    name: OnBeforeTransformParentChanged
+    nameWithType: Graphic.OnBeforeTransformParentChanged
+    fullName: UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+    name: OnBeforeTransformParentChanged
+    nameWithType: Graphic.OnBeforeTransformParentChanged
+    fullName: UnityEngine.UI.Graphic.OnBeforeTransformParentChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnDestroy
+  commentId: M:UnityEngine.UI.Graphic.OnDestroy
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnDestroy()
+  nameWithType: Graphic.OnDestroy()
+  fullName: UnityEngine.UI.Graphic.OnDestroy()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnDestroy
+    name: OnDestroy
+    nameWithType: Graphic.OnDestroy
+    fullName: UnityEngine.UI.Graphic.OnDestroy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnDestroy
+    name: OnDestroy
+    nameWithType: Graphic.OnDestroy
+    fullName: UnityEngine.UI.Graphic.OnDestroy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnCullingChanged
+  commentId: M:UnityEngine.UI.Graphic.OnCullingChanged
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnCullingChanged()
+  nameWithType: Graphic.OnCullingChanged()
+  fullName: UnityEngine.UI.Graphic.OnCullingChanged()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnCullingChanged
+    name: OnCullingChanged
+    nameWithType: Graphic.OnCullingChanged
+    fullName: UnityEngine.UI.Graphic.OnCullingChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnCullingChanged
+    name: OnCullingChanged
+    nameWithType: Graphic.OnCullingChanged
+    fullName: UnityEngine.UI.Graphic.OnCullingChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)
+  commentId: M:UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: Rebuild(CanvasUpdate)
+  nameWithType: Graphic.Rebuild(CanvasUpdate)
+  fullName: UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)
+    name: Rebuild
+    nameWithType: Graphic.Rebuild
+    fullName: UnityEngine.UI.Graphic.Rebuild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UI.CanvasUpdate
+    name: CanvasUpdate
+    nameWithType: CanvasUpdate
+    fullName: UnityEngine.UI.CanvasUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)
+    name: Rebuild
+    nameWithType: Graphic.Rebuild
+    fullName: UnityEngine.UI.Graphic.Rebuild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UI.CanvasUpdate
+    name: CanvasUpdate
+    nameWithType: CanvasUpdate
+    fullName: UnityEngine.UI.CanvasUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.LayoutComplete
+  commentId: M:UnityEngine.UI.Graphic.LayoutComplete
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: LayoutComplete()
+  nameWithType: Graphic.LayoutComplete()
+  fullName: UnityEngine.UI.Graphic.LayoutComplete()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.LayoutComplete
+    name: LayoutComplete
+    nameWithType: Graphic.LayoutComplete
+    fullName: UnityEngine.UI.Graphic.LayoutComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.LayoutComplete
+    name: LayoutComplete
+    nameWithType: Graphic.LayoutComplete
+    fullName: UnityEngine.UI.Graphic.LayoutComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.GraphicUpdateComplete
+  commentId: M:UnityEngine.UI.Graphic.GraphicUpdateComplete
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: GraphicUpdateComplete()
+  nameWithType: Graphic.GraphicUpdateComplete()
+  fullName: UnityEngine.UI.Graphic.GraphicUpdateComplete()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.GraphicUpdateComplete
+    name: GraphicUpdateComplete
+    nameWithType: Graphic.GraphicUpdateComplete
+    fullName: UnityEngine.UI.Graphic.GraphicUpdateComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.GraphicUpdateComplete
+    name: GraphicUpdateComplete
+    nameWithType: Graphic.GraphicUpdateComplete
+    fullName: UnityEngine.UI.Graphic.GraphicUpdateComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.UpdateMaterial
+  commentId: M:UnityEngine.UI.Graphic.UpdateMaterial
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: UpdateMaterial()
+  nameWithType: Graphic.UpdateMaterial()
+  fullName: UnityEngine.UI.Graphic.UpdateMaterial()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.UpdateMaterial
+    name: UpdateMaterial
+    nameWithType: Graphic.UpdateMaterial
+    fullName: UnityEngine.UI.Graphic.UpdateMaterial
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.UpdateMaterial
+    name: UpdateMaterial
+    nameWithType: Graphic.UpdateMaterial
+    fullName: UnityEngine.UI.Graphic.UpdateMaterial
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.UpdateGeometry
+  commentId: M:UnityEngine.UI.Graphic.UpdateGeometry
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: UpdateGeometry()
+  nameWithType: Graphic.UpdateGeometry()
+  fullName: UnityEngine.UI.Graphic.UpdateGeometry()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.UpdateGeometry
+    name: UpdateGeometry
+    nameWithType: Graphic.UpdateGeometry
+    fullName: UnityEngine.UI.Graphic.UpdateGeometry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.UpdateGeometry
+    name: UpdateGeometry
+    nameWithType: Graphic.UpdateGeometry
+    fullName: UnityEngine.UI.Graphic.UpdateGeometry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)
+  commentId: M:UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnPopulateMesh(Mesh)
+  nameWithType: Graphic.OnPopulateMesh(Mesh)
+  fullName: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)
+    name: OnPopulateMesh
+    nameWithType: Graphic.OnPopulateMesh
+    fullName: UnityEngine.UI.Graphic.OnPopulateMesh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    nameWithType: Mesh
+    fullName: UnityEngine.Mesh
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)
+    name: OnPopulateMesh
+    nameWithType: Graphic.OnPopulateMesh
+    fullName: UnityEngine.UI.Graphic.OnPopulateMesh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    nameWithType: Mesh
+    fullName: UnityEngine.Mesh
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnRebuildRequested
+  commentId: M:UnityEngine.UI.Graphic.OnRebuildRequested
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnRebuildRequested()
+  nameWithType: Graphic.OnRebuildRequested()
+  fullName: UnityEngine.UI.Graphic.OnRebuildRequested()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnRebuildRequested
+    name: OnRebuildRequested
+    nameWithType: Graphic.OnRebuildRequested
+    fullName: UnityEngine.UI.Graphic.OnRebuildRequested
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnRebuildRequested
+    name: OnRebuildRequested
+    nameWithType: Graphic.OnRebuildRequested
+    fullName: UnityEngine.UI.Graphic.OnRebuildRequested
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.Reset
+  commentId: M:UnityEngine.UI.Graphic.Reset
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: Reset()
+  nameWithType: Graphic.Reset()
+  fullName: UnityEngine.UI.Graphic.Reset()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.Reset
+    name: Reset
+    nameWithType: Graphic.Reset
+    fullName: UnityEngine.UI.Graphic.Reset
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.Reset
+    name: Reset
+    nameWithType: Graphic.Reset
+    fullName: UnityEngine.UI.Graphic.Reset
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+  commentId: M:UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnDidApplyAnimationProperties()
+  nameWithType: Graphic.OnDidApplyAnimationProperties()
+  fullName: UnityEngine.UI.Graphic.OnDidApplyAnimationProperties()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+    name: OnDidApplyAnimationProperties
+    nameWithType: Graphic.OnDidApplyAnimationProperties
+    fullName: UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+    name: OnDidApplyAnimationProperties
+    nameWithType: Graphic.OnDidApplyAnimationProperties
+    fullName: UnityEngine.UI.Graphic.OnDidApplyAnimationProperties
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.SetNativeSize
+  commentId: M:UnityEngine.UI.Graphic.SetNativeSize
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: SetNativeSize()
+  nameWithType: Graphic.SetNativeSize()
+  fullName: UnityEngine.UI.Graphic.SetNativeSize()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.SetNativeSize
+    name: SetNativeSize
+    nameWithType: Graphic.SetNativeSize
+    fullName: UnityEngine.UI.Graphic.SetNativeSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.SetNativeSize
+    name: SetNativeSize
+    nameWithType: Graphic.SetNativeSize
+    fullName: UnityEngine.UI.Graphic.SetNativeSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2,UnityEngine.Camera)
+  commentId: M:UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2,UnityEngine.Camera)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: Raycast(Vector2, Camera)
+  nameWithType: Graphic.Raycast(Vector2, Camera)
+  fullName: UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2, UnityEngine.Camera)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2,UnityEngine.Camera)
+    name: Raycast
+    nameWithType: Graphic.Raycast
+    fullName: UnityEngine.UI.Graphic.Raycast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Camera
+    name: Camera
+    nameWithType: Camera
+    fullName: UnityEngine.Camera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2,UnityEngine.Camera)
+    name: Raycast
+    nameWithType: Graphic.Raycast
+    fullName: UnityEngine.UI.Graphic.Raycast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Camera
+    name: Camera
+    nameWithType: Camera
+    fullName: UnityEngine.Camera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)
+  commentId: M:UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: PixelAdjustPoint(Vector2)
+  nameWithType: Graphic.PixelAdjustPoint(Vector2)
+  fullName: UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)
+    name: PixelAdjustPoint
+    nameWithType: Graphic.PixelAdjustPoint
+    fullName: UnityEngine.UI.Graphic.PixelAdjustPoint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)
+    name: PixelAdjustPoint
+    nameWithType: Graphic.PixelAdjustPoint
+    fullName: UnityEngine.UI.Graphic.PixelAdjustPoint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.GetPixelAdjustedRect
+  commentId: M:UnityEngine.UI.Graphic.GetPixelAdjustedRect
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: GetPixelAdjustedRect()
+  nameWithType: Graphic.GetPixelAdjustedRect()
+  fullName: UnityEngine.UI.Graphic.GetPixelAdjustedRect()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.GetPixelAdjustedRect
+    name: GetPixelAdjustedRect
+    nameWithType: Graphic.GetPixelAdjustedRect
+    fullName: UnityEngine.UI.Graphic.GetPixelAdjustedRect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.GetPixelAdjustedRect
+    name: GetPixelAdjustedRect
+    nameWithType: Graphic.GetPixelAdjustedRect
+    fullName: UnityEngine.UI.Graphic.GetPixelAdjustedRect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean)
+  commentId: M:UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: CrossFadeColor(Color, Single, Boolean, Boolean)
+  nameWithType: Graphic.CrossFadeColor(Color, Single, Boolean, Boolean)
+  fullName: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color, System.Single, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean)
+    name: CrossFadeColor
+    nameWithType: Graphic.CrossFadeColor
+    fullName: UnityEngine.UI.Graphic.CrossFadeColor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean)
+    name: CrossFadeColor
+    nameWithType: Graphic.CrossFadeColor
+    fullName: UnityEngine.UI.Graphic.CrossFadeColor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean,System.Boolean)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: CrossFadeColor(Color, Single, Boolean, Boolean, Boolean)
+  nameWithType: Graphic.CrossFadeColor(Color, Single, Boolean, Boolean, Boolean)
+  fullName: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color, System.Single, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean,System.Boolean)
+    name: CrossFadeColor
+    nameWithType: Graphic.CrossFadeColor
+    fullName: UnityEngine.UI.Graphic.CrossFadeColor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean,System.Boolean)
+    name: CrossFadeColor
+    nameWithType: Graphic.CrossFadeColor
+    fullName: UnityEngine.UI.Graphic.CrossFadeColor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single,System.Single,System.Boolean)
+  commentId: M:UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single,System.Single,System.Boolean)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: CrossFadeAlpha(Single, Single, Boolean)
+  nameWithType: Graphic.CrossFadeAlpha(Single, Single, Boolean)
+  fullName: UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single, System.Single, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single,System.Single,System.Boolean)
+    name: CrossFadeAlpha
+    nameWithType: Graphic.CrossFadeAlpha
+    fullName: UnityEngine.UI.Graphic.CrossFadeAlpha
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single,System.Single,System.Boolean)
+    name: CrossFadeAlpha
+    nameWithType: Graphic.CrossFadeAlpha
+    fullName: UnityEngine.UI.Graphic.CrossFadeAlpha
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  commentId: M:UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: RegisterDirtyLayoutCallback(UnityAction)
+  nameWithType: Graphic.RegisterDirtyLayoutCallback(UnityAction)
+  fullName: UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+    name: RegisterDirtyLayoutCallback
+    nameWithType: Graphic.RegisterDirtyLayoutCallback
+    fullName: UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+    name: RegisterDirtyLayoutCallback
+    nameWithType: Graphic.RegisterDirtyLayoutCallback
+    fullName: UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  commentId: M:UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: UnregisterDirtyLayoutCallback(UnityAction)
+  nameWithType: Graphic.UnregisterDirtyLayoutCallback(UnityAction)
+  fullName: UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+    name: UnregisterDirtyLayoutCallback
+    nameWithType: Graphic.UnregisterDirtyLayoutCallback
+    fullName: UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)
+    name: UnregisterDirtyLayoutCallback
+    nameWithType: Graphic.UnregisterDirtyLayoutCallback
+    fullName: UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  commentId: M:UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: RegisterDirtyVerticesCallback(UnityAction)
+  nameWithType: Graphic.RegisterDirtyVerticesCallback(UnityAction)
+  fullName: UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+    name: RegisterDirtyVerticesCallback
+    nameWithType: Graphic.RegisterDirtyVerticesCallback
+    fullName: UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+    name: RegisterDirtyVerticesCallback
+    nameWithType: Graphic.RegisterDirtyVerticesCallback
+    fullName: UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  commentId: M:UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: UnregisterDirtyVerticesCallback(UnityAction)
+  nameWithType: Graphic.UnregisterDirtyVerticesCallback(UnityAction)
+  fullName: UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+    name: UnregisterDirtyVerticesCallback
+    nameWithType: Graphic.UnregisterDirtyVerticesCallback
+    fullName: UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)
+    name: UnregisterDirtyVerticesCallback
+    nameWithType: Graphic.UnregisterDirtyVerticesCallback
+    fullName: UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  commentId: M:UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: RegisterDirtyMaterialCallback(UnityAction)
+  nameWithType: Graphic.RegisterDirtyMaterialCallback(UnityAction)
+  fullName: UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+    name: RegisterDirtyMaterialCallback
+    nameWithType: Graphic.RegisterDirtyMaterialCallback
+    fullName: UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+    name: RegisterDirtyMaterialCallback
+    nameWithType: Graphic.RegisterDirtyMaterialCallback
+    fullName: UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  commentId: M:UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: UnregisterDirtyMaterialCallback(UnityAction)
+  nameWithType: Graphic.UnregisterDirtyMaterialCallback(UnityAction)
+  fullName: UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+    name: UnregisterDirtyMaterialCallback
+    nameWithType: Graphic.UnregisterDirtyMaterialCallback
+    fullName: UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)
+    name: UnregisterDirtyMaterialCallback
+    nameWithType: Graphic.UnregisterDirtyMaterialCallback
+    fullName: UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Events.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.UnityEngine#UI#ICanvasElement#get_transform
+  commentId: M:UnityEngine.UI.Graphic.UnityEngine#UI#ICanvasElement#get_transform
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: ICanvasElement.get_transform()
+  nameWithType: Graphic.ICanvasElement.get_transform()
+  fullName: UnityEngine.UI.Graphic.UnityEngine.UI.ICanvasElement.get_transform()
+  nameWithType.vb: Graphic.UnityEngine.UI.ICanvasElement.get_transform()
+  name.vb: UnityEngine.UI.ICanvasElement.get_transform()
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.UnityEngine#UI#ICanvasElement#get_transform
+    name: ICanvasElement.get_transform
+    nameWithType: Graphic.ICanvasElement.get_transform
+    fullName: UnityEngine.UI.Graphic.UnityEngine.UI.ICanvasElement.get_transform
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.UnityEngine#UI#ICanvasElement#get_transform
+    name: UnityEngine.UI.ICanvasElement.get_transform
+    nameWithType: Graphic.UnityEngine.UI.ICanvasElement.get_transform
+    fullName: UnityEngine.UI.Graphic.UnityEngine.UI.ICanvasElement.get_transform
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UI.Graphic.defaultGraphicMaterial
+  commentId: P:UnityEngine.UI.Graphic.defaultGraphicMaterial
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: defaultGraphicMaterial
+  nameWithType: Graphic.defaultGraphicMaterial
+  fullName: UnityEngine.UI.Graphic.defaultGraphicMaterial
+- uid: UnityEngine.UI.Graphic.color
+  commentId: P:UnityEngine.UI.Graphic.color
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: color
+  nameWithType: Graphic.color
+  fullName: UnityEngine.UI.Graphic.color
+- uid: UnityEngine.UI.Graphic.raycastTarget
+  commentId: P:UnityEngine.UI.Graphic.raycastTarget
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: raycastTarget
+  nameWithType: Graphic.raycastTarget
+  fullName: UnityEngine.UI.Graphic.raycastTarget
+- uid: UnityEngine.UI.Graphic.raycastPadding
+  commentId: P:UnityEngine.UI.Graphic.raycastPadding
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: raycastPadding
+  nameWithType: Graphic.raycastPadding
+  fullName: UnityEngine.UI.Graphic.raycastPadding
+- uid: UnityEngine.UI.Graphic.useLegacyMeshGeneration
+  commentId: P:UnityEngine.UI.Graphic.useLegacyMeshGeneration
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: useLegacyMeshGeneration
+  nameWithType: Graphic.useLegacyMeshGeneration
+  fullName: UnityEngine.UI.Graphic.useLegacyMeshGeneration
+- uid: UnityEngine.UI.Graphic.depth
+  commentId: P:UnityEngine.UI.Graphic.depth
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: depth
+  nameWithType: Graphic.depth
+  fullName: UnityEngine.UI.Graphic.depth
+- uid: UnityEngine.UI.Graphic.rectTransform
+  commentId: P:UnityEngine.UI.Graphic.rectTransform
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: rectTransform
+  nameWithType: Graphic.rectTransform
+  fullName: UnityEngine.UI.Graphic.rectTransform
+- uid: UnityEngine.UI.Graphic.canvas
+  commentId: P:UnityEngine.UI.Graphic.canvas
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: canvas
+  nameWithType: Graphic.canvas
+  fullName: UnityEngine.UI.Graphic.canvas
+- uid: UnityEngine.UI.Graphic.canvasRenderer
+  commentId: P:UnityEngine.UI.Graphic.canvasRenderer
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: canvasRenderer
+  nameWithType: Graphic.canvasRenderer
+  fullName: UnityEngine.UI.Graphic.canvasRenderer
+- uid: UnityEngine.UI.Graphic.defaultMaterial
+  commentId: P:UnityEngine.UI.Graphic.defaultMaterial
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: defaultMaterial
+  nameWithType: Graphic.defaultMaterial
+  fullName: UnityEngine.UI.Graphic.defaultMaterial
+- uid: UnityEngine.UI.Graphic.materialForRendering
+  commentId: P:UnityEngine.UI.Graphic.materialForRendering
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: materialForRendering
+  nameWithType: Graphic.materialForRendering
+  fullName: UnityEngine.UI.Graphic.materialForRendering
+- uid: UnityEngine.UI.Graphic.workerMesh
+  commentId: P:UnityEngine.UI.Graphic.workerMesh
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: workerMesh
+  nameWithType: Graphic.workerMesh
+  fullName: UnityEngine.UI.Graphic.workerMesh
+- uid: UnityEngine.EventSystems.UIBehaviour.Awake
+  commentId: M:UnityEngine.EventSystems.UIBehaviour.Awake
+  parent: UnityEngine.EventSystems.UIBehaviour
+  isExternal: true
+  name: Awake()
+  nameWithType: UIBehaviour.Awake()
+  fullName: UnityEngine.EventSystems.UIBehaviour.Awake()
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.UIBehaviour.Awake
+    name: Awake
+    nameWithType: UIBehaviour.Awake
+    fullName: UnityEngine.EventSystems.UIBehaviour.Awake
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.UIBehaviour.Awake
+    name: Awake
+    nameWithType: UIBehaviour.Awake
+    fullName: UnityEngine.EventSystems.UIBehaviour.Awake
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.EventSystems.UIBehaviour.Start
+  commentId: M:UnityEngine.EventSystems.UIBehaviour.Start
+  parent: UnityEngine.EventSystems.UIBehaviour
+  isExternal: true
+  name: Start()
+  nameWithType: UIBehaviour.Start()
+  fullName: UnityEngine.EventSystems.UIBehaviour.Start()
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.UIBehaviour.Start
+    name: Start
+    nameWithType: UIBehaviour.Start
+    fullName: UnityEngine.EventSystems.UIBehaviour.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.UIBehaviour.Start
+    name: Start
+    nameWithType: UIBehaviour.Start
+    fullName: UnityEngine.EventSystems.UIBehaviour.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.EventSystems.UIBehaviour.IsActive
+  commentId: M:UnityEngine.EventSystems.UIBehaviour.IsActive
+  parent: UnityEngine.EventSystems.UIBehaviour
+  isExternal: true
+  name: IsActive()
+  nameWithType: UIBehaviour.IsActive()
+  fullName: UnityEngine.EventSystems.UIBehaviour.IsActive()
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.UIBehaviour.IsActive
+    name: IsActive
+    nameWithType: UIBehaviour.IsActive
+    fullName: UnityEngine.EventSystems.UIBehaviour.IsActive
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.UIBehaviour.IsActive
+    name: IsActive
+    nameWithType: UIBehaviour.IsActive
+    fullName: UnityEngine.EventSystems.UIBehaviour.IsActive
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+  commentId: M:UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+  parent: UnityEngine.EventSystems.UIBehaviour
+  isExternal: true
+  name: OnCanvasGroupChanged()
+  nameWithType: UIBehaviour.OnCanvasGroupChanged()
+  fullName: UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged()
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+    name: OnCanvasGroupChanged
+    nameWithType: UIBehaviour.OnCanvasGroupChanged
+    fullName: UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+    name: OnCanvasGroupChanged
+    nameWithType: UIBehaviour.OnCanvasGroupChanged
+    fullName: UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+  commentId: M:UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+  parent: UnityEngine.EventSystems.UIBehaviour
+  isExternal: true
+  name: IsDestroyed()
+  nameWithType: UIBehaviour.IsDestroyed()
+  fullName: UnityEngine.EventSystems.UIBehaviour.IsDestroyed()
+  spec.csharp:
+  - uid: UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+    name: IsDestroyed
+    nameWithType: UIBehaviour.IsDestroyed
+    fullName: UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+    name: IsDestroyed
+    nameWithType: UIBehaviour.IsDestroyed
+    fullName: UnityEngine.EventSystems.UIBehaviour.IsDestroyed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.EventSystems
+  commentId: N:UnityEngine.EventSystems
+  isExternal: true
+  name: UnityEngine.EventSystems
+  nameWithType: UnityEngine.EventSystems
+  fullName: UnityEngine.EventSystems
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: Funique.UI.UICircle.#ctor*
+  commentId: Overload:Funique.UI.UICircle.#ctor
+  name: UICircle
+  nameWithType: UICircle.UICircle
+  fullName: Funique.UI.UICircle.UICircle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  commentId: M:UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: OnPopulateMesh(VertexHelper)
+  nameWithType: Graphic.OnPopulateMesh(VertexHelper)
+  fullName: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+  spec.csharp:
+  - uid: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+    name: OnPopulateMesh
+    nameWithType: Graphic.OnPopulateMesh
+    fullName: UnityEngine.UI.Graphic.OnPopulateMesh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UI.VertexHelper
+    name: VertexHelper
+    nameWithType: VertexHelper
+    fullName: UnityEngine.UI.VertexHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)
+    name: OnPopulateMesh
+    nameWithType: Graphic.OnPopulateMesh
+    fullName: UnityEngine.UI.Graphic.OnPopulateMesh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UI.VertexHelper
+    name: VertexHelper
+    nameWithType: VertexHelper
+    fullName: UnityEngine.UI.VertexHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.UI.UICircle.OnPopulateMesh*
+  commentId: Overload:Funique.UI.UICircle.OnPopulateMesh
+  name: OnPopulateMesh
+  nameWithType: UICircle.OnPopulateMesh
+  fullName: Funique.UI.UICircle.OnPopulateMesh
+- uid: UnityEngine.UI.VertexHelper
+  commentId: T:UnityEngine.UI.VertexHelper
+  parent: UnityEngine.UI
+  isExternal: true
+  name: VertexHelper
+  nameWithType: VertexHelper
+  fullName: UnityEngine.UI.VertexHelper
+- uid: Funique.UI.UICircle.SetProgress*
+  commentId: Overload:Funique.UI.UICircle.SetProgress
+  name: SetProgress
+  nameWithType: UICircle.SetProgress
+  fullName: Funique.UI.UICircle.SetProgress
+- uid: Funique.UI.UICircle.SetArcSteps*
+  commentId: Overload:Funique.UI.UICircle.SetArcSteps
+  name: SetArcSteps
+  nameWithType: UICircle.SetArcSteps
+  fullName: Funique.UI.UICircle.SetArcSteps
+- uid: Funique.UI.UICircle.SetInvertArc*
+  commentId: Overload:Funique.UI.UICircle.SetInvertArc
+  name: SetInvertArc
+  nameWithType: UICircle.SetInvertArc
+  fullName: Funique.UI.UICircle.SetInvertArc
+- uid: Funique.UI.UICircle.SetArcRotation*
+  commentId: Overload:Funique.UI.UICircle.SetArcRotation
+  name: SetArcRotation
+  nameWithType: UICircle.SetArcRotation
+  fullName: Funique.UI.UICircle.SetArcRotation
+- uid: Funique.UI.UICircle.SetFill*
+  commentId: Overload:Funique.UI.UICircle.SetFill
+  name: SetFill
+  nameWithType: UICircle.SetFill
+  fullName: Funique.UI.UICircle.SetFill
+- uid: Funique.UI.UICircle.SetBaseColor*
+  commentId: Overload:Funique.UI.UICircle.SetBaseColor
+  name: SetBaseColor
+  nameWithType: UICircle.SetBaseColor
+  fullName: Funique.UI.UICircle.SetBaseColor
+- uid: Funique.UI.UICircle.UpdateBaseAlpha*
+  commentId: Overload:Funique.UI.UICircle.UpdateBaseAlpha
+  name: UpdateBaseAlpha
+  nameWithType: UICircle.UpdateBaseAlpha
+  fullName: Funique.UI.UICircle.UpdateBaseAlpha
+- uid: Funique.UI.UICircle.SetProgressColor*
+  commentId: Overload:Funique.UI.UICircle.SetProgressColor
+  name: SetProgressColor
+  nameWithType: UICircle.SetProgressColor
+  fullName: Funique.UI.UICircle.SetProgressColor
+- uid: Funique.UI.UICircle.UpdateProgressAlpha*
+  commentId: Overload:Funique.UI.UICircle.UpdateProgressAlpha
+  name: UpdateProgressAlpha
+  nameWithType: UICircle.UpdateProgressAlpha
+  fullName: Funique.UI.UICircle.UpdateProgressAlpha
+- uid: Funique.UI.UICircle.SetPadding*
+  commentId: Overload:Funique.UI.UICircle.SetPadding
+  name: SetPadding
+  nameWithType: UICircle.SetPadding
+  fullName: Funique.UI.UICircle.SetPadding
+- uid: Funique.UI.UICircle.SetThickness*
+  commentId: Overload:Funique.UI.UICircle.SetThickness
+  name: SetThickness
+  nameWithType: UICircle.SetThickness
+  fullName: Funique.UI.UICircle.SetThickness
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: Funique.UI.UICircle.sprite*
+  commentId: Overload:Funique.UI.UICircle.sprite
+  name: sprite
+  nameWithType: UICircle.sprite
+  fullName: Funique.UI.UICircle.sprite
+- uid: UnityEngine.Sprite
+  commentId: T:UnityEngine.Sprite
+  parent: UnityEngine
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: UnityEngine.Sprite
+- uid: Funique.UI.UICircle.overrideSprite*
+  commentId: Overload:Funique.UI.UICircle.overrideSprite
+  name: overrideSprite
+  nameWithType: UICircle.overrideSprite
+  fullName: Funique.UI.UICircle.overrideSprite
+- uid: Funique.UI.UICircle.activeSprite*
+  commentId: Overload:Funique.UI.UICircle.activeSprite
+  name: activeSprite
+  nameWithType: UICircle.activeSprite
+  fullName: Funique.UI.UICircle.activeSprite
+- uid: Funique.UI.UICircle.eventAlphaThreshold*
+  commentId: Overload:Funique.UI.UICircle.eventAlphaThreshold
+  name: eventAlphaThreshold
+  nameWithType: UICircle.eventAlphaThreshold
+  fullName: Funique.UI.UICircle.eventAlphaThreshold
+- uid: Funique.UI.UICircle.ImproveResolution*
+  commentId: Overload:Funique.UI.UICircle.ImproveResolution
+  name: ImproveResolution
+  nameWithType: UICircle.ImproveResolution
+  fullName: Funique.UI.UICircle.ImproveResolution
+- uid: Funique.UI.ResolutionMode
+  commentId: T:Funique.UI.ResolutionMode
+  parent: Funique.UI
+  name: ResolutionMode
+  nameWithType: ResolutionMode
+  fullName: Funique.UI.ResolutionMode
+- uid: Funique.UI.UICircle.Resoloution*
+  commentId: Overload:Funique.UI.UICircle.Resoloution
+  name: Resoloution
+  nameWithType: UICircle.Resoloution
+  fullName: Funique.UI.UICircle.Resoloution
+- uid: Funique.UI.UICircle.UseNativeSize*
+  commentId: Overload:Funique.UI.UICircle.UseNativeSize
+  name: UseNativeSize
+  nameWithType: UICircle.UseNativeSize
+  fullName: Funique.UI.UICircle.UseNativeSize
+- uid: Funique.UI.UICircle.defaultETC1GraphicMaterial*
+  commentId: Overload:Funique.UI.UICircle.defaultETC1GraphicMaterial
+  name: defaultETC1GraphicMaterial
+  nameWithType: UICircle.defaultETC1GraphicMaterial
+  fullName: Funique.UI.UICircle.defaultETC1GraphicMaterial
+- uid: UnityEngine.UI.Graphic.mainTexture
+  commentId: P:UnityEngine.UI.Graphic.mainTexture
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: mainTexture
+  nameWithType: Graphic.mainTexture
+  fullName: UnityEngine.UI.Graphic.mainTexture
+- uid: Funique.UI.UICircle.mainTexture*
+  commentId: Overload:Funique.UI.UICircle.mainTexture
+  name: mainTexture
+  nameWithType: UICircle.mainTexture
+  fullName: Funique.UI.UICircle.mainTexture
+- uid: UnityEngine.Texture
+  commentId: T:UnityEngine.Texture
+  parent: UnityEngine
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: UnityEngine.Texture
+- uid: Funique.UI.UICircle.hasBorder*
+  commentId: Overload:Funique.UI.UICircle.hasBorder
+  name: hasBorder
+  nameWithType: UICircle.hasBorder
+  fullName: Funique.UI.UICircle.hasBorder
+- uid: Funique.UI.UICircle.pixelsPerUnit*
+  commentId: Overload:Funique.UI.UICircle.pixelsPerUnit
+  name: pixelsPerUnit
+  nameWithType: UICircle.pixelsPerUnit
+  fullName: Funique.UI.UICircle.pixelsPerUnit
+- uid: UnityEngine.UI.Graphic.material
+  commentId: P:UnityEngine.UI.Graphic.material
+  parent: UnityEngine.UI.Graphic
+  isExternal: true
+  name: material
+  nameWithType: Graphic.material
+  fullName: UnityEngine.UI.Graphic.material
+- uid: Funique.UI.UICircle.material*
+  commentId: Overload:Funique.UI.UICircle.material
+  name: material
+  nameWithType: UICircle.material
+  fullName: Funique.UI.UICircle.material
+- uid: Funique.UI.UICircle.minWidth*
+  commentId: Overload:Funique.UI.UICircle.minWidth
+  name: minWidth
+  nameWithType: UICircle.minWidth
+  fullName: Funique.UI.UICircle.minWidth
+- uid: UnityEngine.UI.ILayoutElement.minWidth
+  commentId: P:UnityEngine.UI.ILayoutElement.minWidth
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: minWidth
+  nameWithType: ILayoutElement.minWidth
+  fullName: UnityEngine.UI.ILayoutElement.minWidth
+- uid: Funique.UI.UICircle.preferredWidth*
+  commentId: Overload:Funique.UI.UICircle.preferredWidth
+  name: preferredWidth
+  nameWithType: UICircle.preferredWidth
+  fullName: Funique.UI.UICircle.preferredWidth
+- uid: UnityEngine.UI.ILayoutElement.preferredWidth
+  commentId: P:UnityEngine.UI.ILayoutElement.preferredWidth
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: preferredWidth
+  nameWithType: ILayoutElement.preferredWidth
+  fullName: UnityEngine.UI.ILayoutElement.preferredWidth
+- uid: Funique.UI.UICircle.flexibleWidth*
+  commentId: Overload:Funique.UI.UICircle.flexibleWidth
+  name: flexibleWidth
+  nameWithType: UICircle.flexibleWidth
+  fullName: Funique.UI.UICircle.flexibleWidth
+- uid: UnityEngine.UI.ILayoutElement.flexibleWidth
+  commentId: P:UnityEngine.UI.ILayoutElement.flexibleWidth
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: flexibleWidth
+  nameWithType: ILayoutElement.flexibleWidth
+  fullName: UnityEngine.UI.ILayoutElement.flexibleWidth
+- uid: Funique.UI.UICircle.minHeight*
+  commentId: Overload:Funique.UI.UICircle.minHeight
+  name: minHeight
+  nameWithType: UICircle.minHeight
+  fullName: Funique.UI.UICircle.minHeight
+- uid: UnityEngine.UI.ILayoutElement.minHeight
+  commentId: P:UnityEngine.UI.ILayoutElement.minHeight
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: minHeight
+  nameWithType: ILayoutElement.minHeight
+  fullName: UnityEngine.UI.ILayoutElement.minHeight
+- uid: Funique.UI.UICircle.preferredHeight*
+  commentId: Overload:Funique.UI.UICircle.preferredHeight
+  name: preferredHeight
+  nameWithType: UICircle.preferredHeight
+  fullName: Funique.UI.UICircle.preferredHeight
+- uid: UnityEngine.UI.ILayoutElement.preferredHeight
+  commentId: P:UnityEngine.UI.ILayoutElement.preferredHeight
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: preferredHeight
+  nameWithType: ILayoutElement.preferredHeight
+  fullName: UnityEngine.UI.ILayoutElement.preferredHeight
+- uid: Funique.UI.UICircle.flexibleHeight*
+  commentId: Overload:Funique.UI.UICircle.flexibleHeight
+  name: flexibleHeight
+  nameWithType: UICircle.flexibleHeight
+  fullName: Funique.UI.UICircle.flexibleHeight
+- uid: UnityEngine.UI.ILayoutElement.flexibleHeight
+  commentId: P:UnityEngine.UI.ILayoutElement.flexibleHeight
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: flexibleHeight
+  nameWithType: ILayoutElement.flexibleHeight
+  fullName: UnityEngine.UI.ILayoutElement.flexibleHeight
+- uid: Funique.UI.UICircle.layoutPriority*
+  commentId: Overload:Funique.UI.UICircle.layoutPriority
+  name: layoutPriority
+  nameWithType: UICircle.layoutPriority
+  fullName: Funique.UI.UICircle.layoutPriority
+- uid: UnityEngine.UI.ILayoutElement.layoutPriority
+  commentId: P:UnityEngine.UI.ILayoutElement.layoutPriority
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: layoutPriority
+  nameWithType: ILayoutElement.layoutPriority
+  fullName: UnityEngine.UI.ILayoutElement.layoutPriority
+- uid: Funique.UI.UICircle.SetVbo*
+  commentId: Overload:Funique.UI.UICircle.SetVbo
+  name: SetVbo
+  nameWithType: UICircle.SetVbo
+  fullName: Funique.UI.UICircle.SetVbo
+- uid: UnityEngine.Vector2[]
+  isExternal: true
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: UnityEngine.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: UnityEngine.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: UnityEngine.UIVertex[]
+  isExternal: true
+  name: UIVertex[]
+  nameWithType: UIVertex[]
+  fullName: UnityEngine.UIVertex[]
+  nameWithType.vb: UIVertex()
+  fullName.vb: UnityEngine.UIVertex()
+  name.vb: UIVertex()
+  spec.csharp:
+  - uid: UnityEngine.UIVertex
+    name: UIVertex
+    nameWithType: UIVertex
+    fullName: UnityEngine.UIVertex
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.UIVertex
+    name: UIVertex
+    nameWithType: UIVertex
+    fullName: UnityEngine.UIVertex
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Funique.UI.UICircle.IncreaseResolution*
+  commentId: Overload:Funique.UI.UICircle.IncreaseResolution
+  name: IncreaseResolution
+  nameWithType: UICircle.IncreaseResolution
+  fullName: Funique.UI.UICircle.IncreaseResolution
+- uid: System.Collections.Generic.List{UnityEngine.Vector2}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.UI.UICircle.GeneratedUVs*
+  commentId: Overload:Funique.UI.UICircle.GeneratedUVs
+  name: GeneratedUVs
+  nameWithType: UICircle.GeneratedUVs
+  fullName: Funique.UI.UICircle.GeneratedUVs
+- uid: Funique.UI.UICircle.ResolutionToNativeSize*
+  commentId: Overload:Funique.UI.UICircle.ResolutionToNativeSize
+  name: ResolutionToNativeSize
+  nameWithType: UICircle.ResolutionToNativeSize
+  fullName: Funique.UI.UICircle.ResolutionToNativeSize
+- uid: Funique.UI.UICircle.CalculateLayoutInputHorizontal*
+  commentId: Overload:Funique.UI.UICircle.CalculateLayoutInputHorizontal
+  name: CalculateLayoutInputHorizontal
+  nameWithType: UICircle.CalculateLayoutInputHorizontal
+  fullName: Funique.UI.UICircle.CalculateLayoutInputHorizontal
+- uid: UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+  commentId: M:UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: CalculateLayoutInputHorizontal()
+  nameWithType: ILayoutElement.CalculateLayoutInputHorizontal()
+  fullName: UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal()
+  spec.csharp:
+  - uid: UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+    name: CalculateLayoutInputHorizontal
+    nameWithType: ILayoutElement.CalculateLayoutInputHorizontal
+    fullName: UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+    name: CalculateLayoutInputHorizontal
+    nameWithType: ILayoutElement.CalculateLayoutInputHorizontal
+    fullName: UnityEngine.UI.ILayoutElement.CalculateLayoutInputHorizontal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.UI.UICircle.CalculateLayoutInputVertical*
+  commentId: Overload:Funique.UI.UICircle.CalculateLayoutInputVertical
+  name: CalculateLayoutInputVertical
+  nameWithType: UICircle.CalculateLayoutInputVertical
+  fullName: Funique.UI.UICircle.CalculateLayoutInputVertical
+- uid: UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+  commentId: M:UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+  parent: UnityEngine.UI.ILayoutElement
+  isExternal: true
+  name: CalculateLayoutInputVertical()
+  nameWithType: ILayoutElement.CalculateLayoutInputVertical()
+  fullName: UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical()
+  spec.csharp:
+  - uid: UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+    name: CalculateLayoutInputVertical
+    nameWithType: ILayoutElement.CalculateLayoutInputVertical
+    fullName: UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+    name: CalculateLayoutInputVertical
+    nameWithType: ILayoutElement.CalculateLayoutInputVertical
+    fullName: UnityEngine.UI.ILayoutElement.CalculateLayoutInputVertical
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.UI.UICircle.IsRaycastLocationValid*
+  commentId: Overload:Funique.UI.UICircle.IsRaycastLocationValid
+  name: IsRaycastLocationValid
+  nameWithType: UICircle.IsRaycastLocationValid
+  fullName: Funique.UI.UICircle.IsRaycastLocationValid
+- uid: UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  commentId: M:UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+  parent: UnityEngine.ICanvasRaycastFilter
+  isExternal: true
+  name: IsRaycastLocationValid(Vector2, Camera)
+  nameWithType: ICanvasRaycastFilter.IsRaycastLocationValid(Vector2, Camera)
+  fullName: UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid(UnityEngine.Vector2, UnityEngine.Camera)
+  spec.csharp:
+  - uid: UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+    name: IsRaycastLocationValid
+    nameWithType: ICanvasRaycastFilter.IsRaycastLocationValid
+    fullName: UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Camera
+    name: Camera
+    nameWithType: Camera
+    fullName: UnityEngine.Camera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
+    name: IsRaycastLocationValid
+    nameWithType: ICanvasRaycastFilter.IsRaycastLocationValid
+    fullName: UnityEngine.ICanvasRaycastFilter.IsRaycastLocationValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Camera
+    name: Camera
+    nameWithType: Camera
+    fullName: UnityEngine.Camera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: UnityEngine.UI.MaskableGraphic.OnEnable
+  commentId: M:UnityEngine.UI.MaskableGraphic.OnEnable
+  parent: UnityEngine.UI.MaskableGraphic
+  isExternal: true
+  name: OnEnable()
+  nameWithType: MaskableGraphic.OnEnable()
+  fullName: UnityEngine.UI.MaskableGraphic.OnEnable()
+  spec.csharp:
+  - uid: UnityEngine.UI.MaskableGraphic.OnEnable
+    name: OnEnable
+    nameWithType: MaskableGraphic.OnEnable
+    fullName: UnityEngine.UI.MaskableGraphic.OnEnable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UI.MaskableGraphic.OnEnable
+    name: OnEnable
+    nameWithType: MaskableGraphic.OnEnable
+    fullName: UnityEngine.UI.MaskableGraphic.OnEnable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.UI.UICircle.OnEnable*
+  commentId: Overload:Funique.UI.UICircle.OnEnable
+  name: OnEnable
+  nameWithType: UICircle.OnEnable
+  fullName: Funique.UI.UICircle.OnEnable

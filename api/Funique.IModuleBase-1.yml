@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.IModuleBase`1
+  commentId: T:Funique.IModuleBase`1
+  id: IModuleBase`1
+  parent: Funique
+  children:
+  - Funique.IModuleBase`1.config
+  langs:
+  - csharp
+  - vb
+  name: IModuleBase<T>
+  nameWithType: IModuleBase<T>
+  fullName: Funique.IModuleBase<T>
+  type: Interface
+  source:
+    remote:
+      path: Interface/IModuleBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: IModuleBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/IModuleBase.cs
+    startLine: 8
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nModule base interface, This will open access the register configuration <br />\n------------------------------------------------ <br />\n模組基礎類, 這會公開存取註冊的配置結構\n"
+  example: []
+  syntax:
+    content: public interface IModuleBase<T>
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Interface IModuleBase(Of T)
+  nameWithType.vb: IModuleBase(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Funique.IModuleBase(Of T)
+  name.vb: IModuleBase(Of T)
+- uid: Funique.IModuleBase`1.config
+  commentId: P:Funique.IModuleBase`1.config
+  id: config
+  parent: Funique.IModuleBase`1
+  langs:
+  - csharp
+  - vb
+  name: config
+  nameWithType: IModuleBase<T>.config
+  fullName: Funique.IModuleBase<T>.config
+  type: Property
+  source:
+    remote:
+      path: Interface/IModuleBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: config
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/IModuleBase.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nConfig structure target <br />\n------------------------------------------------ <br />\n配置結構目標\n"
+  example: []
+  syntax:
+    content: T config { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: ReadOnly Property config As T
+  overload: Funique.IModuleBase`1.config*
+  nameWithType.vb: IModuleBase(Of T).config
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Funique.IModuleBase(Of T).config
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.IModuleBase`1.config*
+  commentId: Overload:Funique.IModuleBase`1.config
+  name: config
+  nameWithType: IModuleBase<T>.config
+  fullName: Funique.IModuleBase<T>.config
+  nameWithType.vb: IModuleBase(Of T).config
+  fullName.vb: Funique.IModuleBase(Of T).config
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

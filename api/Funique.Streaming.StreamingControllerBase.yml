@@ -1,0 +1,941 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Streaming.StreamingControllerBase
+  commentId: T:Funique.Streaming.StreamingControllerBase
+  id: StreamingControllerBase
+  parent: Funique.Streaming
+  children:
+  - Funique.Streaming.StreamingControllerBase.CastingMode
+  - Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay
+  - Funique.Streaming.StreamingControllerBase.GoOff
+  - Funique.Streaming.StreamingControllerBase.GoOn
+  - Funique.Streaming.StreamingControllerBase.HasContent
+  - Funique.Streaming.StreamingControllerBase.LiveStreamingMode
+  - Funique.Streaming.StreamingControllerBase.ModeDisplay
+  - Funique.Streaming.StreamingControllerBase.PauseLabel
+  - Funique.Streaming.StreamingControllerBase.PlayLabel
+  - Funique.Streaming.StreamingControllerBase.SetURLPlay
+  - Funique.Streaming.StreamingControllerBase.SetURLPlayState(System.Boolean,Funique.PlayerState)
+  - Funique.Streaming.StreamingControllerBase.StreamingMode
+  - Funique.Streaming.StreamingControllerBase.UpdateGo
+  - Funique.Streaming.StreamingControllerBase.URLDisplay
+  - Funique.Streaming.StreamingControllerBase.URLGoBtn
+  - Funique.Streaming.StreamingControllerBase.URLInput
+  - Funique.Streaming.StreamingControllerBase.URLLabel
+  - Funique.Streaming.StreamingControllerBase.URLRemoveBtn
+  langs:
+  - csharp
+  - vb
+  name: StreamingControllerBase
+  nameWithType: StreamingControllerBase
+  fullName: Funique.Streaming.StreamingControllerBase
+  type: Class
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: StreamingControllerBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 12
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nStreaming panel controller <br />\nAccess all user interface properties to define the state <br />\n------------------------------------------------ <br />\n串流面板控制器 <br />\n存取使用者介面屬性來決定目前設定數值\n"
+  example: []
+  syntax:
+    content: 'public abstract class StreamingControllerBase : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class StreamingControllerBase
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Funique.Streaming.StreamingControllerBase.URLGoBtn
+  commentId: F:Funique.Streaming.StreamingControllerBase.URLGoBtn
+  id: URLGoBtn
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: URLGoBtn
+  nameWithType: StreamingControllerBase.URLGoBtn
+  fullName: Funique.Streaming.StreamingControllerBase.URLGoBtn
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URLGoBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 16
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [Header("Register")]
+
+      [SerializeField]
+
+      protected Button URLGoBtn
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <Header("Register")>
+
+      <SerializeField>
+
+      Protected URLGoBtn As Button
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Register
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.URLRemoveBtn
+  commentId: F:Funique.Streaming.StreamingControllerBase.URLRemoveBtn
+  id: URLRemoveBtn
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: URLRemoveBtn
+  nameWithType: StreamingControllerBase.URLRemoveBtn
+  fullName: Funique.Streaming.StreamingControllerBase.URLRemoveBtn
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URLRemoveBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 17
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button URLRemoveBtn
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected URLRemoveBtn As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.StreamingMode
+  commentId: F:Funique.Streaming.StreamingControllerBase.StreamingMode
+  id: StreamingMode
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: StreamingMode
+  nameWithType: StreamingControllerBase.StreamingMode
+  fullName: Funique.Streaming.StreamingControllerBase.StreamingMode
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: StreamingMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 18
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Toggle StreamingMode
+    return:
+      type: UnityEngine.UI.Toggle
+    content.vb: >-
+      <SerializeField>
+
+      Protected StreamingMode As Toggle
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.LiveStreamingMode
+  commentId: F:Funique.Streaming.StreamingControllerBase.LiveStreamingMode
+  id: LiveStreamingMode
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: LiveStreamingMode
+  nameWithType: StreamingControllerBase.LiveStreamingMode
+  fullName: Funique.Streaming.StreamingControllerBase.LiveStreamingMode
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: LiveStreamingMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 19
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Toggle LiveStreamingMode
+    return:
+      type: UnityEngine.UI.Toggle
+    content.vb: >-
+      <SerializeField>
+
+      Protected LiveStreamingMode As Toggle
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.GoOn
+  commentId: F:Funique.Streaming.StreamingControllerBase.GoOn
+  id: GoOn
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: GoOn
+  nameWithType: StreamingControllerBase.GoOn
+  fullName: Funique.Streaming.StreamingControllerBase.GoOn
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: GoOn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 20
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Sprite GoOn
+    return:
+      type: UnityEngine.Sprite
+    content.vb: >-
+      <SerializeField>
+
+      Protected GoOn As Sprite
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.GoOff
+  commentId: F:Funique.Streaming.StreamingControllerBase.GoOff
+  id: GoOff
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: GoOff
+  nameWithType: StreamingControllerBase.GoOff
+  fullName: Funique.Streaming.StreamingControllerBase.GoOff
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: GoOff
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 21
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Sprite GoOff
+    return:
+      type: UnityEngine.Sprite
+    content.vb: >-
+      <SerializeField>
+
+      Protected GoOff As Sprite
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.URLInput
+  commentId: F:Funique.Streaming.StreamingControllerBase.URLInput
+  id: URLInput
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: URLInput
+  nameWithType: StreamingControllerBase.URLInput
+  fullName: Funique.Streaming.StreamingControllerBase.URLInput
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URLInput
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 22
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected InputField URLInput
+    return:
+      type: UnityEngine.UI.InputField
+    content.vb: >-
+      <SerializeField>
+
+      Protected URLInput As InputField
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.URLLabel
+  commentId: F:Funique.Streaming.StreamingControllerBase.URLLabel
+  id: URLLabel
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: URLLabel
+  nameWithType: StreamingControllerBase.URLLabel
+  fullName: Funique.Streaming.StreamingControllerBase.URLLabel
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URLLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 23
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected GameObject URLLabel
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <SerializeField>
+
+      Protected URLLabel As GameObject
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.PlayLabel
+  commentId: F:Funique.Streaming.StreamingControllerBase.PlayLabel
+  id: PlayLabel
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: PlayLabel
+  nameWithType: StreamingControllerBase.PlayLabel
+  fullName: Funique.Streaming.StreamingControllerBase.PlayLabel
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: PlayLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 24
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected GameObject PlayLabel
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <SerializeField>
+
+      Protected PlayLabel As GameObject
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.PauseLabel
+  commentId: F:Funique.Streaming.StreamingControllerBase.PauseLabel
+  id: PauseLabel
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: PauseLabel
+  nameWithType: StreamingControllerBase.PauseLabel
+  fullName: Funique.Streaming.StreamingControllerBase.PauseLabel
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: PauseLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 25
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected GameObject PauseLabel
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <SerializeField>
+
+      Protected PauseLabel As GameObject
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.URLDisplay
+  commentId: F:Funique.Streaming.StreamingControllerBase.URLDisplay
+  id: URLDisplay
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: URLDisplay
+  nameWithType: StreamingControllerBase.URLDisplay
+  fullName: Funique.Streaming.StreamingControllerBase.URLDisplay
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URLDisplay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 26
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text URLDisplay
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected URLDisplay As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.ModeDisplay
+  commentId: F:Funique.Streaming.StreamingControllerBase.ModeDisplay
+  id: ModeDisplay
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: ModeDisplay
+  nameWithType: StreamingControllerBase.ModeDisplay
+  fullName: Funique.Streaming.StreamingControllerBase.ModeDisplay
+  type: Field
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: ModeDisplay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 27
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text ModeDisplay
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected ModeDisplay As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Streaming.StreamingControllerBase.CastingMode
+  commentId: P:Funique.Streaming.StreamingControllerBase.CastingMode
+  id: CastingMode
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: CastingMode
+  nameWithType: StreamingControllerBase.CastingMode
+  fullName: Funique.Streaming.StreamingControllerBase.CastingMode
+  type: Property
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CastingMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 34
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nCheck if it&apos;s casting mode right now <br />\n"
+  example: []
+  syntax:
+    content: public bool CastingMode { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CastingMode As Boolean
+  overload: Funique.Streaming.StreamingControllerBase.CastingMode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Streaming.StreamingControllerBase.HasContent
+  commentId: P:Funique.Streaming.StreamingControllerBase.HasContent
+  id: HasContent
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: HasContent
+  nameWithType: StreamingControllerBase.HasContent
+  fullName: Funique.Streaming.StreamingControllerBase.HasContent
+  type: Property
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: HasContent
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 35
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: public virtual bool HasContent { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property HasContent As Boolean
+  overload: Funique.Streaming.StreamingControllerBase.HasContent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Streaming.StreamingControllerBase.SetURLPlay
+  commentId: M:Funique.Streaming.StreamingControllerBase.SetURLPlay
+  id: SetURLPlay
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SetURLPlay()
+  nameWithType: StreamingControllerBase.SetURLPlay()
+  fullName: Funique.Streaming.StreamingControllerBase.SetURLPlay()
+  type: Method
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: SetURLPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 42
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nTell user to play URL <br />\n------------------------------------------------ <br />\n"
+  example: []
+  syntax:
+    content: public virtual void SetURLPlay()
+    content.vb: Public Overridable Sub SetURLPlay
+  overload: Funique.Streaming.StreamingControllerBase.SetURLPlay*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Streaming.StreamingControllerBase.SetURLPlayState(System.Boolean,Funique.PlayerState)
+  commentId: M:Funique.Streaming.StreamingControllerBase.SetURLPlayState(System.Boolean,Funique.PlayerState)
+  id: SetURLPlayState(System.Boolean,Funique.PlayerState)
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SetURLPlayState(Boolean, PlayerState)
+  nameWithType: StreamingControllerBase.SetURLPlayState(Boolean, PlayerState)
+  fullName: Funique.Streaming.StreamingControllerBase.SetURLPlayState(System.Boolean, Funique.PlayerState)
+  type: Method
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: SetURLPlayState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 51
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  summary: "\nUpdate the user interface of play state <br />\n------------------------------------------------ <br />\n更新面板狀態\n"
+  example: []
+  syntax:
+    content: public virtual void SetURLPlayState(bool status, PlayerState playerState = PlayerState.Playing)
+    parameters:
+    - id: status
+      type: System.Boolean
+      description: State
+    - id: playerState
+      type: Funique.PlayerState
+      description: Play State
+    content.vb: Public Overridable Sub SetURLPlayState(status As Boolean, playerState As PlayerState = PlayerState.Playing)
+  overload: Funique.Streaming.StreamingControllerBase.SetURLPlayState*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay
+  commentId: M:Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay
+  id: CleanStreamingDisplay
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: CleanStreamingDisplay()
+  nameWithType: StreamingControllerBase.CleanStreamingDisplay()
+  fullName: Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay()
+  type: Method
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CleanStreamingDisplay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 81
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: public void CleanStreamingDisplay()
+    content.vb: Public Sub CleanStreamingDisplay
+  overload: Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Streaming.StreamingControllerBase.UpdateGo
+  commentId: M:Funique.Streaming.StreamingControllerBase.UpdateGo
+  id: UpdateGo
+  parent: Funique.Streaming.StreamingControllerBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateGo()
+  nameWithType: StreamingControllerBase.UpdateGo()
+  fullName: Funique.Streaming.StreamingControllerBase.UpdateGo()
+  type: Method
+  source:
+    remote:
+      path: Component/StreamingControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: UpdateGo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Component/StreamingControllerBase.cs
+    startLine: 87
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Streaming
+  syntax:
+    content: protected void UpdateGo()
+    content.vb: Protected Sub UpdateGo
+  overload: Funique.Streaming.StreamingControllerBase.UpdateGo*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Funique.Streaming
+  commentId: N:Funique.Streaming
+  name: Funique.Streaming
+  nameWithType: Funique.Streaming
+  fullName: Funique.Streaming
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: UnityEngine.UI.Toggle
+  commentId: T:UnityEngine.UI.Toggle
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: UnityEngine.UI.Toggle
+- uid: UnityEngine.Sprite
+  commentId: T:UnityEngine.Sprite
+  parent: UnityEngine
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: UnityEngine.Sprite
+- uid: UnityEngine.UI.InputField
+  commentId: T:UnityEngine.UI.InputField
+  parent: UnityEngine.UI
+  isExternal: true
+  name: InputField
+  nameWithType: InputField
+  fullName: UnityEngine.UI.InputField
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine.UI.Text
+  commentId: T:UnityEngine.UI.Text
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: UnityEngine.UI.Text
+- uid: Funique.Streaming.StreamingControllerBase.CastingMode*
+  commentId: Overload:Funique.Streaming.StreamingControllerBase.CastingMode
+  name: CastingMode
+  nameWithType: StreamingControllerBase.CastingMode
+  fullName: Funique.Streaming.StreamingControllerBase.CastingMode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Streaming.StreamingControllerBase.HasContent*
+  commentId: Overload:Funique.Streaming.StreamingControllerBase.HasContent
+  name: HasContent
+  nameWithType: StreamingControllerBase.HasContent
+  fullName: Funique.Streaming.StreamingControllerBase.HasContent
+- uid: Funique.Streaming.StreamingControllerBase.SetURLPlay*
+  commentId: Overload:Funique.Streaming.StreamingControllerBase.SetURLPlay
+  name: SetURLPlay
+  nameWithType: StreamingControllerBase.SetURLPlay
+  fullName: Funique.Streaming.StreamingControllerBase.SetURLPlay
+- uid: Funique.Streaming.StreamingControllerBase.SetURLPlayState*
+  commentId: Overload:Funique.Streaming.StreamingControllerBase.SetURLPlayState
+  name: SetURLPlayState
+  nameWithType: StreamingControllerBase.SetURLPlayState
+  fullName: Funique.Streaming.StreamingControllerBase.SetURLPlayState
+- uid: Funique.PlayerState
+  commentId: T:Funique.PlayerState
+  parent: Funique
+  name: PlayerState
+  nameWithType: PlayerState
+  fullName: Funique.PlayerState
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay*
+  commentId: Overload:Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay
+  name: CleanStreamingDisplay
+  nameWithType: StreamingControllerBase.CleanStreamingDisplay
+  fullName: Funique.Streaming.StreamingControllerBase.CleanStreamingDisplay
+- uid: Funique.Streaming.StreamingControllerBase.UpdateGo*
+  commentId: Overload:Funique.Streaming.StreamingControllerBase.UpdateGo
+  name: UpdateGo
+  nameWithType: StreamingControllerBase.UpdateGo
+  fullName: Funique.Streaming.StreamingControllerBase.UpdateGo

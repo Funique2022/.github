@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.ClientAndroidManagerUtility
+  commentId: T:Funique.Manager.ClientAndroidManagerUtility
+  id: ClientAndroidManagerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.ClientAndroidManagerUtility.Initialization
+  - Funique.Manager.ClientAndroidManagerUtility.SerialNumber
+  - Funique.Manager.ClientAndroidManagerUtility.Showserialnumber
+  langs:
+  - csharp
+  - vb
+  name: ClientAndroidManagerUtility
+  nameWithType: ClientAndroidManagerUtility
+  fullName: Funique.Manager.ClientAndroidManagerUtility
+  type: Class
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: ClientAndroidManagerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+    startLine: 9
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Manager
+  syntax:
+    content: 'public class ClientAndroidManagerUtility : ManagerBase<ClientAndroidManagerData>, IDisposable, IClientAndroidUtility'
+    content.vb: >-
+      Public Class ClientAndroidManagerUtility
+
+          Inherits ManagerBase(Of ClientAndroidManagerData)
+
+          Implements IDisposable, IClientAndroidUtility
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}
+  implements:
+  - System.IDisposable
+  - Funique.Client.IClientAndroidUtility
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.config
+  - Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.RegisterConfig(Funique.Client.ClientAndroidManagerData)
+  - Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.Loaded(Funique.Client.ClientAndroidManagerData)
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.ClientAndroidManagerUtility.SerialNumber
+  commentId: P:Funique.Manager.ClientAndroidManagerUtility.SerialNumber
+  id: SerialNumber
+  parent: Funique.Manager.ClientAndroidManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: SerialNumber
+  nameWithType: ClientAndroidManagerUtility.SerialNumber
+  fullName: Funique.Manager.ClientAndroidManagerUtility.SerialNumber
+  type: Property
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: SerialNumber
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+    startLine: 11
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Manager
+  syntax:
+    content: public string SerialNumber { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SerialNumber As String
+  overload: Funique.Manager.ClientAndroidManagerUtility.SerialNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.ClientAndroidManagerUtility.Initialization
+  commentId: M:Funique.Manager.ClientAndroidManagerUtility.Initialization
+  id: Initialization
+  parent: Funique.Manager.ClientAndroidManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Initialization()
+  nameWithType: ClientAndroidManagerUtility.Initialization()
+  fullName: Funique.Manager.ClientAndroidManagerUtility.Initialization()
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Initialization
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+    startLine: 13
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Initialization()
+    content.vb: Public Overrides Sub Initialization
+  overridden: Funique.Manager.ManagerBase.Initialization
+  overload: Funique.Manager.ClientAndroidManagerUtility.Initialization*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.ClientAndroidManagerUtility.Showserialnumber
+  commentId: M:Funique.Manager.ClientAndroidManagerUtility.Showserialnumber
+  id: Showserialnumber
+  parent: Funique.Manager.ClientAndroidManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Showserialnumber()
+  nameWithType: ClientAndroidManagerUtility.Showserialnumber()
+  fullName: Funique.Manager.ClientAndroidManagerUtility.Showserialnumber()
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Showserialnumber
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/ClientAndroidManagerUtility.cs
+    startLine: 30
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Manager
+  syntax:
+    content: public void Showserialnumber()
+    content.vb: Public Sub Showserialnumber
+  overload: Funique.Manager.ClientAndroidManagerUtility.Showserialnumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<ClientAndroidManagerData>
+  nameWithType: ManagerBase<ClientAndroidManagerData>
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientAndroidManagerData>
+  nameWithType.vb: ManagerBase(Of ClientAndroidManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientAndroidManagerData)
+  name.vb: ManagerBase(Of ClientAndroidManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Client.ClientAndroidManagerData
+    name: ClientAndroidManagerData
+    nameWithType: ClientAndroidManagerData
+    fullName: Funique.Client.ClientAndroidManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Client.ClientAndroidManagerData
+    name: ClientAndroidManagerData
+    nameWithType: ClientAndroidManagerData
+    fullName: Funique.Client.ClientAndroidManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Client.IClientAndroidUtility
+  commentId: T:Funique.Client.IClientAndroidUtility
+  parent: Funique.Client
+  name: IClientAndroidUtility
+  nameWithType: IClientAndroidUtility
+  fullName: Funique.Client.IClientAndroidUtility
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<ClientAndroidManagerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientAndroidManagerData>.config
+  nameWithType.vb: ManagerBase(Of ClientAndroidManagerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientAndroidManagerData).config
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.RegisterConfig(Funique.Client.ClientAndroidManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.RegisterConfig(Funique.Client.ClientAndroidManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(ClientAndroidManagerData)
+  nameWithType: ManagerBase<ClientAndroidManagerData>.RegisterConfig(ClientAndroidManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientAndroidManagerData>.RegisterConfig(Funique.Client.ClientAndroidManagerData)
+  nameWithType.vb: ManagerBase(Of ClientAndroidManagerData).RegisterConfig(ClientAndroidManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientAndroidManagerData).RegisterConfig(Funique.Client.ClientAndroidManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<ClientAndroidManagerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Client.ClientAndroidManagerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientAndroidManagerData
+    name: ClientAndroidManagerData
+    nameWithType: ClientAndroidManagerData
+    fullName: Funique.Client.ClientAndroidManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of ClientAndroidManagerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Client.ClientAndroidManagerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientAndroidManagerData
+    name: ClientAndroidManagerData
+    nameWithType: ClientAndroidManagerData
+    fullName: Funique.Client.ClientAndroidManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.Loaded(Funique.Client.ClientAndroidManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}.Loaded(Funique.Client.ClientAndroidManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Client.ClientAndroidManagerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(ClientAndroidManagerData)
+  nameWithType: ManagerBase<ClientAndroidManagerData>.Loaded(ClientAndroidManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Client.ClientAndroidManagerData>.Loaded(Funique.Client.ClientAndroidManagerData)
+  nameWithType.vb: ManagerBase(Of ClientAndroidManagerData).Loaded(ClientAndroidManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Client.ClientAndroidManagerData).Loaded(Funique.Client.ClientAndroidManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<ClientAndroidManagerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Client.ClientAndroidManagerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientAndroidManagerData
+    name: ClientAndroidManagerData
+    nameWithType: ClientAndroidManagerData
+    fullName: Funique.Client.ClientAndroidManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of ClientAndroidManagerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Client.ClientAndroidManagerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Client.ClientAndroidManagerData
+    name: ClientAndroidManagerData
+    nameWithType: ClientAndroidManagerData
+    fullName: Funique.Client.ClientAndroidManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Client
+  commentId: N:Funique.Client
+  name: Funique.Client
+  nameWithType: Funique.Client
+  fullName: Funique.Client
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ClientAndroidManagerUtility.SerialNumber*
+  commentId: Overload:Funique.Manager.ClientAndroidManagerUtility.SerialNumber
+  name: SerialNumber
+  nameWithType: ClientAndroidManagerUtility.SerialNumber
+  fullName: Funique.Manager.ClientAndroidManagerUtility.SerialNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ClientAndroidManagerUtility.Initialization*
+  commentId: Overload:Funique.Manager.ClientAndroidManagerUtility.Initialization
+  name: Initialization
+  nameWithType: ClientAndroidManagerUtility.Initialization
+  fullName: Funique.Manager.ClientAndroidManagerUtility.Initialization
+- uid: Funique.Manager.ClientAndroidManagerUtility.Showserialnumber*
+  commentId: Overload:Funique.Manager.ClientAndroidManagerUtility.Showserialnumber
+  name: Showserialnumber
+  nameWithType: ClientAndroidManagerUtility.Showserialnumber
+  fullName: Funique.Manager.ClientAndroidManagerUtility.Showserialnumber

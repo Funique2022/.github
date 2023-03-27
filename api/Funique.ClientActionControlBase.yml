@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.ClientActionControlBase
+  commentId: T:Funique.ClientActionControlBase
+  id: ClientActionControlBase
+  parent: Funique
+  children:
+  - Funique.ClientActionControlBase.OpenAllHeadset
+  - Funique.ClientActionControlBase.RestartNginx
+  langs:
+  - csharp
+  - vb
+  name: ClientActionControlBase
+  nameWithType: ClientActionControlBase
+  fullName: Funique.ClientActionControlBase
+  type: Class
+  source:
+    remote:
+      path: Component/ClientActionControlBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: ClientActionControlBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ClientActionControlBase.cs
+    startLine: 5
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: 'public class ClientActionControlBase : MonoBehaviour'
+    content.vb: >-
+      Public Class ClientActionControlBase
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.ClientActionControlBase.OpenAllHeadset
+  commentId: F:Funique.ClientActionControlBase.OpenAllHeadset
+  id: OpenAllHeadset
+  parent: Funique.ClientActionControlBase
+  langs:
+  - csharp
+  - vb
+  name: OpenAllHeadset
+  nameWithType: ClientActionControlBase.OpenAllHeadset
+  fullName: Funique.ClientActionControlBase.OpenAllHeadset
+  type: Field
+  source:
+    remote:
+      path: Component/ClientActionControlBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OpenAllHeadset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ClientActionControlBase.cs
+    startLine: 7
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button OpenAllHeadset
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected OpenAllHeadset As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ClientActionControlBase.RestartNginx
+  commentId: F:Funique.ClientActionControlBase.RestartNginx
+  id: RestartNginx
+  parent: Funique.ClientActionControlBase
+  langs:
+  - csharp
+  - vb
+  name: RestartNginx
+  nameWithType: ClientActionControlBase.RestartNginx
+  fullName: Funique.ClientActionControlBase.RestartNginx
+  type: Field
+  source:
+    remote:
+      path: Component/ClientActionControlBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: RestartNginx
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ClientActionControlBase.cs
+    startLine: 8
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button RestartNginx
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected RestartNginx As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI

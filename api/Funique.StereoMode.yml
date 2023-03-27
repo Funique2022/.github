@@ -1,0 +1,376 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.StereoMode
+  commentId: T:Funique.StereoMode
+  id: StereoMode
+  parent: Funique
+  children:
+  - Funique.StereoMode.FUNIQUE8K
+  - Funique.StereoMode.FUNIQUELIVE
+  - Funique.StereoMode.MONO
+  - Funique.StereoMode.OBS
+  - Funique.StereoMode.THREEDH
+  - Funique.StereoMode.THREEDHDAVINCI
+  - Funique.StereoMode.THREEDHFOURDOF
+  - Funique.StereoMode.THREEDHSQUAREPLANE
+  - Funique.StereoMode.THREEDV
+  - Funique.StereoMode.Unknown
+  langs:
+  - csharp
+  - vb
+  name: StereoMode
+  nameWithType: StereoMode
+  fullName: Funique.StereoMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: StereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 5
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public enum StereoMode
+    content.vb: Public Enum StereoMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.StereoMode.Unknown
+  commentId: F:Funique.StereoMode.Unknown
+  id: Unknown
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: StereoMode.Unknown
+  fullName: Funique.StereoMode.Unknown
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Unknown
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.THREEDV
+  commentId: F:Funique.StereoMode.THREEDV
+  id: THREEDV
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: THREEDV
+  nameWithType: StereoMode.THREEDV
+  fullName: Funique.StereoMode.THREEDV
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: THREEDV
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: THREEDV = 1
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.THREEDH
+  commentId: F:Funique.StereoMode.THREEDH
+  id: THREEDH
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: THREEDH
+  nameWithType: StereoMode.THREEDH
+  fullName: Funique.StereoMode.THREEDH
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: THREEDH
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 10
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: THREEDH = 2
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.FUNIQUELIVE
+  commentId: F:Funique.StereoMode.FUNIQUELIVE
+  id: FUNIQUELIVE
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: FUNIQUELIVE
+  nameWithType: StereoMode.FUNIQUELIVE
+  fullName: Funique.StereoMode.FUNIQUELIVE
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: FUNIQUELIVE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: FUNIQUELIVE = 3
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.MONO
+  commentId: F:Funique.StereoMode.MONO
+  id: MONO
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: MONO
+  nameWithType: StereoMode.MONO
+  fullName: Funique.StereoMode.MONO
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: MONO
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 12
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: MONO = 4
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.THREEDHFOURDOF
+  commentId: F:Funique.StereoMode.THREEDHFOURDOF
+  id: THREEDHFOURDOF
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: THREEDHFOURDOF
+  nameWithType: StereoMode.THREEDHFOURDOF
+  fullName: Funique.StereoMode.THREEDHFOURDOF
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: THREEDHFOURDOF
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: THREEDHFOURDOF = 5
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.THREEDHDAVINCI
+  commentId: F:Funique.StereoMode.THREEDHDAVINCI
+  id: THREEDHDAVINCI
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: THREEDHDAVINCI
+  nameWithType: StereoMode.THREEDHDAVINCI
+  fullName: Funique.StereoMode.THREEDHDAVINCI
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: THREEDHDAVINCI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: THREEDHDAVINCI = 6
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.THREEDHSQUAREPLANE
+  commentId: F:Funique.StereoMode.THREEDHSQUAREPLANE
+  id: THREEDHSQUAREPLANE
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: THREEDHSQUAREPLANE
+  nameWithType: StereoMode.THREEDHSQUAREPLANE
+  fullName: Funique.StereoMode.THREEDHSQUAREPLANE
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: THREEDHSQUAREPLANE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: THREEDHSQUAREPLANE = 7
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.FUNIQUE8K
+  commentId: F:Funique.StereoMode.FUNIQUE8K
+  id: FUNIQUE8K
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: FUNIQUE8K
+  nameWithType: StereoMode.FUNIQUE8K
+  fullName: Funique.StereoMode.FUNIQUE8K
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: FUNIQUE8K
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 18
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: FUNIQUE8K = 8
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.StereoMode.OBS
+  commentId: F:Funique.StereoMode.OBS
+  id: OBS
+  parent: Funique.StereoMode
+  langs:
+  - csharp
+  - vb
+  name: OBS
+  nameWithType: StereoMode.OBS
+  fullName: Funique.StereoMode.OBS
+  type: Field
+  source:
+    remote:
+      path: Enum/StereoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: OBS
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/StereoMode.cs
+    startLine: 19
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: OBS = 9
+    return:
+      type: Funique.StereoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.StereoMode
+  commentId: T:Funique.StereoMode
+  parent: Funique
+  name: StereoMode
+  nameWithType: StereoMode
+  fullName: Funique.StereoMode

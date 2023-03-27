@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.PlayerMode
+  commentId: T:Funique.PlayerMode
+  id: PlayerMode
+  parent: Funique
+  children:
+  - Funique.PlayerMode.Image
+  - Funique.PlayerMode.Url
+  - Funique.PlayerMode.Video
+  langs:
+  - csharp
+  - vb
+  name: PlayerMode
+  nameWithType: PlayerMode
+  fullName: Funique.PlayerMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/PlayerMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: PlayerMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerMode.cs
+    startLine: 2
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public enum PlayerMode
+    content.vb: Public Enum PlayerMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.PlayerMode.Video
+  commentId: F:Funique.PlayerMode.Video
+  id: Video
+  parent: Funique.PlayerMode
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: PlayerMode.Video
+  fullName: Funique.PlayerMode.Video
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayerMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Video
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerMode.cs
+    startLine: 4
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Video = 0
+    return:
+      type: Funique.PlayerMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayerMode.Image
+  commentId: F:Funique.PlayerMode.Image
+  id: Image
+  parent: Funique.PlayerMode
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: PlayerMode.Image
+  fullName: Funique.PlayerMode.Image
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayerMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Image
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerMode.cs
+    startLine: 5
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Image = 1
+    return:
+      type: Funique.PlayerMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayerMode.Url
+  commentId: F:Funique.PlayerMode.Url
+  id: Url
+  parent: Funique.PlayerMode
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: PlayerMode.Url
+  fullName: Funique.PlayerMode.Url
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayerMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Url
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerMode.cs
+    startLine: 6
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Url = 2
+    return:
+      type: Funique.PlayerMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.PlayerMode
+  commentId: T:Funique.PlayerMode
+  parent: Funique
+  name: PlayerMode
+  nameWithType: PlayerMode
+  fullName: Funique.PlayerMode

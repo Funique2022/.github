@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.FuniqueLogger
+  commentId: T:Funique.FuniqueLogger
+  id: FuniqueLogger
+  parent: Funique
+  children:
+  - Funique.FuniqueLogger.AddNewLogger(Funique.ILogger)
+  - Funique.FuniqueLogger.CleanLogger
+  - Funique.FuniqueLogger.ErrorLog(System.Object,System.Int32)
+  - Funique.FuniqueLogger.ErrorLog(System.Object,System.String,System.Int32)
+  - Funique.FuniqueLogger.Init(Funique.LoggerApply)
+  - Funique.FuniqueLogger.Log(System.Object,System.Int32)
+  - Funique.FuniqueLogger.Log(System.Object,System.String,System.Int32)
+  - Funique.FuniqueLogger.WarningLog(System.Object,System.Int32)
+  - Funique.FuniqueLogger.WarningLog(System.Object,System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FuniqueLogger
+  nameWithType: FuniqueLogger
+  fullName: Funique.FuniqueLogger
+  type: Class
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: FuniqueLogger
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nFunique use logger system <br />\nUse preprocessor LogLevel[X] to change the log level <br />\n------------------------------------------------ <br />\nFunique 使用的紀錄系統 <br />\n使用前處理器 LogLevel[X] 來改變紀錄等級\n"
+  example:
+  - "\n#define LogLevel1\n#define LogLevel2\n#define LogLevel3\n"
+  syntax:
+    content: public static class FuniqueLogger
+    content.vb: Public Module FuniqueLogger
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Funique.FuniqueLogger.Init(Funique.LoggerApply)
+  commentId: M:Funique.FuniqueLogger.Init(Funique.LoggerApply)
+  id: Init(Funique.LoggerApply)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: Init(LoggerApply)
+  nameWithType: FuniqueLogger.Init(LoggerApply)
+  fullName: Funique.FuniqueLogger.Init(Funique.LoggerApply)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Init
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 39
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void Init(LoggerApply logger = LoggerApply.File)
+    parameters:
+    - id: logger
+      type: Funique.LoggerApply
+    content.vb: Public Shared Sub Init(logger As LoggerApply = LoggerApply.File)
+  overload: Funique.FuniqueLogger.Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.AddNewLogger(Funique.ILogger)
+  commentId: M:Funique.FuniqueLogger.AddNewLogger(Funique.ILogger)
+  id: AddNewLogger(Funique.ILogger)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: AddNewLogger(ILogger)
+  nameWithType: FuniqueLogger.AddNewLogger(ILogger)
+  fullName: Funique.FuniqueLogger.AddNewLogger(Funique.ILogger)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: AddNewLogger
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 45
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void AddNewLogger(ILogger logger)
+    parameters:
+    - id: logger
+      type: Funique.ILogger
+    content.vb: Public Shared Sub AddNewLogger(logger As ILogger)
+  overload: Funique.FuniqueLogger.AddNewLogger*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.CleanLogger
+  commentId: M:Funique.FuniqueLogger.CleanLogger
+  id: CleanLogger
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: CleanLogger()
+  nameWithType: FuniqueLogger.CleanLogger()
+  fullName: Funique.FuniqueLogger.CleanLogger()
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: CleanLogger
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 50
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void CleanLogger()
+    content.vb: Public Shared Sub CleanLogger
+  overload: Funique.FuniqueLogger.CleanLogger*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.Log(System.Object,System.String,System.Int32)
+  commentId: M:Funique.FuniqueLogger.Log(System.Object,System.String,System.Int32)
+  id: Log(System.Object,System.String,System.Int32)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: Log(Object, String, Int32)
+  nameWithType: FuniqueLogger.Log(Object, String, Int32)
+  fullName: Funique.FuniqueLogger.Log(System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Log
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 55
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void Log(object message, string tag, int level = 3)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Public Shared Sub Log(message As Object, tag As String, level As Integer = 3)
+  overload: Funique.FuniqueLogger.Log*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.Log(System.Object,System.Int32)
+  commentId: M:Funique.FuniqueLogger.Log(System.Object,System.Int32)
+  id: Log(System.Object,System.Int32)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: Log(Object, Int32)
+  nameWithType: FuniqueLogger.Log(Object, Int32)
+  fullName: Funique.FuniqueLogger.Log(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Log
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 59
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void Log(object message, int level = 3)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Public Shared Sub Log(message As Object, level As Integer = 3)
+  overload: Funique.FuniqueLogger.Log*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.WarningLog(System.Object,System.String,System.Int32)
+  commentId: M:Funique.FuniqueLogger.WarningLog(System.Object,System.String,System.Int32)
+  id: WarningLog(System.Object,System.String,System.Int32)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: WarningLog(Object, String, Int32)
+  nameWithType: FuniqueLogger.WarningLog(Object, String, Int32)
+  fullName: Funique.FuniqueLogger.WarningLog(System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: WarningLog
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 63
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void WarningLog(object message, string tag, int level = 3)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Public Shared Sub WarningLog(message As Object, tag As String, level As Integer = 3)
+  overload: Funique.FuniqueLogger.WarningLog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.WarningLog(System.Object,System.Int32)
+  commentId: M:Funique.FuniqueLogger.WarningLog(System.Object,System.Int32)
+  id: WarningLog(System.Object,System.Int32)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: WarningLog(Object, Int32)
+  nameWithType: FuniqueLogger.WarningLog(Object, Int32)
+  fullName: Funique.FuniqueLogger.WarningLog(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: WarningLog
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 67
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void WarningLog(object message, int level = 3)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Public Shared Sub WarningLog(message As Object, level As Integer = 3)
+  overload: Funique.FuniqueLogger.WarningLog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.ErrorLog(System.Object,System.String,System.Int32)
+  commentId: M:Funique.FuniqueLogger.ErrorLog(System.Object,System.String,System.Int32)
+  id: ErrorLog(System.Object,System.String,System.Int32)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: ErrorLog(Object, String, Int32)
+  nameWithType: FuniqueLogger.ErrorLog(Object, String, Int32)
+  fullName: Funique.FuniqueLogger.ErrorLog(System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ErrorLog
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 71
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void ErrorLog(object message, string tag, int level = 3)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Public Shared Sub ErrorLog(message As Object, tag As String, level As Integer = 3)
+  overload: Funique.FuniqueLogger.ErrorLog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.FuniqueLogger.ErrorLog(System.Object,System.Int32)
+  commentId: M:Funique.FuniqueLogger.ErrorLog(System.Object,System.Int32)
+  id: ErrorLog(System.Object,System.Int32)
+  parent: Funique.FuniqueLogger
+  langs:
+  - csharp
+  - vb
+  name: ErrorLog(Object, Int32)
+  nameWithType: FuniqueLogger.ErrorLog(Object, Int32)
+  fullName: Funique.FuniqueLogger.ErrorLog(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Logger/FuniqueLogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ErrorLog
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Logger/FuniqueLogger.cs
+    startLine: 75
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void ErrorLog(object message, int level = 3)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Public Shared Sub ErrorLog(message As Object, level As Integer = 3)
+  overload: Funique.FuniqueLogger.ErrorLog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.FuniqueLogger.Init*
+  commentId: Overload:Funique.FuniqueLogger.Init
+  name: Init
+  nameWithType: FuniqueLogger.Init
+  fullName: Funique.FuniqueLogger.Init
+- uid: Funique.LoggerApply
+  commentId: T:Funique.LoggerApply
+  parent: Funique
+  name: LoggerApply
+  nameWithType: LoggerApply
+  fullName: Funique.LoggerApply
+- uid: Funique.FuniqueLogger.AddNewLogger*
+  commentId: Overload:Funique.FuniqueLogger.AddNewLogger
+  name: AddNewLogger
+  nameWithType: FuniqueLogger.AddNewLogger
+  fullName: Funique.FuniqueLogger.AddNewLogger
+- uid: Funique.ILogger
+  commentId: T:Funique.ILogger
+  parent: Funique
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Funique.ILogger
+- uid: Funique.FuniqueLogger.CleanLogger*
+  commentId: Overload:Funique.FuniqueLogger.CleanLogger
+  name: CleanLogger
+  nameWithType: FuniqueLogger.CleanLogger
+  fullName: Funique.FuniqueLogger.CleanLogger
+- uid: Funique.FuniqueLogger.Log*
+  commentId: Overload:Funique.FuniqueLogger.Log
+  name: Log
+  nameWithType: FuniqueLogger.Log
+  fullName: Funique.FuniqueLogger.Log
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.FuniqueLogger.WarningLog*
+  commentId: Overload:Funique.FuniqueLogger.WarningLog
+  name: WarningLog
+  nameWithType: FuniqueLogger.WarningLog
+  fullName: Funique.FuniqueLogger.WarningLog
+- uid: Funique.FuniqueLogger.ErrorLog*
+  commentId: Overload:Funique.FuniqueLogger.ErrorLog
+  name: ErrorLog
+  nameWithType: FuniqueLogger.ErrorLog
+  fullName: Funique.FuniqueLogger.ErrorLog

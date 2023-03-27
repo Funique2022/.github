@@ -1,0 +1,457 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.DevMode
+  commentId: T:Funique.DevMode
+  id: DevMode
+  parent: Funique
+  children:
+  - Funique.DevMode.CheckBias
+  - Funique.DevMode.CheckBiasSetDefault
+  - Funique.DevMode.CheckBiasSetHigh
+  - Funique.DevMode.CheckBiasSetHighest
+  - Funique.DevMode.CheckBiasSetlow
+  - Funique.DevMode.CheckBiasSetLowest
+  - Funique.DevMode.TunrOff
+  - Funique.DevMode.TunrOn
+  langs:
+  - csharp
+  - vb
+  name: DevMode
+  nameWithType: DevMode
+  fullName: Funique.DevMode
+  type: Class
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: DevMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 7
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: public sealed class DevMode
+    content.vb: Public NotInheritable Class DevMode
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Funique.DevMode.TunrOn
+  commentId: M:Funique.DevMode.TunrOn
+  id: TunrOn
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: TunrOn()
+  nameWithType: DevMode.TunrOn()
+  fullName: Funique.DevMode.TunrOn()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: TunrOn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 9
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Dev/On")]
+
+      public static void TunrOn()
+    content.vb: >-
+      <MenuItem("Funique/Dev/On")>
+
+      Public Shared Sub TunrOn
+  overload: Funique.DevMode.TunrOn*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Dev/On
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.TunrOff
+  commentId: M:Funique.DevMode.TunrOff
+  id: TunrOff
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: TunrOff()
+  nameWithType: DevMode.TunrOff()
+  fullName: Funique.DevMode.TunrOff()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: TunrOff
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 15
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Dev/Off")]
+
+      public static void TunrOff()
+    content.vb: >-
+      <MenuItem("Funique/Dev/Off")>
+
+      Public Shared Sub TunrOff
+  overload: Funique.DevMode.TunrOff*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Dev/Off
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.CheckBias
+  commentId: M:Funique.DevMode.CheckBias
+  id: CheckBias
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: CheckBias()
+  nameWithType: DevMode.CheckBias()
+  fullName: Funique.DevMode.CheckBias()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: CheckBias
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 21
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Mipmap/Check")]
+
+      public static void CheckBias()
+    content.vb: >-
+      <MenuItem("Funique/Mipmap/Check")>
+
+      Public Shared Sub CheckBias
+  overload: Funique.DevMode.CheckBias*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Mipmap/Check
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.CheckBiasSetHighest
+  commentId: M:Funique.DevMode.CheckBiasSetHighest
+  id: CheckBiasSetHighest
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: CheckBiasSetHighest()
+  nameWithType: DevMode.CheckBiasSetHighest()
+  fullName: Funique.DevMode.CheckBiasSetHighest()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: CheckBiasSetHighest
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 34
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Mipmap/Set Highest")]
+
+      public static void CheckBiasSetHighest()
+    content.vb: >-
+      <MenuItem("Funique/Mipmap/Set Highest")>
+
+      Public Shared Sub CheckBiasSetHighest
+  overload: Funique.DevMode.CheckBiasSetHighest*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Mipmap/Set Highest
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.CheckBiasSetHigh
+  commentId: M:Funique.DevMode.CheckBiasSetHigh
+  id: CheckBiasSetHigh
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: CheckBiasSetHigh()
+  nameWithType: DevMode.CheckBiasSetHigh()
+  fullName: Funique.DevMode.CheckBiasSetHigh()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: CheckBiasSetHigh
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 37
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Mipmap/Set High")]
+
+      public static void CheckBiasSetHigh()
+    content.vb: >-
+      <MenuItem("Funique/Mipmap/Set High")>
+
+      Public Shared Sub CheckBiasSetHigh
+  overload: Funique.DevMode.CheckBiasSetHigh*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Mipmap/Set High
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.CheckBiasSetDefault
+  commentId: M:Funique.DevMode.CheckBiasSetDefault
+  id: CheckBiasSetDefault
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: CheckBiasSetDefault()
+  nameWithType: DevMode.CheckBiasSetDefault()
+  fullName: Funique.DevMode.CheckBiasSetDefault()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: CheckBiasSetDefault
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 40
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Mipmap/Set Default")]
+
+      public static void CheckBiasSetDefault()
+    content.vb: >-
+      <MenuItem("Funique/Mipmap/Set Default")>
+
+      Public Shared Sub CheckBiasSetDefault
+  overload: Funique.DevMode.CheckBiasSetDefault*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Mipmap/Set Default
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.CheckBiasSetlow
+  commentId: M:Funique.DevMode.CheckBiasSetlow
+  id: CheckBiasSetlow
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: CheckBiasSetlow()
+  nameWithType: DevMode.CheckBiasSetlow()
+  fullName: Funique.DevMode.CheckBiasSetlow()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: CheckBiasSetlow
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 43
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Mipmap/Set Low")]
+
+      public static void CheckBiasSetlow()
+    content.vb: >-
+      <MenuItem("Funique/Mipmap/Set Low")>
+
+      Public Shared Sub CheckBiasSetlow
+  overload: Funique.DevMode.CheckBiasSetlow*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Mipmap/Set Low
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.DevMode.CheckBiasSetLowest
+  commentId: M:Funique.DevMode.CheckBiasSetLowest
+  id: CheckBiasSetLowest
+  parent: Funique.DevMode
+  langs:
+  - csharp
+  - vb
+  name: CheckBiasSetLowest()
+  nameWithType: DevMode.CheckBiasSetLowest()
+  fullName: Funique.DevMode.CheckBiasSetLowest()
+  type: Method
+  source:
+    remote:
+      path: DevMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_designer.git
+    id: CheckBiasSetLowest
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Deisgner/DevMode.cs
+    startLine: 46
+  assemblies:
+  - Funique.Designer
+  namespace: Funique
+  syntax:
+    content: >-
+      [MenuItem("Funique/Mipmap/Set Lowest")]
+
+      public static void CheckBiasSetLowest()
+    content.vb: >-
+      <MenuItem("Funique/Mipmap/Set Lowest")>
+
+      Public Shared Sub CheckBiasSetLowest
+  overload: Funique.DevMode.CheckBiasSetLowest*
+  attributes:
+  - type: UnityEditor.MenuItem
+    ctor: UnityEditor.MenuItem.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Mipmap/Set Lowest
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.DevMode.TunrOn*
+  commentId: Overload:Funique.DevMode.TunrOn
+  name: TunrOn
+  nameWithType: DevMode.TunrOn
+  fullName: Funique.DevMode.TunrOn
+- uid: Funique.DevMode.TunrOff*
+  commentId: Overload:Funique.DevMode.TunrOff
+  name: TunrOff
+  nameWithType: DevMode.TunrOff
+  fullName: Funique.DevMode.TunrOff
+- uid: Funique.DevMode.CheckBias*
+  commentId: Overload:Funique.DevMode.CheckBias
+  name: CheckBias
+  nameWithType: DevMode.CheckBias
+  fullName: Funique.DevMode.CheckBias
+- uid: Funique.DevMode.CheckBiasSetHighest*
+  commentId: Overload:Funique.DevMode.CheckBiasSetHighest
+  name: CheckBiasSetHighest
+  nameWithType: DevMode.CheckBiasSetHighest
+  fullName: Funique.DevMode.CheckBiasSetHighest
+- uid: Funique.DevMode.CheckBiasSetHigh*
+  commentId: Overload:Funique.DevMode.CheckBiasSetHigh
+  name: CheckBiasSetHigh
+  nameWithType: DevMode.CheckBiasSetHigh
+  fullName: Funique.DevMode.CheckBiasSetHigh
+- uid: Funique.DevMode.CheckBiasSetDefault*
+  commentId: Overload:Funique.DevMode.CheckBiasSetDefault
+  name: CheckBiasSetDefault
+  nameWithType: DevMode.CheckBiasSetDefault
+  fullName: Funique.DevMode.CheckBiasSetDefault
+- uid: Funique.DevMode.CheckBiasSetlow*
+  commentId: Overload:Funique.DevMode.CheckBiasSetlow
+  name: CheckBiasSetlow
+  nameWithType: DevMode.CheckBiasSetlow
+  fullName: Funique.DevMode.CheckBiasSetlow
+- uid: Funique.DevMode.CheckBiasSetLowest*
+  commentId: Overload:Funique.DevMode.CheckBiasSetLowest
+  name: CheckBiasSetLowest
+  nameWithType: DevMode.CheckBiasSetLowest
+  fullName: Funique.DevMode.CheckBiasSetLowest

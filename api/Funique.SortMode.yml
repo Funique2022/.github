@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.SortMode
+  commentId: T:Funique.SortMode
+  id: SortMode
+  parent: Funique
+  children:
+  - Funique.SortMode.Number
+  - Funique.SortMode.Sequence
+  langs:
+  - csharp
+  - vb
+  name: SortMode
+  nameWithType: SortMode
+  fullName: Funique.SortMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/SortMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: SortMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/SortMode.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nThe display mode at the lobby view panel <br />\nThis will decide that if it should spawn fake player to fill the ID gap <br />\n------------------------------------------------ <br />\n大廳面板的顯示模式 <br />\n會決定是否生成 虛假方塊來填空 ID 缺\n"
+  example: []
+  syntax:
+    content: public enum SortMode
+    content.vb: Public Enum SortMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.SortMode.Sequence
+  commentId: F:Funique.SortMode.Sequence
+  id: Sequence
+  parent: Funique.SortMode
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: SortMode.Sequence
+  fullName: Funique.SortMode.Sequence
+  type: Field
+  source:
+    remote:
+      path: Enum/SortMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Sequence
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/SortMode.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Sequence = 0
+    return:
+      type: Funique.SortMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.SortMode.Number
+  commentId: F:Funique.SortMode.Number
+  id: Number
+  parent: Funique.SortMode
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: SortMode.Number
+  fullName: Funique.SortMode.Number
+  type: Field
+  source:
+    remote:
+      path: Enum/SortMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Number
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/SortMode.cs
+    startLine: 12
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Number = 1
+    return:
+      type: Funique.SortMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.SortMode
+  commentId: T:Funique.SortMode
+  parent: Funique
+  name: SortMode
+  nameWithType: SortMode
+  fullName: Funique.SortMode

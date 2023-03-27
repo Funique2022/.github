@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.LoggerApply
+  commentId: T:Funique.LoggerApply
+  id: LoggerApply
+  parent: Funique
+  children:
+  - Funique.LoggerApply.File
+  - Funique.LoggerApply.Unity
+  langs:
+  - csharp
+  - vb
+  name: LoggerApply
+  nameWithType: LoggerApply
+  fullName: Funique.LoggerApply
+  type: Enum
+  source:
+    remote:
+      path: Enum/LoggerApply.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: LoggerApply
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/LoggerApply.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nFunique logger worker <br />\nIn main component initialized, you can create multiple buildin logger for it <br />\n------------------------------------------------ <br />\nFunique 紀錄工作者 <br />\n在主要元件初始化時, 可以建立多個記錄工作者.\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum LoggerApply
+    content.vb: >-
+      <Flags>
+
+      Public Enum LoggerApply
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.LoggerApply.Unity
+  commentId: F:Funique.LoggerApply.Unity
+  id: Unity
+  parent: Funique.LoggerApply
+  langs:
+  - csharp
+  - vb
+  name: Unity
+  nameWithType: LoggerApply.Unity
+  fullName: Funique.LoggerApply.Unity
+  type: Field
+  source:
+    remote:
+      path: Enum/LoggerApply.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Unity
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/LoggerApply.cs
+    startLine: 19
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nBuild in unity.log <br />\n------------------------------------------------ <br />\nUnity 引擎使用的 Debug 輸出\n"
+  example: []
+  syntax:
+    content: Unity = 0
+    return:
+      type: Funique.LoggerApply
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.LoggerApply.File
+  commentId: F:Funique.LoggerApply.File
+  id: File
+  parent: Funique.LoggerApply
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: LoggerApply.File
+  fullName: Funique.LoggerApply.File
+  type: Field
+  source:
+    remote:
+      path: Enum/LoggerApply.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: File
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/LoggerApply.cs
+    startLine: 25
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nOutput streaming to streaming asset log.txt <br />\n------------------------------------------------ <br />\n輸出至串流資料夾中的 log.txt\n"
+  example: []
+  syntax:
+    content: File = 1
+    return:
+      type: Funique.LoggerApply
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.LoggerApply
+  commentId: T:Funique.LoggerApply
+  parent: Funique
+  name: LoggerApply
+  nameWithType: LoggerApply
+  fullName: Funique.LoggerApply

@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.DirectionFlag
+  commentId: T:Funique.DirectionFlag
+  id: DirectionFlag
+  parent: Funique
+  children:
+  - Funique.DirectionFlag.None
+  - Funique.DirectionFlag.X
+  - Funique.DirectionFlag.Y
+  - Funique.DirectionFlag.Z
+  langs:
+  - csharp
+  - vb
+  name: DirectionFlag
+  nameWithType: DirectionFlag
+  fullName: Funique.DirectionFlag
+  type: Enum
+  source:
+    remote:
+      path: Enum/DirectionFlag.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: DirectionFlag
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/DirectionFlag.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nFunique use for direction flag <br />\n------------------------------------------------ <br />\nFunique 使用的坐標軸 Flag\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DirectionFlag
+    content.vb: >-
+      <Flags>
+
+      Public Enum DirectionFlag
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.DirectionFlag.None
+  commentId: F:Funique.DirectionFlag.None
+  id: None
+  parent: Funique.DirectionFlag
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DirectionFlag.None
+  fullName: Funique.DirectionFlag.None
+  type: Field
+  source:
+    remote:
+      path: Enum/DirectionFlag.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: None
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/DirectionFlag.cs
+    startLine: 12
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: None = 0
+    return:
+      type: Funique.DirectionFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.DirectionFlag.X
+  commentId: F:Funique.DirectionFlag.X
+  id: X
+  parent: Funique.DirectionFlag
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: DirectionFlag.X
+  fullName: Funique.DirectionFlag.X
+  type: Field
+  source:
+    remote:
+      path: Enum/DirectionFlag.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: X
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/DirectionFlag.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: X = 1
+    return:
+      type: Funique.DirectionFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.DirectionFlag.Y
+  commentId: F:Funique.DirectionFlag.Y
+  id: Y
+  parent: Funique.DirectionFlag
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: DirectionFlag.Y
+  fullName: Funique.DirectionFlag.Y
+  type: Field
+  source:
+    remote:
+      path: Enum/DirectionFlag.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Y
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/DirectionFlag.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Y = 2
+    return:
+      type: Funique.DirectionFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.DirectionFlag.Z
+  commentId: F:Funique.DirectionFlag.Z
+  id: Z
+  parent: Funique.DirectionFlag
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: DirectionFlag.Z
+  fullName: Funique.DirectionFlag.Z
+  type: Field
+  source:
+    remote:
+      path: Enum/DirectionFlag.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Z
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/DirectionFlag.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Z = 4
+    return:
+      type: Funique.DirectionFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.DirectionFlag
+  commentId: T:Funique.DirectionFlag
+  parent: Funique
+  name: DirectionFlag
+  nameWithType: DirectionFlag
+  fullName: Funique.DirectionFlag

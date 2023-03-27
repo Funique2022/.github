@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AxisHandler2D.ValueChange
+  commentId: T:Funique.AxisHandler2D.ValueChange
+  id: AxisHandler2D.ValueChange
+  parent: Funique
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AxisHandler2D.ValueChange
+  nameWithType: AxisHandler2D.ValueChange
+  fullName: Funique.AxisHandler2D.ValueChange
+  type: Delegate
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: ValueChange
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 15
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public delegate void ValueChange(XRController controller, Vector2 value);
+    parameters:
+    - id: controller
+      type: UnityEngine.XR.Interaction.Toolkit.XRController
+    - id: value
+      type: UnityEngine.Vector2
+    content.vb: Public Delegate Sub ValueChange(controller As XRController, value As Vector2)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: UnityEngine.XR.Interaction.Toolkit.XRController
+  commentId: T:UnityEngine.XR.Interaction.Toolkit.XRController
+  parent: UnityEngine.XR.Interaction.Toolkit
+  isExternal: true
+  name: XRController
+  nameWithType: XRController
+  fullName: UnityEngine.XR.Interaction.Toolkit.XRController
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine.XR.Interaction.Toolkit
+  commentId: N:UnityEngine.XR.Interaction.Toolkit
+  isExternal: true
+  name: UnityEngine.XR.Interaction.Toolkit
+  nameWithType: UnityEngine.XR.Interaction.Toolkit
+  fullName: UnityEngine.XR.Interaction.Toolkit
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

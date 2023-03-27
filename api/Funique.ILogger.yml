@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.ILogger
+  commentId: T:Funique.ILogger
+  id: ILogger
+  parent: Funique
+  children:
+  - Funique.ILogger.Assert(System.Boolean,System.Object,System.Int32)
+  - Funique.ILogger.Assert(System.Boolean,System.Object,System.String,System.Int32)
+  - Funique.ILogger.Error(System.Object,System.Int32)
+  - Funique.ILogger.Error(System.Object,System.String,System.Int32)
+  - Funique.ILogger.Exception(System.Exception,System.Int32)
+  - Funique.ILogger.Log(System.Object,System.Int32)
+  - Funique.ILogger.Log(System.Object,System.String,System.Int32)
+  - Funique.ILogger.Warning(System.Object,System.Int32)
+  - Funique.ILogger.Warning(System.Object,System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Funique.ILogger
+  type: Interface
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ILogger
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public interface ILogger
+    content.vb: Public Interface ILogger
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.ILogger.Log(System.Object,System.String,System.Int32)
+  commentId: M:Funique.ILogger.Log(System.Object,System.String,System.Int32)
+  id: Log(System.Object,System.String,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Log(Object, String, Int32)
+  nameWithType: ILogger.Log(Object, String, Int32)
+  fullName: Funique.ILogger.Log(System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Log
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Log(object message, string tag, int level)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Sub Log(message As Object, tag As String, level As Integer)
+  overload: Funique.ILogger.Log*
+- uid: Funique.ILogger.Log(System.Object,System.Int32)
+  commentId: M:Funique.ILogger.Log(System.Object,System.Int32)
+  id: Log(System.Object,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Log(Object, Int32)
+  nameWithType: ILogger.Log(Object, Int32)
+  fullName: Funique.ILogger.Log(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Log
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 10
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Log(object message, int level)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Sub Log(message As Object, level As Integer)
+  overload: Funique.ILogger.Log*
+- uid: Funique.ILogger.Warning(System.Object,System.String,System.Int32)
+  commentId: M:Funique.ILogger.Warning(System.Object,System.String,System.Int32)
+  id: Warning(System.Object,System.String,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Warning(Object, String, Int32)
+  nameWithType: ILogger.Warning(Object, String, Int32)
+  fullName: Funique.ILogger.Warning(System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Warning
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Warning(object message, string tag, int level)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Sub Warning(message As Object, tag As String, level As Integer)
+  overload: Funique.ILogger.Warning*
+- uid: Funique.ILogger.Warning(System.Object,System.Int32)
+  commentId: M:Funique.ILogger.Warning(System.Object,System.Int32)
+  id: Warning(System.Object,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Warning(Object, Int32)
+  nameWithType: ILogger.Warning(Object, Int32)
+  fullName: Funique.ILogger.Warning(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Warning
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 12
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Warning(object message, int level)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Sub Warning(message As Object, level As Integer)
+  overload: Funique.ILogger.Warning*
+- uid: Funique.ILogger.Error(System.Object,System.String,System.Int32)
+  commentId: M:Funique.ILogger.Error(System.Object,System.String,System.Int32)
+  id: Error(System.Object,System.String,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Error(Object, String, Int32)
+  nameWithType: ILogger.Error(Object, String, Int32)
+  fullName: Funique.ILogger.Error(System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Error
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Error(object message, string tag, int level)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Sub Error(message As Object, tag As String, level As Integer)
+  overload: Funique.ILogger.Error*
+- uid: Funique.ILogger.Error(System.Object,System.Int32)
+  commentId: M:Funique.ILogger.Error(System.Object,System.Int32)
+  id: Error(System.Object,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Error(Object, Int32)
+  nameWithType: ILogger.Error(Object, Int32)
+  fullName: Funique.ILogger.Error(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Error
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Error(object message, int level)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Sub Error(message As Object, level As Integer)
+  overload: Funique.ILogger.Error*
+- uid: Funique.ILogger.Assert(System.Boolean,System.Object,System.Int32)
+  commentId: M:Funique.ILogger.Assert(System.Boolean,System.Object,System.Int32)
+  id: Assert(System.Boolean,System.Object,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Assert(Boolean, Object, Int32)
+  nameWithType: ILogger.Assert(Boolean, Object, Int32)
+  fullName: Funique.ILogger.Assert(System.Boolean, System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Assert
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Assert(bool condition, object message, int level)
+    parameters:
+    - id: condition
+      type: System.Boolean
+    - id: message
+      type: System.Object
+    - id: level
+      type: System.Int32
+    content.vb: Sub Assert(condition As Boolean, message As Object, level As Integer)
+  overload: Funique.ILogger.Assert*
+- uid: Funique.ILogger.Assert(System.Boolean,System.Object,System.String,System.Int32)
+  commentId: M:Funique.ILogger.Assert(System.Boolean,System.Object,System.String,System.Int32)
+  id: Assert(System.Boolean,System.Object,System.String,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Assert(Boolean, Object, String, Int32)
+  nameWithType: ILogger.Assert(Boolean, Object, String, Int32)
+  fullName: Funique.ILogger.Assert(System.Boolean, System.Object, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Assert
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Assert(bool condition, object message, string tag, int level)
+    parameters:
+    - id: condition
+      type: System.Boolean
+    - id: message
+      type: System.Object
+    - id: tag
+      type: System.String
+    - id: level
+      type: System.Int32
+    content.vb: Sub Assert(condition As Boolean, message As Object, tag As String, level As Integer)
+  overload: Funique.ILogger.Assert*
+- uid: Funique.ILogger.Exception(System.Exception,System.Int32)
+  commentId: M:Funique.ILogger.Exception(System.Exception,System.Int32)
+  id: Exception(System.Exception,System.Int32)
+  parent: Funique.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Exception(Exception, Int32)
+  nameWithType: ILogger.Exception(Exception, Int32)
+  fullName: Funique.ILogger.Exception(System.Exception, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Interface/ILogger.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Exception
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Interface/ILogger.cs
+    startLine: 17
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: void Exception(Exception ex, int level)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: level
+      type: System.Int32
+    content.vb: Sub Exception(ex As Exception, level As Integer)
+  overload: Funique.ILogger.Exception*
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.ILogger.Log*
+  commentId: Overload:Funique.ILogger.Log
+  name: Log
+  nameWithType: ILogger.Log
+  fullName: Funique.ILogger.Log
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.ILogger.Warning*
+  commentId: Overload:Funique.ILogger.Warning
+  name: Warning
+  nameWithType: ILogger.Warning
+  fullName: Funique.ILogger.Warning
+- uid: Funique.ILogger.Error*
+  commentId: Overload:Funique.ILogger.Error
+  name: Error
+  nameWithType: ILogger.Error
+  fullName: Funique.ILogger.Error
+- uid: Funique.ILogger.Assert*
+  commentId: Overload:Funique.ILogger.Assert
+  name: Assert
+  nameWithType: ILogger.Assert
+  fullName: Funique.ILogger.Assert
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.ILogger.Exception*
+  commentId: Overload:Funique.ILogger.Exception
+  name: Exception
+  nameWithType: ILogger.Exception
+  fullName: Funique.ILogger.Exception
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

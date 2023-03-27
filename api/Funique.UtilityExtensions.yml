@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UtilityExtensions
+  commentId: T:Funique.UtilityExtensions
+  id: UtilityExtensions
+  parent: Funique
+  children:
+  - Funique.UtilityExtensions.GetSelfIPAddress
+  - Funique.UtilityExtensions.ResetCalculation(UnityEngine.GameObject,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: UtilityExtensions
+  nameWithType: UtilityExtensions
+  fullName: Funique.UtilityExtensions
+  type: Class
+  source:
+    remote:
+      path: Extension/UtilityExtensions.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: UtilityExtensions
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Extension/UtilityExtensions.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nExtensions: Unclassified <br />\n------------------------------------------------ <br />\n擴充: 未分類\n"
+  example: []
+  syntax:
+    content: public static class UtilityExtensions
+    content.vb: Public Module UtilityExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Funique.UtilityExtensions.GetSelfIPAddress
+  commentId: M:Funique.UtilityExtensions.GetSelfIPAddress
+  id: GetSelfIPAddress
+  parent: Funique.UtilityExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSelfIPAddress()
+  nameWithType: UtilityExtensions.GetSelfIPAddress()
+  fullName: Funique.UtilityExtensions.GetSelfIPAddress()
+  type: Method
+  source:
+    remote:
+      path: Extension/UtilityExtensions.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: GetSelfIPAddress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Extension/UtilityExtensions.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static string GetSelfIPAddress()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSelfIPAddress As String
+  overload: Funique.UtilityExtensions.GetSelfIPAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.UtilityExtensions.ResetCalculation(UnityEngine.GameObject,System.Single)
+  commentId: M:Funique.UtilityExtensions.ResetCalculation(UnityEngine.GameObject,System.Single)
+  id: ResetCalculation(UnityEngine.GameObject,System.Single)
+  isExtensionMethod: true
+  parent: Funique.UtilityExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetCalculation(GameObject, Single)
+  nameWithType: UtilityExtensions.ResetCalculation(GameObject, Single)
+  fullName: Funique.UtilityExtensions.ResetCalculation(UnityEngine.GameObject, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Extension/UtilityExtensions.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ResetCalculation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Extension/UtilityExtensions.cs
+    startLine: 28
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static void ResetCalculation(this GameObject targetObj, float len)
+    parameters:
+    - id: targetObj
+      type: UnityEngine.GameObject
+    - id: len
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetCalculation(targetObj As GameObject, len As Single)
+  overload: Funique.UtilityExtensions.ResetCalculation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.UtilityExtensions.GetSelfIPAddress*
+  commentId: Overload:Funique.UtilityExtensions.GetSelfIPAddress
+  name: GetSelfIPAddress
+  nameWithType: UtilityExtensions.GetSelfIPAddress
+  fullName: Funique.UtilityExtensions.GetSelfIPAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.UtilityExtensions.ResetCalculation*
+  commentId: Overload:Funique.UtilityExtensions.ResetCalculation
+  name: ResetCalculation
+  nameWithType: UtilityExtensions.ResetCalculation
+  fullName: Funique.UtilityExtensions.ResetCalculation
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

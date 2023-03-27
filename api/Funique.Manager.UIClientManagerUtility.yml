@@ -1,0 +1,1478 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.UIClientManagerUtility
+  commentId: T:Funique.Manager.UIClientManagerUtility
+  id: UIClientManagerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.UIClientManagerUtility.ChainDict
+  - Funique.Manager.UIClientManagerUtility.CreateBtnObj(System.String)
+  - Funique.Manager.UIClientManagerUtility.CreateSliderObj(System.String)
+  - Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu
+  - Funique.Manager.UIClientManagerUtility.Loaded(Funique.UI.UIClientManagerData)
+  - Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction
+  - Funique.Manager.UIClientManagerUtility.MenuCreation
+  - Funique.Manager.UIClientManagerUtility.PairData
+  - Funique.Manager.UIClientManagerUtility.RefRightBtn
+  - Funique.Manager.UIClientManagerUtility.RefRightBtnMenu
+  - Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel
+  - Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList
+  - Funique.Manager.UIClientManagerUtility.RefRightFoldBtn
+  - Funique.Manager.UIClientManagerUtility.RefRightSlider
+  langs:
+  - csharp
+  - vb
+  name: UIClientManagerUtility
+  nameWithType: UIClientManagerUtility
+  fullName: Funique.Manager.UIClientManagerUtility
+  type: Class
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UIClientManagerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 13
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  summary: "\nClient user interface manager <br />\n------------------------------------------------ <br />\n客戶端 使用者介面 管理員\n"
+  example: []
+  syntax:
+    content: 'public class UIClientManagerUtility : ManagerBase<UIClientManagerData>, IDisposable, IUIClientUtility, IModuleBase<UIClientManagerData>'
+    content.vb: >-
+      Public Class UIClientManagerUtility
+
+          Inherits ManagerBase(Of UIClientManagerData)
+
+          Implements IDisposable, IUIClientUtility, IModuleBase(Of UIClientManagerData)
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}
+  implements:
+  - System.IDisposable
+  - Funique.UI.IUIClientUtility
+  - Funique.IModuleBase{Funique.UI.UIClientManagerData}
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.config
+  - Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.RegisterConfig(Funique.UI.UIClientManagerData)
+  - Funique.Manager.ManagerBase.Initialization
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.UIClientManagerUtility.RefRightBtnMenu
+  commentId: P:Funique.Manager.UIClientManagerUtility.RefRightBtnMenu
+  id: RefRightBtnMenu
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefRightBtnMenu
+  nameWithType: UIClientManagerUtility.RefRightBtnMenu
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightBtnMenu
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RefRightBtnMenu
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject RefRightBtnMenu { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property RefRightBtnMenu As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.RefRightBtnMenu*
+  implements:
+  - Funique.UI.IUIClientUtility.RefRightBtnMenu
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.RefRightBtn
+  commentId: P:Funique.Manager.UIClientManagerUtility.RefRightBtn
+  id: RefRightBtn
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefRightBtn
+  nameWithType: UIClientManagerUtility.RefRightBtn
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightBtn
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RefRightBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 18
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject RefRightBtn { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property RefRightBtn As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.RefRightBtn*
+  implements:
+  - Funique.UI.IUIClientUtility.RefRightBtn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.RefRightSlider
+  commentId: P:Funique.Manager.UIClientManagerUtility.RefRightSlider
+  id: RefRightSlider
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefRightSlider
+  nameWithType: UIClientManagerUtility.RefRightSlider
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightSlider
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RefRightSlider
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 19
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject RefRightSlider { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property RefRightSlider As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.RefRightSlider*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.RefRightFoldBtn
+  commentId: P:Funique.Manager.UIClientManagerUtility.RefRightFoldBtn
+  id: RefRightFoldBtn
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefRightFoldBtn
+  nameWithType: UIClientManagerUtility.RefRightFoldBtn
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightFoldBtn
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RefRightFoldBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 20
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject RefRightFoldBtn { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property RefRightFoldBtn As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.RefRightFoldBtn*
+  implements:
+  - Funique.UI.IUIClientUtility.RefRightFoldBtn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList
+  commentId: P:Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList
+  id: RefRightCinemaLabelList
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefRightCinemaLabelList
+  nameWithType: UIClientManagerUtility.RefRightCinemaLabelList
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RefRightCinemaLabelList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 21
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject RefRightCinemaLabelList { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property RefRightCinemaLabelList As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList*
+  implements:
+  - Funique.UI.IUIClientUtility.RefRightCinemaLabelList
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel
+  commentId: P:Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel
+  id: RefRightCinemaLabel
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefRightCinemaLabel
+  nameWithType: UIClientManagerUtility.RefRightCinemaLabel
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RefRightCinemaLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 22
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject RefRightCinemaLabel { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property RefRightCinemaLabel As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel*
+  implements:
+  - Funique.UI.IUIClientUtility.RefRightCinemaLabel
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction
+  commentId: P:Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction
+  id: MenuBtnClickedAction
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: MenuBtnClickedAction
+  nameWithType: UIClientManagerUtility.MenuBtnClickedAction
+  fullName: Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: MenuBtnClickedAction
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 30
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  summary: "\nAfter click right menu button will do - 只在cinemaLabelListener 有做事情\n"
+  example: []
+  syntax:
+    content: public Action MenuBtnClickedAction { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property MenuBtnClickedAction As Action
+  overload: Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.UIClientManagerUtility.PairData
+  commentId: P:Funique.Manager.UIClientManagerUtility.PairData
+  id: PairData
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: PairData
+  nameWithType: UIClientManagerUtility.PairData
+  fullName: Funique.Manager.UIClientManagerUtility.PairData
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: PairData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 31
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public Dictionary<string, ClientUIConfiguration> PairData { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Funique.UI.ClientUIConfiguration}
+    content.vb: Public ReadOnly Property PairData As Dictionary(Of String, ClientUIConfiguration)
+  overload: Funique.Manager.UIClientManagerUtility.PairData*
+  implements:
+  - Funique.UI.IUIClientUtility.PairData
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.MenuCreation
+  commentId: F:Funique.Manager.UIClientManagerUtility.MenuCreation
+  id: MenuCreation
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: MenuCreation
+  nameWithType: UIClientManagerUtility.MenuCreation
+  fullName: Funique.Manager.UIClientManagerUtility.MenuCreation
+  type: Field
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: MenuCreation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 32
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: protected Dictionary<TriggerRightMenu, Action<GameObject>[]> MenuCreation
+    return:
+      type: System.Collections.Generic.Dictionary{Funique.UI.TriggerRightMenu,System.Action{UnityEngine.GameObject}[]}
+    content.vb: Protected MenuCreation As Dictionary(Of TriggerRightMenu, Action(Of GameObject)())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.UIClientManagerUtility.ChainDict
+  commentId: P:Funique.Manager.UIClientManagerUtility.ChainDict
+  id: ChainDict
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: ChainDict
+  nameWithType: UIClientManagerUtility.ChainDict
+  fullName: Funique.Manager.UIClientManagerUtility.ChainDict
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ChainDict
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 33
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual Dictionary<RightClickMenuOption, Action<GameObject>> ChainDict { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Funique.UI.RightClickMenuOption,System.Action{UnityEngine.GameObject}}
+    content.vb: Public Overridable ReadOnly Property ChainDict As Dictionary(Of RightClickMenuOption, Action(Of GameObject))
+  overload: Funique.Manager.UIClientManagerUtility.ChainDict*
+  implements:
+  - Funique.UI.IUIClientUtility.ChainDict
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu
+  commentId: P:Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu
+  id: CurrentRightBtnMenu
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentRightBtnMenu
+  nameWithType: UIClientManagerUtility.CurrentRightBtnMenu
+  fullName: Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu
+  type: Property
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CurrentRightBtnMenu
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 37
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  summary: "\nCurrent use right menu instance <br />\n"
+  example: []
+  syntax:
+    content: protected GameObject CurrentRightBtnMenu { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Protected Property CurrentRightBtnMenu As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.UIClientManagerUtility.Loaded(Funique.UI.UIClientManagerData)
+  commentId: M:Funique.Manager.UIClientManagerUtility.Loaded(Funique.UI.UIClientManagerData)
+  id: Loaded(Funique.UI.UIClientManagerData)
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Loaded(UIClientManagerData)
+  nameWithType: UIClientManagerUtility.Loaded(UIClientManagerData)
+  fullName: Funique.Manager.UIClientManagerUtility.Loaded(Funique.UI.UIClientManagerData)
+  type: Method
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Loaded
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 39
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Loaded(UIClientManagerData Data)
+    parameters:
+    - id: Data
+      type: Funique.UI.UIClientManagerData
+    content.vb: Public Overrides Sub Loaded(Data As UIClientManagerData)
+  overridden: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.Loaded(Funique.UI.UIClientManagerData)
+  overload: Funique.Manager.UIClientManagerUtility.Loaded*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.UIClientManagerUtility.CreateBtnObj(System.String)
+  commentId: M:Funique.Manager.UIClientManagerUtility.CreateBtnObj(System.String)
+  id: CreateBtnObj(System.String)
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateBtnObj(String)
+  nameWithType: UIClientManagerUtility.CreateBtnObj(String)
+  fullName: Funique.Manager.UIClientManagerUtility.CreateBtnObj(System.String)
+  type: Method
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CreateBtnObj
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 113
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  summary: "\nCreate menu button instance\n"
+  example: []
+  syntax:
+    content: public GameObject CreateBtnObj(string title)
+    parameters:
+    - id: title
+      type: System.String
+      description: ''
+    return:
+      type: UnityEngine.GameObject
+      description: ''
+    content.vb: Public Function CreateBtnObj(title As String) As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.CreateBtnObj*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.UIClientManagerUtility.CreateSliderObj(System.String)
+  commentId: M:Funique.Manager.UIClientManagerUtility.CreateSliderObj(System.String)
+  id: CreateSliderObj(System.String)
+  parent: Funique.Manager.UIClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateSliderObj(String)
+  nameWithType: UIClientManagerUtility.CreateSliderObj(String)
+  fullName: Funique.Manager.UIClientManagerUtility.CreateSliderObj(System.String)
+  type: Method
+  source:
+    remote:
+      path: UIClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CreateSliderObj
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/UIClientManagerUtility.cs
+    startLine: 120
+  assemblies:
+  - Funique.UI
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject CreateSliderObj(string title)
+    parameters:
+    - id: title
+      type: System.String
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function CreateSliderObj(title As String) As GameObject
+  overload: Funique.Manager.UIClientManagerUtility.CreateSliderObj*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<UIClientManagerData>
+  nameWithType: ManagerBase<UIClientManagerData>
+  fullName: Funique.Manager.ManagerBase<Funique.UI.UIClientManagerData>
+  nameWithType.vb: ManagerBase(Of UIClientManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.UI.UIClientManagerData)
+  name.vb: ManagerBase(Of UIClientManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.UI.IUIClientUtility
+  commentId: T:Funique.UI.IUIClientUtility
+  parent: Funique.UI
+  name: IUIClientUtility
+  nameWithType: IUIClientUtility
+  fullName: Funique.UI.IUIClientUtility
+- uid: Funique.IModuleBase{Funique.UI.UIClientManagerData}
+  commentId: T:Funique.IModuleBase{Funique.UI.UIClientManagerData}
+  parent: Funique
+  definition: Funique.IModuleBase`1
+  name: IModuleBase<UIClientManagerData>
+  nameWithType: IModuleBase<UIClientManagerData>
+  fullName: Funique.IModuleBase<Funique.UI.UIClientManagerData>
+  nameWithType.vb: IModuleBase(Of UIClientManagerData)
+  fullName.vb: Funique.IModuleBase(Of Funique.UI.UIClientManagerData)
+  name.vb: IModuleBase(Of UIClientManagerData)
+  spec.csharp:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<UIClientManagerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.UI.UIClientManagerData>.config
+  nameWithType.vb: ManagerBase(Of UIClientManagerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.UI.UIClientManagerData).config
+- uid: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.RegisterConfig(Funique.UI.UIClientManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.RegisterConfig(Funique.UI.UIClientManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(UIClientManagerData)
+  nameWithType: ManagerBase<UIClientManagerData>.RegisterConfig(UIClientManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.UI.UIClientManagerData>.RegisterConfig(Funique.UI.UIClientManagerData)
+  nameWithType.vb: ManagerBase(Of UIClientManagerData).RegisterConfig(UIClientManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.UI.UIClientManagerData).RegisterConfig(Funique.UI.UIClientManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<UIClientManagerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.UI.UIClientManagerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of UIClientManagerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.UI.UIClientManagerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: Funique.IModuleBase`1
+  commentId: T:Funique.IModuleBase`1
+  name: IModuleBase<T>
+  nameWithType: IModuleBase<T>
+  fullName: Funique.IModuleBase<T>
+  nameWithType.vb: IModuleBase(Of T)
+  fullName.vb: Funique.IModuleBase(Of T)
+  name.vb: IModuleBase(Of T)
+  spec.csharp:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.UIClientManagerUtility.RefRightBtnMenu*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.RefRightBtnMenu
+  name: RefRightBtnMenu
+  nameWithType: UIClientManagerUtility.RefRightBtnMenu
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightBtnMenu
+- uid: Funique.UI.IUIClientUtility.RefRightBtnMenu
+  commentId: P:Funique.UI.IUIClientUtility.RefRightBtnMenu
+  parent: Funique.UI.IUIClientUtility
+  name: RefRightBtnMenu
+  nameWithType: IUIClientUtility.RefRightBtnMenu
+  fullName: Funique.UI.IUIClientUtility.RefRightBtnMenu
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.Manager.UIClientManagerUtility.RefRightBtn*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.RefRightBtn
+  name: RefRightBtn
+  nameWithType: UIClientManagerUtility.RefRightBtn
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightBtn
+- uid: Funique.UI.IUIClientUtility.RefRightBtn
+  commentId: P:Funique.UI.IUIClientUtility.RefRightBtn
+  parent: Funique.UI.IUIClientUtility
+  name: RefRightBtn
+  nameWithType: IUIClientUtility.RefRightBtn
+  fullName: Funique.UI.IUIClientUtility.RefRightBtn
+- uid: Funique.Manager.UIClientManagerUtility.RefRightSlider*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.RefRightSlider
+  name: RefRightSlider
+  nameWithType: UIClientManagerUtility.RefRightSlider
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightSlider
+- uid: Funique.Manager.UIClientManagerUtility.RefRightFoldBtn*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.RefRightFoldBtn
+  name: RefRightFoldBtn
+  nameWithType: UIClientManagerUtility.RefRightFoldBtn
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightFoldBtn
+- uid: Funique.UI.IUIClientUtility.RefRightFoldBtn
+  commentId: P:Funique.UI.IUIClientUtility.RefRightFoldBtn
+  parent: Funique.UI.IUIClientUtility
+  name: RefRightFoldBtn
+  nameWithType: IUIClientUtility.RefRightFoldBtn
+  fullName: Funique.UI.IUIClientUtility.RefRightFoldBtn
+- uid: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList
+  name: RefRightCinemaLabelList
+  nameWithType: UIClientManagerUtility.RefRightCinemaLabelList
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabelList
+- uid: Funique.UI.IUIClientUtility.RefRightCinemaLabelList
+  commentId: P:Funique.UI.IUIClientUtility.RefRightCinemaLabelList
+  parent: Funique.UI.IUIClientUtility
+  name: RefRightCinemaLabelList
+  nameWithType: IUIClientUtility.RefRightCinemaLabelList
+  fullName: Funique.UI.IUIClientUtility.RefRightCinemaLabelList
+- uid: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel
+  name: RefRightCinemaLabel
+  nameWithType: UIClientManagerUtility.RefRightCinemaLabel
+  fullName: Funique.Manager.UIClientManagerUtility.RefRightCinemaLabel
+- uid: Funique.UI.IUIClientUtility.RefRightCinemaLabel
+  commentId: P:Funique.UI.IUIClientUtility.RefRightCinemaLabel
+  parent: Funique.UI.IUIClientUtility
+  name: RefRightCinemaLabel
+  nameWithType: IUIClientUtility.RefRightCinemaLabel
+  fullName: Funique.UI.IUIClientUtility.RefRightCinemaLabel
+- uid: Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction
+  name: MenuBtnClickedAction
+  nameWithType: UIClientManagerUtility.MenuBtnClickedAction
+  fullName: Funique.Manager.UIClientManagerUtility.MenuBtnClickedAction
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Funique.Manager.UIClientManagerUtility.PairData*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.PairData
+  name: PairData
+  nameWithType: UIClientManagerUtility.PairData
+  fullName: Funique.Manager.UIClientManagerUtility.PairData
+- uid: Funique.UI.IUIClientUtility.PairData
+  commentId: P:Funique.UI.IUIClientUtility.PairData
+  parent: Funique.UI.IUIClientUtility
+  name: PairData
+  nameWithType: IUIClientUtility.PairData
+  fullName: Funique.UI.IUIClientUtility.PairData
+- uid: System.Collections.Generic.Dictionary{System.String,Funique.UI.ClientUIConfiguration}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Funique.UI.ClientUIConfiguration}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, ClientUIConfiguration>
+  nameWithType: Dictionary<String, ClientUIConfiguration>
+  fullName: System.Collections.Generic.Dictionary<System.String, Funique.UI.ClientUIConfiguration>
+  nameWithType.vb: Dictionary(Of String, ClientUIConfiguration)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Funique.UI.ClientUIConfiguration)
+  name.vb: Dictionary(Of String, ClientUIConfiguration)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.UI.ClientUIConfiguration
+    name: ClientUIConfiguration
+    nameWithType: ClientUIConfiguration
+    fullName: Funique.UI.ClientUIConfiguration
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.UI.ClientUIConfiguration
+    name: ClientUIConfiguration
+    nameWithType: ClientUIConfiguration
+    fullName: Funique.UI.ClientUIConfiguration
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary{Funique.UI.TriggerRightMenu,System.Action{UnityEngine.GameObject}[]}
+  commentId: T:System.Collections.Generic.Dictionary{Funique.UI.TriggerRightMenu,System.Action{UnityEngine.GameObject}[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<TriggerRightMenu, Action<GameObject>[]>
+  nameWithType: Dictionary<TriggerRightMenu, Action<GameObject>[]>
+  fullName: System.Collections.Generic.Dictionary<Funique.UI.TriggerRightMenu, System.Action<UnityEngine.GameObject>[]>
+  nameWithType.vb: Dictionary(Of TriggerRightMenu, Action(Of GameObject)())
+  fullName.vb: System.Collections.Generic.Dictionary(Of Funique.UI.TriggerRightMenu, System.Action(Of UnityEngine.GameObject)())
+  name.vb: Dictionary(Of TriggerRightMenu, Action(Of GameObject)())
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.UI.TriggerRightMenu
+    name: TriggerRightMenu
+    nameWithType: TriggerRightMenu
+    fullName: Funique.UI.TriggerRightMenu
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.UI.TriggerRightMenu
+    name: TriggerRightMenu
+    nameWithType: TriggerRightMenu
+    fullName: Funique.UI.TriggerRightMenu
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.UIClientManagerUtility.ChainDict*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.ChainDict
+  name: ChainDict
+  nameWithType: UIClientManagerUtility.ChainDict
+  fullName: Funique.Manager.UIClientManagerUtility.ChainDict
+- uid: Funique.UI.IUIClientUtility.ChainDict
+  commentId: P:Funique.UI.IUIClientUtility.ChainDict
+  parent: Funique.UI.IUIClientUtility
+  name: ChainDict
+  nameWithType: IUIClientUtility.ChainDict
+  fullName: Funique.UI.IUIClientUtility.ChainDict
+- uid: System.Collections.Generic.Dictionary{Funique.UI.RightClickMenuOption,System.Action{UnityEngine.GameObject}}
+  commentId: T:System.Collections.Generic.Dictionary{Funique.UI.RightClickMenuOption,System.Action{UnityEngine.GameObject}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<RightClickMenuOption, Action<GameObject>>
+  nameWithType: Dictionary<RightClickMenuOption, Action<GameObject>>
+  fullName: System.Collections.Generic.Dictionary<Funique.UI.RightClickMenuOption, System.Action<UnityEngine.GameObject>>
+  nameWithType.vb: Dictionary(Of RightClickMenuOption, Action(Of GameObject))
+  fullName.vb: System.Collections.Generic.Dictionary(Of Funique.UI.RightClickMenuOption, System.Action(Of UnityEngine.GameObject))
+  name.vb: Dictionary(Of RightClickMenuOption, Action(Of GameObject))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.UI.RightClickMenuOption
+    name: RightClickMenuOption
+    nameWithType: RightClickMenuOption
+    fullName: Funique.UI.RightClickMenuOption
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.UI.RightClickMenuOption
+    name: RightClickMenuOption
+    nameWithType: RightClickMenuOption
+    fullName: Funique.UI.RightClickMenuOption
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu
+  name: CurrentRightBtnMenu
+  nameWithType: UIClientManagerUtility.CurrentRightBtnMenu
+  fullName: Funique.Manager.UIClientManagerUtility.CurrentRightBtnMenu
+- uid: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.Loaded(Funique.UI.UIClientManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}.Loaded(Funique.UI.UIClientManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.UI.UIClientManagerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(UIClientManagerData)
+  nameWithType: ManagerBase<UIClientManagerData>.Loaded(UIClientManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.UI.UIClientManagerData>.Loaded(Funique.UI.UIClientManagerData)
+  nameWithType.vb: ManagerBase(Of UIClientManagerData).Loaded(UIClientManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.UI.UIClientManagerData).Loaded(Funique.UI.UIClientManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<UIClientManagerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.UI.UIClientManagerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of UIClientManagerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.UI.UIClientManagerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.UI.UIClientManagerData
+    name: UIClientManagerData
+    nameWithType: UIClientManagerData
+    fullName: Funique.UI.UIClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.UIClientManagerUtility.Loaded*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.Loaded
+  name: Loaded
+  nameWithType: UIClientManagerUtility.Loaded
+  fullName: Funique.Manager.UIClientManagerUtility.Loaded
+- uid: Funique.UI.UIClientManagerData
+  commentId: T:Funique.UI.UIClientManagerData
+  parent: Funique.UI
+  name: UIClientManagerData
+  nameWithType: UIClientManagerData
+  fullName: Funique.UI.UIClientManagerData
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.UIClientManagerUtility.CreateBtnObj*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.CreateBtnObj
+  name: CreateBtnObj
+  nameWithType: UIClientManagerUtility.CreateBtnObj
+  fullName: Funique.Manager.UIClientManagerUtility.CreateBtnObj
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Manager.UIClientManagerUtility.CreateSliderObj*
+  commentId: Overload:Funique.Manager.UIClientManagerUtility.CreateSliderObj
+  name: CreateSliderObj
+  nameWithType: UIClientManagerUtility.CreateSliderObj
+  fullName: Funique.Manager.UIClientManagerUtility.CreateSliderObj

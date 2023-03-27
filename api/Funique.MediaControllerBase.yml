@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.MediaControllerBase
+  commentId: T:Funique.MediaControllerBase
+  id: MediaControllerBase
+  parent: Funique
+  children:
+  - Funique.MediaControllerBase.BarValue
+  - Funique.MediaControllerBase.CurTimeText
+  - Funique.MediaControllerBase.DurationTimeText
+  - Funique.MediaControllerBase.FileName
+  - Funique.MediaControllerBase.IsSeek
+  - Funique.MediaControllerBase.SeekTime
+  - Funique.MediaControllerBase.SetTimeText(UnityEngine.UI.Text,System.Single)
+  - Funique.MediaControllerBase.TimelineBar
+  - Funique.MediaControllerBase.UpdateFileName
+  - Funique.MediaControllerBase.UpdateTimeBar
+  langs:
+  - csharp
+  - vb
+  name: MediaControllerBase
+  nameWithType: MediaControllerBase
+  fullName: Funique.MediaControllerBase
+  type: Class
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: MediaControllerBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 6
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: 'public class MediaControllerBase : MonoBehaviour'
+    content.vb: >-
+      Public Class MediaControllerBase
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.MediaControllerBase.TimelineBar
+  commentId: F:Funique.MediaControllerBase.TimelineBar
+  id: TimelineBar
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: TimelineBar
+  nameWithType: MediaControllerBase.TimelineBar
+  fullName: Funique.MediaControllerBase.TimelineBar
+  type: Field
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: TimelineBar
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 8
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Slider TimelineBar
+    return:
+      type: UnityEngine.UI.Slider
+    content.vb: >-
+      <SerializeField>
+
+      Protected TimelineBar As Slider
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.MediaControllerBase.CurTimeText
+  commentId: F:Funique.MediaControllerBase.CurTimeText
+  id: CurTimeText
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: CurTimeText
+  nameWithType: MediaControllerBase.CurTimeText
+  fullName: Funique.MediaControllerBase.CurTimeText
+  type: Field
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CurTimeText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 9
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text CurTimeText
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected CurTimeText As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.MediaControllerBase.DurationTimeText
+  commentId: F:Funique.MediaControllerBase.DurationTimeText
+  id: DurationTimeText
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: DurationTimeText
+  nameWithType: MediaControllerBase.DurationTimeText
+  fullName: Funique.MediaControllerBase.DurationTimeText
+  type: Field
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: DurationTimeText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 10
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text DurationTimeText
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected DurationTimeText As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.MediaControllerBase.FileName
+  commentId: F:Funique.MediaControllerBase.FileName
+  id: FileName
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: MediaControllerBase.FileName
+  fullName: Funique.MediaControllerBase.FileName
+  type: Field
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: FileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 11
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text FileName
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected FileName As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.MediaControllerBase.IsSeek
+  commentId: P:Funique.MediaControllerBase.IsSeek
+  id: IsSeek
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: IsSeek
+  nameWithType: MediaControllerBase.IsSeek
+  fullName: Funique.MediaControllerBase.IsSeek
+  type: Property
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: IsSeek
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 13
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public bool IsSeek { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSeek As Boolean
+  overload: Funique.MediaControllerBase.IsSeek*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaControllerBase.BarValue
+  commentId: P:Funique.MediaControllerBase.BarValue
+  id: BarValue
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: BarValue
+  nameWithType: MediaControllerBase.BarValue
+  fullName: Funique.MediaControllerBase.BarValue
+  type: Property
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: BarValue
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 14
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public float BarValue { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property BarValue As Single
+  overload: Funique.MediaControllerBase.BarValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.MediaControllerBase.SetTimeText(UnityEngine.UI.Text,System.Single)
+  commentId: M:Funique.MediaControllerBase.SetTimeText(UnityEngine.UI.Text,System.Single)
+  id: SetTimeText(UnityEngine.UI.Text,System.Single)
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SetTimeText(Text, Single)
+  nameWithType: MediaControllerBase.SetTimeText(Text, Single)
+  fullName: Funique.MediaControllerBase.SetTimeText(UnityEngine.UI.Text, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SetTimeText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 16
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public void SetTimeText(Text timeText, float value)
+    parameters:
+    - id: timeText
+      type: UnityEngine.UI.Text
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetTimeText(timeText As Text, value As Single)
+  overload: Funique.MediaControllerBase.SetTimeText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaControllerBase.UpdateFileName
+  commentId: M:Funique.MediaControllerBase.UpdateFileName
+  id: UpdateFileName
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateFileName()
+  nameWithType: MediaControllerBase.UpdateFileName()
+  fullName: Funique.MediaControllerBase.UpdateFileName()
+  type: Method
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: UpdateFileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 24
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public virtual void UpdateFileName()
+    content.vb: Public Overridable Sub UpdateFileName
+  overload: Funique.MediaControllerBase.UpdateFileName*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.MediaControllerBase.UpdateTimeBar
+  commentId: M:Funique.MediaControllerBase.UpdateTimeBar
+  id: UpdateTimeBar
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateTimeBar()
+  nameWithType: MediaControllerBase.UpdateTimeBar()
+  fullName: Funique.MediaControllerBase.UpdateTimeBar()
+  type: Method
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: UpdateTimeBar
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 25
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public virtual void UpdateTimeBar()
+    content.vb: Public Overridable Sub UpdateTimeBar
+  overload: Funique.MediaControllerBase.UpdateTimeBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.MediaControllerBase.SeekTime
+  commentId: M:Funique.MediaControllerBase.SeekTime
+  id: SeekTime
+  parent: Funique.MediaControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SeekTime()
+  nameWithType: MediaControllerBase.SeekTime()
+  fullName: Funique.MediaControllerBase.SeekTime()
+  type: Method
+  source:
+    remote:
+      path: Component/MediaControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SeekTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/MediaControllerBase.cs
+    startLine: 26
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public virtual void SeekTime()
+    content.vb: Public Overridable Sub SeekTime
+  overload: Funique.MediaControllerBase.SeekTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UI.Slider
+  commentId: T:UnityEngine.UI.Slider
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: UnityEngine.UI.Slider
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: UnityEngine.UI.Text
+  commentId: T:UnityEngine.UI.Text
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: UnityEngine.UI.Text
+- uid: Funique.MediaControllerBase.IsSeek*
+  commentId: Overload:Funique.MediaControllerBase.IsSeek
+  name: IsSeek
+  nameWithType: MediaControllerBase.IsSeek
+  fullName: Funique.MediaControllerBase.IsSeek
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.MediaControllerBase.BarValue*
+  commentId: Overload:Funique.MediaControllerBase.BarValue
+  name: BarValue
+  nameWithType: MediaControllerBase.BarValue
+  fullName: Funique.MediaControllerBase.BarValue
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.MediaControllerBase.SetTimeText*
+  commentId: Overload:Funique.MediaControllerBase.SetTimeText
+  name: SetTimeText
+  nameWithType: MediaControllerBase.SetTimeText
+  fullName: Funique.MediaControllerBase.SetTimeText
+- uid: Funique.MediaControllerBase.UpdateFileName*
+  commentId: Overload:Funique.MediaControllerBase.UpdateFileName
+  name: UpdateFileName
+  nameWithType: MediaControllerBase.UpdateFileName
+  fullName: Funique.MediaControllerBase.UpdateFileName
+- uid: Funique.MediaControllerBase.UpdateTimeBar*
+  commentId: Overload:Funique.MediaControllerBase.UpdateTimeBar
+  name: UpdateTimeBar
+  nameWithType: MediaControllerBase.UpdateTimeBar
+  fullName: Funique.MediaControllerBase.UpdateTimeBar
+- uid: Funique.MediaControllerBase.SeekTime*
+  commentId: Overload:Funique.MediaControllerBase.SeekTime
+  name: SeekTime
+  nameWithType: MediaControllerBase.SeekTime
+  fullName: Funique.MediaControllerBase.SeekTime

@@ -1,0 +1,2022 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.VerifyClientUtility
+  commentId: T:Funique.Manager.VerifyClientUtility
+  id: VerifyClientUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.VerifyClientUtility._Account
+  - Funique.Manager.VerifyClientUtility._AutoLogin
+  - Funique.Manager.VerifyClientUtility._AutoPlay
+  - Funique.Manager.VerifyClientUtility._Config
+  - Funique.Manager.VerifyClientUtility._Date
+  - Funique.Manager.VerifyClientUtility._IsAutoPlay
+  - Funique.Manager.VerifyClientUtility._Pass
+  - Funique.Manager.VerifyClientUtility._Password
+  - Funique.Manager.VerifyClientUtility._PlayList
+  - Funique.Manager.VerifyClientUtility._PlayListLoop
+  - Funique.Manager.VerifyClientUtility._SingleLoop
+  - Funique.Manager.VerifyClientUtility._UsageLimit
+  - Funique.Manager.VerifyClientUtility.ApplyLogin
+  - Funique.Manager.VerifyClientUtility.AutoPlayCall
+  - Funique.Manager.VerifyClientUtility.Buffer_Account
+  - Funique.Manager.VerifyClientUtility.Buffer_Password
+  - Funique.Manager.VerifyClientUtility.Buffer_PlayList
+  - Funique.Manager.VerifyClientUtility.CheckUsageLimit
+  - Funique.Manager.VerifyClientUtility.Countdown
+  - Funique.Manager.VerifyClientUtility.countdown_finish
+  - Funique.Manager.VerifyClientUtility.Delay
+  - Funique.Manager.VerifyClientUtility.DynamicValidation
+  - Funique.Manager.VerifyClientUtility.FuniqueSetting
+  - Funique.Manager.VerifyClientUtility.Initialization
+  - Funique.Manager.VerifyClientUtility.Loaded(Funique.Verify.VerifyClientData)
+  - Funique.Manager.VerifyClientUtility.login_now
+  - Funique.Manager.VerifyClientUtility.NowPlaying
+  - Funique.Manager.VerifyClientUtility.OnLogin
+  - Funique.Manager.VerifyClientUtility.ReloadPlaylist
+  - Funique.Manager.VerifyClientUtility.SubmitList(System.String[])
+  - Funique.Manager.VerifyClientUtility.VideoPlay
+  langs:
+  - csharp
+  - vb
+  name: VerifyClientUtility
+  nameWithType: VerifyClientUtility
+  fullName: Funique.Manager.VerifyClientUtility
+  type: Class
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: VerifyClientUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 22
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  summary: "\nCliet verify manager <br />\n------------------------------------------------ <br />\n客戶端 認證 管理員\n"
+  example: []
+  syntax:
+    content: 'public class VerifyClientUtility : ManagerBase<VerifyClientData>, IDisposable, IVerifyClientUtility, ICRM'
+    content.vb: >-
+      Public Class VerifyClientUtility
+
+          Inherits ManagerBase(Of VerifyClientData)
+
+          Implements IDisposable, IVerifyClientUtility, ICRM
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}
+  implements:
+  - System.IDisposable
+  - Funique.Verify.IVerifyClientUtility
+  - Funique.Verify.ICRM
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.config
+  - Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.RegisterConfig(Funique.Verify.VerifyClientData)
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.VerifyClientUtility.FuniqueSetting
+  commentId: F:Funique.Manager.VerifyClientUtility.FuniqueSetting
+  id: FuniqueSetting
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: FuniqueSetting
+  nameWithType: VerifyClientUtility.FuniqueSetting
+  fullName: Funique.Manager.VerifyClientUtility.FuniqueSetting
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: FuniqueSetting
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 29
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  summary: "\n<inheritdoc cref=\"T:Funique.Verify.FuniqueSetting\"></inheritdoc>\n"
+  example: []
+  syntax:
+    content: protected FuniqueSetting FuniqueSetting
+    return:
+      type: Funique.Verify.FuniqueSetting
+    content.vb: Protected FuniqueSetting As FuniqueSetting
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility.DynamicValidation
+  commentId: F:Funique.Manager.VerifyClientUtility.DynamicValidation
+  id: DynamicValidation
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: DynamicValidation
+  nameWithType: VerifyClientUtility.DynamicValidation
+  fullName: Funique.Manager.VerifyClientUtility.DynamicValidation
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: DynamicValidation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 33
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  summary: "\n<inheritdoc cref=\"T:Funique.Verify.DynamicValidation\"></inheritdoc>\n"
+  example: []
+  syntax:
+    content: protected DynamicValidation DynamicValidation
+    return:
+      type: Funique.Verify.DynamicValidation
+    content.vb: Protected DynamicValidation As DynamicValidation
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility.Buffer_PlayList
+  commentId: F:Funique.Manager.VerifyClientUtility.Buffer_PlayList
+  id: Buffer_PlayList
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Buffer_PlayList
+  nameWithType: VerifyClientUtility.Buffer_PlayList
+  fullName: Funique.Manager.VerifyClientUtility.Buffer_PlayList
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Buffer_PlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 34
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: protected string[] Buffer_PlayList
+    return:
+      type: System.String[]
+    content.vb: Protected Buffer_PlayList As String()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility._AutoLogin
+  commentId: F:Funique.Manager.VerifyClientUtility._AutoLogin
+  id: _AutoLogin
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _AutoLogin
+  nameWithType: VerifyClientUtility._AutoLogin
+  fullName: Funique.Manager.VerifyClientUtility._AutoLogin
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _AutoLogin
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 35
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: protected bool _AutoLogin
+    return:
+      type: System.Boolean
+    content.vb: Protected _AutoLogin As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility.Buffer_Account
+  commentId: F:Funique.Manager.VerifyClientUtility.Buffer_Account
+  id: Buffer_Account
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Buffer_Account
+  nameWithType: VerifyClientUtility.Buffer_Account
+  fullName: Funique.Manager.VerifyClientUtility.Buffer_Account
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Buffer_Account
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 36
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: protected string Buffer_Account
+    return:
+      type: System.String
+    content.vb: Protected Buffer_Account As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility.Buffer_Password
+  commentId: F:Funique.Manager.VerifyClientUtility.Buffer_Password
+  id: Buffer_Password
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Buffer_Password
+  nameWithType: VerifyClientUtility.Buffer_Password
+  fullName: Funique.Manager.VerifyClientUtility.Buffer_Password
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Buffer_Password
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 37
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: protected string Buffer_Password
+    return:
+      type: System.String
+    content.vb: Protected Buffer_Password As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility.countdown_finish
+  commentId: F:Funique.Manager.VerifyClientUtility.countdown_finish
+  id: countdown_finish
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: countdown_finish
+  nameWithType: VerifyClientUtility.countdown_finish
+  fullName: Funique.Manager.VerifyClientUtility.countdown_finish
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: countdown_finish
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 38
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: protected bool countdown_finish
+    return:
+      type: System.Boolean
+    content.vb: Protected countdown_finish As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility.login_now
+  commentId: F:Funique.Manager.VerifyClientUtility.login_now
+  id: login_now
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: login_now
+  nameWithType: VerifyClientUtility.login_now
+  fullName: Funique.Manager.VerifyClientUtility.login_now
+  type: Field
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: login_now
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 39
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: protected bool login_now
+    return:
+      type: System.Boolean
+    content.vb: Protected login_now As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.VerifyClientUtility._PlayList
+  commentId: P:Funique.Manager.VerifyClientUtility._PlayList
+  id: _PlayList
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _PlayList
+  nameWithType: VerifyClientUtility._PlayList
+  fullName: Funique.Manager.VerifyClientUtility._PlayList
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _PlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 46
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public string[] _PlayList { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property _PlayList As String()
+  overload: Funique.Manager.VerifyClientUtility._PlayList*
+  implements:
+  - Funique.Verify.ICRM._PlayList
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._PlayListLoop
+  commentId: P:Funique.Manager.VerifyClientUtility._PlayListLoop
+  id: _PlayListLoop
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _PlayListLoop
+  nameWithType: VerifyClientUtility._PlayListLoop
+  fullName: Funique.Manager.VerifyClientUtility._PlayListLoop
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _PlayListLoop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 47
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public bool _PlayListLoop { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property _PlayListLoop As Boolean
+  overload: Funique.Manager.VerifyClientUtility._PlayListLoop*
+  implements:
+  - Funique.Verify.ICRM._PlayListLoop
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._IsAutoPlay
+  commentId: P:Funique.Manager.VerifyClientUtility._IsAutoPlay
+  id: _IsAutoPlay
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _IsAutoPlay
+  nameWithType: VerifyClientUtility._IsAutoPlay
+  fullName: Funique.Manager.VerifyClientUtility._IsAutoPlay
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _IsAutoPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 48
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public bool _IsAutoPlay { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property _IsAutoPlay As Boolean
+  overload: Funique.Manager.VerifyClientUtility._IsAutoPlay*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._Account
+  commentId: P:Funique.Manager.VerifyClientUtility._Account
+  id: _Account
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _Account
+  nameWithType: VerifyClientUtility._Account
+  fullName: Funique.Manager.VerifyClientUtility._Account
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _Account
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 49
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public string _Account { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property _Account As String
+  overload: Funique.Manager.VerifyClientUtility._Account*
+  implements:
+  - Funique.Verify.ICRM._Account
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._Password
+  commentId: P:Funique.Manager.VerifyClientUtility._Password
+  id: _Password
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _Password
+  nameWithType: VerifyClientUtility._Password
+  fullName: Funique.Manager.VerifyClientUtility._Password
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _Password
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 50
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public string _Password { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property _Password As String
+  overload: Funique.Manager.VerifyClientUtility._Password*
+  implements:
+  - Funique.Verify.ICRM._Password
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._Date
+  commentId: P:Funique.Manager.VerifyClientUtility._Date
+  id: _Date
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _Date
+  nameWithType: VerifyClientUtility._Date
+  fullName: Funique.Manager.VerifyClientUtility._Date
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _Date
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 51
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public string _Date { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property _Date As String
+  overload: Funique.Manager.VerifyClientUtility._Date*
+  implements:
+  - Funique.Verify.ICRM._Date
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._UsageLimit
+  commentId: P:Funique.Manager.VerifyClientUtility._UsageLimit
+  id: _UsageLimit
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _UsageLimit
+  nameWithType: VerifyClientUtility._UsageLimit
+  fullName: Funique.Manager.VerifyClientUtility._UsageLimit
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _UsageLimit
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 52
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public int _UsageLimit { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property _UsageLimit As Integer
+  overload: Funique.Manager.VerifyClientUtility._UsageLimit*
+  implements:
+  - Funique.Verify.ICRM._UsageLimit
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._AutoPlay
+  commentId: P:Funique.Manager.VerifyClientUtility._AutoPlay
+  id: _AutoPlay
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _AutoPlay
+  nameWithType: VerifyClientUtility._AutoPlay
+  fullName: Funique.Manager.VerifyClientUtility._AutoPlay
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _AutoPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 53
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public bool _AutoPlay { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property _AutoPlay As Boolean
+  overload: Funique.Manager.VerifyClientUtility._AutoPlay*
+  implements:
+  - Funique.Verify.ICRM._AutoPlay
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._Pass
+  commentId: P:Funique.Manager.VerifyClientUtility._Pass
+  id: _Pass
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _Pass
+  nameWithType: VerifyClientUtility._Pass
+  fullName: Funique.Manager.VerifyClientUtility._Pass
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _Pass
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 54
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public bool _Pass { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property _Pass As Boolean
+  overload: Funique.Manager.VerifyClientUtility._Pass*
+  implements:
+  - Funique.Verify.ICRM._Pass
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._SingleLoop
+  commentId: P:Funique.Manager.VerifyClientUtility._SingleLoop
+  id: _SingleLoop
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _SingleLoop
+  nameWithType: VerifyClientUtility._SingleLoop
+  fullName: Funique.Manager.VerifyClientUtility._SingleLoop
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _SingleLoop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 55
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public bool _SingleLoop { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property _SingleLoop As Boolean
+  overload: Funique.Manager.VerifyClientUtility._SingleLoop*
+  implements:
+  - Funique.Verify.ICRM._SingleLoop
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility._Config
+  commentId: P:Funique.Manager.VerifyClientUtility._Config
+  id: _Config
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _Config
+  nameWithType: VerifyClientUtility._Config
+  fullName: Funique.Manager.VerifyClientUtility._Config
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: _Config
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 56
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public string _Config { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property _Config As String
+  overload: Funique.Manager.VerifyClientUtility._Config*
+  implements:
+  - Funique.Verify.ICRM._Config
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.VerifyClientUtility.NowPlaying
+  commentId: P:Funique.Manager.VerifyClientUtility.NowPlaying
+  id: NowPlaying
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: NowPlaying
+  nameWithType: VerifyClientUtility.NowPlaying
+  fullName: Funique.Manager.VerifyClientUtility.NowPlaying
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: NowPlaying
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 57
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public string NowPlaying { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NowPlaying As String
+  overload: Funique.Manager.VerifyClientUtility.NowPlaying*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.NowPlaying
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Manager.VerifyClientUtility.OnLogin
+  commentId: P:Funique.Manager.VerifyClientUtility.OnLogin
+  id: OnLogin
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: OnLogin
+  nameWithType: VerifyClientUtility.OnLogin
+  fullName: Funique.Manager.VerifyClientUtility.OnLogin
+  type: Property
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: OnLogin
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 58
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent OnLogin { get; protected set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public Property OnLogin As UnityEvent
+  overload: Funique.Manager.VerifyClientUtility.OnLogin*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.OnLogin
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Manager.VerifyClientUtility.Loaded(Funique.Verify.VerifyClientData)
+  commentId: M:Funique.Manager.VerifyClientUtility.Loaded(Funique.Verify.VerifyClientData)
+  id: Loaded(Funique.Verify.VerifyClientData)
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Loaded(VerifyClientData)
+  nameWithType: VerifyClientUtility.Loaded(VerifyClientData)
+  fullName: Funique.Manager.VerifyClientUtility.Loaded(Funique.Verify.VerifyClientData)
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Loaded
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 61
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Loaded(VerifyClientData Data)
+    parameters:
+    - id: Data
+      type: Funique.Verify.VerifyClientData
+    content.vb: Public Overrides Sub Loaded(Data As VerifyClientData)
+  overridden: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.Loaded(Funique.Verify.VerifyClientData)
+  overload: Funique.Manager.VerifyClientUtility.Loaded*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.VerifyClientUtility.Initialization
+  commentId: M:Funique.Manager.VerifyClientUtility.Initialization
+  id: Initialization
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Initialization()
+  nameWithType: VerifyClientUtility.Initialization()
+  fullName: Funique.Manager.VerifyClientUtility.Initialization()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Initialization
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 90
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Initialization()
+    content.vb: Public Overrides Sub Initialization
+  overridden: Funique.Manager.ManagerBase.Initialization
+  overload: Funique.Manager.VerifyClientUtility.Initialization*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.VerifyClientUtility.CheckUsageLimit
+  commentId: M:Funique.Manager.VerifyClientUtility.CheckUsageLimit
+  id: CheckUsageLimit
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: CheckUsageLimit()
+  nameWithType: VerifyClientUtility.CheckUsageLimit()
+  fullName: Funique.Manager.VerifyClientUtility.CheckUsageLimit()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: CheckUsageLimit
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 113
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual IEnumerator CheckUsageLimit()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function CheckUsageLimit As IEnumerator
+  overload: Funique.Manager.VerifyClientUtility.CheckUsageLimit*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.VerifyClientUtility.Countdown
+  commentId: M:Funique.Manager.VerifyClientUtility.Countdown
+  id: Countdown
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Countdown()
+  nameWithType: VerifyClientUtility.Countdown()
+  fullName: Funique.Manager.VerifyClientUtility.Countdown()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Countdown
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 118
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual IEnumerator Countdown()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function Countdown As IEnumerator
+  overload: Funique.Manager.VerifyClientUtility.Countdown*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.Countdown
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.VerifyClientUtility.AutoPlayCall
+  commentId: M:Funique.Manager.VerifyClientUtility.AutoPlayCall
+  id: AutoPlayCall
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: AutoPlayCall()
+  nameWithType: VerifyClientUtility.AutoPlayCall()
+  fullName: Funique.Manager.VerifyClientUtility.AutoPlayCall()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: AutoPlayCall
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 130
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void AutoPlayCall()
+    content.vb: Public Overridable Sub AutoPlayCall
+  overload: Funique.Manager.VerifyClientUtility.AutoPlayCall*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.AutoPlayCall
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.VerifyClientUtility.Delay
+  commentId: M:Funique.Manager.VerifyClientUtility.Delay
+  id: Delay
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Delay()
+  nameWithType: VerifyClientUtility.Delay()
+  fullName: Funique.Manager.VerifyClientUtility.Delay()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Delay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 142
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual IEnumerator Delay()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overridable Function Delay As IEnumerator
+  overload: Funique.Manager.VerifyClientUtility.Delay*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.Delay
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.VerifyClientUtility.VideoPlay
+  commentId: M:Funique.Manager.VerifyClientUtility.VideoPlay
+  id: VideoPlay
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: VideoPlay()
+  nameWithType: VerifyClientUtility.VideoPlay()
+  fullName: Funique.Manager.VerifyClientUtility.VideoPlay()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: VideoPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 151
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void VideoPlay()
+    content.vb: Public Overridable Sub VideoPlay
+  overload: Funique.Manager.VerifyClientUtility.VideoPlay*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.VideoPlay
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.VerifyClientUtility.ReloadPlaylist
+  commentId: M:Funique.Manager.VerifyClientUtility.ReloadPlaylist
+  id: ReloadPlaylist
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ReloadPlaylist()
+  nameWithType: VerifyClientUtility.ReloadPlaylist()
+  fullName: Funique.Manager.VerifyClientUtility.ReloadPlaylist()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: ReloadPlaylist
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 165
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void ReloadPlaylist()
+    content.vb: Public Overridable Sub ReloadPlaylist
+  overload: Funique.Manager.VerifyClientUtility.ReloadPlaylist*
+  implements:
+  - Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.VerifyClientUtility.SubmitList(System.String[])
+  commentId: M:Funique.Manager.VerifyClientUtility.SubmitList(System.String[])
+  id: SubmitList(System.String[])
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SubmitList(String[])
+  nameWithType: VerifyClientUtility.SubmitList(String[])
+  fullName: Funique.Manager.VerifyClientUtility.SubmitList(System.String[])
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: SubmitList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 176
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  summary: "\nSubmit the playlist to any container <br />\n------------------------------------------------ <br />\n送出播放清單的資訊至任何容器中\n"
+  example: []
+  syntax:
+    content: protected virtual void SubmitList(string[] list)
+    parameters:
+    - id: list
+      type: System.String[]
+      description: ''
+    content.vb: Protected Overridable Sub SubmitList(list As String())
+  overload: Funique.Manager.VerifyClientUtility.SubmitList*
+  nameWithType.vb: VerifyClientUtility.SubmitList(String())
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: Funique.Manager.VerifyClientUtility.SubmitList(System.String())
+  name.vb: SubmitList(String())
+- uid: Funique.Manager.VerifyClientUtility.ApplyLogin
+  commentId: M:Funique.Manager.VerifyClientUtility.ApplyLogin
+  id: ApplyLogin
+  parent: Funique.Manager.VerifyClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ApplyLogin()
+  nameWithType: VerifyClientUtility.ApplyLogin()
+  fullName: Funique.Manager.VerifyClientUtility.ApplyLogin()
+  type: Method
+  source:
+    remote:
+      path: VerifyClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: ApplyLogin
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/VerifyClientUtility.cs
+    startLine: 186
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Manager
+  summary: "\nApply the login state <br />\nRecord current account password pair <br />\nAnd submit the recevied playlist <br />\n------------------------------------------------ <br />\n套用登入狀態 <br />\n保存目前的帳號密碼 <br />\n保存播放清單的資訊\n"
+  example: []
+  syntax:
+    content: protected virtual void ApplyLogin()
+    content.vb: Protected Overridable Sub ApplyLogin
+  overload: Funique.Manager.VerifyClientUtility.ApplyLogin*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<VerifyClientData>
+  nameWithType: ManagerBase<VerifyClientData>
+  fullName: Funique.Manager.ManagerBase<Funique.Verify.VerifyClientData>
+  nameWithType.vb: ManagerBase(Of VerifyClientData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Verify.VerifyClientData)
+  name.vb: ManagerBase(Of VerifyClientData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Verify.VerifyClientData
+    name: VerifyClientData
+    nameWithType: VerifyClientData
+    fullName: Funique.Verify.VerifyClientData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Verify.VerifyClientData
+    name: VerifyClientData
+    nameWithType: VerifyClientData
+    fullName: Funique.Verify.VerifyClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Verify.IVerifyClientUtility
+  commentId: T:Funique.Verify.IVerifyClientUtility
+  parent: Funique.Verify
+  name: IVerifyClientUtility
+  nameWithType: IVerifyClientUtility
+  fullName: Funique.Verify.IVerifyClientUtility
+- uid: Funique.Verify.ICRM
+  commentId: T:Funique.Verify.ICRM
+  parent: Funique.Verify
+  name: ICRM
+  nameWithType: ICRM
+  fullName: Funique.Verify.ICRM
+- uid: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<VerifyClientData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Verify.VerifyClientData>.config
+  nameWithType.vb: ManagerBase(Of VerifyClientData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Verify.VerifyClientData).config
+- uid: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.RegisterConfig(Funique.Verify.VerifyClientData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.RegisterConfig(Funique.Verify.VerifyClientData)
+  parent: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(VerifyClientData)
+  nameWithType: ManagerBase<VerifyClientData>.RegisterConfig(VerifyClientData)
+  fullName: Funique.Manager.ManagerBase<Funique.Verify.VerifyClientData>.RegisterConfig(Funique.Verify.VerifyClientData)
+  nameWithType.vb: ManagerBase(Of VerifyClientData).RegisterConfig(VerifyClientData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Verify.VerifyClientData).RegisterConfig(Funique.Verify.VerifyClientData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<VerifyClientData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Verify.VerifyClientData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Verify.VerifyClientData
+    name: VerifyClientData
+    nameWithType: VerifyClientData
+    fullName: Funique.Verify.VerifyClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of VerifyClientData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Verify.VerifyClientData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Verify.VerifyClientData
+    name: VerifyClientData
+    nameWithType: VerifyClientData
+    fullName: Funique.Verify.VerifyClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Verify
+  commentId: N:Funique.Verify
+  name: Funique.Verify
+  nameWithType: Funique.Verify
+  fullName: Funique.Verify
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Verify.FuniqueSetting
+  commentId: T:Funique.Verify.FuniqueSetting
+  parent: Funique.Verify
+  name: FuniqueSetting
+  nameWithType: FuniqueSetting
+  fullName: Funique.Verify.FuniqueSetting
+- uid: Funique.Verify.DynamicValidation
+  commentId: T:Funique.Verify.DynamicValidation
+  parent: Funique.Verify
+  name: DynamicValidation
+  nameWithType: DynamicValidation
+  fullName: Funique.Verify.DynamicValidation
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Manager.VerifyClientUtility._PlayList*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._PlayList
+  name: _PlayList
+  nameWithType: VerifyClientUtility._PlayList
+  fullName: Funique.Manager.VerifyClientUtility._PlayList
+- uid: Funique.Verify.ICRM._PlayList
+  commentId: P:Funique.Verify.ICRM._PlayList
+  parent: Funique.Verify.ICRM
+  name: _PlayList
+  nameWithType: ICRM._PlayList
+  fullName: Funique.Verify.ICRM._PlayList
+- uid: Funique.Manager.VerifyClientUtility._PlayListLoop*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._PlayListLoop
+  name: _PlayListLoop
+  nameWithType: VerifyClientUtility._PlayListLoop
+  fullName: Funique.Manager.VerifyClientUtility._PlayListLoop
+- uid: Funique.Verify.ICRM._PlayListLoop
+  commentId: P:Funique.Verify.ICRM._PlayListLoop
+  parent: Funique.Verify.ICRM
+  name: _PlayListLoop
+  nameWithType: ICRM._PlayListLoop
+  fullName: Funique.Verify.ICRM._PlayListLoop
+- uid: Funique.Manager.VerifyClientUtility._IsAutoPlay*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._IsAutoPlay
+  name: _IsAutoPlay
+  nameWithType: VerifyClientUtility._IsAutoPlay
+  fullName: Funique.Manager.VerifyClientUtility._IsAutoPlay
+- uid: Funique.Manager.VerifyClientUtility._Account*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._Account
+  name: _Account
+  nameWithType: VerifyClientUtility._Account
+  fullName: Funique.Manager.VerifyClientUtility._Account
+- uid: Funique.Verify.ICRM._Account
+  commentId: P:Funique.Verify.ICRM._Account
+  parent: Funique.Verify.ICRM
+  name: _Account
+  nameWithType: ICRM._Account
+  fullName: Funique.Verify.ICRM._Account
+- uid: Funique.Manager.VerifyClientUtility._Password*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._Password
+  name: _Password
+  nameWithType: VerifyClientUtility._Password
+  fullName: Funique.Manager.VerifyClientUtility._Password
+- uid: Funique.Verify.ICRM._Password
+  commentId: P:Funique.Verify.ICRM._Password
+  parent: Funique.Verify.ICRM
+  name: _Password
+  nameWithType: ICRM._Password
+  fullName: Funique.Verify.ICRM._Password
+- uid: Funique.Manager.VerifyClientUtility._Date*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._Date
+  name: _Date
+  nameWithType: VerifyClientUtility._Date
+  fullName: Funique.Manager.VerifyClientUtility._Date
+- uid: Funique.Verify.ICRM._Date
+  commentId: P:Funique.Verify.ICRM._Date
+  parent: Funique.Verify.ICRM
+  name: _Date
+  nameWithType: ICRM._Date
+  fullName: Funique.Verify.ICRM._Date
+- uid: Funique.Manager.VerifyClientUtility._UsageLimit*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._UsageLimit
+  name: _UsageLimit
+  nameWithType: VerifyClientUtility._UsageLimit
+  fullName: Funique.Manager.VerifyClientUtility._UsageLimit
+- uid: Funique.Verify.ICRM._UsageLimit
+  commentId: P:Funique.Verify.ICRM._UsageLimit
+  parent: Funique.Verify.ICRM
+  name: _UsageLimit
+  nameWithType: ICRM._UsageLimit
+  fullName: Funique.Verify.ICRM._UsageLimit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Manager.VerifyClientUtility._AutoPlay*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._AutoPlay
+  name: _AutoPlay
+  nameWithType: VerifyClientUtility._AutoPlay
+  fullName: Funique.Manager.VerifyClientUtility._AutoPlay
+- uid: Funique.Verify.ICRM._AutoPlay
+  commentId: P:Funique.Verify.ICRM._AutoPlay
+  parent: Funique.Verify.ICRM
+  name: _AutoPlay
+  nameWithType: ICRM._AutoPlay
+  fullName: Funique.Verify.ICRM._AutoPlay
+- uid: Funique.Manager.VerifyClientUtility._Pass*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._Pass
+  name: _Pass
+  nameWithType: VerifyClientUtility._Pass
+  fullName: Funique.Manager.VerifyClientUtility._Pass
+- uid: Funique.Verify.ICRM._Pass
+  commentId: P:Funique.Verify.ICRM._Pass
+  parent: Funique.Verify.ICRM
+  name: _Pass
+  nameWithType: ICRM._Pass
+  fullName: Funique.Verify.ICRM._Pass
+- uid: Funique.Manager.VerifyClientUtility._SingleLoop*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._SingleLoop
+  name: _SingleLoop
+  nameWithType: VerifyClientUtility._SingleLoop
+  fullName: Funique.Manager.VerifyClientUtility._SingleLoop
+- uid: Funique.Verify.ICRM._SingleLoop
+  commentId: P:Funique.Verify.ICRM._SingleLoop
+  parent: Funique.Verify.ICRM
+  name: _SingleLoop
+  nameWithType: ICRM._SingleLoop
+  fullName: Funique.Verify.ICRM._SingleLoop
+- uid: Funique.Manager.VerifyClientUtility._Config*
+  commentId: Overload:Funique.Manager.VerifyClientUtility._Config
+  name: _Config
+  nameWithType: VerifyClientUtility._Config
+  fullName: Funique.Manager.VerifyClientUtility._Config
+- uid: Funique.Verify.ICRM._Config
+  commentId: P:Funique.Verify.ICRM._Config
+  parent: Funique.Verify.ICRM
+  name: _Config
+  nameWithType: ICRM._Config
+  fullName: Funique.Verify.ICRM._Config
+- uid: Funique.Manager.VerifyClientUtility.NowPlaying*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.NowPlaying
+  name: NowPlaying
+  nameWithType: VerifyClientUtility.NowPlaying
+  fullName: Funique.Manager.VerifyClientUtility.NowPlaying
+- uid: Funique.Verify.IVerifyClientUtility.NowPlaying
+  commentId: P:Funique.Verify.IVerifyClientUtility.NowPlaying
+  parent: Funique.Verify.IVerifyClientUtility
+  name: NowPlaying
+  nameWithType: IVerifyClientUtility.NowPlaying
+  fullName: Funique.Verify.IVerifyClientUtility.NowPlaying
+- uid: Funique.Manager.VerifyClientUtility.OnLogin*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.OnLogin
+  name: OnLogin
+  nameWithType: VerifyClientUtility.OnLogin
+  fullName: Funique.Manager.VerifyClientUtility.OnLogin
+- uid: Funique.Verify.IVerifyClientUtility.OnLogin
+  commentId: P:Funique.Verify.IVerifyClientUtility.OnLogin
+  parent: Funique.Verify.IVerifyClientUtility
+  name: OnLogin
+  nameWithType: IVerifyClientUtility.OnLogin
+  fullName: Funique.Verify.IVerifyClientUtility.OnLogin
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+- uid: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.Loaded(Funique.Verify.VerifyClientData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}.Loaded(Funique.Verify.VerifyClientData)
+  parent: Funique.Manager.ManagerBase{Funique.Verify.VerifyClientData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(VerifyClientData)
+  nameWithType: ManagerBase<VerifyClientData>.Loaded(VerifyClientData)
+  fullName: Funique.Manager.ManagerBase<Funique.Verify.VerifyClientData>.Loaded(Funique.Verify.VerifyClientData)
+  nameWithType.vb: ManagerBase(Of VerifyClientData).Loaded(VerifyClientData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Verify.VerifyClientData).Loaded(Funique.Verify.VerifyClientData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<VerifyClientData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Verify.VerifyClientData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Verify.VerifyClientData
+    name: VerifyClientData
+    nameWithType: VerifyClientData
+    fullName: Funique.Verify.VerifyClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of VerifyClientData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Verify.VerifyClientData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Verify.VerifyClientData
+    name: VerifyClientData
+    nameWithType: VerifyClientData
+    fullName: Funique.Verify.VerifyClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.Loaded*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.Loaded
+  name: Loaded
+  nameWithType: VerifyClientUtility.Loaded
+  fullName: Funique.Manager.VerifyClientUtility.Loaded
+- uid: Funique.Verify.VerifyClientData
+  commentId: T:Funique.Verify.VerifyClientData
+  parent: Funique.Verify
+  name: VerifyClientData
+  nameWithType: VerifyClientData
+  fullName: Funique.Verify.VerifyClientData
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.Initialization*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.Initialization
+  name: Initialization
+  nameWithType: VerifyClientUtility.Initialization
+  fullName: Funique.Manager.VerifyClientUtility.Initialization
+- uid: Funique.Manager.VerifyClientUtility.CheckUsageLimit*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.CheckUsageLimit
+  name: CheckUsageLimit
+  nameWithType: VerifyClientUtility.CheckUsageLimit
+  fullName: Funique.Manager.VerifyClientUtility.CheckUsageLimit
+- uid: Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+  commentId: M:Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+  parent: Funique.Verify.IVerifyClientUtility
+  name: CheckUsageLimit()
+  nameWithType: IVerifyClientUtility.CheckUsageLimit()
+  fullName: Funique.Verify.IVerifyClientUtility.CheckUsageLimit()
+  spec.csharp:
+  - uid: Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+    name: CheckUsageLimit
+    nameWithType: IVerifyClientUtility.CheckUsageLimit
+    fullName: Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+    name: CheckUsageLimit
+    nameWithType: IVerifyClientUtility.CheckUsageLimit
+    fullName: Funique.Verify.IVerifyClientUtility.CheckUsageLimit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Funique.Manager.VerifyClientUtility.Countdown*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.Countdown
+  name: Countdown
+  nameWithType: VerifyClientUtility.Countdown
+  fullName: Funique.Manager.VerifyClientUtility.Countdown
+- uid: Funique.Verify.IVerifyClientUtility.Countdown
+  commentId: M:Funique.Verify.IVerifyClientUtility.Countdown
+  parent: Funique.Verify.IVerifyClientUtility
+  name: Countdown()
+  nameWithType: IVerifyClientUtility.Countdown()
+  fullName: Funique.Verify.IVerifyClientUtility.Countdown()
+  spec.csharp:
+  - uid: Funique.Verify.IVerifyClientUtility.Countdown
+    name: Countdown
+    nameWithType: IVerifyClientUtility.Countdown
+    fullName: Funique.Verify.IVerifyClientUtility.Countdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Verify.IVerifyClientUtility.Countdown
+    name: Countdown
+    nameWithType: IVerifyClientUtility.Countdown
+    fullName: Funique.Verify.IVerifyClientUtility.Countdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.AutoPlayCall*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.AutoPlayCall
+  name: AutoPlayCall
+  nameWithType: VerifyClientUtility.AutoPlayCall
+  fullName: Funique.Manager.VerifyClientUtility.AutoPlayCall
+- uid: Funique.Verify.IVerifyClientUtility.AutoPlayCall
+  commentId: M:Funique.Verify.IVerifyClientUtility.AutoPlayCall
+  parent: Funique.Verify.IVerifyClientUtility
+  name: AutoPlayCall()
+  nameWithType: IVerifyClientUtility.AutoPlayCall()
+  fullName: Funique.Verify.IVerifyClientUtility.AutoPlayCall()
+  spec.csharp:
+  - uid: Funique.Verify.IVerifyClientUtility.AutoPlayCall
+    name: AutoPlayCall
+    nameWithType: IVerifyClientUtility.AutoPlayCall
+    fullName: Funique.Verify.IVerifyClientUtility.AutoPlayCall
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Verify.IVerifyClientUtility.AutoPlayCall
+    name: AutoPlayCall
+    nameWithType: IVerifyClientUtility.AutoPlayCall
+    fullName: Funique.Verify.IVerifyClientUtility.AutoPlayCall
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.Delay*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.Delay
+  name: Delay
+  nameWithType: VerifyClientUtility.Delay
+  fullName: Funique.Manager.VerifyClientUtility.Delay
+- uid: Funique.Verify.IVerifyClientUtility.Delay
+  commentId: M:Funique.Verify.IVerifyClientUtility.Delay
+  parent: Funique.Verify.IVerifyClientUtility
+  name: Delay()
+  nameWithType: IVerifyClientUtility.Delay()
+  fullName: Funique.Verify.IVerifyClientUtility.Delay()
+  spec.csharp:
+  - uid: Funique.Verify.IVerifyClientUtility.Delay
+    name: Delay
+    nameWithType: IVerifyClientUtility.Delay
+    fullName: Funique.Verify.IVerifyClientUtility.Delay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Verify.IVerifyClientUtility.Delay
+    name: Delay
+    nameWithType: IVerifyClientUtility.Delay
+    fullName: Funique.Verify.IVerifyClientUtility.Delay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.VideoPlay*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.VideoPlay
+  name: VideoPlay
+  nameWithType: VerifyClientUtility.VideoPlay
+  fullName: Funique.Manager.VerifyClientUtility.VideoPlay
+- uid: Funique.Verify.IVerifyClientUtility.VideoPlay
+  commentId: M:Funique.Verify.IVerifyClientUtility.VideoPlay
+  parent: Funique.Verify.IVerifyClientUtility
+  name: VideoPlay()
+  nameWithType: IVerifyClientUtility.VideoPlay()
+  fullName: Funique.Verify.IVerifyClientUtility.VideoPlay()
+  spec.csharp:
+  - uid: Funique.Verify.IVerifyClientUtility.VideoPlay
+    name: VideoPlay
+    nameWithType: IVerifyClientUtility.VideoPlay
+    fullName: Funique.Verify.IVerifyClientUtility.VideoPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Verify.IVerifyClientUtility.VideoPlay
+    name: VideoPlay
+    nameWithType: IVerifyClientUtility.VideoPlay
+    fullName: Funique.Verify.IVerifyClientUtility.VideoPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.ReloadPlaylist*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.ReloadPlaylist
+  name: ReloadPlaylist
+  nameWithType: VerifyClientUtility.ReloadPlaylist
+  fullName: Funique.Manager.VerifyClientUtility.ReloadPlaylist
+- uid: Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+  commentId: M:Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+  parent: Funique.Verify.IVerifyClientUtility
+  name: ReloadPlaylist()
+  nameWithType: IVerifyClientUtility.ReloadPlaylist()
+  fullName: Funique.Verify.IVerifyClientUtility.ReloadPlaylist()
+  spec.csharp:
+  - uid: Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+    name: ReloadPlaylist
+    nameWithType: IVerifyClientUtility.ReloadPlaylist
+    fullName: Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+    name: ReloadPlaylist
+    nameWithType: IVerifyClientUtility.ReloadPlaylist
+    fullName: Funique.Verify.IVerifyClientUtility.ReloadPlaylist
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.VerifyClientUtility.SubmitList*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.SubmitList
+  name: SubmitList
+  nameWithType: VerifyClientUtility.SubmitList
+  fullName: Funique.Manager.VerifyClientUtility.SubmitList
+- uid: Funique.Manager.VerifyClientUtility.ApplyLogin*
+  commentId: Overload:Funique.Manager.VerifyClientUtility.ApplyLogin
+  name: ApplyLogin
+  nameWithType: VerifyClientUtility.ApplyLogin
+  fullName: Funique.Manager.VerifyClientUtility.ApplyLogin

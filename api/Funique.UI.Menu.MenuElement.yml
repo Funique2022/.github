@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.Menu.MenuElement
+  commentId: T:Funique.UI.Menu.MenuElement
+  id: MenuElement
+  parent: Funique.UI.Menu
+  children:
+  - Funique.UI.Menu.MenuElement.#ctor(Funique.UI.Menu.UIBase)
+  - Funique.UI.Menu.MenuElement.element
+  langs:
+  - csharp
+  - vb
+  name: MenuElement
+  nameWithType: MenuElement
+  fullName: Funique.UI.Menu.MenuElement
+  type: Class
+  source:
+    remote:
+      path: Base/MenuTree.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: MenuElement
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/MenuTree.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: public sealed class MenuElement
+    content.vb: Public NotInheritable Class MenuElement
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Funique.UI.Menu.MenuElement.element
+  commentId: P:Funique.UI.Menu.MenuElement.element
+  id: element
+  parent: Funique.UI.Menu.MenuElement
+  langs:
+  - csharp
+  - vb
+  name: element
+  nameWithType: MenuElement.element
+  fullName: Funique.UI.Menu.MenuElement.element
+  type: Property
+  source:
+    remote:
+      path: Base/MenuTree.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: element
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/MenuTree.cs
+    startLine: 19
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: public UIBase element { get; }
+    parameters: []
+    return:
+      type: Funique.UI.Menu.UIBase
+    content.vb: Public ReadOnly Property element As UIBase
+  overload: Funique.UI.Menu.MenuElement.element*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.UI.Menu.MenuElement.#ctor(Funique.UI.Menu.UIBase)
+  commentId: M:Funique.UI.Menu.MenuElement.#ctor(Funique.UI.Menu.UIBase)
+  id: '#ctor(Funique.UI.Menu.UIBase)'
+  parent: Funique.UI.Menu.MenuElement
+  langs:
+  - csharp
+  - vb
+  name: MenuElement(UIBase)
+  nameWithType: MenuElement.MenuElement(UIBase)
+  fullName: Funique.UI.Menu.MenuElement.MenuElement(Funique.UI.Menu.UIBase)
+  type: Constructor
+  source:
+    remote:
+      path: Base/MenuTree.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/MenuTree.cs
+    startLine: 22
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: public MenuElement(UIBase element)
+    parameters:
+    - id: element
+      type: Funique.UI.Menu.UIBase
+    content.vb: Public Sub New(element As UIBase)
+  overload: Funique.UI.Menu.MenuElement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.UI.Menu
+  commentId: N:Funique.UI.Menu
+  name: Funique.UI.Menu
+  nameWithType: Funique.UI.Menu
+  fullName: Funique.UI.Menu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.UI.Menu.MenuElement.element*
+  commentId: Overload:Funique.UI.Menu.MenuElement.element
+  name: element
+  nameWithType: MenuElement.element
+  fullName: Funique.UI.Menu.MenuElement.element
+- uid: Funique.UI.Menu.UIBase
+  commentId: T:Funique.UI.Menu.UIBase
+  parent: Funique.UI.Menu
+  name: UIBase
+  nameWithType: UIBase
+  fullName: Funique.UI.Menu.UIBase
+- uid: Funique.UI.Menu.MenuElement.#ctor*
+  commentId: Overload:Funique.UI.Menu.MenuElement.#ctor
+  name: MenuElement
+  nameWithType: MenuElement.MenuElement
+  fullName: Funique.UI.Menu.MenuElement.MenuElement

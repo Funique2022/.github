@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AxisHandler2D.Axis
+  commentId: T:Funique.AxisHandler2D.Axis
+  id: AxisHandler2D.Axis
+  parent: Funique
+  children:
+  - Funique.AxisHandler2D.Axis.None
+  - Funique.AxisHandler2D.Axis.Primary2DAxis
+  - Funique.AxisHandler2D.Axis.Secondary2DAxis
+  langs:
+  - csharp
+  - vb
+  name: AxisHandler2D.Axis
+  nameWithType: AxisHandler2D.Axis
+  fullName: Funique.AxisHandler2D.Axis
+  type: Enum
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Axis
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 9
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public enum Axis
+    content.vb: Public Enum Axis
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.AxisHandler2D.Axis.None
+  commentId: F:Funique.AxisHandler2D.Axis.None
+  id: None
+  parent: Funique.AxisHandler2D.Axis
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AxisHandler2D.Axis.None
+  fullName: Funique.AxisHandler2D.Axis.None
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: None
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 11
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: None = 0
+    return:
+      type: Funique.AxisHandler2D.Axis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.AxisHandler2D.Axis.Primary2DAxis
+  commentId: F:Funique.AxisHandler2D.Axis.Primary2DAxis
+  id: Primary2DAxis
+  parent: Funique.AxisHandler2D.Axis
+  langs:
+  - csharp
+  - vb
+  name: Primary2DAxis
+  nameWithType: AxisHandler2D.Axis.Primary2DAxis
+  fullName: Funique.AxisHandler2D.Axis.Primary2DAxis
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Primary2DAxis
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 12
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: Primary2DAxis = 1
+    return:
+      type: Funique.AxisHandler2D.Axis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.AxisHandler2D.Axis.Secondary2DAxis
+  commentId: F:Funique.AxisHandler2D.Axis.Secondary2DAxis
+  id: Secondary2DAxis
+  parent: Funique.AxisHandler2D.Axis
+  langs:
+  - csharp
+  - vb
+  name: Secondary2DAxis
+  nameWithType: AxisHandler2D.Axis.Secondary2DAxis
+  fullName: Funique.AxisHandler2D.Axis.Secondary2DAxis
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Secondary2DAxis
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 13
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: Secondary2DAxis = 2
+    return:
+      type: Funique.AxisHandler2D.Axis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.AxisHandler2D.Axis
+  commentId: T:Funique.AxisHandler2D.Axis
+  parent: Funique
+  name: AxisHandler2D.Axis
+  nameWithType: AxisHandler2D.Axis
+  fullName: Funique.AxisHandler2D.Axis

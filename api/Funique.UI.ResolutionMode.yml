@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.ResolutionMode
+  commentId: T:Funique.UI.ResolutionMode
+  id: ResolutionMode
+  parent: Funique.UI
+  children:
+  - Funique.UI.ResolutionMode.None
+  - Funique.UI.ResolutionMode.PerLine
+  - Funique.UI.ResolutionMode.PerSegment
+  langs:
+  - csharp
+  - vb
+  name: ResolutionMode
+  nameWithType: ResolutionMode
+  fullName: Funique.UI.ResolutionMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/ResolutionMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ResolutionMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/ResolutionMode.cs
+    startLine: 7
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nResolution analysis mode <br />\n------------------------------------------------ <br />\n解析度分析模式 \n"
+  example: []
+  syntax:
+    content: public enum ResolutionMode
+    content.vb: Public Enum ResolutionMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.UI.ResolutionMode.None
+  commentId: F:Funique.UI.ResolutionMode.None
+  id: None
+  parent: Funique.UI.ResolutionMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ResolutionMode.None
+  fullName: Funique.UI.ResolutionMode.None
+  type: Field
+  source:
+    remote:
+      path: Enum/ResolutionMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: None
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/ResolutionMode.cs
+    startLine: 9
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: None = 0
+    return:
+      type: Funique.UI.ResolutionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.ResolutionMode.PerSegment
+  commentId: F:Funique.UI.ResolutionMode.PerSegment
+  id: PerSegment
+  parent: Funique.UI.ResolutionMode
+  langs:
+  - csharp
+  - vb
+  name: PerSegment
+  nameWithType: ResolutionMode.PerSegment
+  fullName: Funique.UI.ResolutionMode.PerSegment
+  type: Field
+  source:
+    remote:
+      path: Enum/ResolutionMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: PerSegment
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/ResolutionMode.cs
+    startLine: 10
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: PerSegment = 1
+    return:
+      type: Funique.UI.ResolutionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.ResolutionMode.PerLine
+  commentId: F:Funique.UI.ResolutionMode.PerLine
+  id: PerLine
+  parent: Funique.UI.ResolutionMode
+  langs:
+  - csharp
+  - vb
+  name: PerLine
+  nameWithType: ResolutionMode.PerLine
+  fullName: Funique.UI.ResolutionMode.PerLine
+  type: Field
+  source:
+    remote:
+      path: Enum/ResolutionMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: PerLine
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/ResolutionMode.cs
+    startLine: 11
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: PerLine = 2
+    return:
+      type: Funique.UI.ResolutionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: Funique.UI.ResolutionMode
+  commentId: T:Funique.UI.ResolutionMode
+  parent: Funique.UI
+  name: ResolutionMode
+  nameWithType: ResolutionMode
+  fullName: Funique.UI.ResolutionMode

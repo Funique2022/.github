@@ -1,0 +1,966 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.UIClientManagerData
+  commentId: T:Funique.UI.UIClientManagerData
+  id: UIClientManagerData
+  parent: Funique.UI
+  children:
+  - Funique.UI.UIClientManagerData.HomeMenuUI
+  - Funique.UI.UIClientManagerData.MasterUI
+  - Funique.UI.UIClientManagerData.Patterns
+  - Funique.UI.UIClientManagerData.PlayListUI
+  - Funique.UI.UIClientManagerData.RightMenuSetting
+  - Funique.UI.UIClientManagerData.RightPanel_Default_Dropdown
+  - Funique.UI.UIClientManagerData.RightPanel_Default_Extend
+  - Funique.UI.UIClientManagerData.RightPanel_Extend_Off
+  - Funique.UI.UIClientManagerData.RightPanel_Extend_On
+  - Funique.UI.UIClientManagerData.SettingUI
+  - Funique.UI.UIClientManagerData.TimeLineUI
+  - Funique.UI.UIClientManagerData.ToolbarIcon
+  - Funique.UI.UIClientManagerData.UI_Method
+  - Funique.UI.UIClientManagerData.Use_RightClickMenu
+  - Funique.UI.UIClientManagerData.WarningIcon
+  - Funique.UI.UIClientManagerData.ZoomSlider
+  langs:
+  - csharp
+  - vb
+  name: UIClientManagerData
+  nameWithType: UIClientManagerData
+  fullName: Funique.UI.UIClientManagerData
+  type: Struct
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UIClientManagerData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 4
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct UIClientManagerData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure UIClientManagerData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.UI.UIClientManagerData.ZoomSlider
+  commentId: F:Funique.UI.UIClientManagerData.ZoomSlider
+  id: ZoomSlider
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: ZoomSlider
+  nameWithType: UIClientManagerData.ZoomSlider
+  fullName: Funique.UI.UIClientManagerData.ZoomSlider
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ZoomSlider
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 8
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Header("Register Component")]
+
+      [SerializeField]
+
+      public RectTransform ZoomSlider
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <Header("Register Component")>
+
+      <SerializeField>
+
+      Public ZoomSlider As RectTransform
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Register Component
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.HomeMenuUI
+  commentId: F:Funique.UI.UIClientManagerData.HomeMenuUI
+  id: HomeMenuUI
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: HomeMenuUI
+  nameWithType: UIClientManagerData.HomeMenuUI
+  fullName: Funique.UI.UIClientManagerData.HomeMenuUI
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: HomeMenuUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 9
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public RectTransform HomeMenuUI
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Public HomeMenuUI As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.PlayListUI
+  commentId: F:Funique.UI.UIClientManagerData.PlayListUI
+  id: PlayListUI
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: PlayListUI
+  nameWithType: UIClientManagerData.PlayListUI
+  fullName: Funique.UI.UIClientManagerData.PlayListUI
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: PlayListUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 10
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public RectTransform PlayListUI
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Public PlayListUI As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.TimeLineUI
+  commentId: F:Funique.UI.UIClientManagerData.TimeLineUI
+  id: TimeLineUI
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: TimeLineUI
+  nameWithType: UIClientManagerData.TimeLineUI
+  fullName: Funique.UI.UIClientManagerData.TimeLineUI
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: TimeLineUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 11
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public RectTransform TimeLineUI
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Public TimeLineUI As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.SettingUI
+  commentId: F:Funique.UI.UIClientManagerData.SettingUI
+  id: SettingUI
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: SettingUI
+  nameWithType: UIClientManagerData.SettingUI
+  fullName: Funique.UI.UIClientManagerData.SettingUI
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SettingUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 12
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public RectTransform SettingUI
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Public SettingUI As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.WarningIcon
+  commentId: F:Funique.UI.UIClientManagerData.WarningIcon
+  id: WarningIcon
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: WarningIcon
+  nameWithType: UIClientManagerData.WarningIcon
+  fullName: Funique.UI.UIClientManagerData.WarningIcon
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: WarningIcon
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 13
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public RectTransform WarningIcon
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Public WarningIcon As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.ToolbarIcon
+  commentId: F:Funique.UI.UIClientManagerData.ToolbarIcon
+  id: ToolbarIcon
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: ToolbarIcon
+  nameWithType: UIClientManagerData.ToolbarIcon
+  fullName: Funique.UI.UIClientManagerData.ToolbarIcon
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ToolbarIcon
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 14
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public RectTransform ToolbarIcon
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Public ToolbarIcon As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.UI_Method
+  commentId: F:Funique.UI.UIClientManagerData.UI_Method
+  id: UI_Method
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: UI_Method
+  nameWithType: UIClientManagerData.UI_Method
+  fullName: Funique.UI.UIClientManagerData.UI_Method
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UI_Method
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Header("Base Setting")]
+
+      [SerializeField]
+
+      public UIVerifyMethod UI_Method
+    return:
+      type: Funique.UI.UIVerifyMethod
+    content.vb: >-
+      <Header("Base Setting")>
+
+      <SerializeField>
+
+      Public UI_Method As UIVerifyMethod
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Base Setting
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.RightPanel_Default_Dropdown
+  commentId: F:Funique.UI.UIClientManagerData.RightPanel_Default_Dropdown
+  id: RightPanel_Default_Dropdown
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: RightPanel_Default_Dropdown
+  nameWithType: UIClientManagerData.RightPanel_Default_Dropdown
+  fullName: Funique.UI.UIClientManagerData.RightPanel_Default_Dropdown
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RightPanel_Default_Dropdown
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 18
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public int RightPanel_Default_Dropdown
+    return:
+      type: System.Int32
+    content.vb: >-
+      <SerializeField>
+
+      Public RightPanel_Default_Dropdown As Integer
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.RightPanel_Default_Extend
+  commentId: F:Funique.UI.UIClientManagerData.RightPanel_Default_Extend
+  id: RightPanel_Default_Extend
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: RightPanel_Default_Extend
+  nameWithType: UIClientManagerData.RightPanel_Default_Extend
+  fullName: Funique.UI.UIClientManagerData.RightPanel_Default_Extend
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RightPanel_Default_Extend
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 19
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool RightPanel_Default_Extend
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public RightPanel_Default_Extend As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.RightPanel_Extend_On
+  commentId: F:Funique.UI.UIClientManagerData.RightPanel_Extend_On
+  id: RightPanel_Extend_On
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: RightPanel_Extend_On
+  nameWithType: UIClientManagerData.RightPanel_Extend_On
+  fullName: Funique.UI.UIClientManagerData.RightPanel_Extend_On
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RightPanel_Extend_On
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 20
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float RightPanel_Extend_On
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public RightPanel_Extend_On As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.RightPanel_Extend_Off
+  commentId: F:Funique.UI.UIClientManagerData.RightPanel_Extend_Off
+  id: RightPanel_Extend_Off
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: RightPanel_Extend_Off
+  nameWithType: UIClientManagerData.RightPanel_Extend_Off
+  fullName: Funique.UI.UIClientManagerData.RightPanel_Extend_Off
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RightPanel_Extend_Off
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 21
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float RightPanel_Extend_Off
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public RightPanel_Extend_Off As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.Use_RightClickMenu
+  commentId: F:Funique.UI.UIClientManagerData.Use_RightClickMenu
+  id: Use_RightClickMenu
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: Use_RightClickMenu
+  nameWithType: UIClientManagerData.Use_RightClickMenu
+  fullName: Funique.UI.UIClientManagerData.Use_RightClickMenu
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Use_RightClickMenu
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 22
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool Use_RightClickMenu
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public Use_RightClickMenu As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.MasterUI
+  commentId: F:Funique.UI.UIClientManagerData.MasterUI
+  id: MasterUI
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: MasterUI
+  nameWithType: UIClientManagerData.MasterUI
+  fullName: Funique.UI.UIClientManagerData.MasterUI
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: MasterUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 25
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Header("Right Menu")]
+
+      [SerializeField]
+
+      public Transform MasterUI
+    return:
+      type: UnityEngine.Transform
+    content.vb: >-
+      <Header("Right Menu")>
+
+      <SerializeField>
+
+      Public MasterUI As Transform
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Right Menu
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.Patterns
+  commentId: F:Funique.UI.UIClientManagerData.Patterns
+  id: Patterns
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: Patterns
+  nameWithType: UIClientManagerData.Patterns
+  fullName: Funique.UI.UIClientManagerData.Patterns
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Patterns
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 28
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [Header("Configuration")]
+
+      [SerializeField]
+
+      public ClientUIPairData[] Patterns
+    return:
+      type: Funique.UI.ClientUIPairData[]
+    content.vb: >-
+      <Header("Configuration")>
+
+      <SerializeField>
+
+      Public Patterns As ClientUIPairData()
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Configuration
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.UIClientManagerData.RightMenuSetting
+  commentId: F:Funique.UI.UIClientManagerData.RightMenuSetting
+  id: RightMenuSetting
+  parent: Funique.UI.UIClientManagerData
+  langs:
+  - csharp
+  - vb
+  name: RightMenuSetting
+  nameWithType: UIClientManagerData.RightMenuSetting
+  fullName: Funique.UI.UIClientManagerData.RightMenuSetting
+  type: Field
+  source:
+    remote:
+      path: Structure/UIClientManagerData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RightMenuSetting
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Structure/UIClientManagerData.cs
+    startLine: 30
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [DisableIf("Use_RightClickMenu", false)]
+
+      [SerializeField]
+
+      public ClientRightMenuSetting RightMenuSetting
+    return:
+      type: Funique.UI.ClientRightMenuSetting
+    content.vb: >-
+      <DisableIf("Use_RightClickMenu", False)>
+
+      <SerializeField>
+
+      Public RightMenuSetting As ClientRightMenuSetting
+  attributes:
+  - type: Funique.DisableIf
+    ctor: Funique.DisableIf.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use_RightClickMenu
+    - type: System.Boolean
+      value: false
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.UI.UIVerifyMethod
+  commentId: T:Funique.UI.UIVerifyMethod
+  parent: Funique.UI
+  name: UIVerifyMethod
+  nameWithType: UIVerifyMethod
+  fullName: Funique.UI.UIVerifyMethod
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: Funique.UI.ClientUIPairData[]
+  isExternal: true
+  name: ClientUIPairData[]
+  nameWithType: ClientUIPairData[]
+  fullName: Funique.UI.ClientUIPairData[]
+  nameWithType.vb: ClientUIPairData()
+  fullName.vb: Funique.UI.ClientUIPairData()
+  name.vb: ClientUIPairData()
+  spec.csharp:
+  - uid: Funique.UI.ClientUIPairData
+    name: ClientUIPairData
+    nameWithType: ClientUIPairData
+    fullName: Funique.UI.ClientUIPairData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Funique.UI.ClientUIPairData
+    name: ClientUIPairData
+    nameWithType: ClientUIPairData
+    fullName: Funique.UI.ClientUIPairData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Funique.UI.ClientRightMenuSetting
+  commentId: T:Funique.UI.ClientRightMenuSetting
+  parent: Funique.UI
+  name: ClientRightMenuSetting
+  nameWithType: ClientRightMenuSetting
+  fullName: Funique.UI.ClientRightMenuSetting

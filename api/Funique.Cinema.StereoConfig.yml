@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Cinema.StereoConfig
+  commentId: T:Funique.Cinema.StereoConfig
+  id: StereoConfig
+  parent: Funique.Cinema
+  children:
+  - Funique.Cinema.StereoConfig.ApplyDefaultRotation
+  - Funique.Cinema.StereoConfig.ApplyMeshType
+  - Funique.Cinema.StereoConfig.ApplySphereScale
+  - Funique.Cinema.StereoConfig.ApplyToMeshPacking
+  - Funique.Cinema.StereoConfig.CustomSphereRotation
+  - Funique.Cinema.StereoConfig.CustomSphereScale
+  - Funique.Cinema.StereoConfig.HintPacking
+  - Funique.Cinema.StereoConfig.Is4Dof
+  - Funique.Cinema.StereoConfig.IsLive
+  - Funique.Cinema.StereoConfig.MediaFilter
+  langs:
+  - csharp
+  - vb
+  name: StereoConfig
+  nameWithType: StereoConfig
+  fullName: Funique.Cinema.StereoConfig
+  type: Struct
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: StereoConfig
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 10
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nStereo scene data modify config <br />\n------------------------------------------------ <br />\n影像切片場景變更配置\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct StereoConfig
+    content.vb: >-
+      <Serializable>
+
+      Public Structure StereoConfig
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.Cinema.StereoConfig.ApplyMeshType
+  commentId: F:Funique.Cinema.StereoConfig.ApplyMeshType
+  id: ApplyMeshType
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: ApplyMeshType
+  nameWithType: StereoConfig.ApplyMeshType
+  fullName: Funique.Cinema.StereoConfig.ApplyMeshType
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ApplyMeshType
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 18
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nUse sphere mesh <br />\n------------------------------------------------ <br />\n使用的渲染模型\n"
+  example: []
+  syntax:
+    content: public ApplyMeshType ApplyMeshType
+    return:
+      type: Funique.Cinema.ApplyMeshType
+    content.vb: Public ApplyMeshType As ApplyMeshType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.MediaFilter
+  commentId: F:Funique.Cinema.StereoConfig.MediaFilter
+  id: MediaFilter
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: MediaFilter
+  nameWithType: StereoConfig.MediaFilter
+  fullName: Funique.Cinema.StereoConfig.MediaFilter
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: MediaFilter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 24
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nUse media texture filter <br />\n------------------------------------------------ <br />\n使用的貼圖過濾器\n"
+  example: []
+  syntax:
+    content: public FilterMode MediaFilter
+    return:
+      type: UnityEngine.FilterMode
+    content.vb: Public MediaFilter As FilterMode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.HintPacking
+  commentId: F:Funique.Cinema.StereoConfig.HintPacking
+  id: HintPacking
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: HintPacking
+  nameWithType: StereoConfig.HintPacking
+  fullName: Funique.Cinema.StereoConfig.HintPacking
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: HintPacking
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 30
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nUV Packing <br />\n------------------------------------------------ <br />\nUV 切片模式\n"
+  example: []
+  syntax:
+    content: public StereoPacking HintPacking
+    return:
+      type: RenderHeads.Media.AVProVideo.StereoPacking
+    content.vb: Public HintPacking As StereoPacking
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.ApplyToMeshPacking
+  commentId: F:Funique.Cinema.StereoConfig.ApplyToMeshPacking
+  id: ApplyToMeshPacking
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: ApplyToMeshPacking
+  nameWithType: StereoConfig.ApplyToMeshPacking
+  fullName: Funique.Cinema.StereoConfig.ApplyToMeshPacking
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ApplyToMeshPacking
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 36
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nUV Packing <br />\n------------------------------------------------ <br />\nUV 切片模式\n"
+  example: []
+  syntax:
+    content: public StereoPacking ApplyToMeshPacking
+    return:
+      type: RenderHeads.Media.AVProVideo.StereoPacking
+    content.vb: Public ApplyToMeshPacking As StereoPacking
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.ApplySphereScale
+  commentId: F:Funique.Cinema.StereoConfig.ApplySphereScale
+  id: ApplySphereScale
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: ApplySphereScale
+  nameWithType: StereoConfig.ApplySphereScale
+  fullName: Funique.Cinema.StereoConfig.ApplySphereScale
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ApplySphereScale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 46
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nUse default sphere scale <br />\nWill get the root of cinema config sphere value <br />\n------------------------------------------------ <br />\n套用預設 尺度 <br />\n會從 配置根 抓媒體播放物件比例\n"
+  example: []
+  syntax:
+    content: public bool ApplySphereScale
+    return:
+      type: System.Boolean
+    content.vb: Public ApplySphereScale As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.CustomSphereScale
+  commentId: F:Funique.Cinema.StereoConfig.CustomSphereScale
+  id: CustomSphereScale
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: CustomSphereScale
+  nameWithType: StereoConfig.CustomSphereScale
+  fullName: Funique.Cinema.StereoConfig.CustomSphereScale
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CustomSphereScale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 53
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nCustom scale value <br />\n------------------------------------------------ <br />\n自定義 尺度\n"
+  example: []
+  syntax:
+    content: >-
+      [HideIf("ApplySphereScale", true)]
+
+      public Vector3 CustomSphereScale
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <HideIf("ApplySphereScale", True)>
+
+      Public CustomSphereScale As Vector3
+  attributes:
+  - type: Funique.HideIf
+    ctor: Funique.HideIf.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: ApplySphereScale
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.ApplyDefaultRotation
+  commentId: F:Funique.Cinema.StereoConfig.ApplyDefaultRotation
+  id: ApplyDefaultRotation
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: ApplyDefaultRotation
+  nameWithType: StereoConfig.ApplyDefaultRotation
+  fullName: Funique.Cinema.StereoConfig.ApplyDefaultRotation
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ApplyDefaultRotation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 60
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nUse default sphere rotation <br />\n------------------------------------------------ <br />\n套用預設 歐拉旋轉軸\n"
+  example: []
+  syntax:
+    content: public bool ApplyDefaultRotation
+    return:
+      type: System.Boolean
+    content.vb: Public ApplyDefaultRotation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.CustomSphereRotation
+  commentId: F:Funique.Cinema.StereoConfig.CustomSphereRotation
+  id: CustomSphereRotation
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: CustomSphereRotation
+  nameWithType: StereoConfig.CustomSphereRotation
+  fullName: Funique.Cinema.StereoConfig.CustomSphereRotation
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CustomSphereRotation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 67
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nCustom eular rotation value <br />\n------------------------------------------------ <br />\n自定義 歐拉旋轉軸\n"
+  example: []
+  syntax:
+    content: >-
+      [HideIf("ApplyDefaultRotation", true)]
+
+      public Vector3 CustomSphereRotation
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <HideIf("ApplyDefaultRotation", True)>
+
+      Public CustomSphereRotation As Vector3
+  attributes:
+  - type: Funique.HideIf
+    ctor: Funique.HideIf.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: ApplyDefaultRotation
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.Is4Dof
+  commentId: F:Funique.Cinema.StereoConfig.Is4Dof
+  id: Is4Dof
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: Is4Dof
+  nameWithType: StereoConfig.Is4Dof
+  fullName: Funique.Cinema.StereoConfig.Is4Dof
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Is4Dof
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 73
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nIs degree of freedom <br />\n------------------------------------------------ <br />\n自由度\n"
+  example: []
+  syntax:
+    content: public bool Is4Dof
+    return:
+      type: System.Boolean
+    content.vb: Public Is4Dof As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.StereoConfig.IsLive
+  commentId: F:Funique.Cinema.StereoConfig.IsLive
+  id: IsLive
+  parent: Funique.Cinema.StereoConfig
+  langs:
+  - csharp
+  - vb
+  name: IsLive
+  nameWithType: StereoConfig.IsLive
+  fullName: Funique.Cinema.StereoConfig.IsLive
+  type: Field
+  source:
+    remote:
+      path: Struct/StereoConfig.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: IsLive
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/StereoConfig.cs
+    startLine: 79
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nIs live <br />\n------------------------------------------------ <br />\n現場\n"
+  example: []
+  syntax:
+    content: public bool IsLive
+    return:
+      type: System.Boolean
+    content.vb: Public IsLive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Cinema.ApplyMeshType
+  commentId: T:Funique.Cinema.ApplyMeshType
+  parent: Funique.Cinema
+  name: ApplyMeshType
+  nameWithType: ApplyMeshType
+  fullName: Funique.Cinema.ApplyMeshType
+- uid: UnityEngine.FilterMode
+  commentId: T:UnityEngine.FilterMode
+  parent: UnityEngine
+  isExternal: true
+  name: FilterMode
+  nameWithType: FilterMode
+  fullName: UnityEngine.FilterMode
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RenderHeads.Media.AVProVideo.StereoPacking
+  commentId: T:RenderHeads.Media.AVProVideo.StereoPacking
+  parent: RenderHeads.Media.AVProVideo
+  name: StereoPacking
+  nameWithType: StereoPacking
+  fullName: RenderHeads.Media.AVProVideo.StereoPacking
+- uid: RenderHeads.Media.AVProVideo
+  commentId: N:RenderHeads.Media.AVProVideo
+  name: RenderHeads.Media.AVProVideo
+  nameWithType: RenderHeads.Media.AVProVideo
+  fullName: RenderHeads.Media.AVProVideo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3

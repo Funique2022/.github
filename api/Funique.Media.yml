@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Media
+  commentId: N:Funique.Media
+  id: Funique.Media
+  children:
+  - Funique.Media.IMediaClientUtility
+  - Funique.Media.IMediaControl
+  - Funique.Media.IMediaReceive
+  - Funique.Media.IMediaSend
+  - Funique.Media.IMediaServerUtility
+  - Funique.Media.MediaManagerData
+  langs:
+  - csharp
+  - vb
+  name: Funique.Media
+  nameWithType: Funique.Media
+  fullName: Funique.Media
+  type: Namespace
+  assemblies:
+  - Funique.Media
+references:
+- uid: Funique.Media.IMediaReceive
+  commentId: T:Funique.Media.IMediaReceive
+  parent: Funique.Media
+  name: IMediaReceive
+  nameWithType: IMediaReceive
+  fullName: Funique.Media.IMediaReceive
+- uid: Funique.Media.IMediaSend
+  commentId: T:Funique.Media.IMediaSend
+  parent: Funique.Media
+  name: IMediaSend
+  nameWithType: IMediaSend
+  fullName: Funique.Media.IMediaSend
+- uid: Funique.Media.IMediaControl
+  commentId: T:Funique.Media.IMediaControl
+  parent: Funique.Media
+  name: IMediaControl
+  nameWithType: IMediaControl
+  fullName: Funique.Media.IMediaControl
+- uid: Funique.Media.IMediaClientUtility
+  commentId: T:Funique.Media.IMediaClientUtility
+  parent: Funique.Media
+  name: IMediaClientUtility
+  nameWithType: IMediaClientUtility
+  fullName: Funique.Media.IMediaClientUtility
+- uid: Funique.Media.MediaManagerData
+  commentId: T:Funique.Media.MediaManagerData
+  name: MediaManagerData
+  nameWithType: MediaManagerData
+  fullName: Funique.Media.MediaManagerData
+- uid: Funique.Media.IMediaServerUtility
+  commentId: T:Funique.Media.IMediaServerUtility
+  parent: Funique.Media
+  name: IMediaServerUtility
+  nameWithType: IMediaServerUtility
+  fullName: Funique.Media.IMediaServerUtility
+- uid: Funique.Media
+  commentId: N:Funique.Media
+  name: Funique.Media
+  nameWithType: Funique.Media
+  fullName: Funique.Media

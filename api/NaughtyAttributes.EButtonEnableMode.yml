@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: NaughtyAttributes.EButtonEnableMode
+  commentId: T:NaughtyAttributes.EButtonEnableMode
+  id: EButtonEnableMode
+  parent: NaughtyAttributes
+  children:
+  - NaughtyAttributes.EButtonEnableMode.Always
+  - NaughtyAttributes.EButtonEnableMode.Editor
+  - NaughtyAttributes.EButtonEnableMode.Playmode
+  langs:
+  - csharp
+  - vb
+  name: EButtonEnableMode
+  nameWithType: EButtonEnableMode
+  fullName: NaughtyAttributes.EButtonEnableMode
+  type: Enum
+  source:
+    remote:
+      path: Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: EButtonEnableMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+    startLine: 4
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  syntax:
+    content: public enum EButtonEnableMode
+    content.vb: Public Enum EButtonEnableMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NaughtyAttributes.EButtonEnableMode.Always
+  commentId: F:NaughtyAttributes.EButtonEnableMode.Always
+  id: Always
+  parent: NaughtyAttributes.EButtonEnableMode
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: EButtonEnableMode.Always
+  fullName: NaughtyAttributes.EButtonEnableMode.Always
+  type: Field
+  source:
+    remote:
+      path: Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Always
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  summary: "\nButton should be active always\n"
+  example: []
+  syntax:
+    content: Always = 0
+    return:
+      type: NaughtyAttributes.EButtonEnableMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NaughtyAttributes.EButtonEnableMode.Editor
+  commentId: F:NaughtyAttributes.EButtonEnableMode.Editor
+  id: Editor
+  parent: NaughtyAttributes.EButtonEnableMode
+  langs:
+  - csharp
+  - vb
+  name: Editor
+  nameWithType: EButtonEnableMode.Editor
+  fullName: NaughtyAttributes.EButtonEnableMode.Editor
+  type: Field
+  source:
+    remote:
+      path: Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Editor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  summary: "\nButton should be active only in editor\n"
+  example: []
+  syntax:
+    content: Editor = 1
+    return:
+      type: NaughtyAttributes.EButtonEnableMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NaughtyAttributes.EButtonEnableMode.Playmode
+  commentId: F:NaughtyAttributes.EButtonEnableMode.Playmode
+  id: Playmode
+  parent: NaughtyAttributes.EButtonEnableMode
+  langs:
+  - csharp
+  - vb
+  name: Playmode
+  nameWithType: EButtonEnableMode.Playmode
+  fullName: NaughtyAttributes.EButtonEnableMode.Playmode
+  type: Field
+  source:
+    remote:
+      path: Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Playmode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes_SpecialCase/ButtonAttribute.cs
+    startLine: 17
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  summary: "\nButton should be active only in playmode\n"
+  example: []
+  syntax:
+    content: Playmode = 2
+    return:
+      type: NaughtyAttributes.EButtonEnableMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NaughtyAttributes
+  commentId: N:NaughtyAttributes
+  name: NaughtyAttributes
+  nameWithType: NaughtyAttributes
+  fullName: NaughtyAttributes
+- uid: NaughtyAttributes.EButtonEnableMode
+  commentId: T:NaughtyAttributes.EButtonEnableMode
+  parent: NaughtyAttributes
+  name: EButtonEnableMode
+  nameWithType: EButtonEnableMode
+  fullName: NaughtyAttributes.EButtonEnableMode

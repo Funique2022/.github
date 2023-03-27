@@ -1,0 +1,2440 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.FileClientManagerUtility
+  commentId: T:Funique.Manager.FileClientManagerUtility
+  id: FileClientManagerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.FileClientManagerUtility.abrList
+  - Funique.Manager.FileClientManagerUtility.CurrentMode
+  - Funique.Manager.FileClientManagerUtility.image_extensions
+  - Funique.Manager.FileClientManagerUtility.Image_Path
+  - Funique.Manager.FileClientManagerUtility.ImageLabelPrefab
+  - Funique.Manager.FileClientManagerUtility.Initialization
+  - Funique.Manager.FileClientManagerUtility.LoadAllImageFile
+  - Funique.Manager.FileClientManagerUtility.LoadAllURLFile
+  - Funique.Manager.FileClientManagerUtility.LoadVideoFile
+  - Funique.Manager.FileClientManagerUtility.NextImage
+  - Funique.Manager.FileClientManagerUtility.NextVideo
+  - Funique.Manager.FileClientManagerUtility.NowProgress
+  - Funique.Manager.FileClientManagerUtility.Paths
+  - Funique.Manager.FileClientManagerUtility.photoList
+  - Funique.Manager.FileClientManagerUtility.PreviousImage
+  - Funique.Manager.FileClientManagerUtility.PreviousVideo
+  - Funique.Manager.FileClientManagerUtility.ReadFinish_Image
+  - Funique.Manager.FileClientManagerUtility.ReadFinish_Video
+  - Funique.Manager.FileClientManagerUtility.ReadyImageName
+  - Funique.Manager.FileClientManagerUtility.ReadyVideoName
+  - Funique.Manager.FileClientManagerUtility.RefreshImage
+  - Funique.Manager.FileClientManagerUtility.RefreshVideo
+  - Funique.Manager.FileClientManagerUtility.SRT_Path
+  - Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab
+  - Funique.Manager.FileClientManagerUtility.TBE_Path
+  - Funique.Manager.FileClientManagerUtility.URL_Path
+  - Funique.Manager.FileClientManagerUtility.urlList
+  - Funique.Manager.FileClientManagerUtility.verifyList
+  - Funique.Manager.FileClientManagerUtility.video_extensions
+  - Funique.Manager.FileClientManagerUtility.Video_Path
+  - Funique.Manager.FileClientManagerUtility.VideoLabelPrefab
+  - Funique.Manager.FileClientManagerUtility.videoList
+  langs:
+  - csharp
+  - vb
+  name: FileClientManagerUtility
+  nameWithType: FileClientManagerUtility
+  fullName: Funique.Manager.FileClientManagerUtility
+  type: Class
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: FileClientManagerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 17
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  summary: "\nFile manager configuration <br />\n------------------------------------------------ <br />\n檔案管理配置\n"
+  example: []
+  syntax:
+    content: 'public class FileClientManagerUtility : ManagerBase<FileClientManagerData>, IDisposable, IFileUtility, IFileAudio, IFileImage, IFileVideo, IFileStreaming, IFileURL, IFileVerify, IFileABR'
+    content.vb: >-
+      Public Class FileClientManagerUtility
+
+          Inherits ManagerBase(Of FileClientManagerData)
+
+          Implements IDisposable, IFileUtility, IFileAudio, IFileImage, IFileVideo, IFileStreaming, IFileURL, IFileVerify, IFileABR
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}
+  implements:
+  - System.IDisposable
+  - Funique.Video.IFileUtility
+  - Funique.Video.IFileAudio
+  - Funique.Video.IFileImage
+  - Funique.Video.IFileVideo
+  - Funique.Video.IFileStreaming
+  - Funique.Video.IFileURL
+  - Funique.Video.IFileVerify
+  - Funique.Video.IFileABR
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.config
+  - Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.RegisterConfig(Funique.Video.FileClientManagerData)
+  - Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.Loaded(Funique.Video.FileClientManagerData)
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.FileClientManagerUtility.VideoLabelPrefab
+  commentId: P:Funique.Manager.FileClientManagerUtility.VideoLabelPrefab
+  id: VideoLabelPrefab
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: VideoLabelPrefab
+  nameWithType: FileClientManagerUtility.VideoLabelPrefab
+  fullName: Funique.Manager.FileClientManagerUtility.VideoLabelPrefab
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: VideoLabelPrefab
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 41
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  summary: "\nFind the reference of prefab instance by resource folder <br />\nNormally this object root should have some component to store the playable info data <br />\n------------------------------------------------ <br />\n尋找 resource 資源庫中的藍圖參考場景物件 <br />\n正常情況下 這個物件的根 會有元件保存可播放物件的資訊\n"
+  example: []
+  syntax:
+    content: public GameObject VideoLabelPrefab { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property VideoLabelPrefab As GameObject
+  overload: Funique.Manager.FileClientManagerUtility.VideoLabelPrefab*
+  implements:
+  - Funique.Video.IFileVideo.VideoLabelPrefab
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.ImageLabelPrefab
+  commentId: P:Funique.Manager.FileClientManagerUtility.ImageLabelPrefab
+  id: ImageLabelPrefab
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: ImageLabelPrefab
+  nameWithType: FileClientManagerUtility.ImageLabelPrefab
+  fullName: Funique.Manager.FileClientManagerUtility.ImageLabelPrefab
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ImageLabelPrefab
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 42
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public GameObject ImageLabelPrefab { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Obsolete>
+
+      Public ReadOnly Property ImageLabelPrefab As GameObject
+  overload: Funique.Manager.FileClientManagerUtility.ImageLabelPrefab*
+  implements:
+  - Funique.Video.IFileImage.ImageLabelPrefab
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab
+  commentId: P:Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab
+  id: StreamingLabelPrefab
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: StreamingLabelPrefab
+  nameWithType: FileClientManagerUtility.StreamingLabelPrefab
+  fullName: Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: StreamingLabelPrefab
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 44
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public GameObject StreamingLabelPrefab { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Obsolete>
+
+      Public ReadOnly Property StreamingLabelPrefab As GameObject
+  overload: Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab*
+  implements:
+  - Funique.Video.IFileStreaming.StreamingLabelPrefab
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.videoList
+  commentId: P:Funique.Manager.FileClientManagerUtility.videoList
+  id: videoList
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: videoList
+  nameWithType: FileClientManagerUtility.videoList
+  fullName: Funique.Manager.FileClientManagerUtility.videoList
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: videoList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 47
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual Container<VideoInfo> videoList { get; protected set; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.VideoInfo}
+    content.vb: Public Overridable Property videoList As Container(Of VideoInfo)
+  overload: Funique.Manager.FileClientManagerUtility.videoList*
+  implements:
+  - Funique.Video.IFileVideo.videoList
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.photoList
+  commentId: P:Funique.Manager.FileClientManagerUtility.photoList
+  id: photoList
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: photoList
+  nameWithType: FileClientManagerUtility.photoList
+  fullName: Funique.Manager.FileClientManagerUtility.photoList
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: photoList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 48
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual Container<PhotoInfo> photoList { get; protected set; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.PhotoInfo}
+    content.vb: Public Overridable Property photoList As Container(Of PhotoInfo)
+  overload: Funique.Manager.FileClientManagerUtility.photoList*
+  implements:
+  - Funique.Video.IFileImage.photoList
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.urlList
+  commentId: P:Funique.Manager.FileClientManagerUtility.urlList
+  id: urlList
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: urlList
+  nameWithType: FileClientManagerUtility.urlList
+  fullName: Funique.Manager.FileClientManagerUtility.urlList
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: urlList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 49
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual Container<InfoBase> urlList { get; protected set; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.InfoBase}
+    content.vb: Public Overridable Property urlList As Container(Of InfoBase)
+  overload: Funique.Manager.FileClientManagerUtility.urlList*
+  implements:
+  - Funique.Video.IFileURL.urlList
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.verifyList
+  commentId: P:Funique.Manager.FileClientManagerUtility.verifyList
+  id: verifyList
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: verifyList
+  nameWithType: FileClientManagerUtility.verifyList
+  fullName: Funique.Manager.FileClientManagerUtility.verifyList
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: verifyList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 50
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual Container<InfoBase> verifyList { get; protected set; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.InfoBase}
+    content.vb: Public Overridable Property verifyList As Container(Of InfoBase)
+  overload: Funique.Manager.FileClientManagerUtility.verifyList*
+  implements:
+  - Funique.Video.IFileVerify.verifyList
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.abrList
+  commentId: P:Funique.Manager.FileClientManagerUtility.abrList
+  id: abrList
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: abrList
+  nameWithType: FileClientManagerUtility.abrList
+  fullName: Funique.Manager.FileClientManagerUtility.abrList
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: abrList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 51
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual Container<InfoBase> abrList { get; protected set; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.InfoBase}
+    content.vb: Public Overridable Property abrList As Container(Of InfoBase)
+  overload: Funique.Manager.FileClientManagerUtility.abrList*
+  implements:
+  - Funique.Video.IFileABR.abrList
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.RefreshVideo
+  commentId: P:Funique.Manager.FileClientManagerUtility.RefreshVideo
+  id: RefreshVideo
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefreshVideo
+  nameWithType: FileClientManagerUtility.RefreshVideo
+  fullName: Funique.Manager.FileClientManagerUtility.RefreshVideo
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: RefreshVideo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 53
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent RefreshVideo { get; protected set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public Property RefreshVideo As UnityEvent
+  overload: Funique.Manager.FileClientManagerUtility.RefreshVideo*
+  implements:
+  - Funique.Video.IFileVideo.RefreshVideo
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.RefreshImage
+  commentId: P:Funique.Manager.FileClientManagerUtility.RefreshImage
+  id: RefreshImage
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefreshImage
+  nameWithType: FileClientManagerUtility.RefreshImage
+  fullName: Funique.Manager.FileClientManagerUtility.RefreshImage
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: RefreshImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 54
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent RefreshImage { get; protected set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public Property RefreshImage As UnityEvent
+  overload: Funique.Manager.FileClientManagerUtility.RefreshImage*
+  implements:
+  - Funique.Video.IFileImage.RefreshImage
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Manager.FileClientManagerUtility.ReadFinish_Video
+  commentId: P:Funique.Manager.FileClientManagerUtility.ReadFinish_Video
+  id: ReadFinish_Video
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: ReadFinish_Video
+  nameWithType: FileClientManagerUtility.ReadFinish_Video
+  fullName: Funique.Manager.FileClientManagerUtility.ReadFinish_Video
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ReadFinish_Video
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 56
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public bool ReadFinish_Video { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReadFinish_Video As Boolean
+  overload: Funique.Manager.FileClientManagerUtility.ReadFinish_Video*
+  implements:
+  - Funique.Video.IFileVideo.ReadFinish_Video
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.ReadyVideoName
+  commentId: P:Funique.Manager.FileClientManagerUtility.ReadyVideoName
+  id: ReadyVideoName
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: ReadyVideoName
+  nameWithType: FileClientManagerUtility.ReadyVideoName
+  fullName: Funique.Manager.FileClientManagerUtility.ReadyVideoName
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ReadyVideoName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 57
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual string ReadyVideoName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property ReadyVideoName As String
+  overload: Funique.Manager.FileClientManagerUtility.ReadyVideoName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.CurrentMode
+  commentId: P:Funique.Manager.FileClientManagerUtility.CurrentMode
+  id: CurrentMode
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentMode
+  nameWithType: FileClientManagerUtility.CurrentMode
+  fullName: Funique.Manager.FileClientManagerUtility.CurrentMode
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: CurrentMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 58
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual PlayerMode CurrentMode { get; }
+    parameters: []
+    return:
+      type: Funique.PlayerMode
+    content.vb: Public Overridable ReadOnly Property CurrentMode As PlayerMode
+  overload: Funique.Manager.FileClientManagerUtility.CurrentMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.ReadFinish_Image
+  commentId: P:Funique.Manager.FileClientManagerUtility.ReadFinish_Image
+  id: ReadFinish_Image
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: ReadFinish_Image
+  nameWithType: FileClientManagerUtility.ReadFinish_Image
+  fullName: Funique.Manager.FileClientManagerUtility.ReadFinish_Image
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ReadFinish_Image
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 60
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public bool ReadFinish_Image { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReadFinish_Image As Boolean
+  overload: Funique.Manager.FileClientManagerUtility.ReadFinish_Image*
+  implements:
+  - Funique.Video.IFileImage.ReadFinish_Image
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.ReadyImageName
+  commentId: P:Funique.Manager.FileClientManagerUtility.ReadyImageName
+  id: ReadyImageName
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: ReadyImageName
+  nameWithType: FileClientManagerUtility.ReadyImageName
+  fullName: Funique.Manager.FileClientManagerUtility.ReadyImageName
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ReadyImageName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 61
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual string ReadyImageName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property ReadyImageName As String
+  overload: Funique.Manager.FileClientManagerUtility.ReadyImageName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.NowProgress
+  commentId: P:Funique.Manager.FileClientManagerUtility.NowProgress
+  id: NowProgress
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: NowProgress
+  nameWithType: FileClientManagerUtility.NowProgress
+  fullName: Funique.Manager.FileClientManagerUtility.NowProgress
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: NowProgress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 62
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public float NowProgress { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property NowProgress As Single
+  overload: Funique.Manager.FileClientManagerUtility.NowProgress*
+  implements:
+  - Funique.Video.IFileImage.NowProgress
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.Video_Path
+  commentId: P:Funique.Manager.FileClientManagerUtility.Video_Path
+  id: Video_Path
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Video_Path
+  nameWithType: FileClientManagerUtility.Video_Path
+  fullName: Funique.Manager.FileClientManagerUtility.Video_Path
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: Video_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 69
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string Video_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Video_Path As String
+  overload: Funique.Manager.FileClientManagerUtility.Video_Path*
+  implements:
+  - Funique.Video.IFileUtility.Video_Path
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.Image_Path
+  commentId: P:Funique.Manager.FileClientManagerUtility.Image_Path
+  id: Image_Path
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Image_Path
+  nameWithType: FileClientManagerUtility.Image_Path
+  fullName: Funique.Manager.FileClientManagerUtility.Image_Path
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: Image_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 70
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string Image_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Image_Path As String
+  overload: Funique.Manager.FileClientManagerUtility.Image_Path*
+  implements:
+  - Funique.Video.IFileUtility.Image_Path
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.SRT_Path
+  commentId: P:Funique.Manager.FileClientManagerUtility.SRT_Path
+  id: SRT_Path
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: SRT_Path
+  nameWithType: FileClientManagerUtility.SRT_Path
+  fullName: Funique.Manager.FileClientManagerUtility.SRT_Path
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: SRT_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 71
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string SRT_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SRT_Path As String
+  overload: Funique.Manager.FileClientManagerUtility.SRT_Path*
+  implements:
+  - Funique.Video.IFileUtility.SRT_Path
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.TBE_Path
+  commentId: P:Funique.Manager.FileClientManagerUtility.TBE_Path
+  id: TBE_Path
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: TBE_Path
+  nameWithType: FileClientManagerUtility.TBE_Path
+  fullName: Funique.Manager.FileClientManagerUtility.TBE_Path
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: TBE_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 72
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string TBE_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TBE_Path As String
+  overload: Funique.Manager.FileClientManagerUtility.TBE_Path*
+  implements:
+  - Funique.Video.IFileUtility.TBE_Path
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.URL_Path
+  commentId: P:Funique.Manager.FileClientManagerUtility.URL_Path
+  id: URL_Path
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: URL_Path
+  nameWithType: FileClientManagerUtility.URL_Path
+  fullName: Funique.Manager.FileClientManagerUtility.URL_Path
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: URL_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 73
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string URL_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property URL_Path As String
+  overload: Funique.Manager.FileClientManagerUtility.URL_Path*
+  implements:
+  - Funique.Video.IFileUtility.URL_Path
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.Paths
+  commentId: P:Funique.Manager.FileClientManagerUtility.Paths
+  id: Paths
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Paths
+  nameWithType: FileClientManagerUtility.Paths
+  fullName: Funique.Manager.FileClientManagerUtility.Paths
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: Paths
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 74
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string[] Paths { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property Paths As String()
+  overload: Funique.Manager.FileClientManagerUtility.Paths*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.video_extensions
+  commentId: P:Funique.Manager.FileClientManagerUtility.video_extensions
+  id: video_extensions
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: video_extensions
+  nameWithType: FileClientManagerUtility.video_extensions
+  fullName: Funique.Manager.FileClientManagerUtility.video_extensions
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: video_extensions
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 78
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string[] video_extensions { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property video_extensions As String()
+  overload: Funique.Manager.FileClientManagerUtility.video_extensions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.image_extensions
+  commentId: P:Funique.Manager.FileClientManagerUtility.image_extensions
+  id: image_extensions
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: image_extensions
+  nameWithType: FileClientManagerUtility.image_extensions
+  fullName: Funique.Manager.FileClientManagerUtility.image_extensions
+  type: Property
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: image_extensions
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 79
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public string[] image_extensions { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property image_extensions As String()
+  overload: Funique.Manager.FileClientManagerUtility.image_extensions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.FileClientManagerUtility.Initialization
+  commentId: M:Funique.Manager.FileClientManagerUtility.Initialization
+  id: Initialization
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Initialization()
+  nameWithType: FileClientManagerUtility.Initialization()
+  fullName: Funique.Manager.FileClientManagerUtility.Initialization()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: Initialization
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 85
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Initialization()
+    content.vb: Public Overrides Sub Initialization
+  overridden: Funique.Manager.ManagerBase.Initialization
+  overload: Funique.Manager.FileClientManagerUtility.Initialization*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.FileClientManagerUtility.LoadVideoFile
+  commentId: M:Funique.Manager.FileClientManagerUtility.LoadVideoFile
+  id: LoadVideoFile
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadVideoFile()
+  nameWithType: FileClientManagerUtility.LoadVideoFile()
+  fullName: Funique.Manager.FileClientManagerUtility.LoadVideoFile()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: LoadVideoFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 111
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public void LoadVideoFile()
+    content.vb: Public Sub LoadVideoFile
+  overload: Funique.Manager.FileClientManagerUtility.LoadVideoFile*
+  implements:
+  - Funique.Video.IFileUtility.LoadVideoFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.PreviousVideo
+  commentId: M:Funique.Manager.FileClientManagerUtility.PreviousVideo
+  id: PreviousVideo
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: PreviousVideo()
+  nameWithType: FileClientManagerUtility.PreviousVideo()
+  fullName: Funique.Manager.FileClientManagerUtility.PreviousVideo()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: PreviousVideo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 162
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public VideoInfo PreviousVideo()
+    return:
+      type: Funique.VideoInfo
+    content.vb: Public Function PreviousVideo As VideoInfo
+  overload: Funique.Manager.FileClientManagerUtility.PreviousVideo*
+  implements:
+  - Funique.Video.IFileVideo.PreviousVideo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.NextVideo
+  commentId: M:Funique.Manager.FileClientManagerUtility.NextVideo
+  id: NextVideo
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: NextVideo()
+  nameWithType: FileClientManagerUtility.NextVideo()
+  fullName: Funique.Manager.FileClientManagerUtility.NextVideo()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: NextVideo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 194
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public VideoInfo NextVideo()
+    return:
+      type: Funique.VideoInfo
+    content.vb: Public Function NextVideo As VideoInfo
+  overload: Funique.Manager.FileClientManagerUtility.NextVideo*
+  implements:
+  - Funique.Video.IFileVideo.NextVideo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.LoadAllImageFile
+  commentId: M:Funique.Manager.FileClientManagerUtility.LoadAllImageFile
+  id: LoadAllImageFile
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadAllImageFile()
+  nameWithType: FileClientManagerUtility.LoadAllImageFile()
+  fullName: Funique.Manager.FileClientManagerUtility.LoadAllImageFile()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: LoadAllImageFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 233
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public void LoadAllImageFile()
+    content.vb: Public Sub LoadAllImageFile
+  overload: Funique.Manager.FileClientManagerUtility.LoadAllImageFile*
+  implements:
+  - Funique.Video.IFileUtility.LoadAllImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.PreviousImage
+  commentId: M:Funique.Manager.FileClientManagerUtility.PreviousImage
+  id: PreviousImage
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: PreviousImage()
+  nameWithType: FileClientManagerUtility.PreviousImage()
+  fullName: Funique.Manager.FileClientManagerUtility.PreviousImage()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: PreviousImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 309
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public PhotoInfo PreviousImage()
+    return:
+      type: Funique.PhotoInfo
+    content.vb: Public Function PreviousImage As PhotoInfo
+  overload: Funique.Manager.FileClientManagerUtility.PreviousImage*
+  implements:
+  - Funique.Video.IFileImage.PreviousImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.NextImage
+  commentId: M:Funique.Manager.FileClientManagerUtility.NextImage
+  id: NextImage
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: NextImage()
+  nameWithType: FileClientManagerUtility.NextImage()
+  fullName: Funique.Manager.FileClientManagerUtility.NextImage()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: NextImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 339
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public PhotoInfo NextImage()
+    return:
+      type: Funique.PhotoInfo
+    content.vb: Public Function NextImage As PhotoInfo
+  overload: Funique.Manager.FileClientManagerUtility.NextImage*
+  implements:
+  - Funique.Video.IFileImage.NextImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.FileClientManagerUtility.LoadAllURLFile
+  commentId: M:Funique.Manager.FileClientManagerUtility.LoadAllURLFile
+  id: LoadAllURLFile
+  parent: Funique.Manager.FileClientManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadAllURLFile()
+  nameWithType: FileClientManagerUtility.LoadAllURLFile()
+  fullName: Funique.Manager.FileClientManagerUtility.LoadAllURLFile()
+  type: Method
+  source:
+    remote:
+      path: FileClientManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: LoadAllURLFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/FileClientManagerUtility.cs
+    startLine: 372
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Manager
+  syntax:
+    content: public void LoadAllURLFile()
+    content.vb: Public Sub LoadAllURLFile
+  overload: Funique.Manager.FileClientManagerUtility.LoadAllURLFile*
+  implements:
+  - Funique.Video.IFileUtility.LoadAllURLFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<FileClientManagerData>
+  nameWithType: ManagerBase<FileClientManagerData>
+  fullName: Funique.Manager.ManagerBase<Funique.Video.FileClientManagerData>
+  nameWithType.vb: ManagerBase(Of FileClientManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Video.FileClientManagerData)
+  name.vb: ManagerBase(Of FileClientManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Video.FileClientManagerData
+    name: FileClientManagerData
+    nameWithType: FileClientManagerData
+    fullName: Funique.Video.FileClientManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Video.FileClientManagerData
+    name: FileClientManagerData
+    nameWithType: FileClientManagerData
+    fullName: Funique.Video.FileClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Video.IFileUtility
+  commentId: T:Funique.Video.IFileUtility
+  parent: Funique.Video
+  name: IFileUtility
+  nameWithType: IFileUtility
+  fullName: Funique.Video.IFileUtility
+- uid: Funique.Video.IFileAudio
+  commentId: T:Funique.Video.IFileAudio
+  parent: Funique.Video
+  name: IFileAudio
+  nameWithType: IFileAudio
+  fullName: Funique.Video.IFileAudio
+- uid: Funique.Video.IFileImage
+  commentId: T:Funique.Video.IFileImage
+  parent: Funique.Video
+  name: IFileImage
+  nameWithType: IFileImage
+  fullName: Funique.Video.IFileImage
+- uid: Funique.Video.IFileVideo
+  commentId: T:Funique.Video.IFileVideo
+  parent: Funique.Video
+  name: IFileVideo
+  nameWithType: IFileVideo
+  fullName: Funique.Video.IFileVideo
+- uid: Funique.Video.IFileStreaming
+  commentId: T:Funique.Video.IFileStreaming
+  parent: Funique.Video
+  name: IFileStreaming
+  nameWithType: IFileStreaming
+  fullName: Funique.Video.IFileStreaming
+- uid: Funique.Video.IFileURL
+  commentId: T:Funique.Video.IFileURL
+  parent: Funique.Video
+  name: IFileURL
+  nameWithType: IFileURL
+  fullName: Funique.Video.IFileURL
+- uid: Funique.Video.IFileVerify
+  commentId: T:Funique.Video.IFileVerify
+  parent: Funique.Video
+  name: IFileVerify
+  nameWithType: IFileVerify
+  fullName: Funique.Video.IFileVerify
+- uid: Funique.Video.IFileABR
+  commentId: T:Funique.Video.IFileABR
+  parent: Funique.Video
+  name: IFileABR
+  nameWithType: IFileABR
+  fullName: Funique.Video.IFileABR
+- uid: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<FileClientManagerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Video.FileClientManagerData>.config
+  nameWithType.vb: ManagerBase(Of FileClientManagerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Video.FileClientManagerData).config
+- uid: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.RegisterConfig(Funique.Video.FileClientManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.RegisterConfig(Funique.Video.FileClientManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(FileClientManagerData)
+  nameWithType: ManagerBase<FileClientManagerData>.RegisterConfig(FileClientManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Video.FileClientManagerData>.RegisterConfig(Funique.Video.FileClientManagerData)
+  nameWithType.vb: ManagerBase(Of FileClientManagerData).RegisterConfig(FileClientManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Video.FileClientManagerData).RegisterConfig(Funique.Video.FileClientManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<FileClientManagerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Video.FileClientManagerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Video.FileClientManagerData
+    name: FileClientManagerData
+    nameWithType: FileClientManagerData
+    fullName: Funique.Video.FileClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of FileClientManagerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Video.FileClientManagerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Video.FileClientManagerData
+    name: FileClientManagerData
+    nameWithType: FileClientManagerData
+    fullName: Funique.Video.FileClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.Loaded(Funique.Video.FileClientManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}.Loaded(Funique.Video.FileClientManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Video.FileClientManagerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(FileClientManagerData)
+  nameWithType: ManagerBase<FileClientManagerData>.Loaded(FileClientManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Video.FileClientManagerData>.Loaded(Funique.Video.FileClientManagerData)
+  nameWithType.vb: ManagerBase(Of FileClientManagerData).Loaded(FileClientManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Video.FileClientManagerData).Loaded(Funique.Video.FileClientManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<FileClientManagerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Video.FileClientManagerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Video.FileClientManagerData
+    name: FileClientManagerData
+    nameWithType: FileClientManagerData
+    fullName: Funique.Video.FileClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of FileClientManagerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Video.FileClientManagerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Video.FileClientManagerData
+    name: FileClientManagerData
+    nameWithType: FileClientManagerData
+    fullName: Funique.Video.FileClientManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video
+  commentId: N:Funique.Video
+  name: Funique.Video
+  nameWithType: Funique.Video
+  fullName: Funique.Video
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.VideoLabelPrefab*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.VideoLabelPrefab
+  name: VideoLabelPrefab
+  nameWithType: FileClientManagerUtility.VideoLabelPrefab
+  fullName: Funique.Manager.FileClientManagerUtility.VideoLabelPrefab
+- uid: Funique.Video.IFileVideo.VideoLabelPrefab
+  commentId: P:Funique.Video.IFileVideo.VideoLabelPrefab
+  parent: Funique.Video.IFileVideo
+  name: VideoLabelPrefab
+  nameWithType: IFileVideo.VideoLabelPrefab
+  fullName: Funique.Video.IFileVideo.VideoLabelPrefab
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.Manager.FileClientManagerUtility.ImageLabelPrefab*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.ImageLabelPrefab
+  name: ImageLabelPrefab
+  nameWithType: FileClientManagerUtility.ImageLabelPrefab
+  fullName: Funique.Manager.FileClientManagerUtility.ImageLabelPrefab
+- uid: Funique.Video.IFileImage.ImageLabelPrefab
+  commentId: P:Funique.Video.IFileImage.ImageLabelPrefab
+  parent: Funique.Video.IFileImage
+  name: ImageLabelPrefab
+  nameWithType: IFileImage.ImageLabelPrefab
+  fullName: Funique.Video.IFileImage.ImageLabelPrefab
+- uid: Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab
+  name: StreamingLabelPrefab
+  nameWithType: FileClientManagerUtility.StreamingLabelPrefab
+  fullName: Funique.Manager.FileClientManagerUtility.StreamingLabelPrefab
+- uid: Funique.Video.IFileStreaming.StreamingLabelPrefab
+  commentId: P:Funique.Video.IFileStreaming.StreamingLabelPrefab
+  parent: Funique.Video.IFileStreaming
+  name: StreamingLabelPrefab
+  nameWithType: IFileStreaming.StreamingLabelPrefab
+  fullName: Funique.Video.IFileStreaming.StreamingLabelPrefab
+- uid: Funique.Manager.FileClientManagerUtility.videoList*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.videoList
+  name: videoList
+  nameWithType: FileClientManagerUtility.videoList
+  fullName: Funique.Manager.FileClientManagerUtility.videoList
+- uid: Funique.Video.IFileVideo.videoList
+  commentId: P:Funique.Video.IFileVideo.videoList
+  parent: Funique.Video.IFileVideo
+  name: videoList
+  nameWithType: IFileVideo.videoList
+  fullName: Funique.Video.IFileVideo.videoList
+- uid: Funique.Video.Container{Funique.VideoInfo}
+  commentId: T:Funique.Video.Container{Funique.VideoInfo}
+  parent: Funique.Video
+  definition: Funique.Video.Container`1
+  name: Container<VideoInfo>
+  nameWithType: Container<VideoInfo>
+  fullName: Funique.Video.Container<Funique.VideoInfo>
+  nameWithType.vb: Container(Of VideoInfo)
+  fullName.vb: Funique.Video.Container(Of Funique.VideoInfo)
+  name.vb: Container(Of VideoInfo)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.Container`1
+  commentId: T:Funique.Video.Container`1
+  name: Container<T>
+  nameWithType: Container<T>
+  fullName: Funique.Video.Container<T>
+  nameWithType.vb: Container(Of T)
+  fullName.vb: Funique.Video.Container(Of T)
+  name.vb: Container(Of T)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.photoList*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.photoList
+  name: photoList
+  nameWithType: FileClientManagerUtility.photoList
+  fullName: Funique.Manager.FileClientManagerUtility.photoList
+- uid: Funique.Video.IFileImage.photoList
+  commentId: P:Funique.Video.IFileImage.photoList
+  parent: Funique.Video.IFileImage
+  name: photoList
+  nameWithType: IFileImage.photoList
+  fullName: Funique.Video.IFileImage.photoList
+- uid: Funique.Video.Container{Funique.PhotoInfo}
+  commentId: T:Funique.Video.Container{Funique.PhotoInfo}
+  parent: Funique.Video
+  definition: Funique.Video.Container`1
+  name: Container<PhotoInfo>
+  nameWithType: Container<PhotoInfo>
+  fullName: Funique.Video.Container<Funique.PhotoInfo>
+  nameWithType.vb: Container(Of PhotoInfo)
+  fullName.vb: Funique.Video.Container(Of Funique.PhotoInfo)
+  name.vb: Container(Of PhotoInfo)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.PhotoInfo
+    name: PhotoInfo
+    nameWithType: PhotoInfo
+    fullName: Funique.PhotoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.PhotoInfo
+    name: PhotoInfo
+    nameWithType: PhotoInfo
+    fullName: Funique.PhotoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.urlList*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.urlList
+  name: urlList
+  nameWithType: FileClientManagerUtility.urlList
+  fullName: Funique.Manager.FileClientManagerUtility.urlList
+- uid: Funique.Video.IFileURL.urlList
+  commentId: P:Funique.Video.IFileURL.urlList
+  parent: Funique.Video.IFileURL
+  name: urlList
+  nameWithType: IFileURL.urlList
+  fullName: Funique.Video.IFileURL.urlList
+- uid: Funique.Video.Container{Funique.InfoBase}
+  commentId: T:Funique.Video.Container{Funique.InfoBase}
+  parent: Funique.Video
+  definition: Funique.Video.Container`1
+  name: Container<InfoBase>
+  nameWithType: Container<InfoBase>
+  fullName: Funique.Video.Container<Funique.InfoBase>
+  nameWithType.vb: Container(Of InfoBase)
+  fullName.vb: Funique.Video.Container(Of Funique.InfoBase)
+  name.vb: Container(Of InfoBase)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.InfoBase
+    name: InfoBase
+    nameWithType: InfoBase
+    fullName: Funique.InfoBase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.InfoBase
+    name: InfoBase
+    nameWithType: InfoBase
+    fullName: Funique.InfoBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.verifyList*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.verifyList
+  name: verifyList
+  nameWithType: FileClientManagerUtility.verifyList
+  fullName: Funique.Manager.FileClientManagerUtility.verifyList
+- uid: Funique.Video.IFileVerify.verifyList
+  commentId: P:Funique.Video.IFileVerify.verifyList
+  parent: Funique.Video.IFileVerify
+  name: verifyList
+  nameWithType: IFileVerify.verifyList
+  fullName: Funique.Video.IFileVerify.verifyList
+- uid: Funique.Manager.FileClientManagerUtility.abrList*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.abrList
+  name: abrList
+  nameWithType: FileClientManagerUtility.abrList
+  fullName: Funique.Manager.FileClientManagerUtility.abrList
+- uid: Funique.Video.IFileABR.abrList
+  commentId: P:Funique.Video.IFileABR.abrList
+  parent: Funique.Video.IFileABR
+  name: abrList
+  nameWithType: IFileABR.abrList
+  fullName: Funique.Video.IFileABR.abrList
+- uid: Funique.Manager.FileClientManagerUtility.RefreshVideo*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.RefreshVideo
+  name: RefreshVideo
+  nameWithType: FileClientManagerUtility.RefreshVideo
+  fullName: Funique.Manager.FileClientManagerUtility.RefreshVideo
+- uid: Funique.Video.IFileVideo.RefreshVideo
+  commentId: P:Funique.Video.IFileVideo.RefreshVideo
+  parent: Funique.Video.IFileVideo
+  name: RefreshVideo
+  nameWithType: IFileVideo.RefreshVideo
+  fullName: Funique.Video.IFileVideo.RefreshVideo
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+- uid: Funique.Manager.FileClientManagerUtility.RefreshImage*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.RefreshImage
+  name: RefreshImage
+  nameWithType: FileClientManagerUtility.RefreshImage
+  fullName: Funique.Manager.FileClientManagerUtility.RefreshImage
+- uid: Funique.Video.IFileImage.RefreshImage
+  commentId: P:Funique.Video.IFileImage.RefreshImage
+  parent: Funique.Video.IFileImage
+  name: RefreshImage
+  nameWithType: IFileImage.RefreshImage
+  fullName: Funique.Video.IFileImage.RefreshImage
+- uid: Funique.Manager.FileClientManagerUtility.ReadFinish_Video*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.ReadFinish_Video
+  name: ReadFinish_Video
+  nameWithType: FileClientManagerUtility.ReadFinish_Video
+  fullName: Funique.Manager.FileClientManagerUtility.ReadFinish_Video
+- uid: Funique.Video.IFileVideo.ReadFinish_Video
+  commentId: P:Funique.Video.IFileVideo.ReadFinish_Video
+  parent: Funique.Video.IFileVideo
+  name: ReadFinish_Video
+  nameWithType: IFileVideo.ReadFinish_Video
+  fullName: Funique.Video.IFileVideo.ReadFinish_Video
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Manager.FileClientManagerUtility.ReadyVideoName*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.ReadyVideoName
+  name: ReadyVideoName
+  nameWithType: FileClientManagerUtility.ReadyVideoName
+  fullName: Funique.Manager.FileClientManagerUtility.ReadyVideoName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Manager.FileClientManagerUtility.CurrentMode*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.CurrentMode
+  name: CurrentMode
+  nameWithType: FileClientManagerUtility.CurrentMode
+  fullName: Funique.Manager.FileClientManagerUtility.CurrentMode
+- uid: Funique.PlayerMode
+  commentId: T:Funique.PlayerMode
+  parent: Funique
+  name: PlayerMode
+  nameWithType: PlayerMode
+  fullName: Funique.PlayerMode
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Manager.FileClientManagerUtility.ReadFinish_Image*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.ReadFinish_Image
+  name: ReadFinish_Image
+  nameWithType: FileClientManagerUtility.ReadFinish_Image
+  fullName: Funique.Manager.FileClientManagerUtility.ReadFinish_Image
+- uid: Funique.Video.IFileImage.ReadFinish_Image
+  commentId: P:Funique.Video.IFileImage.ReadFinish_Image
+  parent: Funique.Video.IFileImage
+  name: ReadFinish_Image
+  nameWithType: IFileImage.ReadFinish_Image
+  fullName: Funique.Video.IFileImage.ReadFinish_Image
+- uid: Funique.Manager.FileClientManagerUtility.ReadyImageName*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.ReadyImageName
+  name: ReadyImageName
+  nameWithType: FileClientManagerUtility.ReadyImageName
+  fullName: Funique.Manager.FileClientManagerUtility.ReadyImageName
+- uid: Funique.Manager.FileClientManagerUtility.NowProgress*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.NowProgress
+  name: NowProgress
+  nameWithType: FileClientManagerUtility.NowProgress
+  fullName: Funique.Manager.FileClientManagerUtility.NowProgress
+- uid: Funique.Video.IFileImage.NowProgress
+  commentId: P:Funique.Video.IFileImage.NowProgress
+  parent: Funique.Video.IFileImage
+  name: NowProgress
+  nameWithType: IFileImage.NowProgress
+  fullName: Funique.Video.IFileImage.NowProgress
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.Manager.FileClientManagerUtility.Video_Path*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.Video_Path
+  name: Video_Path
+  nameWithType: FileClientManagerUtility.Video_Path
+  fullName: Funique.Manager.FileClientManagerUtility.Video_Path
+- uid: Funique.Video.IFileUtility.Video_Path
+  commentId: P:Funique.Video.IFileUtility.Video_Path
+  parent: Funique.Video.IFileUtility
+  name: Video_Path
+  nameWithType: IFileUtility.Video_Path
+  fullName: Funique.Video.IFileUtility.Video_Path
+- uid: Funique.Manager.FileClientManagerUtility.Image_Path*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.Image_Path
+  name: Image_Path
+  nameWithType: FileClientManagerUtility.Image_Path
+  fullName: Funique.Manager.FileClientManagerUtility.Image_Path
+- uid: Funique.Video.IFileUtility.Image_Path
+  commentId: P:Funique.Video.IFileUtility.Image_Path
+  parent: Funique.Video.IFileUtility
+  name: Image_Path
+  nameWithType: IFileUtility.Image_Path
+  fullName: Funique.Video.IFileUtility.Image_Path
+- uid: Funique.Manager.FileClientManagerUtility.SRT_Path*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.SRT_Path
+  name: SRT_Path
+  nameWithType: FileClientManagerUtility.SRT_Path
+  fullName: Funique.Manager.FileClientManagerUtility.SRT_Path
+- uid: Funique.Video.IFileUtility.SRT_Path
+  commentId: P:Funique.Video.IFileUtility.SRT_Path
+  parent: Funique.Video.IFileUtility
+  name: SRT_Path
+  nameWithType: IFileUtility.SRT_Path
+  fullName: Funique.Video.IFileUtility.SRT_Path
+- uid: Funique.Manager.FileClientManagerUtility.TBE_Path*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.TBE_Path
+  name: TBE_Path
+  nameWithType: FileClientManagerUtility.TBE_Path
+  fullName: Funique.Manager.FileClientManagerUtility.TBE_Path
+- uid: Funique.Video.IFileUtility.TBE_Path
+  commentId: P:Funique.Video.IFileUtility.TBE_Path
+  parent: Funique.Video.IFileUtility
+  name: TBE_Path
+  nameWithType: IFileUtility.TBE_Path
+  fullName: Funique.Video.IFileUtility.TBE_Path
+- uid: Funique.Manager.FileClientManagerUtility.URL_Path*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.URL_Path
+  name: URL_Path
+  nameWithType: FileClientManagerUtility.URL_Path
+  fullName: Funique.Manager.FileClientManagerUtility.URL_Path
+- uid: Funique.Video.IFileUtility.URL_Path
+  commentId: P:Funique.Video.IFileUtility.URL_Path
+  parent: Funique.Video.IFileUtility
+  name: URL_Path
+  nameWithType: IFileUtility.URL_Path
+  fullName: Funique.Video.IFileUtility.URL_Path
+- uid: Funique.Manager.FileClientManagerUtility.Paths*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.Paths
+  name: Paths
+  nameWithType: FileClientManagerUtility.Paths
+  fullName: Funique.Manager.FileClientManagerUtility.Paths
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Funique.Manager.FileClientManagerUtility.video_extensions*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.video_extensions
+  name: video_extensions
+  nameWithType: FileClientManagerUtility.video_extensions
+  fullName: Funique.Manager.FileClientManagerUtility.video_extensions
+- uid: Funique.Manager.FileClientManagerUtility.image_extensions*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.image_extensions
+  name: image_extensions
+  nameWithType: FileClientManagerUtility.image_extensions
+  fullName: Funique.Manager.FileClientManagerUtility.image_extensions
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.Initialization*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.Initialization
+  name: Initialization
+  nameWithType: FileClientManagerUtility.Initialization
+  fullName: Funique.Manager.FileClientManagerUtility.Initialization
+- uid: Funique.Manager.FileClientManagerUtility.LoadVideoFile*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.LoadVideoFile
+  name: LoadVideoFile
+  nameWithType: FileClientManagerUtility.LoadVideoFile
+  fullName: Funique.Manager.FileClientManagerUtility.LoadVideoFile
+- uid: Funique.Video.IFileUtility.LoadVideoFile
+  commentId: M:Funique.Video.IFileUtility.LoadVideoFile
+  parent: Funique.Video.IFileUtility
+  name: LoadVideoFile()
+  nameWithType: IFileUtility.LoadVideoFile()
+  fullName: Funique.Video.IFileUtility.LoadVideoFile()
+  spec.csharp:
+  - uid: Funique.Video.IFileUtility.LoadVideoFile
+    name: LoadVideoFile
+    nameWithType: IFileUtility.LoadVideoFile
+    fullName: Funique.Video.IFileUtility.LoadVideoFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileUtility.LoadVideoFile
+    name: LoadVideoFile
+    nameWithType: IFileUtility.LoadVideoFile
+    fullName: Funique.Video.IFileUtility.LoadVideoFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.PreviousVideo*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.PreviousVideo
+  name: PreviousVideo
+  nameWithType: FileClientManagerUtility.PreviousVideo
+  fullName: Funique.Manager.FileClientManagerUtility.PreviousVideo
+- uid: Funique.Video.IFileVideo.PreviousVideo
+  commentId: M:Funique.Video.IFileVideo.PreviousVideo
+  parent: Funique.Video.IFileVideo
+  name: PreviousVideo()
+  nameWithType: IFileVideo.PreviousVideo()
+  fullName: Funique.Video.IFileVideo.PreviousVideo()
+  spec.csharp:
+  - uid: Funique.Video.IFileVideo.PreviousVideo
+    name: PreviousVideo
+    nameWithType: IFileVideo.PreviousVideo
+    fullName: Funique.Video.IFileVideo.PreviousVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileVideo.PreviousVideo
+    name: PreviousVideo
+    nameWithType: IFileVideo.PreviousVideo
+    fullName: Funique.Video.IFileVideo.PreviousVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.VideoInfo
+  commentId: T:Funique.VideoInfo
+  parent: Funique
+  name: VideoInfo
+  nameWithType: VideoInfo
+  fullName: Funique.VideoInfo
+- uid: Funique.Manager.FileClientManagerUtility.NextVideo*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.NextVideo
+  name: NextVideo
+  nameWithType: FileClientManagerUtility.NextVideo
+  fullName: Funique.Manager.FileClientManagerUtility.NextVideo
+- uid: Funique.Video.IFileVideo.NextVideo
+  commentId: M:Funique.Video.IFileVideo.NextVideo
+  parent: Funique.Video.IFileVideo
+  name: NextVideo()
+  nameWithType: IFileVideo.NextVideo()
+  fullName: Funique.Video.IFileVideo.NextVideo()
+  spec.csharp:
+  - uid: Funique.Video.IFileVideo.NextVideo
+    name: NextVideo
+    nameWithType: IFileVideo.NextVideo
+    fullName: Funique.Video.IFileVideo.NextVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileVideo.NextVideo
+    name: NextVideo
+    nameWithType: IFileVideo.NextVideo
+    fullName: Funique.Video.IFileVideo.NextVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.LoadAllImageFile*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.LoadAllImageFile
+  name: LoadAllImageFile
+  nameWithType: FileClientManagerUtility.LoadAllImageFile
+  fullName: Funique.Manager.FileClientManagerUtility.LoadAllImageFile
+- uid: Funique.Video.IFileUtility.LoadAllImageFile
+  commentId: M:Funique.Video.IFileUtility.LoadAllImageFile
+  parent: Funique.Video.IFileUtility
+  name: LoadAllImageFile()
+  nameWithType: IFileUtility.LoadAllImageFile()
+  fullName: Funique.Video.IFileUtility.LoadAllImageFile()
+  spec.csharp:
+  - uid: Funique.Video.IFileUtility.LoadAllImageFile
+    name: LoadAllImageFile
+    nameWithType: IFileUtility.LoadAllImageFile
+    fullName: Funique.Video.IFileUtility.LoadAllImageFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileUtility.LoadAllImageFile
+    name: LoadAllImageFile
+    nameWithType: IFileUtility.LoadAllImageFile
+    fullName: Funique.Video.IFileUtility.LoadAllImageFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.PreviousImage*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.PreviousImage
+  name: PreviousImage
+  nameWithType: FileClientManagerUtility.PreviousImage
+  fullName: Funique.Manager.FileClientManagerUtility.PreviousImage
+- uid: Funique.Video.IFileImage.PreviousImage
+  commentId: M:Funique.Video.IFileImage.PreviousImage
+  parent: Funique.Video.IFileImage
+  name: PreviousImage()
+  nameWithType: IFileImage.PreviousImage()
+  fullName: Funique.Video.IFileImage.PreviousImage()
+  spec.csharp:
+  - uid: Funique.Video.IFileImage.PreviousImage
+    name: PreviousImage
+    nameWithType: IFileImage.PreviousImage
+    fullName: Funique.Video.IFileImage.PreviousImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileImage.PreviousImage
+    name: PreviousImage
+    nameWithType: IFileImage.PreviousImage
+    fullName: Funique.Video.IFileImage.PreviousImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.PhotoInfo
+  commentId: T:Funique.PhotoInfo
+  parent: Funique
+  name: PhotoInfo
+  nameWithType: PhotoInfo
+  fullName: Funique.PhotoInfo
+- uid: Funique.Manager.FileClientManagerUtility.NextImage*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.NextImage
+  name: NextImage
+  nameWithType: FileClientManagerUtility.NextImage
+  fullName: Funique.Manager.FileClientManagerUtility.NextImage
+- uid: Funique.Video.IFileImage.NextImage
+  commentId: M:Funique.Video.IFileImage.NextImage
+  parent: Funique.Video.IFileImage
+  name: NextImage()
+  nameWithType: IFileImage.NextImage()
+  fullName: Funique.Video.IFileImage.NextImage()
+  spec.csharp:
+  - uid: Funique.Video.IFileImage.NextImage
+    name: NextImage
+    nameWithType: IFileImage.NextImage
+    fullName: Funique.Video.IFileImage.NextImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileImage.NextImage
+    name: NextImage
+    nameWithType: IFileImage.NextImage
+    fullName: Funique.Video.IFileImage.NextImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.FileClientManagerUtility.LoadAllURLFile*
+  commentId: Overload:Funique.Manager.FileClientManagerUtility.LoadAllURLFile
+  name: LoadAllURLFile
+  nameWithType: FileClientManagerUtility.LoadAllURLFile
+  fullName: Funique.Manager.FileClientManagerUtility.LoadAllURLFile
+- uid: Funique.Video.IFileUtility.LoadAllURLFile
+  commentId: M:Funique.Video.IFileUtility.LoadAllURLFile
+  parent: Funique.Video.IFileUtility
+  name: LoadAllURLFile()
+  nameWithType: IFileUtility.LoadAllURLFile()
+  fullName: Funique.Video.IFileUtility.LoadAllURLFile()
+  spec.csharp:
+  - uid: Funique.Video.IFileUtility.LoadAllURLFile
+    name: LoadAllURLFile
+    nameWithType: IFileUtility.LoadAllURLFile
+    fullName: Funique.Video.IFileUtility.LoadAllURLFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileUtility.LoadAllURLFile
+    name: LoadAllURLFile
+    nameWithType: IFileUtility.LoadAllURLFile
+    fullName: Funique.Video.IFileUtility.LoadAllURLFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

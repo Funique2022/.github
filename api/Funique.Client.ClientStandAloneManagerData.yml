@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Client.ClientStandAloneManagerData
+  commentId: T:Funique.Client.ClientStandAloneManagerData
+  id: ClientStandAloneManagerData
+  parent: Funique.Client
+  children:
+  - Funique.Client.ClientStandAloneManagerData.UIController
+  langs:
+  - csharp
+  - vb
+  name: ClientStandAloneManagerData
+  nameWithType: ClientStandAloneManagerData
+  fullName: Funique.Client.ClientStandAloneManagerData
+  type: Struct
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientStandAloneManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: ClientStandAloneManagerData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientStandAloneManagerData.cs
+    startLine: 5
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct ClientStandAloneManagerData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure ClientStandAloneManagerData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.Client.ClientStandAloneManagerData.UIController
+  commentId: F:Funique.Client.ClientStandAloneManagerData.UIController
+  id: UIController
+  parent: Funique.Client.ClientStandAloneManagerData
+  langs:
+  - csharp
+  - vb
+  name: UIController
+  nameWithType: ClientStandAloneManagerData.UIController
+  fullName: Funique.Client.ClientStandAloneManagerData.UIController
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientStandAloneManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: UIController
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientStandAloneManagerData.cs
+    startLine: 8
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public StandAloneUIController UIController
+    return:
+      type: Funique.Client.StandAloneUIController
+    content.vb: >-
+      <SerializeField>
+
+      Public UIController As StandAloneUIController
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Client
+  commentId: N:Funique.Client
+  name: Funique.Client
+  nameWithType: Funique.Client
+  fullName: Funique.Client
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Client.StandAloneUIController
+  commentId: T:Funique.Client.StandAloneUIController
+  parent: Funique.Client
+  name: StandAloneUIController
+  nameWithType: StandAloneUIController
+  fullName: Funique.Client.StandAloneUIController

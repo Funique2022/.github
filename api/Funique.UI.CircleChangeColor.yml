@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.CircleChangeColor
+  commentId: T:Funique.UI.CircleChangeColor
+  id: CircleChangeColor
+  parent: Funique.UI
+  children:
+  - Funique.UI.CircleChangeColor.TargetUICircle
+  - Funique.UI.CircleChangeColor.UpdateBaseColor(System.Single)
+  - Funique.UI.CircleChangeColor.UpdateProgressColor(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: CircleChangeColor
+  nameWithType: CircleChangeColor
+  fullName: Funique.UI.CircleChangeColor
+  type: Class
+  source:
+    remote:
+      path: Component/CircleChangeColor.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CircleChangeColor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/CircleChangeColor.cs
+    startLine: 4
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/UI/Circle Change Color")]
+
+      public class CircleChangeColor : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/UI/Circle Change Color")>
+
+      Public Class CircleChangeColor
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/UI/Circle Change Color
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.UI.CircleChangeColor.TargetUICircle
+  commentId: F:Funique.UI.CircleChangeColor.TargetUICircle
+  id: TargetUICircle
+  parent: Funique.UI.CircleChangeColor
+  langs:
+  - csharp
+  - vb
+  name: TargetUICircle
+  nameWithType: CircleChangeColor.TargetUICircle
+  fullName: Funique.UI.CircleChangeColor.TargetUICircle
+  type: Field
+  source:
+    remote:
+      path: Component/CircleChangeColor.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: TargetUICircle
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/CircleChangeColor.cs
+    startLine: 7
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public GameObject TargetUICircle
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public TargetUICircle As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.CircleChangeColor.UpdateBaseColor(System.Single)
+  commentId: M:Funique.UI.CircleChangeColor.UpdateBaseColor(System.Single)
+  id: UpdateBaseColor(System.Single)
+  parent: Funique.UI.CircleChangeColor
+  langs:
+  - csharp
+  - vb
+  name: UpdateBaseColor(Single)
+  nameWithType: CircleChangeColor.UpdateBaseColor(Single)
+  fullName: Funique.UI.CircleChangeColor.UpdateBaseColor(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/CircleChangeColor.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UpdateBaseColor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/CircleChangeColor.cs
+    startLine: 27
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void UpdateBaseColor(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub UpdateBaseColor(value As Single)
+  overload: Funique.UI.CircleChangeColor.UpdateBaseColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.UI.CircleChangeColor.UpdateProgressColor(System.Single)
+  commentId: M:Funique.UI.CircleChangeColor.UpdateProgressColor(System.Single)
+  id: UpdateProgressColor(System.Single)
+  parent: Funique.UI.CircleChangeColor
+  langs:
+  - csharp
+  - vb
+  name: UpdateProgressColor(Single)
+  nameWithType: CircleChangeColor.UpdateProgressColor(Single)
+  fullName: Funique.UI.CircleChangeColor.UpdateProgressColor(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Component/CircleChangeColor.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UpdateProgressColor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/CircleChangeColor.cs
+    startLine: 33
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void UpdateProgressColor(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub UpdateProgressColor(value As Single)
+  overload: Funique.UI.CircleChangeColor.UpdateProgressColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Funique.UI.CircleChangeColor.UpdateBaseColor*
+  commentId: Overload:Funique.UI.CircleChangeColor.UpdateBaseColor
+  name: UpdateBaseColor
+  nameWithType: CircleChangeColor.UpdateBaseColor
+  fullName: Funique.UI.CircleChangeColor.UpdateBaseColor
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.UI.CircleChangeColor.UpdateProgressColor*
+  commentId: Overload:Funique.UI.CircleChangeColor.UpdateProgressColor
+  name: UpdateProgressColor
+  nameWithType: CircleChangeColor.UpdateProgressColor
+  fullName: Funique.UI.CircleChangeColor.UpdateProgressColor

@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.StreamingVideoInfo
+  commentId: T:Funique.StreamingVideoInfo
+  id: StreamingVideoInfo
+  parent: Funique
+  children:
+  - Funique.StreamingVideoInfo.BtnObj
+  - Funique.StreamingVideoInfo.Equals(System.Object)
+  - Funique.StreamingVideoInfo.is_public
+  - Funique.StreamingVideoInfo.op_Equality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  - Funique.StreamingVideoInfo.op_Inequality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  - Funique.StreamingVideoInfo.thumbnail_link
+  - Funique.StreamingVideoInfo.video_bitrate
+  - Funique.StreamingVideoInfo.video_duration
+  - Funique.StreamingVideoInfo.video_intro
+  - Funique.StreamingVideoInfo.video_link
+  - Funique.StreamingVideoInfo.video_name
+  - Funique.StreamingVideoInfo.video_platform
+  - Funique.StreamingVideoInfo.video_scale
+  - Funique.StreamingVideoInfo.video_tag
+  - Funique.StreamingVideoInfo.video_type
+  langs:
+  - csharp
+  - vb
+  name: StreamingVideoInfo
+  nameWithType: StreamingVideoInfo
+  fullName: Funique.StreamingVideoInfo
+  type: Struct
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: StreamingVideoInfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nStreaming video detail information <br />\n------------------------------------------------ <br />\n串流影片詳細資料結構\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct StreamingVideoInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Structure StreamingVideoInfo
+  inheritedMembers:
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.StreamingVideoInfo.video_name
+  commentId: F:Funique.StreamingVideoInfo.video_name
+  id: video_name
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_name
+  nameWithType: StreamingVideoInfo.video_name
+  fullName: Funique.StreamingVideoInfo.video_name
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_name
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 12
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_name
+    return:
+      type: System.String
+    content.vb: Public video_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_type
+  commentId: F:Funique.StreamingVideoInfo.video_type
+  id: video_type
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_type
+  nameWithType: StreamingVideoInfo.video_type
+  fullName: Funique.StreamingVideoInfo.video_type
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_type
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_type
+    return:
+      type: System.String
+    content.vb: Public video_type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_intro
+  commentId: F:Funique.StreamingVideoInfo.video_intro
+  id: video_intro
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_intro
+  nameWithType: StreamingVideoInfo.video_intro
+  fullName: Funique.StreamingVideoInfo.video_intro
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_intro
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_intro
+    return:
+      type: System.String
+    content.vb: Public video_intro As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_duration
+  commentId: F:Funique.StreamingVideoInfo.video_duration
+  id: video_duration
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_duration
+  nameWithType: StreamingVideoInfo.video_duration
+  fullName: Funique.StreamingVideoInfo.video_duration
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_duration
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public float video_duration
+    return:
+      type: System.Single
+    content.vb: Public video_duration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_scale
+  commentId: F:Funique.StreamingVideoInfo.video_scale
+  id: video_scale
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_scale
+  nameWithType: StreamingVideoInfo.video_scale
+  fullName: Funique.StreamingVideoInfo.video_scale
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_scale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_scale
+    return:
+      type: System.String
+    content.vb: Public video_scale As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_bitrate
+  commentId: F:Funique.StreamingVideoInfo.video_bitrate
+  id: video_bitrate
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_bitrate
+  nameWithType: StreamingVideoInfo.video_bitrate
+  fullName: Funique.StreamingVideoInfo.video_bitrate
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_bitrate
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 17
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_bitrate
+    return:
+      type: System.String
+    content.vb: Public video_bitrate As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_platform
+  commentId: F:Funique.StreamingVideoInfo.video_platform
+  id: video_platform
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_platform
+  nameWithType: StreamingVideoInfo.video_platform
+  fullName: Funique.StreamingVideoInfo.video_platform
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_platform
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 18
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_platform
+    return:
+      type: System.String
+    content.vb: Public video_platform As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_link
+  commentId: F:Funique.StreamingVideoInfo.video_link
+  id: video_link
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_link
+  nameWithType: StreamingVideoInfo.video_link
+  fullName: Funique.StreamingVideoInfo.video_link
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_link
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 19
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_link
+    return:
+      type: System.String
+    content.vb: Public video_link As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.video_tag
+  commentId: F:Funique.StreamingVideoInfo.video_tag
+  id: video_tag
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: video_tag
+  nameWithType: StreamingVideoInfo.video_tag
+  fullName: Funique.StreamingVideoInfo.video_tag
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: video_tag
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 20
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string video_tag
+    return:
+      type: System.String
+    content.vb: Public video_tag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.thumbnail_link
+  commentId: F:Funique.StreamingVideoInfo.thumbnail_link
+  id: thumbnail_link
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: thumbnail_link
+  nameWithType: StreamingVideoInfo.thumbnail_link
+  fullName: Funique.StreamingVideoInfo.thumbnail_link
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: thumbnail_link
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 21
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string thumbnail_link
+    return:
+      type: System.String
+    content.vb: Public thumbnail_link As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.is_public
+  commentId: F:Funique.StreamingVideoInfo.is_public
+  id: is_public
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: is_public
+  nameWithType: StreamingVideoInfo.is_public
+  fullName: Funique.StreamingVideoInfo.is_public
+  type: Field
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: is_public
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 22
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string is_public
+    return:
+      type: System.String
+    content.vb: Public is_public As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.BtnObj
+  commentId: P:Funique.StreamingVideoInfo.BtnObj
+  id: BtnObj
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: BtnObj
+  nameWithType: StreamingVideoInfo.BtnObj
+  fullName: Funique.StreamingVideoInfo.BtnObj
+  type: Property
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: BtnObj
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 24
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public GameObject BtnObj { readonly get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property BtnObj As GameObject
+  overload: Funique.StreamingVideoInfo.BtnObj*
+  modifiers.csharp:
+  - public
+  - readonly get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.StreamingVideoInfo.Equals(System.Object)
+  commentId: M:Funique.StreamingVideoInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: StreamingVideoInfo.Equals(Object)
+  fullName: Funique.StreamingVideoInfo.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Equals
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 26
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Funique.StreamingVideoInfo.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.StreamingVideoInfo.op_Equality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  commentId: M:Funique.StreamingVideoInfo.op_Equality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  id: op_Equality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: Equality(StreamingVideoInfo, StreamingVideoInfo)
+  nameWithType: StreamingVideoInfo.Equality(StreamingVideoInfo, StreamingVideoInfo)
+  fullName: Funique.StreamingVideoInfo.Equality(Funique.StreamingVideoInfo, Funique.StreamingVideoInfo)
+  type: Operator
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: op_Equality
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 31
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static bool operator ==(StreamingVideoInfo a, StreamingVideoInfo b)
+    parameters:
+    - id: a
+      type: Funique.StreamingVideoInfo
+    - id: b
+      type: Funique.StreamingVideoInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As StreamingVideoInfo, b As StreamingVideoInfo) As Boolean
+  overload: Funique.StreamingVideoInfo.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Funique.StreamingVideoInfo.op_Inequality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  commentId: M:Funique.StreamingVideoInfo.op_Inequality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  id: op_Inequality(Funique.StreamingVideoInfo,Funique.StreamingVideoInfo)
+  parent: Funique.StreamingVideoInfo
+  langs:
+  - csharp
+  - vb
+  name: Inequality(StreamingVideoInfo, StreamingVideoInfo)
+  nameWithType: StreamingVideoInfo.Inequality(StreamingVideoInfo, StreamingVideoInfo)
+  fullName: Funique.StreamingVideoInfo.Inequality(Funique.StreamingVideoInfo, Funique.StreamingVideoInfo)
+  type: Operator
+  source:
+    remote:
+      path: Struct/StreamingVideoInfo.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: op_Inequality
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/StreamingVideoInfo.cs
+    startLine: 36
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public static bool operator !=(StreamingVideoInfo a, StreamingVideoInfo b)
+    parameters:
+    - id: a
+      type: Funique.StreamingVideoInfo
+    - id: b
+      type: Funique.StreamingVideoInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As StreamingVideoInfo, b As StreamingVideoInfo) As Boolean
+  overload: Funique.StreamingVideoInfo.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.StreamingVideoInfo.BtnObj*
+  commentId: Overload:Funique.StreamingVideoInfo.BtnObj
+  name: BtnObj
+  nameWithType: StreamingVideoInfo.BtnObj
+  fullName: Funique.StreamingVideoInfo.BtnObj
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.StreamingVideoInfo.Equals*
+  commentId: Overload:Funique.StreamingVideoInfo.Equals
+  name: Equals
+  nameWithType: StreamingVideoInfo.Equals
+  fullName: Funique.StreamingVideoInfo.Equals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.StreamingVideoInfo.op_Equality*
+  commentId: Overload:Funique.StreamingVideoInfo.op_Equality
+  name: Equality
+  nameWithType: StreamingVideoInfo.Equality
+  fullName: Funique.StreamingVideoInfo.Equality
+- uid: Funique.StreamingVideoInfo
+  commentId: T:Funique.StreamingVideoInfo
+  parent: Funique
+  name: StreamingVideoInfo
+  nameWithType: StreamingVideoInfo
+  fullName: Funique.StreamingVideoInfo
+- uid: Funique.StreamingVideoInfo.op_Inequality*
+  commentId: Overload:Funique.StreamingVideoInfo.op_Inequality
+  name: Inequality
+  nameWithType: StreamingVideoInfo.Inequality
+  fullName: Funique.StreamingVideoInfo.Inequality

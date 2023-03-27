@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Video.IFileUtility
+  commentId: T:Funique.Video.IFileUtility
+  id: IFileUtility
+  parent: Funique.Video
+  children:
+  - Funique.Video.IFileUtility.Image_Path
+  - Funique.Video.IFileUtility.LoadAllImageFile
+  - Funique.Video.IFileUtility.LoadAllURLFile
+  - Funique.Video.IFileUtility.LoadVideoFile
+  - Funique.Video.IFileUtility.SRT_Path
+  - Funique.Video.IFileUtility.TBE_Path
+  - Funique.Video.IFileUtility.URL_Path
+  - Funique.Video.IFileUtility.Video_Path
+  langs:
+  - csharp
+  - vb
+  name: IFileUtility
+  nameWithType: IFileUtility
+  fullName: Funique.Video.IFileUtility
+  type: Interface
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: IFileUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 7
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nMerge interface for file manager <br />\n------------------------------------------------ <br />\n給 檔案管理者的 整合介面\n"
+  example: []
+  syntax:
+    content: 'public interface IFileUtility : IFileAudio, IFileImage, IFileVideo, IFileStreaming, IFileURL, IFileVerify, IFileABR'
+    content.vb: >-
+      Public Interface IFileUtility
+
+          Inherits IFileAudio, IFileImage, IFileVideo, IFileStreaming, IFileURL, IFileVerify, IFileABR
+  inheritedMembers:
+  - Funique.Video.IFileImage.ImageLabelPrefab
+  - Funique.Video.IFileImage.RefreshImage
+  - Funique.Video.IFileImage.photoList
+  - Funique.Video.IFileImage.ReadFinish_Image
+  - Funique.Video.IFileImage.NowProgress
+  - Funique.Video.IFileImage.PreviousImage
+  - Funique.Video.IFileImage.NextImage
+  - Funique.Video.IFileVideo.VideoLabelPrefab
+  - Funique.Video.IFileVideo.RefreshVideo
+  - Funique.Video.IFileVideo.videoList
+  - Funique.Video.IFileVideo.ReadFinish_Video
+  - Funique.Video.IFileVideo.PreviousVideo
+  - Funique.Video.IFileVideo.NextVideo
+  - Funique.Video.IFileStreaming.StreamingLabelPrefab
+  - Funique.Video.IFileURL.urlList
+  - Funique.Video.IFileVerify.verifyList
+  - Funique.Video.IFileABR.abrList
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Video.IFileUtility.Video_Path
+  commentId: P:Funique.Video.IFileUtility.Video_Path
+  id: Video_Path
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: Video_Path
+  nameWithType: IFileUtility.Video_Path
+  fullName: Funique.Video.IFileUtility.Video_Path
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: Video_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 9
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: string Video_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Video_Path As String
+  overload: Funique.Video.IFileUtility.Video_Path*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileUtility.Image_Path
+  commentId: P:Funique.Video.IFileUtility.Image_Path
+  id: Image_Path
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: Image_Path
+  nameWithType: IFileUtility.Image_Path
+  fullName: Funique.Video.IFileUtility.Image_Path
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: Image_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 10
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: string Image_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Image_Path As String
+  overload: Funique.Video.IFileUtility.Image_Path*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileUtility.SRT_Path
+  commentId: P:Funique.Video.IFileUtility.SRT_Path
+  id: SRT_Path
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: SRT_Path
+  nameWithType: IFileUtility.SRT_Path
+  fullName: Funique.Video.IFileUtility.SRT_Path
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: SRT_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 11
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: string SRT_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SRT_Path As String
+  overload: Funique.Video.IFileUtility.SRT_Path*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileUtility.TBE_Path
+  commentId: P:Funique.Video.IFileUtility.TBE_Path
+  id: TBE_Path
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: TBE_Path
+  nameWithType: IFileUtility.TBE_Path
+  fullName: Funique.Video.IFileUtility.TBE_Path
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: TBE_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 12
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: string TBE_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TBE_Path As String
+  overload: Funique.Video.IFileUtility.TBE_Path*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileUtility.URL_Path
+  commentId: P:Funique.Video.IFileUtility.URL_Path
+  id: URL_Path
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: URL_Path
+  nameWithType: IFileUtility.URL_Path
+  fullName: Funique.Video.IFileUtility.URL_Path
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: URL_Path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 13
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: string URL_Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property URL_Path As String
+  overload: Funique.Video.IFileUtility.URL_Path*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileUtility.LoadVideoFile
+  commentId: M:Funique.Video.IFileUtility.LoadVideoFile
+  id: LoadVideoFile
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadVideoFile()
+  nameWithType: IFileUtility.LoadVideoFile()
+  fullName: Funique.Video.IFileUtility.LoadVideoFile()
+  type: Method
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: LoadVideoFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 15
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: void LoadVideoFile()
+    content.vb: Sub LoadVideoFile
+  overload: Funique.Video.IFileUtility.LoadVideoFile*
+- uid: Funique.Video.IFileUtility.LoadAllImageFile
+  commentId: M:Funique.Video.IFileUtility.LoadAllImageFile
+  id: LoadAllImageFile
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadAllImageFile()
+  nameWithType: IFileUtility.LoadAllImageFile()
+  fullName: Funique.Video.IFileUtility.LoadAllImageFile()
+  type: Method
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: LoadAllImageFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 16
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: void LoadAllImageFile()
+    content.vb: Sub LoadAllImageFile
+  overload: Funique.Video.IFileUtility.LoadAllImageFile*
+- uid: Funique.Video.IFileUtility.LoadAllURLFile
+  commentId: M:Funique.Video.IFileUtility.LoadAllURLFile
+  id: LoadAllURLFile
+  parent: Funique.Video.IFileUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadAllURLFile()
+  nameWithType: IFileUtility.LoadAllURLFile()
+  fullName: Funique.Video.IFileUtility.LoadAllURLFile()
+  type: Method
+  source:
+    remote:
+      path: Interface/IFileUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: LoadAllURLFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileUtility.cs
+    startLine: 17
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: void LoadAllURLFile()
+    content.vb: Sub LoadAllURLFile
+  overload: Funique.Video.IFileUtility.LoadAllURLFile*
+references:
+- uid: Funique.Video
+  commentId: N:Funique.Video
+  name: Funique.Video
+  nameWithType: Funique.Video
+  fullName: Funique.Video
+- uid: Funique.Video.IFileImage.ImageLabelPrefab
+  commentId: P:Funique.Video.IFileImage.ImageLabelPrefab
+  parent: Funique.Video.IFileImage
+  name: ImageLabelPrefab
+  nameWithType: IFileImage.ImageLabelPrefab
+  fullName: Funique.Video.IFileImage.ImageLabelPrefab
+- uid: Funique.Video.IFileImage.RefreshImage
+  commentId: P:Funique.Video.IFileImage.RefreshImage
+  parent: Funique.Video.IFileImage
+  name: RefreshImage
+  nameWithType: IFileImage.RefreshImage
+  fullName: Funique.Video.IFileImage.RefreshImage
+- uid: Funique.Video.IFileImage.photoList
+  commentId: P:Funique.Video.IFileImage.photoList
+  parent: Funique.Video.IFileImage
+  name: photoList
+  nameWithType: IFileImage.photoList
+  fullName: Funique.Video.IFileImage.photoList
+- uid: Funique.Video.IFileImage.ReadFinish_Image
+  commentId: P:Funique.Video.IFileImage.ReadFinish_Image
+  parent: Funique.Video.IFileImage
+  name: ReadFinish_Image
+  nameWithType: IFileImage.ReadFinish_Image
+  fullName: Funique.Video.IFileImage.ReadFinish_Image
+- uid: Funique.Video.IFileImage.NowProgress
+  commentId: P:Funique.Video.IFileImage.NowProgress
+  parent: Funique.Video.IFileImage
+  name: NowProgress
+  nameWithType: IFileImage.NowProgress
+  fullName: Funique.Video.IFileImage.NowProgress
+- uid: Funique.Video.IFileImage.PreviousImage
+  commentId: M:Funique.Video.IFileImage.PreviousImage
+  parent: Funique.Video.IFileImage
+  name: PreviousImage()
+  nameWithType: IFileImage.PreviousImage()
+  fullName: Funique.Video.IFileImage.PreviousImage()
+  spec.csharp:
+  - uid: Funique.Video.IFileImage.PreviousImage
+    name: PreviousImage
+    nameWithType: IFileImage.PreviousImage
+    fullName: Funique.Video.IFileImage.PreviousImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileImage.PreviousImage
+    name: PreviousImage
+    nameWithType: IFileImage.PreviousImage
+    fullName: Funique.Video.IFileImage.PreviousImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.IFileImage.NextImage
+  commentId: M:Funique.Video.IFileImage.NextImage
+  parent: Funique.Video.IFileImage
+  name: NextImage()
+  nameWithType: IFileImage.NextImage()
+  fullName: Funique.Video.IFileImage.NextImage()
+  spec.csharp:
+  - uid: Funique.Video.IFileImage.NextImage
+    name: NextImage
+    nameWithType: IFileImage.NextImage
+    fullName: Funique.Video.IFileImage.NextImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileImage.NextImage
+    name: NextImage
+    nameWithType: IFileImage.NextImage
+    fullName: Funique.Video.IFileImage.NextImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.IFileVideo.VideoLabelPrefab
+  commentId: P:Funique.Video.IFileVideo.VideoLabelPrefab
+  parent: Funique.Video.IFileVideo
+  name: VideoLabelPrefab
+  nameWithType: IFileVideo.VideoLabelPrefab
+  fullName: Funique.Video.IFileVideo.VideoLabelPrefab
+- uid: Funique.Video.IFileVideo.RefreshVideo
+  commentId: P:Funique.Video.IFileVideo.RefreshVideo
+  parent: Funique.Video.IFileVideo
+  name: RefreshVideo
+  nameWithType: IFileVideo.RefreshVideo
+  fullName: Funique.Video.IFileVideo.RefreshVideo
+- uid: Funique.Video.IFileVideo.videoList
+  commentId: P:Funique.Video.IFileVideo.videoList
+  parent: Funique.Video.IFileVideo
+  name: videoList
+  nameWithType: IFileVideo.videoList
+  fullName: Funique.Video.IFileVideo.videoList
+- uid: Funique.Video.IFileVideo.ReadFinish_Video
+  commentId: P:Funique.Video.IFileVideo.ReadFinish_Video
+  parent: Funique.Video.IFileVideo
+  name: ReadFinish_Video
+  nameWithType: IFileVideo.ReadFinish_Video
+  fullName: Funique.Video.IFileVideo.ReadFinish_Video
+- uid: Funique.Video.IFileVideo.PreviousVideo
+  commentId: M:Funique.Video.IFileVideo.PreviousVideo
+  parent: Funique.Video.IFileVideo
+  name: PreviousVideo()
+  nameWithType: IFileVideo.PreviousVideo()
+  fullName: Funique.Video.IFileVideo.PreviousVideo()
+  spec.csharp:
+  - uid: Funique.Video.IFileVideo.PreviousVideo
+    name: PreviousVideo
+    nameWithType: IFileVideo.PreviousVideo
+    fullName: Funique.Video.IFileVideo.PreviousVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileVideo.PreviousVideo
+    name: PreviousVideo
+    nameWithType: IFileVideo.PreviousVideo
+    fullName: Funique.Video.IFileVideo.PreviousVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.IFileVideo.NextVideo
+  commentId: M:Funique.Video.IFileVideo.NextVideo
+  parent: Funique.Video.IFileVideo
+  name: NextVideo()
+  nameWithType: IFileVideo.NextVideo()
+  fullName: Funique.Video.IFileVideo.NextVideo()
+  spec.csharp:
+  - uid: Funique.Video.IFileVideo.NextVideo
+    name: NextVideo
+    nameWithType: IFileVideo.NextVideo
+    fullName: Funique.Video.IFileVideo.NextVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Video.IFileVideo.NextVideo
+    name: NextVideo
+    nameWithType: IFileVideo.NextVideo
+    fullName: Funique.Video.IFileVideo.NextVideo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.IFileStreaming.StreamingLabelPrefab
+  commentId: P:Funique.Video.IFileStreaming.StreamingLabelPrefab
+  parent: Funique.Video.IFileStreaming
+  name: StreamingLabelPrefab
+  nameWithType: IFileStreaming.StreamingLabelPrefab
+  fullName: Funique.Video.IFileStreaming.StreamingLabelPrefab
+- uid: Funique.Video.IFileURL.urlList
+  commentId: P:Funique.Video.IFileURL.urlList
+  parent: Funique.Video.IFileURL
+  name: urlList
+  nameWithType: IFileURL.urlList
+  fullName: Funique.Video.IFileURL.urlList
+- uid: Funique.Video.IFileVerify.verifyList
+  commentId: P:Funique.Video.IFileVerify.verifyList
+  parent: Funique.Video.IFileVerify
+  name: verifyList
+  nameWithType: IFileVerify.verifyList
+  fullName: Funique.Video.IFileVerify.verifyList
+- uid: Funique.Video.IFileABR.abrList
+  commentId: P:Funique.Video.IFileABR.abrList
+  parent: Funique.Video.IFileABR
+  name: abrList
+  nameWithType: IFileABR.abrList
+  fullName: Funique.Video.IFileABR.abrList
+- uid: Funique.Video.IFileImage
+  commentId: T:Funique.Video.IFileImage
+  parent: Funique.Video
+  name: IFileImage
+  nameWithType: IFileImage
+  fullName: Funique.Video.IFileImage
+- uid: Funique.Video.IFileVideo
+  commentId: T:Funique.Video.IFileVideo
+  parent: Funique.Video
+  name: IFileVideo
+  nameWithType: IFileVideo
+  fullName: Funique.Video.IFileVideo
+- uid: Funique.Video.IFileStreaming
+  commentId: T:Funique.Video.IFileStreaming
+  parent: Funique.Video
+  name: IFileStreaming
+  nameWithType: IFileStreaming
+  fullName: Funique.Video.IFileStreaming
+- uid: Funique.Video.IFileURL
+  commentId: T:Funique.Video.IFileURL
+  parent: Funique.Video
+  name: IFileURL
+  nameWithType: IFileURL
+  fullName: Funique.Video.IFileURL
+- uid: Funique.Video.IFileVerify
+  commentId: T:Funique.Video.IFileVerify
+  parent: Funique.Video
+  name: IFileVerify
+  nameWithType: IFileVerify
+  fullName: Funique.Video.IFileVerify
+- uid: Funique.Video.IFileABR
+  commentId: T:Funique.Video.IFileABR
+  parent: Funique.Video
+  name: IFileABR
+  nameWithType: IFileABR
+  fullName: Funique.Video.IFileABR
+- uid: Funique.Video.IFileUtility.Video_Path*
+  commentId: Overload:Funique.Video.IFileUtility.Video_Path
+  name: Video_Path
+  nameWithType: IFileUtility.Video_Path
+  fullName: Funique.Video.IFileUtility.Video_Path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Video.IFileUtility.Image_Path*
+  commentId: Overload:Funique.Video.IFileUtility.Image_Path
+  name: Image_Path
+  nameWithType: IFileUtility.Image_Path
+  fullName: Funique.Video.IFileUtility.Image_Path
+- uid: Funique.Video.IFileUtility.SRT_Path*
+  commentId: Overload:Funique.Video.IFileUtility.SRT_Path
+  name: SRT_Path
+  nameWithType: IFileUtility.SRT_Path
+  fullName: Funique.Video.IFileUtility.SRT_Path
+- uid: Funique.Video.IFileUtility.TBE_Path*
+  commentId: Overload:Funique.Video.IFileUtility.TBE_Path
+  name: TBE_Path
+  nameWithType: IFileUtility.TBE_Path
+  fullName: Funique.Video.IFileUtility.TBE_Path
+- uid: Funique.Video.IFileUtility.URL_Path*
+  commentId: Overload:Funique.Video.IFileUtility.URL_Path
+  name: URL_Path
+  nameWithType: IFileUtility.URL_Path
+  fullName: Funique.Video.IFileUtility.URL_Path
+- uid: Funique.Video.IFileUtility.LoadVideoFile*
+  commentId: Overload:Funique.Video.IFileUtility.LoadVideoFile
+  name: LoadVideoFile
+  nameWithType: IFileUtility.LoadVideoFile
+  fullName: Funique.Video.IFileUtility.LoadVideoFile
+- uid: Funique.Video.IFileUtility.LoadAllImageFile*
+  commentId: Overload:Funique.Video.IFileUtility.LoadAllImageFile
+  name: LoadAllImageFile
+  nameWithType: IFileUtility.LoadAllImageFile
+  fullName: Funique.Video.IFileUtility.LoadAllImageFile
+- uid: Funique.Video.IFileUtility.LoadAllURLFile*
+  commentId: Overload:Funique.Video.IFileUtility.LoadAllURLFile
+  name: LoadAllURLFile
+  nameWithType: IFileUtility.LoadAllURLFile
+  fullName: Funique.Video.IFileUtility.LoadAllURLFile

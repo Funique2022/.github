@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.ReplayState
+  commentId: T:Funique.ReplayState
+  id: ReplayState
+  parent: Funique
+  children:
+  - Funique.ReplayState.SequenceLoop
+  - Funique.ReplayState.SequencePlay
+  - Funique.ReplayState.SingePlay
+  - Funique.ReplayState.SingleLoop
+  langs:
+  - csharp
+  - vb
+  name: ReplayState
+  nameWithType: ReplayState
+  fullName: Funique.ReplayState
+  type: Enum
+  source:
+    remote:
+      path: Enum/ReplayState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ReplayState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/ReplayState.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nReplay mode <br />\nOrder is important <br />\n------------------------------------------------ <br />\n循環模式 <br />\n順序重要\n"
+  example: []
+  syntax:
+    content: public enum ReplayState
+    content.vb: Public Enum ReplayState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.ReplayState.SingePlay
+  commentId: F:Funique.ReplayState.SingePlay
+  id: SingePlay
+  parent: Funique.ReplayState
+  langs:
+  - csharp
+  - vb
+  name: SingePlay
+  nameWithType: ReplayState.SingePlay
+  fullName: Funique.ReplayState.SingePlay
+  type: Field
+  source:
+    remote:
+      path: Enum/ReplayState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: SingePlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/ReplayState.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nOnly play single one video <br />\n------------------------------------------------ <br />\n單片播放\n"
+  example: []
+  syntax:
+    content: SingePlay = 0
+    return:
+      type: Funique.ReplayState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.ReplayState.SingleLoop
+  commentId: F:Funique.ReplayState.SingleLoop
+  id: SingleLoop
+  parent: Funique.ReplayState
+  langs:
+  - csharp
+  - vb
+  name: SingleLoop
+  nameWithType: ReplayState.SingleLoop
+  fullName: Funique.ReplayState.SingleLoop
+  type: Field
+  source:
+    remote:
+      path: Enum/ReplayState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: SingleLoop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/ReplayState.cs
+    startLine: 22
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlay single video over and over <br />\n------------------------------------------------ <br />\n單片循環\n"
+  example: []
+  syntax:
+    content: SingleLoop = 1
+    return:
+      type: Funique.ReplayState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.ReplayState.SequencePlay
+  commentId: F:Funique.ReplayState.SequencePlay
+  id: SequencePlay
+  parent: Funique.ReplayState
+  langs:
+  - csharp
+  - vb
+  name: SequencePlay
+  nameWithType: ReplayState.SequencePlay
+  fullName: Funique.ReplayState.SequencePlay
+  type: Field
+  source:
+    remote:
+      path: Enum/ReplayState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: SequencePlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/ReplayState.cs
+    startLine: 28
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlay current registered play list <br />\n------------------------------------------------ <br />\n順清單播放\n"
+  example: []
+  syntax:
+    content: SequencePlay = 2
+    return:
+      type: Funique.ReplayState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.ReplayState.SequenceLoop
+  commentId: F:Funique.ReplayState.SequenceLoop
+  id: SequenceLoop
+  parent: Funique.ReplayState
+  langs:
+  - csharp
+  - vb
+  name: SequenceLoop
+  nameWithType: ReplayState.SequenceLoop
+  fullName: Funique.ReplayState.SequenceLoop
+  type: Field
+  source:
+    remote:
+      path: Enum/ReplayState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: SequenceLoop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/ReplayState.cs
+    startLine: 34
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlay current registered play list and looping around <br />\n------------------------------------------------ <br />\n順清單循環\n"
+  example: []
+  syntax:
+    content: SequenceLoop = 3
+    return:
+      type: Funique.ReplayState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.ReplayState
+  commentId: T:Funique.ReplayState
+  parent: Funique
+  name: ReplayState
+  nameWithType: ReplayState
+  fullName: Funique.ReplayState

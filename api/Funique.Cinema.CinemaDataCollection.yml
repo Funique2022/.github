@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Cinema.CinemaDataCollection
+  commentId: T:Funique.Cinema.CinemaDataCollection
+  id: CinemaDataCollection
+  parent: Funique.Cinema
+  children:
+  - Funique.Cinema.CinemaDataCollection.#ctor(Funique.Cinema.CinemaView,Funique.Cinema.CinemaLabelData,Funique.Cinema.CinemaLabelViewBase)
+  - Funique.Cinema.CinemaDataCollection.label_data
+  - Funique.Cinema.CinemaDataCollection.label_view
+  - Funique.Cinema.CinemaDataCollection.view
+  langs:
+  - csharp
+  - vb
+  name: CinemaDataCollection
+  nameWithType: CinemaDataCollection
+  fullName: Funique.Cinema.CinemaDataCollection
+  type: Class
+  source:
+    remote:
+      path: Struct/CinemaDataCollection.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CinemaDataCollection
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/CinemaDataCollection.cs
+    startLine: 13
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nA pair data for View instance, Tab label instance, Label view instance <br />\nThis object is for convenient access for dev <br />\nTo get the pair data, check detail: <xref href=\"Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref> <br />\n------------------------------------------------ <br />\n劇院實體, 上方標籤, 標籤資料 的配對資料 <br />\n這個物件是幫助開發人員 快速簡單存取配對 <br />\n得到這個配對資料, 詳細: <xref href=\"Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public sealed class CinemaDataCollection
+    content.vb: >-
+      <Serializable>
+
+      Public NotInheritable Class CinemaDataCollection
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Funique.Cinema.CinemaDataCollection.view
+  commentId: P:Funique.Cinema.CinemaDataCollection.view
+  id: view
+  parent: Funique.Cinema.CinemaDataCollection
+  langs:
+  - csharp
+  - vb
+  name: view
+  nameWithType: CinemaDataCollection.view
+  fullName: Funique.Cinema.CinemaDataCollection.view
+  type: Property
+  source:
+    remote:
+      path: Struct/CinemaDataCollection.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: view
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/CinemaDataCollection.cs
+    startLine: 21
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nView instance\n------------------------------------------------ <br />\n劇院實體\n"
+  example: []
+  syntax:
+    content: public CinemaView view { get; }
+    parameters: []
+    return:
+      type: Funique.Cinema.CinemaView
+    content.vb: Public ReadOnly Property view As CinemaView
+  overload: Funique.Cinema.CinemaDataCollection.view*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Cinema.CinemaDataCollection.label_data
+  commentId: P:Funique.Cinema.CinemaDataCollection.label_data
+  id: label_data
+  parent: Funique.Cinema.CinemaDataCollection
+  langs:
+  - csharp
+  - vb
+  name: label_data
+  nameWithType: CinemaDataCollection.label_data
+  fullName: Funique.Cinema.CinemaDataCollection.label_data
+  type: Property
+  source:
+    remote:
+      path: Struct/CinemaDataCollection.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: label_data
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/CinemaDataCollection.cs
+    startLine: 27
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nLabel data <br />\n------------------------------------------------ <br />\n上方標籤資料\n"
+  example: []
+  syntax:
+    content: public CinemaLabelData label_data { get; }
+    parameters: []
+    return:
+      type: Funique.Cinema.CinemaLabelData
+    content.vb: Public ReadOnly Property label_data As CinemaLabelData
+  overload: Funique.Cinema.CinemaDataCollection.label_data*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Cinema.CinemaDataCollection.label_view
+  commentId: P:Funique.Cinema.CinemaDataCollection.label_view
+  id: label_view
+  parent: Funique.Cinema.CinemaDataCollection
+  langs:
+  - csharp
+  - vb
+  name: label_view
+  nameWithType: CinemaDataCollection.label_view
+  fullName: Funique.Cinema.CinemaDataCollection.label_view
+  type: Property
+  source:
+    remote:
+      path: Struct/CinemaDataCollection.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: label_view
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/CinemaDataCollection.cs
+    startLine: 33
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nTop tab label instance <br />\n------------------------------------------------ <br />\n上方標籤\n"
+  example: []
+  syntax:
+    content: public CinemaLabelViewBase label_view { get; }
+    parameters: []
+    return:
+      type: Funique.Cinema.CinemaLabelViewBase
+    content.vb: Public ReadOnly Property label_view As CinemaLabelViewBase
+  overload: Funique.Cinema.CinemaDataCollection.label_view*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Cinema.CinemaDataCollection.#ctor(Funique.Cinema.CinemaView,Funique.Cinema.CinemaLabelData,Funique.Cinema.CinemaLabelViewBase)
+  commentId: M:Funique.Cinema.CinemaDataCollection.#ctor(Funique.Cinema.CinemaView,Funique.Cinema.CinemaLabelData,Funique.Cinema.CinemaLabelViewBase)
+  id: '#ctor(Funique.Cinema.CinemaView,Funique.Cinema.CinemaLabelData,Funique.Cinema.CinemaLabelViewBase)'
+  parent: Funique.Cinema.CinemaDataCollection
+  langs:
+  - csharp
+  - vb
+  name: CinemaDataCollection(CinemaView, CinemaLabelData, CinemaLabelViewBase)
+  nameWithType: CinemaDataCollection.CinemaDataCollection(CinemaView, CinemaLabelData, CinemaLabelViewBase)
+  fullName: Funique.Cinema.CinemaDataCollection.CinemaDataCollection(Funique.Cinema.CinemaView, Funique.Cinema.CinemaLabelData, Funique.Cinema.CinemaLabelViewBase)
+  type: Constructor
+  source:
+    remote:
+      path: Struct/CinemaDataCollection.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Struct/CinemaDataCollection.cs
+    startLine: 35
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public CinemaDataCollection(CinemaView view, CinemaLabelData label_data, CinemaLabelViewBase label_view)
+    parameters:
+    - id: view
+      type: Funique.Cinema.CinemaView
+    - id: label_data
+      type: Funique.Cinema.CinemaLabelData
+    - id: label_view
+      type: Funique.Cinema.CinemaLabelViewBase
+    content.vb: Public Sub New(view As CinemaView, label_data As CinemaLabelData, label_view As CinemaLabelViewBase)
+  overload: Funique.Cinema.CinemaDataCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)
+  commentId: M:Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)
+  parent: Funique.Cinema.ICinemaServerUtility
+  isExternal: true
+  name: GetDataCollectionByCinemaIndex(Int32)
+  nameWithType: ICinemaServerUtility.GetDataCollectionByCinemaIndex(Int32)
+  fullName: Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)
+    name: GetDataCollectionByCinemaIndex
+    nameWithType: ICinemaServerUtility.GetDataCollectionByCinemaIndex
+    fullName: Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex(System.Int32)
+    name: GetDataCollectionByCinemaIndex
+    nameWithType: ICinemaServerUtility.GetDataCollectionByCinemaIndex
+    fullName: Funique.Cinema.ICinemaServerUtility.GetDataCollectionByCinemaIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Cinema.ICinemaServerUtility
+  commentId: T:Funique.Cinema.ICinemaServerUtility
+  parent: Funique.Cinema
+  name: ICinemaServerUtility
+  nameWithType: ICinemaServerUtility
+  fullName: Funique.Cinema.ICinemaServerUtility
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Cinema.CinemaDataCollection.view*
+  commentId: Overload:Funique.Cinema.CinemaDataCollection.view
+  name: view
+  nameWithType: CinemaDataCollection.view
+  fullName: Funique.Cinema.CinemaDataCollection.view
+- uid: Funique.Cinema.CinemaView
+  commentId: T:Funique.Cinema.CinemaView
+  parent: Funique.Cinema
+  name: CinemaView
+  nameWithType: CinemaView
+  fullName: Funique.Cinema.CinemaView
+- uid: Funique.Cinema.CinemaDataCollection.label_data*
+  commentId: Overload:Funique.Cinema.CinemaDataCollection.label_data
+  name: label_data
+  nameWithType: CinemaDataCollection.label_data
+  fullName: Funique.Cinema.CinemaDataCollection.label_data
+- uid: Funique.Cinema.CinemaLabelData
+  commentId: T:Funique.Cinema.CinemaLabelData
+  parent: Funique.Cinema
+  name: CinemaLabelData
+  nameWithType: CinemaLabelData
+  fullName: Funique.Cinema.CinemaLabelData
+- uid: Funique.Cinema.CinemaDataCollection.label_view*
+  commentId: Overload:Funique.Cinema.CinemaDataCollection.label_view
+  name: label_view
+  nameWithType: CinemaDataCollection.label_view
+  fullName: Funique.Cinema.CinemaDataCollection.label_view
+- uid: Funique.Cinema.CinemaLabelViewBase
+  commentId: T:Funique.Cinema.CinemaLabelViewBase
+  parent: Funique.Cinema
+  name: CinemaLabelViewBase
+  nameWithType: CinemaLabelViewBase
+  fullName: Funique.Cinema.CinemaLabelViewBase
+- uid: Funique.Cinema.CinemaDataCollection.#ctor*
+  commentId: Overload:Funique.Cinema.CinemaDataCollection.#ctor
+  name: CinemaDataCollection
+  nameWithType: CinemaDataCollection.CinemaDataCollection
+  fullName: Funique.Cinema.CinemaDataCollection.CinemaDataCollection

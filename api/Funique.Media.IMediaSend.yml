@@ -1,0 +1,562 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Media.IMediaSend
+  commentId: T:Funique.Media.IMediaSend
+  id: IMediaSend
+  parent: Funique.Media
+  children:
+  - Funique.Media.IMediaSend.MsgToClients(System.String)
+  - Funique.Media.IMediaSend.SendAllPlayerClose
+  - Funique.Media.IMediaSend.SendAllPlayerOpen
+  - Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+  - Funique.Media.IMediaSend.SendHeadsetReset
+  - Funique.Media.IMediaSend.SendMasterSettingState
+  - Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  - Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  - Funique.Media.IMediaSend.SendStereoMode(System.String)
+  - Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  - Funique.Media.IMediaSend.SendVideoName(System.String)
+  - Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  - Funique.Media.IMediaSend.SendWaitRoom
+  langs:
+  - csharp
+  - vb
+  name: IMediaSend
+  nameWithType: IMediaSend
+  fullName: Funique.Media.IMediaSend
+  type: Interface
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: IMediaSend
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 7
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nThe media send feature <br />\n------------------------------------------------ <br />\n媒體傳輸功能\n"
+  example: []
+  syntax:
+    content: public interface IMediaSend
+    content.vb: Public Interface IMediaSend
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Media.IMediaSend.MsgToClients(System.String)
+  commentId: M:Funique.Media.IMediaSend.MsgToClients(System.String)
+  id: MsgToClients(System.String)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: MsgToClients(String)
+  nameWithType: IMediaSend.MsgToClients(String)
+  fullName: Funique.Media.IMediaSend.MsgToClients(System.String)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: MsgToClients
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 9
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  syntax:
+    content: void MsgToClients(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Sub MsgToClients(context As String)
+  overload: Funique.Media.IMediaSend.MsgToClients*
+- uid: Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+  commentId: M:Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+  id: SendGetVideoTime(System.Int32,System.String)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendGetVideoTime(Int32, String)
+  nameWithType: IMediaSend.SendGetVideoTime(Int32, String)
+  fullName: Funique.Media.IMediaSend.SendGetVideoTime(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendGetVideoTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 18
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nSending network request for video time <br />\n------------------------------------------------ <br />\n向客戶端索取撥放時間\n"
+  example: []
+  syntax:
+    content: void SendGetVideoTime(int cinemaID, string videoFilterName)
+    parameters:
+    - id: cinemaID
+      type: System.Int32
+      description: Cinema index
+    - id: videoFilterName
+      type: System.String
+      description: Effect the context sending
+    content.vb: Sub SendGetVideoTime(cinemaID As Integer, videoFilterName As String)
+  overload: Funique.Media.IMediaSend.SendGetVideoTime*
+- uid: Funique.Media.IMediaSend.SendHeadsetReset
+  commentId: M:Funique.Media.IMediaSend.SendHeadsetReset
+  id: SendHeadsetReset
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendHeadsetReset()
+  nameWithType: IMediaSend.SendHeadsetReset()
+  fullName: Funique.Media.IMediaSend.SendHeadsetReset()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendHeadsetReset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 24
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nMake client headset reset <br />\n------------------------------------------------ <br />\n重設客戶端頭盔\n"
+  example: []
+  syntax:
+    content: void SendHeadsetReset()
+    content.vb: Sub SendHeadsetReset
+  overload: Funique.Media.IMediaSend.SendHeadsetReset*
+- uid: Funique.Media.IMediaSend.SendWaitRoom
+  commentId: M:Funique.Media.IMediaSend.SendWaitRoom
+  id: SendWaitRoom
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendWaitRoom()
+  nameWithType: IMediaSend.SendWaitRoom()
+  fullName: Funique.Media.IMediaSend.SendWaitRoom()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendWaitRoom
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 30
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nMake all client go to waiting room <br />\n------------------------------------------------ <br />\n讓所有客戶端進入等待室\n"
+  example: []
+  syntax:
+    content: void SendWaitRoom()
+    content.vb: Sub SendWaitRoom
+  overload: Funique.Media.IMediaSend.SendWaitRoom*
+- uid: Funique.Media.IMediaSend.SendVideoName(System.String)
+  commentId: M:Funique.Media.IMediaSend.SendVideoName(System.String)
+  id: SendVideoName(System.String)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendVideoName(String)
+  nameWithType: IMediaSend.SendVideoName(String)
+  fullName: Funique.Media.IMediaSend.SendVideoName(System.String)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendVideoName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 37
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nRequest to play video by name <br />\n------------------------------------------------ <br />\n根據名字播放影片\n"
+  example: []
+  syntax:
+    content: void SendVideoName(string videoName)
+    parameters:
+    - id: videoName
+      type: System.String
+      description: ''
+    content.vb: Sub SendVideoName(videoName As String)
+  overload: Funique.Media.IMediaSend.SendVideoName*
+- uid: Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  commentId: M:Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  id: SendVideoTime(System.Single)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendVideoTime(Single)
+  nameWithType: IMediaSend.SendVideoTime(Single)
+  fullName: Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendVideoTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 44
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nRequest to go to specific timing <br />\n------------------------------------------------ <br />\n快轉至某個時間\n"
+  example: []
+  syntax:
+    content: void SendVideoTime(float time)
+    parameters:
+    - id: time
+      type: System.Single
+      description: ''
+    content.vb: Sub SendVideoTime(time As Single)
+  overload: Funique.Media.IMediaSend.SendVideoTime*
+- uid: Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  commentId: M:Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  id: SendReplayMode(Funique.ReplayState)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendReplayMode(ReplayState)
+  nameWithType: IMediaSend.SendReplayMode(ReplayState)
+  fullName: Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendReplayMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 52
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nSending reply signal <br />\n------------------------------------------------ <br />\n傳輸重播訊號\n"
+  example: []
+  syntax:
+    content: void SendReplayMode(ReplayState mode)
+    parameters:
+    - id: mode
+      type: Funique.ReplayState
+    content.vb: Sub SendReplayMode(mode As ReplayState)
+  overload: Funique.Media.IMediaSend.SendReplayMode*
+- uid: Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  commentId: M:Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  id: SendSubtitleMode(Funique.SubtitleMode)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendSubtitleMode(SubtitleMode)
+  nameWithType: IMediaSend.SendSubtitleMode(SubtitleMode)
+  fullName: Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendSubtitleMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 58
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nSending subtitle trigger signal <br />\n------------------------------------------------ <br />\n傳輸字幕更改信號\n"
+  example: []
+  syntax:
+    content: void SendSubtitleMode(SubtitleMode mode)
+    parameters:
+    - id: mode
+      type: Funique.SubtitleMode
+    content.vb: Sub SendSubtitleMode(mode As SubtitleMode)
+  overload: Funique.Media.IMediaSend.SendSubtitleMode*
+- uid: Funique.Media.IMediaSend.SendStereoMode(System.String)
+  commentId: M:Funique.Media.IMediaSend.SendStereoMode(System.String)
+  id: SendStereoMode(System.String)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendStereoMode(String)
+  nameWithType: IMediaSend.SendStereoMode(String)
+  fullName: Funique.Media.IMediaSend.SendStereoMode(System.String)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendStereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 64
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nSending stereo change signal <br />\n------------------------------------------------ <br />\n影像模式更改信號\n"
+  example: []
+  syntax:
+    content: void SendStereoMode(string mode)
+    parameters:
+    - id: mode
+      type: System.String
+    content.vb: Sub SendStereoMode(mode As String)
+  overload: Funique.Media.IMediaSend.SendStereoMode*
+- uid: Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  commentId: M:Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  id: SendSchemeMode(Funique.PlayerScheme)
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendSchemeMode(PlayerScheme)
+  nameWithType: IMediaSend.SendSchemeMode(PlayerScheme)
+  fullName: Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendSchemeMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 70
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nSending scheme change signal <br />\n------------------------------------------------ <br />\n模式更改信號\n"
+  example: []
+  syntax:
+    content: void SendSchemeMode(PlayerScheme mode)
+    parameters:
+    - id: mode
+      type: Funique.PlayerScheme
+    content.vb: Sub SendSchemeMode(mode As PlayerScheme)
+  overload: Funique.Media.IMediaSend.SendSchemeMode*
+- uid: Funique.Media.IMediaSend.SendMasterSettingState
+  commentId: M:Funique.Media.IMediaSend.SendMasterSettingState
+  id: SendMasterSettingState
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendMasterSettingState()
+  nameWithType: IMediaSend.SendMasterSettingState()
+  fullName: Funique.Media.IMediaSend.SendMasterSettingState()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendMasterSettingState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 96
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nsending setting change signal <br />\nIncluding information: <br />\n<ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>\n------------------------------------------------ <br />\n設定更改信號 <br />\n包含訊息: <br />\n<ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>\n"
+  example: []
+  syntax:
+    content: void SendMasterSettingState()
+    content.vb: Sub SendMasterSettingState
+  overload: Funique.Media.IMediaSend.SendMasterSettingState*
+- uid: Funique.Media.IMediaSend.SendAllPlayerOpen
+  commentId: M:Funique.Media.IMediaSend.SendAllPlayerOpen
+  id: SendAllPlayerOpen
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendAllPlayerOpen()
+  nameWithType: IMediaSend.SendAllPlayerOpen()
+  fullName: Funique.Media.IMediaSend.SendAllPlayerOpen()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendAllPlayerOpen
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 104
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nAll clients turn on media player <br />\n------------------------------------------------ <br />\n所有客戶端打開播放器\n"
+  example: []
+  syntax:
+    content: void SendAllPlayerOpen()
+    content.vb: Sub SendAllPlayerOpen
+  overload: Funique.Media.IMediaSend.SendAllPlayerOpen*
+- uid: Funique.Media.IMediaSend.SendAllPlayerClose
+  commentId: M:Funique.Media.IMediaSend.SendAllPlayerClose
+  id: SendAllPlayerClose
+  parent: Funique.Media.IMediaSend
+  langs:
+  - csharp
+  - vb
+  name: SendAllPlayerClose()
+  nameWithType: IMediaSend.SendAllPlayerClose()
+  fullName: Funique.Media.IMediaSend.SendAllPlayerClose()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaSend.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendAllPlayerClose
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaSend.cs
+    startLine: 110
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nAll clients turn off media player <br />\n------------------------------------------------ <br />\n所有客戶端關閉播放器\n"
+  example: []
+  syntax:
+    content: void SendAllPlayerClose()
+    content.vb: Sub SendAllPlayerClose
+  overload: Funique.Media.IMediaSend.SendAllPlayerClose*
+references:
+- uid: Funique.Media
+  commentId: N:Funique.Media
+  name: Funique.Media
+  nameWithType: Funique.Media
+  fullName: Funique.Media
+- uid: Funique.Media.IMediaSend.MsgToClients*
+  commentId: Overload:Funique.Media.IMediaSend.MsgToClients
+  name: MsgToClients
+  nameWithType: IMediaSend.MsgToClients
+  fullName: Funique.Media.IMediaSend.MsgToClients
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Media.IMediaSend.SendGetVideoTime*
+  commentId: Overload:Funique.Media.IMediaSend.SendGetVideoTime
+  name: SendGetVideoTime
+  nameWithType: IMediaSend.SendGetVideoTime
+  fullName: Funique.Media.IMediaSend.SendGetVideoTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Media.IMediaSend.SendHeadsetReset*
+  commentId: Overload:Funique.Media.IMediaSend.SendHeadsetReset
+  name: SendHeadsetReset
+  nameWithType: IMediaSend.SendHeadsetReset
+  fullName: Funique.Media.IMediaSend.SendHeadsetReset
+- uid: Funique.Media.IMediaSend.SendWaitRoom*
+  commentId: Overload:Funique.Media.IMediaSend.SendWaitRoom
+  name: SendWaitRoom
+  nameWithType: IMediaSend.SendWaitRoom
+  fullName: Funique.Media.IMediaSend.SendWaitRoom
+- uid: Funique.Media.IMediaSend.SendVideoName*
+  commentId: Overload:Funique.Media.IMediaSend.SendVideoName
+  name: SendVideoName
+  nameWithType: IMediaSend.SendVideoName
+  fullName: Funique.Media.IMediaSend.SendVideoName
+- uid: Funique.Media.IMediaSend.SendVideoTime*
+  commentId: Overload:Funique.Media.IMediaSend.SendVideoTime
+  name: SendVideoTime
+  nameWithType: IMediaSend.SendVideoTime
+  fullName: Funique.Media.IMediaSend.SendVideoTime
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.Media.IMediaSend.SendReplayMode*
+  commentId: Overload:Funique.Media.IMediaSend.SendReplayMode
+  name: SendReplayMode
+  nameWithType: IMediaSend.SendReplayMode
+  fullName: Funique.Media.IMediaSend.SendReplayMode
+- uid: Funique.ReplayState
+  commentId: T:Funique.ReplayState
+  parent: Funique
+  name: ReplayState
+  nameWithType: ReplayState
+  fullName: Funique.ReplayState
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Media.IMediaSend.SendSubtitleMode*
+  commentId: Overload:Funique.Media.IMediaSend.SendSubtitleMode
+  name: SendSubtitleMode
+  nameWithType: IMediaSend.SendSubtitleMode
+  fullName: Funique.Media.IMediaSend.SendSubtitleMode
+- uid: Funique.SubtitleMode
+  commentId: T:Funique.SubtitleMode
+  parent: Funique
+  name: SubtitleMode
+  nameWithType: SubtitleMode
+  fullName: Funique.SubtitleMode
+- uid: Funique.Media.IMediaSend.SendStereoMode*
+  commentId: Overload:Funique.Media.IMediaSend.SendStereoMode
+  name: SendStereoMode
+  nameWithType: IMediaSend.SendStereoMode
+  fullName: Funique.Media.IMediaSend.SendStereoMode
+- uid: Funique.Media.IMediaSend.SendSchemeMode*
+  commentId: Overload:Funique.Media.IMediaSend.SendSchemeMode
+  name: SendSchemeMode
+  nameWithType: IMediaSend.SendSchemeMode
+  fullName: Funique.Media.IMediaSend.SendSchemeMode
+- uid: Funique.PlayerScheme
+  commentId: T:Funique.PlayerScheme
+  parent: Funique
+  name: PlayerScheme
+  nameWithType: PlayerScheme
+  fullName: Funique.PlayerScheme
+- uid: Funique.Media.IMediaSend.SendMasterSettingState*
+  commentId: Overload:Funique.Media.IMediaSend.SendMasterSettingState
+  name: SendMasterSettingState
+  nameWithType: IMediaSend.SendMasterSettingState
+  fullName: Funique.Media.IMediaSend.SendMasterSettingState
+- uid: Funique.Media.IMediaSend.SendAllPlayerOpen*
+  commentId: Overload:Funique.Media.IMediaSend.SendAllPlayerOpen
+  name: SendAllPlayerOpen
+  nameWithType: IMediaSend.SendAllPlayerOpen
+  fullName: Funique.Media.IMediaSend.SendAllPlayerOpen
+- uid: Funique.Media.IMediaSend.SendAllPlayerClose*
+  commentId: Overload:Funique.Media.IMediaSend.SendAllPlayerClose
+  name: SendAllPlayerClose
+  nameWithType: IMediaSend.SendAllPlayerClose
+  fullName: Funique.Media.IMediaSend.SendAllPlayerClose

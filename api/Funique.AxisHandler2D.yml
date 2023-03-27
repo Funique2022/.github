@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AxisHandler2D
+  commentId: T:Funique.AxisHandler2D
+  id: AxisHandler2D
+  parent: Funique
+  children:
+  - Funique.AxisHandler2D.axis
+  - Funique.AxisHandler2D.GetValue(UnityEngine.XR.Interaction.Toolkit.XRController)
+  - Funique.AxisHandler2D.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  - Funique.AxisHandler2D.IsPressed
+  - Funique.AxisHandler2D.OnAfterDeserialize
+  - Funique.AxisHandler2D.OnBeforeSerialize
+  - Funique.AxisHandler2D.OnDebugText
+  - Funique.AxisHandler2D.OnRelease
+  - Funique.AxisHandler2D.OnUse
+  - Funique.AxisHandler2D.OnValueChange
+  - Funique.AxisHandler2D.OnValueChangeVector
+  - Funique.AxisHandler2D.previousPress
+  langs:
+  - csharp
+  - vb
+  name: AxisHandler2D
+  nameWithType: AxisHandler2D
+  fullName: Funique.AxisHandler2D
+  type: Class
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: AxisHandler2D
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 6
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: >-
+      [CreateAssetMenu(fileName = "NewAxisHandler2D", menuName = "XR Generic/AxisHandler2D", order = 1)]
+
+      public class AxisHandler2D : InputHandler, ISerializationCallbackReceiver
+    content.vb: >-
+      <CreateAssetMenu(fileName:="NewAxisHandler2D", menuName:="XR Generic/AxisHandler2D", order:=1)>
+
+      Public Class AxisHandler2D
+
+          Inherits InputHandler
+
+          Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - Funique.InputHandler
+  implements:
+  - UnityEngine.ISerializationCallbackReceiver
+  inheritedMembers:
+  - UnityEngine.ScriptableObject.SetDirty
+  - UnityEngine.ScriptableObject.CreateInstance(System.String)
+  - UnityEngine.ScriptableObject.CreateInstance(System.Type)
+  - UnityEngine.ScriptableObject.CreateInstance``1
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: fileName
+      type: System.String
+      value: NewAxisHandler2D
+    - name: menuName
+      type: System.String
+      value: XR Generic/AxisHandler2D
+    - name: order
+      type: System.Int32
+      value: 1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.AxisHandler2D.OnValueChange
+  commentId: E:Funique.AxisHandler2D.OnValueChange
+  id: OnValueChange
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnValueChange
+  nameWithType: AxisHandler2D.OnValueChange
+  fullName: Funique.AxisHandler2D.OnValueChange
+  type: Event
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnValueChange
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 16
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public event AxisHandler2D.ValueChange OnValueChange
+    return:
+      type: Funique.AxisHandler2D.ValueChange
+    content.vb: Public Event OnValueChange As AxisHandler2D.ValueChange
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.OnValueChangeVector
+  commentId: E:Funique.AxisHandler2D.OnValueChangeVector
+  id: OnValueChangeVector
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnValueChangeVector
+  nameWithType: AxisHandler2D.OnValueChangeVector
+  fullName: Funique.AxisHandler2D.OnValueChangeVector
+  type: Event
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnValueChangeVector
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 19
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public event AxisHandler2D.ValueChangeVector OnValueChangeVector
+    return:
+      type: Funique.AxisHandler2D.ValueChangeVector
+    content.vb: Public Event OnValueChangeVector As AxisHandler2D.ValueChangeVector
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.axis
+  commentId: F:Funique.AxisHandler2D.axis
+  id: axis
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: axis
+  nameWithType: AxisHandler2D.axis
+  fullName: Funique.AxisHandler2D.axis
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: axis
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 21
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public AxisHandler2D.Axis axis
+    return:
+      type: Funique.AxisHandler2D.Axis
+    content.vb: Public axis As AxisHandler2D.Axis
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.OnUse
+  commentId: E:Funique.AxisHandler2D.OnUse
+  id: OnUse
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnUse
+  nameWithType: AxisHandler2D.OnUse
+  fullName: Funique.AxisHandler2D.OnUse
+  type: Event
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnUse
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 30
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public event AxisHandler2D.StateChange OnUse
+    return:
+      type: Funique.AxisHandler2D.StateChange
+    content.vb: Public Event OnUse As AxisHandler2D.StateChange
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.OnRelease
+  commentId: E:Funique.AxisHandler2D.OnRelease
+  id: OnRelease
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnRelease
+  nameWithType: AxisHandler2D.OnRelease
+  fullName: Funique.AxisHandler2D.OnRelease
+  type: Event
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnRelease
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 31
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public event AxisHandler2D.StateChange OnRelease
+    return:
+      type: Funique.AxisHandler2D.StateChange
+    content.vb: Public Event OnRelease As AxisHandler2D.StateChange
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.previousPress
+  commentId: F:Funique.AxisHandler2D.previousPress
+  id: previousPress
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: previousPress
+  nameWithType: AxisHandler2D.previousPress
+  fullName: Funique.AxisHandler2D.previousPress
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: previousPress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 32
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public bool previousPress
+    return:
+      type: System.Boolean
+    content.vb: Public previousPress As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.IsPressed
+  commentId: P:Funique.AxisHandler2D.IsPressed
+  id: IsPressed
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: IsPressed
+  nameWithType: AxisHandler2D.IsPressed
+  fullName: Funique.AxisHandler2D.IsPressed
+  type: Property
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: IsPressed
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 33
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public bool IsPressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPressed As Boolean
+  overload: Funique.AxisHandler2D.IsPressed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.AxisHandler2D.OnDebugText
+  commentId: E:Funique.AxisHandler2D.OnDebugText
+  id: OnDebugText
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnDebugText
+  nameWithType: AxisHandler2D.OnDebugText
+  fullName: Funique.AxisHandler2D.OnDebugText
+  type: Event
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnDebugText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 39
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public event AxisHandler2D.DebugText OnDebugText
+    return:
+      type: Funique.AxisHandler2D.DebugText
+    content.vb: Public Event OnDebugText As AxisHandler2D.DebugText
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.OnAfterDeserialize
+  commentId: M:Funique.AxisHandler2D.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: AxisHandler2D.OnAfterDeserialize()
+  fullName: Funique.AxisHandler2D.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnAfterDeserialize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 42
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize
+  overload: Funique.AxisHandler2D.OnAfterDeserialize*
+  implements:
+  - UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.OnBeforeSerialize
+  commentId: M:Funique.AxisHandler2D.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: AxisHandler2D.OnBeforeSerialize()
+  fullName: Funique.AxisHandler2D.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: OnBeforeSerialize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 48
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize
+  overload: Funique.AxisHandler2D.OnBeforeSerialize*
+  implements:
+  - UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AxisHandler2D.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  commentId: M:Funique.AxisHandler2D.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  id: HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: HandleState(XRController)
+  nameWithType: AxisHandler2D.HandleState(XRController)
+  fullName: Funique.AxisHandler2D.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: HandleState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 53
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public override void HandleState(XRController controller)
+    parameters:
+    - id: controller
+      type: UnityEngine.XR.Interaction.Toolkit.XRController
+    content.vb: Public Overrides Sub HandleState(controller As XRController)
+  overridden: Funique.InputHandler.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  overload: Funique.AxisHandler2D.HandleState*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.AxisHandler2D.GetValue(UnityEngine.XR.Interaction.Toolkit.XRController)
+  commentId: M:Funique.AxisHandler2D.GetValue(UnityEngine.XR.Interaction.Toolkit.XRController)
+  id: GetValue(UnityEngine.XR.Interaction.Toolkit.XRController)
+  parent: Funique.AxisHandler2D
+  langs:
+  - csharp
+  - vb
+  name: GetValue(XRController)
+  nameWithType: AxisHandler2D.GetValue(XRController)
+  fullName: Funique.AxisHandler2D.GetValue(UnityEngine.XR.Interaction.Toolkit.XRController)
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: GetValue
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 159
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public Vector2 GetValue(XRController controller)
+    parameters:
+    - id: controller
+      type: UnityEngine.XR.Interaction.Toolkit.XRController
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Function GetValue(controller As XRController) As Vector2
+  overload: Funique.AxisHandler2D.GetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: Funique.InputHandler
+  commentId: T:Funique.InputHandler
+  parent: Funique
+  name: InputHandler
+  nameWithType: InputHandler
+  fullName: Funique.InputHandler
+- uid: UnityEngine.ISerializationCallbackReceiver
+  commentId: T:UnityEngine.ISerializationCallbackReceiver
+  parent: UnityEngine
+  isExternal: true
+  name: ISerializationCallbackReceiver
+  nameWithType: ISerializationCallbackReceiver
+  fullName: UnityEngine.ISerializationCallbackReceiver
+- uid: UnityEngine.ScriptableObject.SetDirty
+  commentId: M:UnityEngine.ScriptableObject.SetDirty
+  parent: UnityEngine.ScriptableObject
+  isExternal: true
+  name: SetDirty()
+  nameWithType: ScriptableObject.SetDirty()
+  fullName: UnityEngine.ScriptableObject.SetDirty()
+  spec.csharp:
+  - uid: UnityEngine.ScriptableObject.SetDirty
+    name: SetDirty
+    nameWithType: ScriptableObject.SetDirty
+    fullName: UnityEngine.ScriptableObject.SetDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ScriptableObject.SetDirty
+    name: SetDirty
+    nameWithType: ScriptableObject.SetDirty
+    fullName: UnityEngine.ScriptableObject.SetDirty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.ScriptableObject.CreateInstance(System.String)
+  commentId: M:UnityEngine.ScriptableObject.CreateInstance(System.String)
+  parent: UnityEngine.ScriptableObject
+  isExternal: true
+  name: CreateInstance(String)
+  nameWithType: ScriptableObject.CreateInstance(String)
+  fullName: UnityEngine.ScriptableObject.CreateInstance(System.String)
+  spec.csharp:
+  - uid: UnityEngine.ScriptableObject.CreateInstance(System.String)
+    name: CreateInstance
+    nameWithType: ScriptableObject.CreateInstance
+    fullName: UnityEngine.ScriptableObject.CreateInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ScriptableObject.CreateInstance(System.String)
+    name: CreateInstance
+    nameWithType: ScriptableObject.CreateInstance
+    fullName: UnityEngine.ScriptableObject.CreateInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.ScriptableObject.CreateInstance(System.Type)
+  commentId: M:UnityEngine.ScriptableObject.CreateInstance(System.Type)
+  parent: UnityEngine.ScriptableObject
+  isExternal: true
+  name: CreateInstance(Type)
+  nameWithType: ScriptableObject.CreateInstance(Type)
+  fullName: UnityEngine.ScriptableObject.CreateInstance(System.Type)
+  spec.csharp:
+  - uid: UnityEngine.ScriptableObject.CreateInstance(System.Type)
+    name: CreateInstance
+    nameWithType: ScriptableObject.CreateInstance
+    fullName: UnityEngine.ScriptableObject.CreateInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ScriptableObject.CreateInstance(System.Type)
+    name: CreateInstance
+    nameWithType: ScriptableObject.CreateInstance
+    fullName: UnityEngine.ScriptableObject.CreateInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.ScriptableObject.CreateInstance``1
+  commentId: M:UnityEngine.ScriptableObject.CreateInstance``1
+  parent: UnityEngine.ScriptableObject
+  isExternal: true
+  name: CreateInstance<T>()
+  nameWithType: ScriptableObject.CreateInstance<T>()
+  fullName: UnityEngine.ScriptableObject.CreateInstance<T>()
+  nameWithType.vb: ScriptableObject.CreateInstance(Of T)()
+  fullName.vb: UnityEngine.ScriptableObject.CreateInstance(Of T)()
+  name.vb: CreateInstance(Of T)()
+  spec.csharp:
+  - uid: UnityEngine.ScriptableObject.CreateInstance``1
+    name: CreateInstance<T>
+    nameWithType: ScriptableObject.CreateInstance<T>
+    fullName: UnityEngine.ScriptableObject.CreateInstance<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ScriptableObject.CreateInstance``1
+    name: CreateInstance(Of T)
+    nameWithType: ScriptableObject.CreateInstance(Of T)
+    fullName: UnityEngine.ScriptableObject.CreateInstance(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.AxisHandler2D.ValueChange
+  commentId: T:Funique.AxisHandler2D.ValueChange
+  parent: Funique
+  name: AxisHandler2D.ValueChange
+  nameWithType: AxisHandler2D.ValueChange
+  fullName: Funique.AxisHandler2D.ValueChange
+- uid: Funique.AxisHandler2D.ValueChangeVector
+  commentId: T:Funique.AxisHandler2D.ValueChangeVector
+  parent: Funique
+  name: AxisHandler2D.ValueChangeVector
+  nameWithType: AxisHandler2D.ValueChangeVector
+  fullName: Funique.AxisHandler2D.ValueChangeVector
+- uid: Funique.AxisHandler2D.Axis
+  commentId: T:Funique.AxisHandler2D.Axis
+  parent: Funique
+  name: AxisHandler2D.Axis
+  nameWithType: AxisHandler2D.Axis
+  fullName: Funique.AxisHandler2D.Axis
+- uid: Funique.AxisHandler2D.StateChange
+  commentId: T:Funique.AxisHandler2D.StateChange
+  parent: Funique
+  name: AxisHandler2D.StateChange
+  nameWithType: AxisHandler2D.StateChange
+  fullName: Funique.AxisHandler2D.StateChange
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.AxisHandler2D.IsPressed*
+  commentId: Overload:Funique.AxisHandler2D.IsPressed
+  name: IsPressed
+  nameWithType: AxisHandler2D.IsPressed
+  fullName: Funique.AxisHandler2D.IsPressed
+- uid: Funique.AxisHandler2D.DebugText
+  commentId: T:Funique.AxisHandler2D.DebugText
+  parent: Funique
+  name: AxisHandler2D.DebugText
+  nameWithType: AxisHandler2D.DebugText
+  fullName: Funique.AxisHandler2D.DebugText
+- uid: Funique.AxisHandler2D.OnAfterDeserialize*
+  commentId: Overload:Funique.AxisHandler2D.OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: AxisHandler2D.OnAfterDeserialize
+  fullName: Funique.AxisHandler2D.OnAfterDeserialize
+- uid: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+  commentId: M:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+  parent: UnityEngine.ISerializationCallbackReceiver
+  isExternal: true
+  name: OnAfterDeserialize()
+  nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize()
+  fullName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
+  spec.csharp:
+  - uid: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+    name: OnAfterDeserialize
+    nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize
+    fullName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+    name: OnAfterDeserialize
+    nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize
+    fullName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.AxisHandler2D.OnBeforeSerialize*
+  commentId: Overload:Funique.AxisHandler2D.OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: AxisHandler2D.OnBeforeSerialize
+  fullName: Funique.AxisHandler2D.OnBeforeSerialize
+- uid: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+  commentId: M:UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+  parent: UnityEngine.ISerializationCallbackReceiver
+  isExternal: true
+  name: OnBeforeSerialize()
+  nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize()
+  fullName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
+  spec.csharp:
+  - uid: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+    name: OnBeforeSerialize
+    nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize
+    fullName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+    name: OnBeforeSerialize
+    nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize
+    fullName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.InputHandler.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  commentId: M:Funique.InputHandler.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  parent: Funique.InputHandler
+  isExternal: true
+  name: HandleState(XRController)
+  nameWithType: InputHandler.HandleState(XRController)
+  fullName: Funique.InputHandler.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+  spec.csharp:
+  - uid: Funique.InputHandler.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+    name: HandleState
+    nameWithType: InputHandler.HandleState
+    fullName: Funique.InputHandler.HandleState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.XR.Interaction.Toolkit.XRController
+    name: XRController
+    nameWithType: XRController
+    fullName: UnityEngine.XR.Interaction.Toolkit.XRController
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.InputHandler.HandleState(UnityEngine.XR.Interaction.Toolkit.XRController)
+    name: HandleState
+    nameWithType: InputHandler.HandleState
+    fullName: Funique.InputHandler.HandleState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.XR.Interaction.Toolkit.XRController
+    name: XRController
+    nameWithType: XRController
+    fullName: UnityEngine.XR.Interaction.Toolkit.XRController
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.AxisHandler2D.HandleState*
+  commentId: Overload:Funique.AxisHandler2D.HandleState
+  name: HandleState
+  nameWithType: AxisHandler2D.HandleState
+  fullName: Funique.AxisHandler2D.HandleState
+- uid: UnityEngine.XR.Interaction.Toolkit.XRController
+  commentId: T:UnityEngine.XR.Interaction.Toolkit.XRController
+  parent: UnityEngine.XR.Interaction.Toolkit
+  isExternal: true
+  name: XRController
+  nameWithType: XRController
+  fullName: UnityEngine.XR.Interaction.Toolkit.XRController
+- uid: UnityEngine.XR.Interaction.Toolkit
+  commentId: N:UnityEngine.XR.Interaction.Toolkit
+  isExternal: true
+  name: UnityEngine.XR.Interaction.Toolkit
+  nameWithType: UnityEngine.XR.Interaction.Toolkit
+  fullName: UnityEngine.XR.Interaction.Toolkit
+- uid: Funique.AxisHandler2D.GetValue*
+  commentId: Overload:Funique.AxisHandler2D.GetValue
+  name: GetValue
+  nameWithType: AxisHandler2D.GetValue
+  fullName: Funique.AxisHandler2D.GetValue
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2

@@ -1,0 +1,741 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Verify.FuniqueSetting
+  commentId: T:Funique.Verify.FuniqueSetting
+  id: FuniqueSetting
+  parent: Funique.Verify
+  children:
+  - Funique.Verify.FuniqueSetting.#ctor(Funique.Verify.VerifyClientData,System.String)
+  - Funique.Verify.FuniqueSetting.CheatAccount
+  - Funique.Verify.FuniqueSetting.CheatPassword
+  - Funique.Verify.FuniqueSetting.CheckIn
+  - Funique.Verify.FuniqueSetting.Default_FuniqueSQLAddress
+  - Funique.Verify.FuniqueSetting.GetPlayList
+  - Funique.Verify.FuniqueSetting.ifLoginErrorQuitAPP
+  - Funique.Verify.FuniqueSetting.IsLoginConsiderSkip
+  - Funique.Verify.FuniqueSetting.isLoginFinish
+  - Funique.Verify.FuniqueSetting.IsLogining
+  - Funique.Verify.FuniqueSetting.LoadSetting(System.Boolean,System.Boolean)
+  - Funique.Verify.FuniqueSetting.LocalData
+  - Funique.Verify.FuniqueSetting.LoginError
+  - Funique.Verify.FuniqueSetting.LoginFinish
+  - Funique.Verify.FuniqueSetting.ServerData
+  - Funique.Verify.FuniqueSetting.XML_FileName
+  - Funique.Verify.FuniqueSetting.XmlCheat(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: FuniqueSetting
+  nameWithType: FuniqueSetting
+  fullName: Funique.Verify.FuniqueSetting
+  type: Class
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: FuniqueSetting
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 26
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nCRM configuration, primary network logic <br />\nThere are some login success consider as skip action <br />\nIn this case, the <xref href=\"Funique.Verify.FuniqueSetting.LocalData\" data-throw-if-not-resolved=\"false\"></xref> Account field will set to null <br />\nIn order to let other component to get what&apos;s going on in here <br />\n------------------------------------------------ <br />\nCRM 配置, 主要網路邏輯 <br />\n有些登入邏輯會被認定成跳過行為 <br />\n在這個狀況時 <xref href=\"Funique.Verify.FuniqueSetting.LocalData\" data-throw-if-not-resolved=\"false\"></xref> 帳號欄位會被設置為 null <br />\n這是為了讓其他元件知道登入的狀態 \n"
+  example: []
+  syntax:
+    content: public sealed class FuniqueSetting
+    content.vb: Public NotInheritable Class FuniqueSetting
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Funique.Verify.FuniqueSetting.CheatAccount
+  commentId: F:Funique.Verify.FuniqueSetting.CheatAccount
+  id: CheatAccount
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: CheatAccount
+  nameWithType: FuniqueSetting.CheatAccount
+  fullName: Funique.Verify.FuniqueSetting.CheatAccount
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: CheatAccount
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 30
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public const string CheatAccount = "funiquedev"
+    return:
+      type: System.String
+    content.vb: Public Const CheatAccount As String = "funiquedev"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Verify.FuniqueSetting.CheatPassword
+  commentId: F:Funique.Verify.FuniqueSetting.CheatPassword
+  id: CheatPassword
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: CheatPassword
+  nameWithType: FuniqueSetting.CheatPassword
+  fullName: Funique.Verify.FuniqueSetting.CheatPassword
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: CheatPassword
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 31
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public const string CheatPassword = "fufu2022fu"
+    return:
+      type: System.String
+    content.vb: Public Const CheatPassword As String = "fufu2022fu"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Verify.FuniqueSetting.LocalData
+  commentId: F:Funique.Verify.FuniqueSetting.LocalData
+  id: LocalData
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: LocalData
+  nameWithType: FuniqueSetting.LocalData
+  fullName: Funique.Verify.FuniqueSetting.LocalData
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: LocalData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 32
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public UserData LocalData
+    return:
+      type: Funique.Verify.UserData
+    content.vb: Public LocalData As UserData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.ServerData
+  commentId: F:Funique.Verify.FuniqueSetting.ServerData
+  id: ServerData
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: ServerData
+  nameWithType: FuniqueSetting.ServerData
+  fullName: Funique.Verify.FuniqueSetting.ServerData
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: ServerData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 33
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public UserData ServerData
+    return:
+      type: Funique.Verify.UserData
+    content.vb: Public ServerData As UserData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.ifLoginErrorQuitAPP
+  commentId: F:Funique.Verify.FuniqueSetting.ifLoginErrorQuitAPP
+  id: ifLoginErrorQuitAPP
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: ifLoginErrorQuitAPP
+  nameWithType: FuniqueSetting.ifLoginErrorQuitAPP
+  fullName: Funique.Verify.FuniqueSetting.ifLoginErrorQuitAPP
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: ifLoginErrorQuitAPP
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 34
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public bool ifLoginErrorQuitAPP
+    return:
+      type: System.Boolean
+    content.vb: Public ifLoginErrorQuitAPP As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.isLoginFinish
+  commentId: F:Funique.Verify.FuniqueSetting.isLoginFinish
+  id: isLoginFinish
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: isLoginFinish
+  nameWithType: FuniqueSetting.isLoginFinish
+  fullName: Funique.Verify.FuniqueSetting.isLoginFinish
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: isLoginFinish
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 39
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nThis will determine if the login is successfully <br />\nBinding with the state <br />\n"
+  example: []
+  syntax:
+    content: public bool isLoginFinish
+    return:
+      type: System.Boolean
+    content.vb: Public isLoginFinish As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.Default_FuniqueSQLAddress
+  commentId: F:Funique.Verify.FuniqueSetting.Default_FuniqueSQLAddress
+  id: Default_FuniqueSQLAddress
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: Default_FuniqueSQLAddress
+  nameWithType: FuniqueSetting.Default_FuniqueSQLAddress
+  fullName: Funique.Verify.FuniqueSetting.Default_FuniqueSQLAddress
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: Default_FuniqueSQLAddress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 47
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public const string Default_FuniqueSQLAddress = "http://server.funique.tv/FuniqueCRM/sql.php"
+    return:
+      type: System.String
+    content.vb: Public Const Default_FuniqueSQLAddress As String = "http://server.funique.tv/FuniqueCRM/sql.php"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Verify.FuniqueSetting.XML_FileName
+  commentId: F:Funique.Verify.FuniqueSetting.XML_FileName
+  id: XML_FileName
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: XML_FileName
+  nameWithType: FuniqueSetting.XML_FileName
+  fullName: Funique.Verify.FuniqueSetting.XML_FileName
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: XML_FileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 48
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public const string XML_FileName = "Setting.xml"
+    return:
+      type: System.String
+    content.vb: Public Const XML_FileName As String = "Setting.xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Verify.FuniqueSetting.IsLoginConsiderSkip
+  commentId: P:Funique.Verify.FuniqueSetting.IsLoginConsiderSkip
+  id: IsLoginConsiderSkip
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: IsLoginConsiderSkip
+  nameWithType: FuniqueSetting.IsLoginConsiderSkip
+  fullName: Funique.Verify.FuniqueSetting.IsLoginConsiderSkip
+  type: Property
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: IsLoginConsiderSkip
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 63
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nThis property only meaningful when login successfully <br />\nUse for determine which successfully login state it is <br />\nIs it consider skip login, or standard login, which is pass through auth server <br />\n------------------------------------------------ <br />\n這個屬性只有在登入成功的狀況下有意義 <br />\n用來定義登入成功的狀態 <br />\n是否認為跳過登入, 或是標準登入, 就是有通過認證伺服器\n"
+  example: []
+  syntax:
+    content: public bool IsLoginConsiderSkip { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoginConsiderSkip As Boolean
+  overload: Funique.Verify.FuniqueSetting.IsLoginConsiderSkip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Verify.FuniqueSetting.IsLogining
+  commentId: P:Funique.Verify.FuniqueSetting.IsLogining
+  id: IsLogining
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: IsLogining
+  nameWithType: FuniqueSetting.IsLogining
+  fullName: Funique.Verify.FuniqueSetting.IsLogining
+  type: Property
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: IsLogining
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 64
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public bool IsLogining { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLogining As Boolean
+  overload: Funique.Verify.FuniqueSetting.IsLogining*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Verify.FuniqueSetting.LoginFinish
+  commentId: F:Funique.Verify.FuniqueSetting.LoginFinish
+  id: LoginFinish
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: LoginFinish
+  nameWithType: FuniqueSetting.LoginFinish
+  fullName: Funique.Verify.FuniqueSetting.LoginFinish
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: LoginFinish
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 75
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nCalled when login is finish <br />\n------------------------------------------------ <br />\n當登入成功呼叫\n"
+  example: []
+  syntax:
+    content: public Action LoginFinish
+    return:
+      type: System.Action
+    content.vb: Public LoginFinish As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.LoginError
+  commentId: F:Funique.Verify.FuniqueSetting.LoginError
+  id: LoginError
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: LoginError
+  nameWithType: FuniqueSetting.LoginError
+  fullName: Funique.Verify.FuniqueSetting.LoginError
+  type: Field
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: LoginError
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 81
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nCalled when login is fail <br />\n------------------------------------------------ <br />\n當登入失敗呼叫\n"
+  example: []
+  syntax:
+    content: public Action LoginError
+    return:
+      type: System.Action
+    content.vb: Public LoginError As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.#ctor(Funique.Verify.VerifyClientData,System.String)
+  commentId: M:Funique.Verify.FuniqueSetting.#ctor(Funique.Verify.VerifyClientData,System.String)
+  id: '#ctor(Funique.Verify.VerifyClientData,System.String)'
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: FuniqueSetting(VerifyClientData, String)
+  nameWithType: FuniqueSetting.FuniqueSetting(VerifyClientData, String)
+  fullName: Funique.Verify.FuniqueSetting.FuniqueSetting(Funique.Verify.VerifyClientData, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 85
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  syntax:
+    content: public FuniqueSetting(VerifyClientData config, string database = "http://server.funique.tv/FuniqueCRM/sql.php")
+    parameters:
+    - id: config
+      type: Funique.Verify.VerifyClientData
+    - id: database
+      type: System.String
+    content.vb: Public Sub New(config As VerifyClientData, database As String = "http://server.funique.tv/FuniqueCRM/sql.php")
+  overload: Funique.Verify.FuniqueSetting.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.LoadSetting(System.Boolean,System.Boolean)
+  commentId: M:Funique.Verify.FuniqueSetting.LoadSetting(System.Boolean,System.Boolean)
+  id: LoadSetting(System.Boolean,System.Boolean)
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: LoadSetting(Boolean, Boolean)
+  nameWithType: FuniqueSetting.LoadSetting(Boolean, Boolean)
+  fullName: Funique.Verify.FuniqueSetting.LoadSetting(System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: LoadSetting
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 121
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nIf account or password is null or empty <br />\nIt will just return, stop at begining of parse 2 <br />\n------------------------------------------------ <br />\n如果帳號或密碼為空 <br />\n會直接回傳, 在第二階段的開始端停止\n"
+  example: []
+  syntax:
+    content: public IEnumerator LoadSetting(bool useXml = false, bool loadxml = true)
+    parameters:
+    - id: useXml
+      type: System.Boolean
+      description: ''
+    - id: loadxml
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Collections.IEnumerator
+      description: ''
+    content.vb: Public Function LoadSetting(useXml As Boolean = False, loadxml As Boolean = True) As IEnumerator
+  overload: Funique.Verify.FuniqueSetting.LoadSetting*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.CheckIn
+  commentId: M:Funique.Verify.FuniqueSetting.CheckIn
+  id: CheckIn
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: CheckIn()
+  nameWithType: FuniqueSetting.CheckIn()
+  fullName: Funique.Verify.FuniqueSetting.CheckIn()
+  type: Method
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: CheckIn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 221
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nCheckIn, Leave a record in auth server <br />\n------------------------------------------------ <br />\n在認證伺服器留下紀錄\n"
+  example: []
+  syntax:
+    content: public IEnumerator CheckIn()
+    return:
+      type: System.Collections.IEnumerator
+      description: ''
+    content.vb: Public Function CheckIn As IEnumerator
+  overload: Funique.Verify.FuniqueSetting.CheckIn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.GetPlayList
+  commentId: M:Funique.Verify.FuniqueSetting.GetPlayList
+  id: GetPlayList
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: GetPlayList()
+  nameWithType: FuniqueSetting.GetPlayList()
+  fullName: Funique.Verify.FuniqueSetting.GetPlayList()
+  type: Method
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: GetPlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 234
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nGet playlist from auth server <br />\n------------------------------------------------ <br />\n從認證伺服器抓取播放清單\n"
+  example: []
+  syntax:
+    content: public IEnumerator GetPlayList()
+    return:
+      type: System.Collections.IEnumerator
+      description: ''
+    content.vb: Public Function GetPlayList As IEnumerator
+  overload: Funique.Verify.FuniqueSetting.GetPlayList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Verify.FuniqueSetting.XmlCheat(System.Boolean)
+  commentId: M:Funique.Verify.FuniqueSetting.XmlCheat(System.Boolean)
+  id: XmlCheat(System.Boolean)
+  parent: Funique.Verify.FuniqueSetting
+  langs:
+  - csharp
+  - vb
+  name: XmlCheat(Boolean)
+  nameWithType: FuniqueSetting.XmlCheat(Boolean)
+  fullName: Funique.Verify.FuniqueSetting.XmlCheat(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CRM/FuniqueSetting.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_verify.git
+    id: XmlCheat
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Verify/CRM/FuniqueSetting.cs
+    startLine: 271
+  assemblies:
+  - Funique.Verify
+  namespace: Funique.Verify
+  summary: "\nXml cheat file loading <br />\n------------------------------------------------ <br />\nXml 檔案作弊讀取\n"
+  example: []
+  syntax:
+    content: public bool XmlCheat(bool load)
+    parameters:
+    - id: load
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function XmlCheat(load As Boolean) As Boolean
+  overload: Funique.Verify.FuniqueSetting.XmlCheat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Verify.FuniqueSetting.LocalData
+  commentId: F:Funique.Verify.FuniqueSetting.LocalData
+  isExternal: true
+- uid: Funique.Verify
+  commentId: N:Funique.Verify
+  name: Funique.Verify
+  nameWithType: Funique.Verify
+  fullName: Funique.Verify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Verify.UserData
+  commentId: T:Funique.Verify.UserData
+  parent: Funique.Verify
+  name: UserData
+  nameWithType: UserData
+  fullName: Funique.Verify.UserData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Verify.FuniqueSetting.IsLoginConsiderSkip*
+  commentId: Overload:Funique.Verify.FuniqueSetting.IsLoginConsiderSkip
+  name: IsLoginConsiderSkip
+  nameWithType: FuniqueSetting.IsLoginConsiderSkip
+  fullName: Funique.Verify.FuniqueSetting.IsLoginConsiderSkip
+- uid: Funique.Verify.FuniqueSetting.IsLogining*
+  commentId: Overload:Funique.Verify.FuniqueSetting.IsLogining
+  name: IsLogining
+  nameWithType: FuniqueSetting.IsLogining
+  fullName: Funique.Verify.FuniqueSetting.IsLogining
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Funique.Verify.FuniqueSetting.#ctor*
+  commentId: Overload:Funique.Verify.FuniqueSetting.#ctor
+  name: FuniqueSetting
+  nameWithType: FuniqueSetting.FuniqueSetting
+  fullName: Funique.Verify.FuniqueSetting.FuniqueSetting
+- uid: Funique.Verify.VerifyClientData
+  commentId: T:Funique.Verify.VerifyClientData
+  parent: Funique.Verify
+  name: VerifyClientData
+  nameWithType: VerifyClientData
+  fullName: Funique.Verify.VerifyClientData
+- uid: Funique.Verify.FuniqueSetting.LoadSetting*
+  commentId: Overload:Funique.Verify.FuniqueSetting.LoadSetting
+  name: LoadSetting
+  nameWithType: FuniqueSetting.LoadSetting
+  fullName: Funique.Verify.FuniqueSetting.LoadSetting
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Funique.Verify.FuniqueSetting.CheckIn*
+  commentId: Overload:Funique.Verify.FuniqueSetting.CheckIn
+  name: CheckIn
+  nameWithType: FuniqueSetting.CheckIn
+  fullName: Funique.Verify.FuniqueSetting.CheckIn
+- uid: Funique.Verify.FuniqueSetting.GetPlayList*
+  commentId: Overload:Funique.Verify.FuniqueSetting.GetPlayList
+  name: GetPlayList
+  nameWithType: FuniqueSetting.GetPlayList
+  fullName: Funique.Verify.FuniqueSetting.GetPlayList
+- uid: Funique.Verify.FuniqueSetting.XmlCheat*
+  commentId: Overload:Funique.Verify.FuniqueSetting.XmlCheat
+  name: XmlCheat
+  nameWithType: FuniqueSetting.XmlCheat
+  fullName: Funique.Verify.FuniqueSetting.XmlCheat

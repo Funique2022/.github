@@ -1544,6 +1544,11 @@
     "title": "Class OpenCanvasKeyboard | Funique Documentation",
     "keywords": "Class OpenCanvasKeyboard Inheritance System.Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour OpenCanvasKeyboard Inherited Members UnityEngine.Behaviour.enabled UnityEngine.Behaviour.isActiveAndEnabled Namespace : TalesFromTheRift Assembly : Funique.UI.dll Syntax public class OpenCanvasKeyboard : MonoBehaviour Fields | Improve this Doc View Source CanvasKeyboardObject Declaration public CanvasKeyboard CanvasKeyboardObject Field Value Type Description CanvasKeyboard | Improve this Doc View Source CanvasObject Declaration public Canvas CanvasObject Field Value Type Description UnityEngine.Canvas | Improve this Doc View Source inputObject Declaration public InputField inputObject Field Value Type Description UnityEngine.UI.InputField Methods | Improve this Doc View Source CloseKeyboard() Declaration public void CloseKeyboard() | Improve this Doc View Source OpenKeyboard(InputField) Declaration public void OpenKeyboard(InputField input) Parameters Type Name Description UnityEngine.UI.InputField input | Improve this Doc View Source SetInput(InputField) Declaration public void SetInput(InputField input) Parameters Type Name Description UnityEngine.UI.InputField input"
   },
+  "ci/Intro.html": {
+    "href": "ci/Intro.html",
+    "title": "Funique Documentation For Continuous Integration | Funique Documentation",
+    "keywords": "Funique Documentation For Continuous Integration"
+  },
   "dev/Contribute.html": {
     "href": "dev/Contribute.html",
     "title": "List of contributer | Funique Documentation",
@@ -1552,276 +1557,321 @@
   "dev/Developer.html": {
     "href": "dev/Developer.html",
     "title": "For Developer | Funique Documentation",
-    "keywords": "For Developer Whether you're trying to contribute the code or applies the custom modify version to your own project only. Please follows the rules below, in order to make review easier. Small Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. Branch Naming Tag Naming C# Project Comment Repository README"
+    "keywords": "For Developer Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier. Small Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. Branch Naming You Tag Naming C# Project Comment Repository README"
   },
   "dev/Intro.html": {
     "href": "dev/Intro.html",
-    "title": "# Funique Documentation For Developer | Funique Documentation",
-    "keywords": "# Funique Documentation For Developer"
+    "title": "Funique Documentation For Developer | Funique Documentation",
+    "keywords": "Funique Documentation For Developer This page is for the contributor, It will guide you to setup the project."
   },
-  "guide/Client/Cinema/QuickStart.html": {
-    "href": "guide/Client/Cinema/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/CinemaGuide.html": {
-    "href": "guide/Client/CinemaGuide.html",
-    "title": "Cinema Client Guide | Funique Documentation",
-    "keywords": "Cinema Client Guide Media player component, AVPro, Audio 360 Features [x] AvPro [x] Aduio360 [x] Media Control"
-  },
-  "guide/Client/Client/QuickStart.html": {
-    "href": "guide/Client/Client/QuickStart.html",
-    "title": "Client Logic Qucik Start | Funique Documentation",
-    "keywords": "Client Logic Qucik Start The problem of this modules is that it contains multiple manager base XR Manager Utility Android Manager Utility"
-  },
-  "guide/Client/ClientGuide.html": {
-    "href": "guide/Client/ClientGuide.html",
-    "title": "Client Client Guide | Funique Documentation",
-    "keywords": "Client Client Guide Features"
-  },
-  "guide/Client/Dissonance/QuickStart.html": {
-    "href": "guide/Client/Dissonance/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/DissonanceGuide.html": {
-    "href": "guide/Client/DissonanceGuide.html",
-    "title": "Dissonance Client Guide | Funique Documentation",
-    "keywords": "Dissonance Client Guide Features"
-  },
-  "guide/Client/Media/QuickStart.html": {
-    "href": "guide/Client/Media/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/MediaGuide.html": {
-    "href": "guide/Client/MediaGuide.html",
-    "title": "Media Client Guide | Funique Documentation",
-    "keywords": "Media Client Guide Features"
-  },
-  "guide/Client/Monitor/QuickStart.html": {
-    "href": "guide/Client/Monitor/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/MonitorGuide.html": {
-    "href": "guide/Client/MonitorGuide.html",
-    "title": "Monitor Client Guide | Funique Documentation",
-    "keywords": "Monitor Client Guide Features"
-  },
-  "guide/Client/Network/QuickStart.html": {
-    "href": "guide/Client/Network/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/NetworkGuide.html": {
-    "href": "guide/Client/NetworkGuide.html",
-    "title": "Network Client Guide | Funique Documentation",
-    "keywords": "Network Client Guide Features [x] OSC Communication [x] LiteNet Communication [ ] Mirror Communication TODO [ ] Moving LiteNet to Mirror"
-  },
-  "guide/Client/Setting/QuickStart.html": {
-    "href": "guide/Client/Setting/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/SettingGuide.html": {
-    "href": "guide/Client/SettingGuide.html",
-    "title": "Setting Client Guide | Funique Documentation",
-    "keywords": "Setting Client Guide Features"
-  },
-  "guide/Client/UI/QuickStart.html": {
-    "href": "guide/Client/UI/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/UIGuide.html": {
-    "href": "guide/Client/UIGuide.html",
-    "title": "UI Client Guide | Funique Documentation",
-    "keywords": "UI Client Guide Features"
-  },
-  "guide/Client/Verify/QuickStart.html": {
-    "href": "guide/Client/Verify/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/VerifyGuide.html": {
-    "href": "guide/Client/VerifyGuide.html",
-    "title": "Verify Client Guide | Funique Documentation",
-    "keywords": "Verify Client Guide Provide CRM DRM solution Features [x] Software CRM account password lock"
-  },
-  "guide/Client/Video/QuickStart.html": {
-    "href": "guide/Client/Video/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Client/VideoGuide.html": {
-    "href": "guide/Client/VideoGuide.html",
-    "title": "Video Client Guide | Funique Documentation",
-    "keywords": "Video Client Guide Features"
-  },
-  "guide/ClientGuide.html": {
-    "href": "guide/ClientGuide.html",
-    "title": "Funique Client | Funique Documentation",
-    "keywords": "Funique Client Here is a list of modules that contain client use logic This include received information from server, analysis network packages Media player logic or scene or character movement, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Client Quick Start 3. Dissonance Quick Start 4. Monitor Quick Start 5. Network Quick Start 6. Setting Quick Start 7. UI Quick Start 8. Verify Quick Start 9. Video Quick Start Back To Intro"
-  },
-  "guide/Core/CoroutineHelper.html": {
-    "href": "guide/Core/CoroutineHelper.html",
-    "title": "Coroutine Helper | Funique Documentation",
-    "keywords": "Coroutine Helper Help thoes class which need access unity monobehaviour coroutine feature. Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member. class SampleA { void Use(){ Coroutine coroutine = CoroutineHelper.Instance.Run(Go); } IEnumerator Go(){ yield return new WaitForEndOfFrame(); } } For API detail, check here API Reference"
-  },
-  "guide/Core/Counter.html": {
-    "href": "guide/Core/Counter.html",
-    "title": "Counter | Funique Documentation",
-    "keywords": "Counter Core library provide a simple timer Counter counter = new Counter(5f, true); 5f means that the length of the time we want to set as target true will tell the counter auto reset and start the next cycle Put this line of code in update function, simply activate the timer private void Update(){ counter.Update(Time.deltaTime); } For API detail, check here API Reference"
-  },
-  "guide/Core/EnumCycle.html": {
-    "href": "guide/Core/EnumCycle.html",
-    "title": "Enum Cycle | Funique Documentation",
-    "keywords": "Enum Cycle It will loop base on the index it got, This does not support unorder enum. Here we define a simple enum enum SomeEnum{ None, First, Second, Thrid } Then we create a cycle by the enum type EnumCycle<SomeEnum> sample = new EnumCycle<SomeEnum>(); int current = 0; After that we can use it for cycle void Start(){ for(int i = 0; i < 10; i++){ current = sample.Next(current); Debug.Log(current); } // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 } For API detail, check here API Reference"
-  },
-  "guide/Core/Extensions.html": {
-    "href": "guide/Core/Extensions.html",
-    "title": "Extension | Funique Documentation",
-    "keywords": "Extension Extension provide application with more coding flexibility API Reference"
-  },
-  "guide/Core/Logger.html": {
-    "href": "guide/Core/Logger.html",
-    "title": "Funique Logger | Funique Documentation",
-    "keywords": "Funique Logger Register logger system void Start(){ FuniqueLogger.Init(); FuniqueLogger.Log(\"This will log\", \"Main\"); } You can select the log mode void Start(){ // This will only use build unity log, not output the message to file FuniqueLogger.Init(LoggerApply.Unity); FuniqueLogger.Log(\"This will log\", \"Main\"); } Use logger system for the usage, check detail here API Reference"
-  },
-  "guide/Core/Manager.html": {
-    "href": "guide/Core/Manager.html",
-    "title": "Manager Setup Guide | Funique Documentation",
-    "keywords": "Manager Setup Guide We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself. API Reference"
-  },
-  "guide/Core/ThirdParty.html": {
-    "href": "guide/Core/ThirdParty.html",
-    "title": "Third Party Application | Funique Documentation",
-    "keywords": "Third Party Application There are times when we want to open the third-party application and access application pointer by C# script, In order to achieve that, we provide a simple base class for this kind of purposes. First, inherit our custom third-party application handler public class Demo : ThirdPartyApplication { // This will effect debug label protected override string => \"WorkerName\"; public Demo() : base() { MainProcess.StartInfo.FileName = \"cmd.exe\"; MainProcess.StartInfo.WorkingDirectory = \"C:/work_directory\"; // For access standard IO MainProcess.StartInfo.RedirectStandardError = true; MainProcess.StartInfo.RedirectStandardInput = true; MainProcess.StartInfo.RedirectStandardOutput = true; MainProcess.StartInfo.CreateNoWindow = true; MainProcess.StartInfo.UseShellExecute = false; } } Then we can just use it as template for the application we want to target public class component : MonoBehaviour{ Demo demo; void Start(){ // Prepare the process start info demo = new Demo(); // Actually start the process demo.Run(); } void OnDestroy(){ // Do not forget the release the resource after we leave // Otherwise this will causing buggy beheviour demo.Dispose(); } } API Reference"
-  },
-  "guide/CoreGuide.html": {
-    "href": "guide/CoreGuide.html",
-    "title": "Funique Core | Funique Documentation",
-    "keywords": "Funique Core The core library is most module rely on It contains the common knowledge of enum, structure, class, methods for server-side client-side. Recommand user install this library in your project before install anything else ID Name Docuemnt 1. Naughty Attributes Quick Start 2. Regex Builder Quick Start 2. Faster Gizmo Quick Start Back To Intro"
-  },
-  "guide/intro.html": {
-    "href": "guide/intro.html",
-    "title": "Funique Documentation For User | Funique Documentation",
-    "keywords": "Funique Documentation For User In this documentation, you will see how to setup a unity project Inherit framework logic then Writing your own components And contribute help us improve our code quality If you spot a bug or something want to report to dev, you can use the github issue feature You can find it in any project page Post your issues there, we'll investigate them Architecture The funique project has several strict rule apply on each project Before you start build a project, we recommend you read this first Notice Some modules has neutral part of mechanism which could applies to server side or client side, in this scenario we put these part at client side document. Tool Quick Start Funique Tool Client Quick Start Funique Client Server Qucik Start Funique Server"
-  },
-  "guide/Server/Cinema/QuickStart.html": {
-    "href": "guide/Server/Cinema/QuickStart.html",
-    "title": "Cinema Server Logic Qucik Start | Funique Documentation",
-    "keywords": "Cinema Server Logic Qucik Start Create a class inherit cinema server manager public class CinemaServer : CinemaManagerServerUtility { } public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerServerData data; // Our manager instance CinemaServer cinema; void Start(){ // Create cinema server manager process cinema = new CinemaServer(); cinema.RegisterConfig(data); } } For API detail, check here API Reference"
-  },
-  "guide/Server/CinemaGuide.html": {
-    "href": "guide/Server/CinemaGuide.html",
-    "title": "Cinema Server Guide | Funique Documentation",
-    "keywords": "Cinema Server Guide Manages all cinema and clients, Sort of like grouping manager, but with cienma data and feature attached to it. Features [x] Cinema view management [x] Cinema data management [x] Cinema client remote control To check the detail implementation: Quick Start"
-  },
-  "guide/Server/Media/QuickStart.html": {
-    "href": "guide/Server/Media/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Server/MediaGuide.html": {
-    "href": "guide/Server/MediaGuide.html",
-    "title": "Media Server Guide | Funique Documentation",
-    "keywords": "Media Server Guide Manage client side media player actions Features [x] Control client side play, pause, stop [x] Control client side stereo [x] Control client side subtitle"
-  },
-  "guide/Server/Network/QuickStart.html": {
-    "href": "guide/Server/Network/QuickStart.html",
-    "title": "Server Network Module Quick Start | Funique Documentation",
-    "keywords": "Server Network Module Quick Start Create a class inherit network server manager public class NetworkServer : NetworkManagerServerUtility { } For API detail, check here API Reference"
-  },
-  "guide/Server/NetworkGuide.html": {
-    "href": "guide/Server/NetworkGuide.html",
-    "title": "Network Server Guide | Funique Documentation",
-    "keywords": "Network Server Guide Handle network signal, sending and receiving. Features [x] UDP Server manage [x] UDP network sender [x] UDP network receiver [x] OSC network sender [x] OSC Server manage"
-  },
-  "guide/Server/Player/QuickStart.html": {
-    "href": "guide/Server/Player/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Server/PlayerGuide.html": {
-    "href": "guide/Server/PlayerGuide.html",
-    "title": "Player Server Guide | Funique Documentation",
-    "keywords": "Player Server Guide Manage clients IP and scene object instance. Features [x] Dictionary map manage player IP, scene object instance"
-  },
-  "guide/Server/Setting/QuickStart.html": {
-    "href": "guide/Server/Setting/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Server/SettingGuide.html": {
-    "href": "guide/Server/SettingGuide.html",
-    "title": "Setting Server Guide | Funique Documentation",
-    "keywords": "Setting Server Guide Manage setting configuration. Features [x] Configuration generate [x] Playlist info record [x] Cinema info record [x] Clients info record [x] Saving [x] Loading"
-  },
-  "guide/Server/Streaming/QuickStart.html": {
-    "href": "guide/Server/Streaming/QuickStart.html",
-    "title": "Server Streaming Module Quick Start | Funique Documentation",
-    "keywords": "Server Streaming Module Quick Start Create a class inherit streaming server manager public class StreamingServer : StreamingManagerUtility { } For API detail, check here API Reference"
-  },
-  "guide/Server/StreamingGuide.html": {
-    "href": "guide/Server/StreamingGuide.html",
-    "title": "Streaming Server Guide | Funique Documentation",
-    "keywords": "Streaming Server Guide Manage streaming casting. Features [x] FFmpeg manage [x] Nginx manage [x] HLS support (DASH, M4S, TS) [x] RTMP support [x] LIVE mode support [x] VOD mode support [ ] Raw ffmpeg command support [ ] Docker nginx server manage"
-  },
-  "guide/Server/UI/QuickStart.html": {
-    "href": "guide/Server/UI/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Server/UIGuide.html": {
-    "href": "guide/Server/UIGuide.html",
-    "title": "UI Server Guide | Funique Documentation",
-    "keywords": "UI Server Guide Manage the user interface mechanism. Features [x] Toolbar manage [x] Panel manage [x] Cinema manage [x] Page manage [x] Right click menu manage [x] Dynamic register right click menu event"
-  },
-  "guide/Server/Video/QuickStart.html": {
-    "href": "guide/Server/Video/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "guide/Server/VideoGuide.html": {
-    "href": "guide/Server/VideoGuide.html",
-    "title": "Video Server Guide | Funique Documentation",
-    "keywords": "Video Server Guide Store video, playlist information Features [x] Video info store [x] Saving video info [x] Loading video info"
-  },
-  "guide/ServerGuide.html": {
-    "href": "guide/ServerGuide.html",
-    "title": "Funique Client | Funique Documentation",
-    "keywords": "Funique Client Here is a list of modules that contain server use logic This include sending information to clients, analysis clients network packages UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Media Quick Start 3. Network Quick Start 4. Player Quick Start 5. Setting Quick Start 6. Streaming Quick Start 7. UI Quick Start 8. Video Quick Start Back To Intro"
-  },
-  "guide/Setup.html": {
-    "href": "guide/Setup.html",
+  "dev/Setup.html": {
+    "href": "dev/Setup.html",
     "title": "Setup | Funique Documentation",
-    "keywords": "Setup Third-Party Tool Helper Git Github Desktop Funique Hub Project Architecture Here is the main project architeture The integration (project main logic code) will store at /Assets/Scripts The funique modules (including core module) will store at /Assets/FuniquePlugin/[Module Name] Large resources, media files (ignore elements) will store at /Assets/FuniqueAssets After Clone After user clone the project, the remain problem is loading the submodule files. User can open command prompt at root of the unity project directory And type in: git submodule update --init --remote --recursive --init Trying to initialize the submodule directory --remote Update to the latest commit to the select branch --recursive Read .submodule file and Iterate over each submodule element Delete Submodule When submodule is no need, and require to remove it You could run this command to it git rm -r --cached [submodule folder] Change Submodule Select Branch When you trying to upgrade version You could run this command to it git submodule set-branch --branch [branch label] [submodule folder] git submodule update [submodule folder] Dependencies Each funique unity module should have official readme file that specified that what kinds of modules it require to works. It will specified the module name with hyperlink and version requirement."
-  },
-  "guide/Tool/Designer/QuickStart.html": {
-    "href": "guide/Tool/Designer/QuickStart.html",
-    "title": "Funique Deisgner Quick Start | Funique Documentation",
-    "keywords": "Funique Deisgner Quick Start"
-  },
-  "guide/Tool/DesignerGuide.html": {
-    "href": "guide/Tool/DesignerGuide.html",
-    "title": "Designer Guide | Funique Documentation",
-    "keywords": "Designer Guide Designer plugin is a agnostic unity packages that provides different editor tools helps you quick setup scenes, logic, or improve the pipeline. Components"
-  },
-  "guide/ToolGuide.html": {
-    "href": "guide/ToolGuide.html",
-    "title": "Funique Tool | Funique Documentation",
-    "keywords": "Funique Tool Here is a list of modules that contain neutral use logic This include information analysis, editor tool, hub, etc... UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and use the tool ID Name Docuemnt 1. Hub Quick Start 1. Designer Quick Start Back To Intro"
+    "keywords": "Setup Third-Party Tool Helper Git Github Desktop Funique Hub Dev Project Repository Each intergration project has its own repository with git sub modules attached to it, You could clone it in order to contribute. Project Architecture Here is the main project architeture The integration (project main logic code) will store at /Assets/Scripts The funique modules (including core module) will store at /Assets/FuniquePlugin/[Module Name] Large resources, media files (ignore elements) will store at /Assets/FuniqueAssets After Clone After user clone the project, the remain problem is loading the submodule files. User can open command prompt at root of the unity project directory And type in: git submodule update --init --remote --recursive --init Trying to initialize the submodule directory --remote Update to the latest commit to the select branch --recursive Read .submodule file and Iterate over each submodule element Delete Submodule When submodule is no need, and require to remove it You could run this command to it git rm -r --cached [submodule folder] Change Submodule Select Branch When you trying to upgrade version You could run this command to it git submodule set-branch --branch [branch label] [submodule folder] git submodule update [submodule folder] Dependencies Each funique unity module should have official readme file that specified that what kinds of modules it require to works. It will specified the module name with hyperlink and version requirement."
   },
   "index.html": {
     "href": "index.html",
     "title": "Funique Multimedia Framework | Funique Documentation",
-    "keywords": "Funique Multimedia Framework What is FMF ? A list of tools that helps you quick build a funique project. The article will guide you install the plugin to inherit the base and extend the manager features. Why use FMF ? When i first time see the code structure and the way we maintain the codes, i be honest, it is pretty messy, colleague usually copy code file and ignore the dependencies issue or version issue, and often time, the code itself does not provide unit test, so often time, it stuck at environemnt testing stage. To solve this problem, it's pretty commom to thinks that we should sort out the code, and improve the maintainability. FMF will seperate all the codes in to plugins, and each plugins has its own unit testing, the result and view on each repo pages, the support version etc... The dependencies will solve by this way, each plugins has very clear dependencies requirement, so we won't confuse when we trying to pull the login in the projects. Another benifit is that, it's better have a docsmentation here to do things. so people won't ever get lost when login needs to be change. Quick start User Quick Start Developer Quick Start"
+    "keywords": "Funique Multimedia Framework What is FMF ? A list of tools that helps you quick build a funique project. The article will guide you install the plugin to inherit the base and extend the manager features. Why use FMF ? When i first time see the code structure and the way we maintain the codes, i be honest, it is pretty messy, colleague usually copy code file and ignore the dependencies issue or version issue, and often time, the code itself does not provide unit test, so often time, it stuck at environemnt testing stage. To solve this problem, it's pretty commom to thinks that we should sort out the code, and improve the maintainability. FMF will seperate all the codes in to plugins, and each plugins has its own unit testing, the result and view on each repo pages, the support version etc... The dependencies will solve by this way, each plugins has very clear dependencies requirement, so we won't confuse when we trying to pull the login in the projects. Another benifit is that, it's better have a docsmentation here to do things. so people won't ever get lost when login needs to be change. Quick start Streaming Quick Start Unity Quick Start Developer Quick Start Continuous Integration Quick Start"
   },
   "README.html": {
     "href": "README.html",
     "title": ".github | Funique Documentation",
     "keywords": ".github"
+  },
+  "stream/ffmpeg.html": {
+    "href": "stream/ffmpeg.html",
+    "title": "FFmpeg Guide | Funique Documentation",
+    "keywords": "FFmpeg Guide FFmpeg is handling the video audio encoding and decoding processes Depend on the version, some have feature we do not have And currently require feature must use custom build one, So that's why we have this fork ID Name Docuemnt 1. Funique FFmpeg Quick Start 2. Official FFmpeg Quick Start We still use official ffmpeg alot, that's why i put the link above Feature Offical FFmpeg Custom Build FFmpeg H.264 Encoder ✔️ ✔️ Hevc Encoder ✔️ ✔️ H.264 RTMP ❌ ✔️ Hevc RTMP ❌ ✔️ HLS ✔️ ❌ As you can see the table above, this is pretty messy. In the future we will have to modify a version that can support all of them Or use alternative solution to prevent this maintaining issue."
+  },
+  "stream/ffmpeg/overview.html": {
+    "href": "stream/ffmpeg/overview.html",
+    "title": "FFmpeg Overview | Funique Documentation",
+    "keywords": "FFmpeg Overview"
+  },
+  "stream/Intro.html": {
+    "href": "stream/Intro.html",
+    "title": "Funique Documentation For Streaming | Funique Documentation",
+    "keywords": "Funique Documentation For Streaming"
+  },
+  "stream/nginx.html": {
+    "href": "stream/nginx.html",
+    "title": "Nginx Guide | Funique Documentation",
+    "keywords": "Nginx Guide Custom RTMP streaming web server, This nginx server should have feature below Received RTMP Video Format Sending RTMP Video Format Support HLS Convert Suport DASH Convert ID Name Docuemnt 1. RTMP Server Quick Start"
+  },
+  "stream/nginx/overview.html": {
+    "href": "stream/nginx/overview.html",
+    "title": "Nginx Overview | Funique Documentation",
+    "keywords": "Nginx Overview"
+  },
+  "stream/pipeline.html": {
+    "href": "stream/pipeline.html",
+    "title": "Pipeline Guide | Funique Documentation",
+    "keywords": "Pipeline Guide This document is not about a tool or application. It is about how we provide our clients the video and audio signal. You will get every single logic part together. And have deep understand how the streaming service works."
+  },
+  "stream/pipeline/client.html": {
+    "href": "stream/pipeline/client.html",
+    "title": "Client Application | Funique Documentation",
+    "keywords": "Client Application"
+  },
+  "stream/pipeline/source.html": {
+    "href": "stream/pipeline/source.html",
+    "title": "Video Source | Funique Documentation",
+    "keywords": "Video Source"
+  },
+  "unity/Client/Cinema/QuickStart.html": {
+    "href": "unity/Client/Cinema/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/CinemaGuide.html": {
+    "href": "unity/Client/CinemaGuide.html",
+    "title": "Cinema Client Guide | Funique Documentation",
+    "keywords": "Cinema Client Guide Media player component, AVPro, Audio 360 Features [x] AvPro [x] Aduio360 [x] Media Control"
+  },
+  "unity/Client/Client/QuickStart.html": {
+    "href": "unity/Client/Client/QuickStart.html",
+    "title": "Client Logic Qucik Start | Funique Documentation",
+    "keywords": "Client Logic Qucik Start The problem of this modules is that it contains multiple manager base XR Manager Utility Android Manager Utility"
+  },
+  "unity/Client/ClientGuide.html": {
+    "href": "unity/Client/ClientGuide.html",
+    "title": "Client Client Guide | Funique Documentation",
+    "keywords": "Client Client Guide Features"
+  },
+  "unity/Client/Dissonance/QuickStart.html": {
+    "href": "unity/Client/Dissonance/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/DissonanceGuide.html": {
+    "href": "unity/Client/DissonanceGuide.html",
+    "title": "Dissonance Client Guide | Funique Documentation",
+    "keywords": "Dissonance Client Guide Features"
+  },
+  "unity/Client/Media/QuickStart.html": {
+    "href": "unity/Client/Media/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/MediaGuide.html": {
+    "href": "unity/Client/MediaGuide.html",
+    "title": "Media Client Guide | Funique Documentation",
+    "keywords": "Media Client Guide Features"
+  },
+  "unity/Client/Monitor/QuickStart.html": {
+    "href": "unity/Client/Monitor/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/MonitorGuide.html": {
+    "href": "unity/Client/MonitorGuide.html",
+    "title": "Monitor Client Guide | Funique Documentation",
+    "keywords": "Monitor Client Guide Features"
+  },
+  "unity/Client/Network/QuickStart.html": {
+    "href": "unity/Client/Network/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/NetworkGuide.html": {
+    "href": "unity/Client/NetworkGuide.html",
+    "title": "Network Client Guide | Funique Documentation",
+    "keywords": "Network Client Guide Features [x] OSC Communication [x] LiteNet Communication [ ] Mirror Communication TODO [ ] Moving LiteNet to Mirror"
+  },
+  "unity/Client/Setting/QuickStart.html": {
+    "href": "unity/Client/Setting/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/SettingGuide.html": {
+    "href": "unity/Client/SettingGuide.html",
+    "title": "Setting Client Guide | Funique Documentation",
+    "keywords": "Setting Client Guide Features"
+  },
+  "unity/Client/UI/QuickStart.html": {
+    "href": "unity/Client/UI/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/UIGuide.html": {
+    "href": "unity/Client/UIGuide.html",
+    "title": "UI Client Guide | Funique Documentation",
+    "keywords": "UI Client Guide Features"
+  },
+  "unity/Client/Verify/QuickStart.html": {
+    "href": "unity/Client/Verify/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/VerifyGuide.html": {
+    "href": "unity/Client/VerifyGuide.html",
+    "title": "Verify Client Guide | Funique Documentation",
+    "keywords": "Verify Client Guide Provide CRM DRM solution Features [x] Software CRM account password lock"
+  },
+  "unity/Client/Video/QuickStart.html": {
+    "href": "unity/Client/Video/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Client/VideoGuide.html": {
+    "href": "unity/Client/VideoGuide.html",
+    "title": "Video Client Guide | Funique Documentation",
+    "keywords": "Video Client Guide Features"
+  },
+  "unity/ClientGuide.html": {
+    "href": "unity/ClientGuide.html",
+    "title": "Funique Client | Funique Documentation",
+    "keywords": "Funique Client Here is a list of modules that contain client use logic This include received information from server, analysis network packages Media player logic or scene or character movement, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Client Quick Start 3. Dissonance Quick Start 4. Monitor Quick Start 5. Network Quick Start 6. Setting Quick Start 7. UI Quick Start 8. Verify Quick Start 9. Video Quick Start Back To Intro"
+  },
+  "unity/Core/CoroutineHelper.html": {
+    "href": "unity/Core/CoroutineHelper.html",
+    "title": "Coroutine Helper | Funique Documentation",
+    "keywords": "Coroutine Helper Help thoes class which need access unity monobehaviour coroutine feature. Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member. class SampleA { void Use(){ Coroutine coroutine = CoroutineHelper.Instance.Run(Go); } IEnumerator Go(){ yield return new WaitForEndOfFrame(); } } For API detail, check here API Reference"
+  },
+  "unity/Core/Counter.html": {
+    "href": "unity/Core/Counter.html",
+    "title": "Counter | Funique Documentation",
+    "keywords": "Counter Core library provide a simple timer Counter counter = new Counter(5f, true); 5f means that the length of the time we want to set as target true will tell the counter auto reset and start the next cycle Put this line of code in update function, simply activate the timer private void Update(){ counter.Update(Time.deltaTime); } For API detail, check here API Reference"
+  },
+  "unity/Core/EnumCycle.html": {
+    "href": "unity/Core/EnumCycle.html",
+    "title": "Enum Cycle | Funique Documentation",
+    "keywords": "Enum Cycle It will loop base on the index it got, This does not support unorder enum. Here we define a simple enum enum SomeEnum{ None, First, Second, Thrid } Then we create a cycle by the enum type EnumCycle<SomeEnum> sample = new EnumCycle<SomeEnum>(); int current = 0; After that we can use it for cycle void Start(){ for(int i = 0; i < 10; i++){ current = sample.Next(current); Debug.Log(current); } // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 } For API detail, check here API Reference"
+  },
+  "unity/Core/Extensions.html": {
+    "href": "unity/Core/Extensions.html",
+    "title": "Extension | Funique Documentation",
+    "keywords": "Extension Extension provide application with more coding flexibility API Reference"
+  },
+  "unity/Core/Logger.html": {
+    "href": "unity/Core/Logger.html",
+    "title": "Funique Logger | Funique Documentation",
+    "keywords": "Funique Logger Register logger system void Start(){ FuniqueLogger.Init(); FuniqueLogger.Log(\"This will log\", \"Main\"); } You can select the log mode void Start(){ // This will only use build unity log, not output the message to file FuniqueLogger.Init(LoggerApply.Unity); FuniqueLogger.Log(\"This will log\", \"Main\"); } Use logger system for the usage, check detail here API Reference"
+  },
+  "unity/Core/Manager.html": {
+    "href": "unity/Core/Manager.html",
+    "title": "Manager Setup Guide | Funique Documentation",
+    "keywords": "Manager Setup Guide We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself. API Reference"
+  },
+  "unity/Core/ThirdParty.html": {
+    "href": "unity/Core/ThirdParty.html",
+    "title": "Third Party Application | Funique Documentation",
+    "keywords": "Third Party Application There are times when we want to open the third-party application and access application pointer by C# script, In order to achieve that, we provide a simple base class for this kind of purposes. First, inherit our custom third-party application handler public class Demo : ThirdPartyApplication { // This will effect debug label protected override string => \"WorkerName\"; public Demo() : base() { MainProcess.StartInfo.FileName = \"cmd.exe\"; MainProcess.StartInfo.WorkingDirectory = \"C:/work_directory\"; // For access standard IO MainProcess.StartInfo.RedirectStandardError = true; MainProcess.StartInfo.RedirectStandardInput = true; MainProcess.StartInfo.RedirectStandardOutput = true; MainProcess.StartInfo.CreateNoWindow = true; MainProcess.StartInfo.UseShellExecute = false; } } Then we can just use it as template for the application we want to target public class component : MonoBehaviour{ Demo demo; void Start(){ // Prepare the process start info demo = new Demo(); // Actually start the process demo.Run(); } void OnDestroy(){ // Do not forget the release the resource after we leave // Otherwise this will causing buggy beheviour demo.Dispose(); } } API Reference"
+  },
+  "unity/CoreGuide.html": {
+    "href": "unity/CoreGuide.html",
+    "title": "Funique Core | Funique Documentation",
+    "keywords": "Funique Core The core library is most module rely on It contains the common knowledge of enum, structure, class, methods for server-side client-side. Recommand user install this library in your project before install anything else ID Name Docuemnt 1. Naughty Attributes Quick Start 2. Regex Builder Quick Start 2. Faster Gizmo Quick Start Back To Intro"
+  },
+  "unity/Installation.html": {
+    "href": "unity/Installation.html",
+    "title": "Install The Package | Funique Documentation",
+    "keywords": "Install The Package Use Package Manager Project Setting -> Package Manager Enter the funique package registery information Name: Funique URL: https://registry.npmjs.org Scope: tw.funique Then you should be enable to see the list in the package manager window Windows -> Package Manager -> My Registery Quick Setup Project Warning You should already install the latest version of the package prevent debug happening. Find the package name start with integration, It will pull all the package dependencies from modules But even if we pull the project require modules, There still something missing. Yes, the project primary scene. After pull the integration package you should be enable to see the simples scene like below screenshot. Note It is normal to restart the project during the installation, you might install the module that require restart."
+  },
+  "unity/intro.html": {
+    "href": "unity/intro.html",
+    "title": "Funique Documentation For User | Funique Documentation",
+    "keywords": "Funique Documentation For User In this documentation, you will see how to setup a unity project Inherit framework logic then Writing your own components And contribute help us improve our code quality If you spot a bug or something want to report to dev, you can use the github issue feature You can find it in any project page Post your issues there, we'll investigate them Architecture The funique project has several strict rule apply on each project Before you start build a project, we recommend you read this first Notice Some modules has neutral part of mechanism which could applies to server side or client side, in this scenario we put these part at client side document. Tool Quick Start Funique Tool Client Quick Start Funique Client Server Qucik Start Funique Server"
+  },
+  "unity/Server/Cinema/QuickStart.html": {
+    "href": "unity/Server/Cinema/QuickStart.html",
+    "title": "Cinema Server Logic Qucik Start | Funique Documentation",
+    "keywords": "Cinema Server Logic Qucik Start Create a class inherit cinema server manager public class CinemaServer : CinemaManagerServerUtility { } public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerServerData data; // Our manager instance CinemaServer cinema; void Start(){ // Create cinema server manager process cinema = new CinemaServer(); cinema.RegisterConfig(data); } } For API detail, check here API Reference"
+  },
+  "unity/Server/CinemaGuide.html": {
+    "href": "unity/Server/CinemaGuide.html",
+    "title": "Cinema Server Guide | Funique Documentation",
+    "keywords": "Cinema Server Guide Manages all cinema and clients, Sort of like grouping manager, but with cienma data and feature attached to it. Features [x] Cinema view management [x] Cinema data management [x] Cinema client remote control To check the detail implementation: Quick Start"
+  },
+  "unity/Server/Media/QuickStart.html": {
+    "href": "unity/Server/Media/QuickStart.html",
+    "title": "Media Server Logic Qucik Start | Funique Documentation",
+    "keywords": "Media Server Logic Qucik Start"
+  },
+  "unity/Server/MediaGuide.html": {
+    "href": "unity/Server/MediaGuide.html",
+    "title": "Media Server Guide | Funique Documentation",
+    "keywords": "Media Server Guide Manage client side media player actions Features [x] Control client side play, pause, stop [x] Control client side stereo [x] Control client side subtitle"
+  },
+  "unity/Server/Network/QuickStart.html": {
+    "href": "unity/Server/Network/QuickStart.html",
+    "title": "Server Network Module Quick Start | Funique Documentation",
+    "keywords": "Server Network Module Quick Start Create a class inherit network server manager public class NetworkServer : NetworkManagerServerUtility { } For API detail, check here API Reference"
+  },
+  "unity/Server/NetworkGuide.html": {
+    "href": "unity/Server/NetworkGuide.html",
+    "title": "Network Server Guide | Funique Documentation",
+    "keywords": "Network Server Guide Handle network signal, sending and receiving. Features [x] UDP Server manage [x] UDP network sender [x] UDP network receiver [x] OSC network sender [x] OSC Server manage"
+  },
+  "unity/Server/Player/QuickStart.html": {
+    "href": "unity/Server/Player/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Server/PlayerGuide.html": {
+    "href": "unity/Server/PlayerGuide.html",
+    "title": "Player Server Guide | Funique Documentation",
+    "keywords": "Player Server Guide Manage clients IP and scene object instance. Features [x] Dictionary map manage player IP, scene object instance"
+  },
+  "unity/Server/Setting/QuickStart.html": {
+    "href": "unity/Server/Setting/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Server/SettingGuide.html": {
+    "href": "unity/Server/SettingGuide.html",
+    "title": "Setting Server Guide | Funique Documentation",
+    "keywords": "Setting Server Guide Manage setting configuration. Features [x] Configuration generate [x] Playlist info record [x] Cinema info record [x] Clients info record [x] Saving [x] Loading"
+  },
+  "unity/Server/Streaming/QuickStart.html": {
+    "href": "unity/Server/Streaming/QuickStart.html",
+    "title": "Server Streaming Module Quick Start | Funique Documentation",
+    "keywords": "Server Streaming Module Quick Start Create a class inherit streaming server manager public class StreamingServer : StreamingManagerUtility { } For API detail, check here API Reference"
+  },
+  "unity/Server/StreamingGuide.html": {
+    "href": "unity/Server/StreamingGuide.html",
+    "title": "Streaming Server Guide | Funique Documentation",
+    "keywords": "Streaming Server Guide Manage streaming casting. Features [x] FFmpeg manage [x] Nginx manage [x] HLS support (DASH, M4S, TS) [x] RTMP support [x] LIVE mode support [x] VOD mode support [ ] Raw ffmpeg command support [ ] Docker nginx server manage"
+  },
+  "unity/Server/UI/QuickStart.html": {
+    "href": "unity/Server/UI/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Server/UIGuide.html": {
+    "href": "unity/Server/UIGuide.html",
+    "title": "UI Server Guide | Funique Documentation",
+    "keywords": "UI Server Guide Manage the user interface mechanism. Features [x] Toolbar manage [x] Panel manage [x] Cinema manage [x] Page manage [x] Right click menu manage [x] Dynamic register right click menu event"
+  },
+  "unity/Server/Video/QuickStart.html": {
+    "href": "unity/Server/Video/QuickStart.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "unity/Server/VideoGuide.html": {
+    "href": "unity/Server/VideoGuide.html",
+    "title": "Video Server Guide | Funique Documentation",
+    "keywords": "Video Server Guide Store video, playlist information Features [x] Video info store [x] Saving video info [x] Loading video info"
+  },
+  "unity/ServerGuide.html": {
+    "href": "unity/ServerGuide.html",
+    "title": "Funique Client | Funique Documentation",
+    "keywords": "Funique Client Here is a list of modules that contain server use logic This include sending information to clients, analysis clients network packages UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Media Quick Start 3. Network Quick Start 4. Player Quick Start 5. Setting Quick Start 6. Streaming Quick Start 7. UI Quick Start 8. Video Quick Start Back To Intro"
+  },
+  "unity/Tool/Designer/QuickStart.html": {
+    "href": "unity/Tool/Designer/QuickStart.html",
+    "title": "Funique Deisgner Quick Start | Funique Documentation",
+    "keywords": "Funique Deisgner Quick Start"
+  },
+  "unity/Tool/DesignerGuide.html": {
+    "href": "unity/Tool/DesignerGuide.html",
+    "title": "Designer Guide | Funique Documentation",
+    "keywords": "Designer Guide Designer plugin is a agnostic unity packages that provides different editor tools helps you quick setup scenes, logic, or improve the pipeline. Components"
+  },
+  "unity/ToolGuide.html": {
+    "href": "unity/ToolGuide.html",
+    "title": "Funique Tool | Funique Documentation",
+    "keywords": "Funique Tool Here is a list of modules that contain neutral use logic This include information analysis, editor tool, hub, etc... UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and use the tool ID Name Docuemnt 1. Designer Quick Start Back To Intro"
   }
 }

@@ -1,0 +1,485 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Im3u8Streaming
+  commentId: T:Funique.Im3u8Streaming
+  id: Im3u8Streaming
+  parent: Funique
+  children:
+  - Funique.Im3u8Streaming.CanCreatm3u8
+  - Funique.Im3u8Streaming.CheckInitCinema
+  - Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  - Funique.Im3u8Streaming.CurrentCinemaIndex
+  - Funique.Im3u8Streaming.m3u8fileName
+  - Funique.Im3u8Streaming.NginxVideoPath
+  - Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  - Funique.Im3u8Streaming.URL
+  - Funique.Im3u8Streaming.VideoURL
+  - Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Im3u8Streaming
+  nameWithType: Im3u8Streaming
+  fullName: Funique.Im3u8Streaming
+  type: Interface
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: Im3u8Streaming
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 9
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nThe feature that support interact with ffmpeg worker <br />\n------------------------------------------------ <br />\n讓類別擁有與 ffmpeg 串流管理員對話的能力\n"
+  example: []
+  syntax:
+    content: public interface Im3u8Streaming
+    content.vb: Public Interface Im3u8Streaming
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Im3u8Streaming.CurrentCinemaIndex
+  commentId: P:Funique.Im3u8Streaming.CurrentCinemaIndex
+  id: CurrentCinemaIndex
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: CurrentCinemaIndex
+  nameWithType: Im3u8Streaming.CurrentCinemaIndex
+  fullName: Funique.Im3u8Streaming.CurrentCinemaIndex
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CurrentCinemaIndex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 16
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nGet current cinema select index <br />\n------------------------------------------------ <br />\n得到目前選取的劇院目錄\n"
+  example: []
+  syntax:
+    content: int CurrentCinemaIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property CurrentCinemaIndex As Integer
+  overload: Funique.Im3u8Streaming.CurrentCinemaIndex*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Im3u8Streaming.URL
+  commentId: P:Funique.Im3u8Streaming.URL
+  id: URL
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: Im3u8Streaming.URL
+  fullName: Funique.Im3u8Streaming.URL
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URL
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 22
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nTarget pointing URL <br />\n------------------------------------------------ <br />\n目前指向的位址\n"
+  example: []
+  syntax:
+    content: string URL { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property URL As String
+  overload: Funique.Im3u8Streaming.URL*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Im3u8Streaming.VideoURL
+  commentId: P:Funique.Im3u8Streaming.VideoURL
+  id: VideoURL
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: VideoURL
+  nameWithType: Im3u8Streaming.VideoURL
+  fullName: Funique.Im3u8Streaming.VideoURL
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: VideoURL
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 30
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nVideo URL <br />\nDifferent between URL is this has been translate <br />\n------------------------------------------------ <br />\n影片位址 <br />\n與 URL 的不同於這被解碼過\n"
+  example: []
+  syntax:
+    content: string VideoURL { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property VideoURL As String
+  overload: Funique.Im3u8Streaming.VideoURL*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Im3u8Streaming.NginxVideoPath
+  commentId: P:Funique.Im3u8Streaming.NginxVideoPath
+  id: NginxVideoPath
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: NginxVideoPath
+  nameWithType: Im3u8Streaming.NginxVideoPath
+  fullName: Funique.Im3u8Streaming.NginxVideoPath
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: NginxVideoPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 36
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nA local folder path targeting Nginx html video folder <br />\n------------------------------------------------ <br />\n一個路徑指向 Nginx 工作環境中的 html/video\n"
+  example: []
+  syntax:
+    content: string NginxVideoPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property NginxVideoPath As String
+  overload: Funique.Im3u8Streaming.NginxVideoPath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  commentId: P:Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  id: CurrentCinemaforDirectoryName
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: CurrentCinemaforDirectoryName
+  nameWithType: Im3u8Streaming.CurrentCinemaforDirectoryName
+  fullName: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CurrentCinemaforDirectoryName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 44
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nGenerate cinema directory path, not including prefix part <br />\n------------------------------------------------ <br />\n生成劇場資料夾位址, 不包含前墜 <br />\n1\\ <br />\n2\\\n"
+  example: []
+  syntax:
+    content: string CurrentCinemaforDirectoryName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property CurrentCinemaforDirectoryName As String
+  overload: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  commentId: P:Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  id: TheFileDetectedtoMoveinitmp4
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: TheFileDetectedtoMoveinitmp4
+  nameWithType: Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  fullName: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: TheFileDetectedtoMoveinitmp4
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 52
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nThe first streaming file to writing, When this file exist <br />\nThat mean it&apos;s finishing init file <br />\n------------------------------------------------ <br />\n第一個串流檔案生成, 當這檔案存在 <br />\n代表成功的生成初始化檔案\n"
+  example: []
+  syntax:
+    content: string TheFileDetectedtoMoveinitmp4 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property TheFileDetectedtoMoveinitmp4 As String
+  overload: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Im3u8Streaming.m3u8fileName
+  commentId: P:Funique.Im3u8Streaming.m3u8fileName
+  id: m3u8fileName
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: m3u8fileName
+  nameWithType: Im3u8Streaming.m3u8fileName
+  fullName: Funique.Im3u8Streaming.m3u8fileName
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: m3u8fileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 60
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nGenerate m3u8 file name <br />\n------------------------------------------------ <br />\n生成 m3u8 的檔案名稱\n"
+  example: []
+  syntax:
+    content: string m3u8fileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property m3u8fileName As String
+  overload: Funique.Im3u8Streaming.m3u8fileName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.Im3u8Streaming.CheckInitCinema
+  commentId: P:Funique.Im3u8Streaming.CheckInitCinema
+  id: CheckInitCinema
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: CheckInitCinema
+  nameWithType: Im3u8Streaming.CheckInitCinema
+  fullName: Funique.Im3u8Streaming.CheckInitCinema
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CheckInitCinema
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 66
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nInit file name <br />\n------------------------------------------------ <br />\n初始化檔案名稱\n"
+  example: []
+  syntax:
+    content: string CheckInitCinema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CheckInitCinema As String
+  overload: Funique.Im3u8Streaming.CheckInitCinema*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.Im3u8Streaming.CanCreatm3u8
+  commentId: P:Funique.Im3u8Streaming.CanCreatm3u8
+  id: CanCreatm3u8
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: CanCreatm3u8
+  nameWithType: Im3u8Streaming.CanCreatm3u8
+  fullName: Funique.Im3u8Streaming.CanCreatm3u8
+  type: Property
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CanCreatm3u8
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 67
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  syntax:
+    content: bool CanCreatm3u8 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CanCreatm3u8 As Boolean
+  overload: Funique.Im3u8Streaming.CanCreatm3u8*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  commentId: M:Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  id: WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  parent: Funique.Im3u8Streaming
+  langs:
+  - csharp
+  - vb
+  name: WaitingCallClinetPlay(IFFmpegWorker, String)
+  nameWithType: Im3u8Streaming.WaitingCallClinetPlay(IFFmpegWorker, String)
+  fullName: Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker, System.String)
+  type: Method
+  source:
+    remote:
+      path: Interface/Im3u8Streaming.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: WaitingCallClinetPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/Interface/Im3u8Streaming.cs
+    startLine: 76
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique
+  summary: "\nWhen the m3u8 files creation is finished, or the init file is exist <br />\nWe will tell clients to play to URL, and update server&apos;s user interface state <br />\n------------------------------------------------ <br />\n當串流檔案生成完, 初始化檔案存在時\n嘗試告訴客戶端播放 URL\n"
+  example: []
+  syntax:
+    content: bool WaitingCallClinetPlay(IFFmpegWorker from, string _URL)
+    parameters:
+    - id: from
+      type: Funique.Streaming.IFFmpegWorker
+    - id: _URL
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function WaitingCallClinetPlay(from As IFFmpegWorker, _URL As String) As Boolean
+  overload: Funique.Im3u8Streaming.WaitingCallClinetPlay*
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Im3u8Streaming.CurrentCinemaIndex*
+  commentId: Overload:Funique.Im3u8Streaming.CurrentCinemaIndex
+  name: CurrentCinemaIndex
+  nameWithType: Im3u8Streaming.CurrentCinemaIndex
+  fullName: Funique.Im3u8Streaming.CurrentCinemaIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Im3u8Streaming.URL*
+  commentId: Overload:Funique.Im3u8Streaming.URL
+  name: URL
+  nameWithType: Im3u8Streaming.URL
+  fullName: Funique.Im3u8Streaming.URL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Im3u8Streaming.VideoURL*
+  commentId: Overload:Funique.Im3u8Streaming.VideoURL
+  name: VideoURL
+  nameWithType: Im3u8Streaming.VideoURL
+  fullName: Funique.Im3u8Streaming.VideoURL
+- uid: Funique.Im3u8Streaming.NginxVideoPath*
+  commentId: Overload:Funique.Im3u8Streaming.NginxVideoPath
+  name: NginxVideoPath
+  nameWithType: Im3u8Streaming.NginxVideoPath
+  fullName: Funique.Im3u8Streaming.NginxVideoPath
+- uid: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName*
+  commentId: Overload:Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  name: CurrentCinemaforDirectoryName
+  nameWithType: Im3u8Streaming.CurrentCinemaforDirectoryName
+  fullName: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+- uid: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4*
+  commentId: Overload:Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  name: TheFileDetectedtoMoveinitmp4
+  nameWithType: Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  fullName: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+- uid: Funique.Im3u8Streaming.m3u8fileName*
+  commentId: Overload:Funique.Im3u8Streaming.m3u8fileName
+  name: m3u8fileName
+  nameWithType: Im3u8Streaming.m3u8fileName
+  fullName: Funique.Im3u8Streaming.m3u8fileName
+- uid: Funique.Im3u8Streaming.CheckInitCinema*
+  commentId: Overload:Funique.Im3u8Streaming.CheckInitCinema
+  name: CheckInitCinema
+  nameWithType: Im3u8Streaming.CheckInitCinema
+  fullName: Funique.Im3u8Streaming.CheckInitCinema
+- uid: Funique.Im3u8Streaming.CanCreatm3u8*
+  commentId: Overload:Funique.Im3u8Streaming.CanCreatm3u8
+  name: CanCreatm3u8
+  nameWithType: Im3u8Streaming.CanCreatm3u8
+  fullName: Funique.Im3u8Streaming.CanCreatm3u8
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Im3u8Streaming.WaitingCallClinetPlay*
+  commentId: Overload:Funique.Im3u8Streaming.WaitingCallClinetPlay
+  name: WaitingCallClinetPlay
+  nameWithType: Im3u8Streaming.WaitingCallClinetPlay
+  fullName: Funique.Im3u8Streaming.WaitingCallClinetPlay
+- uid: Funique.Streaming.IFFmpegWorker
+  commentId: T:Funique.Streaming.IFFmpegWorker
+  parent: Funique.Streaming
+  name: IFFmpegWorker
+  nameWithType: IFFmpegWorker
+  fullName: Funique.Streaming.IFFmpegWorker
+- uid: Funique.Streaming
+  commentId: N:Funique.Streaming
+  name: Funique.Streaming
+  nameWithType: Funique.Streaming
+  fullName: Funique.Streaming

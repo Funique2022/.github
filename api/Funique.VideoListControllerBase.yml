@@ -1,0 +1,1565 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.VideoListControllerBase
+  commentId: T:Funique.VideoListControllerBase
+  id: VideoListControllerBase
+  parent: Funique
+  children:
+  - Funique.VideoListControllerBase.Add
+  - Funique.VideoListControllerBase.CinemaContent
+  - Funique.VideoListControllerBase.CinemaVideos
+  - Funique.VideoListControllerBase.Clean
+  - Funique.VideoListControllerBase.Content
+  - Funique.VideoListControllerBase.CreateNewField(System.String)
+  - Funique.VideoListControllerBase.DeleteAllContentChildren
+  - Funique.VideoListControllerBase.elements
+  - Funique.VideoListControllerBase.FileName
+  - Funique.VideoListControllerBase.IsFileChanged
+  - Funique.VideoListControllerBase.Load
+  - Funique.VideoListControllerBase.LoadFromFile
+  - Funique.VideoListControllerBase.OnEnable
+  - Funique.VideoListControllerBase.OnUpdate
+  - Funique.VideoListControllerBase.Open
+  - Funique.VideoListControllerBase.Ref_VideoListCinemaElement
+  - Funique.VideoListControllerBase.Ref_VideoListElement
+  - Funique.VideoListControllerBase.Save
+  - Funique.VideoListControllerBase.SaveToFile
+  - Funique.VideoListControllerBase.SetCurrentCinemaSelection(System.Int32)
+  - Funique.VideoListControllerBase.Smooth
+  - Funique.VideoListControllerBase.SpawnCinemaButton(System.Int32)
+  - Funique.VideoListControllerBase.Start
+  - Funique.VideoListControllerBase.Update
+  - Funique.VideoListControllerBase.UpdateFile
+  - Funique.VideoListControllerBase.UpdateUILayout
+  - Funique.VideoListControllerBase.Videos
+  - Funique.VideoListControllerBase.Viewport
+  langs:
+  - csharp
+  - vb
+  name: VideoListControllerBase
+  nameWithType: VideoListControllerBase
+  fullName: Funique.VideoListControllerBase
+  type: Class
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: VideoListControllerBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 11
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: 'public class VideoListControllerBase : MonoBehaviour'
+    content.vb: >-
+      Public Class VideoListControllerBase
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.VideoListControllerBase.Open
+  commentId: F:Funique.VideoListControllerBase.Open
+  id: Open
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: VideoListControllerBase.Open
+  fullName: Funique.VideoListControllerBase.Open
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Open
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 15
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button Open
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected Open As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Add
+  commentId: F:Funique.VideoListControllerBase.Add
+  id: Add
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Add
+  nameWithType: VideoListControllerBase.Add
+  fullName: Funique.VideoListControllerBase.Add
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Add
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 16
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button Add
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected Add As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Clean
+  commentId: F:Funique.VideoListControllerBase.Clean
+  id: Clean
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Clean
+  nameWithType: VideoListControllerBase.Clean
+  fullName: Funique.VideoListControllerBase.Clean
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Clean
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 17
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button Clean
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected Clean As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.OnUpdate
+  commentId: F:Funique.VideoListControllerBase.OnUpdate
+  id: OnUpdate
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate
+  nameWithType: VideoListControllerBase.OnUpdate
+  fullName: Funique.VideoListControllerBase.OnUpdate
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnUpdate
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 18
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button OnUpdate
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected OnUpdate As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Save
+  commentId: F:Funique.VideoListControllerBase.Save
+  id: Save
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Save
+  nameWithType: VideoListControllerBase.Save
+  fullName: Funique.VideoListControllerBase.Save
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Save
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 19
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button Save
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected Save As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Load
+  commentId: F:Funique.VideoListControllerBase.Load
+  id: Load
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Load
+  nameWithType: VideoListControllerBase.Load
+  fullName: Funique.VideoListControllerBase.Load
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Load
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 20
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button Load
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected Load As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.CinemaContent
+  commentId: F:Funique.VideoListControllerBase.CinemaContent
+  id: CinemaContent
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: CinemaContent
+  nameWithType: VideoListControllerBase.CinemaContent
+  fullName: Funique.VideoListControllerBase.CinemaContent
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CinemaContent
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 21
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected RectTransform CinemaContent
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Protected CinemaContent As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Content
+  commentId: F:Funique.VideoListControllerBase.Content
+  id: Content
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: VideoListControllerBase.Content
+  fullName: Funique.VideoListControllerBase.Content
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Content
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 22
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected RectTransform Content
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <SerializeField>
+
+      Protected Content As RectTransform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Viewport
+  commentId: F:Funique.VideoListControllerBase.Viewport
+  id: Viewport
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Viewport
+  nameWithType: VideoListControllerBase.Viewport
+  fullName: Funique.VideoListControllerBase.Viewport
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Viewport
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 23
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected ScrollRect Viewport
+    return:
+      type: UnityEngine.UI.ScrollRect
+    content.vb: >-
+      <SerializeField>
+
+      Protected Viewport As ScrollRect
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Smooth
+  commentId: F:Funique.VideoListControllerBase.Smooth
+  id: Smooth
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Smooth
+  nameWithType: VideoListControllerBase.Smooth
+  fullName: Funique.VideoListControllerBase.Smooth
+  type: Field
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Smooth
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 24
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected float Smooth
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Protected Smooth As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.Videos
+  commentId: P:Funique.VideoListControllerBase.Videos
+  id: Videos
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Videos
+  nameWithType: VideoListControllerBase.Videos
+  fullName: Funique.VideoListControllerBase.Videos
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Videos
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 35
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  summary: "\nThe buffer of the video data in the editor <br />\nIt&apos;s not the link data to the actual thing\n"
+  example: []
+  syntax:
+    content: public virtual List<string> Videos { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Overridable ReadOnly Property Videos As List(Of String)
+  overload: Funique.VideoListControllerBase.Videos*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.VideoListControllerBase.CinemaVideos
+  commentId: P:Funique.VideoListControllerBase.CinemaVideos
+  id: CinemaVideos
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: CinemaVideos
+  nameWithType: VideoListControllerBase.CinemaVideos
+  fullName: Funique.VideoListControllerBase.CinemaVideos
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CinemaVideos
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 51
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  summary: "\nThe buffer of the video info data in the editor <br />\nIt&apos;s not the link data to the actual thing\n"
+  example: []
+  syntax:
+    content: public virtual List<VideoInfo> CinemaVideos { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    content.vb: Public Overridable ReadOnly Property CinemaVideos As List(Of VideoInfo)
+  overload: Funique.VideoListControllerBase.CinemaVideos*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.VideoListControllerBase.Ref_VideoListElement
+  commentId: P:Funique.VideoListControllerBase.Ref_VideoListElement
+  id: Ref_VideoListElement
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Ref_VideoListElement
+  nameWithType: VideoListControllerBase.Ref_VideoListElement
+  fullName: Funique.VideoListControllerBase.Ref_VideoListElement
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Ref_VideoListElement
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 55
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  summary: "\nSpawn reference for video string list element\n"
+  example: []
+  syntax:
+    content: public GameObject Ref_VideoListElement { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property Ref_VideoListElement As GameObject
+  overload: Funique.VideoListControllerBase.Ref_VideoListElement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControllerBase.Ref_VideoListCinemaElement
+  commentId: P:Funique.VideoListControllerBase.Ref_VideoListCinemaElement
+  id: Ref_VideoListCinemaElement
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Ref_VideoListCinemaElement
+  nameWithType: VideoListControllerBase.Ref_VideoListCinemaElement
+  fullName: Funique.VideoListControllerBase.Ref_VideoListCinemaElement
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Ref_VideoListCinemaElement
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 59
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  summary: "\nSpawn reference for cinema button list element\n"
+  example: []
+  syntax:
+    content: public GameObject Ref_VideoListCinemaElement { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property Ref_VideoListCinemaElement As GameObject
+  overload: Funique.VideoListControllerBase.Ref_VideoListCinemaElement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControllerBase.FileName
+  commentId: P:Funique.VideoListControllerBase.FileName
+  id: FileName
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: VideoListControllerBase.FileName
+  fullName: Funique.VideoListControllerBase.FileName
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: FileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 63
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  summary: "\nLobby video list file path\n"
+  example: []
+  syntax:
+    content: public string FileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FileName As String
+  overload: Funique.VideoListControllerBase.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControllerBase.IsFileChanged
+  commentId: P:Funique.VideoListControllerBase.IsFileChanged
+  id: IsFileChanged
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: IsFileChanged
+  nameWithType: VideoListControllerBase.IsFileChanged
+  fullName: Funique.VideoListControllerBase.IsFileChanged
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: IsFileChanged
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 64
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public bool IsFileChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFileChanged As Boolean
+  overload: Funique.VideoListControllerBase.IsFileChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControllerBase.elements
+  commentId: P:Funique.VideoListControllerBase.elements
+  id: elements
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: elements
+  nameWithType: VideoListControllerBase.elements
+  fullName: Funique.VideoListControllerBase.elements
+  type: Property
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: elements
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 74
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public Dictionary<VideoListControlElement, RectTransform> elements { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{Funique.VideoListControlElement,UnityEngine.RectTransform}
+    content.vb: Public ReadOnly Property elements As Dictionary(Of VideoListControlElement, RectTransform)
+  overload: Funique.VideoListControllerBase.elements*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.VideoListControllerBase.Start
+  commentId: M:Funique.VideoListControllerBase.Start
+  id: Start
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: VideoListControllerBase.Start()
+  fullName: Funique.VideoListControllerBase.Start()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Start
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 88
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: protected virtual void Start()
+    content.vb: Protected Overridable Sub Start
+  overload: Funique.VideoListControllerBase.Start*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.VideoListControllerBase.OnEnable
+  commentId: M:Funique.VideoListControllerBase.OnEnable
+  id: OnEnable
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: VideoListControllerBase.OnEnable()
+  fullName: Funique.VideoListControllerBase.OnEnable()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: OnEnable
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 106
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: protected virtual void OnEnable()
+    content.vb: Protected Overridable Sub OnEnable
+  overload: Funique.VideoListControllerBase.OnEnable*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.VideoListControllerBase.Update
+  commentId: M:Funique.VideoListControllerBase.Update
+  id: Update
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: VideoListControllerBase.Update()
+  fullName: Funique.VideoListControllerBase.Update()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Update
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 111
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: protected virtual void Update()
+    content.vb: Protected Overridable Sub Update
+  overload: Funique.VideoListControllerBase.Update*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.VideoListControllerBase.DeleteAllContentChildren
+  commentId: M:Funique.VideoListControllerBase.DeleteAllContentChildren
+  id: DeleteAllContentChildren
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllContentChildren()
+  nameWithType: VideoListControllerBase.DeleteAllContentChildren()
+  fullName: Funique.VideoListControllerBase.DeleteAllContentChildren()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DeleteAllContentChildren
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 118
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void DeleteAllContentChildren()
+    content.vb: Public Sub DeleteAllContentChildren
+  overload: Funique.VideoListControllerBase.DeleteAllContentChildren*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControllerBase.CreateNewField(System.String)
+  commentId: M:Funique.VideoListControllerBase.CreateNewField(System.String)
+  id: CreateNewField(System.String)
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: CreateNewField(String)
+  nameWithType: VideoListControllerBase.CreateNewField(String)
+  fullName: Funique.VideoListControllerBase.CreateNewField(System.String)
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CreateNewField
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 128
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public VideoListControlElement CreateNewField(string v)
+    parameters:
+    - id: v
+      type: System.String
+    return:
+      type: Funique.VideoListControlElement
+    content.vb: Public Function CreateNewField(v As String) As VideoListControlElement
+  overload: Funique.VideoListControllerBase.CreateNewField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.VideoListControllerBase.UpdateUILayout
+  commentId: M:Funique.VideoListControllerBase.UpdateUILayout
+  id: UpdateUILayout
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateUILayout()
+  nameWithType: VideoListControllerBase.UpdateUILayout()
+  fullName: Funique.VideoListControllerBase.UpdateUILayout()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: UpdateUILayout
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 143
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public virtual void UpdateUILayout()
+    content.vb: Public Overridable Sub UpdateUILayout
+  overload: Funique.VideoListControllerBase.UpdateUILayout*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.VideoListControllerBase.UpdateFile
+  commentId: M:Funique.VideoListControllerBase.UpdateFile
+  id: UpdateFile
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: UpdateFile()
+  nameWithType: VideoListControllerBase.UpdateFile()
+  fullName: Funique.VideoListControllerBase.UpdateFile()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: UpdateFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 155
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public virtual void UpdateFile()
+    content.vb: Public Overridable Sub UpdateFile
+  overload: Funique.VideoListControllerBase.UpdateFile*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.VideoListControllerBase.SaveToFile
+  commentId: M:Funique.VideoListControllerBase.SaveToFile
+  id: SaveToFile
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SaveToFile()
+  nameWithType: VideoListControllerBase.SaveToFile()
+  fullName: Funique.VideoListControllerBase.SaveToFile()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SaveToFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 160
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public virtual void SaveToFile()
+    content.vb: Public Overridable Sub SaveToFile
+  overload: Funique.VideoListControllerBase.SaveToFile*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.VideoListControllerBase.LoadFromFile
+  commentId: M:Funique.VideoListControllerBase.LoadFromFile
+  id: LoadFromFile
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: LoadFromFile()
+  nameWithType: VideoListControllerBase.LoadFromFile()
+  fullName: Funique.VideoListControllerBase.LoadFromFile()
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadFromFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 164
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public virtual void LoadFromFile()
+    content.vb: Public Overridable Sub LoadFromFile
+  overload: Funique.VideoListControllerBase.LoadFromFile*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.VideoListControllerBase.SpawnCinemaButton(System.Int32)
+  commentId: M:Funique.VideoListControllerBase.SpawnCinemaButton(System.Int32)
+  id: SpawnCinemaButton(System.Int32)
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SpawnCinemaButton(Int32)
+  nameWithType: VideoListControllerBase.SpawnCinemaButton(Int32)
+  fullName: Funique.VideoListControllerBase.SpawnCinemaButton(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SpawnCinemaButton
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 177
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: protected void SpawnCinemaButton(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+    content.vb: Protected Sub SpawnCinemaButton(count As Integer)
+  overload: Funique.VideoListControllerBase.SpawnCinemaButton*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.VideoListControllerBase.SetCurrentCinemaSelection(System.Int32)
+  commentId: M:Funique.VideoListControllerBase.SetCurrentCinemaSelection(System.Int32)
+  id: SetCurrentCinemaSelection(System.Int32)
+  parent: Funique.VideoListControllerBase
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentCinemaSelection(Int32)
+  nameWithType: VideoListControllerBase.SetCurrentCinemaSelection(Int32)
+  fullName: Funique.VideoListControllerBase.SetCurrentCinemaSelection(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/VideoListControllerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SetCurrentCinemaSelection
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/VideoListControllerBase.cs
+    startLine: 192
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: protected virtual void SetCurrentCinemaSelection(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Protected Overridable Sub SetCurrentCinemaSelection(index As Integer)
+  overload: Funique.VideoListControllerBase.SetCurrentCinemaSelection*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: UnityEngine.UI.ScrollRect
+  commentId: T:UnityEngine.UI.ScrollRect
+  parent: UnityEngine.UI
+  isExternal: true
+  name: ScrollRect
+  nameWithType: ScrollRect
+  fullName: UnityEngine.UI.ScrollRect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.VideoListControllerBase.Videos*
+  commentId: Overload:Funique.VideoListControllerBase.Videos
+  name: Videos
+  nameWithType: VideoListControllerBase.Videos
+  fullName: Funique.VideoListControllerBase.Videos
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.VideoListControllerBase.CinemaVideos*
+  commentId: Overload:Funique.VideoListControllerBase.CinemaVideos
+  name: CinemaVideos
+  nameWithType: VideoListControllerBase.CinemaVideos
+  fullName: Funique.VideoListControllerBase.CinemaVideos
+- uid: System.Collections.Generic.List{Funique.VideoInfo}
+  commentId: T:System.Collections.Generic.List{Funique.VideoInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<VideoInfo>
+  nameWithType: List<VideoInfo>
+  fullName: System.Collections.Generic.List<Funique.VideoInfo>
+  nameWithType.vb: List(Of VideoInfo)
+  fullName.vb: System.Collections.Generic.List(Of Funique.VideoInfo)
+  name.vb: List(Of VideoInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.VideoListControllerBase.Ref_VideoListElement*
+  commentId: Overload:Funique.VideoListControllerBase.Ref_VideoListElement
+  name: Ref_VideoListElement
+  nameWithType: VideoListControllerBase.Ref_VideoListElement
+  fullName: Funique.VideoListControllerBase.Ref_VideoListElement
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Funique.VideoListControllerBase.Ref_VideoListCinemaElement*
+  commentId: Overload:Funique.VideoListControllerBase.Ref_VideoListCinemaElement
+  name: Ref_VideoListCinemaElement
+  nameWithType: VideoListControllerBase.Ref_VideoListCinemaElement
+  fullName: Funique.VideoListControllerBase.Ref_VideoListCinemaElement
+- uid: Funique.VideoListControllerBase.FileName*
+  commentId: Overload:Funique.VideoListControllerBase.FileName
+  name: FileName
+  nameWithType: VideoListControllerBase.FileName
+  fullName: Funique.VideoListControllerBase.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.VideoListControllerBase.IsFileChanged*
+  commentId: Overload:Funique.VideoListControllerBase.IsFileChanged
+  name: IsFileChanged
+  nameWithType: VideoListControllerBase.IsFileChanged
+  fullName: Funique.VideoListControllerBase.IsFileChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.VideoListControllerBase.elements*
+  commentId: Overload:Funique.VideoListControllerBase.elements
+  name: elements
+  nameWithType: VideoListControllerBase.elements
+  fullName: Funique.VideoListControllerBase.elements
+- uid: System.Collections.Generic.Dictionary{Funique.VideoListControlElement,UnityEngine.RectTransform}
+  commentId: T:System.Collections.Generic.Dictionary{Funique.VideoListControlElement,UnityEngine.RectTransform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<VideoListControlElement, RectTransform>
+  nameWithType: Dictionary<VideoListControlElement, RectTransform>
+  fullName: System.Collections.Generic.Dictionary<Funique.VideoListControlElement, UnityEngine.RectTransform>
+  nameWithType.vb: Dictionary(Of VideoListControlElement, RectTransform)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Funique.VideoListControlElement, UnityEngine.RectTransform)
+  name.vb: Dictionary(Of VideoListControlElement, RectTransform)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoListControlElement
+    name: VideoListControlElement
+    nameWithType: VideoListControlElement
+    fullName: Funique.VideoListControlElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.RectTransform
+    name: RectTransform
+    nameWithType: RectTransform
+    fullName: UnityEngine.RectTransform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoListControlElement
+    name: VideoListControlElement
+    nameWithType: VideoListControlElement
+    fullName: Funique.VideoListControlElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.RectTransform
+    name: RectTransform
+    nameWithType: RectTransform
+    fullName: UnityEngine.RectTransform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.VideoListControllerBase.Start*
+  commentId: Overload:Funique.VideoListControllerBase.Start
+  name: Start
+  nameWithType: VideoListControllerBase.Start
+  fullName: Funique.VideoListControllerBase.Start
+- uid: Funique.VideoListControllerBase.OnEnable*
+  commentId: Overload:Funique.VideoListControllerBase.OnEnable
+  name: OnEnable
+  nameWithType: VideoListControllerBase.OnEnable
+  fullName: Funique.VideoListControllerBase.OnEnable
+- uid: Funique.VideoListControllerBase.Update*
+  commentId: Overload:Funique.VideoListControllerBase.Update
+  name: Update
+  nameWithType: VideoListControllerBase.Update
+  fullName: Funique.VideoListControllerBase.Update
+- uid: Funique.VideoListControllerBase.DeleteAllContentChildren*
+  commentId: Overload:Funique.VideoListControllerBase.DeleteAllContentChildren
+  name: DeleteAllContentChildren
+  nameWithType: VideoListControllerBase.DeleteAllContentChildren
+  fullName: Funique.VideoListControllerBase.DeleteAllContentChildren
+- uid: Funique.VideoListControllerBase.CreateNewField*
+  commentId: Overload:Funique.VideoListControllerBase.CreateNewField
+  name: CreateNewField
+  nameWithType: VideoListControllerBase.CreateNewField
+  fullName: Funique.VideoListControllerBase.CreateNewField
+- uid: Funique.VideoListControlElement
+  commentId: T:Funique.VideoListControlElement
+  parent: Funique
+  name: VideoListControlElement
+  nameWithType: VideoListControlElement
+  fullName: Funique.VideoListControlElement
+- uid: Funique.VideoListControllerBase.UpdateUILayout*
+  commentId: Overload:Funique.VideoListControllerBase.UpdateUILayout
+  name: UpdateUILayout
+  nameWithType: VideoListControllerBase.UpdateUILayout
+  fullName: Funique.VideoListControllerBase.UpdateUILayout
+- uid: Funique.VideoListControllerBase.UpdateFile*
+  commentId: Overload:Funique.VideoListControllerBase.UpdateFile
+  name: UpdateFile
+  nameWithType: VideoListControllerBase.UpdateFile
+  fullName: Funique.VideoListControllerBase.UpdateFile
+- uid: Funique.VideoListControllerBase.SaveToFile*
+  commentId: Overload:Funique.VideoListControllerBase.SaveToFile
+  name: SaveToFile
+  nameWithType: VideoListControllerBase.SaveToFile
+  fullName: Funique.VideoListControllerBase.SaveToFile
+- uid: Funique.VideoListControllerBase.LoadFromFile*
+  commentId: Overload:Funique.VideoListControllerBase.LoadFromFile
+  name: LoadFromFile
+  nameWithType: VideoListControllerBase.LoadFromFile
+  fullName: Funique.VideoListControllerBase.LoadFromFile
+- uid: Funique.VideoListControllerBase.SpawnCinemaButton*
+  commentId: Overload:Funique.VideoListControllerBase.SpawnCinemaButton
+  name: SpawnCinemaButton
+  nameWithType: VideoListControllerBase.SpawnCinemaButton
+  fullName: Funique.VideoListControllerBase.SpawnCinemaButton
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.VideoListControllerBase.SetCurrentCinemaSelection*
+  commentId: Overload:Funique.VideoListControllerBase.SetCurrentCinemaSelection
+  name: SetCurrentCinemaSelection
+  nameWithType: VideoListControllerBase.SetCurrentCinemaSelection
+  fullName: Funique.VideoListControllerBase.SetCurrentCinemaSelection

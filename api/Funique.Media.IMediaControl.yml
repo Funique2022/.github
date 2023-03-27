@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Media.IMediaControl
+  commentId: T:Funique.Media.IMediaControl
+  id: IMediaControl
+  parent: Funique.Media
+  children:
+  - Funique.Media.IMediaControl.CallPlayerPause
+  - Funique.Media.IMediaControl.CallPlayerPlay
+  - Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  - Funique.Media.IMediaControl.CallPlayerStop
+  langs:
+  - csharp
+  - vb
+  name: IMediaControl
+  nameWithType: IMediaControl
+  fullName: Funique.Media.IMediaControl
+  type: Interface
+  source:
+    remote:
+      path: Interface/IMediaControl.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: IMediaControl
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaControl.cs
+    startLine: 7
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nThe media control feature <br />\n------------------------------------------------ <br />\n媒體控制功能\n"
+  example: []
+  syntax:
+    content: public interface IMediaControl
+    content.vb: Public Interface IMediaControl
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Media.IMediaControl.CallPlayerPlay
+  commentId: M:Funique.Media.IMediaControl.CallPlayerPlay
+  id: CallPlayerPlay
+  parent: Funique.Media.IMediaControl
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerPlay()
+  nameWithType: IMediaControl.CallPlayerPlay()
+  fullName: Funique.Media.IMediaControl.CallPlayerPlay()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaControl.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaControl.cs
+    startLine: 14
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nTell clients to play <br />\n------------------------------------------------ <br />\n告訴客戶端開始播放\n"
+  example: []
+  syntax:
+    content: void CallPlayerPlay()
+    content.vb: Sub CallPlayerPlay
+  overload: Funique.Media.IMediaControl.CallPlayerPlay*
+- uid: Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  commentId: M:Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  id: CallPlayerPlay(System.String)
+  parent: Funique.Media.IMediaControl
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerPlay(String)
+  nameWithType: IMediaControl.CallPlayerPlay(String)
+  fullName: Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaControl.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaControl.cs
+    startLine: 18
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\n<inheritdoc cref=\"M:Funique.Media.IMediaControl.CallPlayerPlay\"></inheritdoc>\n"
+  example: []
+  syntax:
+    content: void CallPlayerPlay(string Playmode)
+    parameters:
+    - id: Playmode
+      type: System.String
+    content.vb: Sub CallPlayerPlay(Playmode As String)
+  overload: Funique.Media.IMediaControl.CallPlayerPlay*
+- uid: Funique.Media.IMediaControl.CallPlayerPause
+  commentId: M:Funique.Media.IMediaControl.CallPlayerPause
+  id: CallPlayerPause
+  parent: Funique.Media.IMediaControl
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerPause()
+  nameWithType: IMediaControl.CallPlayerPause()
+  fullName: Funique.Media.IMediaControl.CallPlayerPause()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaControl.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerPause
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaControl.cs
+    startLine: 24
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nTell clients to pause <br />\n------------------------------------------------ <br />\n告訴客戶端暫停播放\n"
+  example: []
+  syntax:
+    content: void CallPlayerPause()
+    content.vb: Sub CallPlayerPause
+  overload: Funique.Media.IMediaControl.CallPlayerPause*
+- uid: Funique.Media.IMediaControl.CallPlayerStop
+  commentId: M:Funique.Media.IMediaControl.CallPlayerStop
+  id: CallPlayerStop
+  parent: Funique.Media.IMediaControl
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerStop()
+  nameWithType: IMediaControl.CallPlayerStop()
+  fullName: Funique.Media.IMediaControl.CallPlayerStop()
+  type: Method
+  source:
+    remote:
+      path: Interface/IMediaControl.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerStop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaControl.cs
+    startLine: 30
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  summary: "\nTell clients to stop <br />\n------------------------------------------------ <br />\n告訴客戶端停止播放\n"
+  example: []
+  syntax:
+    content: void CallPlayerStop()
+    content.vb: Sub CallPlayerStop
+  overload: Funique.Media.IMediaControl.CallPlayerStop*
+references:
+- uid: Funique.Media
+  commentId: N:Funique.Media
+  name: Funique.Media
+  nameWithType: Funique.Media
+  fullName: Funique.Media
+- uid: Funique.Media.IMediaControl.CallPlayerPlay*
+  commentId: Overload:Funique.Media.IMediaControl.CallPlayerPlay
+  name: CallPlayerPlay
+  nameWithType: IMediaControl.CallPlayerPlay
+  fullName: Funique.Media.IMediaControl.CallPlayerPlay
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Media.IMediaControl.CallPlayerPause*
+  commentId: Overload:Funique.Media.IMediaControl.CallPlayerPause
+  name: CallPlayerPause
+  nameWithType: IMediaControl.CallPlayerPause
+  fullName: Funique.Media.IMediaControl.CallPlayerPause
+- uid: Funique.Media.IMediaControl.CallPlayerStop*
+  commentId: Overload:Funique.Media.IMediaControl.CallPlayerStop
+  name: CallPlayerStop
+  nameWithType: IMediaControl.CallPlayerStop
+  fullName: Funique.Media.IMediaControl.CallPlayerStop

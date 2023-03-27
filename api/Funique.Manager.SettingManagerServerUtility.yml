@@ -1,0 +1,2278 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.SettingManagerServerUtility
+  commentId: T:Funique.Manager.SettingManagerServerUtility
+  id: SettingManagerServerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.SettingManagerServerUtility.BatterState
+  - Funique.Manager.SettingManagerServerUtility.CinemaFileName(System.Int32)
+  - Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath
+  - Funique.Manager.SettingManagerServerUtility.Controller
+  - Funique.Manager.SettingManagerServerUtility.GetPlayerNickName(System.String)
+  - Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList(System.Int32)
+  - Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName
+  - Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName
+  - Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo
+  - Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo(System.String)
+  - Funique.Manager.SettingManagerServerUtility.PlayerNameFile
+  - Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName
+  - Funique.Manager.SettingManagerServerUtility.PlayerSavePath
+  - Funique.Manager.SettingManagerServerUtility.playerSortName
+  - Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile
+  - Funique.Manager.SettingManagerServerUtility.RemoveNicknName(System.Predicate{Funique.SavedPlayerName})
+  - Funique.Manager.SettingManagerServerUtility.ReplaceNickName(System.Predicate{Funique.SavedPlayerName},System.String)
+  - Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  - Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  - Funique.Manager.SettingManagerServerUtility.SavedPlayerNameList
+  - Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  - Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  - Funique.Manager.SettingManagerServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SettingManagerServerUtility
+  nameWithType: SettingManagerServerUtility
+  fullName: Funique.Manager.SettingManagerServerUtility
+  type: Class
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SettingManagerServerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 9
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: 'public class SettingManagerServerUtility : ManagerBase<SettingManagerServerData>, IDisposable, ISettingServerUtility'
+    content.vb: >-
+      Public Class SettingManagerServerUtility
+
+          Inherits ManagerBase(Of SettingManagerServerData)
+
+          Implements IDisposable, ISettingServerUtility
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}
+  implements:
+  - System.IDisposable
+  - Funique.Setting.ISettingServerUtility
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.config
+  - Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.RegisterConfig(Funique.Setting.SettingManagerServerData)
+  - Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.Loaded(Funique.Setting.SettingManagerServerData)
+  - Funique.Manager.ManagerBase.Initialization
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.SettingManagerServerUtility.SavedPlayerNameList
+  commentId: F:Funique.Manager.SettingManagerServerUtility.SavedPlayerNameList
+  id: SavedPlayerNameList
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavedPlayerNameList
+  nameWithType: SettingManagerServerUtility.SavedPlayerNameList
+  fullName: Funique.Manager.SettingManagerServerUtility.SavedPlayerNameList
+  type: Field
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavedPlayerNameList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 13
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: protected SavedPlayerName[] SavedPlayerNameList
+    return:
+      type: Funique.SavedPlayerName[]
+    content.vb: Protected SavedPlayerNameList As SavedPlayerName()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.SettingManagerServerUtility.Controller
+  commentId: P:Funique.Manager.SettingManagerServerUtility.Controller
+  id: Controller
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: SettingManagerServerUtility.Controller
+  fullName: Funique.Manager.SettingManagerServerUtility.Controller
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Controller
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 18
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public SettingControllerBase Controller { get; }
+    parameters: []
+    return:
+      type: Funique.SettingControllerBase
+    content.vb: Public ReadOnly Property Controller As SettingControllerBase
+  overload: Funique.Manager.SettingManagerServerUtility.Controller*
+  implements:
+  - Funique.Setting.ISettingServerUtility.Controller
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath
+  commentId: P:Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath
+  id: CinemaPlayListPath
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CinemaPlayListPath
+  nameWithType: SettingManagerServerUtility.CinemaPlayListPath
+  fullName: Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CinemaPlayListPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 19
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string CinemaPlayListPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CinemaPlayListPath As String
+  overload: Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath*
+  implements:
+  - Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerSavePath
+  commentId: P:Funique.Manager.SettingManagerServerUtility.PlayerSavePath
+  id: PlayerSavePath
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerSavePath
+  nameWithType: SettingManagerServerUtility.PlayerSavePath
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerSavePath
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlayerSavePath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 20
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string PlayerSavePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PlayerSavePath As String
+  overload: Funique.Manager.SettingManagerServerUtility.PlayerSavePath*
+  implements:
+  - Funique.Setting.ISettingServerUtility.PlayerSavePath
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName
+  commentId: P:Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName
+  id: PlayerSaveFileName
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerSaveFileName
+  nameWithType: SettingManagerServerUtility.PlayerSaveFileName
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlayerSaveFileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 21
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string PlayerSaveFileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PlayerSaveFileName As String
+  overload: Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName*
+  implements:
+  - Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.SettingManagerServerUtility.playerSortName
+  commentId: P:Funique.Manager.SettingManagerServerUtility.playerSortName
+  id: playerSortName
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: playerSortName
+  nameWithType: SettingManagerServerUtility.playerSortName
+  fullName: Funique.Manager.SettingManagerServerUtility.playerSortName
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: playerSortName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 22
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string playerSortName { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property playerSortName As String
+  overload: Funique.Manager.SettingManagerServerUtility.playerSortName*
+  implements:
+  - Funique.Setting.ISettingServerUtility.playerSortName
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Manager.SettingManagerServerUtility.BatterState
+  commentId: P:Funique.Manager.SettingManagerServerUtility.BatterState
+  id: BatterState
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: BatterState
+  nameWithType: SettingManagerServerUtility.BatterState
+  fullName: Funique.Manager.SettingManagerServerUtility.BatterState
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: BatterState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 23
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public bool BatterState { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BatterState As Boolean
+  overload: Funique.Manager.SettingManagerServerUtility.BatterState*
+  implements:
+  - Funique.Setting.ISettingServerUtility.BatterState
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile
+  commentId: P:Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile
+  id: PlayerSortNameFile
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerSortNameFile
+  nameWithType: SettingManagerServerUtility.PlayerSortNameFile
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlayerSortNameFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 24
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string PlayerSortNameFile { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PlayerSortNameFile As String
+  overload: Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerNameFile
+  commentId: P:Funique.Manager.SettingManagerServerUtility.PlayerNameFile
+  id: PlayerNameFile
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerNameFile
+  nameWithType: SettingManagerServerUtility.PlayerNameFile
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerNameFile
+  type: Property
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlayerNameFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 25
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string PlayerNameFile { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PlayerNameFile As String
+  overload: Funique.Manager.SettingManagerServerUtility.PlayerNameFile*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  commentId: M:Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  id: SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavePlayer(List<PlayerInformation>)
+  nameWithType: SettingManagerServerUtility.SavePlayer(List<PlayerInformation>)
+  fullName: Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List<Funique.PlayerInformation>)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavePlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 30
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public void SavePlayer(List<PlayerInformation> data)
+    parameters:
+    - id: data
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+    content.vb: Public Sub SavePlayer(data As List(Of PlayerInformation))
+  overload: Funique.Manager.SettingManagerServerUtility.SavePlayer*
+  implements:
+  - Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  nameWithType.vb: SettingManagerServerUtility.SavePlayer(List(Of PlayerInformation))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List(Of Funique.PlayerInformation))
+  name.vb: SavePlayer(List(Of PlayerInformation))
+- uid: Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  id: SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavePlayer(List<PlayerInformation>, String)
+  nameWithType: SettingManagerServerUtility.SavePlayer(List<PlayerInformation>, String)
+  fullName: Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List<Funique.PlayerInformation>, System.String)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavePlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 34
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public void SavePlayer(List<PlayerInformation> data, string path)
+    parameters:
+    - id: data
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+    - id: path
+      type: System.String
+    content.vb: Public Sub SavePlayer(data As List(Of PlayerInformation), path As String)
+  overload: Funique.Manager.SettingManagerServerUtility.SavePlayer*
+  implements:
+  - Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  nameWithType.vb: SettingManagerServerUtility.SavePlayer(List(Of PlayerInformation), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Funique.Manager.SettingManagerServerUtility.SavePlayer(System.Collections.Generic.List(Of Funique.PlayerInformation), System.String)
+  name.vb: SavePlayer(List(Of PlayerInformation), String)
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo
+  commentId: M:Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo
+  id: LoadPlayerToinfo
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadPlayerToinfo()
+  nameWithType: SettingManagerServerUtility.LoadPlayerToinfo()
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo()
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadPlayerToinfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 38
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public List<PlayerInformation> LoadPlayerToinfo()
+    return:
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+    content.vb: Public Function LoadPlayerToinfo As List(Of PlayerInformation)
+  overload: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo*
+  implements:
+  - Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo(System.String)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo(System.String)
+  id: LoadPlayerToinfo(System.String)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadPlayerToinfo(String)
+  nameWithType: SettingManagerServerUtility.LoadPlayerToinfo(String)
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo(System.String)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadPlayerToinfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 42
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public List<PlayerInformation> LoadPlayerToinfo(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+    content.vb: Public Function LoadPlayerToinfo(path As String) As List(Of PlayerInformation)
+  overload: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo*
+  implements:
+  - Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  id: SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SaveCinemaPlayList(List<VideoInfo>, Int32)
+  nameWithType: SettingManagerServerUtility.SaveCinemaPlayList(List<VideoInfo>, Int32)
+  fullName: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List<Funique.VideoInfo>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SaveCinemaPlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 55
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public void SaveCinemaPlayList(List<VideoInfo> infos, int index)
+    parameters:
+    - id: infos
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SaveCinemaPlayList(infos As List(Of VideoInfo), index As Integer)
+  overload: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList*
+  implements:
+  - Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  nameWithType.vb: SettingManagerServerUtility.SaveCinemaPlayList(List(Of VideoInfo), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List(Of Funique.VideoInfo), System.Int32)
+  name.vb: SaveCinemaPlayList(List(Of VideoInfo), Int32)
+- uid: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  id: SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SaveCinemaPlayList(List<VideoInfo>, Int32, String)
+  nameWithType: SettingManagerServerUtility.SaveCinemaPlayList(List<VideoInfo>, Int32, String)
+  fullName: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List<Funique.VideoInfo>, System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SaveCinemaPlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 60
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public void SaveCinemaPlayList(List<VideoInfo> infos, int index, string path)
+    parameters:
+    - id: infos
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    - id: index
+      type: System.Int32
+    - id: path
+      type: System.String
+    content.vb: Public Sub SaveCinemaPlayList(infos As List(Of VideoInfo), index As Integer, path As String)
+  overload: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList*
+  implements:
+  - Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  nameWithType.vb: SettingManagerServerUtility.SaveCinemaPlayList(List(Of VideoInfo), Int32, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList(System.Collections.Generic.List(Of Funique.VideoInfo), System.Int32, System.String)
+  name.vb: SaveCinemaPlayList(List(Of VideoInfo), Int32, String)
+- uid: Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList(System.Int32)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList(System.Int32)
+  id: LoadCinemaPlayerList(System.Int32)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadCinemaPlayerList(Int32)
+  nameWithType: SettingManagerServerUtility.LoadCinemaPlayerList(Int32)
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadCinemaPlayerList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 64
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public List<VideoInfo> LoadCinemaPlayerList(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    content.vb: Public Function LoadCinemaPlayerList(index As Integer) As List(Of VideoInfo)
+  overload: Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList*
+  implements:
+  - Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.SettingManagerServerUtility.CinemaFileName(System.Int32)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.CinemaFileName(System.Int32)
+  id: CinemaFileName(System.Int32)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CinemaFileName(Int32)
+  nameWithType: SettingManagerServerUtility.CinemaFileName(Int32)
+  fullName: Funique.Manager.SettingManagerServerUtility.CinemaFileName(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CinemaFileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 70
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public string CinemaFileName(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function CinemaFileName(index As Integer) As String
+  overload: Funique.Manager.SettingManagerServerUtility.CinemaFileName*
+  implements:
+  - Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.SettingManagerServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  id: SavePlayerNickName(Funique.PlayerInformation,System.String)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavePlayerNickName(PlayerInformation, String)
+  nameWithType: SettingManagerServerUtility.SavePlayerNickName(PlayerInformation, String)
+  fullName: Funique.Manager.SettingManagerServerUtility.SavePlayerNickName(Funique.PlayerInformation, System.String)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavePlayerNickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 74
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  syntax:
+    content: public void SavePlayerNickName(PlayerInformation info, string context)
+    parameters:
+    - id: info
+      type: Funique.PlayerInformation
+    - id: context
+      type: System.String
+    content.vb: Public Sub SavePlayerNickName(info As PlayerInformation, context As String)
+  overload: Funique.Manager.SettingManagerServerUtility.SavePlayerNickName*
+  implements:
+  - Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.SettingManagerServerUtility.ReplaceNickName(System.Predicate{Funique.SavedPlayerName},System.String)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.ReplaceNickName(System.Predicate{Funique.SavedPlayerName},System.String)
+  id: ReplaceNickName(System.Predicate{Funique.SavedPlayerName},System.String)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNickName(Predicate<SavedPlayerName>, String)
+  nameWithType: SettingManagerServerUtility.ReplaceNickName(Predicate<SavedPlayerName>, String)
+  fullName: Funique.Manager.SettingManagerServerUtility.ReplaceNickName(System.Predicate<Funique.SavedPlayerName>, System.String)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: ReplaceNickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 101
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  summary: "\nReplace save client nickname <br />\n------------------------------------------------ <br />\n"
+  example: []
+  syntax:
+    content: protected bool ReplaceNickName(Predicate<SavedPlayerName> match, string nickname)
+    parameters:
+    - id: match
+      type: System.Predicate{Funique.SavedPlayerName}
+    - id: nickname
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Protected Function ReplaceNickName(match As Predicate(Of SavedPlayerName), nickname As String) As Boolean
+  overload: Funique.Manager.SettingManagerServerUtility.ReplaceNickName*
+  nameWithType.vb: SettingManagerServerUtility.ReplaceNickName(Predicate(Of SavedPlayerName), String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Funique.Manager.SettingManagerServerUtility.ReplaceNickName(System.Predicate(Of Funique.SavedPlayerName), System.String)
+  name.vb: ReplaceNickName(Predicate(Of SavedPlayerName), String)
+- uid: Funique.Manager.SettingManagerServerUtility.RemoveNicknName(System.Predicate{Funique.SavedPlayerName})
+  commentId: M:Funique.Manager.SettingManagerServerUtility.RemoveNicknName(System.Predicate{Funique.SavedPlayerName})
+  id: RemoveNicknName(System.Predicate{Funique.SavedPlayerName})
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: RemoveNicknName(Predicate<SavedPlayerName>)
+  nameWithType: SettingManagerServerUtility.RemoveNicknName(Predicate<SavedPlayerName>)
+  fullName: Funique.Manager.SettingManagerServerUtility.RemoveNicknName(System.Predicate<Funique.SavedPlayerName>)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: RemoveNicknName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 117
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  summary: "\nRemove save client name <br />\n------------------------------------------------ <br />\n"
+  example: []
+  syntax:
+    content: protected bool RemoveNicknName(Predicate<SavedPlayerName> match)
+    parameters:
+    - id: match
+      type: System.Predicate{Funique.SavedPlayerName}
+    return:
+      type: System.Boolean
+    content.vb: Protected Function RemoveNicknName(match As Predicate(Of SavedPlayerName)) As Boolean
+  overload: Funique.Manager.SettingManagerServerUtility.RemoveNicknName*
+  nameWithType.vb: SettingManagerServerUtility.RemoveNicknName(Predicate(Of SavedPlayerName))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Funique.Manager.SettingManagerServerUtility.RemoveNicknName(System.Predicate(Of Funique.SavedPlayerName))
+  name.vb: RemoveNicknName(Predicate(Of SavedPlayerName))
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName
+  commentId: M:Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName
+  id: LoadPlayerSortName
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadPlayerSortName()
+  nameWithType: SettingManagerServerUtility.LoadPlayerSortName()
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName()
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadPlayerSortName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 128
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  summary: "\nLoad sorting name\n"
+  example: []
+  syntax:
+    content: protected void LoadPlayerSortName()
+    content.vb: Protected Sub LoadPlayerSortName
+  overload: Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName
+  commentId: M:Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName
+  id: LoadPlayerNickName
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadPlayerNickName()
+  nameWithType: SettingManagerServerUtility.LoadPlayerNickName()
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName()
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadPlayerNickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 136
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  summary: "\nLoad sorting clients nickname\n"
+  example: []
+  syntax:
+    content: protected void LoadPlayerNickName()
+    content.vb: Protected Sub LoadPlayerNickName
+  overload: Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.SettingManagerServerUtility.GetPlayerNickName(System.String)
+  commentId: M:Funique.Manager.SettingManagerServerUtility.GetPlayerNickName(System.String)
+  id: GetPlayerNickName(System.String)
+  parent: Funique.Manager.SettingManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: GetPlayerNickName(String)
+  nameWithType: SettingManagerServerUtility.GetPlayerNickName(String)
+  fullName: Funique.Manager.SettingManagerServerUtility.GetPlayerNickName(System.String)
+  type: Method
+  source:
+    remote:
+      path: SettingManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: GetPlayerNickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/SettingManagerServerUtility.cs
+    startLine: 146
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Manager
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string GetPlayerNickName(string hostName)
+    parameters:
+    - id: hostName
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetPlayerNickName(hostName As String) As String
+  overload: Funique.Manager.SettingManagerServerUtility.GetPlayerNickName*
+  implements:
+  - Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<SettingManagerServerData>
+  nameWithType: ManagerBase<SettingManagerServerData>
+  fullName: Funique.Manager.ManagerBase<Funique.Setting.SettingManagerServerData>
+  nameWithType.vb: ManagerBase(Of SettingManagerServerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Setting.SettingManagerServerData)
+  name.vb: ManagerBase(Of SettingManagerServerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Setting.SettingManagerServerData
+    name: SettingManagerServerData
+    nameWithType: SettingManagerServerData
+    fullName: Funique.Setting.SettingManagerServerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Setting.SettingManagerServerData
+    name: SettingManagerServerData
+    nameWithType: SettingManagerServerData
+    fullName: Funique.Setting.SettingManagerServerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Setting.ISettingServerUtility
+  commentId: T:Funique.Setting.ISettingServerUtility
+  parent: Funique.Setting
+  name: ISettingServerUtility
+  nameWithType: ISettingServerUtility
+  fullName: Funique.Setting.ISettingServerUtility
+- uid: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<SettingManagerServerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Setting.SettingManagerServerData>.config
+  nameWithType.vb: ManagerBase(Of SettingManagerServerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Setting.SettingManagerServerData).config
+- uid: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.RegisterConfig(Funique.Setting.SettingManagerServerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.RegisterConfig(Funique.Setting.SettingManagerServerData)
+  parent: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(SettingManagerServerData)
+  nameWithType: ManagerBase<SettingManagerServerData>.RegisterConfig(SettingManagerServerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Setting.SettingManagerServerData>.RegisterConfig(Funique.Setting.SettingManagerServerData)
+  nameWithType.vb: ManagerBase(Of SettingManagerServerData).RegisterConfig(SettingManagerServerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Setting.SettingManagerServerData).RegisterConfig(Funique.Setting.SettingManagerServerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<SettingManagerServerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Setting.SettingManagerServerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Setting.SettingManagerServerData
+    name: SettingManagerServerData
+    nameWithType: SettingManagerServerData
+    fullName: Funique.Setting.SettingManagerServerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of SettingManagerServerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Setting.SettingManagerServerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Setting.SettingManagerServerData
+    name: SettingManagerServerData
+    nameWithType: SettingManagerServerData
+    fullName: Funique.Setting.SettingManagerServerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.Loaded(Funique.Setting.SettingManagerServerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}.Loaded(Funique.Setting.SettingManagerServerData)
+  parent: Funique.Manager.ManagerBase{Funique.Setting.SettingManagerServerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(SettingManagerServerData)
+  nameWithType: ManagerBase<SettingManagerServerData>.Loaded(SettingManagerServerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Setting.SettingManagerServerData>.Loaded(Funique.Setting.SettingManagerServerData)
+  nameWithType.vb: ManagerBase(Of SettingManagerServerData).Loaded(SettingManagerServerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Setting.SettingManagerServerData).Loaded(Funique.Setting.SettingManagerServerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<SettingManagerServerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Setting.SettingManagerServerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Setting.SettingManagerServerData
+    name: SettingManagerServerData
+    nameWithType: SettingManagerServerData
+    fullName: Funique.Setting.SettingManagerServerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of SettingManagerServerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Setting.SettingManagerServerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Setting.SettingManagerServerData
+    name: SettingManagerServerData
+    nameWithType: SettingManagerServerData
+    fullName: Funique.Setting.SettingManagerServerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Setting
+  commentId: N:Funique.Setting
+  name: Funique.Setting
+  nameWithType: Funique.Setting
+  fullName: Funique.Setting
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.SavedPlayerName[]
+  isExternal: true
+  name: SavedPlayerName[]
+  nameWithType: SavedPlayerName[]
+  fullName: Funique.SavedPlayerName[]
+  nameWithType.vb: SavedPlayerName()
+  fullName.vb: Funique.SavedPlayerName()
+  name.vb: SavedPlayerName()
+  spec.csharp:
+  - uid: Funique.SavedPlayerName
+    name: SavedPlayerName
+    nameWithType: SavedPlayerName
+    fullName: Funique.SavedPlayerName
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Funique.SavedPlayerName
+    name: SavedPlayerName
+    nameWithType: SavedPlayerName
+    fullName: Funique.SavedPlayerName
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Funique.Manager.SettingManagerServerUtility.Controller*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.Controller
+  name: Controller
+  nameWithType: SettingManagerServerUtility.Controller
+  fullName: Funique.Manager.SettingManagerServerUtility.Controller
+- uid: Funique.Setting.ISettingServerUtility.Controller
+  commentId: P:Funique.Setting.ISettingServerUtility.Controller
+  parent: Funique.Setting.ISettingServerUtility
+  name: Controller
+  nameWithType: ISettingServerUtility.Controller
+  fullName: Funique.Setting.ISettingServerUtility.Controller
+- uid: Funique.SettingControllerBase
+  commentId: T:Funique.SettingControllerBase
+  parent: Funique
+  name: SettingControllerBase
+  nameWithType: SettingControllerBase
+  fullName: Funique.SettingControllerBase
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath
+  name: CinemaPlayListPath
+  nameWithType: SettingManagerServerUtility.CinemaPlayListPath
+  fullName: Funique.Manager.SettingManagerServerUtility.CinemaPlayListPath
+- uid: Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  commentId: P:Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  parent: Funique.Setting.ISettingServerUtility
+  name: CinemaPlayListPath
+  nameWithType: ISettingServerUtility.CinemaPlayListPath
+  fullName: Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerSavePath*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.PlayerSavePath
+  name: PlayerSavePath
+  nameWithType: SettingManagerServerUtility.PlayerSavePath
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerSavePath
+- uid: Funique.Setting.ISettingServerUtility.PlayerSavePath
+  commentId: P:Funique.Setting.ISettingServerUtility.PlayerSavePath
+  parent: Funique.Setting.ISettingServerUtility
+  name: PlayerSavePath
+  nameWithType: ISettingServerUtility.PlayerSavePath
+  fullName: Funique.Setting.ISettingServerUtility.PlayerSavePath
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName
+  name: PlayerSaveFileName
+  nameWithType: SettingManagerServerUtility.PlayerSaveFileName
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerSaveFileName
+- uid: Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  commentId: P:Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  parent: Funique.Setting.ISettingServerUtility
+  name: PlayerSaveFileName
+  nameWithType: ISettingServerUtility.PlayerSaveFileName
+  fullName: Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+- uid: Funique.Manager.SettingManagerServerUtility.playerSortName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.playerSortName
+  name: playerSortName
+  nameWithType: SettingManagerServerUtility.playerSortName
+  fullName: Funique.Manager.SettingManagerServerUtility.playerSortName
+- uid: Funique.Setting.ISettingServerUtility.playerSortName
+  commentId: P:Funique.Setting.ISettingServerUtility.playerSortName
+  parent: Funique.Setting.ISettingServerUtility
+  name: playerSortName
+  nameWithType: ISettingServerUtility.playerSortName
+  fullName: Funique.Setting.ISettingServerUtility.playerSortName
+- uid: Funique.Manager.SettingManagerServerUtility.BatterState*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.BatterState
+  name: BatterState
+  nameWithType: SettingManagerServerUtility.BatterState
+  fullName: Funique.Manager.SettingManagerServerUtility.BatterState
+- uid: Funique.Setting.ISettingServerUtility.BatterState
+  commentId: P:Funique.Setting.ISettingServerUtility.BatterState
+  parent: Funique.Setting.ISettingServerUtility
+  name: BatterState
+  nameWithType: ISettingServerUtility.BatterState
+  fullName: Funique.Setting.ISettingServerUtility.BatterState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile
+  name: PlayerSortNameFile
+  nameWithType: SettingManagerServerUtility.PlayerSortNameFile
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerSortNameFile
+- uid: Funique.Manager.SettingManagerServerUtility.PlayerNameFile*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.PlayerNameFile
+  name: PlayerNameFile
+  nameWithType: SettingManagerServerUtility.PlayerNameFile
+  fullName: Funique.Manager.SettingManagerServerUtility.PlayerNameFile
+- uid: Funique.Manager.SettingManagerServerUtility.SavePlayer*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.SavePlayer
+  name: SavePlayer
+  nameWithType: SettingManagerServerUtility.SavePlayer
+  fullName: Funique.Manager.SettingManagerServerUtility.SavePlayer
+- uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  commentId: M:Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: SavePlayer(List<PlayerInformation>)
+  nameWithType: ISettingServerUtility.SavePlayer(List<PlayerInformation>)
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List<Funique.PlayerInformation>)
+  nameWithType.vb: ISettingServerUtility.SavePlayer(List(Of PlayerInformation))
+  fullName.vb: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List(Of Funique.PlayerInformation))
+  name.vb: SavePlayer(List(Of PlayerInformation))
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+    name: SavePlayer
+    nameWithType: ISettingServerUtility.SavePlayer
+    fullName: Funique.Setting.ISettingServerUtility.SavePlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+    name: SavePlayer
+    nameWithType: ISettingServerUtility.SavePlayer
+    fullName: Funique.Setting.ISettingServerUtility.SavePlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Funique.PlayerInformation}
+  commentId: T:System.Collections.Generic.List{Funique.PlayerInformation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PlayerInformation>
+  nameWithType: List<PlayerInformation>
+  fullName: System.Collections.Generic.List<Funique.PlayerInformation>
+  nameWithType.vb: List(Of PlayerInformation)
+  fullName.vb: System.Collections.Generic.List(Of Funique.PlayerInformation)
+  name.vb: List(Of PlayerInformation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: SavePlayer(List<PlayerInformation>, String)
+  nameWithType: ISettingServerUtility.SavePlayer(List<PlayerInformation>, String)
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List<Funique.PlayerInformation>, System.String)
+  nameWithType.vb: ISettingServerUtility.SavePlayer(List(Of PlayerInformation), String)
+  fullName.vb: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List(Of Funique.PlayerInformation), System.String)
+  name.vb: SavePlayer(List(Of PlayerInformation), String)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+    name: SavePlayer
+    nameWithType: ISettingServerUtility.SavePlayer
+    fullName: Funique.Setting.ISettingServerUtility.SavePlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+    name: SavePlayer
+    nameWithType: ISettingServerUtility.SavePlayer
+    fullName: Funique.Setting.ISettingServerUtility.SavePlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo
+  name: LoadPlayerToinfo
+  nameWithType: SettingManagerServerUtility.LoadPlayerToinfo
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerToinfo
+- uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  commentId: M:Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  parent: Funique.Setting.ISettingServerUtility
+  name: LoadPlayerToinfo()
+  nameWithType: ISettingServerUtility.LoadPlayerToinfo()
+  fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo()
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+    name: LoadPlayerToinfo
+    nameWithType: ISettingServerUtility.LoadPlayerToinfo
+    fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+    name: LoadPlayerToinfo
+    nameWithType: ISettingServerUtility.LoadPlayerToinfo
+    fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: LoadPlayerToinfo(String)
+  nameWithType: ISettingServerUtility.LoadPlayerToinfo(String)
+  fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+    name: LoadPlayerToinfo
+    nameWithType: ISettingServerUtility.LoadPlayerToinfo
+    fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+    name: LoadPlayerToinfo
+    nameWithType: ISettingServerUtility.LoadPlayerToinfo
+    fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList
+  name: SaveCinemaPlayList
+  nameWithType: SettingManagerServerUtility.SaveCinemaPlayList
+  fullName: Funique.Manager.SettingManagerServerUtility.SaveCinemaPlayList
+- uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  commentId: M:Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: SaveCinemaPlayList(List<VideoInfo>, Int32)
+  nameWithType: ISettingServerUtility.SaveCinemaPlayList(List<VideoInfo>, Int32)
+  fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List<Funique.VideoInfo>, System.Int32)
+  nameWithType.vb: ISettingServerUtility.SaveCinemaPlayList(List(Of VideoInfo), Int32)
+  fullName.vb: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List(Of Funique.VideoInfo), System.Int32)
+  name.vb: SaveCinemaPlayList(List(Of VideoInfo), Int32)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+    name: SaveCinemaPlayList
+    nameWithType: ISettingServerUtility.SaveCinemaPlayList
+    fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+    name: SaveCinemaPlayList
+    nameWithType: ISettingServerUtility.SaveCinemaPlayList
+    fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Funique.VideoInfo}
+  commentId: T:System.Collections.Generic.List{Funique.VideoInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<VideoInfo>
+  nameWithType: List<VideoInfo>
+  fullName: System.Collections.Generic.List<Funique.VideoInfo>
+  nameWithType.vb: List(Of VideoInfo)
+  fullName.vb: System.Collections.Generic.List(Of Funique.VideoInfo)
+  name.vb: List(Of VideoInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: SaveCinemaPlayList(List<VideoInfo>, Int32, String)
+  nameWithType: ISettingServerUtility.SaveCinemaPlayList(List<VideoInfo>, Int32, String)
+  fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List<Funique.VideoInfo>, System.Int32, System.String)
+  nameWithType.vb: ISettingServerUtility.SaveCinemaPlayList(List(Of VideoInfo), Int32, String)
+  fullName.vb: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List(Of Funique.VideoInfo), System.Int32, System.String)
+  name.vb: SaveCinemaPlayList(List(Of VideoInfo), Int32, String)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+    name: SaveCinemaPlayList
+    nameWithType: ISettingServerUtility.SaveCinemaPlayList
+    fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+    name: SaveCinemaPlayList
+    nameWithType: ISettingServerUtility.SaveCinemaPlayList
+    fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList
+  name: LoadCinemaPlayerList
+  nameWithType: SettingManagerServerUtility.LoadCinemaPlayerList
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadCinemaPlayerList
+- uid: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  commentId: M:Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: LoadCinemaPlayerList(Int32)
+  nameWithType: ISettingServerUtility.LoadCinemaPlayerList(Int32)
+  fullName: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+    name: LoadCinemaPlayerList
+    nameWithType: ISettingServerUtility.LoadCinemaPlayerList
+    fullName: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+    name: LoadCinemaPlayerList
+    nameWithType: ISettingServerUtility.LoadCinemaPlayerList
+    fullName: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.SettingManagerServerUtility.CinemaFileName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.CinemaFileName
+  name: CinemaFileName
+  nameWithType: SettingManagerServerUtility.CinemaFileName
+  fullName: Funique.Manager.SettingManagerServerUtility.CinemaFileName
+- uid: Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  commentId: M:Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: CinemaFileName(Int32)
+  nameWithType: ISettingServerUtility.CinemaFileName(Int32)
+  fullName: Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+    name: CinemaFileName
+    nameWithType: ISettingServerUtility.CinemaFileName
+    fullName: Funique.Setting.ISettingServerUtility.CinemaFileName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+    name: CinemaFileName
+    nameWithType: ISettingServerUtility.CinemaFileName
+    fullName: Funique.Setting.ISettingServerUtility.CinemaFileName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.SettingManagerServerUtility.SavePlayerNickName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.SavePlayerNickName
+  name: SavePlayerNickName
+  nameWithType: SettingManagerServerUtility.SavePlayerNickName
+  fullName: Funique.Manager.SettingManagerServerUtility.SavePlayerNickName
+- uid: Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: SavePlayerNickName(PlayerInformation, String)
+  nameWithType: ISettingServerUtility.SavePlayerNickName(PlayerInformation, String)
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation, System.String)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+    name: SavePlayerNickName
+    nameWithType: ISettingServerUtility.SavePlayerNickName
+    fullName: Funique.Setting.ISettingServerUtility.SavePlayerNickName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+    name: SavePlayerNickName
+    nameWithType: ISettingServerUtility.SavePlayerNickName
+    fullName: Funique.Setting.ISettingServerUtility.SavePlayerNickName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.PlayerInformation
+  commentId: T:Funique.PlayerInformation
+  parent: Funique
+  name: PlayerInformation
+  nameWithType: PlayerInformation
+  fullName: Funique.PlayerInformation
+- uid: Funique.Manager.SettingManagerServerUtility.ReplaceNickName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.ReplaceNickName
+  name: ReplaceNickName
+  nameWithType: SettingManagerServerUtility.ReplaceNickName
+  fullName: Funique.Manager.SettingManagerServerUtility.ReplaceNickName
+- uid: System.Predicate{Funique.SavedPlayerName}
+  commentId: T:System.Predicate{Funique.SavedPlayerName}
+  parent: System
+  definition: System.Predicate`1
+  name: Predicate<SavedPlayerName>
+  nameWithType: Predicate<SavedPlayerName>
+  fullName: System.Predicate<Funique.SavedPlayerName>
+  nameWithType.vb: Predicate(Of SavedPlayerName)
+  fullName.vb: System.Predicate(Of Funique.SavedPlayerName)
+  name.vb: Predicate(Of SavedPlayerName)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.SavedPlayerName
+    name: SavedPlayerName
+    nameWithType: SavedPlayerName
+    fullName: Funique.SavedPlayerName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.SavedPlayerName
+    name: SavedPlayerName
+    nameWithType: SavedPlayerName
+    fullName: Funique.SavedPlayerName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.SettingManagerServerUtility.RemoveNicknName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.RemoveNicknName
+  name: RemoveNicknName
+  nameWithType: SettingManagerServerUtility.RemoveNicknName
+  fullName: Funique.Manager.SettingManagerServerUtility.RemoveNicknName
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName
+  name: LoadPlayerSortName
+  nameWithType: SettingManagerServerUtility.LoadPlayerSortName
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerSortName
+- uid: Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName
+  name: LoadPlayerNickName
+  nameWithType: SettingManagerServerUtility.LoadPlayerNickName
+  fullName: Funique.Manager.SettingManagerServerUtility.LoadPlayerNickName
+- uid: Funique.Manager.SettingManagerServerUtility.GetPlayerNickName*
+  commentId: Overload:Funique.Manager.SettingManagerServerUtility.GetPlayerNickName
+  name: GetPlayerNickName
+  nameWithType: SettingManagerServerUtility.GetPlayerNickName
+  fullName: Funique.Manager.SettingManagerServerUtility.GetPlayerNickName
+- uid: Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  isExternal: true
+  name: GetPlayerNickName(String)
+  nameWithType: ISettingServerUtility.GetPlayerNickName(String)
+  fullName: Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  spec.csharp:
+  - uid: Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+    name: GetPlayerNickName
+    nameWithType: ISettingServerUtility.GetPlayerNickName
+    fullName: Funique.Setting.ISettingServerUtility.GetPlayerNickName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+    name: GetPlayerNickName
+    nameWithType: ISettingServerUtility.GetPlayerNickName
+    fullName: Funique.Setting.ISettingServerUtility.GetPlayerNickName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.UIVerifyMethod
+  commentId: T:Funique.UI.UIVerifyMethod
+  id: UIVerifyMethod
+  parent: Funique.UI
+  children:
+  - Funique.UI.UIVerifyMethod.CRM
+  - Funique.UI.UIVerifyMethod.First
+  langs:
+  - csharp
+  - vb
+  name: UIVerifyMethod
+  nameWithType: UIVerifyMethod
+  fullName: Funique.UI.UIVerifyMethod
+  type: Enum
+  source:
+    remote:
+      path: Enum/UIVerifyMethod.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UIVerifyMethod
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/UIVerifyMethod.cs
+    startLine: 2
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public enum UIVerifyMethod
+    content.vb: Public Enum UIVerifyMethod
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.UI.UIVerifyMethod.First
+  commentId: F:Funique.UI.UIVerifyMethod.First
+  id: First
+  parent: Funique.UI.UIVerifyMethod
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: UIVerifyMethod.First
+  fullName: Funique.UI.UIVerifyMethod.First
+  type: Field
+  source:
+    remote:
+      path: Enum/UIVerifyMethod.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: First
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/UIVerifyMethod.cs
+    startLine: 4
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: First = 0
+    return:
+      type: Funique.UI.UIVerifyMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.UIVerifyMethod.CRM
+  commentId: F:Funique.UI.UIVerifyMethod.CRM
+  id: CRM
+  parent: Funique.UI.UIVerifyMethod
+  langs:
+  - csharp
+  - vb
+  name: CRM
+  nameWithType: UIVerifyMethod.CRM
+  fullName: Funique.UI.UIVerifyMethod.CRM
+  type: Field
+  source:
+    remote:
+      path: Enum/UIVerifyMethod.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CRM
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/UIVerifyMethod.cs
+    startLine: 5
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: CRM = 1
+    return:
+      type: Funique.UI.UIVerifyMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: Funique.UI.UIVerifyMethod
+  commentId: T:Funique.UI.UIVerifyMethod
+  parent: Funique.UI
+  name: UIVerifyMethod
+  nameWithType: UIVerifyMethod
+  fullName: Funique.UI.UIVerifyMethod

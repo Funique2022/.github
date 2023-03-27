@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Video.IFileImage
+  commentId: T:Funique.Video.IFileImage
+  id: IFileImage
+  parent: Funique.Video
+  children:
+  - Funique.Video.IFileImage.ImageLabelPrefab
+  - Funique.Video.IFileImage.NextImage
+  - Funique.Video.IFileImage.NowProgress
+  - Funique.Video.IFileImage.photoList
+  - Funique.Video.IFileImage.PreviousImage
+  - Funique.Video.IFileImage.ReadFinish_Image
+  - Funique.Video.IFileImage.RefreshImage
+  langs:
+  - csharp
+  - vb
+  name: IFileImage
+  nameWithType: IFileImage
+  fullName: Funique.Video.IFileImage
+  type: Interface
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: IFileImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 10
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nFile manager, responsible for image related files <br />\n------------------------------------------------ <br />\n檔案管理, 負責圖片相關\n"
+  example: []
+  syntax:
+    content: public interface IFileImage
+    content.vb: Public Interface IFileImage
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Video.IFileImage.ImageLabelPrefab
+  commentId: P:Funique.Video.IFileImage.ImageLabelPrefab
+  id: ImageLabelPrefab
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: ImageLabelPrefab
+  nameWithType: IFileImage.ImageLabelPrefab
+  fullName: Funique.Video.IFileImage.ImageLabelPrefab
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ImageLabelPrefab
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 17
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nThe prefab object which spawn in user interface root <br />\n------------------------------------------------ <br />\n生成於 UI 列表中的標籤藍圖物件\n"
+  example: []
+  syntax:
+    content: GameObject ImageLabelPrefab { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: ReadOnly Property ImageLabelPrefab As GameObject
+  overload: Funique.Video.IFileImage.ImageLabelPrefab*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileImage.RefreshImage
+  commentId: P:Funique.Video.IFileImage.RefreshImage
+  id: RefreshImage
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: RefreshImage
+  nameWithType: IFileImage.RefreshImage
+  fullName: Funique.Video.IFileImage.RefreshImage
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: RefreshImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 23
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nReload folder delegate <br />\n------------------------------------------------ <br />\n重新讀取委派\n"
+  example: []
+  syntax:
+    content: UnityEvent RefreshImage { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: ReadOnly Property RefreshImage As UnityEvent
+  overload: Funique.Video.IFileImage.RefreshImage*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileImage.photoList
+  commentId: P:Funique.Video.IFileImage.photoList
+  id: photoList
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: photoList
+  nameWithType: IFileImage.photoList
+  fullName: Funique.Video.IFileImage.photoList
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: photoList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 29
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nCurrent photo list <br />\n------------------------------------------------ <br />\n目前圖片清單\n"
+  example: []
+  syntax:
+    content: Container<PhotoInfo> photoList { get; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.PhotoInfo}
+    content.vb: ReadOnly Property photoList As Container(Of PhotoInfo)
+  overload: Funique.Video.IFileImage.photoList*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Video.IFileImage.ReadFinish_Image
+  commentId: P:Funique.Video.IFileImage.ReadFinish_Image
+  id: ReadFinish_Image
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: ReadFinish_Image
+  nameWithType: IFileImage.ReadFinish_Image
+  fullName: Funique.Video.IFileImage.ReadFinish_Image
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: ReadFinish_Image
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 35
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nCurrent loading state <br />\n------------------------------------------------ <br />\n讀取狀態\n"
+  example: []
+  syntax:
+    content: bool ReadFinish_Image { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ReadFinish_Image As Boolean
+  overload: Funique.Video.IFileImage.ReadFinish_Image*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.Video.IFileImage.NowProgress
+  commentId: P:Funique.Video.IFileImage.NowProgress
+  id: NowProgress
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: NowProgress
+  nameWithType: IFileImage.NowProgress
+  fullName: Funique.Video.IFileImage.NowProgress
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: NowProgress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 36
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  syntax:
+    content: float NowProgress { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property NowProgress As Single
+  overload: Funique.Video.IFileImage.NowProgress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.Video.IFileImage.PreviousImage
+  commentId: M:Funique.Video.IFileImage.PreviousImage
+  id: PreviousImage
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: PreviousImage()
+  nameWithType: IFileImage.PreviousImage()
+  fullName: Funique.Video.IFileImage.PreviousImage()
+  type: Method
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: PreviousImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 45
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nGet last image instance <br />\n------------------------------------------------ <br />\n獲得 上一部 圖片實體\n"
+  example: []
+  syntax:
+    content: PhotoInfo PreviousImage()
+    return:
+      type: Funique.PhotoInfo
+      description: ''
+    content.vb: Function PreviousImage As PhotoInfo
+  overload: Funique.Video.IFileImage.PreviousImage*
+- uid: Funique.Video.IFileImage.NextImage
+  commentId: M:Funique.Video.IFileImage.NextImage
+  id: NextImage
+  parent: Funique.Video.IFileImage
+  langs:
+  - csharp
+  - vb
+  name: NextImage()
+  nameWithType: IFileImage.NextImage()
+  fullName: Funique.Video.IFileImage.NextImage()
+  type: Method
+  source:
+    remote:
+      path: Interface/IFileImage.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: NextImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileImage.cs
+    startLine: 52
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nGet next image instance <br />\n------------------------------------------------ <br />\n獲得 下一部 圖片實體\n"
+  example: []
+  syntax:
+    content: PhotoInfo NextImage()
+    return:
+      type: Funique.PhotoInfo
+      description: ''
+    content.vb: Function NextImage As PhotoInfo
+  overload: Funique.Video.IFileImage.NextImage*
+references:
+- uid: Funique.Video
+  commentId: N:Funique.Video
+  name: Funique.Video
+  nameWithType: Funique.Video
+  fullName: Funique.Video
+- uid: Funique.Video.IFileImage.ImageLabelPrefab*
+  commentId: Overload:Funique.Video.IFileImage.ImageLabelPrefab
+  name: ImageLabelPrefab
+  nameWithType: IFileImage.ImageLabelPrefab
+  fullName: Funique.Video.IFileImage.ImageLabelPrefab
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.Video.IFileImage.RefreshImage*
+  commentId: Overload:Funique.Video.IFileImage.RefreshImage
+  name: RefreshImage
+  nameWithType: IFileImage.RefreshImage
+  fullName: Funique.Video.IFileImage.RefreshImage
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+- uid: Funique.Video.IFileImage.photoList*
+  commentId: Overload:Funique.Video.IFileImage.photoList
+  name: photoList
+  nameWithType: IFileImage.photoList
+  fullName: Funique.Video.IFileImage.photoList
+- uid: Funique.Video.Container{Funique.PhotoInfo}
+  commentId: T:Funique.Video.Container{Funique.PhotoInfo}
+  parent: Funique.Video
+  definition: Funique.Video.Container`1
+  name: Container<PhotoInfo>
+  nameWithType: Container<PhotoInfo>
+  fullName: Funique.Video.Container<Funique.PhotoInfo>
+  nameWithType.vb: Container(Of PhotoInfo)
+  fullName.vb: Funique.Video.Container(Of Funique.PhotoInfo)
+  name.vb: Container(Of PhotoInfo)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.PhotoInfo
+    name: PhotoInfo
+    nameWithType: PhotoInfo
+    fullName: Funique.PhotoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.PhotoInfo
+    name: PhotoInfo
+    nameWithType: PhotoInfo
+    fullName: Funique.PhotoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.Container`1
+  commentId: T:Funique.Video.Container`1
+  name: Container<T>
+  nameWithType: Container<T>
+  fullName: Funique.Video.Container<T>
+  nameWithType.vb: Container(Of T)
+  fullName.vb: Funique.Video.Container(Of T)
+  name.vb: Container(Of T)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.IFileImage.ReadFinish_Image*
+  commentId: Overload:Funique.Video.IFileImage.ReadFinish_Image
+  name: ReadFinish_Image
+  nameWithType: IFileImage.ReadFinish_Image
+  fullName: Funique.Video.IFileImage.ReadFinish_Image
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Video.IFileImage.NowProgress*
+  commentId: Overload:Funique.Video.IFileImage.NowProgress
+  name: NowProgress
+  nameWithType: IFileImage.NowProgress
+  fullName: Funique.Video.IFileImage.NowProgress
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.Video.IFileImage.PreviousImage*
+  commentId: Overload:Funique.Video.IFileImage.PreviousImage
+  name: PreviousImage
+  nameWithType: IFileImage.PreviousImage
+  fullName: Funique.Video.IFileImage.PreviousImage
+- uid: Funique.PhotoInfo
+  commentId: T:Funique.PhotoInfo
+  parent: Funique
+  name: PhotoInfo
+  nameWithType: PhotoInfo
+  fullName: Funique.PhotoInfo
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Video.IFileImage.NextImage*
+  commentId: Overload:Funique.Video.IFileImage.NextImage
+  name: NextImage
+  nameWithType: IFileImage.NextImage
+  fullName: Funique.Video.IFileImage.NextImage

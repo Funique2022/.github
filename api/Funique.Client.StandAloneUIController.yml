@@ -1,0 +1,748 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Client.StandAloneUIController
+  commentId: T:Funique.Client.StandAloneUIController
+  id: StandAloneUIController
+  parent: Funique.Client
+  children:
+  - Funique.Client.StandAloneUIController.AutoResetToggle
+  - Funique.Client.StandAloneUIController.FileNameText
+  - Funique.Client.StandAloneUIController.FixedLock
+  - Funique.Client.StandAloneUIController.FixedOff
+  - Funique.Client.StandAloneUIController.FixedOn
+  - Funique.Client.StandAloneUIController.FixedState
+  - Funique.Client.StandAloneUIController.HeadonLock
+  - Funique.Client.StandAloneUIController.HeadonOff
+  - Funique.Client.StandAloneUIController.HeadonOn
+  - Funique.Client.StandAloneUIController.HeadonState
+  - Funique.Client.StandAloneUIController.HeadsetResetBtn
+  - Funique.Client.StandAloneUIController.NextVideoBtn
+  - Funique.Client.StandAloneUIController.PlayerMenuUIBtn
+  - Funique.Client.StandAloneUIController.PlayListRefreshBtn
+  - Funique.Client.StandAloneUIController.PreviousVideoBtn
+  - Funique.Client.StandAloneUIController.SetAutoResetState(System.Boolean)
+  - Funique.Client.StandAloneUIController.SubtitleSwitch
+  - Funique.Client.StandAloneUIController.WaitRoomBtn
+  langs:
+  - csharp
+  - vb
+  name: StandAloneUIController
+  nameWithType: StandAloneUIController
+  fullName: Funique.Client.StandAloneUIController
+  type: Class
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: StandAloneUIController
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 5
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Client/StandAlone UI Controller")]
+
+      public class StandAloneUIController : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Client/StandAlone UI Controller")>
+
+      Public Class StandAloneUIController
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Client/StandAlone UI Controller
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Client.StandAloneUIController.FileNameText
+  commentId: F:Funique.Client.StandAloneUIController.FileNameText
+  id: FileNameText
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: FileNameText
+  nameWithType: StandAloneUIController.FileNameText
+  fullName: Funique.Client.StandAloneUIController.FileNameText
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: FileNameText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 8
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public Text FileNameText
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: Public FileNameText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.WaitRoomBtn
+  commentId: F:Funique.Client.StandAloneUIController.WaitRoomBtn
+  id: WaitRoomBtn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: WaitRoomBtn
+  nameWithType: StandAloneUIController.WaitRoomBtn
+  fullName: Funique.Client.StandAloneUIController.WaitRoomBtn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: WaitRoomBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 9
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject WaitRoomBtn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public WaitRoomBtn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.HeadsetResetBtn
+  commentId: F:Funique.Client.StandAloneUIController.HeadsetResetBtn
+  id: HeadsetResetBtn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: HeadsetResetBtn
+  nameWithType: StandAloneUIController.HeadsetResetBtn
+  fullName: Funique.Client.StandAloneUIController.HeadsetResetBtn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: HeadsetResetBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 10
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject HeadsetResetBtn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public HeadsetResetBtn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.PreviousVideoBtn
+  commentId: F:Funique.Client.StandAloneUIController.PreviousVideoBtn
+  id: PreviousVideoBtn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: PreviousVideoBtn
+  nameWithType: StandAloneUIController.PreviousVideoBtn
+  fullName: Funique.Client.StandAloneUIController.PreviousVideoBtn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: PreviousVideoBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 11
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject PreviousVideoBtn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public PreviousVideoBtn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.NextVideoBtn
+  commentId: F:Funique.Client.StandAloneUIController.NextVideoBtn
+  id: NextVideoBtn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: NextVideoBtn
+  nameWithType: StandAloneUIController.NextVideoBtn
+  fullName: Funique.Client.StandAloneUIController.NextVideoBtn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: NextVideoBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 12
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject NextVideoBtn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public NextVideoBtn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.PlayListRefreshBtn
+  commentId: F:Funique.Client.StandAloneUIController.PlayListRefreshBtn
+  id: PlayListRefreshBtn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: PlayListRefreshBtn
+  nameWithType: StandAloneUIController.PlayListRefreshBtn
+  fullName: Funique.Client.StandAloneUIController.PlayListRefreshBtn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: PlayListRefreshBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 14
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public Button PlayListRefreshBtn
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public PlayListRefreshBtn As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.PlayerMenuUIBtn
+  commentId: F:Funique.Client.StandAloneUIController.PlayerMenuUIBtn
+  id: PlayerMenuUIBtn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: PlayerMenuUIBtn
+  nameWithType: StandAloneUIController.PlayerMenuUIBtn
+  fullName: Funique.Client.StandAloneUIController.PlayerMenuUIBtn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: PlayerMenuUIBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 15
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject PlayerMenuUIBtn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public PlayerMenuUIBtn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.AutoResetToggle
+  commentId: F:Funique.Client.StandAloneUIController.AutoResetToggle
+  id: AutoResetToggle
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: AutoResetToggle
+  nameWithType: StandAloneUIController.AutoResetToggle
+  fullName: Funique.Client.StandAloneUIController.AutoResetToggle
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: AutoResetToggle
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 17
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public Toggle AutoResetToggle
+    return:
+      type: UnityEngine.UI.Toggle
+    content.vb: Public AutoResetToggle As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.SubtitleSwitch
+  commentId: F:Funique.Client.StandAloneUIController.SubtitleSwitch
+  id: SubtitleSwitch
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: SubtitleSwitch
+  nameWithType: StandAloneUIController.SubtitleSwitch
+  fullName: Funique.Client.StandAloneUIController.SubtitleSwitch
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: SubtitleSwitch
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 19
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public Toggle SubtitleSwitch
+    return:
+      type: UnityEngine.UI.Toggle
+    content.vb: Public SubtitleSwitch As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.HeadonState
+  commentId: F:Funique.Client.StandAloneUIController.HeadonState
+  id: HeadonState
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: HeadonState
+  nameWithType: StandAloneUIController.HeadonState
+  fullName: Funique.Client.StandAloneUIController.HeadonState
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: HeadonState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 20
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject HeadonState
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public HeadonState As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.HeadonOn
+  commentId: F:Funique.Client.StandAloneUIController.HeadonOn
+  id: HeadonOn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: HeadonOn
+  nameWithType: StandAloneUIController.HeadonOn
+  fullName: Funique.Client.StandAloneUIController.HeadonOn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: HeadonOn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 21
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject HeadonOn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public HeadonOn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.HeadonOff
+  commentId: F:Funique.Client.StandAloneUIController.HeadonOff
+  id: HeadonOff
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: HeadonOff
+  nameWithType: StandAloneUIController.HeadonOff
+  fullName: Funique.Client.StandAloneUIController.HeadonOff
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: HeadonOff
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 22
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject HeadonOff
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public HeadonOff As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.HeadonLock
+  commentId: F:Funique.Client.StandAloneUIController.HeadonLock
+  id: HeadonLock
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: HeadonLock
+  nameWithType: StandAloneUIController.HeadonLock
+  fullName: Funique.Client.StandAloneUIController.HeadonLock
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: HeadonLock
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 23
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject HeadonLock
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public HeadonLock As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.FixedState
+  commentId: F:Funique.Client.StandAloneUIController.FixedState
+  id: FixedState
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: FixedState
+  nameWithType: StandAloneUIController.FixedState
+  fullName: Funique.Client.StandAloneUIController.FixedState
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: FixedState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 24
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject FixedState
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public FixedState As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.FixedOn
+  commentId: F:Funique.Client.StandAloneUIController.FixedOn
+  id: FixedOn
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: FixedOn
+  nameWithType: StandAloneUIController.FixedOn
+  fullName: Funique.Client.StandAloneUIController.FixedOn
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: FixedOn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 25
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject FixedOn
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public FixedOn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.FixedOff
+  commentId: F:Funique.Client.StandAloneUIController.FixedOff
+  id: FixedOff
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: FixedOff
+  nameWithType: StandAloneUIController.FixedOff
+  fullName: Funique.Client.StandAloneUIController.FixedOff
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: FixedOff
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 26
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject FixedOff
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public FixedOff As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.FixedLock
+  commentId: F:Funique.Client.StandAloneUIController.FixedLock
+  id: FixedLock
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: FixedLock
+  nameWithType: StandAloneUIController.FixedLock
+  fullName: Funique.Client.StandAloneUIController.FixedLock
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: FixedLock
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 27
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public GameObject FixedLock
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public FixedLock As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.StandAloneUIController.SetAutoResetState(System.Boolean)
+  commentId: M:Funique.Client.StandAloneUIController.SetAutoResetState(System.Boolean)
+  id: SetAutoResetState(System.Boolean)
+  parent: Funique.Client.StandAloneUIController
+  langs:
+  - csharp
+  - vb
+  name: SetAutoResetState(Boolean)
+  nameWithType: StandAloneUIController.SetAutoResetState(Boolean)
+  fullName: Funique.Client.StandAloneUIController.SetAutoResetState(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: SetAutoResetState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/StandAloneUIController.cs
+    startLine: 29
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public void SetAutoResetState(bool state)
+    parameters:
+    - id: state
+      type: System.Boolean
+    content.vb: Public Sub SetAutoResetState(state As Boolean)
+  overload: Funique.Client.StandAloneUIController.SetAutoResetState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Client
+  commentId: N:Funique.Client
+  name: Funique.Client
+  nameWithType: Funique.Client
+  fullName: Funique.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UI.Text
+  commentId: T:UnityEngine.UI.Text
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: UnityEngine.UI.Text
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI.Toggle
+  commentId: T:UnityEngine.UI.Toggle
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: UnityEngine.UI.Toggle
+- uid: Funique.Client.StandAloneUIController.SetAutoResetState*
+  commentId: Overload:Funique.Client.StandAloneUIController.SetAutoResetState
+  name: SetAutoResetState
+  nameWithType: StandAloneUIController.SetAutoResetState
+  fullName: Funique.Client.StandAloneUIController.SetAutoResetState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

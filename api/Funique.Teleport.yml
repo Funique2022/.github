@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Teleport
+  commentId: T:Funique.Teleport
+  id: Teleport
+  parent: Funique
+  children:
+  - Funique.Teleport.StartTeleport
+  langs:
+  - csharp
+  - vb
+  name: Teleport
+  nameWithType: Teleport
+  fullName: Funique.Teleport
+  type: Class
+  source:
+    remote:
+      path: Component/Teleport.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Teleport
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/Teleport.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nTeleport configuration <br />\n------------------------------------------------ <br />\n傳送點配置\n"
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Core/Teleport")]
+
+      public class Teleport : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Core/Teleport")>
+
+      Public Class Teleport
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Core/Teleport
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Teleport.StartTeleport
+  commentId: M:Funique.Teleport.StartTeleport
+  id: StartTeleport
+  parent: Funique.Teleport
+  langs:
+  - csharp
+  - vb
+  name: StartTeleport()
+  nameWithType: Teleport.StartTeleport()
+  fullName: Funique.Teleport.StartTeleport()
+  type: Method
+  source:
+    remote:
+      path: Component/Teleport.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: StartTeleport
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Component/Teleport.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public void StartTeleport()
+    content.vb: Public Sub StartTeleport
+  overload: Funique.Teleport.StartTeleport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.Teleport.StartTeleport*
+  commentId: Overload:Funique.Teleport.StartTeleport
+  name: StartTeleport
+  nameWithType: Teleport.StartTeleport
+  fullName: Funique.Teleport.StartTeleport

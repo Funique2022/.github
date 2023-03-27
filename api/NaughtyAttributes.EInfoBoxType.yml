@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: NaughtyAttributes.EInfoBoxType
+  commentId: T:NaughtyAttributes.EInfoBoxType
+  id: EInfoBoxType
+  parent: NaughtyAttributes
+  children:
+  - NaughtyAttributes.EInfoBoxType.Error
+  - NaughtyAttributes.EInfoBoxType.Normal
+  - NaughtyAttributes.EInfoBoxType.Warning
+  langs:
+  - csharp
+  - vb
+  name: EInfoBoxType
+  nameWithType: EInfoBoxType
+  fullName: NaughtyAttributes.EInfoBoxType
+  type: Enum
+  source:
+    remote:
+      path: Attribute/DrawerAttributes/InfoBoxAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: EInfoBoxType
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes/InfoBoxAttribute.cs
+    startLine: 4
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  syntax:
+    content: public enum EInfoBoxType
+    content.vb: Public Enum EInfoBoxType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: NaughtyAttributes.EInfoBoxType.Normal
+  commentId: F:NaughtyAttributes.EInfoBoxType.Normal
+  id: Normal
+  parent: NaughtyAttributes.EInfoBoxType
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: EInfoBoxType.Normal
+  fullName: NaughtyAttributes.EInfoBoxType.Normal
+  type: Field
+  source:
+    remote:
+      path: Attribute/DrawerAttributes/InfoBoxAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Normal
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes/InfoBoxAttribute.cs
+    startLine: 6
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  syntax:
+    content: Normal = 0
+    return:
+      type: NaughtyAttributes.EInfoBoxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NaughtyAttributes.EInfoBoxType.Warning
+  commentId: F:NaughtyAttributes.EInfoBoxType.Warning
+  id: Warning
+  parent: NaughtyAttributes.EInfoBoxType
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: EInfoBoxType.Warning
+  fullName: NaughtyAttributes.EInfoBoxType.Warning
+  type: Field
+  source:
+    remote:
+      path: Attribute/DrawerAttributes/InfoBoxAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Warning
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes/InfoBoxAttribute.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  syntax:
+    content: Warning = 1
+    return:
+      type: NaughtyAttributes.EInfoBoxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: NaughtyAttributes.EInfoBoxType.Error
+  commentId: F:NaughtyAttributes.EInfoBoxType.Error
+  id: Error
+  parent: NaughtyAttributes.EInfoBoxType
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: EInfoBoxType.Error
+  fullName: NaughtyAttributes.EInfoBoxType.Error
+  type: Field
+  source:
+    remote:
+      path: Attribute/DrawerAttributes/InfoBoxAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Error
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/DrawerAttributes/InfoBoxAttribute.cs
+    startLine: 8
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  syntax:
+    content: Error = 2
+    return:
+      type: NaughtyAttributes.EInfoBoxType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: NaughtyAttributes
+  commentId: N:NaughtyAttributes
+  name: NaughtyAttributes
+  nameWithType: NaughtyAttributes
+  fullName: NaughtyAttributes
+- uid: NaughtyAttributes.EInfoBoxType
+  commentId: T:NaughtyAttributes.EInfoBoxType
+  parent: NaughtyAttributes
+  name: EInfoBoxType
+  nameWithType: EInfoBoxType
+  fullName: NaughtyAttributes.EInfoBoxType

@@ -1,0 +1,2044 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.MediaManagerServerUtility
+  commentId: T:Funique.Manager.MediaManagerServerUtility
+  id: MediaManagerServerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.MediaManagerServerUtility.CallPlayerPause
+  - Funique.Manager.MediaManagerServerUtility.CallPlayerPlay
+  - Funique.Manager.MediaManagerServerUtility.CallPlayerPlay(System.String)
+  - Funique.Manager.MediaManagerServerUtility.CallPlayerStop
+  - Funique.Manager.MediaManagerServerUtility.Controller
+  - Funique.Manager.MediaManagerServerUtility.MsgToClients(System.Int32,System.String)
+  - Funique.Manager.MediaManagerServerUtility.MsgToClients(System.String)
+  - Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose
+  - Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen
+  - Funique.Manager.MediaManagerServerUtility.SendGetVideoTime(System.Int32,System.String)
+  - Funique.Manager.MediaManagerServerUtility.SendHeadsetReset
+  - Funique.Manager.MediaManagerServerUtility.SendMasterSettingState
+  - Funique.Manager.MediaManagerServerUtility.SendReplayMode(Funique.ReplayState)
+  - Funique.Manager.MediaManagerServerUtility.SendSchemeMode(Funique.PlayerScheme)
+  - Funique.Manager.MediaManagerServerUtility.SendStereoMode(System.String)
+  - Funique.Manager.MediaManagerServerUtility.SendSubtitleMode(Funique.SubtitleMode)
+  - Funique.Manager.MediaManagerServerUtility.SendVideoName(System.String)
+  - Funique.Manager.MediaManagerServerUtility.SendVideoTime(System.Single)
+  - Funique.Manager.MediaManagerServerUtility.SendWaitRoom
+  - Funique.Manager.MediaManagerServerUtility.VideoButtonDict
+  langs:
+  - csharp
+  - vb
+  name: MediaManagerServerUtility
+  nameWithType: MediaManagerServerUtility
+  fullName: Funique.Manager.MediaManagerServerUtility
+  type: Class
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: MediaManagerServerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 10
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: 'public class MediaManagerServerUtility : ManagerBase<MediaManagerData>, IDisposable, IMediaServerUtility, IMediaControl, IMediaSend'
+    content.vb: >-
+      Public Class MediaManagerServerUtility
+
+          Inherits ManagerBase(Of MediaManagerData)
+
+          Implements IDisposable, IMediaServerUtility, IMediaControl, IMediaSend
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}
+  implements:
+  - System.IDisposable
+  - Funique.Media.IMediaServerUtility
+  - Funique.Media.IMediaControl
+  - Funique.Media.IMediaSend
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.config
+  - Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.RegisterConfig(Funique.Media.MediaManagerData)
+  - Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.Loaded(Funique.Media.MediaManagerData)
+  - Funique.Manager.ManagerBase.Initialization
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.MediaManagerServerUtility.Controller
+  commentId: P:Funique.Manager.MediaManagerServerUtility.Controller
+  id: Controller
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: MediaManagerServerUtility.Controller
+  fullName: Funique.Manager.MediaManagerServerUtility.Controller
+  type: Property
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: Controller
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 12
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public MediaControllerBase Controller { get; }
+    parameters: []
+    return:
+      type: Funique.MediaControllerBase
+    content.vb: Public ReadOnly Property Controller As MediaControllerBase
+  overload: Funique.Manager.MediaManagerServerUtility.Controller*
+  implements:
+  - Funique.Media.IMediaServerUtility.Controller
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.MediaManagerServerUtility.VideoButtonDict
+  commentId: P:Funique.Manager.MediaManagerServerUtility.VideoButtonDict
+  id: VideoButtonDict
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: VideoButtonDict
+  nameWithType: MediaManagerServerUtility.VideoButtonDict
+  fullName: Funique.Manager.MediaManagerServerUtility.VideoButtonDict
+  type: Property
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: VideoButtonDict
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 14
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public Dictionary<string, GameObject> VideoButtonDict { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,UnityEngine.GameObject}
+    content.vb: Public Property VideoButtonDict As Dictionary(Of String, GameObject)
+  overload: Funique.Manager.MediaManagerServerUtility.VideoButtonDict*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen
+  id: SendAllPlayerOpen
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendAllPlayerOpen()
+  nameWithType: MediaManagerServerUtility.SendAllPlayerOpen()
+  fullName: Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendAllPlayerOpen
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 16
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendAllPlayerOpen()
+    content.vb: Public Overridable Sub SendAllPlayerOpen
+  overload: Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen*
+  implements:
+  - Funique.Media.IMediaSend.SendAllPlayerOpen
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose
+  id: SendAllPlayerClose
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendAllPlayerClose()
+  nameWithType: MediaManagerServerUtility.SendAllPlayerClose()
+  fullName: Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendAllPlayerClose
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 17
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendAllPlayerClose()
+    content.vb: Public Overridable Sub SendAllPlayerClose
+  overload: Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose*
+  implements:
+  - Funique.Media.IMediaSend.SendAllPlayerClose
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.MsgToClients(System.String)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.MsgToClients(System.String)
+  id: MsgToClients(System.String)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: MsgToClients(String)
+  nameWithType: MediaManagerServerUtility.MsgToClients(String)
+  fullName: Funique.Manager.MediaManagerServerUtility.MsgToClients(System.String)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: MsgToClients
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 18
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void MsgToClients(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Public Overridable Sub MsgToClients(context As String)
+  overload: Funique.Manager.MediaManagerServerUtility.MsgToClients*
+  implements:
+  - Funique.Media.IMediaSend.MsgToClients(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.MsgToClients(System.Int32,System.String)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.MsgToClients(System.Int32,System.String)
+  id: MsgToClients(System.Int32,System.String)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: MsgToClients(Int32, String)
+  nameWithType: MediaManagerServerUtility.MsgToClients(Int32, String)
+  fullName: Funique.Manager.MediaManagerServerUtility.MsgToClients(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: MsgToClients
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 19
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void MsgToClients(int ID, string context)
+    parameters:
+    - id: ID
+      type: System.Int32
+    - id: context
+      type: System.String
+    content.vb: Public Overridable Sub MsgToClients(ID As Integer, context As String)
+  overload: Funique.Manager.MediaManagerServerUtility.MsgToClients*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendGetVideoTime(System.Int32,System.String)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendGetVideoTime(System.Int32,System.String)
+  id: SendGetVideoTime(System.Int32,System.String)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendGetVideoTime(Int32, String)
+  nameWithType: MediaManagerServerUtility.SendGetVideoTime(Int32, String)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendGetVideoTime(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendGetVideoTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 22
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendGetVideoTime(int cinemaID, string videoFilterName)
+    parameters:
+    - id: cinemaID
+      type: System.Int32
+    - id: videoFilterName
+      type: System.String
+    content.vb: Public Overridable Sub SendGetVideoTime(cinemaID As Integer, videoFilterName As String)
+  overload: Funique.Manager.MediaManagerServerUtility.SendGetVideoTime*
+  implements:
+  - Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendHeadsetReset
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendHeadsetReset
+  id: SendHeadsetReset
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendHeadsetReset()
+  nameWithType: MediaManagerServerUtility.SendHeadsetReset()
+  fullName: Funique.Manager.MediaManagerServerUtility.SendHeadsetReset()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendHeadsetReset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 23
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendHeadsetReset()
+    content.vb: Public Overridable Sub SendHeadsetReset
+  overload: Funique.Manager.MediaManagerServerUtility.SendHeadsetReset*
+  implements:
+  - Funique.Media.IMediaSend.SendHeadsetReset
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendWaitRoom
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendWaitRoom
+  id: SendWaitRoom
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendWaitRoom()
+  nameWithType: MediaManagerServerUtility.SendWaitRoom()
+  fullName: Funique.Manager.MediaManagerServerUtility.SendWaitRoom()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendWaitRoom
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 24
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendWaitRoom()
+    content.vb: Public Overridable Sub SendWaitRoom
+  overload: Funique.Manager.MediaManagerServerUtility.SendWaitRoom*
+  implements:
+  - Funique.Media.IMediaSend.SendWaitRoom
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendVideoName(System.String)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendVideoName(System.String)
+  id: SendVideoName(System.String)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendVideoName(String)
+  nameWithType: MediaManagerServerUtility.SendVideoName(String)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendVideoName(System.String)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendVideoName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 25
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendVideoName(string videoName)
+    parameters:
+    - id: videoName
+      type: System.String
+    content.vb: Public Overridable Sub SendVideoName(videoName As String)
+  overload: Funique.Manager.MediaManagerServerUtility.SendVideoName*
+  implements:
+  - Funique.Media.IMediaSend.SendVideoName(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendReplayMode(Funique.ReplayState)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendReplayMode(Funique.ReplayState)
+  id: SendReplayMode(Funique.ReplayState)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendReplayMode(ReplayState)
+  nameWithType: MediaManagerServerUtility.SendReplayMode(ReplayState)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendReplayMode(Funique.ReplayState)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendReplayMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 26
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendReplayMode(ReplayState mode)
+    parameters:
+    - id: mode
+      type: Funique.ReplayState
+    content.vb: Public Overridable Sub SendReplayMode(mode As ReplayState)
+  overload: Funique.Manager.MediaManagerServerUtility.SendReplayMode*
+  implements:
+  - Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendSubtitleMode(Funique.SubtitleMode)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendSubtitleMode(Funique.SubtitleMode)
+  id: SendSubtitleMode(Funique.SubtitleMode)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendSubtitleMode(SubtitleMode)
+  nameWithType: MediaManagerServerUtility.SendSubtitleMode(SubtitleMode)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendSubtitleMode(Funique.SubtitleMode)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendSubtitleMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 27
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendSubtitleMode(SubtitleMode mode)
+    parameters:
+    - id: mode
+      type: Funique.SubtitleMode
+    content.vb: Public Overridable Sub SendSubtitleMode(mode As SubtitleMode)
+  overload: Funique.Manager.MediaManagerServerUtility.SendSubtitleMode*
+  implements:
+  - Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendStereoMode(System.String)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendStereoMode(System.String)
+  id: SendStereoMode(System.String)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendStereoMode(String)
+  nameWithType: MediaManagerServerUtility.SendStereoMode(String)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendStereoMode(System.String)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendStereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 28
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendStereoMode(string mode)
+    parameters:
+    - id: mode
+      type: System.String
+    content.vb: Public Overridable Sub SendStereoMode(mode As String)
+  overload: Funique.Manager.MediaManagerServerUtility.SendStereoMode*
+  implements:
+  - Funique.Media.IMediaSend.SendStereoMode(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendVideoTime(System.Single)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendVideoTime(System.Single)
+  id: SendVideoTime(System.Single)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendVideoTime(Single)
+  nameWithType: MediaManagerServerUtility.SendVideoTime(Single)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendVideoTime(System.Single)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendVideoTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 29
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendVideoTime(float time)
+    parameters:
+    - id: time
+      type: System.Single
+    content.vb: Public Overridable Sub SendVideoTime(time As Single)
+  overload: Funique.Manager.MediaManagerServerUtility.SendVideoTime*
+  implements:
+  - Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendSchemeMode(Funique.PlayerScheme)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendSchemeMode(Funique.PlayerScheme)
+  id: SendSchemeMode(Funique.PlayerScheme)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendSchemeMode(PlayerScheme)
+  nameWithType: MediaManagerServerUtility.SendSchemeMode(PlayerScheme)
+  fullName: Funique.Manager.MediaManagerServerUtility.SendSchemeMode(Funique.PlayerScheme)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendSchemeMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 30
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendSchemeMode(PlayerScheme mode)
+    parameters:
+    - id: mode
+      type: Funique.PlayerScheme
+    content.vb: Public Overridable Sub SendSchemeMode(mode As PlayerScheme)
+  overload: Funique.Manager.MediaManagerServerUtility.SendSchemeMode*
+  implements:
+  - Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.SendMasterSettingState
+  commentId: M:Funique.Manager.MediaManagerServerUtility.SendMasterSettingState
+  id: SendMasterSettingState
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SendMasterSettingState()
+  nameWithType: MediaManagerServerUtility.SendMasterSettingState()
+  fullName: Funique.Manager.MediaManagerServerUtility.SendMasterSettingState()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SendMasterSettingState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 31
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SendMasterSettingState()
+    content.vb: Public Overridable Sub SendMasterSettingState
+  overload: Funique.Manager.MediaManagerServerUtility.SendMasterSettingState*
+  implements:
+  - Funique.Media.IMediaSend.SendMasterSettingState
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay
+  commentId: M:Funique.Manager.MediaManagerServerUtility.CallPlayerPlay
+  id: CallPlayerPlay
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerPlay()
+  nameWithType: MediaManagerServerUtility.CallPlayerPlay()
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 33
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void CallPlayerPlay()
+    content.vb: Public Overridable Sub CallPlayerPlay
+  overload: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay*
+  implements:
+  - Funique.Media.IMediaControl.CallPlayerPlay
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay(System.String)
+  commentId: M:Funique.Manager.MediaManagerServerUtility.CallPlayerPlay(System.String)
+  id: CallPlayerPlay(System.String)
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerPlay(String)
+  nameWithType: MediaManagerServerUtility.CallPlayerPlay(String)
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay(System.String)
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 34
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void CallPlayerPlay(string Playmode = "Play")
+    parameters:
+    - id: Playmode
+      type: System.String
+    content.vb: Public Overridable Sub CallPlayerPlay(Playmode As String = "Play")
+  overload: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay*
+  implements:
+  - Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerPause
+  commentId: M:Funique.Manager.MediaManagerServerUtility.CallPlayerPause
+  id: CallPlayerPause
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerPause()
+  nameWithType: MediaManagerServerUtility.CallPlayerPause()
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerPause()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerPause
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 35
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void CallPlayerPause()
+    content.vb: Public Overridable Sub CallPlayerPause
+  overload: Funique.Manager.MediaManagerServerUtility.CallPlayerPause*
+  implements:
+  - Funique.Media.IMediaControl.CallPlayerPause
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerStop
+  commentId: M:Funique.Manager.MediaManagerServerUtility.CallPlayerStop
+  id: CallPlayerStop
+  parent: Funique.Manager.MediaManagerServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CallPlayerStop()
+  nameWithType: MediaManagerServerUtility.CallPlayerStop()
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerStop()
+  type: Method
+  source:
+    remote:
+      path: MediaManagerServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CallPlayerStop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/MediaManagerServerUtility.cs
+    startLine: 36
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void CallPlayerStop()
+    content.vb: Public Overridable Sub CallPlayerStop
+  overload: Funique.Manager.MediaManagerServerUtility.CallPlayerStop*
+  implements:
+  - Funique.Media.IMediaControl.CallPlayerStop
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<MediaManagerData>
+  nameWithType: ManagerBase<MediaManagerData>
+  fullName: Funique.Manager.ManagerBase<Funique.Media.MediaManagerData>
+  nameWithType.vb: ManagerBase(Of MediaManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Media.MediaManagerData)
+  name.vb: ManagerBase(Of MediaManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Media.MediaManagerData
+    name: MediaManagerData
+    nameWithType: MediaManagerData
+    fullName: Funique.Media.MediaManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Media.MediaManagerData
+    name: MediaManagerData
+    nameWithType: MediaManagerData
+    fullName: Funique.Media.MediaManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Media.IMediaServerUtility
+  commentId: T:Funique.Media.IMediaServerUtility
+  parent: Funique.Media
+  name: IMediaServerUtility
+  nameWithType: IMediaServerUtility
+  fullName: Funique.Media.IMediaServerUtility
+- uid: Funique.Media.IMediaControl
+  commentId: T:Funique.Media.IMediaControl
+  parent: Funique.Media
+  name: IMediaControl
+  nameWithType: IMediaControl
+  fullName: Funique.Media.IMediaControl
+- uid: Funique.Media.IMediaSend
+  commentId: T:Funique.Media.IMediaSend
+  parent: Funique.Media
+  name: IMediaSend
+  nameWithType: IMediaSend
+  fullName: Funique.Media.IMediaSend
+- uid: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<MediaManagerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Media.MediaManagerData>.config
+  nameWithType.vb: ManagerBase(Of MediaManagerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Media.MediaManagerData).config
+- uid: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.RegisterConfig(Funique.Media.MediaManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.RegisterConfig(Funique.Media.MediaManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(MediaManagerData)
+  nameWithType: ManagerBase<MediaManagerData>.RegisterConfig(MediaManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Media.MediaManagerData>.RegisterConfig(Funique.Media.MediaManagerData)
+  nameWithType.vb: ManagerBase(Of MediaManagerData).RegisterConfig(MediaManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Media.MediaManagerData).RegisterConfig(Funique.Media.MediaManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<MediaManagerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Media.MediaManagerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Media.MediaManagerData
+    name: MediaManagerData
+    nameWithType: MediaManagerData
+    fullName: Funique.Media.MediaManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of MediaManagerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Media.MediaManagerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Media.MediaManagerData
+    name: MediaManagerData
+    nameWithType: MediaManagerData
+    fullName: Funique.Media.MediaManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.Loaded(Funique.Media.MediaManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}.Loaded(Funique.Media.MediaManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Media.MediaManagerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(MediaManagerData)
+  nameWithType: ManagerBase<MediaManagerData>.Loaded(MediaManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Media.MediaManagerData>.Loaded(Funique.Media.MediaManagerData)
+  nameWithType.vb: ManagerBase(Of MediaManagerData).Loaded(MediaManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Media.MediaManagerData).Loaded(Funique.Media.MediaManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<MediaManagerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Media.MediaManagerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Media.MediaManagerData
+    name: MediaManagerData
+    nameWithType: MediaManagerData
+    fullName: Funique.Media.MediaManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of MediaManagerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Media.MediaManagerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Media.MediaManagerData
+    name: MediaManagerData
+    nameWithType: MediaManagerData
+    fullName: Funique.Media.MediaManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Media
+  commentId: N:Funique.Media
+  name: Funique.Media
+  nameWithType: Funique.Media
+  fullName: Funique.Media
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.Controller*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.Controller
+  name: Controller
+  nameWithType: MediaManagerServerUtility.Controller
+  fullName: Funique.Manager.MediaManagerServerUtility.Controller
+- uid: Funique.Media.IMediaServerUtility.Controller
+  commentId: P:Funique.Media.IMediaServerUtility.Controller
+  parent: Funique.Media.IMediaServerUtility
+  name: Controller
+  nameWithType: IMediaServerUtility.Controller
+  fullName: Funique.Media.IMediaServerUtility.Controller
+- uid: Funique.MediaControllerBase
+  commentId: T:Funique.MediaControllerBase
+  parent: Funique
+  name: MediaControllerBase
+  nameWithType: MediaControllerBase
+  fullName: Funique.MediaControllerBase
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Manager.MediaManagerServerUtility.VideoButtonDict*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.VideoButtonDict
+  name: VideoButtonDict
+  nameWithType: MediaManagerServerUtility.VideoButtonDict
+  fullName: Funique.Manager.MediaManagerServerUtility.VideoButtonDict
+- uid: System.Collections.Generic.Dictionary{System.String,UnityEngine.GameObject}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,UnityEngine.GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, GameObject>
+  nameWithType: Dictionary<String, GameObject>
+  fullName: System.Collections.Generic.Dictionary<System.String, UnityEngine.GameObject>
+  nameWithType.vb: Dictionary(Of String, GameObject)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, UnityEngine.GameObject)
+  name.vb: Dictionary(Of String, GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen
+  name: SendAllPlayerOpen
+  nameWithType: MediaManagerServerUtility.SendAllPlayerOpen
+  fullName: Funique.Manager.MediaManagerServerUtility.SendAllPlayerOpen
+- uid: Funique.Media.IMediaSend.SendAllPlayerOpen
+  commentId: M:Funique.Media.IMediaSend.SendAllPlayerOpen
+  parent: Funique.Media.IMediaSend
+  name: SendAllPlayerOpen()
+  nameWithType: IMediaSend.SendAllPlayerOpen()
+  fullName: Funique.Media.IMediaSend.SendAllPlayerOpen()
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendAllPlayerOpen
+    name: SendAllPlayerOpen
+    nameWithType: IMediaSend.SendAllPlayerOpen
+    fullName: Funique.Media.IMediaSend.SendAllPlayerOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendAllPlayerOpen
+    name: SendAllPlayerOpen
+    nameWithType: IMediaSend.SendAllPlayerOpen
+    fullName: Funique.Media.IMediaSend.SendAllPlayerOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose
+  name: SendAllPlayerClose
+  nameWithType: MediaManagerServerUtility.SendAllPlayerClose
+  fullName: Funique.Manager.MediaManagerServerUtility.SendAllPlayerClose
+- uid: Funique.Media.IMediaSend.SendAllPlayerClose
+  commentId: M:Funique.Media.IMediaSend.SendAllPlayerClose
+  parent: Funique.Media.IMediaSend
+  name: SendAllPlayerClose()
+  nameWithType: IMediaSend.SendAllPlayerClose()
+  fullName: Funique.Media.IMediaSend.SendAllPlayerClose()
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendAllPlayerClose
+    name: SendAllPlayerClose
+    nameWithType: IMediaSend.SendAllPlayerClose
+    fullName: Funique.Media.IMediaSend.SendAllPlayerClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendAllPlayerClose
+    name: SendAllPlayerClose
+    nameWithType: IMediaSend.SendAllPlayerClose
+    fullName: Funique.Media.IMediaSend.SendAllPlayerClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.MsgToClients*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.MsgToClients
+  name: MsgToClients
+  nameWithType: MediaManagerServerUtility.MsgToClients
+  fullName: Funique.Manager.MediaManagerServerUtility.MsgToClients
+- uid: Funique.Media.IMediaSend.MsgToClients(System.String)
+  commentId: M:Funique.Media.IMediaSend.MsgToClients(System.String)
+  parent: Funique.Media.IMediaSend
+  isExternal: true
+  name: MsgToClients(String)
+  nameWithType: IMediaSend.MsgToClients(String)
+  fullName: Funique.Media.IMediaSend.MsgToClients(System.String)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.MsgToClients(System.String)
+    name: MsgToClients
+    nameWithType: IMediaSend.MsgToClients
+    fullName: Funique.Media.IMediaSend.MsgToClients
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.MsgToClients(System.String)
+    name: MsgToClients
+    nameWithType: IMediaSend.MsgToClients
+    fullName: Funique.Media.IMediaSend.MsgToClients
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Manager.MediaManagerServerUtility.SendGetVideoTime*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendGetVideoTime
+  name: SendGetVideoTime
+  nameWithType: MediaManagerServerUtility.SendGetVideoTime
+  fullName: Funique.Manager.MediaManagerServerUtility.SendGetVideoTime
+- uid: Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+  commentId: M:Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+  parent: Funique.Media.IMediaSend
+  isExternal: true
+  name: SendGetVideoTime(Int32, String)
+  nameWithType: IMediaSend.SendGetVideoTime(Int32, String)
+  fullName: Funique.Media.IMediaSend.SendGetVideoTime(System.Int32, System.String)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+    name: SendGetVideoTime
+    nameWithType: IMediaSend.SendGetVideoTime
+    fullName: Funique.Media.IMediaSend.SendGetVideoTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendGetVideoTime(System.Int32,System.String)
+    name: SendGetVideoTime
+    nameWithType: IMediaSend.SendGetVideoTime
+    fullName: Funique.Media.IMediaSend.SendGetVideoTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.SendHeadsetReset*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendHeadsetReset
+  name: SendHeadsetReset
+  nameWithType: MediaManagerServerUtility.SendHeadsetReset
+  fullName: Funique.Manager.MediaManagerServerUtility.SendHeadsetReset
+- uid: Funique.Media.IMediaSend.SendHeadsetReset
+  commentId: M:Funique.Media.IMediaSend.SendHeadsetReset
+  parent: Funique.Media.IMediaSend
+  name: SendHeadsetReset()
+  nameWithType: IMediaSend.SendHeadsetReset()
+  fullName: Funique.Media.IMediaSend.SendHeadsetReset()
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendHeadsetReset
+    name: SendHeadsetReset
+    nameWithType: IMediaSend.SendHeadsetReset
+    fullName: Funique.Media.IMediaSend.SendHeadsetReset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendHeadsetReset
+    name: SendHeadsetReset
+    nameWithType: IMediaSend.SendHeadsetReset
+    fullName: Funique.Media.IMediaSend.SendHeadsetReset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.SendWaitRoom*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendWaitRoom
+  name: SendWaitRoom
+  nameWithType: MediaManagerServerUtility.SendWaitRoom
+  fullName: Funique.Manager.MediaManagerServerUtility.SendWaitRoom
+- uid: Funique.Media.IMediaSend.SendWaitRoom
+  commentId: M:Funique.Media.IMediaSend.SendWaitRoom
+  parent: Funique.Media.IMediaSend
+  name: SendWaitRoom()
+  nameWithType: IMediaSend.SendWaitRoom()
+  fullName: Funique.Media.IMediaSend.SendWaitRoom()
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendWaitRoom
+    name: SendWaitRoom
+    nameWithType: IMediaSend.SendWaitRoom
+    fullName: Funique.Media.IMediaSend.SendWaitRoom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendWaitRoom
+    name: SendWaitRoom
+    nameWithType: IMediaSend.SendWaitRoom
+    fullName: Funique.Media.IMediaSend.SendWaitRoom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.SendVideoName*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendVideoName
+  name: SendVideoName
+  nameWithType: MediaManagerServerUtility.SendVideoName
+  fullName: Funique.Manager.MediaManagerServerUtility.SendVideoName
+- uid: Funique.Media.IMediaSend.SendVideoName(System.String)
+  commentId: M:Funique.Media.IMediaSend.SendVideoName(System.String)
+  parent: Funique.Media.IMediaSend
+  isExternal: true
+  name: SendVideoName(String)
+  nameWithType: IMediaSend.SendVideoName(String)
+  fullName: Funique.Media.IMediaSend.SendVideoName(System.String)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendVideoName(System.String)
+    name: SendVideoName
+    nameWithType: IMediaSend.SendVideoName
+    fullName: Funique.Media.IMediaSend.SendVideoName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendVideoName(System.String)
+    name: SendVideoName
+    nameWithType: IMediaSend.SendVideoName
+    fullName: Funique.Media.IMediaSend.SendVideoName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.SendReplayMode*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendReplayMode
+  name: SendReplayMode
+  nameWithType: MediaManagerServerUtility.SendReplayMode
+  fullName: Funique.Manager.MediaManagerServerUtility.SendReplayMode
+- uid: Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  commentId: M:Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  parent: Funique.Media.IMediaSend
+  name: SendReplayMode(ReplayState)
+  nameWithType: IMediaSend.SendReplayMode(ReplayState)
+  fullName: Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+    name: SendReplayMode
+    nameWithType: IMediaSend.SendReplayMode
+    fullName: Funique.Media.IMediaSend.SendReplayMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.ReplayState
+    name: ReplayState
+    nameWithType: ReplayState
+    fullName: Funique.ReplayState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendReplayMode(Funique.ReplayState)
+    name: SendReplayMode
+    nameWithType: IMediaSend.SendReplayMode
+    fullName: Funique.Media.IMediaSend.SendReplayMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.ReplayState
+    name: ReplayState
+    nameWithType: ReplayState
+    fullName: Funique.ReplayState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.ReplayState
+  commentId: T:Funique.ReplayState
+  parent: Funique
+  name: ReplayState
+  nameWithType: ReplayState
+  fullName: Funique.ReplayState
+- uid: Funique.Manager.MediaManagerServerUtility.SendSubtitleMode*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendSubtitleMode
+  name: SendSubtitleMode
+  nameWithType: MediaManagerServerUtility.SendSubtitleMode
+  fullName: Funique.Manager.MediaManagerServerUtility.SendSubtitleMode
+- uid: Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  commentId: M:Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  parent: Funique.Media.IMediaSend
+  name: SendSubtitleMode(SubtitleMode)
+  nameWithType: IMediaSend.SendSubtitleMode(SubtitleMode)
+  fullName: Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+    name: SendSubtitleMode
+    nameWithType: IMediaSend.SendSubtitleMode
+    fullName: Funique.Media.IMediaSend.SendSubtitleMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.SubtitleMode
+    name: SubtitleMode
+    nameWithType: SubtitleMode
+    fullName: Funique.SubtitleMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendSubtitleMode(Funique.SubtitleMode)
+    name: SendSubtitleMode
+    nameWithType: IMediaSend.SendSubtitleMode
+    fullName: Funique.Media.IMediaSend.SendSubtitleMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.SubtitleMode
+    name: SubtitleMode
+    nameWithType: SubtitleMode
+    fullName: Funique.SubtitleMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.SubtitleMode
+  commentId: T:Funique.SubtitleMode
+  parent: Funique
+  name: SubtitleMode
+  nameWithType: SubtitleMode
+  fullName: Funique.SubtitleMode
+- uid: Funique.Manager.MediaManagerServerUtility.SendStereoMode*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendStereoMode
+  name: SendStereoMode
+  nameWithType: MediaManagerServerUtility.SendStereoMode
+  fullName: Funique.Manager.MediaManagerServerUtility.SendStereoMode
+- uid: Funique.Media.IMediaSend.SendStereoMode(System.String)
+  commentId: M:Funique.Media.IMediaSend.SendStereoMode(System.String)
+  parent: Funique.Media.IMediaSend
+  isExternal: true
+  name: SendStereoMode(String)
+  nameWithType: IMediaSend.SendStereoMode(String)
+  fullName: Funique.Media.IMediaSend.SendStereoMode(System.String)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendStereoMode(System.String)
+    name: SendStereoMode
+    nameWithType: IMediaSend.SendStereoMode
+    fullName: Funique.Media.IMediaSend.SendStereoMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendStereoMode(System.String)
+    name: SendStereoMode
+    nameWithType: IMediaSend.SendStereoMode
+    fullName: Funique.Media.IMediaSend.SendStereoMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.SendVideoTime*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendVideoTime
+  name: SendVideoTime
+  nameWithType: MediaManagerServerUtility.SendVideoTime
+  fullName: Funique.Manager.MediaManagerServerUtility.SendVideoTime
+- uid: Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  commentId: M:Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  parent: Funique.Media.IMediaSend
+  isExternal: true
+  name: SendVideoTime(Single)
+  nameWithType: IMediaSend.SendVideoTime(Single)
+  fullName: Funique.Media.IMediaSend.SendVideoTime(System.Single)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendVideoTime(System.Single)
+    name: SendVideoTime
+    nameWithType: IMediaSend.SendVideoTime
+    fullName: Funique.Media.IMediaSend.SendVideoTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendVideoTime(System.Single)
+    name: SendVideoTime
+    nameWithType: IMediaSend.SendVideoTime
+    fullName: Funique.Media.IMediaSend.SendVideoTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.Manager.MediaManagerServerUtility.SendSchemeMode*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendSchemeMode
+  name: SendSchemeMode
+  nameWithType: MediaManagerServerUtility.SendSchemeMode
+  fullName: Funique.Manager.MediaManagerServerUtility.SendSchemeMode
+- uid: Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  commentId: M:Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  parent: Funique.Media.IMediaSend
+  name: SendSchemeMode(PlayerScheme)
+  nameWithType: IMediaSend.SendSchemeMode(PlayerScheme)
+  fullName: Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+    name: SendSchemeMode
+    nameWithType: IMediaSend.SendSchemeMode
+    fullName: Funique.Media.IMediaSend.SendSchemeMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.PlayerScheme
+    name: PlayerScheme
+    nameWithType: PlayerScheme
+    fullName: Funique.PlayerScheme
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendSchemeMode(Funique.PlayerScheme)
+    name: SendSchemeMode
+    nameWithType: IMediaSend.SendSchemeMode
+    fullName: Funique.Media.IMediaSend.SendSchemeMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.PlayerScheme
+    name: PlayerScheme
+    nameWithType: PlayerScheme
+    fullName: Funique.PlayerScheme
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.PlayerScheme
+  commentId: T:Funique.PlayerScheme
+  parent: Funique
+  name: PlayerScheme
+  nameWithType: PlayerScheme
+  fullName: Funique.PlayerScheme
+- uid: Funique.Manager.MediaManagerServerUtility.SendMasterSettingState*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.SendMasterSettingState
+  name: SendMasterSettingState
+  nameWithType: MediaManagerServerUtility.SendMasterSettingState
+  fullName: Funique.Manager.MediaManagerServerUtility.SendMasterSettingState
+- uid: Funique.Media.IMediaSend.SendMasterSettingState
+  commentId: M:Funique.Media.IMediaSend.SendMasterSettingState
+  parent: Funique.Media.IMediaSend
+  name: SendMasterSettingState()
+  nameWithType: IMediaSend.SendMasterSettingState()
+  fullName: Funique.Media.IMediaSend.SendMasterSettingState()
+  spec.csharp:
+  - uid: Funique.Media.IMediaSend.SendMasterSettingState
+    name: SendMasterSettingState
+    nameWithType: IMediaSend.SendMasterSettingState
+    fullName: Funique.Media.IMediaSend.SendMasterSettingState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaSend.SendMasterSettingState
+    name: SendMasterSettingState
+    nameWithType: IMediaSend.SendMasterSettingState
+    fullName: Funique.Media.IMediaSend.SendMasterSettingState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.CallPlayerPlay
+  name: CallPlayerPlay
+  nameWithType: MediaManagerServerUtility.CallPlayerPlay
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerPlay
+- uid: Funique.Media.IMediaControl.CallPlayerPlay
+  commentId: M:Funique.Media.IMediaControl.CallPlayerPlay
+  parent: Funique.Media.IMediaControl
+  name: CallPlayerPlay()
+  nameWithType: IMediaControl.CallPlayerPlay()
+  fullName: Funique.Media.IMediaControl.CallPlayerPlay()
+  spec.csharp:
+  - uid: Funique.Media.IMediaControl.CallPlayerPlay
+    name: CallPlayerPlay
+    nameWithType: IMediaControl.CallPlayerPlay
+    fullName: Funique.Media.IMediaControl.CallPlayerPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaControl.CallPlayerPlay
+    name: CallPlayerPlay
+    nameWithType: IMediaControl.CallPlayerPlay
+    fullName: Funique.Media.IMediaControl.CallPlayerPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  commentId: M:Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  parent: Funique.Media.IMediaControl
+  isExternal: true
+  name: CallPlayerPlay(String)
+  nameWithType: IMediaControl.CallPlayerPlay(String)
+  fullName: Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+  spec.csharp:
+  - uid: Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+    name: CallPlayerPlay
+    nameWithType: IMediaControl.CallPlayerPlay
+    fullName: Funique.Media.IMediaControl.CallPlayerPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaControl.CallPlayerPlay(System.String)
+    name: CallPlayerPlay
+    nameWithType: IMediaControl.CallPlayerPlay
+    fullName: Funique.Media.IMediaControl.CallPlayerPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerPause*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.CallPlayerPause
+  name: CallPlayerPause
+  nameWithType: MediaManagerServerUtility.CallPlayerPause
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerPause
+- uid: Funique.Media.IMediaControl.CallPlayerPause
+  commentId: M:Funique.Media.IMediaControl.CallPlayerPause
+  parent: Funique.Media.IMediaControl
+  name: CallPlayerPause()
+  nameWithType: IMediaControl.CallPlayerPause()
+  fullName: Funique.Media.IMediaControl.CallPlayerPause()
+  spec.csharp:
+  - uid: Funique.Media.IMediaControl.CallPlayerPause
+    name: CallPlayerPause
+    nameWithType: IMediaControl.CallPlayerPause
+    fullName: Funique.Media.IMediaControl.CallPlayerPause
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaControl.CallPlayerPause
+    name: CallPlayerPause
+    nameWithType: IMediaControl.CallPlayerPause
+    fullName: Funique.Media.IMediaControl.CallPlayerPause
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.MediaManagerServerUtility.CallPlayerStop*
+  commentId: Overload:Funique.Manager.MediaManagerServerUtility.CallPlayerStop
+  name: CallPlayerStop
+  nameWithType: MediaManagerServerUtility.CallPlayerStop
+  fullName: Funique.Manager.MediaManagerServerUtility.CallPlayerStop
+- uid: Funique.Media.IMediaControl.CallPlayerStop
+  commentId: M:Funique.Media.IMediaControl.CallPlayerStop
+  parent: Funique.Media.IMediaControl
+  name: CallPlayerStop()
+  nameWithType: IMediaControl.CallPlayerStop()
+  fullName: Funique.Media.IMediaControl.CallPlayerStop()
+  spec.csharp:
+  - uid: Funique.Media.IMediaControl.CallPlayerStop
+    name: CallPlayerStop
+    nameWithType: IMediaControl.CallPlayerStop
+    fullName: Funique.Media.IMediaControl.CallPlayerStop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Media.IMediaControl.CallPlayerStop
+    name: CallPlayerStop
+    nameWithType: IMediaControl.CallPlayerStop
+    fullName: Funique.Media.IMediaControl.CallPlayerStop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

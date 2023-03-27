@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Media.IMediaReceive
+  commentId: T:Funique.Media.IMediaReceive
+  id: IMediaReceive
+  parent: Funique.Media
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IMediaReceive
+  nameWithType: IMediaReceive
+  fullName: Funique.Media.IMediaReceive
+  type: Interface
+  source:
+    remote:
+      path: Interface/IMediaReceive.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: IMediaReceive
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Interface/IMediaReceive.cs
+    startLine: 2
+  assemblies:
+  - Funique.Media
+  namespace: Funique.Media
+  syntax:
+    content: public interface IMediaReceive
+    content.vb: Public Interface IMediaReceive
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Funique.Media
+  commentId: N:Funique.Media
+  name: Funique.Media
+  nameWithType: Funique.Media
+  fullName: Funique.Media

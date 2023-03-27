@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.PlayListMode
+  commentId: T:Funique.PlayListMode
+  id: PlayListMode
+  parent: Funique
+  children:
+  - Funique.PlayListMode.CinemaList
+  - Funique.PlayListMode.None
+  - Funique.PlayListMode.StreamingCasterLive
+  - Funique.PlayListMode.StreamingCasterVod
+  - Funique.PlayListMode.StreamingList
+  - Funique.PlayListMode.URL
+  - Funique.PlayListMode.VideoList
+  langs:
+  - csharp
+  - vb
+  name: PlayListMode
+  nameWithType: PlayListMode
+  fullName: Funique.PlayListMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: PlayListMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCurrently use play list video mode <br />\nThis will effect core logic <br />\n------------------------------------------------ <br />\n目前播放清單影片的模式 <br />\n這個選項會影響核心的邏輯\n"
+  example: []
+  syntax:
+    content: public enum PlayListMode
+    content.vb: Public Enum PlayListMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.PlayListMode.None
+  commentId: F:Funique.PlayListMode.None
+  id: None
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PlayListMode.None
+  fullName: Funique.PlayListMode.None
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: None
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 16
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nUndefined <br />\n------------------------------------------------ <br />\n尚未定義\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayListMode.VideoList
+  commentId: F:Funique.PlayListMode.VideoList
+  id: VideoList
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: VideoList
+  nameWithType: PlayListMode.VideoList
+  fullName: Funique.PlayListMode.VideoList
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: VideoList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 22
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nVideo file play logic <br />\n------------------------------------------------ <br />\n影片檔案播放邏輯\n"
+  example: []
+  syntax:
+    content: VideoList = 1
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayListMode.CinemaList
+  commentId: F:Funique.PlayListMode.CinemaList
+  id: CinemaList
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: CinemaList
+  nameWithType: PlayListMode.CinemaList
+  fullName: Funique.PlayListMode.CinemaList
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: CinemaList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 28
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCinema play list logic <br />\n------------------------------------------------ <br />\n劇院播放清單邏輯\n"
+  example: []
+  syntax:
+    content: CinemaList = 2
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayListMode.StreamingList
+  commentId: F:Funique.PlayListMode.StreamingList
+  id: StreamingList
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: StreamingList
+  nameWithType: PlayListMode.StreamingList
+  fullName: Funique.PlayListMode.StreamingList
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: StreamingList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 34
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nStreaming services play list logic <br />\n------------------------------------------------ <br />\n串流服務播放清單邏輯\n"
+  example: []
+  syntax:
+    content: StreamingList = 3
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayListMode.URL
+  commentId: F:Funique.PlayListMode.URL
+  id: URL
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: PlayListMode.URL
+  fullName: Funique.PlayListMode.URL
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: URL
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 40
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nA URL link <br />\n------------------------------------------------ <br />\n超連結串流邏輯\n"
+  example: []
+  syntax:
+    content: URL = 4
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayListMode.StreamingCasterVod
+  commentId: F:Funique.PlayListMode.StreamingCasterVod
+  id: StreamingCasterVod
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: StreamingCasterVod
+  nameWithType: PlayListMode.StreamingCasterVod
+  fullName: Funique.PlayListMode.StreamingCasterVod
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: StreamingCasterVod
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 46
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMaster server vod streaming <br />\n------------------------------------------------ <br />\n伺服器影片串流\n"
+  example: []
+  syntax:
+    content: StreamingCasterVod = 5
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayListMode.StreamingCasterLive
+  commentId: F:Funique.PlayListMode.StreamingCasterLive
+  id: StreamingCasterLive
+  parent: Funique.PlayListMode
+  langs:
+  - csharp
+  - vb
+  name: StreamingCasterLive
+  nameWithType: PlayListMode.StreamingCasterLive
+  fullName: Funique.PlayListMode.StreamingCasterLive
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayListMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: StreamingCasterLive
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayListMode.cs
+    startLine: 52
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMaster server live streaming <br />\n------------------------------------------------ <br />\n伺服器及時串流\n"
+  example: []
+  syntax:
+    content: StreamingCasterLive = 6
+    return:
+      type: Funique.PlayListMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.PlayListMode
+  commentId: T:Funique.PlayListMode
+  parent: Funique
+  name: PlayListMode
+  nameWithType: PlayListMode
+  fullName: Funique.PlayListMode

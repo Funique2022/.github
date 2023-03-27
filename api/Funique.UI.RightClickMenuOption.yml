@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.RightClickMenuOption
+  commentId: T:Funique.UI.RightClickMenuOption
+  id: RightClickMenuOption
+  parent: Funique.UI
+  children:
+  - Funique.UI.RightClickMenuOption.AddCinemaPlayerList
+  - Funique.UI.RightClickMenuOption.AllSelectedToCinema
+  - Funique.UI.RightClickMenuOption.ClientCreateArrayBtn
+  - Funique.UI.RightClickMenuOption.ClientCreateBtn
+  - Funique.UI.RightClickMenuOption.ClientEditBtn
+  - Funique.UI.RightClickMenuOption.ClientRemoveBtn
+  - Funique.UI.RightClickMenuOption.CloneCinemaPlayerList
+  - Funique.UI.RightClickMenuOption.ClosePlayerBtn
+  - Funique.UI.RightClickMenuOption.CMDBtn
+  - Funique.UI.RightClickMenuOption.ComputerRestart
+  - Funique.UI.RightClickMenuOption.GetVideoListBtn
+  - Funique.UI.RightClickMenuOption.MutePlayerBtn
+  - Funique.UI.RightClickMenuOption.NirCMDBtn
+  - Funique.UI.RightClickMenuOption.OpenPlayerBtn
+  - Funique.UI.RightClickMenuOption.PlayerVolumeBtn
+  - Funique.UI.RightClickMenuOption.RemoveCinemaPlayerList
+  - Funique.UI.RightClickMenuOption.RenameBtn
+  - Funique.UI.RightClickMenuOption.SetPathBtn
+  - Funique.UI.RightClickMenuOption.UnMutePlayerBtn
+  - Funique.UI.RightClickMenuOption.VideoCreateBtn
+  - Funique.UI.RightClickMenuOption.VideoEditBtn
+  - Funique.UI.RightClickMenuOption.VideoRemoveBtn
+  - Funique.UI.RightClickMenuOption.VideoVolumeBtn
+  langs:
+  - csharp
+  - vb
+  name: RightClickMenuOption
+  nameWithType: RightClickMenuOption
+  fullName: Funique.UI.RightClickMenuOption
+  type: Enum
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RightClickMenuOption
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 9
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nOptions for right click menu <br />\nDirectly binding with right menu UI elements append methods <br />\n------------------------------------------------ <br />\n右鍵選單項目 <br />\n直接綁定菜單元件增加函式\n"
+  example: []
+  syntax:
+    content: public enum RightClickMenuOption
+    content.vb: Public Enum RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.UI.RightClickMenuOption.VideoCreateBtn
+  commentId: F:Funique.UI.RightClickMenuOption.VideoCreateBtn
+  id: VideoCreateBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: VideoCreateBtn
+  nameWithType: RightClickMenuOption.VideoCreateBtn
+  fullName: Funique.UI.RightClickMenuOption.VideoCreateBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: VideoCreateBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 11
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: VideoCreateBtn = 0
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.VideoEditBtn
+  commentId: F:Funique.UI.RightClickMenuOption.VideoEditBtn
+  id: VideoEditBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: VideoEditBtn
+  nameWithType: RightClickMenuOption.VideoEditBtn
+  fullName: Funique.UI.RightClickMenuOption.VideoEditBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: VideoEditBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 12
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: VideoEditBtn = 1
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.VideoRemoveBtn
+  commentId: F:Funique.UI.RightClickMenuOption.VideoRemoveBtn
+  id: VideoRemoveBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: VideoRemoveBtn
+  nameWithType: RightClickMenuOption.VideoRemoveBtn
+  fullName: Funique.UI.RightClickMenuOption.VideoRemoveBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: VideoRemoveBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 13
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: VideoRemoveBtn = 2
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.ClientCreateBtn
+  commentId: F:Funique.UI.RightClickMenuOption.ClientCreateBtn
+  id: ClientCreateBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: ClientCreateBtn
+  nameWithType: RightClickMenuOption.ClientCreateBtn
+  fullName: Funique.UI.RightClickMenuOption.ClientCreateBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ClientCreateBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 14
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: ClientCreateBtn = 3
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.ClientCreateArrayBtn
+  commentId: F:Funique.UI.RightClickMenuOption.ClientCreateArrayBtn
+  id: ClientCreateArrayBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: ClientCreateArrayBtn
+  nameWithType: RightClickMenuOption.ClientCreateArrayBtn
+  fullName: Funique.UI.RightClickMenuOption.ClientCreateArrayBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ClientCreateArrayBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 15
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: ClientCreateArrayBtn = 4
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.ClientEditBtn
+  commentId: F:Funique.UI.RightClickMenuOption.ClientEditBtn
+  id: ClientEditBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: ClientEditBtn
+  nameWithType: RightClickMenuOption.ClientEditBtn
+  fullName: Funique.UI.RightClickMenuOption.ClientEditBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ClientEditBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 16
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: ClientEditBtn = 5
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.ClientRemoveBtn
+  commentId: F:Funique.UI.RightClickMenuOption.ClientRemoveBtn
+  id: ClientRemoveBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: ClientRemoveBtn
+  nameWithType: RightClickMenuOption.ClientRemoveBtn
+  fullName: Funique.UI.RightClickMenuOption.ClientRemoveBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ClientRemoveBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 17
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: ClientRemoveBtn = 6
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.GetVideoListBtn
+  commentId: F:Funique.UI.RightClickMenuOption.GetVideoListBtn
+  id: GetVideoListBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: GetVideoListBtn
+  nameWithType: RightClickMenuOption.GetVideoListBtn
+  fullName: Funique.UI.RightClickMenuOption.GetVideoListBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: GetVideoListBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 18
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: GetVideoListBtn = 7
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.OpenPlayerBtn
+  commentId: F:Funique.UI.RightClickMenuOption.OpenPlayerBtn
+  id: OpenPlayerBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: OpenPlayerBtn
+  nameWithType: RightClickMenuOption.OpenPlayerBtn
+  fullName: Funique.UI.RightClickMenuOption.OpenPlayerBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: OpenPlayerBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 19
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: OpenPlayerBtn = 8
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.ClosePlayerBtn
+  commentId: F:Funique.UI.RightClickMenuOption.ClosePlayerBtn
+  id: ClosePlayerBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: ClosePlayerBtn
+  nameWithType: RightClickMenuOption.ClosePlayerBtn
+  fullName: Funique.UI.RightClickMenuOption.ClosePlayerBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ClosePlayerBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 20
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: ClosePlayerBtn = 9
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.MutePlayerBtn
+  commentId: F:Funique.UI.RightClickMenuOption.MutePlayerBtn
+  id: MutePlayerBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: MutePlayerBtn
+  nameWithType: RightClickMenuOption.MutePlayerBtn
+  fullName: Funique.UI.RightClickMenuOption.MutePlayerBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: MutePlayerBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 21
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: MutePlayerBtn = 10
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.UnMutePlayerBtn
+  commentId: F:Funique.UI.RightClickMenuOption.UnMutePlayerBtn
+  id: UnMutePlayerBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: UnMutePlayerBtn
+  nameWithType: RightClickMenuOption.UnMutePlayerBtn
+  fullName: Funique.UI.RightClickMenuOption.UnMutePlayerBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UnMutePlayerBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 22
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: UnMutePlayerBtn = 11
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.PlayerVolumeBtn
+  commentId: F:Funique.UI.RightClickMenuOption.PlayerVolumeBtn
+  id: PlayerVolumeBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: PlayerVolumeBtn
+  nameWithType: RightClickMenuOption.PlayerVolumeBtn
+  fullName: Funique.UI.RightClickMenuOption.PlayerVolumeBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: PlayerVolumeBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 23
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: PlayerVolumeBtn = 12
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.VideoVolumeBtn
+  commentId: F:Funique.UI.RightClickMenuOption.VideoVolumeBtn
+  id: VideoVolumeBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: VideoVolumeBtn
+  nameWithType: RightClickMenuOption.VideoVolumeBtn
+  fullName: Funique.UI.RightClickMenuOption.VideoVolumeBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: VideoVolumeBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 24
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: VideoVolumeBtn = 13
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.SetPathBtn
+  commentId: F:Funique.UI.RightClickMenuOption.SetPathBtn
+  id: SetPathBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: SetPathBtn
+  nameWithType: RightClickMenuOption.SetPathBtn
+  fullName: Funique.UI.RightClickMenuOption.SetPathBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetPathBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 25
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: SetPathBtn = 14
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.NirCMDBtn
+  commentId: F:Funique.UI.RightClickMenuOption.NirCMDBtn
+  id: NirCMDBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: NirCMDBtn
+  nameWithType: RightClickMenuOption.NirCMDBtn
+  fullName: Funique.UI.RightClickMenuOption.NirCMDBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: NirCMDBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 26
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: NirCMDBtn = 15
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.CMDBtn
+  commentId: F:Funique.UI.RightClickMenuOption.CMDBtn
+  id: CMDBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: CMDBtn
+  nameWithType: RightClickMenuOption.CMDBtn
+  fullName: Funique.UI.RightClickMenuOption.CMDBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CMDBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 27
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: CMDBtn = 16
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.RenameBtn
+  commentId: F:Funique.UI.RightClickMenuOption.RenameBtn
+  id: RenameBtn
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: RenameBtn
+  nameWithType: RightClickMenuOption.RenameBtn
+  fullName: Funique.UI.RightClickMenuOption.RenameBtn
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RenameBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 28
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: RenameBtn = 17
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.AddCinemaPlayerList
+  commentId: F:Funique.UI.RightClickMenuOption.AddCinemaPlayerList
+  id: AddCinemaPlayerList
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: AddCinemaPlayerList
+  nameWithType: RightClickMenuOption.AddCinemaPlayerList
+  fullName: Funique.UI.RightClickMenuOption.AddCinemaPlayerList
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: AddCinemaPlayerList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 30
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: AddCinemaPlayerList = 18
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.RemoveCinemaPlayerList
+  commentId: F:Funique.UI.RightClickMenuOption.RemoveCinemaPlayerList
+  id: RemoveCinemaPlayerList
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: RemoveCinemaPlayerList
+  nameWithType: RightClickMenuOption.RemoveCinemaPlayerList
+  fullName: Funique.UI.RightClickMenuOption.RemoveCinemaPlayerList
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: RemoveCinemaPlayerList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 31
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: RemoveCinemaPlayerList = 19
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.CloneCinemaPlayerList
+  commentId: F:Funique.UI.RightClickMenuOption.CloneCinemaPlayerList
+  id: CloneCinemaPlayerList
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: CloneCinemaPlayerList
+  nameWithType: RightClickMenuOption.CloneCinemaPlayerList
+  fullName: Funique.UI.RightClickMenuOption.CloneCinemaPlayerList
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: CloneCinemaPlayerList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 32
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: CloneCinemaPlayerList = 20
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.AllSelectedToCinema
+  commentId: F:Funique.UI.RightClickMenuOption.AllSelectedToCinema
+  id: AllSelectedToCinema
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: AllSelectedToCinema
+  nameWithType: RightClickMenuOption.AllSelectedToCinema
+  fullName: Funique.UI.RightClickMenuOption.AllSelectedToCinema
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: AllSelectedToCinema
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 33
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: AllSelectedToCinema = 21
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.UI.RightClickMenuOption.ComputerRestart
+  commentId: F:Funique.UI.RightClickMenuOption.ComputerRestart
+  id: ComputerRestart
+  parent: Funique.UI.RightClickMenuOption
+  langs:
+  - csharp
+  - vb
+  name: ComputerRestart
+  nameWithType: RightClickMenuOption.ComputerRestart
+  fullName: Funique.UI.RightClickMenuOption.ComputerRestart
+  type: Field
+  source:
+    remote:
+      path: Enum/RightClickMenuOption.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: ComputerRestart
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Enum/RightClickMenuOption.cs
+    startLine: 35
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: ComputerRestart = 22
+    return:
+      type: Funique.UI.RightClickMenuOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: Funique.UI.RightClickMenuOption
+  commentId: T:Funique.UI.RightClickMenuOption
+  parent: Funique.UI
+  name: RightClickMenuOption
+  nameWithType: RightClickMenuOption
+  fullName: Funique.UI.RightClickMenuOption

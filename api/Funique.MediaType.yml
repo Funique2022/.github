@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.MediaType
+  commentId: T:Funique.MediaType
+  id: MediaType
+  parent: Funique
+  children:
+  - Funique.MediaType.Audio
+  - Funique.MediaType.Text
+  - Funique.MediaType.Video
+  langs:
+  - csharp
+  - vb
+  name: MediaType
+  nameWithType: MediaType
+  fullName: Funique.MediaType
+  type: Enum
+  source:
+    remote:
+      path: Enum/MediaType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: MediaType
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/MediaType.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMedia type <br />\n------------------------------------------------ <br />\n媒體的類型\n"
+  example: []
+  syntax:
+    content: public enum MediaType
+    content.vb: Public Enum MediaType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.MediaType.Video
+  commentId: F:Funique.MediaType.Video
+  id: Video
+  parent: Funique.MediaType
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: MediaType.Video
+  fullName: Funique.MediaType.Video
+  type: Field
+  source:
+    remote:
+      path: Enum/MediaType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Video
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/MediaType.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Video = 0
+    return:
+      type: Funique.MediaType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.MediaType.Audio
+  commentId: F:Funique.MediaType.Audio
+  id: Audio
+  parent: Funique.MediaType
+  langs:
+  - csharp
+  - vb
+  name: Audio
+  nameWithType: MediaType.Audio
+  fullName: Funique.MediaType.Audio
+  type: Field
+  source:
+    remote:
+      path: Enum/MediaType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Audio
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/MediaType.cs
+    startLine: 10
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Audio = 1
+    return:
+      type: Funique.MediaType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.MediaType.Text
+  commentId: F:Funique.MediaType.Text
+  id: Text
+  parent: Funique.MediaType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: MediaType.Text
+  fullName: Funique.MediaType.Text
+  type: Field
+  source:
+    remote:
+      path: Enum/MediaType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Text
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/MediaType.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Text = 2
+    return:
+      type: Funique.MediaType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.MediaType
+  commentId: T:Funique.MediaType
+  parent: Funique
+  name: MediaType
+  nameWithType: MediaType
+  fullName: Funique.MediaType

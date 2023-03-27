@@ -1,0 +1,416 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.SubtitleBtnListenerBase
+  commentId: T:Funique.SubtitleBtnListenerBase
+  id: SubtitleBtnListenerBase
+  parent: Funique
+  children:
+  - Funique.SubtitleBtnListenerBase.ChangeSubttileMode(System.Int32)
+  - Funique.SubtitleBtnListenerBase.CleanSubttileLabel
+  - Funique.SubtitleBtnListenerBase.index
+  - Funique.SubtitleBtnListenerBase.SetSubttileMode(Funique.SubtitleMode)
+  - Funique.SubtitleBtnListenerBase.SubtitleFixLabel
+  - Funique.SubtitleBtnListenerBase.SubtitleHeadOnLabel
+  - Funique.SubtitleBtnListenerBase.SubtitleLockLabel
+  langs:
+  - csharp
+  - vb
+  name: SubtitleBtnListenerBase
+  nameWithType: SubtitleBtnListenerBase
+  fullName: Funique.SubtitleBtnListenerBase
+  type: Class
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SubtitleBtnListenerBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 5
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: 'public class SubtitleBtnListenerBase : MonoBehaviour'
+    content.vb: >-
+      Public Class SubtitleBtnListenerBase
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.SubtitleBtnListenerBase.index
+  commentId: P:Funique.SubtitleBtnListenerBase.index
+  id: index
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: SubtitleBtnListenerBase.index
+  fullName: Funique.SubtitleBtnListenerBase.index
+  type: Property
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: index
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 7
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public int index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property index As Integer
+  overload: Funique.SubtitleBtnListenerBase.index*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.SubtitleBtnListenerBase.SubtitleLockLabel
+  commentId: F:Funique.SubtitleBtnListenerBase.SubtitleLockLabel
+  id: SubtitleLockLabel
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: SubtitleLockLabel
+  nameWithType: SubtitleBtnListenerBase.SubtitleLockLabel
+  fullName: Funique.SubtitleBtnListenerBase.SubtitleLockLabel
+  type: Field
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SubtitleLockLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 8
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected GameObject SubtitleLockLabel
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <SerializeField>
+
+      Protected SubtitleLockLabel As GameObject
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.SubtitleBtnListenerBase.SubtitleHeadOnLabel
+  commentId: F:Funique.SubtitleBtnListenerBase.SubtitleHeadOnLabel
+  id: SubtitleHeadOnLabel
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: SubtitleHeadOnLabel
+  nameWithType: SubtitleBtnListenerBase.SubtitleHeadOnLabel
+  fullName: Funique.SubtitleBtnListenerBase.SubtitleHeadOnLabel
+  type: Field
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SubtitleHeadOnLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 9
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected GameObject SubtitleHeadOnLabel
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <SerializeField>
+
+      Protected SubtitleHeadOnLabel As GameObject
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.SubtitleBtnListenerBase.SubtitleFixLabel
+  commentId: F:Funique.SubtitleBtnListenerBase.SubtitleFixLabel
+  id: SubtitleFixLabel
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: SubtitleFixLabel
+  nameWithType: SubtitleBtnListenerBase.SubtitleFixLabel
+  fullName: Funique.SubtitleBtnListenerBase.SubtitleFixLabel
+  type: Field
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SubtitleFixLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 10
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected GameObject SubtitleFixLabel
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <SerializeField>
+
+      Protected SubtitleFixLabel As GameObject
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.SubtitleBtnListenerBase.SetSubttileMode(Funique.SubtitleMode)
+  commentId: M:Funique.SubtitleBtnListenerBase.SetSubttileMode(Funique.SubtitleMode)
+  id: SetSubttileMode(Funique.SubtitleMode)
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: SetSubttileMode(SubtitleMode)
+  nameWithType: SubtitleBtnListenerBase.SetSubttileMode(SubtitleMode)
+  fullName: Funique.SubtitleBtnListenerBase.SetSubttileMode(Funique.SubtitleMode)
+  type: Method
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: SetSubttileMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 12
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public void SetSubttileMode(SubtitleMode mode)
+    parameters:
+    - id: mode
+      type: Funique.SubtitleMode
+    content.vb: Public Sub SetSubttileMode(mode As SubtitleMode)
+  overload: Funique.SubtitleBtnListenerBase.SetSubttileMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.SubtitleBtnListenerBase.CleanSubttileLabel
+  commentId: M:Funique.SubtitleBtnListenerBase.CleanSubttileLabel
+  id: CleanSubttileLabel
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: CleanSubttileLabel()
+  nameWithType: SubtitleBtnListenerBase.CleanSubttileLabel()
+  fullName: Funique.SubtitleBtnListenerBase.CleanSubttileLabel()
+  type: Method
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: CleanSubttileLabel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 17
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public void CleanSubttileLabel()
+    content.vb: Public Sub CleanSubttileLabel
+  overload: Funique.SubtitleBtnListenerBase.CleanSubttileLabel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.SubtitleBtnListenerBase.ChangeSubttileMode(System.Int32)
+  commentId: M:Funique.SubtitleBtnListenerBase.ChangeSubttileMode(System.Int32)
+  id: ChangeSubttileMode(System.Int32)
+  parent: Funique.SubtitleBtnListenerBase
+  langs:
+  - csharp
+  - vb
+  name: ChangeSubttileMode(Int32)
+  nameWithType: SubtitleBtnListenerBase.ChangeSubttileMode(Int32)
+  fullName: Funique.SubtitleBtnListenerBase.ChangeSubttileMode(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Component/SubtitleBtnListenerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_media.git
+    id: ChangeSubttileMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Media/Component/SubtitleBtnListenerBase.cs
+    startLine: 24
+  assemblies:
+  - Funique.Media
+  namespace: Funique
+  syntax:
+    content: public virtual void ChangeSubttileMode(int NewIndex)
+    parameters:
+    - id: NewIndex
+      type: System.Int32
+    content.vb: Public Overridable Sub ChangeSubttileMode(NewIndex As Integer)
+  overload: Funique.SubtitleBtnListenerBase.ChangeSubttileMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.SubtitleBtnListenerBase.index*
+  commentId: Overload:Funique.SubtitleBtnListenerBase.index
+  name: index
+  nameWithType: SubtitleBtnListenerBase.index
+  fullName: Funique.SubtitleBtnListenerBase.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Funique.SubtitleBtnListenerBase.SetSubttileMode*
+  commentId: Overload:Funique.SubtitleBtnListenerBase.SetSubttileMode
+  name: SetSubttileMode
+  nameWithType: SubtitleBtnListenerBase.SetSubttileMode
+  fullName: Funique.SubtitleBtnListenerBase.SetSubttileMode
+- uid: Funique.SubtitleMode
+  commentId: T:Funique.SubtitleMode
+  parent: Funique
+  name: SubtitleMode
+  nameWithType: SubtitleMode
+  fullName: Funique.SubtitleMode
+- uid: Funique.SubtitleBtnListenerBase.CleanSubttileLabel*
+  commentId: Overload:Funique.SubtitleBtnListenerBase.CleanSubttileLabel
+  name: CleanSubttileLabel
+  nameWithType: SubtitleBtnListenerBase.CleanSubttileLabel
+  fullName: Funique.SubtitleBtnListenerBase.CleanSubttileLabel
+- uid: Funique.SubtitleBtnListenerBase.ChangeSubttileMode*
+  commentId: Overload:Funique.SubtitleBtnListenerBase.ChangeSubttileMode
+  name: ChangeSubttileMode
+  nameWithType: SubtitleBtnListenerBase.ChangeSubttileMode
+  fullName: Funique.SubtitleBtnListenerBase.ChangeSubttileMode

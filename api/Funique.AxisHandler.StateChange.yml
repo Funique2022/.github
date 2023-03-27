@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AxisHandler.StateChange
+  commentId: T:Funique.AxisHandler.StateChange
+  id: AxisHandler.StateChange
+  parent: Funique
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AxisHandler.StateChange
+  nameWithType: AxisHandler.StateChange
+  fullName: Funique.AxisHandler.StateChange
+  type: Delegate
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: StateChange
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler.cs
+    startLine: 21
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public delegate void StateChange();
+    content.vb: Public Delegate Sub StateChange
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique

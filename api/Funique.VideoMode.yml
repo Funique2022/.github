@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.VideoMode
+  commentId: T:Funique.VideoMode
+  id: VideoMode
+  parent: Funique
+  children:
+  - Funique.VideoMode.Image
+  - Funique.VideoMode.Url
+  - Funique.VideoMode.Video
+  langs:
+  - csharp
+  - vb
+  name: VideoMode
+  nameWithType: VideoMode
+  fullName: Funique.VideoMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/VideoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: VideoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/VideoMode.cs
+    startLine: 2
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public enum VideoMode
+    content.vb: Public Enum VideoMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.VideoMode.Video
+  commentId: F:Funique.VideoMode.Video
+  id: Video
+  parent: Funique.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: VideoMode.Video
+  fullName: Funique.VideoMode.Video
+  type: Field
+  source:
+    remote:
+      path: Enum/VideoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Video
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/VideoMode.cs
+    startLine: 4
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Video = 0
+    return:
+      type: Funique.VideoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.VideoMode.Image
+  commentId: F:Funique.VideoMode.Image
+  id: Image
+  parent: Funique.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: VideoMode.Image
+  fullName: Funique.VideoMode.Image
+  type: Field
+  source:
+    remote:
+      path: Enum/VideoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Image
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/VideoMode.cs
+    startLine: 5
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Image = 1
+    return:
+      type: Funique.VideoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.VideoMode.Url
+  commentId: F:Funique.VideoMode.Url
+  id: Url
+  parent: Funique.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: VideoMode.Url
+  fullName: Funique.VideoMode.Url
+  type: Field
+  source:
+    remote:
+      path: Enum/VideoMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Url
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/VideoMode.cs
+    startLine: 6
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: Url = 2
+    return:
+      type: Funique.VideoMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.VideoMode
+  commentId: T:Funique.VideoMode
+  parent: Funique
+  name: VideoMode
+  nameWithType: VideoMode
+  fullName: Funique.VideoMode

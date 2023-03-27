@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Player.IPlayerUtility
+  commentId: T:Funique.Player.IPlayerUtility
+  id: IPlayerUtility
+  parent: Funique.Player
+  children:
+  - Funique.Player.IPlayerUtility.PlayerView
+  - Funique.Player.IPlayerUtility.RefFakePlayer
+  - Funique.Player.IPlayerUtility.RefPlayer
+  - Funique.Player.IPlayerUtility.SelectedPlayerIPList
+  langs:
+  - csharp
+  - vb
+  name: IPlayerUtility
+  nameWithType: IPlayerUtility
+  fullName: Funique.Player.IPlayerUtility
+  type: Interface
+  source:
+    remote:
+      path: Interface/IPlayerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_player.git
+    id: IPlayerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Player/Interface/IPlayerUtility.cs
+    startLine: 10
+  assemblies:
+  - Funique.Player
+  namespace: Funique.Player
+  summary: "\nPlayer utility, Unit testable <br />\n------------------------------------------------ <br />\n玩家功能. 可被單元測試\n"
+  example: []
+  syntax:
+    content: public interface IPlayerUtility
+    content.vb: Public Interface IPlayerUtility
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Player.IPlayerUtility.SelectedPlayerIPList
+  commentId: P:Funique.Player.IPlayerUtility.SelectedPlayerIPList
+  id: SelectedPlayerIPList
+  parent: Funique.Player.IPlayerUtility
+  langs:
+  - csharp
+  - vb
+  name: SelectedPlayerIPList
+  nameWithType: IPlayerUtility.SelectedPlayerIPList
+  fullName: Funique.Player.IPlayerUtility.SelectedPlayerIPList
+  type: Property
+  source:
+    remote:
+      path: Interface/IPlayerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_player.git
+    id: SelectedPlayerIPList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Player/Interface/IPlayerUtility.cs
+    startLine: 12
+  assemblies:
+  - Funique.Player
+  namespace: Funique.Player
+  syntax:
+    content: List<string> SelectedPlayerIPList { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: ReadOnly Property SelectedPlayerIPList As List(Of String)
+  overload: Funique.Player.IPlayerUtility.SelectedPlayerIPList*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Player.IPlayerUtility.RefPlayer
+  commentId: P:Funique.Player.IPlayerUtility.RefPlayer
+  id: RefPlayer
+  parent: Funique.Player.IPlayerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefPlayer
+  nameWithType: IPlayerUtility.RefPlayer
+  fullName: Funique.Player.IPlayerUtility.RefPlayer
+  type: Property
+  source:
+    remote:
+      path: Interface/IPlayerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_player.git
+    id: RefPlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Player/Interface/IPlayerUtility.cs
+    startLine: 13
+  assemblies:
+  - Funique.Player
+  namespace: Funique.Player
+  syntax:
+    content: GameObject RefPlayer { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: ReadOnly Property RefPlayer As GameObject
+  overload: Funique.Player.IPlayerUtility.RefPlayer*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Player.IPlayerUtility.RefFakePlayer
+  commentId: P:Funique.Player.IPlayerUtility.RefFakePlayer
+  id: RefFakePlayer
+  parent: Funique.Player.IPlayerUtility
+  langs:
+  - csharp
+  - vb
+  name: RefFakePlayer
+  nameWithType: IPlayerUtility.RefFakePlayer
+  fullName: Funique.Player.IPlayerUtility.RefFakePlayer
+  type: Property
+  source:
+    remote:
+      path: Interface/IPlayerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_player.git
+    id: RefFakePlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Player/Interface/IPlayerUtility.cs
+    startLine: 14
+  assemblies:
+  - Funique.Player
+  namespace: Funique.Player
+  syntax:
+    content: GameObject RefFakePlayer { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: ReadOnly Property RefFakePlayer As GameObject
+  overload: Funique.Player.IPlayerUtility.RefFakePlayer*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Player.IPlayerUtility.PlayerView
+  commentId: P:Funique.Player.IPlayerUtility.PlayerView
+  id: PlayerView
+  parent: Funique.Player.IPlayerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerView
+  nameWithType: IPlayerUtility.PlayerView
+  fullName: Funique.Player.IPlayerUtility.PlayerView
+  type: Property
+  source:
+    remote:
+      path: Interface/IPlayerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_player.git
+    id: PlayerView
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Player/Interface/IPlayerUtility.cs
+    startLine: 15
+  assemblies:
+  - Funique.Player
+  namespace: Funique.Player
+  syntax:
+    content: Dictionary<string, PlayerViewBase> PlayerView { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Funique.Player.PlayerViewBase}
+    content.vb: ReadOnly Property PlayerView As Dictionary(Of String, PlayerViewBase)
+  overload: Funique.Player.IPlayerUtility.PlayerView*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Funique.Player
+  commentId: N:Funique.Player
+  name: Funique.Player
+  nameWithType: Funique.Player
+  fullName: Funique.Player
+- uid: Funique.Player.IPlayerUtility.SelectedPlayerIPList*
+  commentId: Overload:Funique.Player.IPlayerUtility.SelectedPlayerIPList
+  name: SelectedPlayerIPList
+  nameWithType: IPlayerUtility.SelectedPlayerIPList
+  fullName: Funique.Player.IPlayerUtility.SelectedPlayerIPList
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.Player.IPlayerUtility.RefPlayer*
+  commentId: Overload:Funique.Player.IPlayerUtility.RefPlayer
+  name: RefPlayer
+  nameWithType: IPlayerUtility.RefPlayer
+  fullName: Funique.Player.IPlayerUtility.RefPlayer
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.Player.IPlayerUtility.RefFakePlayer*
+  commentId: Overload:Funique.Player.IPlayerUtility.RefFakePlayer
+  name: RefFakePlayer
+  nameWithType: IPlayerUtility.RefFakePlayer
+  fullName: Funique.Player.IPlayerUtility.RefFakePlayer
+- uid: Funique.Player.IPlayerUtility.PlayerView*
+  commentId: Overload:Funique.Player.IPlayerUtility.PlayerView
+  name: PlayerView
+  nameWithType: IPlayerUtility.PlayerView
+  fullName: Funique.Player.IPlayerUtility.PlayerView
+- uid: System.Collections.Generic.Dictionary{System.String,Funique.Player.PlayerViewBase}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Funique.Player.PlayerViewBase}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, PlayerViewBase>
+  nameWithType: Dictionary<String, PlayerViewBase>
+  fullName: System.Collections.Generic.Dictionary<System.String, Funique.Player.PlayerViewBase>
+  nameWithType.vb: Dictionary(Of String, PlayerViewBase)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Funique.Player.PlayerViewBase)
+  name.vb: Dictionary(Of String, PlayerViewBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.Player.PlayerViewBase
+    name: PlayerViewBase
+    nameWithType: PlayerViewBase
+    fullName: Funique.Player.PlayerViewBase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.Player.PlayerViewBase
+    name: PlayerViewBase
+    nameWithType: PlayerViewBase
+    fullName: Funique.Player.PlayerViewBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

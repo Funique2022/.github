@@ -1,0 +1,2249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SVerdeTools.FastGizmos.FastGizmos
+  commentId: T:SVerdeTools.FastGizmos.FastGizmos
+  id: FastGizmos
+  parent: SVerdeTools.FastGizmos
+  children:
+  - SVerdeTools.FastGizmos.FastGizmos.active
+  - SVerdeTools.FastGizmos.FastGizmos.allowScaling
+  - SVerdeTools.FastGizmos.FastGizmos.aspect
+  - SVerdeTools.FastGizmos.FastGizmos.cam
+  - SVerdeTools.FastGizmos.FastGizmos.color
+  - SVerdeTools.FastGizmos.FastGizmos.cubeCenter
+  - SVerdeTools.FastGizmos.FastGizmos.cubeSize
+  - SVerdeTools.FastGizmos.FastGizmos.directionR
+  - SVerdeTools.FastGizmos.FastGizmos.drawVertex
+  - SVerdeTools.FastGizmos.FastGizmos.endPointLE
+  - SVerdeTools.FastGizmos.FastGizmos.fov
+  - SVerdeTools.FastGizmos.FastGizmos.fromR
+  - SVerdeTools.FastGizmos.FastGizmos.fromTr
+  - SVerdeTools.FastGizmos.FastGizmos.fromTrLE
+  - SVerdeTools.FastGizmos.FastGizmos.fromV
+  - SVerdeTools.FastGizmos.FastGizmos.frustumCenter
+  - SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex
+  - SVerdeTools.FastGizmos.FastGizmos.iconCenter
+  - SVerdeTools.FastGizmos.FastGizmos.iconName
+  - SVerdeTools.FastGizmos.FastGizmos.mat
+  - SVerdeTools.FastGizmos.FastGizmos.maxRange
+  - SVerdeTools.FastGizmos.FastGizmos.mesh
+  - SVerdeTools.FastGizmos.FastGizmos.meshPosition
+  - SVerdeTools.FastGizmos.FastGizmos.meshRotation
+  - SVerdeTools.FastGizmos.FastGizmos.meshScale
+  - SVerdeTools.FastGizmos.FastGizmos.minRange
+  - SVerdeTools.FastGizmos.FastGizmos.positionCE
+  - SVerdeTools.FastGizmos.FastGizmos.positionIsCenterCube
+  - SVerdeTools.FastGizmos.FastGizmos.positionIsCenterFrustum
+  - SVerdeTools.FastGizmos.FastGizmos.positionIsCenterIcon
+  - SVerdeTools.FastGizmos.FastGizmos.positionIsCenterSphere
+  - SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireCube
+  - SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireSphere
+  - SVerdeTools.FastGizmos.FastGizmos.positionWCE
+  - SVerdeTools.FastGizmos.FastGizmos.radiusS
+  - SVerdeTools.FastGizmos.FastGizmos.radiusWS
+  - SVerdeTools.FastGizmos.FastGizmos.rotationCE
+  - SVerdeTools.FastGizmos.FastGizmos.rotationWCE
+  - SVerdeTools.FastGizmos.FastGizmos.scaleCE
+  - SVerdeTools.FastGizmos.FastGizmos.scaleWCE
+  - SVerdeTools.FastGizmos.FastGizmos.screenRect
+  - SVerdeTools.FastGizmos.FastGizmos.sphereCenter
+  - SVerdeTools.FastGizmos.FastGizmos.startPointLE
+  - SVerdeTools.FastGizmos.FastGizmos.subMeshIndex
+  - SVerdeTools.FastGizmos.FastGizmos.subWireMeshIndex
+  - SVerdeTools.FastGizmos.FastGizmos.texture
+  - SVerdeTools.FastGizmos.FastGizmos.thickness
+  - SVerdeTools.FastGizmos.FastGizmos.toTr
+  - SVerdeTools.FastGizmos.FastGizmos.toTrLE
+  - SVerdeTools.FastGizmos.FastGizmos.toV
+  - SVerdeTools.FastGizmos.FastGizmos.transformIsMeshTransform
+  - SVerdeTools.FastGizmos.FastGizmos.transformIsWireMeshTransform
+  - SVerdeTools.FastGizmos.FastGizmos.type
+  - SVerdeTools.FastGizmos.FastGizmos.Type
+  - SVerdeTools.FastGizmos.FastGizmos.useTwoTransforms
+  - SVerdeTools.FastGizmos.FastGizmos.useTwoTransformsLE
+  - SVerdeTools.FastGizmos.FastGizmos.wireCubeCenter
+  - SVerdeTools.FastGizmos.FastGizmos.wireCubeSize
+  - SVerdeTools.FastGizmos.FastGizmos.wireMesh
+  - SVerdeTools.FastGizmos.FastGizmos.wireMeshPosition
+  - SVerdeTools.FastGizmos.FastGizmos.wireMeshRotation
+  - SVerdeTools.FastGizmos.FastGizmos.wireMeshScale
+  - SVerdeTools.FastGizmos.FastGizmos.wireSphereCenter
+  langs:
+  - csharp
+  - vb
+  name: FastGizmos
+  nameWithType: FastGizmos
+  fullName: SVerdeTools.FastGizmos.FastGizmos
+  type: Class
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: FastGizmos
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 10
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: 'public class FastGizmos : MonoBehaviour'
+    content.vb: >-
+      Public Class FastGizmos
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SVerdeTools.FastGizmos.FastGizmos.Type
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.Type
+  id: Type
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: FastGizmos.Type
+  fullName: SVerdeTools.FastGizmos.FastGizmos.Type
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Type
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public static readonly string[] Type
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly Type As String()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SVerdeTools.FastGizmos.FastGizmos.type
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.type
+  id: type
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: FastGizmos.type
+  fullName: SVerdeTools.FastGizmos.FastGizmos.type
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: type
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 31
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public string type
+    return:
+      type: System.String
+    content.vb: Public type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.color
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.color
+  id: color
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: color
+  nameWithType: FastGizmos.color
+  fullName: SVerdeTools.FastGizmos.FastGizmos.color
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: color
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 32
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Color color
+    return:
+      type: UnityEngine.Color
+    content.vb: Public color As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.active
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.active
+  id: active
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: active
+  nameWithType: FastGizmos.active
+  fullName: SVerdeTools.FastGizmos.FastGizmos.active
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: active
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 33
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool active
+    return:
+      type: System.Boolean
+    content.vb: Public active As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterCube
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionIsCenterCube
+  id: positionIsCenterCube
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionIsCenterCube
+  nameWithType: FastGizmos.positionIsCenterCube
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterCube
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionIsCenterCube
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 36
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool positionIsCenterCube
+    return:
+      type: System.Boolean
+    content.vb: Public positionIsCenterCube As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.cubeCenter
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.cubeCenter
+  id: cubeCenter
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: cubeCenter
+  nameWithType: FastGizmos.cubeCenter
+  fullName: SVerdeTools.FastGizmos.FastGizmos.cubeCenter
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: cubeCenter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 37
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 cubeCenter
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public cubeCenter As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.cubeSize
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.cubeSize
+  id: cubeSize
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: cubeSize
+  nameWithType: FastGizmos.cubeSize
+  fullName: SVerdeTools.FastGizmos.FastGizmos.cubeSize
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: cubeSize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 38
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 cubeSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public cubeSize As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterFrustum
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionIsCenterFrustum
+  id: positionIsCenterFrustum
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionIsCenterFrustum
+  nameWithType: FastGizmos.positionIsCenterFrustum
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterFrustum
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionIsCenterFrustum
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 40
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool positionIsCenterFrustum
+    return:
+      type: System.Boolean
+    content.vb: Public positionIsCenterFrustum As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.frustumCenter
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.frustumCenter
+  id: frustumCenter
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: frustumCenter
+  nameWithType: FastGizmos.frustumCenter
+  fullName: SVerdeTools.FastGizmos.FastGizmos.frustumCenter
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: frustumCenter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 41
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 frustumCenter
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public frustumCenter As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.fov
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.fov
+  id: fov
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: fov
+  nameWithType: FastGizmos.fov
+  fullName: SVerdeTools.FastGizmos.FastGizmos.fov
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: fov
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 42
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float fov
+    return:
+      type: System.Single
+    content.vb: Public fov As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.maxRange
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.maxRange
+  id: maxRange
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: maxRange
+  nameWithType: FastGizmos.maxRange
+  fullName: SVerdeTools.FastGizmos.FastGizmos.maxRange
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: maxRange
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 43
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float maxRange
+    return:
+      type: System.Single
+    content.vb: Public maxRange As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.minRange
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.minRange
+  id: minRange
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: minRange
+  nameWithType: FastGizmos.minRange
+  fullName: SVerdeTools.FastGizmos.FastGizmos.minRange
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: minRange
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 44
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float minRange
+    return:
+      type: System.Single
+    content.vb: Public minRange As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.aspect
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.aspect
+  id: aspect
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: aspect
+  nameWithType: FastGizmos.aspect
+  fullName: SVerdeTools.FastGizmos.FastGizmos.aspect
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: aspect
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 45
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float aspect
+    return:
+      type: System.Single
+    content.vb: Public aspect As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.screenRect
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.screenRect
+  id: screenRect
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: screenRect
+  nameWithType: FastGizmos.screenRect
+  fullName: SVerdeTools.FastGizmos.FastGizmos.screenRect
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: screenRect
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 47
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Rect screenRect
+    return:
+      type: UnityEngine.Rect
+    content.vb: Public screenRect As Rect
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.texture
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.texture
+  id: texture
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: texture
+  nameWithType: FastGizmos.texture
+  fullName: SVerdeTools.FastGizmos.FastGizmos.texture
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: texture
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 48
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Texture texture
+    return:
+      type: UnityEngine.Texture
+    content.vb: Public texture As Texture
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.mat
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.mat
+  id: mat
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: mat
+  nameWithType: FastGizmos.mat
+  fullName: SVerdeTools.FastGizmos.FastGizmos.mat
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: mat
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 49
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Material mat
+    return:
+      type: UnityEngine.Material
+    content.vb: Public mat As Material
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterIcon
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionIsCenterIcon
+  id: positionIsCenterIcon
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionIsCenterIcon
+  nameWithType: FastGizmos.positionIsCenterIcon
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterIcon
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionIsCenterIcon
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 51
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool positionIsCenterIcon
+    return:
+      type: System.Boolean
+    content.vb: Public positionIsCenterIcon As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.iconCenter
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.iconCenter
+  id: iconCenter
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: iconCenter
+  nameWithType: FastGizmos.iconCenter
+  fullName: SVerdeTools.FastGizmos.FastGizmos.iconCenter
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: iconCenter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 52
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 iconCenter
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public iconCenter As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.iconName
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.iconName
+  id: iconName
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: iconName
+  nameWithType: FastGizmos.iconName
+  fullName: SVerdeTools.FastGizmos.FastGizmos.iconName
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: iconName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 53
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public string iconName
+    return:
+      type: System.String
+    content.vb: Public iconName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.allowScaling
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.allowScaling
+  id: allowScaling
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: allowScaling
+  nameWithType: FastGizmos.allowScaling
+  fullName: SVerdeTools.FastGizmos.FastGizmos.allowScaling
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: allowScaling
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 54
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool allowScaling
+    return:
+      type: System.Boolean
+    content.vb: Public allowScaling As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.useTwoTransforms
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.useTwoTransforms
+  id: useTwoTransforms
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: useTwoTransforms
+  nameWithType: FastGizmos.useTwoTransforms
+  fullName: SVerdeTools.FastGizmos.FastGizmos.useTwoTransforms
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: useTwoTransforms
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 56
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool useTwoTransforms
+    return:
+      type: System.Boolean
+    content.vb: Public useTwoTransforms As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.fromV
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.fromV
+  id: fromV
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: fromV
+  nameWithType: FastGizmos.fromV
+  fullName: SVerdeTools.FastGizmos.FastGizmos.fromV
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: fromV
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 57
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 fromV
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public fromV As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.toV
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.toV
+  id: toV
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: toV
+  nameWithType: FastGizmos.toV
+  fullName: SVerdeTools.FastGizmos.FastGizmos.toV
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: toV
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 58
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 toV
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public toV As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.fromTr
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.fromTr
+  id: fromTr
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: fromTr
+  nameWithType: FastGizmos.fromTr
+  fullName: SVerdeTools.FastGizmos.FastGizmos.fromTr
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: fromTr
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 59
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Transform fromTr
+    return:
+      type: UnityEngine.Transform
+    content.vb: Public fromTr As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.toTr
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.toTr
+  id: toTr
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: toTr
+  nameWithType: FastGizmos.toTr
+  fullName: SVerdeTools.FastGizmos.FastGizmos.toTr
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: toTr
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 60
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Transform toTr
+    return:
+      type: UnityEngine.Transform
+    content.vb: Public toTr As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.mesh
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.mesh
+  id: mesh
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: mesh
+  nameWithType: FastGizmos.mesh
+  fullName: SVerdeTools.FastGizmos.FastGizmos.mesh
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: mesh
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 62
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Mesh mesh
+    return:
+      type: UnityEngine.Mesh
+    content.vb: Public mesh As Mesh
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.transformIsMeshTransform
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.transformIsMeshTransform
+  id: transformIsMeshTransform
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: transformIsMeshTransform
+  nameWithType: FastGizmos.transformIsMeshTransform
+  fullName: SVerdeTools.FastGizmos.FastGizmos.transformIsMeshTransform
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: transformIsMeshTransform
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 63
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool transformIsMeshTransform
+    return:
+      type: System.Boolean
+    content.vb: Public transformIsMeshTransform As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.meshPosition
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.meshPosition
+  id: meshPosition
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: meshPosition
+  nameWithType: FastGizmos.meshPosition
+  fullName: SVerdeTools.FastGizmos.FastGizmos.meshPosition
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: meshPosition
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 64
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 meshPosition
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public meshPosition As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.meshRotation
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.meshRotation
+  id: meshRotation
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: meshRotation
+  nameWithType: FastGizmos.meshRotation
+  fullName: SVerdeTools.FastGizmos.FastGizmos.meshRotation
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: meshRotation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 65
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 meshRotation
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public meshRotation As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.meshScale
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.meshScale
+  id: meshScale
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: meshScale
+  nameWithType: FastGizmos.meshScale
+  fullName: SVerdeTools.FastGizmos.FastGizmos.meshScale
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: meshScale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 66
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 meshScale
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public meshScale As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.subMeshIndex
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.subMeshIndex
+  id: subMeshIndex
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: subMeshIndex
+  nameWithType: FastGizmos.subMeshIndex
+  fullName: SVerdeTools.FastGizmos.FastGizmos.subMeshIndex
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: subMeshIndex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 67
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public int subMeshIndex
+    return:
+      type: System.Int32
+    content.vb: Public subMeshIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.fromR
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.fromR
+  id: fromR
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: fromR
+  nameWithType: FastGizmos.fromR
+  fullName: SVerdeTools.FastGizmos.FastGizmos.fromR
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: fromR
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 69
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 fromR
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public fromR As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.directionR
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.directionR
+  id: directionR
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: directionR
+  nameWithType: FastGizmos.directionR
+  fullName: SVerdeTools.FastGizmos.FastGizmos.directionR
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: directionR
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 70
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 directionR
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public directionR As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterSphere
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionIsCenterSphere
+  id: positionIsCenterSphere
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionIsCenterSphere
+  nameWithType: FastGizmos.positionIsCenterSphere
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterSphere
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionIsCenterSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 72
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool positionIsCenterSphere
+    return:
+      type: System.Boolean
+    content.vb: Public positionIsCenterSphere As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.sphereCenter
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.sphereCenter
+  id: sphereCenter
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: sphereCenter
+  nameWithType: FastGizmos.sphereCenter
+  fullName: SVerdeTools.FastGizmos.FastGizmos.sphereCenter
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: sphereCenter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 73
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 sphereCenter
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public sphereCenter As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.radiusS
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.radiusS
+  id: radiusS
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: radiusS
+  nameWithType: FastGizmos.radiusS
+  fullName: SVerdeTools.FastGizmos.FastGizmos.radiusS
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: radiusS
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 74
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float radiusS
+    return:
+      type: System.Single
+    content.vb: Public radiusS As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireCube
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireCube
+  id: positionIsCenterWireCube
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionIsCenterWireCube
+  nameWithType: FastGizmos.positionIsCenterWireCube
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireCube
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionIsCenterWireCube
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 76
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool positionIsCenterWireCube
+    return:
+      type: System.Boolean
+    content.vb: Public positionIsCenterWireCube As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireCubeCenter
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireCubeCenter
+  id: wireCubeCenter
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireCubeCenter
+  nameWithType: FastGizmos.wireCubeCenter
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireCubeCenter
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireCubeCenter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 77
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 wireCubeCenter
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public wireCubeCenter As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireCubeSize
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireCubeSize
+  id: wireCubeSize
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireCubeSize
+  nameWithType: FastGizmos.wireCubeSize
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireCubeSize
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireCubeSize
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 78
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 wireCubeSize
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public wireCubeSize As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireMesh
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireMesh
+  id: wireMesh
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireMesh
+  nameWithType: FastGizmos.wireMesh
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireMesh
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireMesh
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 80
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Mesh wireMesh
+    return:
+      type: UnityEngine.Mesh
+    content.vb: Public wireMesh As Mesh
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.transformIsWireMeshTransform
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.transformIsWireMeshTransform
+  id: transformIsWireMeshTransform
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: transformIsWireMeshTransform
+  nameWithType: FastGizmos.transformIsWireMeshTransform
+  fullName: SVerdeTools.FastGizmos.FastGizmos.transformIsWireMeshTransform
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: transformIsWireMeshTransform
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 81
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool transformIsWireMeshTransform
+    return:
+      type: System.Boolean
+    content.vb: Public transformIsWireMeshTransform As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireMeshPosition
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireMeshPosition
+  id: wireMeshPosition
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireMeshPosition
+  nameWithType: FastGizmos.wireMeshPosition
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireMeshPosition
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireMeshPosition
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 82
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 wireMeshPosition
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public wireMeshPosition As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireMeshRotation
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireMeshRotation
+  id: wireMeshRotation
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireMeshRotation
+  nameWithType: FastGizmos.wireMeshRotation
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireMeshRotation
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireMeshRotation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 83
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 wireMeshRotation
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public wireMeshRotation As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireMeshScale
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireMeshScale
+  id: wireMeshScale
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireMeshScale
+  nameWithType: FastGizmos.wireMeshScale
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireMeshScale
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireMeshScale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 84
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 wireMeshScale
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public wireMeshScale As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.subWireMeshIndex
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.subWireMeshIndex
+  id: subWireMeshIndex
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: subWireMeshIndex
+  nameWithType: FastGizmos.subWireMeshIndex
+  fullName: SVerdeTools.FastGizmos.FastGizmos.subWireMeshIndex
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: subWireMeshIndex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 85
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public int subWireMeshIndex
+    return:
+      type: System.Int32
+    content.vb: Public subWireMeshIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireSphere
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireSphere
+  id: positionIsCenterWireSphere
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionIsCenterWireSphere
+  nameWithType: FastGizmos.positionIsCenterWireSphere
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionIsCenterWireSphere
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionIsCenterWireSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 87
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool positionIsCenterWireSphere
+    return:
+      type: System.Boolean
+    content.vb: Public positionIsCenterWireSphere As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.wireSphereCenter
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.wireSphereCenter
+  id: wireSphereCenter
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: wireSphereCenter
+  nameWithType: FastGizmos.wireSphereCenter
+  fullName: SVerdeTools.FastGizmos.FastGizmos.wireSphereCenter
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: wireSphereCenter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 88
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 wireSphereCenter
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public wireSphereCenter As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.radiusWS
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.radiusWS
+  id: radiusWS
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: radiusWS
+  nameWithType: FastGizmos.radiusWS
+  fullName: SVerdeTools.FastGizmos.FastGizmos.radiusWS
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: radiusWS
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 89
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float radiusWS
+    return:
+      type: System.Single
+    content.vb: Public radiusWS As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.cam
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.cam
+  id: cam
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: cam
+  nameWithType: FastGizmos.cam
+  fullName: SVerdeTools.FastGizmos.FastGizmos.cam
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: cam
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 91
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Camera cam
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public cam As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.drawVertex
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.drawVertex
+  id: drawVertex
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: drawVertex
+  nameWithType: FastGizmos.drawVertex
+  fullName: SVerdeTools.FastGizmos.FastGizmos.drawVertex
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: drawVertex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 92
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool drawVertex
+    return:
+      type: System.Boolean
+    content.vb: Public drawVertex As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.startPointLE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.startPointLE
+  id: startPointLE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: startPointLE
+  nameWithType: FastGizmos.startPointLE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.startPointLE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: startPointLE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 94
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 startPointLE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public startPointLE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.endPointLE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.endPointLE
+  id: endPointLE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: endPointLE
+  nameWithType: FastGizmos.endPointLE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.endPointLE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: endPointLE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 95
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 endPointLE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public endPointLE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.fromTrLE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.fromTrLE
+  id: fromTrLE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: fromTrLE
+  nameWithType: FastGizmos.fromTrLE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.fromTrLE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: fromTrLE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 96
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Transform fromTrLE
+    return:
+      type: UnityEngine.Transform
+    content.vb: Public fromTrLE As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.toTrLE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.toTrLE
+  id: toTrLE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: toTrLE
+  nameWithType: FastGizmos.toTrLE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.toTrLE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: toTrLE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 97
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Transform toTrLE
+    return:
+      type: UnityEngine.Transform
+    content.vb: Public toTrLE As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.thickness
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.thickness
+  id: thickness
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: thickness
+  nameWithType: FastGizmos.thickness
+  fullName: SVerdeTools.FastGizmos.FastGizmos.thickness
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: thickness
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 98
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public float thickness
+    return:
+      type: System.Single
+    content.vb: Public thickness As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.useTwoTransformsLE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.useTwoTransformsLE
+  id: useTwoTransformsLE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: useTwoTransformsLE
+  nameWithType: FastGizmos.useTwoTransformsLE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.useTwoTransformsLE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: useTwoTransformsLE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 99
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool useTwoTransformsLE
+    return:
+      type: System.Boolean
+    content.vb: Public useTwoTransformsLE As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionCE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionCE
+  id: positionCE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionCE
+  nameWithType: FastGizmos.positionCE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionCE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionCE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 101
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 positionCE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public positionCE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.rotationCE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.rotationCE
+  id: rotationCE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: rotationCE
+  nameWithType: FastGizmos.rotationCE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.rotationCE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: rotationCE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 102
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 rotationCE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public rotationCE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.scaleCE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.scaleCE
+  id: scaleCE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: scaleCE
+  nameWithType: FastGizmos.scaleCE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.scaleCE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: scaleCE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 103
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 scaleCE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public scaleCE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.positionWCE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.positionWCE
+  id: positionWCE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: positionWCE
+  nameWithType: FastGizmos.positionWCE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.positionWCE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: positionWCE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 105
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 positionWCE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public positionWCE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.rotationWCE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.rotationWCE
+  id: rotationWCE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: rotationWCE
+  nameWithType: FastGizmos.rotationWCE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.rotationWCE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: rotationWCE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 106
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 rotationWCE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public rotationWCE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.scaleWCE
+  commentId: F:SVerdeTools.FastGizmos.FastGizmos.scaleWCE
+  id: scaleWCE
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: scaleWCE
+  nameWithType: FastGizmos.scaleWCE
+  fullName: SVerdeTools.FastGizmos.FastGizmos.scaleWCE
+  type: Field
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: scaleWCE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 107
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public Vector3 scaleWCE
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public scaleWCE As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex
+  commentId: M:SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex
+  id: GetTypeIndex
+  parent: SVerdeTools.FastGizmos.FastGizmos
+  langs:
+  - csharp
+  - vb
+  name: GetTypeIndex()
+  nameWithType: FastGizmos.GetTypeIndex()
+  fullName: SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex()
+  type: Method
+  source:
+    remote:
+      path: FastGizmos.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: GetTypeIndex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmos.cs
+    startLine: 202
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public int GetTypeIndex()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetTypeIndex As Integer
+  overload: SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SVerdeTools.FastGizmos
+  commentId: N:SVerdeTools.FastGizmos
+  name: SVerdeTools.FastGizmos
+  nameWithType: SVerdeTools.FastGizmos
+  fullName: SVerdeTools.FastGizmos
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: UnityEngine.Texture
+  commentId: T:UnityEngine.Texture
+  parent: UnityEngine
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: UnityEngine.Texture
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.Mesh
+  commentId: T:UnityEngine.Mesh
+  parent: UnityEngine
+  isExternal: true
+  name: Mesh
+  nameWithType: Mesh
+  fullName: UnityEngine.Mesh
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex*
+  commentId: Overload:SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex
+  name: GetTypeIndex
+  nameWithType: FastGizmos.GetTypeIndex
+  fullName: SVerdeTools.FastGizmos.FastGizmos.GetTypeIndex

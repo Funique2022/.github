@@ -1,0 +1,650 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.ThirdPartyApplication
+  commentId: T:Funique.ThirdPartyApplication
+  id: ThirdPartyApplication
+  parent: Funique
+  children:
+  - Funique.ThirdPartyApplication.#ctor
+  - Funique.ThirdPartyApplication.BackgroundWorker
+  - Funique.ThirdPartyApplication.Close
+  - Funique.ThirdPartyApplication.Completed(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)
+  - Funique.ThirdPartyApplication.Dispose
+  - Funique.ThirdPartyApplication.DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)
+  - Funique.ThirdPartyApplication.MainProcess
+  - Funique.ThirdPartyApplication.Open(System.ComponentModel.BackgroundWorker)
+  - Funique.ThirdPartyApplication.progress
+  - Funique.ThirdPartyApplication.ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)
+  - Funique.ThirdPartyApplication.Run
+  - Funique.ThirdPartyApplication.WorkerName
+  langs:
+  - csharp
+  - vb
+  name: ThirdPartyApplication
+  nameWithType: ThirdPartyApplication
+  fullName: Funique.ThirdPartyApplication
+  type: Class
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ThirdPartyApplication
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nUse seperate process to access third party application <br />\n------------------------------------------------ <br />\n使用額外的執行序還存取第三方執行檔\n"
+  example: []
+  syntax:
+    content: 'public abstract class ThirdPartyApplication : IDisposable'
+    content.vb: >-
+      Public MustInherit Class ThirdPartyApplication
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Funique.Streaming.FFmpegWorker
+  - Funique.Streaming.NginxWorker
+  implements:
+  - System.IDisposable
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Funique.ThirdPartyApplication.MainProcess
+  commentId: F:Funique.ThirdPartyApplication.MainProcess
+  id: MainProcess
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: MainProcess
+  nameWithType: ThirdPartyApplication.MainProcess
+  fullName: Funique.ThirdPartyApplication.MainProcess
+  type: Field
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: MainProcess
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: protected Process MainProcess
+    return:
+      type: System.Diagnostics.Process
+    content.vb: Protected MainProcess As Process
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ThirdPartyApplication.BackgroundWorker
+  commentId: F:Funique.ThirdPartyApplication.BackgroundWorker
+  id: BackgroundWorker
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: BackgroundWorker
+  nameWithType: ThirdPartyApplication.BackgroundWorker
+  fullName: Funique.ThirdPartyApplication.BackgroundWorker
+  type: Field
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: BackgroundWorker
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: protected BackgroundWorker BackgroundWorker
+    return:
+      type: System.ComponentModel.BackgroundWorker
+    content.vb: Protected BackgroundWorker As BackgroundWorker
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ThirdPartyApplication.progress
+  commentId: F:Funique.ThirdPartyApplication.progress
+  id: progress
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: progress
+  nameWithType: ThirdPartyApplication.progress
+  fullName: Funique.ThirdPartyApplication.progress
+  type: Field
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: progress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 22
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nDefault progress react is not enable <br />\nBut if enable this value will reflect current background worker&apos;s progress <br />\n------------------------------------------------ <br />\n預設進度條: 關閉 <br />\n如果打開, 這個數字會顯示目前執行的進度背景作業的\n"
+  example: []
+  syntax:
+    content: protected int progress
+    return:
+      type: System.Int32
+    content.vb: Protected progress As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ThirdPartyApplication.WorkerName
+  commentId: P:Funique.ThirdPartyApplication.WorkerName
+  id: WorkerName
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: WorkerName
+  nameWithType: ThirdPartyApplication.WorkerName
+  fullName: Funique.ThirdPartyApplication.WorkerName
+  type: Property
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: WorkerName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 28
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nEffect debug message tag <br />\n------------------------------------------------ <br />\n影響 Debug 資訊輸出的標籤\n"
+  example: []
+  syntax:
+    content: protected virtual string WorkerName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Overridable ReadOnly Property WorkerName As String
+  overload: Funique.ThirdPartyApplication.WorkerName*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: Funique.ThirdPartyApplication.#ctor
+  commentId: M:Funique.ThirdPartyApplication.#ctor
+  id: '#ctor'
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: ThirdPartyApplication()
+  nameWithType: ThirdPartyApplication.ThirdPartyApplication()
+  fullName: Funique.ThirdPartyApplication.ThirdPartyApplication()
+  type: Constructor
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 30
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public ThirdPartyApplication()
+    content.vb: Public Sub New
+  overload: Funique.ThirdPartyApplication.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.ThirdPartyApplication.Run
+  commentId: M:Funique.ThirdPartyApplication.Run
+  id: Run
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: ThirdPartyApplication.Run()
+  fullName: Funique.ThirdPartyApplication.Run()
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Run
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 46
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nRun background worker <br />\n------------------------------------------------ <br />\n執行背景工作序\n"
+  example: []
+  syntax:
+    content: public void Run()
+    content.vb: Public Sub Run
+  overload: Funique.ThirdPartyApplication.Run*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.ThirdPartyApplication.ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)
+  commentId: M:Funique.ThirdPartyApplication.ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)
+  id: ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: ProgressChanged(Object, ProgressChangedEventArgs)
+  nameWithType: ThirdPartyApplication.ProgressChanged(Object, ProgressChangedEventArgs)
+  fullName: Funique.ThirdPartyApplication.ProgressChanged(System.Object, System.ComponentModel.ProgressChangedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: ProgressChanged
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 59
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nBackground worker progress update event <br />\n------------------------------------------------ <br />\n背景工作序進度更新事件\n"
+  example: []
+  syntax:
+    content: protected virtual void ProgressChanged(object sender, ProgressChangedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.ComponentModel.ProgressChangedEventArgs
+      description: ''
+    content.vb: Protected Overridable Sub ProgressChanged(sender As Object, e As ProgressChangedEventArgs)
+  overload: Funique.ThirdPartyApplication.ProgressChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.ThirdPartyApplication.DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)
+  commentId: M:Funique.ThirdPartyApplication.DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)
+  id: DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: DoWork(Object, DoWorkEventArgs)
+  nameWithType: ThirdPartyApplication.DoWork(Object, DoWorkEventArgs)
+  fullName: Funique.ThirdPartyApplication.DoWork(System.Object, System.ComponentModel.DoWorkEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: DoWork
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 72
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nBackground do worker event <br />\nDefault, this will activate main process <br />\n------------------------------------------------ <br />\n背景工作序 執行事件 <br />\n預設, 這個會執行副執行序註冊的事件\n"
+  example: []
+  syntax:
+    content: protected virtual void DoWork(object sender, DoWorkEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.ComponentModel.DoWorkEventArgs
+      description: ''
+    content.vb: Protected Overridable Sub DoWork(sender As Object, e As DoWorkEventArgs)
+  overload: Funique.ThirdPartyApplication.DoWork*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.ThirdPartyApplication.Completed(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)
+  commentId: M:Funique.ThirdPartyApplication.Completed(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)
+  id: Completed(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: Completed(Object, RunWorkerCompletedEventArgs)
+  nameWithType: ThirdPartyApplication.Completed(Object, RunWorkerCompletedEventArgs)
+  fullName: Funique.ThirdPartyApplication.Completed(System.Object, System.ComponentModel.RunWorkerCompletedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Completed
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 84
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nWhen background process finished <br />\n------------------------------------------------ <br />\n當背景執行序結束執行\n"
+  example: []
+  syntax:
+    content: protected virtual void Completed(object sender, RunWorkerCompletedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: e
+      type: System.ComponentModel.RunWorkerCompletedEventArgs
+      description: ''
+    content.vb: Protected Overridable Sub Completed(sender As Object, e As RunWorkerCompletedEventArgs)
+  overload: Funique.ThirdPartyApplication.Completed*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.ThirdPartyApplication.Open(System.ComponentModel.BackgroundWorker)
+  commentId: M:Funique.ThirdPartyApplication.Open(System.ComponentModel.BackgroundWorker)
+  id: Open(System.ComponentModel.BackgroundWorker)
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: Open(BackgroundWorker)
+  nameWithType: ThirdPartyApplication.Open(BackgroundWorker)
+  fullName: Funique.ThirdPartyApplication.Open(System.ComponentModel.BackgroundWorker)
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Open
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 95
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMain process pre-activate event <br />\n------------------------------------------------ <br />\n在開始執行副執行序註冊的事件前置序\n"
+  example: []
+  syntax:
+    content: protected virtual void Open(BackgroundWorker bw)
+    parameters:
+    - id: bw
+      type: System.ComponentModel.BackgroundWorker
+      description: ''
+    content.vb: Protected Overridable Sub Open(bw As BackgroundWorker)
+  overload: Funique.ThirdPartyApplication.Open*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.ThirdPartyApplication.Close
+  commentId: M:Funique.ThirdPartyApplication.Close
+  id: Close
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: ThirdPartyApplication.Close()
+  fullName: Funique.ThirdPartyApplication.Close()
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Close
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 106
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCancel the process running but resource will keep it <br />\nIt can running again <br />\n------------------------------------------------ <br />\n取消執行序執行 但是會保留資源 <br />\n可以再度啟動\n"
+  example: []
+  syntax:
+    content: public virtual void Close()
+    content.vb: Public Overridable Sub Close
+  overload: Funique.ThirdPartyApplication.Close*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.ThirdPartyApplication.Dispose
+  commentId: M:Funique.ThirdPartyApplication.Dispose
+  id: Dispose
+  parent: Funique.ThirdPartyApplication
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ThirdPartyApplication.Dispose()
+  fullName: Funique.ThirdPartyApplication.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Util/ThirdPartyApplication.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Dispose
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/ThirdPartyApplication.cs
+    startLine: 117
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nKill the process and background process to release the memories <br />\n------------------------------------------------ <br />\n殺死執行序與背景作業來釋放資源\n"
+  example: []
+  syntax:
+    content: public virtual void Dispose()
+    content.vb: Public Overridable Sub Dispose
+  overload: Funique.ThirdPartyApplication.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Diagnostics.Process
+  commentId: T:System.Diagnostics.Process
+  parent: System.Diagnostics
+  isExternal: true
+  name: Process
+  nameWithType: Process
+  fullName: System.Diagnostics.Process
+- uid: System.Diagnostics
+  commentId: N:System.Diagnostics
+  isExternal: true
+  name: System.Diagnostics
+  nameWithType: System.Diagnostics
+  fullName: System.Diagnostics
+- uid: System.ComponentModel.BackgroundWorker
+  commentId: T:System.ComponentModel.BackgroundWorker
+  parent: System.ComponentModel
+  isExternal: true
+  name: BackgroundWorker
+  nameWithType: BackgroundWorker
+  fullName: System.ComponentModel.BackgroundWorker
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.ThirdPartyApplication.WorkerName*
+  commentId: Overload:Funique.ThirdPartyApplication.WorkerName
+  name: WorkerName
+  nameWithType: ThirdPartyApplication.WorkerName
+  fullName: Funique.ThirdPartyApplication.WorkerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.ThirdPartyApplication.#ctor*
+  commentId: Overload:Funique.ThirdPartyApplication.#ctor
+  name: ThirdPartyApplication
+  nameWithType: ThirdPartyApplication.ThirdPartyApplication
+  fullName: Funique.ThirdPartyApplication.ThirdPartyApplication
+- uid: Funique.ThirdPartyApplication.Run*
+  commentId: Overload:Funique.ThirdPartyApplication.Run
+  name: Run
+  nameWithType: ThirdPartyApplication.Run
+  fullName: Funique.ThirdPartyApplication.Run
+- uid: Funique.ThirdPartyApplication.ProgressChanged*
+  commentId: Overload:Funique.ThirdPartyApplication.ProgressChanged
+  name: ProgressChanged
+  nameWithType: ThirdPartyApplication.ProgressChanged
+  fullName: Funique.ThirdPartyApplication.ProgressChanged
+- uid: System.ComponentModel.ProgressChangedEventArgs
+  commentId: T:System.ComponentModel.ProgressChangedEventArgs
+  parent: System.ComponentModel
+  isExternal: true
+  name: ProgressChangedEventArgs
+  nameWithType: ProgressChangedEventArgs
+  fullName: System.ComponentModel.ProgressChangedEventArgs
+- uid: Funique.ThirdPartyApplication.DoWork*
+  commentId: Overload:Funique.ThirdPartyApplication.DoWork
+  name: DoWork
+  nameWithType: ThirdPartyApplication.DoWork
+  fullName: Funique.ThirdPartyApplication.DoWork
+- uid: System.ComponentModel.DoWorkEventArgs
+  commentId: T:System.ComponentModel.DoWorkEventArgs
+  parent: System.ComponentModel
+  isExternal: true
+  name: DoWorkEventArgs
+  nameWithType: DoWorkEventArgs
+  fullName: System.ComponentModel.DoWorkEventArgs
+- uid: Funique.ThirdPartyApplication.Completed*
+  commentId: Overload:Funique.ThirdPartyApplication.Completed
+  name: Completed
+  nameWithType: ThirdPartyApplication.Completed
+  fullName: Funique.ThirdPartyApplication.Completed
+- uid: System.ComponentModel.RunWorkerCompletedEventArgs
+  commentId: T:System.ComponentModel.RunWorkerCompletedEventArgs
+  parent: System.ComponentModel
+  isExternal: true
+  name: RunWorkerCompletedEventArgs
+  nameWithType: RunWorkerCompletedEventArgs
+  fullName: System.ComponentModel.RunWorkerCompletedEventArgs
+- uid: Funique.ThirdPartyApplication.Open*
+  commentId: Overload:Funique.ThirdPartyApplication.Open
+  name: Open
+  nameWithType: ThirdPartyApplication.Open
+  fullName: Funique.ThirdPartyApplication.Open
+- uid: Funique.ThirdPartyApplication.Close*
+  commentId: Overload:Funique.ThirdPartyApplication.Close
+  name: Close
+  nameWithType: ThirdPartyApplication.Close
+  fullName: Funique.ThirdPartyApplication.Close
+- uid: Funique.ThirdPartyApplication.Dispose*
+  commentId: Overload:Funique.ThirdPartyApplication.Dispose
+  name: Dispose
+  nameWithType: ThirdPartyApplication.Dispose
+  fullName: Funique.ThirdPartyApplication.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

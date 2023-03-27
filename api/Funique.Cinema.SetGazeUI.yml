@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Cinema.SetGazeUI
+  commentId: T:Funique.Cinema.SetGazeUI
+  id: SetGazeUI
+  parent: Funique.Cinema
+  children:
+  - Funique.Cinema.SetGazeUI.a
+  - Funique.Cinema.SetGazeUI.b
+  langs:
+  - csharp
+  - vb
+  name: SetGazeUI
+  nameWithType: SetGazeUI
+  fullName: Funique.Cinema.SetGazeUI
+  type: Class
+  source:
+    remote:
+      path: Component/SetGazeUI.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetGazeUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/SetGazeUI.cs
+    startLine: 11
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nSetup the gaze user interface resource <br />\n------------------------------------------------ <br />\n設置久看 UI 素材\n"
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Cinema/Set Gaze UI")]
+
+      public class SetGazeUI : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Cinema/Set Gaze UI")>
+
+      Public Class SetGazeUI
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Cinema/Set Gaze UI
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Cinema.SetGazeUI.a
+  commentId: F:Funique.Cinema.SetGazeUI.a
+  id: a
+  parent: Funique.Cinema.SetGazeUI
+  langs:
+  - csharp
+  - vb
+  name: a
+  nameWithType: SetGazeUI.a
+  fullName: Funique.Cinema.SetGazeUI.a
+  type: Field
+  source:
+    remote:
+      path: Component/SetGazeUI.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: a
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/SetGazeUI.cs
+    startLine: 14
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public GameObject a
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public a As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.SetGazeUI.b
+  commentId: F:Funique.Cinema.SetGazeUI.b
+  id: b
+  parent: Funique.Cinema.SetGazeUI
+  langs:
+  - csharp
+  - vb
+  name: b
+  nameWithType: SetGazeUI.b
+  fullName: Funique.Cinema.SetGazeUI.b
+  type: Field
+  source:
+    remote:
+      path: Component/SetGazeUI.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: b
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/SetGazeUI.cs
+    startLine: 14
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public GameObject b
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public b As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject

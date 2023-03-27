@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.PlayerState
+  commentId: T:Funique.PlayerState
+  id: PlayerState
+  parent: Funique
+  children:
+  - Funique.PlayerState.Pause
+  - Funique.PlayerState.Playing
+  - Funique.PlayerState.Stop
+  langs:
+  - csharp
+  - vb
+  name: PlayerState
+  nameWithType: PlayerState
+  fullName: Funique.PlayerState
+  type: Enum
+  source:
+    remote:
+      path: Enum/PlayerState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: PlayerState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerState.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlayer current state <br />\nOrder is important <br />\nThe order use in user interface order <br />\n------------------------------------------------ <br />\n用戶現在狀態 <br />\n順序重要 <br />\n順序用於 使用者介面的排版順序\n"
+  example: []
+  syntax:
+    content: public enum PlayerState
+    content.vb: Public Enum PlayerState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.PlayerState.Playing
+  commentId: F:Funique.PlayerState.Playing
+  id: Playing
+  parent: Funique.PlayerState
+  langs:
+  - csharp
+  - vb
+  name: Playing
+  nameWithType: PlayerState.Playing
+  fullName: Funique.PlayerState.Playing
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayerState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Playing
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerState.cs
+    startLine: 18
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMedia playing <br />\n------------------------------------------------ <br />\n播放中\n"
+  example: []
+  syntax:
+    content: Playing = 0
+    return:
+      type: Funique.PlayerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayerState.Pause
+  commentId: F:Funique.PlayerState.Pause
+  id: Pause
+  parent: Funique.PlayerState
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: PlayerState.Pause
+  fullName: Funique.PlayerState.Pause
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayerState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Pause
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerState.cs
+    startLine: 24
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMedia pause <br />\n------------------------------------------------ <br />\n暫停中\n"
+  example: []
+  syntax:
+    content: Pause = 1
+    return:
+      type: Funique.PlayerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.PlayerState.Stop
+  commentId: F:Funique.PlayerState.Stop
+  id: Stop
+  parent: Funique.PlayerState
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: PlayerState.Stop
+  fullName: Funique.PlayerState.Stop
+  type: Field
+  source:
+    remote:
+      path: Enum/PlayerState.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Stop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/PlayerState.cs
+    startLine: 30
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nMedia stop <br />\n------------------------------------------------ <br />\n停止中\n"
+  example: []
+  syntax:
+    content: Stop = 2
+    return:
+      type: Funique.PlayerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.PlayerState
+  commentId: T:Funique.PlayerState
+  parent: Funique
+  name: PlayerState
+  nameWithType: PlayerState
+  fullName: Funique.PlayerState

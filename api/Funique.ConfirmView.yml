@@ -1,0 +1,826 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.ConfirmView
+  commentId: T:Funique.ConfirmView
+  id: ConfirmView
+  parent: Funique
+  children:
+  - Funique.ConfirmView.CancelAction
+  - Funique.ConfirmView.CancelBtn
+  - Funique.ConfirmView.CheckAction
+  - Funique.ConfirmView.CheckActionStr
+  - Funique.ConfirmView.CheckBtn
+  - Funique.ConfirmView.ConfirmText
+  - Funique.ConfirmView.DisplayConfirmText
+  - Funique.ConfirmView.DisplayTitle
+  - Funique.ConfirmView.FocusInputField
+  - Funique.ConfirmView.InputField
+  - Funique.ConfirmView.Placeholder
+  - Funique.ConfirmView.PlaceholderText
+  - Funique.ConfirmView.Title
+  - Funique.ConfirmView.Value
+  langs:
+  - csharp
+  - vb
+  name: ConfirmView
+  nameWithType: ConfirmView
+  fullName: Funique.ConfirmView
+  type: Class
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: ConfirmView
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 6
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Setting/Confirm")]
+
+      public class ConfirmView : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Setting/Confirm")>
+
+      Public Class ConfirmView
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Setting/Confirm
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.ConfirmView.Title
+  commentId: F:Funique.ConfirmView.Title
+  id: Title
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ConfirmView.Title
+  fullName: Funique.ConfirmView.Title
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Title
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 11
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text Title
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected Title As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ConfirmView.ConfirmText
+  commentId: F:Funique.ConfirmView.ConfirmText
+  id: ConfirmText
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: ConfirmText
+  nameWithType: ConfirmView.ConfirmText
+  fullName: Funique.ConfirmView.ConfirmText
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: ConfirmText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 12
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text ConfirmText
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected ConfirmText As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ConfirmView.Placeholder
+  commentId: F:Funique.ConfirmView.Placeholder
+  id: Placeholder
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: Placeholder
+  nameWithType: ConfirmView.Placeholder
+  fullName: Funique.ConfirmView.Placeholder
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Placeholder
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 13
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Text Placeholder
+    return:
+      type: UnityEngine.UI.Text
+    content.vb: >-
+      <SerializeField>
+
+      Protected Placeholder As Text
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ConfirmView.CheckBtn
+  commentId: F:Funique.ConfirmView.CheckBtn
+  id: CheckBtn
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: CheckBtn
+  nameWithType: ConfirmView.CheckBtn
+  fullName: Funique.ConfirmView.CheckBtn
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CheckBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 14
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button CheckBtn
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected CheckBtn As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ConfirmView.CancelBtn
+  commentId: F:Funique.ConfirmView.CancelBtn
+  id: CancelBtn
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: CancelBtn
+  nameWithType: ConfirmView.CancelBtn
+  fullName: Funique.ConfirmView.CancelBtn
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CancelBtn
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 15
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected Button CancelBtn
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: >-
+      <SerializeField>
+
+      Protected CancelBtn As Button
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ConfirmView.InputField
+  commentId: F:Funique.ConfirmView.InputField
+  id: InputField
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: InputField
+  nameWithType: ConfirmView.InputField
+  fullName: Funique.ConfirmView.InputField
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: InputField
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 16
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected InputField InputField
+    return:
+      type: UnityEngine.UI.InputField
+    content.vb: >-
+      <SerializeField>
+
+      Protected InputField As InputField
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.ConfirmView.CheckAction
+  commentId: F:Funique.ConfirmView.CheckAction
+  id: CheckAction
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: CheckAction
+  nameWithType: ConfirmView.CheckAction
+  fullName: Funique.ConfirmView.CheckAction
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CheckAction
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 17
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public Action CheckAction
+    return:
+      type: System.Action
+    content.vb: >-
+      <SerializeField>
+
+      Public CheckAction As Action
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.CheckActionStr
+  commentId: F:Funique.ConfirmView.CheckActionStr
+  id: CheckActionStr
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: CheckActionStr
+  nameWithType: ConfirmView.CheckActionStr
+  fullName: Funique.ConfirmView.CheckActionStr
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CheckActionStr
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 18
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public Action<string> CheckActionStr
+    return:
+      type: System.Action{System.String}
+    content.vb: >-
+      <SerializeField>
+
+      Public CheckActionStr As Action(Of String)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.CancelAction
+  commentId: F:Funique.ConfirmView.CancelAction
+  id: CancelAction
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: CancelAction
+  nameWithType: ConfirmView.CancelAction
+  fullName: Funique.ConfirmView.CancelAction
+  type: Field
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CancelAction
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 19
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public Action CancelAction
+    return:
+      type: System.Action
+    content.vb: >-
+      <SerializeField>
+
+      Public CancelAction As Action
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.DisplayTitle
+  commentId: P:Funique.ConfirmView.DisplayTitle
+  id: DisplayTitle
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: DisplayTitle
+  nameWithType: ConfirmView.DisplayTitle
+  fullName: Funique.ConfirmView.DisplayTitle
+  type: Property
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DisplayTitle
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 25
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public string DisplayTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayTitle As String
+  overload: Funique.ConfirmView.DisplayTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.DisplayConfirmText
+  commentId: P:Funique.ConfirmView.DisplayConfirmText
+  id: DisplayConfirmText
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: DisplayConfirmText
+  nameWithType: ConfirmView.DisplayConfirmText
+  fullName: Funique.ConfirmView.DisplayConfirmText
+  type: Property
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: DisplayConfirmText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 30
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public string DisplayConfirmText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayConfirmText As String
+  overload: Funique.ConfirmView.DisplayConfirmText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.Value
+  commentId: P:Funique.ConfirmView.Value
+  id: Value
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ConfirmView.Value
+  fullName: Funique.ConfirmView.Value
+  type: Property
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Value
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 35
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Funique.ConfirmView.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.PlaceholderText
+  commentId: P:Funique.ConfirmView.PlaceholderText
+  id: PlaceholderText
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: PlaceholderText
+  nameWithType: ConfirmView.PlaceholderText
+  fullName: Funique.ConfirmView.PlaceholderText
+  type: Property
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlaceholderText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 40
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public string PlaceholderText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PlaceholderText As String
+  overload: Funique.ConfirmView.PlaceholderText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.ConfirmView.FocusInputField
+  commentId: M:Funique.ConfirmView.FocusInputField
+  id: FocusInputField
+  parent: Funique.ConfirmView
+  langs:
+  - csharp
+  - vb
+  name: FocusInputField()
+  nameWithType: ConfirmView.FocusInputField()
+  fullName: Funique.ConfirmView.FocusInputField()
+  type: Method
+  source:
+    remote:
+      path: Component/ConfirmView.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: FocusInputField
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/Component/ConfirmView.cs
+    startLine: 69
+  assemblies:
+  - Funique.Setting
+  namespace: Funique
+  syntax:
+    content: public void FocusInputField()
+    content.vb: Public Sub FocusInputField
+  overload: Funique.ConfirmView.FocusInputField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.UI.Text
+  commentId: T:UnityEngine.UI.Text
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: UnityEngine.UI.Text
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI.InputField
+  commentId: T:UnityEngine.UI.InputField
+  parent: UnityEngine.UI
+  isExternal: true
+  name: InputField
+  nameWithType: InputField
+  fullName: UnityEngine.UI.InputField
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  name: Action<String>
+  nameWithType: Action<String>
+  fullName: System.Action<System.String>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of System.String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.ConfirmView.DisplayTitle*
+  commentId: Overload:Funique.ConfirmView.DisplayTitle
+  name: DisplayTitle
+  nameWithType: ConfirmView.DisplayTitle
+  fullName: Funique.ConfirmView.DisplayTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.ConfirmView.DisplayConfirmText*
+  commentId: Overload:Funique.ConfirmView.DisplayConfirmText
+  name: DisplayConfirmText
+  nameWithType: ConfirmView.DisplayConfirmText
+  fullName: Funique.ConfirmView.DisplayConfirmText
+- uid: Funique.ConfirmView.Value*
+  commentId: Overload:Funique.ConfirmView.Value
+  name: Value
+  nameWithType: ConfirmView.Value
+  fullName: Funique.ConfirmView.Value
+- uid: Funique.ConfirmView.PlaceholderText*
+  commentId: Overload:Funique.ConfirmView.PlaceholderText
+  name: PlaceholderText
+  nameWithType: ConfirmView.PlaceholderText
+  fullName: Funique.ConfirmView.PlaceholderText
+- uid: Funique.ConfirmView.FocusInputField*
+  commentId: Overload:Funique.ConfirmView.FocusInputField
+  name: FocusInputField
+  nameWithType: ConfirmView.FocusInputField
+  fullName: Funique.ConfirmView.FocusInputField

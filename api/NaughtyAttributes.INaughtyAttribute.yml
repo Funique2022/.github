@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: NaughtyAttributes.INaughtyAttribute
+  commentId: T:NaughtyAttributes.INaughtyAttribute
+  id: INaughtyAttribute
+  parent: NaughtyAttributes
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: INaughtyAttribute
+  nameWithType: INaughtyAttribute
+  fullName: NaughtyAttributes.INaughtyAttribute
+  type: Interface
+  source:
+    remote:
+      path: Attribute/INaughtyAttribute.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: INaughtyAttribute
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Attribute/INaughtyAttribute.cs
+    startLine: 4
+  assemblies:
+  - Funique.Core
+  namespace: NaughtyAttributes
+  syntax:
+    content: public interface INaughtyAttribute
+    content.vb: Public Interface INaughtyAttribute
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: NaughtyAttributes
+  commentId: N:NaughtyAttributes
+  name: NaughtyAttributes
+  nameWithType: NaughtyAttributes
+  fullName: NaughtyAttributes

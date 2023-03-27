@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.Menu
+  commentId: N:Funique.UI.Menu
+  id: Funique.UI.Menu
+  children:
+  - Funique.UI.Menu.MenuElement
+  - Funique.UI.Menu.MenuFrame
+  - Funique.UI.Menu.RightMenuFactory
+  - Funique.UI.Menu.UIBase
+  - Funique.UI.Menu.UIButton
+  - Funique.UI.Menu.UIFrame
+  - Funique.UI.Menu.UIGrid
+  - Funique.UI.Menu.UITextButton
+  langs:
+  - csharp
+  - vb
+  name: Funique.UI.Menu
+  nameWithType: Funique.UI.Menu
+  fullName: Funique.UI.Menu
+  type: Namespace
+  assemblies:
+  - Funique.UI
+references:
+- uid: Funique.UI.Menu.MenuFrame
+  commentId: T:Funique.UI.Menu.MenuFrame
+  parent: Funique.UI.Menu
+  name: MenuFrame
+  nameWithType: MenuFrame
+  fullName: Funique.UI.Menu.MenuFrame
+- uid: Funique.UI.Menu.MenuElement
+  commentId: T:Funique.UI.Menu.MenuElement
+  name: MenuElement
+  nameWithType: MenuElement
+  fullName: Funique.UI.Menu.MenuElement
+- uid: Funique.UI.Menu.UIBase
+  commentId: T:Funique.UI.Menu.UIBase
+  parent: Funique.UI.Menu
+  name: UIBase
+  nameWithType: UIBase
+  fullName: Funique.UI.Menu.UIBase
+- uid: Funique.UI.Menu.UIFrame
+  commentId: T:Funique.UI.Menu.UIFrame
+  name: UIFrame
+  nameWithType: UIFrame
+  fullName: Funique.UI.Menu.UIFrame
+- uid: Funique.UI.Menu.UIGrid
+  commentId: T:Funique.UI.Menu.UIGrid
+  name: UIGrid
+  nameWithType: UIGrid
+  fullName: Funique.UI.Menu.UIGrid
+- uid: Funique.UI.Menu.UIButton
+  commentId: T:Funique.UI.Menu.UIButton
+  name: UIButton
+  nameWithType: UIButton
+  fullName: Funique.UI.Menu.UIButton
+- uid: Funique.UI.Menu.UITextButton
+  commentId: T:Funique.UI.Menu.UITextButton
+  name: UITextButton
+  nameWithType: UITextButton
+  fullName: Funique.UI.Menu.UITextButton
+- uid: Funique.UI.Menu.RightMenuFactory
+  commentId: T:Funique.UI.Menu.RightMenuFactory
+  name: RightMenuFactory
+  nameWithType: RightMenuFactory
+  fullName: Funique.UI.Menu.RightMenuFactory
+- uid: Funique.UI.Menu
+  commentId: N:Funique.UI.Menu
+  name: Funique.UI.Menu
+  nameWithType: Funique.UI.Menu
+  fullName: Funique.UI.Menu

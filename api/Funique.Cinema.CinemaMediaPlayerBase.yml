@@ -1,0 +1,1129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Cinema.CinemaMediaPlayerBase
+  commentId: T:Funique.Cinema.CinemaMediaPlayerBase
+  id: CinemaMediaPlayerBase
+  parent: Funique.Cinema
+  children:
+  - Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer
+  - Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  - Funique.Cinema.CinemaMediaPlayerBase.AudioMode
+  - Funique.Cinema.CinemaMediaPlayerBase.Awake
+  - Funique.Cinema.CinemaMediaPlayerBase.channelMap
+  - Funique.Cinema.CinemaMediaPlayerBase.CurImage
+  - Funique.Cinema.CinemaMediaPlayerBase.CurStreaming
+  - Funique.Cinema.CinemaMediaPlayerBase.CurVideo
+  - Funique.Cinema.CinemaMediaPlayerBase.index
+  - Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState
+  - Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
+  - Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  - Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
+  - Funique.Cinema.CinemaMediaPlayerBase.PlayerState
+  - Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath
+  - Funique.Cinema.CinemaMediaPlayerBase.ReplayState
+  - Funique.Cinema.CinemaMediaPlayerBase.SeekAction
+  - Funique.Cinema.CinemaMediaPlayerBase.Start
+  - Funique.Cinema.CinemaMediaPlayerBase.StereoMode
+  - Funique.Cinema.CinemaMediaPlayerBase.Update
+  langs:
+  - csharp
+  - vb
+  name: CinemaMediaPlayerBase
+  nameWithType: CinemaMediaPlayerBase
+  fullName: Funique.Cinema.CinemaMediaPlayerBase
+  type: Class
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CinemaMediaPlayerBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 16
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nThis component is meant to control the AV-pro media player <br />\nThe translation stage between network layer and controller layer <br />\n------------------------------------------------ <br />\n這個元件是為了控制 Av-pro 多媒體播放器 <br />\n擔任網路信號層與控制層的翻譯官\n"
+  example: []
+  syntax:
+    content: 'public class CinemaMediaPlayerBase : MonoBehaviour'
+    content.vb: >-
+      Public Class CinemaMediaPlayerBase
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer
+  commentId: F:Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer
+  id: _mediaPlayer
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: _mediaPlayer
+  nameWithType: CinemaMediaPlayerBase._mediaPlayer
+  fullName: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer
+  type: Field
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: _mediaPlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 20
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected MediaPlayer _mediaPlayer
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: >-
+      <SerializeField>
+
+      Protected _mediaPlayer As MediaPlayer
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  commentId: F:Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  id: _mediaPlayer_swap
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: _mediaPlayer_swap
+  nameWithType: CinemaMediaPlayerBase._mediaPlayer_swap
+  fullName: Funique.Cinema.CinemaMediaPlayerBase._mediaPlayer_swap
+  type: Field
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: _mediaPlayer_swap
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 21
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected MediaPlayer _mediaPlayer_swap
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: >-
+      <SerializeField>
+
+      Protected _mediaPlayer_swap As MediaPlayer
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Cinema.CinemaMediaPlayerBase.SeekAction
+  commentId: E:Funique.Cinema.CinemaMediaPlayerBase.SeekAction
+  id: SeekAction
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: SeekAction
+  nameWithType: CinemaMediaPlayerBase.SeekAction
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.SeekAction
+  type: Event
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SeekAction
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 27
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public event Action<float> SeekAction
+    return:
+      type: System.Action{System.Single}
+    content.vb: Public Event SeekAction As Action(Of Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath
+  id: ReadyVideoURLPath
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: ReadyVideoURLPath
+  nameWithType: CinemaMediaPlayerBase.ReadyVideoURLPath
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ReadyVideoURLPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 28
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public string ReadyVideoURLPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReadyVideoURLPath As String
+  overload: Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.CinemaMediaPlayerBase.index
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.index
+  id: index
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: CinemaMediaPlayerBase.index
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.index
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: index
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 29
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: protected int index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected Property index As Integer
+  overload: Funique.Cinema.CinemaMediaPlayerBase.index*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Funique.Cinema.CinemaMediaPlayerBase.CurVideo
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.CurVideo
+  id: CurVideo
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: CurVideo
+  nameWithType: CinemaMediaPlayerBase.CurVideo
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.CurVideo
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurVideo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 30
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual VideoInfo CurVideo { get; set; }
+    parameters: []
+    return:
+      type: Funique.VideoInfo
+    content.vb: Public Overridable Property CurVideo As VideoInfo
+  overload: Funique.Cinema.CinemaMediaPlayerBase.CurVideo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.CurImage
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.CurImage
+  id: CurImage
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: CurImage
+  nameWithType: CinemaMediaPlayerBase.CurImage
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.CurImage
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 31
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual PhotoInfo CurImage { get; set; }
+    parameters: []
+    return:
+      type: Funique.PhotoInfo
+    content.vb: Public Overridable Property CurImage As PhotoInfo
+  overload: Funique.Cinema.CinemaMediaPlayerBase.CurImage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.channelMap
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.channelMap
+  id: channelMap
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: channelMap
+  nameWithType: CinemaMediaPlayerBase.channelMap
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.channelMap
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: channelMap
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 33
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual ChannelMap channelMap { get; set; }
+    parameters: []
+    return:
+      type: TBE.ChannelMap
+    content.vb: Public Overridable Property channelMap As ChannelMap
+  overload: Funique.Cinema.CinemaMediaPlayerBase.channelMap*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.StereoMode
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.StereoMode
+  id: StereoMode
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: StereoMode
+  nameWithType: CinemaMediaPlayerBase.StereoMode
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.StereoMode
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: StereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 35
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual StereoMode StereoMode { get; set; }
+    parameters: []
+    return:
+      type: Funique.StereoMode
+    content.vb: Public Overridable Property StereoMode As StereoMode
+  overload: Funique.Cinema.CinemaMediaPlayerBase.StereoMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
+  id: PlayerMode
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: PlayerMode
+  nameWithType: CinemaMediaPlayerBase.PlayerMode
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: PlayerMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 36
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual PlayerMode PlayerMode { get; set; }
+    parameters: []
+    return:
+      type: Funique.PlayerMode
+    content.vb: Public Overridable Property PlayerMode As PlayerMode
+  overload: Funique.Cinema.CinemaMediaPlayerBase.PlayerMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayerState
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.PlayerState
+  id: PlayerState
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: PlayerState
+  nameWithType: CinemaMediaPlayerBase.PlayerState
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayerState
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: PlayerState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 37
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual PlayerState PlayerState { get; set; }
+    parameters: []
+    return:
+      type: Funique.PlayerState
+    content.vb: Public Overridable Property PlayerState As PlayerState
+  overload: Funique.Cinema.CinemaMediaPlayerBase.PlayerState*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.AudioMode
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.AudioMode
+  id: AudioMode
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: AudioMode
+  nameWithType: CinemaMediaPlayerBase.AudioMode
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.AudioMode
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: AudioMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 38
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual AudioMode AudioMode { get; set; }
+    parameters: []
+    return:
+      type: Funique.AudioMode
+    content.vb: Public Overridable Property AudioMode As AudioMode
+  overload: Funique.Cinema.CinemaMediaPlayerBase.AudioMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.ReplayState
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.ReplayState
+  id: ReplayState
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: ReplayState
+  nameWithType: CinemaMediaPlayerBase.ReplayState
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.ReplayState
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ReplayState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 39
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual ReplayState ReplayState { get; set; }
+    parameters: []
+    return:
+      type: Funique.ReplayState
+    content.vb: Public Overridable Property ReplayState As ReplayState
+  overload: Funique.Cinema.CinemaMediaPlayerBase.ReplayState*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.CurStreaming
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.CurStreaming
+  id: CurStreaming
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: CurStreaming
+  nameWithType: CinemaMediaPlayerBase.CurStreaming
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.CurStreaming
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurStreaming
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 40
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual StreamingVideoInfo CurStreaming { get; }
+    parameters: []
+    return:
+      type: Funique.StreamingVideoInfo
+    content.vb: Public Overridable ReadOnly Property CurStreaming As StreamingVideoInfo
+  overload: Funique.Cinema.CinemaMediaPlayerBase.CurStreaming*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState
+  id: MasterPlayerState
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: MasterPlayerState
+  nameWithType: CinemaMediaPlayerBase.MasterPlayerState
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: MasterPlayerState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 41
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public ClientInMasterPlayerState MasterPlayerState { get; set; }
+    parameters: []
+    return:
+      type: Funique.ClientInMasterPlayerState
+    content.vb: Public Property MasterPlayerState As ClientInMasterPlayerState
+  overload: Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
+  commentId: P:Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
+  id: NowPlaying
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: NowPlaying
+  nameWithType: CinemaMediaPlayerBase.NowPlaying
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
+  type: Property
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: NowPlaying
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 42
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public NowPlaying NowPlaying { get; protected set; }
+    parameters: []
+    return:
+      type: Funique.Cinema.NowPlaying
+    content.vb: Public Property NowPlaying As NowPlaying
+  overload: Funique.Cinema.CinemaMediaPlayerBase.NowPlaying*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Cinema.CinemaMediaPlayerBase.Awake
+  commentId: M:Funique.Cinema.CinemaMediaPlayerBase.Awake
+  id: Awake
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: CinemaMediaPlayerBase.Awake()
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.Awake()
+  type: Method
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Awake
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 48
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual void Awake()
+    content.vb: Public Overridable Sub Awake
+  overload: Funique.Cinema.CinemaMediaPlayerBase.Awake*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.Start
+  commentId: M:Funique.Cinema.CinemaMediaPlayerBase.Start
+  id: Start
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: CinemaMediaPlayerBase.Start()
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.Start()
+  type: Method
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Start
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 49
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual void Start()
+    content.vb: Public Overridable Sub Start
+  overload: Funique.Cinema.CinemaMediaPlayerBase.Start*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.Update
+  commentId: M:Funique.Cinema.CinemaMediaPlayerBase.Update
+  id: Update
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: CinemaMediaPlayerBase.Update()
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.Update()
+  type: Method
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Update
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 50
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual void Update()
+    content.vb: Public Overridable Sub Update
+  overload: Funique.Cinema.CinemaMediaPlayerBase.Update*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  commentId: M:Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  id: PlayABR(Funique.InfoBase)
+  parent: Funique.Cinema.CinemaMediaPlayerBase
+  langs:
+  - csharp
+  - vb
+  name: PlayABR(InfoBase)
+  nameWithType: CinemaMediaPlayerBase.PlayABR(InfoBase)
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayABR(Funique.InfoBase)
+  type: Method
+  source:
+    remote:
+      path: Component/CinemaMediaPlayerBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: PlayABR
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/CinemaMediaPlayerBase.cs
+    startLine: 55
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: public virtual void PlayABR(InfoBase target)
+    parameters:
+    - id: target
+      type: Funique.InfoBase
+    content.vb: Public Overridable Sub PlayABR(target As InfoBase)
+  overload: Funique.Cinema.CinemaMediaPlayerBase.PlayABR*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: RenderHeads.Media.AVProVideo.MediaPlayer
+  commentId: T:RenderHeads.Media.AVProVideo.MediaPlayer
+  parent: RenderHeads.Media.AVProVideo
+  name: MediaPlayer
+  nameWithType: MediaPlayer
+  fullName: RenderHeads.Media.AVProVideo.MediaPlayer
+- uid: RenderHeads.Media.AVProVideo
+  commentId: N:RenderHeads.Media.AVProVideo
+  name: RenderHeads.Media.AVProVideo
+  nameWithType: RenderHeads.Media.AVProVideo
+  fullName: RenderHeads.Media.AVProVideo
+- uid: System.Action{System.Single}
+  commentId: T:System.Action{System.Single}
+  parent: System
+  definition: System.Action`1
+  name: Action<Single>
+  nameWithType: Action<Single>
+  fullName: System.Action<System.Single>
+  nameWithType.vb: Action(Of Single)
+  fullName.vb: System.Action(Of System.Single)
+  name.vb: Action(Of Single)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath
+  name: ReadyVideoURLPath
+  nameWithType: CinemaMediaPlayerBase.ReadyVideoURLPath
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.ReadyVideoURLPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Cinema.CinemaMediaPlayerBase.index*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.index
+  name: index
+  nameWithType: CinemaMediaPlayerBase.index
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Cinema.CinemaMediaPlayerBase.CurVideo*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.CurVideo
+  name: CurVideo
+  nameWithType: CinemaMediaPlayerBase.CurVideo
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.CurVideo
+- uid: Funique.VideoInfo
+  commentId: T:Funique.VideoInfo
+  parent: Funique
+  name: VideoInfo
+  nameWithType: VideoInfo
+  fullName: Funique.VideoInfo
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Cinema.CinemaMediaPlayerBase.CurImage*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.CurImage
+  name: CurImage
+  nameWithType: CinemaMediaPlayerBase.CurImage
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.CurImage
+- uid: Funique.PhotoInfo
+  commentId: T:Funique.PhotoInfo
+  parent: Funique
+  name: PhotoInfo
+  nameWithType: PhotoInfo
+  fullName: Funique.PhotoInfo
+- uid: Funique.Cinema.CinemaMediaPlayerBase.channelMap*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.channelMap
+  name: channelMap
+  nameWithType: CinemaMediaPlayerBase.channelMap
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.channelMap
+- uid: TBE.ChannelMap
+  commentId: T:TBE.ChannelMap
+  parent: TBE
+  name: ChannelMap
+  nameWithType: ChannelMap
+  fullName: TBE.ChannelMap
+- uid: TBE
+  commentId: N:TBE
+  name: TBE
+  nameWithType: TBE
+  fullName: TBE
+- uid: Funique.Cinema.CinemaMediaPlayerBase.StereoMode*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.StereoMode
+  name: StereoMode
+  nameWithType: CinemaMediaPlayerBase.StereoMode
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.StereoMode
+- uid: Funique.StereoMode
+  commentId: T:Funique.StereoMode
+  parent: Funique
+  name: StereoMode
+  nameWithType: StereoMode
+  fullName: Funique.StereoMode
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayerMode*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
+  name: PlayerMode
+  nameWithType: CinemaMediaPlayerBase.PlayerMode
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayerMode
+- uid: Funique.PlayerMode
+  commentId: T:Funique.PlayerMode
+  parent: Funique
+  name: PlayerMode
+  nameWithType: PlayerMode
+  fullName: Funique.PlayerMode
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayerState*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.PlayerState
+  name: PlayerState
+  nameWithType: CinemaMediaPlayerBase.PlayerState
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayerState
+- uid: Funique.PlayerState
+  commentId: T:Funique.PlayerState
+  parent: Funique
+  name: PlayerState
+  nameWithType: PlayerState
+  fullName: Funique.PlayerState
+- uid: Funique.Cinema.CinemaMediaPlayerBase.AudioMode*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.AudioMode
+  name: AudioMode
+  nameWithType: CinemaMediaPlayerBase.AudioMode
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.AudioMode
+- uid: Funique.AudioMode
+  commentId: T:Funique.AudioMode
+  parent: Funique
+  name: AudioMode
+  nameWithType: AudioMode
+  fullName: Funique.AudioMode
+- uid: Funique.Cinema.CinemaMediaPlayerBase.ReplayState*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.ReplayState
+  name: ReplayState
+  nameWithType: CinemaMediaPlayerBase.ReplayState
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.ReplayState
+- uid: Funique.ReplayState
+  commentId: T:Funique.ReplayState
+  parent: Funique
+  name: ReplayState
+  nameWithType: ReplayState
+  fullName: Funique.ReplayState
+- uid: Funique.Cinema.CinemaMediaPlayerBase.CurStreaming*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.CurStreaming
+  name: CurStreaming
+  nameWithType: CinemaMediaPlayerBase.CurStreaming
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.CurStreaming
+- uid: Funique.StreamingVideoInfo
+  commentId: T:Funique.StreamingVideoInfo
+  parent: Funique
+  name: StreamingVideoInfo
+  nameWithType: StreamingVideoInfo
+  fullName: Funique.StreamingVideoInfo
+- uid: Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState
+  name: MasterPlayerState
+  nameWithType: CinemaMediaPlayerBase.MasterPlayerState
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.MasterPlayerState
+- uid: Funique.ClientInMasterPlayerState
+  commentId: T:Funique.ClientInMasterPlayerState
+  parent: Funique
+  name: ClientInMasterPlayerState
+  nameWithType: ClientInMasterPlayerState
+  fullName: Funique.ClientInMasterPlayerState
+- uid: Funique.Cinema.CinemaMediaPlayerBase.NowPlaying*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
+  name: NowPlaying
+  nameWithType: CinemaMediaPlayerBase.NowPlaying
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.NowPlaying
+- uid: Funique.Cinema.NowPlaying
+  commentId: T:Funique.Cinema.NowPlaying
+  parent: Funique.Cinema
+  name: NowPlaying
+  nameWithType: NowPlaying
+  fullName: Funique.Cinema.NowPlaying
+- uid: Funique.Cinema.CinemaMediaPlayerBase.Awake*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.Awake
+  name: Awake
+  nameWithType: CinemaMediaPlayerBase.Awake
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.Awake
+- uid: Funique.Cinema.CinemaMediaPlayerBase.Start*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.Start
+  name: Start
+  nameWithType: CinemaMediaPlayerBase.Start
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.Start
+- uid: Funique.Cinema.CinemaMediaPlayerBase.Update*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.Update
+  name: Update
+  nameWithType: CinemaMediaPlayerBase.Update
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.Update
+- uid: Funique.Cinema.CinemaMediaPlayerBase.PlayABR*
+  commentId: Overload:Funique.Cinema.CinemaMediaPlayerBase.PlayABR
+  name: PlayABR
+  nameWithType: CinemaMediaPlayerBase.PlayABR
+  fullName: Funique.Cinema.CinemaMediaPlayerBase.PlayABR
+- uid: Funique.InfoBase
+  commentId: T:Funique.InfoBase
+  parent: Funique
+  name: InfoBase
+  nameWithType: InfoBase
+  fullName: Funique.InfoBase

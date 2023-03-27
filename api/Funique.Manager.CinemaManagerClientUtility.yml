@@ -1,0 +1,4815 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.CinemaManagerClientUtility
+  commentId: T:Funique.Manager.CinemaManagerClientUtility
+  id: CinemaManagerClientUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.CinemaManagerClientUtility._useFinishToWait
+  - Funique.Manager.CinemaManagerClientUtility.applyStereoSetting
+  - Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode
+  - Funique.Manager.CinemaManagerClientUtility.Config_Dict
+  - Funique.Manager.CinemaManagerClientUtility.CurMedia
+  - Funique.Manager.CinemaManagerClientUtility.Current_Display
+  - Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
+  - Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  - Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  - Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  - Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode(System.String)
+  - Funique.Manager.CinemaManagerClientUtility.DetectSRT(System.String)
+  - Funique.Manager.CinemaManagerClientUtility.GetControlState(Funique.Manager.CinemaManagerClientUtility.controlState)
+  - Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String,System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,RenderHeads.Media.AVProVideo.ErrorCode)
+  - Funique.Manager.CinemaManagerClientUtility.GetReadyImageName
+  - Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName
+  - Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.GetVideoTime(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.HeadSet
+  - Funique.Manager.CinemaManagerClientUtility.HeadsetReset
+  - Funique.Manager.CinemaManagerClientUtility.ICheckSeek
+  - Funique.Manager.CinemaManagerClientUtility.ImageFolder
+  - Funique.Manager.CinemaManagerClientUtility.imgTex
+  - Funique.Manager.CinemaManagerClientUtility.is4dof
+  - Funique.Manager.CinemaManagerClientUtility.Loaded(Funique.Cinema.CinemaManagerClientData)
+  - Funique.Manager.CinemaManagerClientUtility.MasterPlayerState
+  - Funique.Manager.CinemaManagerClientUtility.mediaHints
+  - Funique.Manager.CinemaManagerClientUtility.Mediaplayer_Dict
+  - Funique.Manager.CinemaManagerClientUtility.Mesh_Dict
+  - Funique.Manager.CinemaManagerClientUtility.NowStereoMode
+  - Funique.Manager.CinemaManagerClientUtility.OnMediaPlay
+  - Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare
+  - Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer
+  - Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange
+  - Funique.Manager.CinemaManagerClientUtility.readyImage
+  - Funique.Manager.CinemaManagerClientUtility.readyPlayFile
+  - Funique.Manager.CinemaManagerClientUtility.readyPlayVideo
+  - Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath
+  - Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.Int32)
+  - Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.String)
+  - Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  - Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  - Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(System.String)
+  - Funique.Manager.CinemaManagerClientUtility.SetReplay(Funique.ReplayState)
+  - Funique.Manager.CinemaManagerClientUtility.SetStereoMode(Funique.StereoMode)
+  - Funique.Manager.CinemaManagerClientUtility.SetStereoMode(System.String)
+  - Funique.Manager.CinemaManagerClientUtility.SetSubtitle(Funique.SubtitleMode)
+  - Funique.Manager.CinemaManagerClientUtility.SetVideoClose
+  - Funique.Manager.CinemaManagerClientUtility.SetVideoLoop(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.SetVideoPause
+  - Funique.Manager.CinemaManagerClientUtility.SetVideoPlay(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.SetVideoSeek(System.Single)
+  - Funique.Manager.CinemaManagerClientUtility.SetVideoStop
+  - Funique.Manager.CinemaManagerClientUtility.SetWaitRoom(System.Boolean)
+  - Funique.Manager.CinemaManagerClientUtility.ShouldSwitch(System.String,RenderHeads.Media.AVProVideo.MediaPlayer@)
+  - Funique.Manager.CinemaManagerClientUtility.ShowTexture(System.String)
+  - Funique.Manager.CinemaManagerClientUtility.SphereOBJ
+  - Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  - Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  - Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  - Funique.Manager.CinemaManagerClientUtility.VideoFolder
+  langs:
+  - csharp
+  - vb
+  name: CinemaManagerClientUtility
+  nameWithType: CinemaManagerClientUtility
+  fullName: Funique.Manager.CinemaManagerClientUtility
+  type: Class
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CinemaManagerClientUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 17
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  summary: "\nClient cinema manager <br />\n------------------------------------------------ <br />\n客戶端劇院管理員\n"
+  example: []
+  syntax:
+    content: 'public class CinemaManagerClientUtility : ManagerBase<CinemaManagerClientData>, IDisposable, ICinemaClientUtility, IModuleBase<CinemaManagerClientData>'
+    content.vb: >-
+      Public Class CinemaManagerClientUtility
+
+          Inherits ManagerBase(Of CinemaManagerClientData)
+
+          Implements IDisposable, ICinemaClientUtility, IModuleBase(Of CinemaManagerClientData)
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}
+  implements:
+  - System.IDisposable
+  - Funique.Cinema.ICinemaClientUtility
+  - Funique.IModuleBase{Funique.Cinema.CinemaManagerClientData}
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.config
+  - Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.RegisterConfig(Funique.Cinema.CinemaManagerClientData)
+  - Funique.Manager.ManagerBase.Initialization
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  - Funique.Manager.ManagerBase.Dispose
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.CinemaManagerClientUtility._useFinishToWait
+  commentId: F:Funique.Manager.CinemaManagerClientUtility._useFinishToWait
+  id: _useFinishToWait
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: _useFinishToWait
+  nameWithType: CinemaManagerClientUtility._useFinishToWait
+  fullName: Funique.Manager.CinemaManagerClientUtility._useFinishToWait
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: _useFinishToWait
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 19
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public bool _useFinishToWait
+    return:
+      type: System.Boolean
+    content.vb: Public _useFinishToWait As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.NowStereoMode
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.NowStereoMode
+  id: NowStereoMode
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: NowStereoMode
+  nameWithType: CinemaManagerClientUtility.NowStereoMode
+  fullName: Funique.Manager.CinemaManagerClientUtility.NowStereoMode
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: NowStereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 20
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected StereoMode NowStereoMode
+    return:
+      type: Funique.StereoMode
+    content.vb: Protected NowStereoMode As StereoMode
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.CinemaManagerClientUtility.mediaHints
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.mediaHints
+  id: mediaHints
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: mediaHints
+  nameWithType: CinemaManagerClientUtility.mediaHints
+  fullName: Funique.Manager.CinemaManagerClientUtility.mediaHints
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: mediaHints
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 21
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected MediaHints mediaHints
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaHints
+    content.vb: Protected mediaHints As MediaHints
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.CinemaManagerClientUtility.is4dof
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.is4dof
+  id: is4dof
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: is4dof
+  nameWithType: CinemaManagerClientUtility.is4dof
+  fullName: Funique.Manager.CinemaManagerClientUtility.is4dof
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: is4dof
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 22
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected bool is4dof
+    return:
+      type: System.Boolean
+    content.vb: Protected is4dof As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.CinemaManagerClientUtility.readyPlayVideo
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.readyPlayVideo
+  id: readyPlayVideo
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: readyPlayVideo
+  nameWithType: CinemaManagerClientUtility.readyPlayVideo
+  fullName: Funique.Manager.CinemaManagerClientUtility.readyPlayVideo
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: readyPlayVideo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 23
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected string readyPlayVideo
+    return:
+      type: System.String
+    content.vb: Protected readyPlayVideo As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.CinemaManagerClientUtility.readyImage
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.readyImage
+  id: readyImage
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: readyImage
+  nameWithType: CinemaManagerClientUtility.readyImage
+  fullName: Funique.Manager.CinemaManagerClientUtility.readyImage
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: readyImage
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 24
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected string readyImage
+    return:
+      type: System.String
+    content.vb: Protected readyImage As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.CinemaManagerClientUtility.imgTex
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.imgTex
+  id: imgTex
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: imgTex
+  nameWithType: CinemaManagerClientUtility.imgTex
+  fullName: Funique.Manager.CinemaManagerClientUtility.imgTex
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: imgTex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 25
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected Texture2D imgTex
+    return:
+      type: UnityEngine.Texture2D
+    content.vb: Protected imgTex As Texture2D
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.CinemaManagerClientUtility.Mediaplayer_Dict
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.Mediaplayer_Dict
+  id: Mediaplayer_Dict
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Mediaplayer_Dict
+  nameWithType: CinemaManagerClientUtility.Mediaplayer_Dict
+  fullName: Funique.Manager.CinemaManagerClientUtility.Mediaplayer_Dict
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Mediaplayer_Dict
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 30
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public Dictionary<string, MediaPlayerOption> Mediaplayer_Dict
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Funique.Cinema.MediaPlayerOption}
+    content.vb: Public Mediaplayer_Dict As Dictionary(Of String, MediaPlayerOption)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.Mesh_Dict
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.Mesh_Dict
+  id: Mesh_Dict
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Mesh_Dict
+  nameWithType: CinemaManagerClientUtility.Mesh_Dict
+  fullName: Funique.Manager.CinemaManagerClientUtility.Mesh_Dict
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Mesh_Dict
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 31
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public Dictionary<ApplyMeshType, Mesh> Mesh_Dict
+    return:
+      type: System.Collections.Generic.Dictionary{Funique.Cinema.ApplyMeshType,UnityEngine.Mesh}
+    content.vb: Public Mesh_Dict As Dictionary(Of ApplyMeshType, Mesh)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.Config_Dict
+  commentId: F:Funique.Manager.CinemaManagerClientUtility.Config_Dict
+  id: Config_Dict
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Config_Dict
+  nameWithType: CinemaManagerClientUtility.Config_Dict
+  fullName: Funique.Manager.CinemaManagerClientUtility.Config_Dict
+  type: Field
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Config_Dict
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 32
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public Dictionary<StereoMode, StereoConfig> Config_Dict
+    return:
+      type: System.Collections.Generic.Dictionary{Funique.StereoMode,Funique.Cinema.StereoConfig}
+    content.vb: Public Config_Dict As Dictionary(Of StereoMode, StereoConfig)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
+  id: CurrentMediaPlayer
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentMediaPlayer
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurrentMediaPlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 33
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public MediaPlayer CurrentMediaPlayer { get; set; }
+    parameters: []
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: Public Property CurrentMediaPlayer As MediaPlayer
+  overload: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  id: CurrentMediaPlayer_Swap
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentMediaPlayer_Swap
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurrentMediaPlayer_Swap
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 47
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public MediaPlayer CurrentMediaPlayer_Swap { get; set; }
+    parameters: []
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: Public Property CurrentMediaPlayer_Swap As MediaPlayer
+  overload: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  id: CurrentMediaPlayer_Display
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentMediaPlayer_Display
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurrentMediaPlayer_Display
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 60
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public MediaPlayer CurrentMediaPlayer_Display { get; }
+    parameters: []
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: Public ReadOnly Property CurrentMediaPlayer_Display As MediaPlayer
+  overload: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  id: CurrentMediaPlayer_Another
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentMediaPlayer_Another
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurrentMediaPlayer_Another
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 61
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public MediaPlayer CurrentMediaPlayer_Another { get; }
+    parameters: []
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: Public ReadOnly Property CurrentMediaPlayer_Another As MediaPlayer
+  overload: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath
+  id: ReadyVideoURLPath
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ReadyVideoURLPath
+  nameWithType: CinemaManagerClientUtility.ReadyVideoURLPath
+  fullName: Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ReadyVideoURLPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 63
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public string ReadyVideoURLPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ReadyVideoURLPath As String
+  overload: Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.SphereOBJ
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.SphereOBJ
+  id: SphereOBJ
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SphereOBJ
+  nameWithType: CinemaManagerClientUtility.SphereOBJ
+  fullName: Funique.Manager.CinemaManagerClientUtility.SphereOBJ
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SphereOBJ
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 64
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject SphereOBJ { get; protected set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property SphereOBJ As GameObject
+  overload: Funique.Manager.CinemaManagerClientUtility.SphereOBJ*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SphereOBJ
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Funique.Manager.CinemaManagerClientUtility.readyPlayFile
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.readyPlayFile
+  id: readyPlayFile
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: readyPlayFile
+  nameWithType: CinemaManagerClientUtility.readyPlayFile
+  fullName: Funique.Manager.CinemaManagerClientUtility.readyPlayFile
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: readyPlayFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 65
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public string readyPlayFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property readyPlayFile As String
+  overload: Funique.Manager.CinemaManagerClientUtility.readyPlayFile*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.readyPlayFile
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.CurMedia
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.CurMedia
+  id: CurMedia
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: CurMedia
+  nameWithType: CinemaManagerClientUtility.CurMedia
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurMedia
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: CurMedia
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 66
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public InfoBase CurMedia { get; set; }
+    parameters: []
+    return:
+      type: Funique.InfoBase
+    content.vb: Public Property CurMedia As InfoBase
+  overload: Funique.Manager.CinemaManagerClientUtility.CurMedia*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.CurMedia
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.MasterPlayerState
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.MasterPlayerState
+  id: MasterPlayerState
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: MasterPlayerState
+  nameWithType: CinemaManagerClientUtility.MasterPlayerState
+  fullName: Funique.Manager.CinemaManagerClientUtility.MasterPlayerState
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: MasterPlayerState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 67
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public ClientInMasterPlayerState MasterPlayerState { get; set; }
+    parameters: []
+    return:
+      type: Funique.ClientInMasterPlayerState
+    content.vb: Public Property MasterPlayerState As ClientInMasterPlayerState
+  overload: Funique.Manager.CinemaManagerClientUtility.MasterPlayerState*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.MasterPlayerState
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.OnMediaPlay
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.OnMediaPlay
+  id: OnMediaPlay
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: OnMediaPlay
+  nameWithType: CinemaManagerClientUtility.OnMediaPlay
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnMediaPlay
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: OnMediaPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 69
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent<string> OnMediaPlay { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{System.String}
+    content.vb: Public Property OnMediaPlay As UnityEvent(Of String)
+  overload: Funique.Manager.CinemaManagerClientUtility.OnMediaPlay*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.OnMediaPlay
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare
+  id: OnMediaPlayPrepare
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: OnMediaPlayPrepare
+  nameWithType: CinemaManagerClientUtility.OnMediaPlayPrepare
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: OnMediaPlayPrepare
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 70
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent<string> OnMediaPlayPrepare { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{System.String}
+    content.vb: Public Property OnMediaPlayPrepare As UnityEvent(Of String)
+  overload: Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer
+  id: OnSwitchMediaPlayer
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: OnSwitchMediaPlayer
+  nameWithType: CinemaManagerClientUtility.OnSwitchMediaPlayer
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: OnSwitchMediaPlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 71
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent<MediaPlayer> OnSwitchMediaPlayer { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{RenderHeads.Media.AVProVideo.MediaPlayer}
+    content.vb: Public Property OnSwitchMediaPlayer As UnityEvent(Of MediaPlayer)
+  overload: Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange
+  id: OnWaitroomStateChange
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: OnWaitroomStateChange
+  nameWithType: CinemaManagerClientUtility.OnWaitroomStateChange
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: OnWaitroomStateChange
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 72
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public UnityEvent<bool> OnWaitroomStateChange { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{System.Boolean}
+    content.vb: Public Property OnWaitroomStateChange As UnityEvent(Of Boolean)
+  overload: Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.HeadSet
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.HeadSet
+  id: HeadSet
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: HeadSet
+  nameWithType: CinemaManagerClientUtility.HeadSet
+  fullName: Funique.Manager.CinemaManagerClientUtility.HeadSet
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: HeadSet
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 74
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual Transform HeadSet { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Transform
+    content.vb: Protected Overridable ReadOnly Property HeadSet As Transform
+  overload: Funique.Manager.CinemaManagerClientUtility.HeadSet*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.ImageFolder
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.ImageFolder
+  id: ImageFolder
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ImageFolder
+  nameWithType: CinemaManagerClientUtility.ImageFolder
+  fullName: Funique.Manager.CinemaManagerClientUtility.ImageFolder
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ImageFolder
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 75
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual string ImageFolder { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Overridable ReadOnly Property ImageFolder As String
+  overload: Funique.Manager.CinemaManagerClientUtility.ImageFolder*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.VideoFolder
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.VideoFolder
+  id: VideoFolder
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: VideoFolder
+  nameWithType: CinemaManagerClientUtility.VideoFolder
+  fullName: Funique.Manager.CinemaManagerClientUtility.VideoFolder
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: VideoFolder
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 76
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual string VideoFolder { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Overridable ReadOnly Property VideoFolder As String
+  overload: Funique.Manager.CinemaManagerClientUtility.VideoFolder*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  id: Support_Swap
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Support_Swap
+  nameWithType: CinemaManagerClientUtility.Support_Swap
+  fullName: Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Support_Swap
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 78
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public bool Support_Swap { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Support_Swap As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.Support_Swap*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.Support_Swap
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.Current_Display
+  commentId: P:Funique.Manager.CinemaManagerClientUtility.Current_Display
+  id: Current_Display
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Current_Display
+  nameWithType: CinemaManagerClientUtility.Current_Display
+  fullName: Funique.Manager.CinemaManagerClientUtility.Current_Display
+  type: Property
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Current_Display
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 79
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public bool Current_Display { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Current_Display As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.Current_Display*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.Current_Display
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.CinemaManagerClientUtility.Loaded(Funique.Cinema.CinemaManagerClientData)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.Loaded(Funique.Cinema.CinemaManagerClientData)
+  id: Loaded(Funique.Cinema.CinemaManagerClientData)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: Loaded(CinemaManagerClientData)
+  nameWithType: CinemaManagerClientUtility.Loaded(CinemaManagerClientData)
+  fullName: Funique.Manager.CinemaManagerClientUtility.Loaded(Funique.Cinema.CinemaManagerClientData)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: Loaded
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 91
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Loaded(CinemaManagerClientData Data)
+    parameters:
+    - id: Data
+      type: Funique.Cinema.CinemaManagerClientData
+    content.vb: Public Overrides Sub Loaded(Data As CinemaManagerClientData)
+  overridden: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.Loaded(Funique.Cinema.CinemaManagerClientData)
+  overload: Funique.Manager.CinemaManagerClientUtility.Loaded*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.Int32)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.Int32)
+  id: SelectMediaPlayerInstance(System.Int32)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SelectMediaPlayerInstance(Int32)
+  nameWithType: CinemaManagerClientUtility.SelectMediaPlayerInstance(Int32)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SelectMediaPlayerInstance
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 136
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void SelectMediaPlayerInstance(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SelectMediaPlayerInstance(index As Integer)
+  overload: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.String)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.String)
+  id: SelectMediaPlayerInstance(System.String)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SelectMediaPlayerInstance(String)
+  nameWithType: CinemaManagerClientUtility.SelectMediaPlayerInstance(String)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance(System.String)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SelectMediaPlayerInstance
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 145
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void SelectMediaPlayerInstance(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub SelectMediaPlayerInstance(name As String)
+  overload: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  id: SetFirstBuffer
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetFirstBuffer()
+  nameWithType: CinemaManagerClientUtility.SetFirstBuffer()
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetFirstBuffer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 152
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetFirstBuffer()
+    content.vb: Public Overridable Sub SetFirstBuffer
+  overload: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  id: SwapBuffer
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SwapBuffer()
+  nameWithType: CinemaManagerClientUtility.SwapBuffer()
+  fullName: Funique.Manager.CinemaManagerClientUtility.SwapBuffer()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SwapBuffer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 153
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual bool SwapBuffer()
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function SwapBuffer As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.SwapBuffer*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoSeek(System.Single)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetVideoSeek(System.Single)
+  id: SetVideoSeek(System.Single)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetVideoSeek(Single)
+  nameWithType: CinemaManagerClientUtility.SetVideoSeek(Single)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoSeek(System.Single)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetVideoSeek
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 187
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetVideoSeek(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Overridable Sub SetVideoSeek(value As Single)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetVideoSeek*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.ICheckSeek
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.ICheckSeek
+  id: ICheckSeek
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ICheckSeek()
+  nameWithType: CinemaManagerClientUtility.ICheckSeek()
+  fullName: Funique.Manager.CinemaManagerClientUtility.ICheckSeek()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ICheckSeek
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 199
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual IEnumerator ICheckSeek()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Protected Overridable Function ICheckSeek As IEnumerator
+  overload: Funique.Manager.CinemaManagerClientUtility.ICheckSeek*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetWaitRoom(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetWaitRoom(System.Boolean)
+  id: SetWaitRoom(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetWaitRoom(Boolean)
+  nameWithType: CinemaManagerClientUtility.SetWaitRoom(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetWaitRoom(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetWaitRoom
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 212
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetWaitRoom(bool trigger)
+    parameters:
+    - id: trigger
+      type: System.Boolean
+    content.vb: Public Overridable Sub SetWaitRoom(trigger As Boolean)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetWaitRoom*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  id: SetReadyPlayFile(Funique.InfoBase)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetReadyPlayFile(InfoBase)
+  nameWithType: CinemaManagerClientUtility.SetReadyPlayFile(InfoBase)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetReadyPlayFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 222
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetReadyPlayFile(InfoBase mediaInfo)
+    parameters:
+    - id: mediaInfo
+      type: Funique.InfoBase
+    content.vb: Public Overridable Sub SetReadyPlayFile(mediaInfo As InfoBase)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(System.String)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(System.String)
+  id: SetReadyPlayFile(System.String)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetReadyPlayFile(String)
+  nameWithType: CinemaManagerClientUtility.SetReadyPlayFile(String)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetReadyPlayFile
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 230
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetReadyPlayFile(string recivedReadyPlayFile)
+    parameters:
+    - id: recivedReadyPlayFile
+      type: System.String
+    content.vb: Public Overridable Sub SetReadyPlayFile(recivedReadyPlayFile As String)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoPlay(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetVideoPlay(System.Boolean)
+  id: SetVideoPlay(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetVideoPlay(Boolean)
+  nameWithType: CinemaManagerClientUtility.SetVideoPlay(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoPlay(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetVideoPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 256
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual bool SetVideoPlay(bool url = false)
+    parameters:
+    - id: url
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function SetVideoPlay(url As Boolean = False) As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.SetVideoPlay*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoPause
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetVideoPause
+  id: SetVideoPause
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetVideoPause()
+  nameWithType: CinemaManagerClientUtility.SetVideoPause()
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoPause()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetVideoPause
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 272
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetVideoPause()
+    content.vb: Public Overridable Sub SetVideoPause
+  overload: Funique.Manager.CinemaManagerClientUtility.SetVideoPause*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetVideoPause
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoLoop(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetVideoLoop(System.Boolean)
+  id: SetVideoLoop(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetVideoLoop(Boolean)
+  nameWithType: CinemaManagerClientUtility.SetVideoLoop(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoLoop(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetVideoLoop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 276
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetVideoLoop(bool isLoop)
+    parameters:
+    - id: isLoop
+      type: System.Boolean
+    content.vb: Public Overridable Sub SetVideoLoop(isLoop As Boolean)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetVideoLoop*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoStop
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetVideoStop
+  id: SetVideoStop
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetVideoStop()
+  nameWithType: CinemaManagerClientUtility.SetVideoStop()
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoStop()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetVideoStop
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 281
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetVideoStop()
+    content.vb: Public Overridable Sub SetVideoStop
+  overload: Funique.Manager.CinemaManagerClientUtility.SetVideoStop*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetVideoStop
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoClose
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetVideoClose
+  id: SetVideoClose
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetVideoClose()
+  nameWithType: CinemaManagerClientUtility.SetVideoClose()
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoClose()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetVideoClose
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 290
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetVideoClose()
+    content.vb: Public Overridable Sub SetVideoClose
+  overload: Funique.Manager.CinemaManagerClientUtility.SetVideoClose*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetVideoClose
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetStereoMode(System.String)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetStereoMode(System.String)
+  id: SetStereoMode(System.String)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetStereoMode(String)
+  nameWithType: CinemaManagerClientUtility.SetStereoMode(String)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetStereoMode(System.String)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetStereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 295
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void SetStereoMode(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetStereoMode(value As String)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetStereoMode*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.SetStereoMode(Funique.StereoMode)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetStereoMode(Funique.StereoMode)
+  id: SetStereoMode(Funique.StereoMode)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetStereoMode(StereoMode)
+  nameWithType: CinemaManagerClientUtility.SetStereoMode(StereoMode)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetStereoMode(Funique.StereoMode)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetStereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 302
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void SetStereoMode(StereoMode value)
+    parameters:
+    - id: value
+      type: Funique.StereoMode
+    content.vb: Public Sub SetStereoMode(value As StereoMode)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetStereoMode*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.SetSubtitle(Funique.SubtitleMode)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetSubtitle(Funique.SubtitleMode)
+  id: SetSubtitle(Funique.SubtitleMode)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSubtitle(SubtitleMode)
+  nameWithType: CinemaManagerClientUtility.SetSubtitle(SubtitleMode)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetSubtitle(Funique.SubtitleMode)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetSubtitle
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 308
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetSubtitle(SubtitleMode mode)
+    parameters:
+    - id: mode
+      type: Funique.SubtitleMode
+    content.vb: Public Overridable Sub SetSubtitle(mode As SubtitleMode)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetSubtitle*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.SetReplay(Funique.ReplayState)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SetReplay(Funique.ReplayState)
+  id: SetReplay(Funique.ReplayState)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SetReplay(ReplayState)
+  nameWithType: CinemaManagerClientUtility.SetReplay(ReplayState)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetReplay(Funique.ReplayState)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SetReplay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 327
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetReplay(ReplayState replay)
+    parameters:
+    - id: replay
+      type: Funique.ReplayState
+    content.vb: Public Overridable Sub SetReplay(replay As ReplayState)
+  overload: Funique.Manager.CinemaManagerClientUtility.SetReplay*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.ShowTexture(System.String)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.ShowTexture(System.String)
+  id: ShowTexture(System.String)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ShowTexture(String)
+  nameWithType: CinemaManagerClientUtility.ShowTexture(String)
+  fullName: Funique.Manager.CinemaManagerClientUtility.ShowTexture(System.String)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ShowTexture
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 331
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public bool ShowTexture(string imageName)
+    parameters:
+    - id: imageName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function ShowTexture(imageName As String) As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.ShowTexture*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.ShouldSwitch(System.String,RenderHeads.Media.AVProVideo.MediaPlayer@)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.ShouldSwitch(System.String,RenderHeads.Media.AVProVideo.MediaPlayer@)
+  id: ShouldSwitch(System.String,RenderHeads.Media.AVProVideo.MediaPlayer@)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ShouldSwitch(String, out MediaPlayer)
+  nameWithType: CinemaManagerClientUtility.ShouldSwitch(String, out MediaPlayer)
+  fullName: Funique.Manager.CinemaManagerClientUtility.ShouldSwitch(System.String, out RenderHeads.Media.AVProVideo.MediaPlayer)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ShouldSwitch
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 353
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual bool ShouldSwitch(string value, out MediaPlayer mediaPlayer)
+    parameters:
+    - id: value
+      type: System.String
+    - id: mediaPlayer
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function ShouldSwitch(value As String, ByRef mediaPlayer As MediaPlayer) As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.ShouldSwitch*
+  nameWithType.vb: CinemaManagerClientUtility.ShouldSwitch(String, ByRef MediaPlayer)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: Funique.Manager.CinemaManagerClientUtility.ShouldSwitch(System.String, ByRef RenderHeads.Media.AVProVideo.MediaPlayer)
+  name.vb: ShouldSwitch(String, ByRef MediaPlayer)
+- uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,RenderHeads.Media.AVProVideo.ErrorCode)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,RenderHeads.Media.AVProVideo.ErrorCode)
+  id: GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,RenderHeads.Media.AVProVideo.ErrorCode)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetMediaPlayerStatus(MediaPlayer, MediaPlayerEvent.EventType, ErrorCode)
+  nameWithType: CinemaManagerClientUtility.GetMediaPlayerStatus(MediaPlayer, MediaPlayerEvent.EventType, ErrorCode)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus(RenderHeads.Media.AVProVideo.MediaPlayer, RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType, RenderHeads.Media.AVProVideo.ErrorCode)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetMediaPlayerStatus
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 358
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual void GetMediaPlayerStatus(MediaPlayer mediaPlayer, MediaPlayerEvent.EventType eventType, ErrorCode errorCode)
+    parameters:
+    - id: mediaPlayer
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    - id: eventType
+      type: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType
+    - id: errorCode
+      type: RenderHeads.Media.AVProVideo.ErrorCode
+    content.vb: Protected Overridable Sub GetMediaPlayerStatus(mediaPlayer As MediaPlayer, eventType As MediaPlayerEvent.EventType, errorCode As ErrorCode)
+  overload: Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetControlState(Funique.Manager.CinemaManagerClientUtility.controlState)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetControlState(Funique.Manager.CinemaManagerClientUtility.controlState)
+  id: GetControlState(Funique.Manager.CinemaManagerClientUtility.controlState)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetControlState(CinemaManagerClientUtility.controlState)
+  nameWithType: CinemaManagerClientUtility.GetControlState(CinemaManagerClientUtility.controlState)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetControlState(Funique.Manager.CinemaManagerClientUtility.controlState)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetControlState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 417
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual bool GetControlState(CinemaManagerClientUtility.controlState control)
+    parameters:
+    - id: control
+      type: Funique.Manager.CinemaManagerClientUtility.controlState
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function GetControlState(control As CinemaManagerClientUtility.controlState) As Boolean
+  overload: Funique.Manager.CinemaManagerClientUtility.GetControlState*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoTime(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetVideoTime(System.Boolean)
+  id: GetVideoTime(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetVideoTime(Boolean)
+  nameWithType: CinemaManagerClientUtility.GetVideoTime(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoTime(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetVideoTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 442
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual float GetVideoTime(bool showMilliseconds = false)
+    parameters:
+    - id: showMilliseconds
+      type: System.Boolean
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function GetVideoTime(showMilliseconds As Boolean = False) As Single
+  overload: Funique.Manager.CinemaManagerClientUtility.GetVideoTime*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString(System.Boolean)
+  id: GetVideoTimeString(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetVideoTimeString(Boolean)
+  nameWithType: CinemaManagerClientUtility.GetVideoTimeString(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetVideoTimeString
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 447
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual string GetVideoTimeString(bool showMilliseconds = false)
+    parameters:
+    - id: showMilliseconds
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetVideoTimeString(showMilliseconds As Boolean = False) As String
+  overload: Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime(System.Boolean)
+  id: GetVideoDurationTime(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetVideoDurationTime(Boolean)
+  nameWithType: CinemaManagerClientUtility.GetVideoDurationTime(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetVideoDurationTime
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 452
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual float GetVideoDurationTime(bool showMilliseconds = false)
+    parameters:
+    - id: showMilliseconds
+      type: System.Boolean
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function GetVideoDurationTime(showMilliseconds As Boolean = False) As Single
+  overload: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString(System.Boolean)
+  id: GetVideoDurationTimeString(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetVideoDurationTimeString(Boolean)
+  nameWithType: CinemaManagerClientUtility.GetVideoDurationTimeString(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetVideoDurationTimeString
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 458
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual string GetVideoDurationTimeString(bool showMilliseconds = false)
+    parameters:
+    - id: showMilliseconds
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetVideoDurationTimeString(showMilliseconds As Boolean = False) As String
+  overload: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetReadyImageName
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetReadyImageName
+  id: GetReadyImageName
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetReadyImageName()
+  nameWithType: CinemaManagerClientUtility.GetReadyImageName()
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetReadyImageName()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetReadyImageName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 462
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual string GetReadyImageName()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetReadyImageName As String
+  overload: Funique.Manager.CinemaManagerClientUtility.GetReadyImageName*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName
+  id: GetReadyVideoName
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetReadyVideoName()
+  nameWithType: CinemaManagerClientUtility.GetReadyVideoName()
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetReadyVideoName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 466
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual string GetReadyVideoName()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetReadyVideoName As String
+  overload: Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.HeadsetReset
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.HeadsetReset
+  id: HeadsetReset
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: HeadsetReset()
+  nameWithType: CinemaManagerClientUtility.HeadsetReset()
+  fullName: Funique.Manager.CinemaManagerClientUtility.HeadsetReset()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: HeadsetReset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 506
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void HeadsetReset()
+    content.vb: Public Sub HeadsetReset
+  overload: Funique.Manager.CinemaManagerClientUtility.HeadsetReset*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.HeadsetReset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  id: SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: SwitchMediaPlayer(MediaPlayer)
+  nameWithType: CinemaManagerClientUtility.SwitchMediaPlayer(MediaPlayer)
+  fullName: Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SwitchMediaPlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 515
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void SwitchMediaPlayer(MediaPlayer newMediaPlayer)
+    parameters:
+    - id: newMediaPlayer
+      type: RenderHeads.Media.AVProVideo.MediaPlayer
+    content.vb: Public Sub SwitchMediaPlayer(newMediaPlayer As MediaPlayer)
+  overload: Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode(System.String)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode(System.String)
+  id: DetectPlayerMode(System.String)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: DetectPlayerMode(String)
+  nameWithType: CinemaManagerClientUtility.DetectPlayerMode(String)
+  fullName: Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode(System.String)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: DetectPlayerMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 528
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public PlayerMode DetectPlayerMode(string playFileName)
+    parameters:
+    - id: playFileName
+      type: System.String
+    return:
+      type: Funique.PlayerMode
+    content.vb: Public Function DetectPlayerMode(playFileName As String) As PlayerMode
+  overload: Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.DetectSRT(System.String)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.DetectSRT(System.String)
+  id: DetectSRT(System.String)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: DetectSRT(String)
+  nameWithType: CinemaManagerClientUtility.DetectSRT(String)
+  fullName: Funique.Manager.CinemaManagerClientUtility.DetectSRT(System.String)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: DetectSRT
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 549
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public void DetectSRT(string videoPath)
+    parameters:
+    - id: videoPath
+      type: System.String
+    content.vb: Public Sub DetectSRT(videoPath As String)
+  overload: Funique.Manager.CinemaManagerClientUtility.DetectSRT*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode
+  id: ChangeStereoMode
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: ChangeStereoMode()
+  nameWithType: CinemaManagerClientUtility.ChangeStereoMode()
+  fullName: Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ChangeStereoMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 556
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void ChangeStereoMode()
+    content.vb: Public Overridable Sub ChangeStereoMode
+  overload: Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.applyStereoSetting
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.applyStereoSetting
+  id: applyStereoSetting
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: applyStereoSetting()
+  nameWithType: CinemaManagerClientUtility.applyStereoSetting()
+  fullName: Funique.Manager.CinemaManagerClientUtility.applyStereoSetting()
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: applyStereoSetting
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 561
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public IEnumerator applyStereoSetting()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function applyStereoSetting As IEnumerator
+  overload: Funique.Manager.CinemaManagerClientUtility.applyStereoSetting*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI(System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI(System.Boolean)
+  id: DetectMediaPlayerUI(System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: DetectMediaPlayerUI(Boolean)
+  nameWithType: CinemaManagerClientUtility.DetectMediaPlayerUI(Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: DetectMediaPlayerUI
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 567
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void DetectMediaPlayerUI(bool b)
+    parameters:
+    - id: b
+      type: System.Boolean
+    content.vb: Public Overridable Sub DetectMediaPlayerUI(b As Boolean)
+  overload: Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String,System.Boolean)
+  commentId: M:Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String,System.Boolean)
+  id: GetMediaPath(System.String,System.Boolean)
+  parent: Funique.Manager.CinemaManagerClientUtility
+  langs:
+  - csharp
+  - vb
+  name: GetMediaPath(String, Boolean)
+  nameWithType: CinemaManagerClientUtility.GetMediaPath(String, Boolean)
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetMediaPath(System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: CinemaManagerClientUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GetMediaPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/CinemaManagerClientUtility.cs
+    startLine: 590
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Manager
+  syntax:
+    content: public MediaPath GetMediaPath(string ready, bool url)
+    parameters:
+    - id: ready
+      type: System.String
+    - id: url
+      type: System.Boolean
+    return:
+      type: RenderHeads.Media.AVProVideo.MediaPath
+    content.vb: Public Function GetMediaPath(ready As String, url As Boolean) As MediaPath
+  overload: Funique.Manager.CinemaManagerClientUtility.GetMediaPath*
+  implements:
+  - Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<CinemaManagerClientData>
+  nameWithType: ManagerBase<CinemaManagerClientData>
+  fullName: Funique.Manager.ManagerBase<Funique.Cinema.CinemaManagerClientData>
+  nameWithType.vb: ManagerBase(Of CinemaManagerClientData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Cinema.CinemaManagerClientData)
+  name.vb: ManagerBase(Of CinemaManagerClientData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Cinema.ICinemaClientUtility
+  commentId: T:Funique.Cinema.ICinemaClientUtility
+  parent: Funique.Cinema
+  name: ICinemaClientUtility
+  nameWithType: ICinemaClientUtility
+  fullName: Funique.Cinema.ICinemaClientUtility
+- uid: Funique.IModuleBase{Funique.Cinema.CinemaManagerClientData}
+  commentId: T:Funique.IModuleBase{Funique.Cinema.CinemaManagerClientData}
+  parent: Funique
+  definition: Funique.IModuleBase`1
+  name: IModuleBase<CinemaManagerClientData>
+  nameWithType: IModuleBase<CinemaManagerClientData>
+  fullName: Funique.IModuleBase<Funique.Cinema.CinemaManagerClientData>
+  nameWithType.vb: IModuleBase(Of CinemaManagerClientData)
+  fullName.vb: Funique.IModuleBase(Of Funique.Cinema.CinemaManagerClientData)
+  name.vb: IModuleBase(Of CinemaManagerClientData)
+  spec.csharp:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<CinemaManagerClientData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Cinema.CinemaManagerClientData>.config
+  nameWithType.vb: ManagerBase(Of CinemaManagerClientData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Cinema.CinemaManagerClientData).config
+- uid: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.RegisterConfig(Funique.Cinema.CinemaManagerClientData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.RegisterConfig(Funique.Cinema.CinemaManagerClientData)
+  parent: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(CinemaManagerClientData)
+  nameWithType: ManagerBase<CinemaManagerClientData>.RegisterConfig(CinemaManagerClientData)
+  fullName: Funique.Manager.ManagerBase<Funique.Cinema.CinemaManagerClientData>.RegisterConfig(Funique.Cinema.CinemaManagerClientData)
+  nameWithType.vb: ManagerBase(Of CinemaManagerClientData).RegisterConfig(CinemaManagerClientData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Cinema.CinemaManagerClientData).RegisterConfig(Funique.Cinema.CinemaManagerClientData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<CinemaManagerClientData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Cinema.CinemaManagerClientData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of CinemaManagerClientData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Cinema.CinemaManagerClientData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: Funique.IModuleBase`1
+  commentId: T:Funique.IModuleBase`1
+  name: IModuleBase<T>
+  nameWithType: IModuleBase<T>
+  fullName: Funique.IModuleBase<T>
+  nameWithType.vb: IModuleBase(Of T)
+  fullName.vb: Funique.IModuleBase(Of T)
+  name.vb: IModuleBase(Of T)
+  spec.csharp:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.IModuleBase`1
+    name: IModuleBase
+    nameWithType: IModuleBase
+    fullName: Funique.IModuleBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.StereoMode
+  commentId: T:Funique.StereoMode
+  parent: Funique
+  name: StereoMode
+  nameWithType: StereoMode
+  fullName: Funique.StereoMode
+- uid: RenderHeads.Media.AVProVideo.MediaHints
+  commentId: T:RenderHeads.Media.AVProVideo.MediaHints
+  parent: RenderHeads.Media.AVProVideo
+  name: MediaHints
+  nameWithType: MediaHints
+  fullName: RenderHeads.Media.AVProVideo.MediaHints
+- uid: RenderHeads.Media.AVProVideo
+  commentId: N:RenderHeads.Media.AVProVideo
+  name: RenderHeads.Media.AVProVideo
+  nameWithType: RenderHeads.Media.AVProVideo
+  fullName: RenderHeads.Media.AVProVideo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Texture2D
+  commentId: T:UnityEngine.Texture2D
+  parent: UnityEngine
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: UnityEngine.Texture2D
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.Dictionary{System.String,Funique.Cinema.MediaPlayerOption}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Funique.Cinema.MediaPlayerOption}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, MediaPlayerOption>
+  nameWithType: Dictionary<String, MediaPlayerOption>
+  fullName: System.Collections.Generic.Dictionary<System.String, Funique.Cinema.MediaPlayerOption>
+  nameWithType.vb: Dictionary(Of String, MediaPlayerOption)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, Funique.Cinema.MediaPlayerOption)
+  name.vb: Dictionary(Of String, MediaPlayerOption)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.Cinema.MediaPlayerOption
+    name: MediaPlayerOption
+    nameWithType: MediaPlayerOption
+    fullName: Funique.Cinema.MediaPlayerOption
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.Cinema.MediaPlayerOption
+    name: MediaPlayerOption
+    nameWithType: MediaPlayerOption
+    fullName: Funique.Cinema.MediaPlayerOption
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary{Funique.Cinema.ApplyMeshType,UnityEngine.Mesh}
+  commentId: T:System.Collections.Generic.Dictionary{Funique.Cinema.ApplyMeshType,UnityEngine.Mesh}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<ApplyMeshType, Mesh>
+  nameWithType: Dictionary<ApplyMeshType, Mesh>
+  fullName: System.Collections.Generic.Dictionary<Funique.Cinema.ApplyMeshType, UnityEngine.Mesh>
+  nameWithType.vb: Dictionary(Of ApplyMeshType, Mesh)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Funique.Cinema.ApplyMeshType, UnityEngine.Mesh)
+  name.vb: Dictionary(Of ApplyMeshType, Mesh)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Cinema.ApplyMeshType
+    name: ApplyMeshType
+    nameWithType: ApplyMeshType
+    fullName: Funique.Cinema.ApplyMeshType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    nameWithType: Mesh
+    fullName: UnityEngine.Mesh
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Cinema.ApplyMeshType
+    name: ApplyMeshType
+    nameWithType: ApplyMeshType
+    fullName: Funique.Cinema.ApplyMeshType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    nameWithType: Mesh
+    fullName: UnityEngine.Mesh
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{Funique.StereoMode,Funique.Cinema.StereoConfig}
+  commentId: T:System.Collections.Generic.Dictionary{Funique.StereoMode,Funique.Cinema.StereoConfig}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<StereoMode, StereoConfig>
+  nameWithType: Dictionary<StereoMode, StereoConfig>
+  fullName: System.Collections.Generic.Dictionary<Funique.StereoMode, Funique.Cinema.StereoConfig>
+  nameWithType.vb: Dictionary(Of StereoMode, StereoConfig)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Funique.StereoMode, Funique.Cinema.StereoConfig)
+  name.vb: Dictionary(Of StereoMode, StereoConfig)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.StereoMode
+    name: StereoMode
+    nameWithType: StereoMode
+    fullName: Funique.StereoMode
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.Cinema.StereoConfig
+    name: StereoConfig
+    nameWithType: StereoConfig
+    fullName: Funique.Cinema.StereoConfig
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.StereoMode
+    name: StereoMode
+    nameWithType: StereoMode
+    fullName: Funique.StereoMode
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.Cinema.StereoConfig
+    name: StereoConfig
+    nameWithType: StereoConfig
+    fullName: Funique.Cinema.StereoConfig
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
+  name: CurrentMediaPlayer
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: CurrentMediaPlayer
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer
+- uid: RenderHeads.Media.AVProVideo.MediaPlayer
+  commentId: T:RenderHeads.Media.AVProVideo.MediaPlayer
+  parent: RenderHeads.Media.AVProVideo
+  name: MediaPlayer
+  nameWithType: MediaPlayer
+  fullName: RenderHeads.Media.AVProVideo.MediaPlayer
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  name: CurrentMediaPlayer_Swap
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Swap
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: CurrentMediaPlayer_Swap
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Swap
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Swap
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  name: CurrentMediaPlayer_Display
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Display
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Display
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: CurrentMediaPlayer_Display
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Display
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Display
+- uid: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  name: CurrentMediaPlayer_Another
+  nameWithType: CinemaManagerClientUtility.CurrentMediaPlayer_Another
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurrentMediaPlayer_Another
+- uid: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: CurrentMediaPlayer_Another
+  nameWithType: ICinemaClientUtility.CurrentMediaPlayer_Another
+  fullName: Funique.Cinema.ICinemaClientUtility.CurrentMediaPlayer_Another
+- uid: Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath
+  name: ReadyVideoURLPath
+  nameWithType: CinemaManagerClientUtility.ReadyVideoURLPath
+  fullName: Funique.Manager.CinemaManagerClientUtility.ReadyVideoURLPath
+- uid: Funique.Manager.CinemaManagerClientUtility.SphereOBJ*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SphereOBJ
+  name: SphereOBJ
+  nameWithType: CinemaManagerClientUtility.SphereOBJ
+  fullName: Funique.Manager.CinemaManagerClientUtility.SphereOBJ
+- uid: Funique.Cinema.ICinemaClientUtility.SphereOBJ
+  commentId: P:Funique.Cinema.ICinemaClientUtility.SphereOBJ
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SphereOBJ
+  nameWithType: ICinemaClientUtility.SphereOBJ
+  fullName: Funique.Cinema.ICinemaClientUtility.SphereOBJ
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Funique.Manager.CinemaManagerClientUtility.readyPlayFile*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.readyPlayFile
+  name: readyPlayFile
+  nameWithType: CinemaManagerClientUtility.readyPlayFile
+  fullName: Funique.Manager.CinemaManagerClientUtility.readyPlayFile
+- uid: Funique.Cinema.ICinemaClientUtility.readyPlayFile
+  commentId: P:Funique.Cinema.ICinemaClientUtility.readyPlayFile
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: readyPlayFile
+  nameWithType: ICinemaClientUtility.readyPlayFile
+  fullName: Funique.Cinema.ICinemaClientUtility.readyPlayFile
+- uid: Funique.Manager.CinemaManagerClientUtility.CurMedia*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.CurMedia
+  name: CurMedia
+  nameWithType: CinemaManagerClientUtility.CurMedia
+  fullName: Funique.Manager.CinemaManagerClientUtility.CurMedia
+- uid: Funique.Cinema.ICinemaClientUtility.CurMedia
+  commentId: P:Funique.Cinema.ICinemaClientUtility.CurMedia
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: CurMedia
+  nameWithType: ICinemaClientUtility.CurMedia
+  fullName: Funique.Cinema.ICinemaClientUtility.CurMedia
+- uid: Funique.InfoBase
+  commentId: T:Funique.InfoBase
+  parent: Funique
+  name: InfoBase
+  nameWithType: InfoBase
+  fullName: Funique.InfoBase
+- uid: Funique.Manager.CinemaManagerClientUtility.MasterPlayerState*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.MasterPlayerState
+  name: MasterPlayerState
+  nameWithType: CinemaManagerClientUtility.MasterPlayerState
+  fullName: Funique.Manager.CinemaManagerClientUtility.MasterPlayerState
+- uid: Funique.Cinema.ICinemaClientUtility.MasterPlayerState
+  commentId: P:Funique.Cinema.ICinemaClientUtility.MasterPlayerState
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: MasterPlayerState
+  nameWithType: ICinemaClientUtility.MasterPlayerState
+  fullName: Funique.Cinema.ICinemaClientUtility.MasterPlayerState
+- uid: Funique.ClientInMasterPlayerState
+  commentId: T:Funique.ClientInMasterPlayerState
+  parent: Funique
+  name: ClientInMasterPlayerState
+  nameWithType: ClientInMasterPlayerState
+  fullName: Funique.ClientInMasterPlayerState
+- uid: Funique.Manager.CinemaManagerClientUtility.OnMediaPlay*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.OnMediaPlay
+  name: OnMediaPlay
+  nameWithType: CinemaManagerClientUtility.OnMediaPlay
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnMediaPlay
+- uid: Funique.Cinema.ICinemaClientUtility.OnMediaPlay
+  commentId: P:Funique.Cinema.ICinemaClientUtility.OnMediaPlay
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: OnMediaPlay
+  nameWithType: ICinemaClientUtility.OnMediaPlay
+  fullName: Funique.Cinema.ICinemaClientUtility.OnMediaPlay
+- uid: UnityEngine.Events.UnityEvent{System.String}
+  commentId: T:UnityEngine.Events.UnityEvent{System.String}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<String>
+  nameWithType: UnityEvent<String>
+  fullName: UnityEngine.Events.UnityEvent<System.String>
+  nameWithType.vb: UnityEvent(Of String)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of System.String)
+  name.vb: UnityEvent(Of String)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events.UnityEvent`1
+  commentId: T:UnityEngine.Events.UnityEvent`1
+  isExternal: true
+  name: UnityEvent<T0>
+  nameWithType: UnityEvent<T0>
+  fullName: UnityEngine.Events.UnityEvent<T0>
+  nameWithType.vb: UnityEvent(Of T0)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of T0)
+  name.vb: UnityEvent(Of T0)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+- uid: Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare
+  name: OnMediaPlayPrepare
+  nameWithType: CinemaManagerClientUtility.OnMediaPlayPrepare
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnMediaPlayPrepare
+- uid: Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare
+  commentId: P:Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: OnMediaPlayPrepare
+  nameWithType: ICinemaClientUtility.OnMediaPlayPrepare
+  fullName: Funique.Cinema.ICinemaClientUtility.OnMediaPlayPrepare
+- uid: Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer
+  name: OnSwitchMediaPlayer
+  nameWithType: CinemaManagerClientUtility.OnSwitchMediaPlayer
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnSwitchMediaPlayer
+- uid: Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer
+  commentId: P:Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: OnSwitchMediaPlayer
+  nameWithType: ICinemaClientUtility.OnSwitchMediaPlayer
+  fullName: Funique.Cinema.ICinemaClientUtility.OnSwitchMediaPlayer
+- uid: UnityEngine.Events.UnityEvent{RenderHeads.Media.AVProVideo.MediaPlayer}
+  commentId: T:UnityEngine.Events.UnityEvent{RenderHeads.Media.AVProVideo.MediaPlayer}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<MediaPlayer>
+  nameWithType: UnityEvent<MediaPlayer>
+  fullName: UnityEngine.Events.UnityEvent<RenderHeads.Media.AVProVideo.MediaPlayer>
+  nameWithType.vb: UnityEvent(Of MediaPlayer)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of RenderHeads.Media.AVProVideo.MediaPlayer)
+  name.vb: UnityEvent(Of MediaPlayer)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RenderHeads.Media.AVProVideo.MediaPlayer
+    name: MediaPlayer
+    nameWithType: MediaPlayer
+    fullName: RenderHeads.Media.AVProVideo.MediaPlayer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RenderHeads.Media.AVProVideo.MediaPlayer
+    name: MediaPlayer
+    nameWithType: MediaPlayer
+    fullName: RenderHeads.Media.AVProVideo.MediaPlayer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange
+  name: OnWaitroomStateChange
+  nameWithType: CinemaManagerClientUtility.OnWaitroomStateChange
+  fullName: Funique.Manager.CinemaManagerClientUtility.OnWaitroomStateChange
+- uid: Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange
+  commentId: P:Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: OnWaitroomStateChange
+  nameWithType: ICinemaClientUtility.OnWaitroomStateChange
+  fullName: Funique.Cinema.ICinemaClientUtility.OnWaitroomStateChange
+- uid: UnityEngine.Events.UnityEvent{System.Boolean}
+  commentId: T:UnityEngine.Events.UnityEvent{System.Boolean}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<Boolean>
+  nameWithType: UnityEvent<Boolean>
+  fullName: UnityEngine.Events.UnityEvent<System.Boolean>
+  nameWithType.vb: UnityEvent(Of Boolean)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of System.Boolean)
+  name.vb: UnityEvent(Of Boolean)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.HeadSet*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.HeadSet
+  name: HeadSet
+  nameWithType: CinemaManagerClientUtility.HeadSet
+  fullName: Funique.Manager.CinemaManagerClientUtility.HeadSet
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: Funique.Manager.CinemaManagerClientUtility.ImageFolder*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.ImageFolder
+  name: ImageFolder
+  nameWithType: CinemaManagerClientUtility.ImageFolder
+  fullName: Funique.Manager.CinemaManagerClientUtility.ImageFolder
+- uid: Funique.Manager.CinemaManagerClientUtility.VideoFolder*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.VideoFolder
+  name: VideoFolder
+  nameWithType: CinemaManagerClientUtility.VideoFolder
+  fullName: Funique.Manager.CinemaManagerClientUtility.VideoFolder
+- uid: Funique.Manager.CinemaManagerClientUtility.Support_Swap*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.Support_Swap
+  name: Support_Swap
+  nameWithType: CinemaManagerClientUtility.Support_Swap
+  fullName: Funique.Manager.CinemaManagerClientUtility.Support_Swap
+- uid: Funique.Cinema.ICinemaClientUtility.Support_Swap
+  commentId: P:Funique.Cinema.ICinemaClientUtility.Support_Swap
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: Support_Swap
+  nameWithType: ICinemaClientUtility.Support_Swap
+  fullName: Funique.Cinema.ICinemaClientUtility.Support_Swap
+- uid: Funique.Manager.CinemaManagerClientUtility.Current_Display*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.Current_Display
+  name: Current_Display
+  nameWithType: CinemaManagerClientUtility.Current_Display
+  fullName: Funique.Manager.CinemaManagerClientUtility.Current_Display
+- uid: Funique.Cinema.ICinemaClientUtility.Current_Display
+  commentId: P:Funique.Cinema.ICinemaClientUtility.Current_Display
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: Current_Display
+  nameWithType: ICinemaClientUtility.Current_Display
+  fullName: Funique.Cinema.ICinemaClientUtility.Current_Display
+- uid: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.Loaded(Funique.Cinema.CinemaManagerClientData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}.Loaded(Funique.Cinema.CinemaManagerClientData)
+  parent: Funique.Manager.ManagerBase{Funique.Cinema.CinemaManagerClientData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(CinemaManagerClientData)
+  nameWithType: ManagerBase<CinemaManagerClientData>.Loaded(CinemaManagerClientData)
+  fullName: Funique.Manager.ManagerBase<Funique.Cinema.CinemaManagerClientData>.Loaded(Funique.Cinema.CinemaManagerClientData)
+  nameWithType.vb: ManagerBase(Of CinemaManagerClientData).Loaded(CinemaManagerClientData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Cinema.CinemaManagerClientData).Loaded(Funique.Cinema.CinemaManagerClientData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<CinemaManagerClientData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Cinema.CinemaManagerClientData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of CinemaManagerClientData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Cinema.CinemaManagerClientData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Cinema.CinemaManagerClientData
+    name: CinemaManagerClientData
+    nameWithType: CinemaManagerClientData
+    fullName: Funique.Cinema.CinemaManagerClientData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.Loaded*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.Loaded
+  name: Loaded
+  nameWithType: CinemaManagerClientUtility.Loaded
+  fullName: Funique.Manager.CinemaManagerClientUtility.Loaded
+- uid: Funique.Cinema.CinemaManagerClientData
+  commentId: T:Funique.Cinema.CinemaManagerClientData
+  parent: Funique.Cinema
+  name: CinemaManagerClientData
+  nameWithType: CinemaManagerClientData
+  fullName: Funique.Cinema.CinemaManagerClientData
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance
+  name: SelectMediaPlayerInstance
+  nameWithType: CinemaManagerClientUtility.SelectMediaPlayerInstance
+  fullName: Funique.Manager.CinemaManagerClientUtility.SelectMediaPlayerInstance
+- uid: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SelectMediaPlayerInstance(Int32)
+  nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance(Int32)
+  fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)
+    name: SelectMediaPlayerInstance
+    nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance
+    fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.Int32)
+    name: SelectMediaPlayerInstance
+    nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance
+    fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SelectMediaPlayerInstance(String)
+  nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance(String)
+  fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)
+    name: SelectMediaPlayerInstance
+    nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance
+    fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance(System.String)
+    name: SelectMediaPlayerInstance
+    nameWithType: ICinemaClientUtility.SelectMediaPlayerInstance
+    fullName: Funique.Cinema.ICinemaClientUtility.SelectMediaPlayerInstance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+  name: SetFirstBuffer
+  nameWithType: CinemaManagerClientUtility.SetFirstBuffer
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetFirstBuffer
+- uid: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetFirstBuffer()
+  nameWithType: ICinemaClientUtility.SetFirstBuffer()
+  fullName: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+    name: SetFirstBuffer
+    nameWithType: ICinemaClientUtility.SetFirstBuffer
+    fullName: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+    name: SetFirstBuffer
+    nameWithType: ICinemaClientUtility.SetFirstBuffer
+    fullName: Funique.Cinema.ICinemaClientUtility.SetFirstBuffer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SwapBuffer*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+  name: SwapBuffer
+  nameWithType: CinemaManagerClientUtility.SwapBuffer
+  fullName: Funique.Manager.CinemaManagerClientUtility.SwapBuffer
+- uid: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SwapBuffer()
+  nameWithType: ICinemaClientUtility.SwapBuffer()
+  fullName: Funique.Cinema.ICinemaClientUtility.SwapBuffer()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+    name: SwapBuffer
+    nameWithType: ICinemaClientUtility.SwapBuffer
+    fullName: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+    name: SwapBuffer
+    nameWithType: ICinemaClientUtility.SwapBuffer
+    fullName: Funique.Cinema.ICinemaClientUtility.SwapBuffer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoSeek*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetVideoSeek
+  name: SetVideoSeek
+  nameWithType: CinemaManagerClientUtility.SetVideoSeek
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoSeek
+- uid: Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SetVideoSeek(Single)
+  nameWithType: ICinemaClientUtility.SetVideoSeek(Single)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)
+    name: SetVideoSeek
+    nameWithType: ICinemaClientUtility.SetVideoSeek
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoSeek
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoSeek(System.Single)
+    name: SetVideoSeek
+    nameWithType: ICinemaClientUtility.SetVideoSeek
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoSeek
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.Manager.CinemaManagerClientUtility.ICheckSeek*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.ICheckSeek
+  name: ICheckSeek
+  nameWithType: CinemaManagerClientUtility.ICheckSeek
+  fullName: Funique.Manager.CinemaManagerClientUtility.ICheckSeek
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Funique.Manager.CinemaManagerClientUtility.SetWaitRoom*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetWaitRoom
+  name: SetWaitRoom
+  nameWithType: CinemaManagerClientUtility.SetWaitRoom
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetWaitRoom
+- uid: Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SetWaitRoom(Boolean)
+  nameWithType: ICinemaClientUtility.SetWaitRoom(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)
+    name: SetWaitRoom
+    nameWithType: ICinemaClientUtility.SetWaitRoom
+    fullName: Funique.Cinema.ICinemaClientUtility.SetWaitRoom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetWaitRoom(System.Boolean)
+    name: SetWaitRoom
+    nameWithType: ICinemaClientUtility.SetWaitRoom
+    fullName: Funique.Cinema.ICinemaClientUtility.SetWaitRoom
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile
+  name: SetReadyPlayFile
+  nameWithType: CinemaManagerClientUtility.SetReadyPlayFile
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetReadyPlayFile
+- uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetReadyPlayFile(InfoBase)
+  nameWithType: ICinemaClientUtility.SetReadyPlayFile(InfoBase)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+    name: SetReadyPlayFile
+    nameWithType: ICinemaClientUtility.SetReadyPlayFile
+    fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.InfoBase
+    name: InfoBase
+    nameWithType: InfoBase
+    fullName: Funique.InfoBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(Funique.InfoBase)
+    name: SetReadyPlayFile
+    nameWithType: ICinemaClientUtility.SetReadyPlayFile
+    fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.InfoBase
+    name: InfoBase
+    nameWithType: InfoBase
+    fullName: Funique.InfoBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SetReadyPlayFile(String)
+  nameWithType: ICinemaClientUtility.SetReadyPlayFile(String)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
+    name: SetReadyPlayFile
+    nameWithType: ICinemaClientUtility.SetReadyPlayFile
+    fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile(System.String)
+    name: SetReadyPlayFile
+    nameWithType: ICinemaClientUtility.SetReadyPlayFile
+    fullName: Funique.Cinema.ICinemaClientUtility.SetReadyPlayFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoPlay*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetVideoPlay
+  name: SetVideoPlay
+  nameWithType: CinemaManagerClientUtility.SetVideoPlay
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoPlay
+- uid: Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SetVideoPlay(Boolean)
+  nameWithType: ICinemaClientUtility.SetVideoPlay(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)
+    name: SetVideoPlay
+    nameWithType: ICinemaClientUtility.SetVideoPlay
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoPlay(System.Boolean)
+    name: SetVideoPlay
+    nameWithType: ICinemaClientUtility.SetVideoPlay
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoPause*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetVideoPause
+  name: SetVideoPause
+  nameWithType: CinemaManagerClientUtility.SetVideoPause
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoPause
+- uid: Funique.Cinema.ICinemaClientUtility.SetVideoPause
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetVideoPause
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetVideoPause()
+  nameWithType: ICinemaClientUtility.SetVideoPause()
+  fullName: Funique.Cinema.ICinemaClientUtility.SetVideoPause()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoPause
+    name: SetVideoPause
+    nameWithType: ICinemaClientUtility.SetVideoPause
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoPause
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoPause
+    name: SetVideoPause
+    nameWithType: ICinemaClientUtility.SetVideoPause
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoPause
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoLoop*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetVideoLoop
+  name: SetVideoLoop
+  nameWithType: CinemaManagerClientUtility.SetVideoLoop
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoLoop
+- uid: Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SetVideoLoop(Boolean)
+  nameWithType: ICinemaClientUtility.SetVideoLoop(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)
+    name: SetVideoLoop
+    nameWithType: ICinemaClientUtility.SetVideoLoop
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoLoop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoLoop(System.Boolean)
+    name: SetVideoLoop
+    nameWithType: ICinemaClientUtility.SetVideoLoop
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoLoop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoStop*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetVideoStop
+  name: SetVideoStop
+  nameWithType: CinemaManagerClientUtility.SetVideoStop
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoStop
+- uid: Funique.Cinema.ICinemaClientUtility.SetVideoStop
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetVideoStop
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetVideoStop()
+  nameWithType: ICinemaClientUtility.SetVideoStop()
+  fullName: Funique.Cinema.ICinemaClientUtility.SetVideoStop()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoStop
+    name: SetVideoStop
+    nameWithType: ICinemaClientUtility.SetVideoStop
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoStop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoStop
+    name: SetVideoStop
+    nameWithType: ICinemaClientUtility.SetVideoStop
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoStop
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetVideoClose*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetVideoClose
+  name: SetVideoClose
+  nameWithType: CinemaManagerClientUtility.SetVideoClose
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetVideoClose
+- uid: Funique.Cinema.ICinemaClientUtility.SetVideoClose
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetVideoClose
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetVideoClose()
+  nameWithType: ICinemaClientUtility.SetVideoClose()
+  fullName: Funique.Cinema.ICinemaClientUtility.SetVideoClose()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoClose
+    name: SetVideoClose
+    nameWithType: ICinemaClientUtility.SetVideoClose
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetVideoClose
+    name: SetVideoClose
+    nameWithType: ICinemaClientUtility.SetVideoClose
+    fullName: Funique.Cinema.ICinemaClientUtility.SetVideoClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetStereoMode*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetStereoMode
+  name: SetStereoMode
+  nameWithType: CinemaManagerClientUtility.SetStereoMode
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetStereoMode
+- uid: Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: SetStereoMode(String)
+  nameWithType: ICinemaClientUtility.SetStereoMode(String)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)
+    name: SetStereoMode
+    nameWithType: ICinemaClientUtility.SetStereoMode
+    fullName: Funique.Cinema.ICinemaClientUtility.SetStereoMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetStereoMode(System.String)
+    name: SetStereoMode
+    nameWithType: ICinemaClientUtility.SetStereoMode
+    fullName: Funique.Cinema.ICinemaClientUtility.SetStereoMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetStereoMode(StereoMode)
+  nameWithType: ICinemaClientUtility.SetStereoMode(StereoMode)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)
+    name: SetStereoMode
+    nameWithType: ICinemaClientUtility.SetStereoMode
+    fullName: Funique.Cinema.ICinemaClientUtility.SetStereoMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.StereoMode
+    name: StereoMode
+    nameWithType: StereoMode
+    fullName: Funique.StereoMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetStereoMode(Funique.StereoMode)
+    name: SetStereoMode
+    nameWithType: ICinemaClientUtility.SetStereoMode
+    fullName: Funique.Cinema.ICinemaClientUtility.SetStereoMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.StereoMode
+    name: StereoMode
+    nameWithType: StereoMode
+    fullName: Funique.StereoMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SetSubtitle*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetSubtitle
+  name: SetSubtitle
+  nameWithType: CinemaManagerClientUtility.SetSubtitle
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetSubtitle
+- uid: Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetSubtitle(SubtitleMode)
+  nameWithType: ICinemaClientUtility.SetSubtitle(SubtitleMode)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)
+    name: SetSubtitle
+    nameWithType: ICinemaClientUtility.SetSubtitle
+    fullName: Funique.Cinema.ICinemaClientUtility.SetSubtitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.SubtitleMode
+    name: SubtitleMode
+    nameWithType: SubtitleMode
+    fullName: Funique.SubtitleMode
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetSubtitle(Funique.SubtitleMode)
+    name: SetSubtitle
+    nameWithType: ICinemaClientUtility.SetSubtitle
+    fullName: Funique.Cinema.ICinemaClientUtility.SetSubtitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.SubtitleMode
+    name: SubtitleMode
+    nameWithType: SubtitleMode
+    fullName: Funique.SubtitleMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.SubtitleMode
+  commentId: T:Funique.SubtitleMode
+  parent: Funique
+  name: SubtitleMode
+  nameWithType: SubtitleMode
+  fullName: Funique.SubtitleMode
+- uid: Funique.Manager.CinemaManagerClientUtility.SetReplay*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SetReplay
+  name: SetReplay
+  nameWithType: CinemaManagerClientUtility.SetReplay
+  fullName: Funique.Manager.CinemaManagerClientUtility.SetReplay
+- uid: Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SetReplay(ReplayState)
+  nameWithType: ICinemaClientUtility.SetReplay(ReplayState)
+  fullName: Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)
+    name: SetReplay
+    nameWithType: ICinemaClientUtility.SetReplay
+    fullName: Funique.Cinema.ICinemaClientUtility.SetReplay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.ReplayState
+    name: ReplayState
+    nameWithType: ReplayState
+    fullName: Funique.ReplayState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SetReplay(Funique.ReplayState)
+    name: SetReplay
+    nameWithType: ICinemaClientUtility.SetReplay
+    fullName: Funique.Cinema.ICinemaClientUtility.SetReplay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.ReplayState
+    name: ReplayState
+    nameWithType: ReplayState
+    fullName: Funique.ReplayState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.ReplayState
+  commentId: T:Funique.ReplayState
+  parent: Funique
+  name: ReplayState
+  nameWithType: ReplayState
+  fullName: Funique.ReplayState
+- uid: Funique.Manager.CinemaManagerClientUtility.ShowTexture*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.ShowTexture
+  name: ShowTexture
+  nameWithType: CinemaManagerClientUtility.ShowTexture
+  fullName: Funique.Manager.CinemaManagerClientUtility.ShowTexture
+- uid: Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: ShowTexture(String)
+  nameWithType: ICinemaClientUtility.ShowTexture(String)
+  fullName: Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)
+    name: ShowTexture
+    nameWithType: ICinemaClientUtility.ShowTexture
+    fullName: Funique.Cinema.ICinemaClientUtility.ShowTexture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.ShowTexture(System.String)
+    name: ShowTexture
+    nameWithType: ICinemaClientUtility.ShowTexture
+    fullName: Funique.Cinema.ICinemaClientUtility.ShowTexture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.ShouldSwitch*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.ShouldSwitch
+  name: ShouldSwitch
+  nameWithType: CinemaManagerClientUtility.ShouldSwitch
+  fullName: Funique.Manager.CinemaManagerClientUtility.ShouldSwitch
+- uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus
+  name: GetMediaPlayerStatus
+  nameWithType: CinemaManagerClientUtility.GetMediaPlayerStatus
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetMediaPlayerStatus
+- uid: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType
+  commentId: T:RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType
+  parent: RenderHeads.Media.AVProVideo
+  name: MediaPlayerEvent.EventType
+  nameWithType: MediaPlayerEvent.EventType
+  fullName: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType
+- uid: RenderHeads.Media.AVProVideo.ErrorCode
+  commentId: T:RenderHeads.Media.AVProVideo.ErrorCode
+  parent: RenderHeads.Media.AVProVideo
+  name: ErrorCode
+  nameWithType: ErrorCode
+  fullName: RenderHeads.Media.AVProVideo.ErrorCode
+- uid: Funique.Manager.CinemaManagerClientUtility.GetControlState*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetControlState
+  name: GetControlState
+  nameWithType: CinemaManagerClientUtility.GetControlState
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetControlState
+- uid: Funique.Manager.CinemaManagerClientUtility.controlState
+  commentId: T:Funique.Manager.CinemaManagerClientUtility.controlState
+  parent: Funique.Manager
+  name: CinemaManagerClientUtility.controlState
+  nameWithType: CinemaManagerClientUtility.controlState
+  fullName: Funique.Manager.CinemaManagerClientUtility.controlState
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoTime*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetVideoTime
+  name: GetVideoTime
+  nameWithType: CinemaManagerClientUtility.GetVideoTime
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoTime
+- uid: Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: GetVideoTime(Boolean)
+  nameWithType: ICinemaClientUtility.GetVideoTime(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)
+    name: GetVideoTime
+    nameWithType: ICinemaClientUtility.GetVideoTime
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoTime(System.Boolean)
+    name: GetVideoTime
+    nameWithType: ICinemaClientUtility.GetVideoTime
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString
+  name: GetVideoTimeString
+  nameWithType: CinemaManagerClientUtility.GetVideoTimeString
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoTimeString
+- uid: Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: GetVideoTimeString(Boolean)
+  nameWithType: ICinemaClientUtility.GetVideoTimeString(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)
+    name: GetVideoTimeString
+    nameWithType: ICinemaClientUtility.GetVideoTimeString
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoTimeString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoTimeString(System.Boolean)
+    name: GetVideoTimeString
+    nameWithType: ICinemaClientUtility.GetVideoTimeString
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoTimeString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime
+  name: GetVideoDurationTime
+  nameWithType: CinemaManagerClientUtility.GetVideoDurationTime
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTime
+- uid: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: GetVideoDurationTime(Boolean)
+  nameWithType: ICinemaClientUtility.GetVideoDurationTime(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)
+    name: GetVideoDurationTime
+    nameWithType: ICinemaClientUtility.GetVideoDurationTime
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime(System.Boolean)
+    name: GetVideoDurationTime
+    nameWithType: ICinemaClientUtility.GetVideoDurationTime
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString
+  name: GetVideoDurationTimeString
+  nameWithType: CinemaManagerClientUtility.GetVideoDurationTimeString
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetVideoDurationTimeString
+- uid: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: GetVideoDurationTimeString(Boolean)
+  nameWithType: ICinemaClientUtility.GetVideoDurationTimeString(Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)
+    name: GetVideoDurationTimeString
+    nameWithType: ICinemaClientUtility.GetVideoDurationTimeString
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString(System.Boolean)
+    name: GetVideoDurationTimeString
+    nameWithType: ICinemaClientUtility.GetVideoDurationTimeString
+    fullName: Funique.Cinema.ICinemaClientUtility.GetVideoDurationTimeString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.GetReadyImageName*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetReadyImageName
+  name: GetReadyImageName
+  nameWithType: CinemaManagerClientUtility.GetReadyImageName
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetReadyImageName
+- uid: Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: GetReadyImageName()
+  nameWithType: ICinemaClientUtility.GetReadyImageName()
+  fullName: Funique.Cinema.ICinemaClientUtility.GetReadyImageName()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+    name: GetReadyImageName
+    nameWithType: ICinemaClientUtility.GetReadyImageName
+    fullName: Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+    name: GetReadyImageName
+    nameWithType: ICinemaClientUtility.GetReadyImageName
+    fullName: Funique.Cinema.ICinemaClientUtility.GetReadyImageName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName
+  name: GetReadyVideoName
+  nameWithType: CinemaManagerClientUtility.GetReadyVideoName
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetReadyVideoName
+- uid: Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: GetReadyVideoName()
+  nameWithType: ICinemaClientUtility.GetReadyVideoName()
+  fullName: Funique.Cinema.ICinemaClientUtility.GetReadyVideoName()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+    name: GetReadyVideoName
+    nameWithType: ICinemaClientUtility.GetReadyVideoName
+    fullName: Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+    name: GetReadyVideoName
+    nameWithType: ICinemaClientUtility.GetReadyVideoName
+    fullName: Funique.Cinema.ICinemaClientUtility.GetReadyVideoName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.HeadsetReset*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.HeadsetReset
+  name: HeadsetReset
+  nameWithType: CinemaManagerClientUtility.HeadsetReset
+  fullName: Funique.Manager.CinemaManagerClientUtility.HeadsetReset
+- uid: Funique.Cinema.ICinemaClientUtility.HeadsetReset
+  commentId: M:Funique.Cinema.ICinemaClientUtility.HeadsetReset
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: HeadsetReset()
+  nameWithType: ICinemaClientUtility.HeadsetReset()
+  fullName: Funique.Cinema.ICinemaClientUtility.HeadsetReset()
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.HeadsetReset
+    name: HeadsetReset
+    nameWithType: ICinemaClientUtility.HeadsetReset
+    fullName: Funique.Cinema.ICinemaClientUtility.HeadsetReset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.HeadsetReset
+    name: HeadsetReset
+    nameWithType: ICinemaClientUtility.HeadsetReset
+    fullName: Funique.Cinema.ICinemaClientUtility.HeadsetReset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer
+  name: SwitchMediaPlayer
+  nameWithType: CinemaManagerClientUtility.SwitchMediaPlayer
+  fullName: Funique.Manager.CinemaManagerClientUtility.SwitchMediaPlayer
+- uid: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  parent: Funique.Cinema.ICinemaClientUtility
+  name: SwitchMediaPlayer(MediaPlayer)
+  nameWithType: ICinemaClientUtility.SwitchMediaPlayer(MediaPlayer)
+  fullName: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+    name: SwitchMediaPlayer
+    nameWithType: ICinemaClientUtility.SwitchMediaPlayer
+    fullName: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RenderHeads.Media.AVProVideo.MediaPlayer
+    name: MediaPlayer
+    nameWithType: MediaPlayer
+    fullName: RenderHeads.Media.AVProVideo.MediaPlayer
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer(RenderHeads.Media.AVProVideo.MediaPlayer)
+    name: SwitchMediaPlayer
+    nameWithType: ICinemaClientUtility.SwitchMediaPlayer
+    fullName: Funique.Cinema.ICinemaClientUtility.SwitchMediaPlayer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RenderHeads.Media.AVProVideo.MediaPlayer
+    name: MediaPlayer
+    nameWithType: MediaPlayer
+    fullName: RenderHeads.Media.AVProVideo.MediaPlayer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode
+  name: DetectPlayerMode
+  nameWithType: CinemaManagerClientUtility.DetectPlayerMode
+  fullName: Funique.Manager.CinemaManagerClientUtility.DetectPlayerMode
+- uid: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: DetectPlayerMode(String)
+  nameWithType: ICinemaClientUtility.DetectPlayerMode(String)
+  fullName: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
+    name: DetectPlayerMode
+    nameWithType: ICinemaClientUtility.DetectPlayerMode
+    fullName: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode(System.String)
+    name: DetectPlayerMode
+    nameWithType: ICinemaClientUtility.DetectPlayerMode
+    fullName: Funique.Cinema.ICinemaClientUtility.DetectPlayerMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.PlayerMode
+  commentId: T:Funique.PlayerMode
+  parent: Funique
+  name: PlayerMode
+  nameWithType: PlayerMode
+  fullName: Funique.PlayerMode
+- uid: Funique.Manager.CinemaManagerClientUtility.DetectSRT*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.DetectSRT
+  name: DetectSRT
+  nameWithType: CinemaManagerClientUtility.DetectSRT
+  fullName: Funique.Manager.CinemaManagerClientUtility.DetectSRT
+- uid: Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode
+  name: ChangeStereoMode
+  nameWithType: CinemaManagerClientUtility.ChangeStereoMode
+  fullName: Funique.Manager.CinemaManagerClientUtility.ChangeStereoMode
+- uid: Funique.Manager.CinemaManagerClientUtility.applyStereoSetting*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.applyStereoSetting
+  name: applyStereoSetting
+  nameWithType: CinemaManagerClientUtility.applyStereoSetting
+  fullName: Funique.Manager.CinemaManagerClientUtility.applyStereoSetting
+- uid: Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI
+  name: DetectMediaPlayerUI
+  nameWithType: CinemaManagerClientUtility.DetectMediaPlayerUI
+  fullName: Funique.Manager.CinemaManagerClientUtility.DetectMediaPlayerUI
+- uid: Funique.Manager.CinemaManagerClientUtility.GetMediaPath*
+  commentId: Overload:Funique.Manager.CinemaManagerClientUtility.GetMediaPath
+  name: GetMediaPath
+  nameWithType: CinemaManagerClientUtility.GetMediaPath
+  fullName: Funique.Manager.CinemaManagerClientUtility.GetMediaPath
+- uid: Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+  commentId: M:Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+  parent: Funique.Cinema.ICinemaClientUtility
+  isExternal: true
+  name: GetMediaPath(String, Boolean)
+  nameWithType: ICinemaClientUtility.GetMediaPath(String, Boolean)
+  fullName: Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+    name: GetMediaPath
+    nameWithType: ICinemaClientUtility.GetMediaPath
+    fullName: Funique.Cinema.ICinemaClientUtility.GetMediaPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Cinema.ICinemaClientUtility.GetMediaPath(System.String,System.Boolean)
+    name: GetMediaPath
+    nameWithType: ICinemaClientUtility.GetMediaPath
+    fullName: Funique.Cinema.ICinemaClientUtility.GetMediaPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RenderHeads.Media.AVProVideo.MediaPath
+  commentId: T:RenderHeads.Media.AVProVideo.MediaPath
+  parent: RenderHeads.Media.AVProVideo
+  name: MediaPath
+  nameWithType: MediaPath
+  fullName: RenderHeads.Media.AVProVideo.MediaPath

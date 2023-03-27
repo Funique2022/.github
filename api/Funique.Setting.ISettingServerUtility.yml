@@ -1,0 +1,845 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Setting.ISettingServerUtility
+  commentId: T:Funique.Setting.ISettingServerUtility
+  id: ISettingServerUtility
+  parent: Funique.Setting
+  children:
+  - Funique.Setting.ISettingServerUtility.BatterState
+  - Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  - Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  - Funique.Setting.ISettingServerUtility.Controller
+  - Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  - Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  - Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  - Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  - Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  - Funique.Setting.ISettingServerUtility.PlayerSavePath
+  - Funique.Setting.ISettingServerUtility.playerSortName
+  - Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  - Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  - Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  - Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  - Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISettingServerUtility
+  nameWithType: ISettingServerUtility
+  fullName: Funique.Setting.ISettingServerUtility
+  type: Interface
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: ISettingServerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 9
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nServer setting utility <br />\n------------------------------------------------ <br />\n伺服器設定功能\n"
+  example: []
+  syntax:
+    content: public interface ISettingServerUtility
+    content.vb: Public Interface ISettingServerUtility
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Setting.ISettingServerUtility.playerSortName
+  commentId: P:Funique.Setting.ISettingServerUtility.playerSortName
+  id: playerSortName
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: playerSortName
+  nameWithType: ISettingServerUtility.playerSortName
+  fullName: Funique.Setting.ISettingServerUtility.playerSortName
+  type: Property
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: playerSortName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 11
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  syntax:
+    content: string playerSortName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property playerSortName As String
+  overload: Funique.Setting.ISettingServerUtility.playerSortName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Setting.ISettingServerUtility.BatterState
+  commentId: P:Funique.Setting.ISettingServerUtility.BatterState
+  id: BatterState
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: BatterState
+  nameWithType: ISettingServerUtility.BatterState
+  fullName: Funique.Setting.ISettingServerUtility.BatterState
+  type: Property
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: BatterState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 12
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  syntax:
+    content: bool BatterState { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property BatterState As Boolean
+  overload: Funique.Setting.ISettingServerUtility.BatterState*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Funique.Setting.ISettingServerUtility.Controller
+  commentId: P:Funique.Setting.ISettingServerUtility.Controller
+  id: Controller
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: ISettingServerUtility.Controller
+  fullName: Funique.Setting.ISettingServerUtility.Controller
+  type: Property
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: Controller
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 14
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  syntax:
+    content: SettingControllerBase Controller { get; }
+    parameters: []
+    return:
+      type: Funique.SettingControllerBase
+    content.vb: ReadOnly Property Controller As SettingControllerBase
+  overload: Funique.Setting.ISettingServerUtility.Controller*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation,System.String)
+  id: SavePlayerNickName(Funique.PlayerInformation,System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavePlayerNickName(PlayerInformation, String)
+  nameWithType: ISettingServerUtility.SavePlayerNickName(PlayerInformation, String)
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayerNickName(Funique.PlayerInformation, System.String)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavePlayerNickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 25
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nFind match host name, and reply nickname with context <br />\nCreate one if find nothing <br />\n------------------------------------------------ <br />\n尋找配對的用戶, 回應暱稱和內容 <br />\n會建立預設的如果無法找到暱稱\n"
+  example: []
+  syntax:
+    content: void SavePlayerNickName(PlayerInformation info, string context)
+    parameters:
+    - id: info
+      type: Funique.PlayerInformation
+      description: Target info
+    - id: context
+      type: System.String
+      description: Replace string
+    content.vb: Sub SavePlayerNickName(info As PlayerInformation, context As String)
+  overload: Funique.Setting.ISettingServerUtility.SavePlayerNickName*
+- uid: Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  commentId: P:Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  id: CinemaPlayListPath
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CinemaPlayListPath
+  nameWithType: ISettingServerUtility.CinemaPlayListPath
+  fullName: Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  type: Property
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CinemaPlayListPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 32
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave cinema setting path <br />\n------------------------------------------------ <br />\n劇場設定儲存資料夾路徑\n"
+  example: []
+  syntax:
+    content: string CinemaPlayListPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property CinemaPlayListPath As String
+  overload: Funique.Setting.ISettingServerUtility.CinemaPlayListPath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Setting.ISettingServerUtility.PlayerSavePath
+  commentId: P:Funique.Setting.ISettingServerUtility.PlayerSavePath
+  id: PlayerSavePath
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerSavePath
+  nameWithType: ISettingServerUtility.PlayerSavePath
+  fullName: Funique.Setting.ISettingServerUtility.PlayerSavePath
+  type: Property
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlayerSavePath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 38
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave client setup path <br />\n------------------------------------------------ <br />\n用戶設置儲存資料夾路徑\n"
+  example: []
+  syntax:
+    content: string PlayerSavePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PlayerSavePath As String
+  overload: Funique.Setting.ISettingServerUtility.PlayerSavePath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  commentId: P:Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  id: PlayerSaveFileName
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: PlayerSaveFileName
+  nameWithType: ISettingServerUtility.PlayerSaveFileName
+  fullName: Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  type: Property
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: PlayerSaveFileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 44
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave client setup file path <br />\n------------------------------------------------ <br />\n用戶設置儲存檔案名稱\n"
+  example: []
+  syntax:
+    content: string PlayerSaveFileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PlayerSaveFileName As String
+  overload: Funique.Setting.ISettingServerUtility.PlayerSaveFileName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  commentId: M:Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  id: SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation})
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavePlayer(List<PlayerInformation>)
+  nameWithType: ISettingServerUtility.SavePlayer(List<PlayerInformation>)
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List<Funique.PlayerInformation>)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavePlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 52
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave clients setup, With config path <br />\n------------------------------------------------ <br />\n儲存用戶設置\n"
+  example: []
+  syntax:
+    content: void SavePlayer(List<PlayerInformation> data)
+    parameters:
+    - id: data
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+    content.vb: Sub SavePlayer(data As List(Of PlayerInformation))
+  overload: Funique.Setting.ISettingServerUtility.SavePlayer*
+  nameWithType.vb: ISettingServerUtility.SavePlayer(List(Of PlayerInformation))
+  fullName.vb: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List(Of Funique.PlayerInformation))
+  name.vb: SavePlayer(List(Of PlayerInformation))
+- uid: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  id: SavePlayer(System.Collections.Generic.List{Funique.PlayerInformation},System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SavePlayer(List<PlayerInformation>, String)
+  nameWithType: ISettingServerUtility.SavePlayer(List<PlayerInformation>, String)
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List<Funique.PlayerInformation>, System.String)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SavePlayer
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 59
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave clients setup, With custom path <br />\n------------------------------------------------ <br />\n儲存用戶設置 (自定義路徑)\n"
+  example: []
+  syntax:
+    content: void SavePlayer(List<PlayerInformation> data, string path)
+    parameters:
+    - id: data
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+    - id: path
+      type: System.String
+      description: Custom path
+    content.vb: Sub SavePlayer(data As List(Of PlayerInformation), path As String)
+  overload: Funique.Setting.ISettingServerUtility.SavePlayer*
+  nameWithType.vb: ISettingServerUtility.SavePlayer(List(Of PlayerInformation), String)
+  fullName.vb: Funique.Setting.ISettingServerUtility.SavePlayer(System.Collections.Generic.List(Of Funique.PlayerInformation), System.String)
+  name.vb: SavePlayer(List(Of PlayerInformation), String)
+- uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  commentId: M:Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  id: LoadPlayerToinfo
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadPlayerToinfo()
+  nameWithType: ISettingServerUtility.LoadPlayerToinfo()
+  fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo()
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadPlayerToinfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 66
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nLoad clients setup, With config path <br />\n------------------------------------------------ <br />\n讀取用戶設置\n"
+  example: []
+  syntax:
+    content: List<PlayerInformation> LoadPlayerToinfo()
+    return:
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+      description: ''
+    content.vb: Function LoadPlayerToinfo As List(Of PlayerInformation)
+  overload: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo*
+- uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  id: LoadPlayerToinfo(System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadPlayerToinfo(String)
+  nameWithType: ISettingServerUtility.LoadPlayerToinfo(String)
+  fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo(System.String)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadPlayerToinfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 74
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nLoad clients setup, With custom path <br />\n------------------------------------------------ <br />\n讀取用戶設置 (自定義路徑)\n"
+  example: []
+  syntax:
+    content: List<PlayerInformation> LoadPlayerToinfo(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: Custom path
+    return:
+      type: System.Collections.Generic.List{Funique.PlayerInformation}
+      description: ''
+    content.vb: Function LoadPlayerToinfo(path As String) As List(Of PlayerInformation)
+  overload: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo*
+- uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  commentId: M:Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  id: SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SaveCinemaPlayList(List<VideoInfo>, Int32)
+  nameWithType: ISettingServerUtility.SaveCinemaPlayList(List<VideoInfo>, Int32)
+  fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List<Funique.VideoInfo>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SaveCinemaPlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 81
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave cinema configuration to multiple files in config directory folder, With config path <br />\n------------------------------------------------ <br />\n儲存劇場設定\n"
+  example: []
+  syntax:
+    content: void SaveCinemaPlayList(List<VideoInfo> infos, int index)
+    parameters:
+    - id: infos
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    - id: index
+      type: System.Int32
+    content.vb: Sub SaveCinemaPlayList(infos As List(Of VideoInfo), index As Integer)
+  overload: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList*
+  nameWithType.vb: ISettingServerUtility.SaveCinemaPlayList(List(Of VideoInfo), Int32)
+  fullName.vb: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List(Of Funique.VideoInfo), System.Int32)
+  name.vb: SaveCinemaPlayList(List(Of VideoInfo), Int32)
+- uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  id: SaveCinemaPlayList(System.Collections.Generic.List{Funique.VideoInfo},System.Int32,System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: SaveCinemaPlayList(List<VideoInfo>, Int32, String)
+  nameWithType: ISettingServerUtility.SaveCinemaPlayList(List<VideoInfo>, Int32, String)
+  fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List<Funique.VideoInfo>, System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: SaveCinemaPlayList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 89
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nSave cinema configuration to multiple files in config directory folder, With custom path <br />\n------------------------------------------------ <br />\n儲存劇場設定 (自定義路徑)\n"
+  example: []
+  syntax:
+    content: void SaveCinemaPlayList(List<VideoInfo> infos, int index, string path)
+    parameters:
+    - id: infos
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    - id: index
+      type: System.Int32
+    - id: path
+      type: System.String
+      description: Custom path
+    content.vb: Sub SaveCinemaPlayList(infos As List(Of VideoInfo), index As Integer, path As String)
+  overload: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList*
+  nameWithType.vb: ISettingServerUtility.SaveCinemaPlayList(List(Of VideoInfo), Int32, String)
+  fullName.vb: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList(System.Collections.Generic.List(Of Funique.VideoInfo), System.Int32, System.String)
+  name.vb: SaveCinemaPlayList(List(Of VideoInfo), Int32, String)
+- uid: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  commentId: M:Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  id: LoadCinemaPlayerList(System.Int32)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: LoadCinemaPlayerList(Int32)
+  nameWithType: ISettingServerUtility.LoadCinemaPlayerList(Int32)
+  fullName: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: LoadCinemaPlayerList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 96
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nLoad single cinema configuration, With config path <br />\n------------------------------------------------ <br />\n讀取劇場設定\n"
+  example: []
+  syntax:
+    content: List<VideoInfo> LoadCinemaPlayerList(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Cinema index
+    return:
+      type: System.Collections.Generic.List{Funique.VideoInfo}
+    content.vb: Function LoadCinemaPlayerList(index As Integer) As List(Of VideoInfo)
+  overload: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList*
+- uid: Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  commentId: M:Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  id: CinemaFileName(System.Int32)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: CinemaFileName(Int32)
+  nameWithType: ISettingServerUtility.CinemaFileName(Int32)
+  fullName: Funique.Setting.ISettingServerUtility.CinemaFileName(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: CinemaFileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 103
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  summary: "\nGenerate cinema filename <br />\n------------------------------------------------ <br />\n生成劇場檔案名稱\n"
+  example: []
+  syntax:
+    content: string CinemaFileName(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Index
+    return:
+      type: System.String
+    content.vb: Function CinemaFileName(index As Integer) As String
+  overload: Funique.Setting.ISettingServerUtility.CinemaFileName*
+- uid: Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  commentId: M:Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  id: GetPlayerNickName(System.String)
+  parent: Funique.Setting.ISettingServerUtility
+  langs:
+  - csharp
+  - vb
+  name: GetPlayerNickName(String)
+  nameWithType: ISettingServerUtility.GetPlayerNickName(String)
+  fullName: Funique.Setting.ISettingServerUtility.GetPlayerNickName(System.String)
+  type: Method
+  source:
+    remote:
+      path: ISettingServerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_setting.git
+    id: GetPlayerNickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Setting/ISettingServerUtility.cs
+    startLine: 104
+  assemblies:
+  - Funique.Setting
+  namespace: Funique.Setting
+  syntax:
+    content: string GetPlayerNickName(string hostName)
+    parameters:
+    - id: hostName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function GetPlayerNickName(hostName As String) As String
+  overload: Funique.Setting.ISettingServerUtility.GetPlayerNickName*
+references:
+- uid: Funique.Setting
+  commentId: N:Funique.Setting
+  name: Funique.Setting
+  nameWithType: Funique.Setting
+  fullName: Funique.Setting
+- uid: Funique.Setting.ISettingServerUtility.playerSortName*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.playerSortName
+  name: playerSortName
+  nameWithType: ISettingServerUtility.playerSortName
+  fullName: Funique.Setting.ISettingServerUtility.playerSortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Setting.ISettingServerUtility.BatterState*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.BatterState
+  name: BatterState
+  nameWithType: ISettingServerUtility.BatterState
+  fullName: Funique.Setting.ISettingServerUtility.BatterState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Setting.ISettingServerUtility.Controller*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.Controller
+  name: Controller
+  nameWithType: ISettingServerUtility.Controller
+  fullName: Funique.Setting.ISettingServerUtility.Controller
+- uid: Funique.SettingControllerBase
+  commentId: T:Funique.SettingControllerBase
+  parent: Funique
+  name: SettingControllerBase
+  nameWithType: SettingControllerBase
+  fullName: Funique.SettingControllerBase
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Setting.ISettingServerUtility.SavePlayerNickName*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.SavePlayerNickName
+  name: SavePlayerNickName
+  nameWithType: ISettingServerUtility.SavePlayerNickName
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayerNickName
+- uid: Funique.PlayerInformation
+  commentId: T:Funique.PlayerInformation
+  parent: Funique
+  name: PlayerInformation
+  nameWithType: PlayerInformation
+  fullName: Funique.PlayerInformation
+- uid: Funique.Setting.ISettingServerUtility.CinemaPlayListPath*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+  name: CinemaPlayListPath
+  nameWithType: ISettingServerUtility.CinemaPlayListPath
+  fullName: Funique.Setting.ISettingServerUtility.CinemaPlayListPath
+- uid: Funique.Setting.ISettingServerUtility.PlayerSavePath*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.PlayerSavePath
+  name: PlayerSavePath
+  nameWithType: ISettingServerUtility.PlayerSavePath
+  fullName: Funique.Setting.ISettingServerUtility.PlayerSavePath
+- uid: Funique.Setting.ISettingServerUtility.PlayerSaveFileName*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+  name: PlayerSaveFileName
+  nameWithType: ISettingServerUtility.PlayerSaveFileName
+  fullName: Funique.Setting.ISettingServerUtility.PlayerSaveFileName
+- uid: Funique.Setting.ISettingServerUtility.SavePlayer*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.SavePlayer
+  name: SavePlayer
+  nameWithType: ISettingServerUtility.SavePlayer
+  fullName: Funique.Setting.ISettingServerUtility.SavePlayer
+- uid: System.Collections.Generic.List{Funique.PlayerInformation}
+  commentId: T:System.Collections.Generic.List{Funique.PlayerInformation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PlayerInformation>
+  nameWithType: List<PlayerInformation>
+  fullName: System.Collections.Generic.List<Funique.PlayerInformation>
+  nameWithType.vb: List(Of PlayerInformation)
+  fullName.vb: System.Collections.Generic.List(Of Funique.PlayerInformation)
+  name.vb: List(Of PlayerInformation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.PlayerInformation
+    name: PlayerInformation
+    nameWithType: PlayerInformation
+    fullName: Funique.PlayerInformation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+  name: LoadPlayerToinfo
+  nameWithType: ISettingServerUtility.LoadPlayerToinfo
+  fullName: Funique.Setting.ISettingServerUtility.LoadPlayerToinfo
+- uid: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.SaveCinemaPlayList
+  name: SaveCinemaPlayList
+  nameWithType: ISettingServerUtility.SaveCinemaPlayList
+  fullName: Funique.Setting.ISettingServerUtility.SaveCinemaPlayList
+- uid: System.Collections.Generic.List{Funique.VideoInfo}
+  commentId: T:System.Collections.Generic.List{Funique.VideoInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<VideoInfo>
+  nameWithType: List<VideoInfo>
+  fullName: System.Collections.Generic.List<Funique.VideoInfo>
+  nameWithType.vb: List(Of VideoInfo)
+  fullName.vb: System.Collections.Generic.List(Of Funique.VideoInfo)
+  name.vb: List(Of VideoInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.VideoInfo
+    name: VideoInfo
+    nameWithType: VideoInfo
+    fullName: Funique.VideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList
+  name: LoadCinemaPlayerList
+  nameWithType: ISettingServerUtility.LoadCinemaPlayerList
+  fullName: Funique.Setting.ISettingServerUtility.LoadCinemaPlayerList
+- uid: Funique.Setting.ISettingServerUtility.CinemaFileName*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.CinemaFileName
+  name: CinemaFileName
+  nameWithType: ISettingServerUtility.CinemaFileName
+  fullName: Funique.Setting.ISettingServerUtility.CinemaFileName
+- uid: Funique.Setting.ISettingServerUtility.GetPlayerNickName*
+  commentId: Overload:Funique.Setting.ISettingServerUtility.GetPlayerNickName
+  name: GetPlayerNickName
+  nameWithType: ISettingServerUtility.GetPlayerNickName
+  fullName: Funique.Setting.ISettingServerUtility.GetPlayerNickName

@@ -1,0 +1,2607 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Manager.StreamingManagerUtility
+  commentId: T:Funique.Manager.StreamingManagerUtility
+  id: StreamingManagerUtility
+  parent: Funique.Manager
+  children:
+  - Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay
+  - Funique.Manager.StreamingManagerUtility.CanCreatm3u8
+  - Funique.Manager.StreamingManagerUtility.checkinitbool
+  - Funique.Manager.StreamingManagerUtility.CheckInitCinema
+  - Funique.Manager.StreamingManagerUtility.checkm3u8bool
+  - Funique.Manager.StreamingManagerUtility.CinemaCount
+  - Funique.Manager.StreamingManagerUtility.Controller
+  - Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName
+  - Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex
+  - Funique.Manager.StreamingManagerUtility.CurrentStreaming
+  - Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  - Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename(System.String)
+  - Funique.Manager.StreamingManagerUtility.Dispose
+  - Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  - Funique.Manager.StreamingManagerUtility.HasStreaming(System.Int32)
+  - Funique.Manager.StreamingManagerUtility.Initialization
+  - Funique.Manager.StreamingManagerUtility.m3u8fileName
+  - Funique.Manager.StreamingManagerUtility.M3U8Handler
+  - Funique.Manager.StreamingManagerUtility.NginxPath
+  - Funique.Manager.StreamingManagerUtility.NginxVideoPath
+  - Funique.Manager.StreamingManagerUtility.NginxWorker
+  - Funique.Manager.StreamingManagerUtility.OnWorkerChanged(Funique.Streaming.IFFmpegWorker)
+  - Funique.Manager.StreamingManagerUtility.RestartNginx
+  - Funique.Manager.StreamingManagerUtility.SetURLInformation(System.String)
+  - Funique.Manager.StreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  - Funique.Manager.StreamingManagerUtility.StreamingButton
+  - Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  - Funique.Manager.StreamingManagerUtility.StreamingVideoList
+  - Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  - Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  - Funique.Manager.StreamingManagerUtility.URL
+  - Funique.Manager.StreamingManagerUtility.VideoURL
+  - Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  - Funique.Manager.StreamingManagerUtility.WorkerChanged
+  langs:
+  - csharp
+  - vb
+  name: StreamingManagerUtility
+  nameWithType: StreamingManagerUtility
+  fullName: Funique.Manager.StreamingManagerUtility
+  type: Class
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: StreamingManagerUtility
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 15
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  summary: "\nServer Streaming manager <br />\n------------------------------------------------ <br />\n伺服器 串流擷取 管理員\n"
+  example: []
+  syntax:
+    content: 'public class StreamingManagerUtility : ManagerBase<StreamingManagerData>, IDisposable, IStreamingManagerUtility, Im3u8Streaming'
+    content.vb: >-
+      Public Class StreamingManagerUtility
+
+          Inherits ManagerBase(Of StreamingManagerData)
+
+          Implements IDisposable, IStreamingManagerUtility, Im3u8Streaming
+  inheritance:
+  - System.Object
+  - Funique.Manager.ManagerBase
+  - Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}
+  implements:
+  - System.IDisposable
+  - Funique.Streaming.IStreamingManagerUtility
+  - Funique.Im3u8Streaming
+  inheritedMembers:
+  - Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.config
+  - Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.RegisterConfig(Funique.Streaming.StreamingManagerData)
+  - Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.Loaded(Funique.Streaming.StreamingManagerData)
+  - Funique.Manager.ManagerBase.FrameUpdate
+  - Funique.Manager.ManagerBase.Shutdown
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Manager.StreamingManagerUtility.NginxWorker
+  commentId: F:Funique.Manager.StreamingManagerUtility.NginxWorker
+  id: NginxWorker
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: NginxWorker
+  nameWithType: StreamingManagerUtility.NginxWorker
+  fullName: Funique.Manager.StreamingManagerUtility.NginxWorker
+  type: Field
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: NginxWorker
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 19
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected NginxWorker NginxWorker
+    return:
+      type: Funique.Streaming.NginxWorker
+    content.vb: Protected NginxWorker As NginxWorker
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.StreamingManagerUtility.M3U8Handler
+  commentId: F:Funique.Manager.StreamingManagerUtility.M3U8Handler
+  id: M3U8Handler
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: M3U8Handler
+  nameWithType: StreamingManagerUtility.M3U8Handler
+  fullName: Funique.Manager.StreamingManagerUtility.M3U8Handler
+  type: Field
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: M3U8Handler
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 20
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected M3U8Handler M3U8Handler
+    return:
+      type: Funique.Streaming.M3U8Handler
+    content.vb: Protected M3U8Handler As M3U8Handler
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.StreamingManagerUtility.StreamingButton
+  commentId: P:Funique.Manager.StreamingManagerUtility.StreamingButton
+  id: StreamingButton
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: StreamingButton
+  nameWithType: StreamingManagerUtility.StreamingButton
+  fullName: Funique.Manager.StreamingManagerUtility.StreamingButton
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: StreamingButton
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 26
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public GameObject StreamingButton { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public ReadOnly Property StreamingButton As GameObject
+  overload: Funique.Manager.StreamingManagerUtility.StreamingButton*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.StreamingButton
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.StreamingManagerUtility.Controller
+  commentId: P:Funique.Manager.StreamingManagerUtility.Controller
+  id: Controller
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: StreamingManagerUtility.Controller
+  fullName: Funique.Manager.StreamingManagerUtility.Controller
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: Controller
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 27
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public StreamingControllerBase Controller { get; }
+    parameters: []
+    return:
+      type: Funique.Streaming.StreamingControllerBase
+    content.vb: Public ReadOnly Property Controller As StreamingControllerBase
+  overload: Funique.Manager.StreamingManagerUtility.Controller*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.Controller
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex
+  commentId: P:Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex
+  id: CurrentCinemaIndex
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentCinemaIndex
+  nameWithType: StreamingManagerUtility.CurrentCinemaIndex
+  fullName: Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CurrentCinemaIndex
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 28
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual int CurrentCinemaIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property CurrentCinemaIndex As Integer
+  overload: Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex*
+  implements:
+  - Funique.Im3u8Streaming.CurrentCinemaIndex
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.StreamingManagerUtility.CinemaCount
+  commentId: P:Funique.Manager.StreamingManagerUtility.CinemaCount
+  id: CinemaCount
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CinemaCount
+  nameWithType: StreamingManagerUtility.CinemaCount
+  fullName: Funique.Manager.StreamingManagerUtility.CinemaCount
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CinemaCount
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 29
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected virtual int CinemaCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected Overridable ReadOnly Property CinemaCount As Integer
+  overload: Funique.Manager.StreamingManagerUtility.CinemaCount*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: Funique.Manager.StreamingManagerUtility.NginxVideoPath
+  commentId: P:Funique.Manager.StreamingManagerUtility.NginxVideoPath
+  id: NginxVideoPath
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: NginxVideoPath
+  nameWithType: StreamingManagerUtility.NginxVideoPath
+  fullName: Funique.Manager.StreamingManagerUtility.NginxVideoPath
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: NginxVideoPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 30
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string NginxVideoPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NginxVideoPath As String
+  overload: Funique.Manager.StreamingManagerUtility.NginxVideoPath*
+  implements:
+  - Funique.Im3u8Streaming.NginxVideoPath
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.StreamingManagerUtility.NginxPath
+  commentId: P:Funique.Manager.StreamingManagerUtility.NginxPath
+  id: NginxPath
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: NginxPath
+  nameWithType: StreamingManagerUtility.NginxPath
+  fullName: Funique.Manager.StreamingManagerUtility.NginxPath
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: NginxPath
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 31
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string NginxPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NginxPath As String
+  overload: Funique.Manager.StreamingManagerUtility.NginxPath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.Manager.StreamingManagerUtility.checkm3u8bool
+  commentId: P:Funique.Manager.StreamingManagerUtility.checkm3u8bool
+  id: checkm3u8bool
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: checkm3u8bool
+  nameWithType: StreamingManagerUtility.checkm3u8bool
+  fullName: Funique.Manager.StreamingManagerUtility.checkm3u8bool
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: checkm3u8bool
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 33
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected bool checkm3u8bool { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Property checkm3u8bool As Boolean
+  overload: Funique.Manager.StreamingManagerUtility.checkm3u8bool*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.StreamingManagerUtility.checkinitbool
+  commentId: P:Funique.Manager.StreamingManagerUtility.checkinitbool
+  id: checkinitbool
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: checkinitbool
+  nameWithType: StreamingManagerUtility.checkinitbool
+  fullName: Funique.Manager.StreamingManagerUtility.checkinitbool
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: checkinitbool
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 34
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected bool checkinitbool { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Property checkinitbool As Boolean
+  overload: Funique.Manager.StreamingManagerUtility.checkinitbool*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay
+  commentId: P:Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay
+  id: BoolCallClinetPlay
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: BoolCallClinetPlay
+  nameWithType: StreamingManagerUtility.BoolCallClinetPlay
+  fullName: Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: BoolCallClinetPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 35
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public bool BoolCallClinetPlay { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BoolCallClinetPlay As Boolean
+  overload: Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.CheckInitCinema
+  commentId: P:Funique.Manager.StreamingManagerUtility.CheckInitCinema
+  id: CheckInitCinema
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CheckInitCinema
+  nameWithType: StreamingManagerUtility.CheckInitCinema
+  fullName: Funique.Manager.StreamingManagerUtility.CheckInitCinema
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CheckInitCinema
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 36
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string CheckInitCinema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CheckInitCinema As String
+  overload: Funique.Manager.StreamingManagerUtility.CheckInitCinema*
+  implements:
+  - Funique.Im3u8Streaming.CheckInitCinema
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.m3u8fileName
+  commentId: P:Funique.Manager.StreamingManagerUtility.m3u8fileName
+  id: m3u8fileName
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: m3u8fileName
+  nameWithType: StreamingManagerUtility.m3u8fileName
+  fullName: Funique.Manager.StreamingManagerUtility.m3u8fileName
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: m3u8fileName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 37
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string m3u8fileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property m3u8fileName As String
+  overload: Funique.Manager.StreamingManagerUtility.m3u8fileName*
+  implements:
+  - Funique.Im3u8Streaming.m3u8fileName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.URL
+  commentId: P:Funique.Manager.StreamingManagerUtility.URL
+  id: URL
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: StreamingManagerUtility.URL
+  fullName: Funique.Manager.StreamingManagerUtility.URL
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: URL
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 39
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string URL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property URL As String
+  overload: Funique.Manager.StreamingManagerUtility.URL*
+  implements:
+  - Funique.Im3u8Streaming.URL
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.VideoURL
+  commentId: P:Funique.Manager.StreamingManagerUtility.VideoURL
+  id: VideoURL
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: VideoURL
+  nameWithType: StreamingManagerUtility.VideoURL
+  fullName: Funique.Manager.StreamingManagerUtility.VideoURL
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: VideoURL
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 40
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string VideoURL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VideoURL As String
+  overload: Funique.Manager.StreamingManagerUtility.VideoURL*
+  implements:
+  - Funique.Im3u8Streaming.VideoURL
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.CanCreatm3u8
+  commentId: P:Funique.Manager.StreamingManagerUtility.CanCreatm3u8
+  id: CanCreatm3u8
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CanCreatm3u8
+  nameWithType: StreamingManagerUtility.CanCreatm3u8
+  fullName: Funique.Manager.StreamingManagerUtility.CanCreatm3u8
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CanCreatm3u8
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 41
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public bool CanCreatm3u8 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanCreatm3u8 As Boolean
+  overload: Funique.Manager.StreamingManagerUtility.CanCreatm3u8*
+  implements:
+  - Funique.Im3u8Streaming.CanCreatm3u8
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName
+  commentId: P:Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName
+  id: CurrentCinemaforDirectoryName
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentCinemaforDirectoryName
+  nameWithType: StreamingManagerUtility.CurrentCinemaforDirectoryName
+  fullName: Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CurrentCinemaforDirectoryName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 42
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string CurrentCinemaforDirectoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurrentCinemaforDirectoryName As String
+  overload: Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName*
+  implements:
+  - Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  commentId: P:Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  id: TheFileDetectedtoMoveinitmp4
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: TheFileDetectedtoMoveinitmp4
+  nameWithType: StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  fullName: Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: TheFileDetectedtoMoveinitmp4
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 43
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string TheFileDetectedtoMoveinitmp4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TheFileDetectedtoMoveinitmp4 As String
+  overload: Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4*
+  implements:
+  - Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  commentId: P:Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  id: TheFileDetetedtoCallClinetPlay
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: TheFileDetetedtoCallClinetPlay
+  nameWithType: StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  fullName: Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: TheFileDetetedtoCallClinetPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 44
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected string TheFileDetetedtoCallClinetPlay { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Property TheFileDetetedtoCallClinetPlay As String
+  overload: Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.StreamingManagerUtility.StreamingVideoList
+  commentId: P:Funique.Manager.StreamingManagerUtility.StreamingVideoList
+  id: StreamingVideoList
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: StreamingVideoList
+  nameWithType: StreamingManagerUtility.StreamingVideoList
+  fullName: Funique.Manager.StreamingManagerUtility.StreamingVideoList
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: StreamingVideoList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 45
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public List<StreamingVideoInfo> StreamingVideoList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Funique.StreamingVideoInfo}
+    content.vb: Public Property StreamingVideoList As List(Of StreamingVideoInfo)
+  overload: Funique.Manager.StreamingManagerUtility.StreamingVideoList*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.StreamingVideoList
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.CurrentStreaming
+  commentId: P:Funique.Manager.StreamingManagerUtility.CurrentStreaming
+  id: CurrentStreaming
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: CurrentStreaming
+  nameWithType: StreamingManagerUtility.CurrentStreaming
+  fullName: Funique.Manager.StreamingManagerUtility.CurrentStreaming
+  type: Property
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: CurrentStreaming
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 46
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public StreamingVideoInfo CurrentStreaming { get; set; }
+    parameters: []
+    return:
+      type: Funique.StreamingVideoInfo
+    content.vb: Public Property CurrentStreaming As StreamingVideoInfo
+  overload: Funique.Manager.StreamingManagerUtility.CurrentStreaming*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.CurrentStreaming
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.WorkerChanged
+  commentId: E:Funique.Manager.StreamingManagerUtility.WorkerChanged
+  id: WorkerChanged
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: WorkerChanged
+  nameWithType: StreamingManagerUtility.WorkerChanged
+  fullName: Funique.Manager.StreamingManagerUtility.WorkerChanged
+  type: Event
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: WorkerChanged
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 52
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public event EventHandler<IFFmpegWorker> WorkerChanged
+    return:
+      type: System.EventHandler{Funique.Streaming.IFFmpegWorker}
+    content.vb: Public Event WorkerChanged As EventHandler(Of IFFmpegWorker)
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.WorkerChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.Initialization
+  commentId: M:Funique.Manager.StreamingManagerUtility.Initialization
+  id: Initialization
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Initialization()
+  nameWithType: StreamingManagerUtility.Initialization()
+  fullName: Funique.Manager.StreamingManagerUtility.Initialization()
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: Initialization
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 58
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Initialization()
+    content.vb: Public Overrides Sub Initialization
+  overridden: Funique.Manager.ManagerBase.Initialization
+  overload: Funique.Manager.StreamingManagerUtility.Initialization*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.StreamingManagerUtility.Dispose
+  commentId: M:Funique.Manager.StreamingManagerUtility.Dispose
+  id: Dispose
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: StreamingManagerUtility.Dispose()
+  fullName: Funique.Manager.StreamingManagerUtility.Dispose()
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: Dispose
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 63
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose
+  overridden: Funique.Manager.ManagerBase.Dispose
+  overload: Funique.Manager.StreamingManagerUtility.Dispose*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Funique.Manager.StreamingManagerUtility.HasStreaming(System.Int32)
+  commentId: M:Funique.Manager.StreamingManagerUtility.HasStreaming(System.Int32)
+  id: HasStreaming(System.Int32)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: HasStreaming(Int32)
+  nameWithType: StreamingManagerUtility.HasStreaming(Int32)
+  fullName: Funique.Manager.StreamingManagerUtility.HasStreaming(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: HasStreaming
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 73
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public bool HasStreaming(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasStreaming(index As Integer) As Boolean
+  overload: Funique.Manager.StreamingManagerUtility.HasStreaming*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.HasStreaming(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  commentId: M:Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  id: GetCinemaStreamingWorker(System.Int32)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: GetCinemaStreamingWorker(Int32)
+  nameWithType: StreamingManagerUtility.GetCinemaStreamingWorker(Int32)
+  fullName: Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: GetCinemaStreamingWorker
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 78
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public IFFmpegWorker GetCinemaStreamingWorker(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Funique.Streaming.IFFmpegWorker
+    content.vb: Public Function GetCinemaStreamingWorker(index As Integer) As IFFmpegWorker
+  overload: Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  commentId: M:Funique.Manager.StreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  id: SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: SetURLPlayerState(Boolean, PlayerState)
+  nameWithType: StreamingManagerUtility.SetURLPlayerState(Boolean, PlayerState)
+  fullName: Funique.Manager.StreamingManagerUtility.SetURLPlayerState(System.Boolean, Funique.PlayerState)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: SetURLPlayerState
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 83
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public void SetURLPlayerState(bool status, PlayerState playerState = PlayerState.Playing)
+    parameters:
+    - id: status
+      type: System.Boolean
+    - id: playerState
+      type: Funique.PlayerState
+    content.vb: Public Sub SetURLPlayerState(status As Boolean, playerState As PlayerState = PlayerState.Playing)
+  overload: Funique.Manager.StreamingManagerUtility.SetURLPlayerState*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  commentId: M:Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  id: DecodeStreamingVideoList(System.String)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: DecodeStreamingVideoList(String)
+  nameWithType: StreamingManagerUtility.DecodeStreamingVideoList(String)
+  fullName: Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: DecodeStreamingVideoList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 87
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual List<StreamingVideoInfo> DecodeStreamingVideoList(string streamingVideoString)
+    parameters:
+    - id: streamingVideoString
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{Funique.StreamingVideoInfo}
+    content.vb: Public Overridable Function DecodeStreamingVideoList(streamingVideoString As String) As List(Of StreamingVideoInfo)
+  overload: Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  commentId: M:Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  id: StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: StreamingStrConvertVideoInfo(String, ref List<StreamingVideoInfo>)
+  nameWithType: StreamingManagerUtility.StreamingStrConvertVideoInfo(String, ref List<StreamingVideoInfo>)
+  fullName: Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo(System.String, ref System.Collections.Generic.List<Funique.StreamingVideoInfo>)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: StreamingStrConvertVideoInfo
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 94
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void StreamingStrConvertVideoInfo(string streamingString, ref List<StreamingVideoInfo> streamingVideoList)
+    parameters:
+    - id: streamingString
+      type: System.String
+    - id: streamingVideoList
+      type: System.Collections.Generic.List{Funique.StreamingVideoInfo}
+    content.vb: Public Overridable Sub StreamingStrConvertVideoInfo(streamingString As String, ByRef streamingVideoList As List(Of StreamingVideoInfo))
+  overload: Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  nameWithType.vb: StreamingManagerUtility.StreamingStrConvertVideoInfo(String, ByRef List(Of StreamingVideoInfo))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo(System.String, ByRef System.Collections.Generic.List(Of Funique.StreamingVideoInfo))
+  name.vb: StreamingStrConvertVideoInfo(String, ByRef List(Of StreamingVideoInfo))
+- uid: Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename(System.String)
+  commentId: M:Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename(System.String)
+  id: DetectURLVideoFilename(System.String)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: DetectURLVideoFilename(String)
+  nameWithType: StreamingManagerUtility.DetectURLVideoFilename(String)
+  fullName: Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename(System.String)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: DetectURLVideoFilename
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 127
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public string DetectURLVideoFilename(string URL)
+    parameters:
+    - id: URL
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function DetectURLVideoFilename(URL As String) As String
+  overload: Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.SetURLInformation(System.String)
+  commentId: M:Funique.Manager.StreamingManagerUtility.SetURLInformation(System.String)
+  id: SetURLInformation(System.String)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: SetURLInformation(String)
+  nameWithType: StreamingManagerUtility.SetURLInformation(String)
+  fullName: Funique.Manager.StreamingManagerUtility.SetURLInformation(System.String)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: SetURLInformation
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 163
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual void SetURLInformation(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Overridable Sub SetURLInformation(url As String)
+  overload: Funique.Manager.StreamingManagerUtility.SetURLInformation*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.SetURLInformation(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Funique.Manager.StreamingManagerUtility.RestartNginx
+  commentId: M:Funique.Manager.StreamingManagerUtility.RestartNginx
+  id: RestartNginx
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: RestartNginx()
+  nameWithType: StreamingManagerUtility.RestartNginx()
+  fullName: Funique.Manager.StreamingManagerUtility.RestartNginx()
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: RestartNginx
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 172
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public void RestartNginx()
+    content.vb: Public Sub RestartNginx
+  overload: Funique.Manager.StreamingManagerUtility.RestartNginx*
+  implements:
+  - Funique.Streaming.IStreamingManagerUtility.RestartNginx
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Manager.StreamingManagerUtility.OnWorkerChanged(Funique.Streaming.IFFmpegWorker)
+  commentId: M:Funique.Manager.StreamingManagerUtility.OnWorkerChanged(Funique.Streaming.IFFmpegWorker)
+  id: OnWorkerChanged(Funique.Streaming.IFFmpegWorker)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: OnWorkerChanged(IFFmpegWorker)
+  nameWithType: StreamingManagerUtility.OnWorkerChanged(IFFmpegWorker)
+  fullName: Funique.Manager.StreamingManagerUtility.OnWorkerChanged(Funique.Streaming.IFFmpegWorker)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: OnWorkerChanged
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 192
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: protected void OnWorkerChanged(IFFmpegWorker worker)
+    parameters:
+    - id: worker
+      type: Funique.Streaming.IFFmpegWorker
+    content.vb: Protected Sub OnWorkerChanged(worker As IFFmpegWorker)
+  overload: Funique.Manager.StreamingManagerUtility.OnWorkerChanged*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  commentId: M:Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  id: WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  parent: Funique.Manager.StreamingManagerUtility
+  langs:
+  - csharp
+  - vb
+  name: WaitingCallClinetPlay(IFFmpegWorker, String)
+  nameWithType: StreamingManagerUtility.WaitingCallClinetPlay(IFFmpegWorker, String)
+  fullName: Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker, System.String)
+  type: Method
+  source:
+    remote:
+      path: StreamingManagerUtility.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_streaming.git
+    id: WaitingCallClinetPlay
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Streaming/StreamingManagerUtility.cs
+    startLine: 196
+  assemblies:
+  - Funique.Streaming
+  namespace: Funique.Manager
+  syntax:
+    content: public virtual bool WaitingCallClinetPlay(IFFmpegWorker from, string _URL)
+    parameters:
+    - id: from
+      type: Funique.Streaming.IFFmpegWorker
+    - id: _URL
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function WaitingCallClinetPlay(from As IFFmpegWorker, _URL As String) As Boolean
+  overload: Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay*
+  implements:
+  - Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Funique.Manager
+  commentId: N:Funique.Manager
+  name: Funique.Manager
+  nameWithType: Funique.Manager
+  fullName: Funique.Manager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Manager.ManagerBase
+  commentId: T:Funique.Manager.ManagerBase
+  parent: Funique.Manager
+  name: ManagerBase
+  nameWithType: ManagerBase
+  fullName: Funique.Manager.ManagerBase
+- uid: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}
+  commentId: T:Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}
+  parent: Funique.Manager
+  definition: Funique.Manager.ManagerBase`1
+  name: ManagerBase<StreamingManagerData>
+  nameWithType: ManagerBase<StreamingManagerData>
+  fullName: Funique.Manager.ManagerBase<Funique.Streaming.StreamingManagerData>
+  nameWithType.vb: ManagerBase(Of StreamingManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Streaming.StreamingManagerData)
+  name.vb: ManagerBase(Of StreamingManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Streaming.StreamingManagerData
+    name: StreamingManagerData
+    nameWithType: StreamingManagerData
+    fullName: Funique.Streaming.StreamingManagerData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Streaming.StreamingManagerData
+    name: StreamingManagerData
+    nameWithType: StreamingManagerData
+    fullName: Funique.Streaming.StreamingManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Funique.Streaming.IStreamingManagerUtility
+  commentId: T:Funique.Streaming.IStreamingManagerUtility
+  parent: Funique.Streaming
+  name: IStreamingManagerUtility
+  nameWithType: IStreamingManagerUtility
+  fullName: Funique.Streaming.IStreamingManagerUtility
+- uid: Funique.Im3u8Streaming
+  commentId: T:Funique.Im3u8Streaming
+  parent: Funique
+  name: Im3u8Streaming
+  nameWithType: Im3u8Streaming
+  fullName: Funique.Im3u8Streaming
+- uid: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.config
+  commentId: P:Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.config
+  parent: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}
+  definition: Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<StreamingManagerData>.config
+  fullName: Funique.Manager.ManagerBase<Funique.Streaming.StreamingManagerData>.config
+  nameWithType.vb: ManagerBase(Of StreamingManagerData).config
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Streaming.StreamingManagerData).config
+- uid: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.RegisterConfig(Funique.Streaming.StreamingManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.RegisterConfig(Funique.Streaming.StreamingManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}
+  definition: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(StreamingManagerData)
+  nameWithType: ManagerBase<StreamingManagerData>.RegisterConfig(StreamingManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Streaming.StreamingManagerData>.RegisterConfig(Funique.Streaming.StreamingManagerData)
+  nameWithType.vb: ManagerBase(Of StreamingManagerData).RegisterConfig(StreamingManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Streaming.StreamingManagerData).RegisterConfig(Funique.Streaming.StreamingManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<StreamingManagerData>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<Funique.Streaming.StreamingManagerData>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Streaming.StreamingManagerData
+    name: StreamingManagerData
+    nameWithType: StreamingManagerData
+    fullName: Funique.Streaming.StreamingManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of StreamingManagerData).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of Funique.Streaming.StreamingManagerData).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Streaming.StreamingManagerData
+    name: StreamingManagerData
+    nameWithType: StreamingManagerData
+    fullName: Funique.Streaming.StreamingManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.Loaded(Funique.Streaming.StreamingManagerData)
+  commentId: M:Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}.Loaded(Funique.Streaming.StreamingManagerData)
+  parent: Funique.Manager.ManagerBase{Funique.Streaming.StreamingManagerData}
+  definition: Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(StreamingManagerData)
+  nameWithType: ManagerBase<StreamingManagerData>.Loaded(StreamingManagerData)
+  fullName: Funique.Manager.ManagerBase<Funique.Streaming.StreamingManagerData>.Loaded(Funique.Streaming.StreamingManagerData)
+  nameWithType.vb: ManagerBase(Of StreamingManagerData).Loaded(StreamingManagerData)
+  fullName.vb: Funique.Manager.ManagerBase(Of Funique.Streaming.StreamingManagerData).Loaded(Funique.Streaming.StreamingManagerData)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<StreamingManagerData>.Loaded
+    fullName: Funique.Manager.ManagerBase<Funique.Streaming.StreamingManagerData>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Streaming.StreamingManagerData
+    name: StreamingManagerData
+    nameWithType: StreamingManagerData
+    fullName: Funique.Streaming.StreamingManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of StreamingManagerData).Loaded
+    fullName: Funique.Manager.ManagerBase(Of Funique.Streaming.StreamingManagerData).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Streaming.StreamingManagerData
+    name: StreamingManagerData
+    nameWithType: StreamingManagerData
+    fullName: Funique.Streaming.StreamingManagerData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.FrameUpdate
+  commentId: M:Funique.Manager.ManagerBase.FrameUpdate
+  parent: Funique.Manager.ManagerBase
+  name: FrameUpdate()
+  nameWithType: ManagerBase.FrameUpdate()
+  fullName: Funique.Manager.ManagerBase.FrameUpdate()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.FrameUpdate
+    name: FrameUpdate
+    nameWithType: ManagerBase.FrameUpdate
+    fullName: Funique.Manager.ManagerBase.FrameUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Shutdown
+  commentId: M:Funique.Manager.ManagerBase.Shutdown
+  parent: Funique.Manager.ManagerBase
+  name: Shutdown()
+  nameWithType: ManagerBase.Shutdown()
+  fullName: Funique.Manager.ManagerBase.Shutdown()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Shutdown
+    name: Shutdown
+    nameWithType: ManagerBase.Shutdown
+    fullName: Funique.Manager.ManagerBase.Shutdown
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.Manager.ManagerBase`1
+  commentId: T:Funique.Manager.ManagerBase`1
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: Funique.Manager.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1
+    name: ManagerBase
+    nameWithType: ManagerBase
+    fullName: Funique.Manager.ManagerBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Streaming
+  commentId: N:Funique.Streaming
+  name: Funique.Streaming
+  nameWithType: Funique.Streaming
+  fullName: Funique.Streaming
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.Manager.ManagerBase`1.config
+  commentId: P:Funique.Manager.ManagerBase`1.config
+  name: config
+  nameWithType: ManagerBase<T>.config
+  fullName: Funique.Manager.ManagerBase<T>.config
+  nameWithType.vb: ManagerBase(Of T).config
+  fullName.vb: Funique.Manager.ManagerBase(Of T).config
+- uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+  name: RegisterConfig(T)
+  nameWithType: ManagerBase<T>.RegisterConfig(T)
+  fullName: Funique.Manager.ManagerBase<T>.RegisterConfig(T)
+  nameWithType.vb: ManagerBase(Of T).RegisterConfig(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).RegisterConfig(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase<T>.RegisterConfig
+    fullName: Funique.Manager.ManagerBase<T>.RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.RegisterConfig(`0)
+    name: RegisterConfig
+    nameWithType: ManagerBase(Of T).RegisterConfig
+    fullName: Funique.Manager.ManagerBase(Of T).RegisterConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+  commentId: M:Funique.Manager.ManagerBase`1.Loaded(`0)
+  name: Loaded(T)
+  nameWithType: ManagerBase<T>.Loaded(T)
+  fullName: Funique.Manager.ManagerBase<T>.Loaded(T)
+  nameWithType.vb: ManagerBase(Of T).Loaded(T)
+  fullName.vb: Funique.Manager.ManagerBase(Of T).Loaded(T)
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase<T>.Loaded
+    fullName: Funique.Manager.ManagerBase<T>.Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase`1.Loaded(`0)
+    name: Loaded
+    nameWithType: ManagerBase(Of T).Loaded
+    fullName: Funique.Manager.ManagerBase(Of T).Loaded
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Streaming.NginxWorker
+  commentId: T:Funique.Streaming.NginxWorker
+  parent: Funique.Streaming
+  name: NginxWorker
+  nameWithType: NginxWorker
+  fullName: Funique.Streaming.NginxWorker
+- uid: Funique.Streaming.M3U8Handler
+  commentId: T:Funique.Streaming.M3U8Handler
+  parent: Funique.Streaming
+  name: M3U8Handler
+  nameWithType: M3U8Handler
+  fullName: Funique.Streaming.M3U8Handler
+- uid: Funique.Manager.StreamingManagerUtility.StreamingButton*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.StreamingButton
+  name: StreamingButton
+  nameWithType: StreamingManagerUtility.StreamingButton
+  fullName: Funique.Manager.StreamingManagerUtility.StreamingButton
+- uid: Funique.Streaming.IStreamingManagerUtility.StreamingButton
+  commentId: P:Funique.Streaming.IStreamingManagerUtility.StreamingButton
+  parent: Funique.Streaming.IStreamingManagerUtility
+  name: StreamingButton
+  nameWithType: IStreamingManagerUtility.StreamingButton
+  fullName: Funique.Streaming.IStreamingManagerUtility.StreamingButton
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.Manager.StreamingManagerUtility.Controller*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.Controller
+  name: Controller
+  nameWithType: StreamingManagerUtility.Controller
+  fullName: Funique.Manager.StreamingManagerUtility.Controller
+- uid: Funique.Streaming.IStreamingManagerUtility.Controller
+  commentId: P:Funique.Streaming.IStreamingManagerUtility.Controller
+  parent: Funique.Streaming.IStreamingManagerUtility
+  name: Controller
+  nameWithType: IStreamingManagerUtility.Controller
+  fullName: Funique.Streaming.IStreamingManagerUtility.Controller
+- uid: Funique.Streaming.StreamingControllerBase
+  commentId: T:Funique.Streaming.StreamingControllerBase
+  parent: Funique.Streaming
+  name: StreamingControllerBase
+  nameWithType: StreamingControllerBase
+  fullName: Funique.Streaming.StreamingControllerBase
+- uid: Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex
+  name: CurrentCinemaIndex
+  nameWithType: StreamingManagerUtility.CurrentCinemaIndex
+  fullName: Funique.Manager.StreamingManagerUtility.CurrentCinemaIndex
+- uid: Funique.Im3u8Streaming.CurrentCinemaIndex
+  commentId: P:Funique.Im3u8Streaming.CurrentCinemaIndex
+  parent: Funique.Im3u8Streaming
+  name: CurrentCinemaIndex
+  nameWithType: Im3u8Streaming.CurrentCinemaIndex
+  fullName: Funique.Im3u8Streaming.CurrentCinemaIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Funique.Manager.StreamingManagerUtility.CinemaCount*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.CinemaCount
+  name: CinemaCount
+  nameWithType: StreamingManagerUtility.CinemaCount
+  fullName: Funique.Manager.StreamingManagerUtility.CinemaCount
+- uid: Funique.Manager.StreamingManagerUtility.NginxVideoPath*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.NginxVideoPath
+  name: NginxVideoPath
+  nameWithType: StreamingManagerUtility.NginxVideoPath
+  fullName: Funique.Manager.StreamingManagerUtility.NginxVideoPath
+- uid: Funique.Im3u8Streaming.NginxVideoPath
+  commentId: P:Funique.Im3u8Streaming.NginxVideoPath
+  parent: Funique.Im3u8Streaming
+  name: NginxVideoPath
+  nameWithType: Im3u8Streaming.NginxVideoPath
+  fullName: Funique.Im3u8Streaming.NginxVideoPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Funique.Manager.StreamingManagerUtility.NginxPath*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.NginxPath
+  name: NginxPath
+  nameWithType: StreamingManagerUtility.NginxPath
+  fullName: Funique.Manager.StreamingManagerUtility.NginxPath
+- uid: Funique.Manager.StreamingManagerUtility.checkm3u8bool*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.checkm3u8bool
+  name: checkm3u8bool
+  nameWithType: StreamingManagerUtility.checkm3u8bool
+  fullName: Funique.Manager.StreamingManagerUtility.checkm3u8bool
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Manager.StreamingManagerUtility.checkinitbool*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.checkinitbool
+  name: checkinitbool
+  nameWithType: StreamingManagerUtility.checkinitbool
+  fullName: Funique.Manager.StreamingManagerUtility.checkinitbool
+- uid: Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay
+  name: BoolCallClinetPlay
+  nameWithType: StreamingManagerUtility.BoolCallClinetPlay
+  fullName: Funique.Manager.StreamingManagerUtility.BoolCallClinetPlay
+- uid: Funique.Manager.StreamingManagerUtility.CheckInitCinema*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.CheckInitCinema
+  name: CheckInitCinema
+  nameWithType: StreamingManagerUtility.CheckInitCinema
+  fullName: Funique.Manager.StreamingManagerUtility.CheckInitCinema
+- uid: Funique.Im3u8Streaming.CheckInitCinema
+  commentId: P:Funique.Im3u8Streaming.CheckInitCinema
+  parent: Funique.Im3u8Streaming
+  name: CheckInitCinema
+  nameWithType: Im3u8Streaming.CheckInitCinema
+  fullName: Funique.Im3u8Streaming.CheckInitCinema
+- uid: Funique.Manager.StreamingManagerUtility.m3u8fileName*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.m3u8fileName
+  name: m3u8fileName
+  nameWithType: StreamingManagerUtility.m3u8fileName
+  fullName: Funique.Manager.StreamingManagerUtility.m3u8fileName
+- uid: Funique.Im3u8Streaming.m3u8fileName
+  commentId: P:Funique.Im3u8Streaming.m3u8fileName
+  parent: Funique.Im3u8Streaming
+  name: m3u8fileName
+  nameWithType: Im3u8Streaming.m3u8fileName
+  fullName: Funique.Im3u8Streaming.m3u8fileName
+- uid: Funique.Manager.StreamingManagerUtility.URL*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.URL
+  name: URL
+  nameWithType: StreamingManagerUtility.URL
+  fullName: Funique.Manager.StreamingManagerUtility.URL
+- uid: Funique.Im3u8Streaming.URL
+  commentId: P:Funique.Im3u8Streaming.URL
+  parent: Funique.Im3u8Streaming
+  name: URL
+  nameWithType: Im3u8Streaming.URL
+  fullName: Funique.Im3u8Streaming.URL
+- uid: Funique.Manager.StreamingManagerUtility.VideoURL*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.VideoURL
+  name: VideoURL
+  nameWithType: StreamingManagerUtility.VideoURL
+  fullName: Funique.Manager.StreamingManagerUtility.VideoURL
+- uid: Funique.Im3u8Streaming.VideoURL
+  commentId: P:Funique.Im3u8Streaming.VideoURL
+  parent: Funique.Im3u8Streaming
+  name: VideoURL
+  nameWithType: Im3u8Streaming.VideoURL
+  fullName: Funique.Im3u8Streaming.VideoURL
+- uid: Funique.Manager.StreamingManagerUtility.CanCreatm3u8*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.CanCreatm3u8
+  name: CanCreatm3u8
+  nameWithType: StreamingManagerUtility.CanCreatm3u8
+  fullName: Funique.Manager.StreamingManagerUtility.CanCreatm3u8
+- uid: Funique.Im3u8Streaming.CanCreatm3u8
+  commentId: P:Funique.Im3u8Streaming.CanCreatm3u8
+  parent: Funique.Im3u8Streaming
+  name: CanCreatm3u8
+  nameWithType: Im3u8Streaming.CanCreatm3u8
+  fullName: Funique.Im3u8Streaming.CanCreatm3u8
+- uid: Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName
+  name: CurrentCinemaforDirectoryName
+  nameWithType: StreamingManagerUtility.CurrentCinemaforDirectoryName
+  fullName: Funique.Manager.StreamingManagerUtility.CurrentCinemaforDirectoryName
+- uid: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  commentId: P:Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+  parent: Funique.Im3u8Streaming
+  name: CurrentCinemaforDirectoryName
+  nameWithType: Im3u8Streaming.CurrentCinemaforDirectoryName
+  fullName: Funique.Im3u8Streaming.CurrentCinemaforDirectoryName
+- uid: Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  name: TheFileDetectedtoMoveinitmp4
+  nameWithType: StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+  fullName: Funique.Manager.StreamingManagerUtility.TheFileDetectedtoMoveinitmp4
+- uid: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  commentId: P:Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  parent: Funique.Im3u8Streaming
+  name: TheFileDetectedtoMoveinitmp4
+  nameWithType: Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+  fullName: Funique.Im3u8Streaming.TheFileDetectedtoMoveinitmp4
+- uid: Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  name: TheFileDetetedtoCallClinetPlay
+  nameWithType: StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+  fullName: Funique.Manager.StreamingManagerUtility.TheFileDetetedtoCallClinetPlay
+- uid: Funique.Manager.StreamingManagerUtility.StreamingVideoList*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.StreamingVideoList
+  name: StreamingVideoList
+  nameWithType: StreamingManagerUtility.StreamingVideoList
+  fullName: Funique.Manager.StreamingManagerUtility.StreamingVideoList
+- uid: Funique.Streaming.IStreamingManagerUtility.StreamingVideoList
+  commentId: P:Funique.Streaming.IStreamingManagerUtility.StreamingVideoList
+  parent: Funique.Streaming.IStreamingManagerUtility
+  name: StreamingVideoList
+  nameWithType: IStreamingManagerUtility.StreamingVideoList
+  fullName: Funique.Streaming.IStreamingManagerUtility.StreamingVideoList
+- uid: System.Collections.Generic.List{Funique.StreamingVideoInfo}
+  commentId: T:System.Collections.Generic.List{Funique.StreamingVideoInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<StreamingVideoInfo>
+  nameWithType: List<StreamingVideoInfo>
+  fullName: System.Collections.Generic.List<Funique.StreamingVideoInfo>
+  nameWithType.vb: List(Of StreamingVideoInfo)
+  fullName.vb: System.Collections.Generic.List(Of Funique.StreamingVideoInfo)
+  name.vb: List(Of StreamingVideoInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.StreamingVideoInfo
+    name: StreamingVideoInfo
+    nameWithType: StreamingVideoInfo
+    fullName: Funique.StreamingVideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.StreamingVideoInfo
+    name: StreamingVideoInfo
+    nameWithType: StreamingVideoInfo
+    fullName: Funique.StreamingVideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Funique.Manager.StreamingManagerUtility.CurrentStreaming*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.CurrentStreaming
+  name: CurrentStreaming
+  nameWithType: StreamingManagerUtility.CurrentStreaming
+  fullName: Funique.Manager.StreamingManagerUtility.CurrentStreaming
+- uid: Funique.Streaming.IStreamingManagerUtility.CurrentStreaming
+  commentId: P:Funique.Streaming.IStreamingManagerUtility.CurrentStreaming
+  parent: Funique.Streaming.IStreamingManagerUtility
+  name: CurrentStreaming
+  nameWithType: IStreamingManagerUtility.CurrentStreaming
+  fullName: Funique.Streaming.IStreamingManagerUtility.CurrentStreaming
+- uid: Funique.StreamingVideoInfo
+  commentId: T:Funique.StreamingVideoInfo
+  parent: Funique
+  name: StreamingVideoInfo
+  nameWithType: StreamingVideoInfo
+  fullName: Funique.StreamingVideoInfo
+- uid: Funique.Streaming.IStreamingManagerUtility.WorkerChanged
+  commentId: E:Funique.Streaming.IStreamingManagerUtility.WorkerChanged
+  parent: Funique.Streaming.IStreamingManagerUtility
+  name: WorkerChanged
+  nameWithType: IStreamingManagerUtility.WorkerChanged
+  fullName: Funique.Streaming.IStreamingManagerUtility.WorkerChanged
+- uid: System.EventHandler{Funique.Streaming.IFFmpegWorker}
+  commentId: T:System.EventHandler{Funique.Streaming.IFFmpegWorker}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<IFFmpegWorker>
+  nameWithType: EventHandler<IFFmpegWorker>
+  fullName: System.EventHandler<Funique.Streaming.IFFmpegWorker>
+  nameWithType.vb: EventHandler(Of IFFmpegWorker)
+  fullName.vb: System.EventHandler(Of Funique.Streaming.IFFmpegWorker)
+  name.vb: EventHandler(Of IFFmpegWorker)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.Streaming.IFFmpegWorker
+    name: IFFmpegWorker
+    nameWithType: IFFmpegWorker
+    fullName: Funique.Streaming.IFFmpegWorker
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.Streaming.IFFmpegWorker
+    name: IFFmpegWorker
+    nameWithType: IFFmpegWorker
+    fullName: Funique.Streaming.IFFmpegWorker
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.ManagerBase.Initialization
+  commentId: M:Funique.Manager.ManagerBase.Initialization
+  parent: Funique.Manager.ManagerBase
+  name: Initialization()
+  nameWithType: ManagerBase.Initialization()
+  fullName: Funique.Manager.ManagerBase.Initialization()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Initialization
+    name: Initialization
+    nameWithType: ManagerBase.Initialization
+    fullName: Funique.Manager.ManagerBase.Initialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.Initialization*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.Initialization
+  name: Initialization
+  nameWithType: StreamingManagerUtility.Initialization
+  fullName: Funique.Manager.StreamingManagerUtility.Initialization
+- uid: Funique.Manager.ManagerBase.Dispose
+  commentId: M:Funique.Manager.ManagerBase.Dispose
+  parent: Funique.Manager.ManagerBase
+  name: Dispose()
+  nameWithType: ManagerBase.Dispose()
+  fullName: Funique.Manager.ManagerBase.Dispose()
+  spec.csharp:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Manager.ManagerBase.Dispose
+    name: Dispose
+    nameWithType: ManagerBase.Dispose
+    fullName: Funique.Manager.ManagerBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.Dispose*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.Dispose
+  name: Dispose
+  nameWithType: StreamingManagerUtility.Dispose
+  fullName: Funique.Manager.StreamingManagerUtility.Dispose
+- uid: Funique.Manager.StreamingManagerUtility.HasStreaming*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.HasStreaming
+  name: HasStreaming
+  nameWithType: StreamingManagerUtility.HasStreaming
+  fullName: Funique.Manager.StreamingManagerUtility.HasStreaming
+- uid: Funique.Streaming.IStreamingManagerUtility.HasStreaming(System.Int32)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.HasStreaming(System.Int32)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: HasStreaming(Int32)
+  nameWithType: IStreamingManagerUtility.HasStreaming(Int32)
+  fullName: Funique.Streaming.IStreamingManagerUtility.HasStreaming(System.Int32)
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.HasStreaming(System.Int32)
+    name: HasStreaming
+    nameWithType: IStreamingManagerUtility.HasStreaming
+    fullName: Funique.Streaming.IStreamingManagerUtility.HasStreaming
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.HasStreaming(System.Int32)
+    name: HasStreaming
+    nameWithType: IStreamingManagerUtility.HasStreaming
+    fullName: Funique.Streaming.IStreamingManagerUtility.HasStreaming
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker
+  name: GetCinemaStreamingWorker
+  nameWithType: StreamingManagerUtility.GetCinemaStreamingWorker
+  fullName: Funique.Manager.StreamingManagerUtility.GetCinemaStreamingWorker
+- uid: Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: GetCinemaStreamingWorker(Int32)
+  nameWithType: IStreamingManagerUtility.GetCinemaStreamingWorker(Int32)
+  fullName: Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+    name: GetCinemaStreamingWorker
+    nameWithType: IStreamingManagerUtility.GetCinemaStreamingWorker
+    fullName: Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker(System.Int32)
+    name: GetCinemaStreamingWorker
+    nameWithType: IStreamingManagerUtility.GetCinemaStreamingWorker
+    fullName: Funique.Streaming.IStreamingManagerUtility.GetCinemaStreamingWorker
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Streaming.IFFmpegWorker
+  commentId: T:Funique.Streaming.IFFmpegWorker
+  parent: Funique.Streaming
+  name: IFFmpegWorker
+  nameWithType: IFFmpegWorker
+  fullName: Funique.Streaming.IFFmpegWorker
+- uid: Funique.Manager.StreamingManagerUtility.SetURLPlayerState*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.SetURLPlayerState
+  name: SetURLPlayerState
+  nameWithType: StreamingManagerUtility.SetURLPlayerState
+  fullName: Funique.Manager.StreamingManagerUtility.SetURLPlayerState
+- uid: Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: SetURLPlayerState(Boolean, PlayerState)
+  nameWithType: IStreamingManagerUtility.SetURLPlayerState(Boolean, PlayerState)
+  fullName: Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState(System.Boolean, Funique.PlayerState)
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+    name: SetURLPlayerState
+    nameWithType: IStreamingManagerUtility.SetURLPlayerState
+    fullName: Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.PlayerState
+    name: PlayerState
+    nameWithType: PlayerState
+    fullName: Funique.PlayerState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState(System.Boolean,Funique.PlayerState)
+    name: SetURLPlayerState
+    nameWithType: IStreamingManagerUtility.SetURLPlayerState
+    fullName: Funique.Streaming.IStreamingManagerUtility.SetURLPlayerState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Funique.PlayerState
+    name: PlayerState
+    nameWithType: PlayerState
+    fullName: Funique.PlayerState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.PlayerState
+  commentId: T:Funique.PlayerState
+  parent: Funique
+  name: PlayerState
+  nameWithType: PlayerState
+  fullName: Funique.PlayerState
+- uid: Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList
+  name: DecodeStreamingVideoList
+  nameWithType: StreamingManagerUtility.DecodeStreamingVideoList
+  fullName: Funique.Manager.StreamingManagerUtility.DecodeStreamingVideoList
+- uid: Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: DecodeStreamingVideoList(String)
+  nameWithType: IStreamingManagerUtility.DecodeStreamingVideoList(String)
+  fullName: Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList(System.String)
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList(System.String)
+    name: DecodeStreamingVideoList
+    nameWithType: IStreamingManagerUtility.DecodeStreamingVideoList
+    fullName: Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList(System.String)
+    name: DecodeStreamingVideoList
+    nameWithType: IStreamingManagerUtility.DecodeStreamingVideoList
+    fullName: Funique.Streaming.IStreamingManagerUtility.DecodeStreamingVideoList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo
+  name: StreamingStrConvertVideoInfo
+  nameWithType: StreamingManagerUtility.StreamingStrConvertVideoInfo
+  fullName: Funique.Manager.StreamingManagerUtility.StreamingStrConvertVideoInfo
+- uid: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: StreamingStrConvertVideoInfo(String, List<StreamingVideoInfo>)
+  nameWithType: IStreamingManagerUtility.StreamingStrConvertVideoInfo(String, List<StreamingVideoInfo>)
+  fullName: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String, System.Collections.Generic.List<Funique.StreamingVideoInfo>)
+  nameWithType.vb: IStreamingManagerUtility.StreamingStrConvertVideoInfo(String, List(Of StreamingVideoInfo))
+  fullName.vb: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String, System.Collections.Generic.List(Of Funique.StreamingVideoInfo))
+  name.vb: StreamingStrConvertVideoInfo(String, List(Of StreamingVideoInfo))
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+    name: StreamingStrConvertVideoInfo
+    nameWithType: IStreamingManagerUtility.StreamingStrConvertVideoInfo
+    fullName: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.StreamingVideoInfo
+    name: StreamingVideoInfo
+    nameWithType: StreamingVideoInfo
+    fullName: Funique.StreamingVideoInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo(System.String,System.Collections.Generic.List{Funique.StreamingVideoInfo}@)
+    name: StreamingStrConvertVideoInfo
+    nameWithType: IStreamingManagerUtility.StreamingStrConvertVideoInfo
+    fullName: Funique.Streaming.IStreamingManagerUtility.StreamingStrConvertVideoInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.StreamingVideoInfo
+    name: StreamingVideoInfo
+    nameWithType: StreamingVideoInfo
+    fullName: Funique.StreamingVideoInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename
+  name: DetectURLVideoFilename
+  nameWithType: StreamingManagerUtility.DetectURLVideoFilename
+  fullName: Funique.Manager.StreamingManagerUtility.DetectURLVideoFilename
+- uid: Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename(System.String)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename(System.String)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: DetectURLVideoFilename(String)
+  nameWithType: IStreamingManagerUtility.DetectURLVideoFilename(String)
+  fullName: Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename(System.String)
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename(System.String)
+    name: DetectURLVideoFilename
+    nameWithType: IStreamingManagerUtility.DetectURLVideoFilename
+    fullName: Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename(System.String)
+    name: DetectURLVideoFilename
+    nameWithType: IStreamingManagerUtility.DetectURLVideoFilename
+    fullName: Funique.Streaming.IStreamingManagerUtility.DetectURLVideoFilename
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.SetURLInformation*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.SetURLInformation
+  name: SetURLInformation
+  nameWithType: StreamingManagerUtility.SetURLInformation
+  fullName: Funique.Manager.StreamingManagerUtility.SetURLInformation
+- uid: Funique.Streaming.IStreamingManagerUtility.SetURLInformation(System.String)
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.SetURLInformation(System.String)
+  parent: Funique.Streaming.IStreamingManagerUtility
+  isExternal: true
+  name: SetURLInformation(String)
+  nameWithType: IStreamingManagerUtility.SetURLInformation(String)
+  fullName: Funique.Streaming.IStreamingManagerUtility.SetURLInformation(System.String)
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.SetURLInformation(System.String)
+    name: SetURLInformation
+    nameWithType: IStreamingManagerUtility.SetURLInformation
+    fullName: Funique.Streaming.IStreamingManagerUtility.SetURLInformation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.SetURLInformation(System.String)
+    name: SetURLInformation
+    nameWithType: IStreamingManagerUtility.SetURLInformation
+    fullName: Funique.Streaming.IStreamingManagerUtility.SetURLInformation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.RestartNginx*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.RestartNginx
+  name: RestartNginx
+  nameWithType: StreamingManagerUtility.RestartNginx
+  fullName: Funique.Manager.StreamingManagerUtility.RestartNginx
+- uid: Funique.Streaming.IStreamingManagerUtility.RestartNginx
+  commentId: M:Funique.Streaming.IStreamingManagerUtility.RestartNginx
+  parent: Funique.Streaming.IStreamingManagerUtility
+  name: RestartNginx()
+  nameWithType: IStreamingManagerUtility.RestartNginx()
+  fullName: Funique.Streaming.IStreamingManagerUtility.RestartNginx()
+  spec.csharp:
+  - uid: Funique.Streaming.IStreamingManagerUtility.RestartNginx
+    name: RestartNginx
+    nameWithType: IStreamingManagerUtility.RestartNginx
+    fullName: Funique.Streaming.IStreamingManagerUtility.RestartNginx
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Streaming.IStreamingManagerUtility.RestartNginx
+    name: RestartNginx
+    nameWithType: IStreamingManagerUtility.RestartNginx
+    fullName: Funique.Streaming.IStreamingManagerUtility.RestartNginx
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Manager.StreamingManagerUtility.OnWorkerChanged*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.OnWorkerChanged
+  name: OnWorkerChanged
+  nameWithType: StreamingManagerUtility.OnWorkerChanged
+  fullName: Funique.Manager.StreamingManagerUtility.OnWorkerChanged
+- uid: Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay*
+  commentId: Overload:Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay
+  name: WaitingCallClinetPlay
+  nameWithType: StreamingManagerUtility.WaitingCallClinetPlay
+  fullName: Funique.Manager.StreamingManagerUtility.WaitingCallClinetPlay
+- uid: Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  commentId: M:Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+  parent: Funique.Im3u8Streaming
+  isExternal: true
+  name: WaitingCallClinetPlay(IFFmpegWorker, String)
+  nameWithType: Im3u8Streaming.WaitingCallClinetPlay(IFFmpegWorker, String)
+  fullName: Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker, System.String)
+  spec.csharp:
+  - uid: Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+    name: WaitingCallClinetPlay
+    nameWithType: Im3u8Streaming.WaitingCallClinetPlay
+    fullName: Funique.Im3u8Streaming.WaitingCallClinetPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Streaming.IFFmpegWorker
+    name: IFFmpegWorker
+    nameWithType: IFFmpegWorker
+    fullName: Funique.Streaming.IFFmpegWorker
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Funique.Im3u8Streaming.WaitingCallClinetPlay(Funique.Streaming.IFFmpegWorker,System.String)
+    name: WaitingCallClinetPlay
+    nameWithType: Im3u8Streaming.WaitingCallClinetPlay
+    fullName: Funique.Im3u8Streaming.WaitingCallClinetPlay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Funique.Streaming.IFFmpegWorker
+    name: IFFmpegWorker
+    nameWithType: IFFmpegWorker
+    fullName: Funique.Streaming.IFFmpegWorker
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

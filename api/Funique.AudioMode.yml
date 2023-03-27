@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AudioMode
+  commentId: T:Funique.AudioMode
+  id: AudioMode
+  parent: Funique
+  children:
+  - Funique.AudioMode.NONE
+  - Funique.AudioMode.NORMAL
+  - Funique.AudioMode.TBE
+  langs:
+  - csharp
+  - vb
+  name: AudioMode
+  nameWithType: AudioMode
+  fullName: Funique.AudioMode
+  type: Enum
+  source:
+    remote:
+      path: Enum/AudioMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: AudioMode
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/AudioMode.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nAudio source <br />\n------------------------------------------------ <br />\n音效來源\n"
+  example: []
+  syntax:
+    content: public enum AudioMode
+    content.vb: Public Enum AudioMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.AudioMode.NONE
+  commentId: F:Funique.AudioMode.NONE
+  id: NONE
+  parent: Funique.AudioMode
+  langs:
+  - csharp
+  - vb
+  name: NONE
+  nameWithType: AudioMode.NONE
+  fullName: Funique.AudioMode.NONE
+  type: Field
+  source:
+    remote:
+      path: Enum/AudioMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: NONE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/AudioMode.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nVideo does not provide any audio <br />\n------------------------------------------------ <br />\n影片不包含任何音效\n"
+  example: []
+  syntax:
+    content: NONE = 0
+    return:
+      type: Funique.AudioMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.AudioMode.NORMAL
+  commentId: F:Funique.AudioMode.NORMAL
+  id: NORMAL
+  parent: Funique.AudioMode
+  langs:
+  - csharp
+  - vb
+  name: NORMAL
+  nameWithType: AudioMode.NORMAL
+  fullName: Funique.AudioMode.NORMAL
+  type: Field
+  source:
+    remote:
+      path: Enum/AudioMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: NORMAL
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/AudioMode.cs
+    startLine: 20
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlay audio that in the video file <br />\n------------------------------------------------ <br />\n播放影片檔案中的音效資源\n"
+  example: []
+  syntax:
+    content: NORMAL = 1
+    return:
+      type: Funique.AudioMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.AudioMode.TBE
+  commentId: F:Funique.AudioMode.TBE
+  id: TBE
+  parent: Funique.AudioMode
+  langs:
+  - csharp
+  - vb
+  name: TBE
+  nameWithType: AudioMode.TBE
+  fullName: Funique.AudioMode.TBE
+  type: Field
+  source:
+    remote:
+      path: Enum/AudioMode.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: TBE
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Enum/AudioMode.cs
+    startLine: 26
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlay audio separately <br />\n------------------------------------------------ <br />\n分開播放播放\n"
+  example: []
+  syntax:
+    content: TBE = 2
+    return:
+      type: Funique.AudioMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: Funique.AudioMode
+  commentId: T:Funique.AudioMode
+  parent: Funique
+  name: AudioMode
+  nameWithType: AudioMode
+  fullName: Funique.AudioMode

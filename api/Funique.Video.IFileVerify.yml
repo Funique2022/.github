@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Video.IFileVerify
+  commentId: T:Funique.Video.IFileVerify
+  id: IFileVerify
+  parent: Funique.Video
+  children:
+  - Funique.Video.IFileVerify.verifyList
+  langs:
+  - csharp
+  - vb
+  name: IFileVerify
+  nameWithType: IFileVerify
+  fullName: Funique.Video.IFileVerify
+  type: Interface
+  source:
+    remote:
+      path: Interface/IFileVerify.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: IFileVerify
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileVerify.cs
+    startLine: 7
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nFile manager, responsible for verify related files <br />\n------------------------------------------------ <br />\n檔案管理, 負責認證相關\n"
+  example: []
+  syntax:
+    content: public interface IFileVerify
+    content.vb: Public Interface IFileVerify
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Funique.Video.IFileVerify.verifyList
+  commentId: P:Funique.Video.IFileVerify.verifyList
+  id: verifyList
+  parent: Funique.Video.IFileVerify
+  langs:
+  - csharp
+  - vb
+  name: verifyList
+  nameWithType: IFileVerify.verifyList
+  fullName: Funique.Video.IFileVerify.verifyList
+  type: Property
+  source:
+    remote:
+      path: Interface/IFileVerify.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_video.git
+    id: verifyList
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Video/Interface/IFileVerify.cs
+    startLine: 14
+  assemblies:
+  - Funique.Video
+  namespace: Funique.Video
+  summary: "\nThe prefab object which spawn in user interface root <br />\n------------------------------------------------ <br />\n生成於 UI 列表中的標籤藍圖物件\n"
+  example: []
+  syntax:
+    content: Container<InfoBase> verifyList { get; }
+    parameters: []
+    return:
+      type: Funique.Video.Container{Funique.InfoBase}
+    content.vb: ReadOnly Property verifyList As Container(Of InfoBase)
+  overload: Funique.Video.IFileVerify.verifyList*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Funique.Video
+  commentId: N:Funique.Video
+  name: Funique.Video
+  nameWithType: Funique.Video
+  fullName: Funique.Video
+- uid: Funique.Video.IFileVerify.verifyList*
+  commentId: Overload:Funique.Video.IFileVerify.verifyList
+  name: verifyList
+  nameWithType: IFileVerify.verifyList
+  fullName: Funique.Video.IFileVerify.verifyList
+- uid: Funique.Video.Container{Funique.InfoBase}
+  commentId: T:Funique.Video.Container{Funique.InfoBase}
+  parent: Funique.Video
+  definition: Funique.Video.Container`1
+  name: Container<InfoBase>
+  nameWithType: Container<InfoBase>
+  fullName: Funique.Video.Container<Funique.InfoBase>
+  nameWithType.vb: Container(Of InfoBase)
+  fullName.vb: Funique.Video.Container(Of Funique.InfoBase)
+  name.vb: Container(Of InfoBase)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Funique.InfoBase
+    name: InfoBase
+    nameWithType: InfoBase
+    fullName: Funique.InfoBase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Funique.InfoBase
+    name: InfoBase
+    nameWithType: InfoBase
+    fullName: Funique.InfoBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Funique.Video.Container`1
+  commentId: T:Funique.Video.Container`1
+  name: Container<T>
+  nameWithType: Container<T>
+  fullName: Funique.Video.Container<T>
+  nameWithType.vb: Container(Of T)
+  fullName.vb: Funique.Video.Container(Of T)
+  name.vb: Container(Of T)
+  spec.csharp:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Funique.Video.Container`1
+    name: Container
+    nameWithType: Container
+    fullName: Funique.Video.Container
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AxisHandler2D.DebugText
+  commentId: T:Funique.AxisHandler2D.DebugText
+  id: AxisHandler2D.DebugText
+  parent: Funique
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AxisHandler2D.DebugText
+  nameWithType: AxisHandler2D.DebugText
+  fullName: Funique.AxisHandler2D.DebugText
+  type: Delegate
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: DebugText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/XR Controller Port/Handlers/AxisHandler2D.cs
+    startLine: 38
+  assemblies:
+  - Funique.Client
+  namespace: Funique
+  syntax:
+    content: public delegate void DebugText(float lastValue, float value);
+    parameters:
+    - id: lastValue
+      type: System.Single
+    - id: value
+      type: System.Single
+    content.vb: Public Delegate Sub DebugText(lastValue As Single, value As Single)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

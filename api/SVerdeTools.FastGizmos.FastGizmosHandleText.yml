@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: SVerdeTools.FastGizmos.FastGizmosHandleText
+  commentId: T:SVerdeTools.FastGizmos.FastGizmosHandleText
+  id: FastGizmosHandleText
+  parent: SVerdeTools.FastGizmos
+  children:
+  - SVerdeTools.FastGizmos.FastGizmosHandleText.enable
+  - SVerdeTools.FastGizmos.FastGizmosHandleText.text
+  langs:
+  - csharp
+  - vb
+  name: FastGizmosHandleText
+  nameWithType: FastGizmosHandleText
+  fullName: SVerdeTools.FastGizmos.FastGizmosHandleText
+  type: Class
+  source:
+    remote:
+      path: FastGizmosHandleText.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: FastGizmosHandleText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmosHandleText.cs
+    startLine: 8
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: 'public class FastGizmosHandleText : MonoBehaviour'
+    content.vb: >-
+      Public Class FastGizmosHandleText
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SVerdeTools.FastGizmos.FastGizmosHandleText.enable
+  commentId: F:SVerdeTools.FastGizmos.FastGizmosHandleText.enable
+  id: enable
+  parent: SVerdeTools.FastGizmos.FastGizmosHandleText
+  langs:
+  - csharp
+  - vb
+  name: enable
+  nameWithType: FastGizmosHandleText.enable
+  fullName: SVerdeTools.FastGizmos.FastGizmosHandleText.enable
+  type: Field
+  source:
+    remote:
+      path: FastGizmosHandleText.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: enable
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmosHandleText.cs
+    startLine: 10
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public bool enable
+    return:
+      type: System.Boolean
+    content.vb: Public enable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SVerdeTools.FastGizmos.FastGizmosHandleText.text
+  commentId: F:SVerdeTools.FastGizmos.FastGizmosHandleText.text
+  id: text
+  parent: SVerdeTools.FastGizmos.FastGizmosHandleText
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: FastGizmosHandleText.text
+  fullName: SVerdeTools.FastGizmos.FastGizmosHandleText.text
+  type: Field
+  source:
+    remote:
+      path: FastGizmosHandleText.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: text
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/FastGizmosHandleText.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: SVerdeTools.FastGizmos
+  syntax:
+    content: public string text
+    return:
+      type: System.String
+    content.vb: Public text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SVerdeTools.FastGizmos
+  commentId: N:SVerdeTools.FastGizmos
+  name: SVerdeTools.FastGizmos
+  nameWithType: SVerdeTools.FastGizmos
+  fullName: SVerdeTools.FastGizmos
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Client.Movement_Fly
+  commentId: T:Funique.Client.Movement_Fly
+  id: Movement_Fly
+  parent: Funique.Client
+  children:
+  - Funique.Client.Movement_Fly._speed
+  - Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  - Funique.Client.Movement_Fly.speed
+  langs:
+  - csharp
+  - vb
+  name: Movement_Fly
+  nameWithType: Movement_Fly
+  fullName: Funique.Client.Movement_Fly
+  type: Class
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Movement_Fly
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+    startLine: 11
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  summary: "\nA component which control player rigidbody flying action <br />\nProvide speed modify control <br />\n------------------------------------------------ <br />\n玩家剛體飛行行為的控制元件 <br />\n提供速度變化控制\n"
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/Client/Movement/Fly")]
+
+      public class Movement_Fly : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/Client/Movement/Fly")>
+
+      Public Class Movement_Fly
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/Client/Movement/Fly
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.Client.Movement_Fly._speed
+  commentId: F:Funique.Client.Movement_Fly._speed
+  id: _speed
+  parent: Funique.Client.Movement_Fly
+  langs:
+  - csharp
+  - vb
+  name: _speed
+  nameWithType: Movement_Fly._speed
+  fullName: Funique.Client.Movement_Fly._speed
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: _speed
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+    startLine: 14
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float _speed
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public _speed As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.Movement_Fly.speed
+  commentId: P:Funique.Client.Movement_Fly.speed
+  id: speed
+  parent: Funique.Client.Movement_Fly
+  langs:
+  - csharp
+  - vb
+  name: speed
+  nameWithType: Movement_Fly.speed
+  fullName: Funique.Client.Movement_Fly.speed
+  type: Property
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: speed
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+    startLine: 19
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public float speed { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property speed As Single
+  overload: Funique.Client.Movement_Fly.speed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  commentId: M:Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  id: SetButtonPress(System.Boolean)
+  parent: Funique.Client.Movement_Fly
+  langs:
+  - csharp
+  - vb
+  name: SetButtonPress(Boolean)
+  nameWithType: Movement_Fly.SetButtonPress(Boolean)
+  fullName: Funique.Client.Movement_Fly.SetButtonPress(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: SetButtonPress
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Component/Movement_Fly.cs
+    startLine: 34
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: public void SetButtonPress(bool b)
+    parameters:
+    - id: b
+      type: System.Boolean
+    content.vb: Public Sub SetButtonPress(b As Boolean)
+  overload: Funique.Client.Movement_Fly.SetButtonPress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Client
+  commentId: N:Funique.Client
+  name: Funique.Client
+  nameWithType: Funique.Client
+  fullName: Funique.Client
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Funique.Client.Movement_Fly.speed*
+  commentId: Overload:Funique.Client.Movement_Fly.speed
+  name: speed
+  nameWithType: Movement_Fly.speed
+  fullName: Funique.Client.Movement_Fly.speed
+- uid: Funique.Client.Movement_Fly.SetButtonPress*
+  commentId: Overload:Funique.Client.Movement_Fly.SetButtonPress
+  name: SetButtonPress
+  nameWithType: Movement_Fly.SetButtonPress
+  fullName: Funique.Client.Movement_Fly.SetButtonPress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

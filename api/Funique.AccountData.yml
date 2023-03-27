@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.AccountData
+  commentId: T:Funique.AccountData
+  id: AccountData
+  parent: Funique
+  children:
+  - Funique.AccountData.Account
+  - Funique.AccountData.Password
+  langs:
+  - csharp
+  - vb
+  name: AccountData
+  nameWithType: AccountData
+  fullName: Funique.AccountData
+  type: Struct
+  source:
+    remote:
+      path: Struct/AccountData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: AccountData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/AccountData.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nAccount structure\n------------------------------------------------ <br />\n帳號結構\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct AccountData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure AccountData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.AccountData.Account
+  commentId: F:Funique.AccountData.Account
+  id: Account
+  parent: Funique.AccountData
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: AccountData.Account
+  fullName: Funique.AccountData.Account
+  type: Field
+  source:
+    remote:
+      path: Struct/AccountData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Account
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/AccountData.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nAccount name <br />\n------------------------------------------------ <br />\n帳號名稱\n"
+  example: []
+  syntax:
+    content: public string Account
+    return:
+      type: System.String
+    content.vb: Public Account As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.AccountData.Password
+  commentId: F:Funique.AccountData.Password
+  id: Password
+  parent: Funique.AccountData
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: AccountData.Password
+  fullName: Funique.AccountData.Password
+  type: Field
+  source:
+    remote:
+      path: Struct/AccountData.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Password
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/AccountData.cs
+    startLine: 21
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPassword <br />\n------------------------------------------------ <br />\n密碼\n"
+  example: []
+  syntax:
+    content: public string Password
+    return:
+      type: System.String
+    content.vb: Public Password As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

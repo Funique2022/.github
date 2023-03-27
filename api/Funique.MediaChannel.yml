@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.MediaChannel
+  commentId: T:Funique.MediaChannel
+  id: MediaChannel
+  parent: Funique
+  children:
+  - Funique.MediaChannel.a_codec
+  - Funique.MediaChannel.average
+  - Funique.MediaChannel.bandwidth
+  - Funique.MediaChannel.Bitrate_Simplify
+  - Funique.MediaChannel.framerate
+  - Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  - Funique.MediaChannel.height
+  - Funique.MediaChannel.inf
+  - Funique.MediaChannel.mediaType
+  - Funique.MediaChannel.path
+  - Funique.MediaChannel.v_codec
+  - Funique.MediaChannel.width
+  langs:
+  - csharp
+  - vb
+  name: MediaChannel
+  nameWithType: MediaChannel
+  fullName: Funique.MediaChannel
+  type: Struct
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: MediaChannel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 4
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public struct MediaChannel
+    content.vb: Public Structure MediaChannel
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.MediaChannel.mediaType
+  commentId: F:Funique.MediaChannel.mediaType
+  id: mediaType
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: mediaType
+  nameWithType: MediaChannel.mediaType
+  fullName: Funique.MediaChannel.mediaType
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: mediaType
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 6
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public MediaType mediaType
+    return:
+      type: Funique.MediaType
+    content.vb: Public mediaType As MediaType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.inf
+  commentId: F:Funique.MediaChannel.inf
+  id: inf
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: inf
+  nameWithType: MediaChannel.inf
+  fullName: Funique.MediaChannel.inf
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: inf
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 7
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string inf
+    return:
+      type: System.String
+    content.vb: Public inf As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.path
+  commentId: F:Funique.MediaChannel.path
+  id: path
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: MediaChannel.path
+  fullName: Funique.MediaChannel.path
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: path
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 8
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string path
+    return:
+      type: System.String
+    content.vb: Public path As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.v_codec
+  commentId: F:Funique.MediaChannel.v_codec
+  id: v_codec
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: v_codec
+  nameWithType: MediaChannel.v_codec
+  fullName: Funique.MediaChannel.v_codec
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: v_codec
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string v_codec
+    return:
+      type: System.String
+    content.vb: Public v_codec As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.a_codec
+  commentId: F:Funique.MediaChannel.a_codec
+  id: a_codec
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: a_codec
+  nameWithType: MediaChannel.a_codec
+  fullName: Funique.MediaChannel.a_codec
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: a_codec
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 10
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string a_codec
+    return:
+      type: System.String
+    content.vb: Public a_codec As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.framerate
+  commentId: F:Funique.MediaChannel.framerate
+  id: framerate
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: framerate
+  nameWithType: MediaChannel.framerate
+  fullName: Funique.MediaChannel.framerate
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: framerate
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 11
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public float framerate
+    return:
+      type: System.Single
+    content.vb: Public framerate As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.width
+  commentId: F:Funique.MediaChannel.width
+  id: width
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: MediaChannel.width
+  fullName: Funique.MediaChannel.width
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: width
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 12
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public int width
+    return:
+      type: System.Int32
+    content.vb: Public width As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.height
+  commentId: F:Funique.MediaChannel.height
+  id: height
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: MediaChannel.height
+  fullName: Funique.MediaChannel.height
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: height
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 13
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public int height
+    return:
+      type: System.Int32
+    content.vb: Public height As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.bandwidth
+  commentId: F:Funique.MediaChannel.bandwidth
+  id: bandwidth
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: bandwidth
+  nameWithType: MediaChannel.bandwidth
+  fullName: Funique.MediaChannel.bandwidth
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: bandwidth
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 14
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public long bandwidth
+    return:
+      type: System.Int64
+    content.vb: Public bandwidth As Long
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.average
+  commentId: F:Funique.MediaChannel.average
+  id: average
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: average
+  nameWithType: MediaChannel.average
+  fullName: Funique.MediaChannel.average
+  type: Field
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: average
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 15
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public long average
+    return:
+      type: System.Int64
+    content.vb: Public average As Long
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.MediaChannel.Bitrate_Simplify
+  commentId: P:Funique.MediaChannel.Bitrate_Simplify
+  id: Bitrate_Simplify
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: Bitrate_Simplify
+  nameWithType: MediaChannel.Bitrate_Simplify
+  fullName: Funique.MediaChannel.Bitrate_Simplify
+  type: Property
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Bitrate_Simplify
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 17
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public readonly string Bitrate_Simplify { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Bitrate_Simplify As String
+  overload: Funique.MediaChannel.Bitrate_Simplify*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  commentId: M:Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  id: GetOptionTitle(Funique.ABRDisplayType)
+  parent: Funique.MediaChannel
+  langs:
+  - csharp
+  - vb
+  name: GetOptionTitle(ABRDisplayType)
+  nameWithType: MediaChannel.GetOptionTitle(ABRDisplayType)
+  fullName: Funique.MediaChannel.GetOptionTitle(Funique.ABRDisplayType)
+  type: Method
+  source:
+    remote:
+      path: Struct/MediaChannel.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: GetOptionTitle
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/MediaChannel.cs
+    startLine: 42
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  syntax:
+    content: public string GetOptionTitle(ABRDisplayType DisplayFormat)
+    parameters:
+    - id: DisplayFormat
+      type: Funique.ABRDisplayType
+    return:
+      type: System.String
+    content.vb: Public Function GetOptionTitle(DisplayFormat As ABRDisplayType) As String
+  overload: Funique.MediaChannel.GetOptionTitle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Funique.MediaType
+  commentId: T:Funique.MediaType
+  parent: Funique
+  name: MediaType
+  nameWithType: MediaType
+  fullName: Funique.MediaType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Funique.MediaChannel.Bitrate_Simplify*
+  commentId: Overload:Funique.MediaChannel.Bitrate_Simplify
+  name: Bitrate_Simplify
+  nameWithType: MediaChannel.Bitrate_Simplify
+  fullName: Funique.MediaChannel.Bitrate_Simplify
+- uid: Funique.MediaChannel.GetOptionTitle*
+  commentId: Overload:Funique.MediaChannel.GetOptionTitle
+  name: GetOptionTitle
+  nameWithType: MediaChannel.GetOptionTitle
+  fullName: Funique.MediaChannel.GetOptionTitle
+- uid: Funique.ABRDisplayType
+  commentId: T:Funique.ABRDisplayType
+  parent: Funique
+  name: ABRDisplayType
+  nameWithType: ABRDisplayType
+  fullName: Funique.ABRDisplayType

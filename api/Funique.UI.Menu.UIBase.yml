@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.Menu.UIBase
+  commentId: T:Funique.UI.Menu.UIBase
+  id: UIBase
+  parent: Funique.UI.Menu
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: UIBase
+  nameWithType: UIBase
+  fullName: Funique.UI.Menu.UIBase
+  type: Class
+  source:
+    remote:
+      path: Base/UIBase.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: UIBase
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Base/UIBase.cs
+    startLine: 4
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI.Menu
+  syntax:
+    content: public abstract class UIBase
+    content.vb: Public MustInherit Class UIBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Funique.UI.Menu.UIButton
+  - Funique.UI.Menu.UIFrame
+  - Funique.UI.Menu.UIGrid
+  - Funique.UI.Menu.UITextButton
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: Funique.UI.Menu
+  commentId: N:Funique.UI.Menu
+  name: Funique.UI.Menu
+  nameWithType: Funique.UI.Menu
+  fullName: Funique.UI.Menu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

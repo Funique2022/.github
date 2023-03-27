@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.SavedPlayerName
+  commentId: T:Funique.SavedPlayerName
+  id: SavedPlayerName
+  parent: Funique
+  children:
+  - Funique.SavedPlayerName.HostName
+  - Funique.SavedPlayerName.NickName
+  langs:
+  - csharp
+  - vb
+  name: SavedPlayerName
+  nameWithType: SavedPlayerName
+  fullName: Funique.SavedPlayerName
+  type: Struct
+  source:
+    remote:
+      path: Struct/SavedPlayerName.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: SavedPlayerName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/SavedPlayerName.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPlayer nickname pair with hostname <br />\n------------------------------------------------ <br />\n用戶暱稱 配對 主機名稱\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct SavedPlayerName
+    content.vb: >-
+      <Serializable>
+
+      Public Structure SavedPlayerName
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.SavedPlayerName.HostName
+  commentId: F:Funique.SavedPlayerName.HostName
+  id: HostName
+  parent: Funique.SavedPlayerName
+  langs:
+  - csharp
+  - vb
+  name: HostName
+  nameWithType: SavedPlayerName.HostName
+  fullName: Funique.SavedPlayerName.HostName
+  type: Field
+  source:
+    remote:
+      path: Struct/SavedPlayerName.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: HostName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/SavedPlayerName.cs
+    startLine: 17
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nHostname target <br />\n------------------------------------------------ <br />\n主機名稱\n"
+  example: []
+  syntax:
+    content: public string HostName
+    return:
+      type: System.String
+    content.vb: Public HostName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.SavedPlayerName.NickName
+  commentId: F:Funique.SavedPlayerName.NickName
+  id: NickName
+  parent: Funique.SavedPlayerName
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: SavedPlayerName.NickName
+  fullName: Funique.SavedPlayerName.NickName
+  type: Field
+  source:
+    remote:
+      path: Struct/SavedPlayerName.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: NickName
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Struct/SavedPlayerName.cs
+    startLine: 23
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nNickname target <br />\n------------------------------------------------ <br />\n暱稱\n"
+  example: []
+  syntax:
+    content: public string NickName
+    return:
+      type: System.String
+    content.vb: Public NickName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

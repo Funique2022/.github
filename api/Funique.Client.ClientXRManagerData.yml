@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Client.ClientXRManagerData
+  commentId: T:Funique.Client.ClientXRManagerData
+  id: ClientXRManagerData
+  parent: Funique.Client
+  children:
+  - Funique.Client.ClientXRManagerData.EyeTextureResolutionScale
+  - Funique.Client.ClientXRManagerData.Headset
+  - Funique.Client.ClientXRManagerData.Len
+  - Funique.Client.ClientXRManagerData.LockHeadSetReset
+  - Funique.Client.ClientXRManagerData.VideoSphere
+  langs:
+  - csharp
+  - vb
+  name: ClientXRManagerData
+  nameWithType: ClientXRManagerData
+  fullName: Funique.Client.ClientXRManagerData
+  type: Struct
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: ClientXRManagerData
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+    startLine: 5
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct ClientXRManagerData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure ClientXRManagerData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Funique.Client.ClientXRManagerData.LockHeadSetReset
+  commentId: F:Funique.Client.ClientXRManagerData.LockHeadSetReset
+  id: LockHeadSetReset
+  parent: Funique.Client.ClientXRManagerData
+  langs:
+  - csharp
+  - vb
+  name: LockHeadSetReset
+  nameWithType: ClientXRManagerData.LockHeadSetReset
+  fullName: Funique.Client.ClientXRManagerData.LockHeadSetReset
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: LockHeadSetReset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+    startLine: 8
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public bool LockHeadSetReset
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Public LockHeadSetReset As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.ClientXRManagerData.VideoSphere
+  commentId: F:Funique.Client.ClientXRManagerData.VideoSphere
+  id: VideoSphere
+  parent: Funique.Client.ClientXRManagerData
+  langs:
+  - csharp
+  - vb
+  name: VideoSphere
+  nameWithType: ClientXRManagerData.VideoSphere
+  fullName: Funique.Client.ClientXRManagerData.VideoSphere
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: VideoSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+    startLine: 9
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public Transform VideoSphere
+    return:
+      type: UnityEngine.Transform
+    content.vb: >-
+      <SerializeField>
+
+      Public VideoSphere As Transform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.ClientXRManagerData.Headset
+  commentId: F:Funique.Client.ClientXRManagerData.Headset
+  id: Headset
+  parent: Funique.Client.ClientXRManagerData
+  langs:
+  - csharp
+  - vb
+  name: Headset
+  nameWithType: ClientXRManagerData.Headset
+  fullName: Funique.Client.ClientXRManagerData.Headset
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Headset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+    startLine: 10
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public Transform Headset
+    return:
+      type: UnityEngine.Transform
+    content.vb: >-
+      <SerializeField>
+
+      Public Headset As Transform
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.ClientXRManagerData.EyeTextureResolutionScale
+  commentId: F:Funique.Client.ClientXRManagerData.EyeTextureResolutionScale
+  id: EyeTextureResolutionScale
+  parent: Funique.Client.ClientXRManagerData
+  langs:
+  - csharp
+  - vb
+  name: EyeTextureResolutionScale
+  nameWithType: ClientXRManagerData.EyeTextureResolutionScale
+  fullName: Funique.Client.ClientXRManagerData.EyeTextureResolutionScale
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: EyeTextureResolutionScale
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+    startLine: 11
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float EyeTextureResolutionScale
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public EyeTextureResolutionScale As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Client.ClientXRManagerData.Len
+  commentId: F:Funique.Client.ClientXRManagerData.Len
+  id: Len
+  parent: Funique.Client.ClientXRManagerData
+  langs:
+  - csharp
+  - vb
+  name: Len
+  nameWithType: ClientXRManagerData.Len
+  fullName: Funique.Client.ClientXRManagerData.Len
+  type: Field
+  source:
+    remote:
+      path: Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+      branch: main
+      repo: https://github.com/Funique2022/project_unity_development.git
+    id: Len
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Client/Structure/ClientXRManagerData.cs
+    startLine: 12
+  assemblies:
+  - Funique.Client
+  namespace: Funique.Client
+  syntax:
+    content: >-
+      [SerializeField]
+
+      public float Len
+    return:
+      type: System.Single
+    content.vb: >-
+      <SerializeField>
+
+      Public Len As Single
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.Client
+  commentId: N:Funique.Client
+  name: Funique.Client
+  nameWithType: Funique.Client
+  fullName: Funique.Client
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.UI.Marquee
+  commentId: T:Funique.UI.Marquee
+  id: Marquee
+  parent: Funique.UI
+  children:
+  - Funique.UI.Marquee.SetText(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Marquee
+  nameWithType: Marquee
+  fullName: Funique.UI.Marquee
+  type: Class
+  source:
+    remote:
+      path: Component/Marquee.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: Marquee
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Marquee.cs
+    startLine: 14
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  summary: "\nMarquee effect of text display <br />\nThis require a scroll view setup and two text in the content transform object <br />\nAutomatically scroll right, when scroll is finish, it will frozen amount of the time, and then do it again <br />\n------------------------------------------------ <br />\n跑馬燈文字特效 <br />\n需要滑動視窗的設置 和 兩個文字物件在 content 下 <br />\n自動向右滑動, 當滑動結束, 會冷卻一陣時間, 並且再做一次\n"
+  example: []
+  syntax:
+    content: >-
+      [AddComponentMenu("Funique/UI/Marquee")]
+
+      [RequireComponent(typeof(ScrollRect))]
+
+      public class Marquee : MonoBehaviour
+    content.vb: >-
+      <AddComponentMenu("Funique/UI/Marquee")>
+
+      <RequireComponent(GetType(ScrollRect))>
+
+      Public Class Marquee
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - UnityEngine.Behaviour.enabled
+  - UnityEngine.Behaviour.isActiveAndEnabled
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Funique/UI/Marquee
+  - type: UnityEngine.RequireComponent
+    ctor: UnityEngine.RequireComponent.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: UnityEngine.UI.ScrollRect
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Funique.UI.Marquee.SetText(System.String)
+  commentId: M:Funique.UI.Marquee.SetText(System.String)
+  id: SetText(System.String)
+  parent: Funique.UI.Marquee
+  langs:
+  - csharp
+  - vb
+  name: SetText(String)
+  nameWithType: Marquee.SetText(String)
+  fullName: Funique.UI.Marquee.SetText(System.String)
+  type: Method
+  source:
+    remote:
+      path: Component/Marquee.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_ui.git
+    id: SetText
+    path: ../../../project_unity_development/Assets/FuniquePlugin/UI/Component/Marquee.cs
+    startLine: 64
+  assemblies:
+  - Funique.UI
+  namespace: Funique.UI
+  syntax:
+    content: public void SetText(string t)
+    parameters:
+    - id: t
+      type: System.String
+    content.vb: Public Sub SetText(t As String)
+  overload: Funique.UI.Marquee.SetText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique.UI
+  commentId: N:Funique.UI
+  name: Funique.UI
+  nameWithType: Funique.UI
+  fullName: Funique.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Behaviour.enabled
+  commentId: P:UnityEngine.Behaviour.enabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: enabled
+  nameWithType: Behaviour.enabled
+  fullName: UnityEngine.Behaviour.enabled
+- uid: UnityEngine.Behaviour.isActiveAndEnabled
+  commentId: P:UnityEngine.Behaviour.isActiveAndEnabled
+  parent: UnityEngine.Behaviour
+  isExternal: true
+  name: isActiveAndEnabled
+  nameWithType: Behaviour.isActiveAndEnabled
+  fullName: UnityEngine.Behaviour.isActiveAndEnabled
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Funique.UI.Marquee.SetText*
+  commentId: Overload:Funique.UI.Marquee.SetText
+  name: SetText
+  nameWithType: Marquee.SetText
+  fullName: Funique.UI.Marquee.SetText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

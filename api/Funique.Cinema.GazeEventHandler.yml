@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Cinema.GazeEventHandler
+  commentId: T:Funique.Cinema.GazeEventHandler
+  id: GazeEventHandler
+  parent: Funique.Cinema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GazeEventHandler
+  nameWithType: GazeEventHandler
+  fullName: Funique.Cinema.GazeEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Component/GazeToPlay.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: GazeEventHandler
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Component/GazeToPlay.cs
+    startLine: 15
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nGaze event delegate <br />\n------------------------------------------------ <br />\n久看委派\n"
+  example: []
+  syntax:
+    content: public delegate void GazeEventHandler(object sender, GazeEventArgs gazeEventArgs);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: ''
+    - id: gazeEventArgs
+      type: Funique.Cinema.GazeEventArgs
+      description: ''
+    content.vb: Public Delegate Sub GazeEventHandler(sender As Object, gazeEventArgs As GazeEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Funique.Cinema.GazeEventArgs
+  commentId: T:Funique.Cinema.GazeEventArgs
+  parent: Funique.Cinema
+  name: GazeEventArgs
+  nameWithType: GazeEventArgs
+  fullName: Funique.Cinema.GazeEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

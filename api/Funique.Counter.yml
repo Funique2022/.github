@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Counter
+  commentId: T:Funique.Counter
+  id: Counter
+  parent: Funique
+  children:
+  - Funique.Counter.#ctor(System.Single,System.Boolean)
+  - Funique.Counter.OnTimeUp
+  - Funique.Counter.Reset
+  - Funique.Counter.Update(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Counter
+  nameWithType: Counter
+  fullName: Funique.Counter
+  type: Class
+  source:
+    remote:
+      path: Util/Counter.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Counter
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/Counter.cs
+    startLine: 9
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCounter <br />\n------------------------------------------------ <br />\n計時器\n"
+  example: []
+  syntax:
+    content: public sealed class Counter
+    content.vb: Public NotInheritable Class Counter
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Funique.Counter.OnTimeUp
+  commentId: E:Funique.Counter.OnTimeUp
+  id: OnTimeUp
+  parent: Funique.Counter
+  langs:
+  - csharp
+  - vb
+  name: OnTimeUp
+  nameWithType: Counter.OnTimeUp
+  fullName: Funique.Counter.OnTimeUp
+  type: Event
+  source:
+    remote:
+      path: Util/Counter.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: OnTimeUp
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/Counter.cs
+    startLine: 27
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nCalled when times up <br />\n------------------------------------------------ <br />\n當時間到時 會呼叫\n"
+  example: []
+  syntax:
+    content: public event Action OnTimeUp
+    return:
+      type: System.Action
+    content.vb: Public Event OnTimeUp As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Counter.#ctor(System.Single,System.Boolean)
+  commentId: M:Funique.Counter.#ctor(System.Single,System.Boolean)
+  id: '#ctor(System.Single,System.Boolean)'
+  parent: Funique.Counter
+  langs:
+  - csharp
+  - vb
+  name: Counter(Single, Boolean)
+  nameWithType: Counter.Counter(Single, Boolean)
+  fullName: Funique.Counter.Counter(System.Single, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Util/Counter.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: .ctor
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/Counter.cs
+    startLine: 39
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nTimer is the end point, second as unit <br />\nIf loop is on, it will auto reset <br />\n------------------------------------------------ <br />\ntimer 是計時器的終點, 以秒為單位 <br />\n如果 loop 為真, 計時器會自動重置\n"
+  example: []
+  syntax:
+    content: public Counter(float timer, bool loop = false)
+    parameters:
+    - id: timer
+      type: System.Single
+      description: Second
+    - id: loop
+      type: System.Boolean
+      description: Auto reset
+    content.vb: Public Sub New(timer As Single, loop As Boolean = False)
+  overload: Funique.Counter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Counter.Reset
+  commentId: M:Funique.Counter.Reset
+  id: Reset
+  parent: Funique.Counter
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: Counter.Reset()
+  fullName: Funique.Counter.Reset()
+  type: Method
+  source:
+    remote:
+      path: Util/Counter.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Reset
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/Counter.cs
+    startLine: 55
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nReset the timer <br />\n------------------------------------------------ <br />\n重置計時器\n"
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Funique.Counter.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Funique.Counter.Update(System.Single)
+  commentId: M:Funique.Counter.Update(System.Single)
+  id: Update(System.Single)
+  parent: Funique.Counter
+  langs:
+  - csharp
+  - vb
+  name: Update(Single)
+  nameWithType: Counter.Update(Single)
+  fullName: Funique.Counter.Update(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Util/Counter.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_core.git
+    id: Update
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Core/Util/Counter.cs
+    startLine: 66
+  assemblies:
+  - Funique.Core
+  namespace: Funique
+  summary: "\nPut this method in update function <br />\n------------------------------------------------ <br />\n把這個函式放在更新事件中\n"
+  example: []
+  syntax:
+    content: public void Update(float delta)
+    parameters:
+    - id: delta
+      type: System.Single
+      description: ''
+    content.vb: Public Sub Update(delta As Single)
+  overload: Funique.Counter.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Funique
+  commentId: N:Funique
+  name: Funique
+  nameWithType: Funique
+  fullName: Funique
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Funique.Counter.#ctor*
+  commentId: Overload:Funique.Counter.#ctor
+  name: Counter
+  nameWithType: Counter.Counter
+  fullName: Funique.Counter.Counter
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Funique.Counter.Reset*
+  commentId: Overload:Funique.Counter.Reset
+  name: Reset
+  nameWithType: Counter.Reset
+  fullName: Funique.Counter.Reset
+- uid: Funique.Counter.Update*
+  commentId: Overload:Funique.Counter.Update
+  name: Update
+  nameWithType: Counter.Update
+  fullName: Funique.Counter.Update

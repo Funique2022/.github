@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: Funique.Cinema.ApplyMeshType
+  commentId: T:Funique.Cinema.ApplyMeshType
+  id: ApplyMeshType
+  parent: Funique.Cinema
+  children:
+  - Funique.Cinema.ApplyMeshType.FliveSphere
+  - Funique.Cinema.ApplyMeshType.HalfSphere
+  - Funique.Cinema.ApplyMeshType.ObsSphere
+  - Funique.Cinema.ApplyMeshType.OctahedronSphere
+  - Funique.Cinema.ApplyMeshType.PlaneSphere
+  - Funique.Cinema.ApplyMeshType.SixDofModel
+  - Funique.Cinema.ApplyMeshType.SquarePlane
+  langs:
+  - csharp
+  - vb
+  name: ApplyMeshType
+  nameWithType: ApplyMeshType
+  fullName: Funique.Cinema.ApplyMeshType
+  type: Enum
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ApplyMeshType
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 7
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  summary: "\nApply sphere mesh <br />\n------------------------------------------------ <br />\n套用播放媒體模型\n"
+  example: []
+  syntax:
+    content: public enum ApplyMeshType
+    content.vb: Public Enum ApplyMeshType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Funique.Cinema.ApplyMeshType.OctahedronSphere
+  commentId: F:Funique.Cinema.ApplyMeshType.OctahedronSphere
+  id: OctahedronSphere
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: OctahedronSphere
+  nameWithType: ApplyMeshType.OctahedronSphere
+  fullName: Funique.Cinema.ApplyMeshType.OctahedronSphere
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: OctahedronSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 9
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: OctahedronSphere = 0
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Cinema.ApplyMeshType.FliveSphere
+  commentId: F:Funique.Cinema.ApplyMeshType.FliveSphere
+  id: FliveSphere
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: FliveSphere
+  nameWithType: ApplyMeshType.FliveSphere
+  fullName: Funique.Cinema.ApplyMeshType.FliveSphere
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: FliveSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 10
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: FliveSphere = 1
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Cinema.ApplyMeshType.SixDofModel
+  commentId: F:Funique.Cinema.ApplyMeshType.SixDofModel
+  id: SixDofModel
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: SixDofModel
+  nameWithType: ApplyMeshType.SixDofModel
+  fullName: Funique.Cinema.ApplyMeshType.SixDofModel
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SixDofModel
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 11
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: SixDofModel = 2
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Cinema.ApplyMeshType.HalfSphere
+  commentId: F:Funique.Cinema.ApplyMeshType.HalfSphere
+  id: HalfSphere
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: HalfSphere
+  nameWithType: ApplyMeshType.HalfSphere
+  fullName: Funique.Cinema.ApplyMeshType.HalfSphere
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: HalfSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 12
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: HalfSphere = 3
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Cinema.ApplyMeshType.ObsSphere
+  commentId: F:Funique.Cinema.ApplyMeshType.ObsSphere
+  id: ObsSphere
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: ObsSphere
+  nameWithType: ApplyMeshType.ObsSphere
+  fullName: Funique.Cinema.ApplyMeshType.ObsSphere
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: ObsSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 13
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: ObsSphere = 4
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Cinema.ApplyMeshType.PlaneSphere
+  commentId: F:Funique.Cinema.ApplyMeshType.PlaneSphere
+  id: PlaneSphere
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: PlaneSphere
+  nameWithType: ApplyMeshType.PlaneSphere
+  fullName: Funique.Cinema.ApplyMeshType.PlaneSphere
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: PlaneSphere
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 14
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: PlaneSphere = 5
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Funique.Cinema.ApplyMeshType.SquarePlane
+  commentId: F:Funique.Cinema.ApplyMeshType.SquarePlane
+  id: SquarePlane
+  parent: Funique.Cinema.ApplyMeshType
+  langs:
+  - csharp
+  - vb
+  name: SquarePlane
+  nameWithType: ApplyMeshType.SquarePlane
+  fullName: Funique.Cinema.ApplyMeshType.SquarePlane
+  type: Field
+  source:
+    remote:
+      path: Enum/ApplyMeshType.cs
+      branch: v1.0
+      repo: https://github.com/Funique2022/funique_cinema.git
+    id: SquarePlane
+    path: ../../../project_unity_development/Assets/FuniquePlugin/Cinema/Enum/ApplyMeshType.cs
+    startLine: 15
+  assemblies:
+  - Funique.Cinema
+  namespace: Funique.Cinema
+  syntax:
+    content: SquarePlane = 6
+    return:
+      type: Funique.Cinema.ApplyMeshType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Funique.Cinema
+  commentId: N:Funique.Cinema
+  name: Funique.Cinema
+  nameWithType: Funique.Cinema
+  fullName: Funique.Cinema
+- uid: Funique.Cinema.ApplyMeshType
+  commentId: T:Funique.Cinema.ApplyMeshType
+  parent: Funique.Cinema
+  name: ApplyMeshType
+  nameWithType: ApplyMeshType
+  fullName: Funique.Cinema.ApplyMeshType

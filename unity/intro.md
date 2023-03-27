@@ -16,7 +16,7 @@ Post your issues there, we'll investigate them
 ## Architecture
 
 The funique project has several strict rule apply on each project\
-Before you start build a project, we recommend you read [this](./Setup.md) first
+Before you start build a project, we recommend you read [this](./../stream/Intro.md) first
 
 ## Notice
 

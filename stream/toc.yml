@@ -7,6 +7,10 @@
     href: pipeline/source.md
   - name: Client
     href: pipeline/client.md
+  - name: Transcode
+    href: pipeline/transcode.md
+  - name: Network
+    href: pipeline/network.md
 - name: Custom FFmpeg
   href: ffmpeg.md
   items:

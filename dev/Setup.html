@@ -93,6 +93,7 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="setup">Setup</h1>
 
+<p>In this document, You will see how to setup a project</p>
 <h2 id="third-party-tool-helper">Third-Party Tool Helper</h2>
 <p><a href="https://git-scm.com/downloads">Git</a><br>
 <a href="https://desktop.github.com/">Github Desktop</a><br>
@@ -100,13 +101,17 @@
 <h2 id="dev-project-repository">Dev Project Repository</h2>
 <p>Each intergration project has its own repository with git sub modules attached to it,
 You could clone it in order to contribute.</p>
+<p>Find the repository with project tag prefix</p>
+<p><img src="../images/project_prefix.png" alt="prefix"></p>
 <h2 id="project-architecture">Project Architecture</h2>
 <p><img src="../images/ApplicationArchitecture.png" alt="Architecture"></p>
 <p>Here is the main project architeture</p>
 <p>The integration (project main logic code) will store at <code>/Assets/Scripts</code><br>
 The funique modules (including core module) will store at <code>/Assets/FuniquePlugin/[Module Name]</code><br>
 Large resources, media files (ignore elements) will store at <code>/Assets/FuniqueAssets</code></p>
-<h2 id="after-clone">After Clone</h2>
+<h2 id="use-github-desktop-to-setup-project">Use Github Desktop To Setup Project</h2>
+<h2 id="use-terminal-to-setup-project">Use Terminal To Setup Project</h2>
+<h3 id="after-clone">After Clone</h3>
 <p>After user clone the project, the remain problem is loading the submodule files.<br>
 User can open command prompt at root of the unity project directory<br>
 And type in:</p>
@@ -118,18 +123,18 @@ Trying to initialize the submodule directory</p>
 Update to the latest commit to the select branch</p>
 <p>--recursive<br>
 Read .submodule file and Iterate over each submodule element</p>
-<h2 id="delete-submodule">Delete Submodule</h2>
+<h3 id="delete-submodule">Delete Submodule</h3>
 <p>When submodule is no need, and require to remove it<br>
 You could run this command to it</p>
 <pre><code class="lang-batch">git rm -r --cached [submodule folder]
 </code></pre>
-<h2 id="change-submodule-select-branch">Change Submodule Select Branch</h2>
+<h3 id="change-submodule-select-branch">Change Submodule Select Branch</h3>
 <p>When you trying to upgrade version<br>
 You could run this command to it</p>
 <pre><code class="lang-batch">git submodule set-branch --branch [branch label] [submodule folder]
 git submodule update [submodule folder]
 </code></pre>
-<h2 id="dependencies">Dependencies</h2>
+<h3 id="dependencies">Dependencies</h3>
 <p>Each funique unity module should have official readme file that specified that what kinds of modules it require to works.<br>
 It will specified the module name with hyperlink and version requirement.</p>
 <p><img src="../images/dependencies.png" alt="example"></p>

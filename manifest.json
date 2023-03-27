@@ -3813,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/Setup.html",
-          "hash": "25sMVR8J+5kunK54nO86Ny6ivzzGQm73MQDRR9dyhqI="
+          "hash": "ENhn/twp/2cYNko7zdCwdU6dHdJjkbrm1CosTGH4NiI="
         }
       },
       "is_incremental": false,
@@ -4047,6 +4047,17 @@
       "output": {
         "resource": {
           "relative_path": "images/npm_publish.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/project_prefix.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/project_prefix.png"
         }
       },
       "is_incremental": false,

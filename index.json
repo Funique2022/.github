@@ -1547,27 +1547,32 @@
   "ci/Intro.html": {
     "href": "ci/Intro.html",
     "title": "Funique Documentation For Continuous Integration | Funique Documentation",
-    "keywords": "Funique Documentation For Continuous Integration"
+    "keywords": "Funique Documentation For Continuous Integration Warning Oh well, We didn't have CI/DI yet. :3"
   },
   "dev/Contribute.html": {
     "href": "dev/Contribute.html",
     "title": "List of contributer | Funique Documentation",
     "keywords": "List of contributer ZhuElly Mainly maintain the git Repositories, RTMP nginx server, Funique unity plugin."
   },
-  "dev/Developer.html": {
-    "href": "dev/Developer.html",
-    "title": "For Developer | Funique Documentation",
-    "keywords": "For Developer Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier. Small Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. Branch Naming You Tag Naming C# Project Comment Repository README"
-  },
   "dev/Intro.html": {
     "href": "dev/Intro.html",
     "title": "Funique Documentation For Developer | Funique Documentation",
-    "keywords": "Funique Documentation For Developer This page is for the contributor, It will guide you to setup the project."
+    "keywords": "Funique Documentation For Developer For developer, the pipeline will complete different compare to user. Anyway, This documentation will guide you to setup the project."
+  },
+  "dev/Maintainer.html": {
+    "href": "dev/Maintainer.html",
+    "title": "Maintainer | Funique Documentation",
+    "keywords": "Maintainer All the unity modules and integration package are using NPM to host it, We use unity package manager to get funique package. The code under Github organization repository is for alpha, beta development. After we finihs debugging and testing, Maintainer should push the latest version to NPM. The issue is, Unity package manager does not support NPM organization scope for search package, So if we want to add a new maintainer, we have to manually add to package one by one. More Package Manager Detail"
   },
   "dev/Setup.html": {
     "href": "dev/Setup.html",
     "title": "Setup | Funique Documentation",
     "keywords": "Setup Third-Party Tool Helper Git Github Desktop Funique Hub Dev Project Repository Each intergration project has its own repository with git sub modules attached to it, You could clone it in order to contribute. Project Architecture Here is the main project architeture The integration (project main logic code) will store at /Assets/Scripts The funique modules (including core module) will store at /Assets/FuniquePlugin/[Module Name] Large resources, media files (ignore elements) will store at /Assets/FuniqueAssets After Clone After user clone the project, the remain problem is loading the submodule files. User can open command prompt at root of the unity project directory And type in: git submodule update --init --remote --recursive --init Trying to initialize the submodule directory --remote Update to the latest commit to the select branch --recursive Read .submodule file and Iterate over each submodule element Delete Submodule When submodule is no need, and require to remove it You could run this command to it git rm -r --cached [submodule folder] Change Submodule Select Branch When you trying to upgrade version You could run this command to it git submodule set-branch --branch [branch label] [submodule folder] git submodule update [submodule folder] Dependencies Each funique unity module should have official readme file that specified that what kinds of modules it require to works. It will specified the module name with hyperlink and version requirement."
+  },
+  "dev/Style.html": {
+    "href": "dev/Style.html",
+    "title": "Style Guideline | Funique Documentation",
+    "keywords": "Style Guideline Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier. Small Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. Branch Naming The branch naming should follow below v1.0.1 -> The alpha, debuging v1.1 -> The merge version of 1.1 We should use tag to mark the beta version of the branch Tag Naming The Tag naming should follow below v1.0-release -> 1.0 latest debugged version v1.1-release -> 1.1 latest debugged version C# Project Comment The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable More Style /// <summary> /// Extensions: Unclassified <br /> /// ------------------------------------------------ <br /> /// 擴充: 未分類 /// </summary> public static class UtilityExtensions{ } Repository README"
   },
   "index.html": {
     "href": "index.html",
@@ -1587,37 +1592,62 @@
   "stream/ffmpeg/overview.html": {
     "href": "stream/ffmpeg/overview.html",
     "title": "FFmpeg Overview | Funique Documentation",
-    "keywords": "FFmpeg Overview"
+    "keywords": "FFmpeg Overview The official website"
   },
   "stream/Intro.html": {
     "href": "stream/Intro.html",
     "title": "Funique Documentation For Streaming | Funique Documentation",
-    "keywords": "Funique Documentation For Streaming"
+    "keywords": "Funique Documentation For Streaming In this section you will see how do we map layout of video stream pipeline under our framework. Stream System design part Funique Tool FFmpeg A open source commandline tool for encode, decode, transcode Funique Tool Nginx A open source high-performance HTTP server application Funique Tool"
   },
   "stream/nginx.html": {
     "href": "stream/nginx.html",
     "title": "Nginx Guide | Funique Documentation",
     "keywords": "Nginx Guide Custom RTMP streaming web server, This nginx server should have feature below Received RTMP Video Format Sending RTMP Video Format Support HLS Convert Suport DASH Convert ID Name Docuemnt 1. RTMP Server Quick Start"
   },
+  "stream/nginx/monitor.html": {
+    "href": "stream/nginx/monitor.html",
+    "title": "Monitor Current RTMP Nginx Server State | Funique Documentation",
+    "keywords": "Monitor Current RTMP Nginx Server State Enter URL in the browser, then you can see your server state http://[IP Address]:80/rtmp_stat You will need to refresh the website in order to get update information."
+  },
   "stream/nginx/overview.html": {
     "href": "stream/nginx/overview.html",
     "title": "Nginx Overview | Funique Documentation",
-    "keywords": "Nginx Overview"
+    "keywords": "Nginx Overview A custom RTMP nginx solution for video stream backend, This application also provide docker image for simple setup."
+  },
+  "stream/nginx/push.html": {
+    "href": "stream/nginx/push.html",
+    "title": "Push Video Stream | Funique Documentation",
+    "keywords": "Push Video Stream Image Website Most of URL use are in the readme file Use OBS as example In the setting panel -> Stream Server -> Server Address Stream Key -> The last part of URL For the above example the URL will become like this rtmp://192.168.61.190:1935/push/pushHD Then you can found the URL utility in the image website url prefix will determine the feature you want to use push -> no transcode, store rtmp video stream only live -> all format, auto transcode live_t -> ts format, auto transcode live_m -> m4s format, auto transcode live_d -> dash format, auto transcode Then the outcome will be like http://192.168.61.190:80/hls/pushHD.m3u8 http://192.168.61.190:80/mp4/pushHD.m3u8 http://192.168.61.190:80/dash/pushHD.m3u8 If you want to manually transcode, use push prefix and use ffmpeg transcode youself You should produce files in your link RTMP folder, so you can call it like below http://192.168.61.190:80/res/custom_stream.m3u8"
+  },
+  "stream/nginx/setup.html": {
+    "href": "stream/nginx/setup.html",
+    "title": "Setup Server | Funique Documentation",
+    "keywords": "Setup Server Image Website This application built at Ubuntu 18.04 LTS, If you're using windows machine, you could setup WSL 2 for docker Enable windows WSL Open powershell and enter dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart Docker Environment Setup After above step is finished, you could start install docker now Install Docker After finished installation, it might tell you to restart. after restart type below command to powershell for selecting WSL versin. wsl --set-default-version 2 Then congratulations, you finishing install docker !! Install RTMP Nginx Server Open Terminal and make sure docker desktop application is on Ender command below docker pull e87870823/rtmp:v1.5 Setup Environment Variable For Image Basically, it looks like this Warning You should enter a exist folder for container path !!"
   },
   "stream/pipeline.html": {
     "href": "stream/pipeline.html",
     "title": "Pipeline Guide | Funique Documentation",
-    "keywords": "Pipeline Guide This document is not about a tool or application. It is about how we provide our clients the video and audio signal. You will get every single logic part together. And have deep understand how the streaming service works."
+    "keywords": "Pipeline Guide This document is not about a tool or application. It is about how we provide our clients video stream. You will get every single part together. And have deep understand how the streaming service works."
   },
   "stream/pipeline/client.html": {
     "href": "stream/pipeline/client.html",
     "title": "Client Application | Funique Documentation",
-    "keywords": "Client Application"
+    "keywords": "Client Application Client is typically means the end user, it's often a program or web browser or video player. These type of client usually have different capability when facing different video stream. Some Example web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web. Some video player does not support H265 or Live stream update, Or m3u8 metadata support. Multi-channel audio cannot transcode into HLS format. Above three points are some example we need to consider when we design a pipeline. Video Player Support Format Avpro Support Format VLC Support Format HLS.js These are the limitation for the video players, So we usually use PotPlayer 64bit to test if our video stream could be play successfully."
+  },
+  "stream/pipeline/network.html": {
+    "href": "stream/pipeline/network.html",
+    "title": "Network | Funique Documentation",
+    "keywords": "Network The network setup for video stream. This is a complicate issue when scale is large. Warning TODO: Update funique current network implementation"
   },
   "stream/pipeline/source.html": {
     "href": "stream/pipeline/source.html",
     "title": "Video Source | Funique Documentation",
-    "keywords": "Video Source"
+    "keywords": "Video Source The video source is typically means encoder, This could means SDI video signal or OBS stream. The different between both signal above is capability and size. The video stream will follow the video data format, this usually means the layout of the data, in order to make other end successfully decode. For this document, We will use OBS as example."
+  },
+  "stream/pipeline/transcode.html": {
+    "href": "stream/pipeline/transcode.html",
+    "title": "Transcode | Funique Documentation",
+    "keywords": "Transcode A process of decoding, reformatting and re-encoding video stream We often use FFmpeg for HLS, RTMP, SRT, files transcoding. OBS for SDI, video transcoding. The guide for transcoding command detail, please go here [!NOTICE] This document only provide ffmpeg transcode guide for now"
   },
   "unity/Client/Cinema/QuickStart.html": {
     "href": "unity/Client/Cinema/QuickStart.html",

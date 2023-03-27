@@ -93,6 +93,23 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="client-application">Client Application</h1>
 
+<p>Client is typically means the end user, it's often a program or web browser or video player.</p>
+<p>These type of client usually have different capability when facing different video stream.</p>
+<h2 id="some-example">Some Example</h2>
+<ol>
+<li><p>web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web.</p>
+</li>
+<li><p>Some video player does not support H265 or Live stream update, Or m3u8 metadata support.</p>
+</li>
+<li><p>Multi-channel audio cannot transcode into HLS format.</p>
+</li>
+</ol>
+<p>Above three points are some example we need to consider when we design a pipeline.</p>
+<h2 id="video-player-support-format">Video Player Support Format</h2>
+<p><a href="https://www.renderheads.com/content/docs/AVProVideo/articles/supportedmedia.html">Avpro Support Format</a></p>
+<p><a href="https://wiki.videolan.org/VLC_Features_Formats/">VLC Support Format</a></p>
+<p><a href="https://github.com/video-dev/hls.js/">HLS.js</a></p>
+<p>These are the limitation for the video players, So we usually use <a href="https://potplayer.daum.net/">PotPlayer 64bit</a> to test if our video stream could be play successfully.</p>
 </article>
               
                 </div>

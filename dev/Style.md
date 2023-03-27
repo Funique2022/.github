@@ -1,4 +1,4 @@
-# For Developer 
+# Style Guideline 
 
 Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier.
 

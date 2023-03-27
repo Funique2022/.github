@@ -2,7 +2,9 @@
   href: intro.md
 - name: Setup Project
   href: Setup.md
-- name: Developer
-  href: Developer.md
+- name: Style
+  href: Style.md
+- name: Maintainer
+  href: Maintainer.md
 - name: Contribute
   href: Contribute.md

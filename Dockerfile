@@ -1,5 +1,5 @@
 FROM node:18.12.1
-EXPOSE 80
+EXPOSE 8080
 
 ## Node tool install
 RUN npm install -g typescript

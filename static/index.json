@@ -97,7 +97,7 @@
   "stream/ffmpeg/overview.html": {
     "href": "stream/ffmpeg/overview.html",
     "title": "FFmpeg 指南 | Funique Documentation",
-    "keywords": "FFmpeg 指南 官方網站 常用指令 聲音 刪除聲音 ffmpeg -i \"input.mp4\" -c:v copy -an \"output.mp4” 擷取聲音 ffmpeg -i input.mp4 -vn -acodec copy -preset ultrafast output.aac/m4a/wma 置換聲音 ffmpeg -i video.mp4 -i audio.wav -map 0:v -map 1:a -c:v copy -shortest output.mp4 增加聲音軌道 ffmpeg -i file.mp4 -i audio.wav -codec copy output.mp4 刪除影片 ffmpeg -i \"input.mp4\" -c:affmpeg -i file.mp4 -i audio.wav -codec copy output.mp4 copy -vn \"output.mp3” ffmpeg -ss 19:44 -i $(youtube-dl -f 22 -g URL) -acodec copy -vcodec copy -t 5 Fubuki-Yabe.mp4 ss HH:MM:SS : 起始時間 to HH:MM:SS : 結束時間 t HH:MM:SS : 長度 剪取 結合 擷取 轉檔 Https 把這串加入指令其中 -allowed_extensions ALL -user_agent \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36”"
+    "keywords": "FFmpeg 指南 官方網站 指令自動生成器 常用指令 聲音 刪除聲音 ffmpeg -i \"input.mp4\" -c:v copy -an \"output.mp4” 擷取聲音 ffmpeg -i input.mp4 -vn -acodec copy -preset ultrafast output.aac/m4a/wma 置換聲音 ffmpeg -i video.mp4 -i audio.wav -map 0:v -map 1:a -c:v copy -shortest output.mp4 增加聲音軌道 ffmpeg -i file.mp4 -i audio.wav -codec copy output.mp4 刪除影片 ffmpeg -i \"input.mp4\" -c:affmpeg -i file.mp4 -i audio.wav -codec copy output.mp4 copy -vn \"output.mp3” ffmpeg -ss 19:44 -i $(youtube-dl -f 22 -g URL) -acodec copy -vcodec copy -t 5 Fubuki-Yabe.mp4 ss HH:MM:SS : 起始時間 to HH:MM:SS : 結束時間 t HH:MM:SS : 長度 剪取 結合 擷取 轉檔 Https 把這串加入指令其中 -allowed_extensions ALL -user_agent \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36”"
   },
   "stream/Intro.html": {
     "href": "stream/Intro.html",
@@ -162,7 +162,7 @@
   "unity/Client/Cinema/QuickStart.html": {
     "href": "unity/Client/Cinema/QuickStart.html",
     "title": "劇院快速開始 | Funique Documentation",
-    "keywords": "劇院快速開始 快速介紹配置用途, 以及繼承後能改寫什麼 配置 Media Control -> 指向 Funique 主播放器元件 如果你尋主播放器元件下去會找到詳細的 UI 控制 Audio Source -> AvPro 聲音輸出 FLive -> 運算著色器 For 自定義 Stereo VideoBtn -> 介面按鈕實體 Default_Media Player -> 預設 AvPro 播放器 Default_Stereo Mode -> 預設 Stereo mode 如果偵測失敗的時候 Options -> AvPro 媒體播放器列表 Subtitle_Headon -> PC 螢幕字幕 Subtitle_Fixed -> 場景 3D 字幕 Sphere Obj -> 套用影片材質的渲染元件 Stuck Obj -> 過度使用的模型 (過時) Apply To Mesh -> 套用影片材質元件 Six DOF Scale -> 自由角尺寸 Sphere Scale -> 圓尺寸常數 Options Name -> 只是命名 Meta -> 額外資訊 Support_Swap -> 支援滑順 (很吃效能) Target -> AvPro 媒體播放器元件實體 Stereo Config -> VR 影片的格式, 對照材質, 元件, 管線配置 Stereo Config Mode -> 模式 Target 目標配置 Stereo Config Target Apply Mesh Type -> 使用 3D 模型 Media Filter -> 貼圖的 Filter 模式 Wrap Mode -> 貼圖的 Wrap 模式 Hint Packing -> AvPro 播放器配置 Apply To Mesh Packing -> AvPro 元件配置 (正常跟播放器配置會一樣) Apply Sphere Scale -> 套用預設尺寸 Apply FLive Compute Shader -> 使用運算著色器 (建議只在 PC 版本開) Apply Grid -> 套用材質球的 Grid 演算法 High Quality -> 套用 AvPro 內建材質球的高品質設定 (過時) Apply Default Rotation -> 套用預設旋轉 Custom Sphere Scale -> 自定義尺寸 Custom Sphere Rotation -> 自定義旋轉 Is 4 Dof -> 攝影機自由移動 Is Live -> 是否是 Live 在高自定義的場景中, 則是能延伸基礎配置 詳細查看 HD 結尾的場景 多半都是過去用 Enum 的部分ㄝ, 在 HD 的場景下會以字串 ID Map 進行配置處理 繼承元件 // Writing your own manager public class CinemaClient : CinemaManagerClientUtility { } 在 Main 場景元件中, 你能修改或新增屬性 public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerClientData data; // Our manager instance CinemaClient cinema; void Start(){ // Create cinema server manager process cinema = new CinemaClient(); cinema.RegisterConfig(data); } void Update(){ cinema.FrameUpdate(); } } 覆蓋 Main public class Main_Second : Main { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] MyData mydata; MyComp _MyComp; public IMyComp CompManager => _MyComp; // You can override the default init manager behaviour protected override void InitManager(){ if (_MyComp != null) _MyComp.RegisterConfig(mydata); base.InitManager(); }"
+    "keywords": "劇院快速開始 快速介紹配置用途, 以及繼承後能改寫什麼 配置 Media Control -> 指向 Funique 主播放器元件 如果你尋主播放器元件下去會找到詳細的 UI 控制 Audio Source -> AvPro 聲音輸出 FLive -> 運算著色器 For 自定義 Stereo VideoBtn -> 介面按鈕實體 Default_Media Player -> 預設 AvPro 播放器 Default_Stereo Mode -> 預設 Stereo mode 如果偵測失敗的時候 Options -> AvPro 媒體播放器列表 Stereo Config -> VR 影片的格式, 對照材質, 元件, 管線配置 Subtitle_Headon -> PC 螢幕字幕 Subtitle_Fixed -> 場景 3D 字幕 Sphere Obj -> 套用影片材質的渲染元件 Stuck Obj -> 過度使用的模型 (過時) Apply To Mesh -> 套用影片材質元件 Six DOF Scale -> 自由角尺寸 Sphere Scale -> 圓尺寸常數 Options Name -> 只是命名 Meta -> 額外資訊 Support_Swap -> 支援滑順 (很吃效能) Target -> AvPro 媒體播放器元件實體 Stereo Config Mode -> 模式 Target 目標配置 Stereo Config Target Apply Mesh Type -> 使用 3D 模型 Media Filter -> 貼圖的 Filter 模式 Wrap Mode -> 貼圖的 Wrap 模式 Hint Packing -> AvPro 播放器配置 Apply To Mesh Packing -> AvPro 元件配置 (正常跟播放器配置會一樣) Apply Sphere Scale -> 套用預設尺寸 Apply FLive Compute Shader -> 使用運算著色器 (建議只在 PC 版本開) Apply Grid -> 套用材質球的 Grid 演算法 High Quality -> 套用 AvPro 內建材質球的高品質設定 (過時) Apply Default Rotation -> 套用預設旋轉 Custom Sphere Scale -> 自定義尺寸 Custom Sphere Rotation -> 自定義旋轉 Is 4 Dof -> 攝影機自由移動 Is Live -> 是否是 Live 在高自定義的場景中, 則是能延伸基礎配置 詳細查看 HD 結尾的場景 多半都是過去用 Enum 的部分ㄝ, 在 HD 的場景下會以字串 ID Map 進行配置處理 繼承元件 // Writing your own manager public class CinemaClient : CinemaManagerClientUtility { } 在 Main 場景元件中, 你能修改或新增屬性 public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerClientData data; // Our manager instance CinemaClient cinema; void Start(){ // Create cinema server manager process cinema = new CinemaClient(); cinema.RegisterConfig(data); } void Update(){ cinema.FrameUpdate(); } } 覆蓋 Main public class Main_Second : Main { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] MyData mydata; MyComp _MyComp; public IMyComp CompManager => _MyComp; // You can override the default init manager behaviour protected override void InitManager(){ if (_MyComp != null) _MyComp.RegisterConfig(mydata); base.InitManager(); }"
   },
   "unity/Client/CinemaGuide.html": {
     "href": "unity/Client/CinemaGuide.html",
@@ -172,37 +172,22 @@
   "unity/Client/Client/QuickStart.html": {
     "href": "unity/Client/Client/QuickStart.html",
     "title": "遊戲客戶端快速開始 | Funique Documentation",
-    "keywords": "遊戲客戶端快速開始 The problem of this modules is that it contains multiple manager base XR Manager Utility Android Manager Utility"
+    "keywords": "遊戲客戶端快速開始 配置 XR Lock Head Set Reset -> 關閉軟重置 Video Sphere -> 影片渲染目標 Headset -> 頭盔目標 Eye Texture -> 更改 OpenXR 眼鏡解析度 Len -> 眼睛中心距離 Android Left Hand -> 左手控制器 Right Hand -> 右手控制器 Left Hand Line Rneder -> 左手射線 Right Hand Line Rneder -> 右手射線"
   },
   "unity/Client/ClientGuide.html": {
     "href": "unity/Client/ClientGuide.html",
     "title": "遊戲客戶端指南 | Funique Documentation",
     "keywords": "遊戲客戶端指南 Features"
   },
-  "unity/Client/Dissonance/QuickStart.html": {
-    "href": "unity/Client/Dissonance/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "unity/Client/DissonanceGuide.html": {
-    "href": "unity/Client/DissonanceGuide.html",
-    "title": "Dissonance Client Guide | Funique Documentation",
-    "keywords": "Dissonance Client Guide Features"
-  },
-  "unity/Client/Media/QuickStart.html": {
-    "href": "unity/Client/Media/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "unity/Client/MediaGuide.html": {
-    "href": "unity/Client/MediaGuide.html",
-    "title": "Media Client Guide | Funique Documentation",
-    "keywords": "Media Client Guide Features"
+  "unity/Client/Manager.html": {
+    "href": "unity/Client/Manager.html",
+    "title": "管理員配置 | Funique Documentation",
+    "keywords": "管理員配置 合併所有場景需求管理 We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself. API Reference"
   },
   "unity/Client/Monitor/QuickStart.html": {
     "href": "unity/Client/Monitor/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "監控快速開始 | Funique Documentation",
+    "keywords": "監控快速開始 用於顯示目前播放器狀態的幫助元件 產品輸出時不會包含此元件 配置"
   },
   "unity/Client/MonitorGuide.html": {
     "href": "unity/Client/MonitorGuide.html",
@@ -212,7 +197,7 @@
   "unity/Client/Network/QuickStart.html": {
     "href": "unity/Client/Network/QuickStart.html",
     "title": "網路快速開始 | Funique Documentation",
-    "keywords": "網路快速開始"
+    "keywords": "網路快速開始 配置 Use Master Network -> 初始化 UDP 網路管理員 Use Key -> 認證, 不打勾為無條件接受連線 Key Name -> 鑰匙字串"
   },
   "unity/Client/NetworkGuide.html": {
     "href": "unity/Client/NetworkGuide.html",
@@ -231,18 +216,18 @@
   },
   "unity/Client/UI/QuickStart.html": {
     "href": "unity/Client/UI/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "客戶端介面 快速開始 | Funique Documentation",
+    "keywords": "客戶端介面 快速開始 配置 Register Component -> UI 元件集 UI_Method -> 判斷 UI 模式 MasterUI -> Funique 媒體播放器場景元件實體 Patterns -> 介面顯示配置 Right Menu Setting -> 右鍵選單 (PC)"
   },
   "unity/Client/UIGuide.html": {
     "href": "unity/Client/UIGuide.html",
-    "title": "UI Client Guide | Funique Documentation",
-    "keywords": "UI Client Guide Features"
+    "title": "客戶端介面 | Funique Documentation",
+    "keywords": "客戶端介面 Features"
   },
   "unity/Client/Verify/QuickStart.html": {
     "href": "unity/Client/Verify/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "認證快速開始 | Funique Documentation",
+    "keywords": "認證快速開始 配置 Skip Login -> 直接跳過登入 (測試) Xml -> 開啟偵測 XML 功能 File Detection Only -> 只會偵測 XML 檔案 Auto Login -> 自動登入 Auto Play -> 自動播放 Remember -> 記住登入資訊至作業系統機碼 (Windows) Account -> 預設帳號 Password -> 預設密碼 Play Delay -> 播放延遲 Directus -> 新型 CRM 位址 Address -> 舊式 CRM 位址 User -> 舊式 CRM 帳號 UserLimit -> 用戶上限 Countdown -> 登入倒數 MainUI -> CRM UI 視窗"
   },
   "unity/Client/VerifyGuide.html": {
     "href": "unity/Client/VerifyGuide.html",
@@ -251,8 +236,8 @@
   },
   "unity/Client/Video/QuickStart.html": {
     "href": "unity/Client/Video/QuickStart.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "影片檔案快速開始 | Funique Documentation",
+    "keywords": "影片檔案快速開始 配置 Use_Root 使用根目錄 (會忽略 Path) Interal -> 這個配置只有對 Android 輸出有用 Path -> 相對路徑 Video, TBE, SRT 外部路徑為 Movies Images 外部路徑為 DCIM"
   },
   "unity/Client/VideoGuide.html": {
     "href": "unity/Client/VideoGuide.html",
@@ -266,38 +251,33 @@
   },
   "unity/Core/CoroutineHelper.html": {
     "href": "unity/Core/CoroutineHelper.html",
-    "title": "Coroutine Helper | Funique Documentation",
-    "keywords": "Coroutine Helper Help thoes class which need access unity monobehaviour coroutine feature. Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member. class SampleA { void Use(){ Coroutine coroutine = CoroutineHelper.Instance.Run(Go); } IEnumerator Go(){ yield return new WaitForEndOfFrame(); } } For API detail, check here API Reference"
+    "title": "協程幫助 | Funique Documentation",
+    "keywords": "協程幫助 幫助那些需要用到 MonoBehaviour 協程的類別與函式 使用方法如下 class SampleA { void Use(){ Coroutine coroutine = CoroutineHelper.Instance.Run(Go); } IEnumerator Go(){ yield return new WaitForEndOfFrame(); } }"
   },
   "unity/Core/Counter.html": {
     "href": "unity/Core/Counter.html",
-    "title": "Counter | Funique Documentation",
-    "keywords": "Counter Core library provide a simple timer Counter counter = new Counter(5f, true); 5f means that the length of the time we want to set as target true will tell the counter auto reset and start the next cycle Put this line of code in update function, simply activate the timer private void Update(){ counter.Update(Time.deltaTime); } For API detail, check here API Reference"
+    "title": "計數器 | Funique Documentation",
+    "keywords": "計數器 新增實體 Counter counter = new Counter(5f, true); 5f 代表時間長度 後面的布林值代表自動重置並進入下一個迴圈 放入這一段至更新函式 private void Update(){ counter.Update(Time.deltaTime); } 你也可以委派事件 private void Start(){ counter.OnTimeUp += CallMe; } private void CallMe(){ Debug.Log(\"Timer Is Up !!\"); }"
   },
   "unity/Core/EnumCycle.html": {
     "href": "unity/Core/EnumCycle.html",
-    "title": "Enum Cycle | Funique Documentation",
-    "keywords": "Enum Cycle It will loop base on the index it got, This does not support unorder enum. Here we define a simple enum enum SomeEnum{ None, First, Second, Thrid } Then we create a cycle by the enum type EnumCycle<SomeEnum> sample = new EnumCycle<SomeEnum>(); int current = 0; After that we can use it for cycle void Start(){ for(int i = 0; i < 10; i++){ current = sample.Next(current); Debug.Log(current); } // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 } For API detail, check here API Reference"
+    "title": "列舉迴圈 | Funique Documentation",
+    "keywords": "列舉迴圈 會試著迴圈一般列舉, 不支援不規格 Index 列舉 簡單的範例 enum SomeEnum{ None, First, Second, Thrid } 建立一個迴圈實體 EnumCycle<SomeEnum> sample = new EnumCycle<SomeEnum>(); int current = 0; void Start(){ for(int i = 0; i < 10; i++){ current = sample.Next(current); Debug.Log(current); } // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 // output: 2 // output: 3 // output: 0 // output: 1 }"
   },
   "unity/Core/Extensions.html": {
     "href": "unity/Core/Extensions.html",
-    "title": "Extension | Funique Documentation",
-    "keywords": "Extension Extension provide application with more coding flexibility API Reference"
+    "title": "延伸 | Funique Documentation",
+    "keywords": "延伸 延伸可以提供程式的彈性"
   },
   "unity/Core/Logger.html": {
     "href": "unity/Core/Logger.html",
-    "title": "Funique Logger | Funique Documentation",
-    "keywords": "Funique Logger Register logger system void Start(){ FuniqueLogger.Init(); FuniqueLogger.Log(\"This will log\", \"Main\"); } You can select the log mode void Start(){ // This will only use build unity log, not output the message to file FuniqueLogger.Init(LoggerApply.Unity); FuniqueLogger.Log(\"This will log\", \"Main\"); } Use logger system for the usage, check detail here API Reference"
-  },
-  "unity/Core/Manager.html": {
-    "href": "unity/Core/Manager.html",
-    "title": "Manager Setup Guide | Funique Documentation",
-    "keywords": "Manager Setup Guide We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself. API Reference"
+    "title": "Funique 紀錄 | Funique Documentation",
+    "keywords": "Funique 紀錄 主要用在 Android 上會很方便, 因為 Android 主要都是用 ADB 產生 Log 在 Console 上 執行完也不會留下任何紀錄, 這種方式的話. 會在 persistentdatapath 上留下 log.txt 的文字檔案 註冊紀錄系統 void Start(){ FuniqueLogger.Init(); FuniqueLogger.Log(\"This will log\", \"Main\"); } 可以選擇紀錄的方法論 void Start(){ // This will only use build unity log, not output the message to file FuniqueLogger.Init(LoggerApply.Unity); FuniqueLogger.Log(\"This will log\", \"Main\"); } 使用紀錄系統 void Start(){ FuniqueLogger.Init(); FuniqueLogger.Log(\"Log\", \"My Manager\"); FuniqueLogger.WarningLog(\"Warning\", \"My Manager\"); FuniqueLogger.ErrorLog(\"Warning\", \"My Manager\"); }"
   },
   "unity/Core/ThirdParty.html": {
     "href": "unity/Core/ThirdParty.html",
-    "title": "Third Party Application | Funique Documentation",
-    "keywords": "Third Party Application There are times when we want to open the third-party application and access application pointer by C# script, In order to achieve that, we provide a simple base class for this kind of purposes. First, inherit our custom third-party application handler public class Demo : ThirdPartyApplication { // This will effect debug label protected override string => \"WorkerName\"; public Demo() : base() { MainProcess.StartInfo.FileName = \"cmd.exe\"; MainProcess.StartInfo.WorkingDirectory = \"C:/work_directory\"; // For access standard IO MainProcess.StartInfo.RedirectStandardError = true; MainProcess.StartInfo.RedirectStandardInput = true; MainProcess.StartInfo.RedirectStandardOutput = true; MainProcess.StartInfo.CreateNoWindow = true; MainProcess.StartInfo.UseShellExecute = false; } } Then we can just use it as template for the application we want to target public class component : MonoBehaviour{ Demo demo; void Start(){ // Prepare the process start info demo = new Demo(); // Actually start the process demo.Run(); } void OnDestroy(){ // Do not forget the release the resource after we leave // Otherwise this will causing buggy beheviour demo.Dispose(); } } API Reference"
+    "title": "第三方應用程式 | Funique Documentation",
+    "keywords": "第三方應用程式 有時候程式需要存取第三方應用程式, 透過一個代理類別來管理應用程式避免錯誤. 首先, 我們先繼承代理人物件 public class Demo : ThirdPartyApplication { // 在 Debug 上看到的標籤 protected override string => \"WorkerName\"; public Demo() : base() { MainProcess.StartInfo.FileName = \"cmd.exe\"; MainProcess.StartInfo.WorkingDirectory = \"C:/work_directory\"; // For access standard IO MainProcess.StartInfo.RedirectStandardError = true; MainProcess.StartInfo.RedirectStandardInput = true; MainProcess.StartInfo.RedirectStandardOutput = true; MainProcess.StartInfo.CreateNoWindow = true; MainProcess.StartInfo.UseShellExecute = false; } } 然後我們就可以在主要類別上生成此 代理物件 藉此來控制應用程式 public class component : MonoBehaviour{ Demo demo; void Start(){ // Prepare the process start info demo = new Demo(); // Actually start the process demo.Run(); } void OnDestroy(){ // Do not forget the release the resource after we leave // Otherwise this will causing buggy beheviour demo.Dispose(); } }"
   },
   "unity/CoreGuide.html": {
     "href": "unity/CoreGuide.html",

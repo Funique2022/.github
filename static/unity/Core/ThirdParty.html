@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Third Party Application | Funique Documentation </title>
+    <title>&#31532;&#19977;&#26041;&#25033;&#29992;&#31243;&#24335; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Third Party Application | Funique Documentation ">
+    <meta name="title" content="&#31532;&#19977;&#26041;&#25033;&#29992;&#31243;&#24335; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,13 +91,12 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="third-party-application">Third Party Application</h1>
+<h1 id="第三方應用程式">第三方應用程式</h1>
 
-<p>There are times when we want to open the third-party application and access application pointer by C# script,
-In order to achieve that, we provide a simple base class for this kind of purposes.</p>
-<p>First, inherit our custom third-party application handler</p>
+<p>有時候程式需要存取第三方應用程式, 透過一個代理類別來管理應用程式避免錯誤.</p>
+<p>首先, 我們先繼承代理人物件</p>
 <pre><code class="lang-csharp">public class Demo : ThirdPartyApplication {
-    // This will effect debug label
+    // 在 Debug 上看到的標籤
     protected override string =&gt; &quot;WorkerName&quot;;
 
     public Demo() : base()
@@ -113,7 +112,8 @@ In order to achieve that, we provide a simple base class for this kind of purpos
     }
 }
 </code></pre>
-<p>Then we can just use it as template for the application we want to target</p>
+<p>然後我們就可以在主要類別上生成此 代理物件<br>
+藉此來控制應用程式</p>
 <pre><code class="lang-csharp">public class component : MonoBehaviour{
 
     Demo demo;
@@ -132,7 +132,6 @@ In order to achieve that, we provide a simple base class for this kind of purpos
     }
 }
 </code></pre>
-<p><a href="../../api/Funique.ThirdPartyApplication.html">API Reference</a></p>
 </article>
               
                 </div>

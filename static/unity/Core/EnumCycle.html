@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum Cycle | Funique Documentation </title>
+    <title>&#21015;&#33289;&#36852;&#22280; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum Cycle | Funique Documentation ">
+    <meta name="title" content="&#21015;&#33289;&#36852;&#22280; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,10 +91,10 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="enum-cycle">Enum Cycle</h1>
+<h1 id="列舉迴圈">列舉迴圈</h1>
 
-<p>It will loop base on the index it got, This does not support unorder enum.</p>
-<p>Here we define a simple enum</p>
+<p>會試著迴圈一般列舉, 不支援不規格 Index 列舉</p>
+<p>簡單的範例</p>
 <pre><code class="lang-csharp">enum SomeEnum{
     None,
     First,
@@ -102,11 +102,10 @@
     Thrid
 }
 </code></pre>
-<p>Then we create a cycle by the enum type</p>
+<p>建立一個迴圈實體</p>
 <pre><code class="lang-csharp">EnumCycle&lt;SomeEnum&gt; sample = new EnumCycle&lt;SomeEnum&gt;();
 int current = 0;
 </code></pre>
-<p>After that we can use it for cycle</p>
 <pre><code class="lang-csharp">void Start(){
     for(int i = 0; i &lt; 10; i++){
         current = sample.Next(current);
@@ -124,8 +123,6 @@ int current = 0;
     // output: 1
 }
 </code></pre>
-<p>For API detail, check here</p>
-<p><a href="../../api/Funique.EnumCycle-1.html">API Reference</a></p>
 </article>
               
                 </div>

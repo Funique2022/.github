@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Funique Logger | Funique Documentation </title>
+    <title>Funique &#32000;&#37636; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Funique Logger | Funique Documentation ">
+    <meta name="title" content="Funique &#32000;&#37636; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,24 +91,31 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="funique-logger">Funique Logger</h1>
+<h1 id="funique-紀錄">Funique 紀錄</h1>
 
-<h2 id="register-logger-system">Register logger system</h2>
+<p>主要用在 Android 上會很方便, 因為 Android 主要都是用 ADB 產生 Log 在 Console 上<br>
+執行完也不會留下任何紀錄, 這種方式的話. 會在 persistentdatapath 上留下 log.txt 的文字檔案</p>
+<h2 id="註冊紀錄系統">註冊紀錄系統</h2>
 <pre><code class="lang-csharp">void Start(){
     FuniqueLogger.Init();
     FuniqueLogger.Log(&quot;This will log&quot;, &quot;Main&quot;);
 }
 </code></pre>
-<p>You can select the log mode</p>
+<p>可以選擇紀錄的方法論</p>
 <pre><code class="lang-csharp">void Start(){
     // This will only use build unity log, not output the message to file
     FuniqueLogger.Init(LoggerApply.Unity);
     FuniqueLogger.Log(&quot;This will log&quot;, &quot;Main&quot;);
 }
 </code></pre>
-<h2 id="use-logger-system">Use logger system</h2>
-<p>for the usage, check detail here</p>
-<p><a href="../../api/Funique.ILogger.html">API Reference</a></p>
+<h2 id="使用紀錄系統">使用紀錄系統</h2>
+<pre><code class="lang-csharp">void Start(){
+    FuniqueLogger.Init();
+    FuniqueLogger.Log(&quot;Log&quot;, &quot;My Manager&quot;);
+    FuniqueLogger.WarningLog(&quot;Warning&quot;, &quot;My Manager&quot;);
+    FuniqueLogger.ErrorLog(&quot;Warning&quot;, &quot;My Manager&quot;);
+}
+</code></pre>
 </article>
               
                 </div>

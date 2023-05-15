@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Counter | Funique Documentation </title>
+    <title>&#35336;&#25976;&#22120; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Counter | Funique Documentation ">
+    <meta name="title" content="&#35336;&#25976;&#22120; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,20 +91,27 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="counter">Counter</h1>
+<h1 id="計數器">計數器</h1>
 
-<p>Core library provide a simple timer</p>
+<p>新增實體</p>
 <pre><code class="lang-csharp">Counter counter = new Counter(5f, true);
 </code></pre>
-<p>5f means that the length of the time we want to set as target<br>
-true will tell the counter auto reset and start the next cycle</p>
-<p>Put this line of code in update function, simply activate the timer</p>
+<p>5f 代表時間長度<br>
+後面的布林值代表自動重置並進入下一個迴圈</p>
+<p>放入這一段至更新函式</p>
 <pre><code class="lang-csharp">private void Update(){
     counter.Update(Time.deltaTime);
 }
 </code></pre>
-<p>For API detail, check here</p>
-<p><a href="../../api/Funique.Counter.html">API Reference</a></p>
+<p>你也可以委派事件</p>
+<pre><code class="lang-csharp">private void Start(){
+    counter.OnTimeUp += CallMe;
+}
+
+private void CallMe(){
+    Debug.Log(&quot;Timer Is Up !!&quot;);
+}
+</code></pre>
 </article>
               
                 </div>

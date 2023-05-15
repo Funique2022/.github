@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Maintainer | Funique Documentation </title>
+    <title>&#32173;&#35703; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Maintainer | Funique Documentation ">
+    <meta name="title" content="&#32173;&#35703; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -91,68 +91,8 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="maintainer">Maintainer</h1>
+<h1 id="維護">維護</h1>
 
-<p>All the unity modules and integration package are using NPM to host it, We use unity package manager to get funique package.</p>
-<p>The code under Github organization repository is for alpha, beta development. After we finihs debugging and testing, Maintainer should push the latest version to NPM.</p>
-<p>The issue is, Unity package manager does not support NPM organization scope for search package, So if we want to add a new maintainer, we have to manually add to package one by one.</p>
-<p><a href="https://docs.unity3d.com/Manual/CustomPackages.html">More Package Manager Detail</a></p>
-<h2 id="install-nodejs">Install Node.js</h2>
-<p><a href="https://nodejs.org/en">Download</a></p>
-<p>Node.js will install the necessary tool for you to publish npm package</p>
-<h2 id="login-npm">Login NPM</h2>
-<p>Sign up an account in npm</p>
-<p><a href="https://www.npmjs.com/">NPM Website</a></p>
-<p>And enter command in the terminal</p>
-<pre><code class="lang-powershell">npm login
-</code></pre>
-<h2 id="writing-packagejson">Writing package.json</h2>
-<p>Here is a example package.json</p>
-<p>Create a file in the root of your root folder</p>
-<pre><code class="lang-json">{
-  &quot;name&quot;: &quot;tw.funique.demo&quot;,
-  &quot;displayName&quot;: &quot;Demo Module&quot;,
-  &quot;description&quot;: &quot;This is a great mode project&quot;,
-  &quot;version&quot;: &quot;1.0.0&quot;,
-  &quot;repository&quot;: &quot;&lt;Link to your github repository&gt;&quot;,
-  &quot;unity&quot;: &quot;2021.3&quot;,
-  &quot;documentationUrl&quot;: &quot;&lt;Link your documentation website&gt;&quot;,
-  &quot;license&quot;: &quot;MIT&quot;,
-  &quot;author&quot;: &quot;&lt;Enter your name&gt;&quot;,
-  &quot;keywords&quot;:[
-	&quot;demo&quot;,
-	&quot;funique&quot;,
-	&quot;xr&quot;,
-	&quot;vr&quot;
-  ],
-  &quot;dependencies&quot;: {
-	&quot;com.unity.xr.interaction.toolkit&quot;: &quot;2.2.0&quot;,
-    &quot;com.unity.xr.management&quot;: &quot;4.3.3&quot;,
-    &quot;tw.funique.core&quot;: &quot;1.0.3&quot;,
-	&quot;tw.funique.client&quot;: &quot;1.0.1&quot;
-  },
-  &quot;samples&quot;: [
-	{
-		&quot;displayName&quot;: &quot;Fashion Scene&quot;,
-		&quot;description&quot;: &quot;A scene with beautiful skybox and particle&quot;,
-		&quot;path&quot;: &quot;Samples/FashionWeek&quot;
-	},
-	{
-		&quot;displayName&quot;: &quot;Dark Scene&quot;,
-		&quot;description&quot;: &quot;A scene with nothing in it&quot;,
-		&quot;path&quot;: &quot;Samples/DarkScene&quot;
-	}
-  ]
-}
-</code></pre>
-<h2 id="publish">Publish</h2>
-<p>Open a ternimal in your root workspace folder</p>
-<p>Make sure you have already login npm</p>
-<p>Enter command in your ternimal</p>
-<pre><code class="lang-powershell">npm publish
-</code></pre>
-<p>If you see last line below, This mean you have successfully publish the package, you can go back unity package manager window to refresh</p>
-<p><img src="./../../.github/images/npm_publish.png" alt="publish"></p>
 </article>
               
                 </div>

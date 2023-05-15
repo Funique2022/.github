@@ -1,13 +1,13 @@
 {
   "ci/Intro.html": {
     "href": "ci/Intro.html",
-    "title": "Funique Documentation For Continuous Integration | Funique Documentation",
-    "keywords": "Funique Documentation For Continuous Integration Warning Oh well, We didn't have CI/DI yet. :3"
+    "title": "Funique 文件指南 For 持續性整合 | Funique Documentation",
+    "keywords": "Funique 文件指南 For 持續性整合 Warning 現在還沒有 CI/DI :3"
   },
   "dev/Backend.html": {
     "href": "dev/Backend.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "後端 | Funique Documentation",
+    "keywords": "後端 [!INFO] 雲端相關, 未來補充"
   },
   "dev/backend/Directus.html": {
     "href": "dev/backend/Directus.html",
@@ -31,28 +31,28 @@
   },
   "dev/Contribute.html": {
     "href": "dev/Contribute.html",
-    "title": "List of contributer | Funique Documentation",
-    "keywords": "List of contributer ZhuElly Mainly maintain the git Repositories, RTMP nginx server, Funique unity plugin."
+    "title": "貢獻者 | Funique Documentation",
+    "keywords": "貢獻者"
   },
   "dev/Intro.html": {
     "href": "dev/Intro.html",
-    "title": "Funique Documentation For Developer | Funique Documentation",
-    "keywords": "Funique Documentation For Developer For developer, the pipeline will complete different compare to user. Anyway, This documentation will guide you to setup the project."
+    "title": "Funique 文件指南 For 開發者 | Funique Documentation",
+    "keywords": "Funique 文件指南 For 開發者 對開發者的文件, 一些貢獻和開發相關的方法."
   },
   "dev/Maintainer.html": {
     "href": "dev/Maintainer.html",
-    "title": "Maintainer | Funique Documentation",
-    "keywords": "Maintainer All the unity modules and integration package are using NPM to host it, We use unity package manager to get funique package. The code under Github organization repository is for alpha, beta development. After we finihs debugging and testing, Maintainer should push the latest version to NPM. The issue is, Unity package manager does not support NPM organization scope for search package, So if we want to add a new maintainer, we have to manually add to package one by one. More Package Manager Detail Install Node.js Download Node.js will install the necessary tool for you to publish npm package Login NPM Sign up an account in npm NPM Website And enter command in the terminal npm login Writing package.json Here is a example package.json Create a file in the root of your root folder { \"name\": \"tw.funique.demo\", \"displayName\": \"Demo Module\", \"description\": \"This is a great mode project\", \"version\": \"1.0.0\", \"repository\": \"<Link to your github repository>\", \"unity\": \"2021.3\", \"documentationUrl\": \"<Link your documentation website>\", \"license\": \"MIT\", \"author\": \"<Enter your name>\", \"keywords\":[ \"demo\", \"funique\", \"xr\", \"vr\" ], \"dependencies\": { \"com.unity.xr.interaction.toolkit\": \"2.2.0\", \"com.unity.xr.management\": \"4.3.3\", \"tw.funique.core\": \"1.0.3\", \"tw.funique.client\": \"1.0.1\" }, \"samples\": [ { \"displayName\": \"Fashion Scene\", \"description\": \"A scene with beautiful skybox and particle\", \"path\": \"Samples/FashionWeek\" }, { \"displayName\": \"Dark Scene\", \"description\": \"A scene with nothing in it\", \"path\": \"Samples/DarkScene\" } ] } Publish Open a ternimal in your root workspace folder Make sure you have already login npm Enter command in your ternimal npm publish If you see last line below, This mean you have successfully publish the package, you can go back unity package manager window to refresh"
+    "title": "維護 | Funique Documentation",
+    "keywords": "維護"
   },
   "dev/Style.html": {
     "href": "dev/Style.html",
     "title": "風格指南 | Funique Documentation",
-    "keywords": "風格指南 Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier. 微小的 Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. 分支命名 The branch naming should follow below v1.0.1 -> The alpha, debuging v1.1 -> The merge version of 1.1 We should use tag to mark the beta version of the branch 標籤命名 The Tag naming should follow below v1.0-release -> 1.0 latest debugged version v1.1-release -> 1.1 latest debugged version C# 專案註釋 The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable More Style /// <summary> /// Extensions: Unclassified <br /> /// ------------------------------------------------ <br /> /// 擴充: 未分類 /// </summary> public static class UtilityExtensions{ } Repository README"
+    "keywords": "風格指南 請符合以下的風格, 使得未來檢視或是修改變得簡單許多 微小的 Commit 在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析 分支命名 分支名稱請符合下方命名方法 v1.0.1 -> Debug 分支 v1.0 -> 合併至 v1.0 主分支 標籤命名 標籤名稱請符合下方命名方法 v1.0-release -> 1.0 最新 debugged 版本 v1.1-release -> 1.1 最新 debugged 版本 C# 專案註釋 (Optional) 下方的程式碼註釋能使其他人在 Review 時快速掌握函式的用途 Visual Studio 注釋指南 /// <summary> /// Extensions: Unclassified <br /> /// ------------------------------------------------ <br /> /// 擴充: 未分類 /// </summary> public static class UtilityExtensions{ } Repository README"
   },
   "dev/tool/List.html": {
     "href": "dev/tool/List.html",
     "title": "開發好用工具列表 | Funique Documentation",
-    "keywords": "開發好用工具列表 VS Code 插件支援文字編輯器，微軟的開源文字編輯器，網頁開發十分方便 Visual Studio Code Github 介面化 簡單介面化 GIT 流程 Github Desktop FTP 工具 FTP 介面話檔案 IO 操作 Filezilla API 工具 用於網頁開發使用，可以送出 Http Request 並且介面話使用 在 Windows 上安裝指令 Powershell choco install httpie choco upgrade httpie Httpie"
+    "keywords": "開發好用工具列表 VS Code 插件支援文字編輯器，微軟的開源文字編輯器，網頁開發十分方便 Visual Studio Code Github 介面化 簡單介面化 GIT 流程 Github Desktop FTP 工具 FTP 介面話檔案 IO 操作 Filezilla API 工具 用於網頁開發使用，可以送出 Http Request 並且介面話使用 在 Windows 上安裝指令 Powershell choco install httpie choco upgrade httpie Httpie Node Nodejs 框架包含許多方便的工具 Nodejs // 安裝靜態伺服器 npm i -g http-server // 在目標資料夾 CMD 快速架設 http 靜態伺服器 http-server CURL 簡單的 http cli 工具 CURL Hoppscotch GUI Open API 工具, 支援各式各樣的格式 Hoppscotch Demo"
   },
   "index.html": {
     "href": "index.html",
@@ -117,7 +117,7 @@
   "stream/pipeline/client.html": {
     "href": "stream/pipeline/client.html",
     "title": "客戶端 應用程式 | Funique Documentation",
-    "keywords": "客戶端 應用程式 通常是指能夠播放串流或是影片網址的播放器 範例 web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web. Some video player does not support H265 or Live stream update, Or m3u8 metadata support. Multi-channel audio cannot transcode into HLS format. Above three points are some example we need to consider when we design a pipeline. 常用框架支援格式 Avpro Support Format VLC Support Format HLS.js These are the limitation for the video players, So we usually use PotPlayer 64bit to test if our video stream could be play successfully."
+    "keywords": "客戶端 應用程式 通常是指能夠播放串流或是影片網址的播放器 範例 瀏覽器無法直接播放 RTMP 影音串流, 必須轉碼成 HLS / DASH 的格式後播放 m3u8 連結. 部分播放器並不支援 H265 或是即時串流, 或是 m3u8 額外資料. 多聲音軌道無法被轉碼成 HLS 格式. 上方幾點是在設計管線時, 需要被列入考慮的部分. 常用框架支援格式 Avpro Support Format VLC Support Format HLS.js 支援度比較好的播放器: PotPlayer 64bit 用於測試播放方便許多"
   },
   "stream/pipeline/network.html": {
     "href": "stream/pipeline/network.html",
@@ -127,22 +127,22 @@
   "stream/pipeline/source.html": {
     "href": "stream/pipeline/source.html",
     "title": "影像來源 | Funique Documentation",
-    "keywords": "影像來源 影片來源通常會來自編碼端, 這可能是指串流伺服器 或是 OBS 串流. The different between both signal above is capability and size. The video stream will follow the video data format, this usually means the layout of the data, in order to make other end successfully decode. For this document, We will use OBS as example."
+    "keywords": "影像來源 影片來源通常會來自編碼端, 這可能是指串流伺服器 或是 OBS 串流. 影音串流會按照統一格式傳輸, 通常是指資料的保存 Layout, 使客戶端能夠辨識並且解碼. OBS 範例:"
   },
   "stream/pipeline/transcode.html": {
     "href": "stream/pipeline/transcode.html",
-    "title": "Transcode | Funique Documentation",
-    "keywords": "Transcode A process of decoding, reformatting and re-encoding video stream We often use FFmpeg for HLS, RTMP, SRT, files transcoding. OBS for SDI, video transcoding. The guide for transcoding command detail, please go here [!NOTICE] This document only provide ffmpeg transcode guide for now"
+    "title": "轉碼 | Funique Documentation",
+    "keywords": "轉碼 解碼並且把資料再編碼的動作 通常是使用 FFmpeg for HLS, RTMP, SRT, 檔案轉碼. 轉碼詳細, 請至: here [!NOTICE] This document only provide ffmpeg transcode guide for now"
   },
   "stream/tool.html": {
     "href": "stream/tool.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "工具集 | Funique Documentation",
+    "keywords": "工具集"
   },
   "unity/Client/Cinema/QuickStart.html": {
     "href": "unity/Client/Cinema/QuickStart.html",
-    "title": "Cinema Logic Qucik Start | Funique Documentation",
-    "keywords": "Cinema Logic Qucik Start Create a class inherit cinema server manager Configuration check cinema data section Media Control -> Targeting the media player ui controller If you follow the component you will see a much more detail UI controller component. We recommand you not touch this component, unless you know what you are doing. Audio Source -> AvPro audio output FLive Compute Shader for decoding (deprecated) VideoBtn -> Menu use element button (deprecated) Default_Media Player -> Assign this index of media player by default Default_Stereo Mode -> Assign this stereo when we have no idea what stereo the source is Options -> AvPro Media Player list Name -> Just for name, no effect for code Meta -> Hmmm, Support_Swap -> Support smooth transition, It must assign second media player Target -> AvPro media player instance Stereo Config -> The UV layout and material manipulate config Mode -> The use mode Writing Your Own Implementation // Writing your own manager public class CinemaClient : CinemaManagerClientUtility { } In the main component, you could modify the class or public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerClientData data; // Our manager instance CinemaClient cinema; void Start(){ // Create cinema server manager process cinema = new CinemaClient(); cinema.RegisterConfig(data); } void Update(){ cinema.FrameUpdate(); } } You could override a main public class Main_Second : Main { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerClientData data; CinemaClient _CinemaClient; public override ICinema CinemaManager => _CustomCinemaManager; // You can override the default init manager behaviour protected override void InitManager(){ _CinemaClient = new CinemaClient(); // Switch default cinema to ours _CinemaClient_.RegisterConfig(CinemaData); _XRManager.RegisterConfig(XRData); _UIManager.RegisterConfig(UIData); _VerifyManager.RegisterConfig(VerifyData); _FileManager.RegisterConfig(FileData); _AndroidManager.RegisterConfig(AndroidData); _VerifyManager.OnLogin.AddListener(() => { _NetworkManager.Initialization(); }); Main.Managers.ToList().ForEach(x => { if (x.GetType() != typeof(NetworkManager)) x.Initialization(); }); (NetworkManager as NetworkManager).Initialization(); } } For API detail, check here API Reference"
+    "title": "劇院快速開始 | Funique Documentation",
+    "keywords": "劇院快速開始 快速介紹配置用途, 以及繼承後能改寫什麼 配置 Media Control -> 指向 Funique 主播放器元件 如果你尋主播放器元件下去會找到詳細的 UI 控制 Audio Source -> AvPro 聲音輸出 FLive -> 運算著色器 For 自定義 Stereo VideoBtn -> 介面按鈕實體 Default_Media Player -> 預設 AvPro 播放器 Default_Stereo Mode -> 預設 Stereo mode 如果偵測失敗的時候 Options -> AvPro 媒體播放器列表 Name -> 只是命名 Meta -> 額外資訊 Support_Swap -> 支援滑順 (很吃效能) Target -> AvPro 媒體播放器元件實體 Stereo Config -> VR 影片的格式, 對照材質, 元件, 管線配置 Mode -> 模式 Target 目標配置 Apply Mesh Type -> 使用 3D 模型 Media Filter -> 貼圖的 Filter 模式 Wrap Mode -> 貼圖的 Wrap 模式 Hint Packing -> AvPro 播放器配置 Apply To Mesh Packing -> AvPro 元件配置 (正常跟播放器配置會一樣) Apply Sphere Scale -> 套用預設尺寸 Apply FLive Compute Shader -> 使用運算著色器 (建議只在 PC 版本開) Apply Grid -> 套用材質球的 Grid 演算法 High Quality -> 套用 AvPro 內建材質球的高品質設定 (過時) Apply Default Rotation -> 套用預設旋轉 Custom Sphere Scale -> 自定義尺寸 Custom Sphere Rotation -> 自定義旋轉 Is 4 Dof -> 攝影機自由移動 Is Live -> 是否是 Live Subtitle_Headon -> PC 螢幕字幕 Subtitle_Fixed -> 場景 3D 字幕 Sphere Obj -> 套用影片材質的渲染元件 Stuck Obj -> 過度使用的模型 (過時) Apply To Mesh -> 套用影片材質元件 Six DOF Scale -> 自由角尺寸 Sphere Scale -> 圓尺寸常數 在高自定義的場景中, 則是能延伸基礎配置 詳細查看 HD 結尾的場景 繼承元件 // Writing your own manager public class CinemaClient : CinemaManagerClientUtility { } 在 Main 場景元件中, 你能修改或新增屬性 public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerClientData data; // Our manager instance CinemaClient cinema; void Start(){ // Create cinema server manager process cinema = new CinemaClient(); cinema.RegisterConfig(data); } void Update(){ cinema.FrameUpdate(); } } 覆蓋 Main public class Main_Second : Main { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] MyData mydata; MyComp _MyComp; public IMyComp CompManager => _MyComp; // You can override the default init manager behaviour protected override void InitManager(){ if (_MyComp != null) _MyComp.RegisterConfig(mydata); base.InitManager(); }"
   },
   "unity/Client/CinemaGuide.html": {
     "href": "unity/Client/CinemaGuide.html",
@@ -151,8 +151,8 @@
   },
   "unity/Client/Client/QuickStart.html": {
     "href": "unity/Client/Client/QuickStart.html",
-    "title": "Client Logic Qucik Start | Funique Documentation",
-    "keywords": "Client Logic Qucik Start The problem of this modules is that it contains multiple manager base XR Manager Utility Android Manager Utility"
+    "title": "遊戲客戶端快速開始 | Funique Documentation",
+    "keywords": "遊戲客戶端快速開始 The problem of this modules is that it contains multiple manager base XR Manager Utility Android Manager Utility"
   },
   "unity/Client/ClientGuide.html": {
     "href": "unity/Client/ClientGuide.html",
@@ -242,7 +242,7 @@
   "unity/ClientGuide.html": {
     "href": "unity/ClientGuide.html",
     "title": "Funique 客戶端元件 | Funique Documentation",
-    "keywords": "Funique 客戶端元件 Here is a list of modules that contain client use logic This include received information from server, analysis network packages Media player logic or scene or character movement, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Client Quick Start 3. Dissonance Quick Start 4. Monitor Quick Start 5. Network Quick Start 6. Setting Quick Start 7. UI Quick Start 8. Verify Quick Start 9. Video Quick Start 10. AD Quick Start Back To Intro Basic Start Open any demo scene and find GameManager object in hierarchy And check main component This is the primary configuration component, You modify any value here it will effect the whole application work mode. Everything should be setup already, Unless you have reason or you know what you're doing, do not touch other gameobject."
+    "keywords": "Funique 客戶端元件 所有客戶端會使用到的模組 ID Name Docuemnt 1. Cinema 快速開始 2. Client 快速開始 3. Dissonance 快速開始 4. Monitor 快速開始 5. Network 快速開始 6. Setting 快速開始 7. UI 快速開始 8. Verify 快速開始 9. Video 快速開始 10. AD 快速開始 回到介紹 基本開始 開啟任何 Demo 場景並且在 Hierarchy 上尋找 GameManager (遊戲管理) 找 Main 元件 這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為 所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用"
   },
   "unity/Core/CoroutineHelper.html": {
     "href": "unity/Core/CoroutineHelper.html",
@@ -282,7 +282,7 @@
   "unity/CoreGuide.html": {
     "href": "unity/CoreGuide.html",
     "title": "Funique 核心 | Funique Documentation",
-    "keywords": "Funique 核心 The core library is most module rely on It contains the common knowledge of enum, structure, class, methods for server-side client-side. Recommand user install this library in your project before install anything else ID Name Docuemnt 1. Naughty Attributes Quick Start 2. Regex Builder Quick Start 2. Faster Gizmo Quick Start Back To Intro"
+    "keywords": "Funique 核心 核心庫是大部分的模組依賴的模組 包含了底層列舉, 結構, 類別, 演算法等等 建議在開發前或是使用前直接匯入這個模組 ID Name Docuemnt 1. Naughty Attributes 快速開始 2. Regex Builder 快速開始 2. Faster Gizmo 快速開始 回到介紹"
   },
   "unity/Installation.html": {
     "href": "unity/Installation.html",
@@ -297,7 +297,7 @@
   "unity/Server/Cinema/QuickStart.html": {
     "href": "unity/Server/Cinema/QuickStart.html",
     "title": "Cinema Server Logic Qucik Start | Funique Documentation",
-    "keywords": "Cinema Server Logic Qucik Start Create a class inherit cinema server manager public class CinemaServer : CinemaManagerServerUtility { } public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerServerData data; // Our manager instance CinemaServer cinema; void Start(){ // Create cinema server manager process cinema = new CinemaServer(); cinema.RegisterConfig(data); } } For API detail, check here API Reference"
+    "keywords": "Cinema Server Logic Qucik Start Create a class inherit cinema server manager public class CinemaServer : CinemaManagerServerUtility { } public class Main : MonoBehaviour { // Explose the config to editor level, provide desginer to tweek the value [SerializeField] CinemaManagerServerData data; // Our manager instance CinemaServer cinema; void Start(){ // Create cinema server manager process cinema = new CinemaServer(); cinema.RegisterConfig(data); } }"
   },
   "unity/Server/CinemaGuide.html": {
     "href": "unity/Server/CinemaGuide.html",
@@ -361,8 +361,8 @@
   },
   "unity/Server/UIGuide.html": {
     "href": "unity/Server/UIGuide.html",
-    "title": "UI Server Guide | Funique Documentation",
-    "keywords": "UI Server Guide Manage the user interface mechanism. Features [x] Toolbar manage [x] Panel manage [x] Cinema manage [x] Page manage [x] Right click menu manage [x] Dynamic register right click menu event"
+    "title": "伺服器介面指南 | Funique Documentation",
+    "keywords": "伺服器介面指南 Features [x] 工具列管理 [x] 面板管理 [x] 劇院群組管理 [x] 頁面管理 [x] 右鍵選單 [x] 動態右鍵選單註冊"
   },
   "unity/Server/Video/QuickStart.html": {
     "href": "unity/Server/Video/QuickStart.html",
@@ -377,7 +377,7 @@
   "unity/ServerGuide.html": {
     "href": "unity/ServerGuide.html",
     "title": "Funique 伺服器元件 | Funique Documentation",
-    "keywords": "Funique 伺服器元件 Here is a list of modules that contain server use logic This include sending information to clients, analysis clients network packages UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Media Quick Start 3. Network Quick Start 4. Player Quick Start 5. Setting Quick Start 6. Streaming Quick Start 7. UI Quick Start 8. Video Quick Start Back To Intro"
+    "keywords": "Funique 伺服器元件 所有伺服器會使用到的模組 ID Name Docuemnt 1. Cinema 快速開始 2. Media 快速開始 3. Network 快速開始 4. Player 快速開始 5. Setting 快速開始 6. Streaming 快速開始 7. UI 快速開始 8. Video 快速開始 回到介紹"
   },
   "unity/Setup.html": {
     "href": "unity/Setup.html",
@@ -391,8 +391,8 @@
   },
   "unity/Tool/DesignerGuide.html": {
     "href": "unity/Tool/DesignerGuide.html",
-    "title": "Designer Guide | Funique Documentation",
-    "keywords": "Designer Guide Designer plugin is a agnostic unity packages that provides different editor tools helps you quick setup scenes, logic, or improve the pipeline. Components"
+    "title": "設計指南 | Funique Documentation",
+    "keywords": "設計指南 設計指南主要是一堆 Editor 的工具 幫助重複性的行為, 像是 Bundle Package 的打包 Components"
   },
   "unity/ToolGuide.html": {
     "href": "unity/ToolGuide.html",

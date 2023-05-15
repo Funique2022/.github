@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Cinema Logic Qucik Start | Funique Documentation </title>
+    <title>&#21127;&#38498;&#24555;&#36895;&#38283;&#22987; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Cinema Logic Qucik Start | Funique Documentation ">
+    <meta name="title" content="&#21127;&#38498;&#24555;&#36895;&#38283;&#22987; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -91,44 +91,70 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="cinema-logic-qucik-start">Cinema Logic Qucik Start</h1>
+<h1 id="劇院快速開始">劇院快速開始</h1>
 
-<p>Create a class inherit cinema server manager</p>
-<h2 id="configuration">Configuration</h2>
-<p>check cinema data section</p>
+<p>快速介紹配置用途, 以及繼承後能改寫什麼</p>
+<h2 id="配置">配置</h2>
 <p><img src="../../../images/Cinema_Config.png" alt="Cinema_Config"></p>
 <ul>
-<li>Media Control -&gt; Targeting the media player ui controller</li>
+<li>Media Control -&gt; 指向 Funique 主播放器元件</li>
 </ul>
-<p>If you follow the component you will see a much more detail UI controller component. We recommand you not touch this component, unless you know what you are doing.</p>
+<p>如果你尋主播放器元件下去會找到詳細的 UI 控制</p>
 <p><img src="../../../images/MediaPlayerMaster.png" alt="Cinema_Config"></p>
 <ul>
-<li>Audio Source -&gt; AvPro audio output</li>
-<li>FLive Compute Shader for decoding (deprecated)</li>
-<li>VideoBtn -&gt; Menu use element button (deprecated)</li>
-<li>Default_Media Player -&gt; Assign this index of media player by default</li>
-<li>Default_Stereo Mode -&gt; Assign this stereo when we have no idea what stereo the source is</li>
-<li>Options -&gt; AvPro Media Player list
+<li>Audio Source -&gt; AvPro 聲音輸出</li>
+<li>FLive -&gt; 運算著色器 For 自定義 Stereo</li>
+<li>VideoBtn -&gt; 介面按鈕實體</li>
+<li>Default_Media Player -&gt; 預設 AvPro 播放器</li>
+<li>Default_Stereo Mode -&gt; 預設 Stereo mode 如果偵測失敗的時候</li>
+<li>Options -&gt; AvPro 媒體播放器列表
 <ul>
-<li>Name -&gt; Just for name, no effect for code</li>
-<li>Meta -&gt; Hmmm,</li>
-<li>Support_Swap -&gt; Support smooth transition, It must assign second media player</li>
-<li>Target -&gt; AvPro media player instance</li>
+<li>Name -&gt; 只是命名</li>
+<li>Meta -&gt; 額外資訊</li>
+<li>Support_Swap -&gt; 支援滑順 (很吃效能)</li>
+<li>Target -&gt; AvPro 媒體播放器元件實體</li>
 </ul>
 </li>
-<li>Stereo Config -&gt; The UV layout and material manipulate config
+<li>Stereo Config -&gt; VR 影片的格式, 對照材質, 元件, 管線配置
 <ul>
-<li>Mode -&gt; The use mode</li>
+<li>Mode -&gt; 模式</li>
+<li>Target 目標配置
+<ul>
+<li>Apply Mesh Type -&gt; 使用 3D 模型</li>
+<li>Media Filter -&gt; 貼圖的 Filter 模式</li>
+<li>Wrap Mode -&gt; 貼圖的 Wrap 模式</li>
+<li>Hint Packing -&gt; AvPro 播放器配置</li>
+<li>Apply To Mesh Packing -&gt; AvPro 元件配置 (正常跟播放器配置會一樣)</li>
+<li>Apply Sphere Scale -&gt; 套用預設尺寸</li>
+<li>Apply FLive Compute Shader -&gt; 使用運算著色器 (建議只在 PC 版本開)</li>
+<li>Apply Grid -&gt; 套用材質球的 Grid 演算法</li>
+<li>High Quality -&gt; 套用 AvPro 內建材質球的高品質設定 (過時)</li>
+<li>Apply Default Rotation -&gt; 套用預設旋轉</li>
+<li>Custom Sphere Scale -&gt; 自定義尺寸</li>
+<li>Custom Sphere Rotation -&gt; 自定義旋轉</li>
+<li>Is 4 Dof -&gt; 攝影機自由移動</li>
+<li>Is Live -&gt; 是否是 Live</li>
 </ul>
 </li>
 </ul>
-<h2 id="writing-your-own-implementation">Writing Your Own Implementation</h2>
+</li>
+<li>Subtitle_Headon -&gt; PC 螢幕字幕</li>
+<li>Subtitle_Fixed -&gt; 場景 3D 字幕</li>
+<li>Sphere Obj -&gt; 套用影片材質的渲染元件</li>
+<li>Stuck Obj -&gt; 過度使用的模型 (過時)</li>
+<li>Apply To Mesh -&gt; 套用影片材質元件</li>
+<li>Six DOF Scale -&gt; 自由角尺寸</li>
+<li>Sphere Scale -&gt; 圓尺寸常數</li>
+</ul>
+<p>在高自定義的場景中, 則是能延伸基礎配置<br>
+詳細查看 HD 結尾的場景</p>
+<h2 id="繼承元件">繼承元件</h2>
 <pre><code class="lang-csharp">// Writing your own manager
 public class CinemaClient : CinemaManagerClientUtility {
 
 }
 </code></pre>
-<p>In the main component, you could modify the class or</p>
+<p>在 Main 場景元件中, 你能修改或新增屬性</p>
 <pre><code class="lang-csharp">public class Main : MonoBehaviour {
     // Explose the config to editor level, provide desginer to tweek the value
     [SerializeField] CinemaManagerClientData data;
@@ -146,40 +172,20 @@ public class CinemaClient : CinemaManagerClientUtility {
     }
 }
 </code></pre>
-<p>You could override a main</p>
+<p>覆蓋 Main</p>
 <pre><code class="lang-csharp">public class Main_Second : Main {
     // Explose the config to editor level, provide desginer to tweek the value
-    [SerializeField] CinemaManagerClientData data;
+    [SerializeField] MyData mydata;
 
-    CinemaClient _CinemaClient;
-    public override ICinema CinemaManager =&gt; _CustomCinemaManager;
+    MyComp _MyComp;
+    public IMyComp CompManager =&gt; _MyComp;
 
     // You can override the default init manager behaviour
     protected override void InitManager(){
-      _CinemaClient = new CinemaClient(); // Switch default cinema to ours
-      _CinemaClient_.RegisterConfig(CinemaData);
-      _XRManager.RegisterConfig(XRData);
-      _UIManager.RegisterConfig(UIData);
-      _VerifyManager.RegisterConfig(VerifyData);
-      _FileManager.RegisterConfig(FileData);
-      _AndroidManager.RegisterConfig(AndroidData);
-
-      _VerifyManager.OnLogin.AddListener(() =&gt;
-      {
-          _NetworkManager.Initialization();
-      });
-
-      Main.Managers.ToList().ForEach(x =&gt;
-      {
-          if (x.GetType() != typeof(NetworkManager))
-              x.Initialization();
-      });
-      (NetworkManager as NetworkManager).Initialization();
-    }
+      if (_MyComp != null) _MyComp.RegisterConfig(mydata);
+      base.InitManager();
 }
 </code></pre>
-<p>For API detail, check here</p>
-<p><a href="../../../api/Funique.Cinema.ICinemaClientUtility.html">API Reference</a></p>
 </article>
               
                 </div>

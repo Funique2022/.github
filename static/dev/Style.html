@@ -93,25 +93,24 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="風格指南">風格指南</h1>
 
-<p>Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier.</p>
+<p>請符合以下的風格, 使得未來檢視或是修改變得簡單許多</p>
 <h2 id="微小的-commit">微小的 Commit</h2>
-<p>We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed.</p>
+<p>在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析</p>
 <h2 id="分支命名">分支命名</h2>
-<p>The branch naming should follow below</p>
+<p>分支名稱請符合下方命名方法</p>
 <ul>
-<li>v1.0.1 -&gt; The alpha, debuging</li>
-<li>v1.1 -&gt; The merge version of 1.1</li>
+<li>v1.0.1 -&gt; Debug 分支</li>
+<li>v1.0 -&gt; 合併至 v1.0 主分支</li>
 </ul>
-<p>We should use tag to mark the beta version of the branch</p>
 <h2 id="標籤命名">標籤命名</h2>
-<p>The Tag naming should follow below</p>
+<p>標籤名稱請符合下方命名方法</p>
 <ul>
-<li>v1.0-release -&gt; 1.0 latest debugged version</li>
-<li>v1.1-release -&gt; 1.1 latest debugged version</li>
+<li>v1.0-release -&gt; 1.0 最新 debugged 版本</li>
+<li>v1.1-release -&gt; 1.1 最新 debugged 版本</li>
 </ul>
-<h2 id="c-專案註釋">C# 專案註釋</h2>
-<p>The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable</p>
-<p><a href="https://learn.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments?view=vs-2022">More Style</a></p>
+<h2 id="c-專案註釋-optional">C# 專案註釋 (Optional)</h2>
+<p>下方的程式碼註釋能使其他人在 Review 時快速掌握函式的用途</p>
+<p><a href="https://learn.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments?view=vs-2022">Visual Studio 注釋指南</a></p>
 <pre><code class="lang-csharp">/// &lt;summary&gt;
 /// Extensions: Unclassified &lt;br /&gt;
 /// ------------------------------------------------ &lt;br /&gt;

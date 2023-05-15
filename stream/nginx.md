@@ -1,11 +1,12 @@
-# Nginx Guide
+# Nginx 指南
 
-Custom RTMP streaming web server, This nginx server should have feature below
+自定義的 Nginx 串流伺服器
 
-* Received RTMP Video Format
-* Sending RTMP Video Format
-* Support HLS Convert
-* Suport DASH Convert
+* 靜態伺服器
+* 接收 RTMP 信號
+* 轉送 RTMP 信號
+* 支援 HLS 轉碼
+* 支援 DASH 轉碼
 
 | ID  | Name                                                            | Docuemnt                           |
 | --- | --------------------------------------------------------------- | ---------------------------------- |

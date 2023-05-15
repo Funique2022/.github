@@ -1,12 +1,12 @@
-# Style Guideline 
+# 風格指南
 
 Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier.
 
-## Small Commit
+## 微小的 Commit
 
 We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed.
 
-## Branch Naming
+## 分支命名
 
 The branch naming should follow below
 
@@ -15,14 +15,14 @@ The branch naming should follow below
 
 We should use tag to mark the beta version of the branch
 
-## Tag Naming
+## 標籤命名
 
 The Tag naming should follow below
 
 * v1.0-release -> 1.0 latest debugged version
 * v1.1-release -> 1.1 latest debugged version
 
-## C# Project Comment
+## C# 專案註釋
 
 The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable
 

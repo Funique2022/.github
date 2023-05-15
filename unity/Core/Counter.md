@@ -1,15 +1,15 @@
-# Counter
+# 計數器
 
-Core library provide a simple timer
+新增實體
 
 ```csharp
 Counter counter = new Counter(5f, true);
 ```
 
-5f means that the length of the time we want to set as target\
-true will tell the counter auto reset and start the next cycle
+5f 代表時間長度\
+後面的布林值代表自動重置並進入下一個迴圈
 
-Put this line of code in update function, simply activate the timer
+放入這一段至更新函式
 
 ```csharp
 private void Update(){
@@ -17,6 +17,14 @@ private void Update(){
 }
 ```
 
-For API detail, check here
+你也可以委派事件
 
-[API Reference](../../api/Funique.Counter.html)
+```csharp
+private void Start(){
+    counter.OnTimeUp += CallMe;
+}
+
+private void CallMe(){
+    Debug.Log("Timer Is Up !!");
+}
+```

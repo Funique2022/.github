@@ -1,3 +1,0 @@
-# Dissonance Client Guide
-
-## Features

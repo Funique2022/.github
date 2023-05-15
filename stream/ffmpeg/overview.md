@@ -2,6 +2,7 @@
 
 [官方網站](https://ffmpeg.org/)
 
+[指令自動生成器](https://alfg.dev/ffmpeg-commander/?video.codec=x265&video.preset=veryfast&video.frame_rate=30&video.size=1920)
 ## 常用指令
 
 ### 聲音

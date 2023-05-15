@@ -1,13 +1,12 @@
-# Third Party Application
+# 第三方應用程式
 
-There are times when we want to open the third-party application and access application pointer by C# script,
-In order to achieve that, we provide a simple base class for this kind of purposes.
+有時候程式需要存取第三方應用程式, 透過一個代理類別來管理應用程式避免錯誤.
 
-First, inherit our custom third-party application handler
+首先, 我們先繼承代理人物件
 
 ```csharp
 public class Demo : ThirdPartyApplication {
-    // This will effect debug label
+    // 在 Debug 上看到的標籤
     protected override string => "WorkerName";
 
     public Demo() : base()
@@ -24,7 +23,8 @@ public class Demo : ThirdPartyApplication {
 }
 ```
 
-Then we can just use it as template for the application we want to target
+然後我們就可以在主要類別上生成此 代理物件\
+藉此來控制應用程式
 
 ```csharp
 public class component : MonoBehaviour{
@@ -46,4 +46,3 @@ public class component : MonoBehaviour{
 }
 ```
 
-[API Reference](../../api/Funique.ThirdPartyApplication.html)

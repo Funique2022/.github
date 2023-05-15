@@ -1,8 +1,8 @@
-# Enum Cycle
+# 列舉迴圈
 
-It will loop base on the index it got, This does not support unorder enum.
+會試著迴圈一般列舉, 不支援不規格 Index 列舉
 
-Here we define a simple enum 
+簡單的範例
 
 ```csharp
 enum SomeEnum{
@@ -13,14 +13,12 @@ enum SomeEnum{
 }
 ```
 
-Then we create a cycle by the enum type
+建立一個迴圈實體
 
 ```csharp
 EnumCycle<SomeEnum> sample = new EnumCycle<SomeEnum>();
 int current = 0;
 ```
-
-After that we can use it for cycle
 
 ```csharp
 void Start(){
@@ -40,7 +38,3 @@ void Start(){
     // output: 1
 }
 ```
-
-For API detail, check here
-
-[API Reference](../../api/Funique.EnumCycle-1.html)

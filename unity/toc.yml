@@ -7,8 +7,6 @@
 - name: 核心
   href: CoreGuide.md
   items:
-  - name: 管理員
-    href: Core/Manager.md
   - name: 紀錄
     href: Core/Logger.md
   - name: 列舉循環
@@ -34,6 +32,8 @@
 - name: 客戶端
   href: ClientGuide.md
   items:
+  - name: 管理員
+    href: Client/Manager.md
   - name: 劇院
     href: Client/CinemaGuide.md
     items:
@@ -44,16 +44,6 @@
     items:
     - name: 快速開始
       href: Client/Client/QuickStart.md
-  - name: 聲音
-    href: Client/DissonanceGuide.md
-    items:
-    - name: 快速開始
-      href: Client/Dissonance/QuickStart.md
-  - name: 媒體邏輯
-    href: Client/MediaGuide.md
-    items:
-    - name: 快速開始
-      href: Client/Media/QuickStart.md
   - name: 監控
     href: Client/MonitorGuide.md
     items:

@@ -1,9 +1,10 @@
-# Coroutine Helper
+# 協程幫助
 
-Help thoes class which need access unity monobehaviour coroutine feature.\
-Don't forget add CoroutineHelper to any gameobject in the scene, it will assign to static instance member.
+幫助那些需要用到 MonoBehaviour 協程的類別與函式
 
 ![Component](../../images/coroutine_helper.png)
+
+使用方法如下
 
 ```csharp
 class SampleA {
@@ -16,7 +17,3 @@ class SampleA {
     }
 }
 ```
-
-For API detail, check here
-
-[API Reference](../../api/Funique.CoroutineHelper.html)

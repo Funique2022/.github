@@ -18,6 +18,7 @@
 * Default_Media Player -> 預設 AvPro 播放器
 * Default_Stereo Mode -> 預設 Stereo mode 如果偵測失敗的時候
 * Options -> AvPro 媒體播放器列表
+* Stereo Config -> VR 影片的格式, 對照材質, 元件, 管線配置
 * Subtitle_Headon -> PC 螢幕字幕
 * Subtitle_Fixed -> 場景 3D 字幕
 * Sphere Obj -> 套用影片材質的渲染元件
@@ -34,8 +35,6 @@
 * Meta -> 額外資訊 
 * Support_Swap -> 支援滑順 (很吃效能)
 * Target -> AvPro 媒體播放器元件實體
-
-* Stereo Config -> VR 影片的格式, 對照材質, 元件, 管線配置
 
 ---
 

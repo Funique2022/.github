@@ -1,4 +1,6 @@
-# Manager Setup Guide
+# 管理員配置
+
+合併所有場景需求管理
 
 We're combine all the necessary manager in a scene to a single script to handle the data for it.
 

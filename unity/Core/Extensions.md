@@ -1,5 +1,3 @@
-# Extension
+# 延伸
 
-Extension provide application with more coding flexibility
-
-[API Reference](../../api/Funique.IToolUtility.html)
+延伸可以提供程式的彈性

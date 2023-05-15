@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Install The Package | Funique Documentation </title>
+    <title>&#23433;&#35037;&#21253; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Install The Package | Funique Documentation ">
+    <meta name="title" content="&#23433;&#35037;&#21253; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -91,31 +91,24 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="install-the-package">Install The Package</h1>
+<h1 id="安裝包">安裝包</h1>
 
-<h2 id="use-package-manager">Use Package Manager</h2>
-<p>Project Setting -&gt; Package Manager</p>
-<p><img src="../images/PM.png" alt="pm"></p>
-<p>Enter the funique package registery information</p>
-<p>Name: Funique<br>
-URL: https://registry.npmjs.org<br>
-Scope: tw.funique</p>
-<p>Then you should be enable to see the list in the package manager window</p>
-<p>Windows -&gt; Package Manager -&gt; My Registery</p>
-<p><img src="../images/PMList.png" alt="pm"></p>
-<h2 id="quick-setup-project">Quick Setup Project</h2>
-<div class="WARNING">
-<h5>Warning</h5>
-<p>You should already install the latest version of the package prevent debug happening.</p>
-</div>
-<p>Find the package name start with integration, It will pull all the package dependencies from modules</p>
-<p><img src="../images/PMListIntegration.png" alt="pm"></p>
-<p>But even if we pull the project require modules, There still something missing. Yes, the project primary scene.</p>
-<p>After pull the integration package you should be enable to see the simples scene like below screenshot.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>It is normal to restart the project during the installation, you might install the module that require restart.</p>
-</div>
+<h2 id="使用-git-專案">使用 Git 專案</h2>
+<p>在 <a href="https://github.com/Funique2022">Github 組織</a> 下尋找 project 開頭的 repository</p>
+<p><img src="../images/project_prefix.png" alt="pm"></p>
+<p>Clone 到你的資料夾, 以下為範例</p>
+<pre><code class="lang-powershell">git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0
+</code></pre>
+<p>branch 為現在要選取的版本號</p>
+<p>或是使用 <a href="https://desktop.github.com/">Github Desktop</a> 進行拉取動作</p>
+<p><img src="../images/desktop_clone.png" alt="Clone"></p>
+<p>在根目錄尋找批次檔案</p>
+<p><img src="../images/pull_repo.png" alt="Github Repo"></p>
+<ul>
+<li>load 下載所有子模組</li>
+<li>remove 刪除所有子模組</li>
+<li>update 更新所有子模組</li>
+</ul>
 </article>
               
                 </div>

@@ -4,6 +4,31 @@
     "title": "Funique Documentation For Continuous Integration | Funique Documentation",
     "keywords": "Funique Documentation For Continuous Integration Warning Oh well, We didn't have CI/DI yet. :3"
   },
+  "dev/Backend.html": {
+    "href": "dev/Backend.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "dev/backend/Directus.html": {
+    "href": "dev/backend/Directus.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "dev/backend/Docker.html": {
+    "href": "dev/backend/Docker.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "dev/backend/Gateway.html": {
+    "href": "dev/backend/Gateway.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "dev/backend/Portainer.html": {
+    "href": "dev/backend/Portainer.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
   "dev/Contribute.html": {
     "href": "dev/Contribute.html",
     "title": "List of contributer | Funique Documentation",
@@ -19,20 +44,20 @@
     "title": "Maintainer | Funique Documentation",
     "keywords": "Maintainer All the unity modules and integration package are using NPM to host it, We use unity package manager to get funique package. The code under Github organization repository is for alpha, beta development. After we finihs debugging and testing, Maintainer should push the latest version to NPM. The issue is, Unity package manager does not support NPM organization scope for search package, So if we want to add a new maintainer, we have to manually add to package one by one. More Package Manager Detail Install Node.js Download Node.js will install the necessary tool for you to publish npm package Login NPM Sign up an account in npm NPM Website And enter command in the terminal npm login Writing package.json Here is a example package.json Create a file in the root of your root folder { \"name\": \"tw.funique.demo\", \"displayName\": \"Demo Module\", \"description\": \"This is a great mode project\", \"version\": \"1.0.0\", \"repository\": \"<Link to your github repository>\", \"unity\": \"2021.3\", \"documentationUrl\": \"<Link your documentation website>\", \"license\": \"MIT\", \"author\": \"<Enter your name>\", \"keywords\":[ \"demo\", \"funique\", \"xr\", \"vr\" ], \"dependencies\": { \"com.unity.xr.interaction.toolkit\": \"2.2.0\", \"com.unity.xr.management\": \"4.3.3\", \"tw.funique.core\": \"1.0.3\", \"tw.funique.client\": \"1.0.1\" }, \"samples\": [ { \"displayName\": \"Fashion Scene\", \"description\": \"A scene with beautiful skybox and particle\", \"path\": \"Samples/FashionWeek\" }, { \"displayName\": \"Dark Scene\", \"description\": \"A scene with nothing in it\", \"path\": \"Samples/DarkScene\" } ] } Publish Open a ternimal in your root workspace folder Make sure you have already login npm Enter command in your ternimal npm publish If you see last line below, This mean you have successfully publish the package, you can go back unity package manager window to refresh"
   },
-  "dev/Setup.html": {
-    "href": "dev/Setup.html",
-    "title": "Setup | Funique Documentation",
-    "keywords": "Setup In this document, You will see how to setup a project Third-Party Tool Helper Git Github Desktop Funique Hub Dev Project Repository Each intergration project has its own repository with git sub modules attached to it, You could clone it in order to contribute. Find the repository with project tag prefix Project Architecture Here is the main project architeture The integration (project main logic code) will store at /Assets/Scripts The funique modules (including core module) will store at /Assets/FuniquePlugin/[Module Name] Large resources, media files (ignore elements) will store at /Assets/FuniqueAssets Use Github Desktop To Setup Project Use Terminal To Setup Project After Clone After user clone the project, the remain problem is loading the submodule files. User can open command prompt at root of the unity project directory And type in: git submodule update --init --remote --recursive --init Trying to initialize the submodule directory --remote Update to the latest commit to the select branch --recursive Read .submodule file and Iterate over each submodule element Delete Submodule When submodule is no need, and require to remove it You could run this command to it git rm -r --cached [submodule folder] Change Submodule Select Branch When you trying to upgrade version You could run this command to it git submodule set-branch --branch [branch label] [submodule folder] git submodule update [submodule folder] Dependencies Each funique unity module should have official readme file that specified that what kinds of modules it require to works. It will specified the module name with hyperlink and version requirement."
-  },
   "dev/Style.html": {
     "href": "dev/Style.html",
-    "title": "Style Guideline | Funique Documentation",
-    "keywords": "Style Guideline Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier. Small Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. Branch Naming The branch naming should follow below v1.0.1 -> The alpha, debuging v1.1 -> The merge version of 1.1 We should use tag to mark the beta version of the branch Tag Naming The Tag naming should follow below v1.0-release -> 1.0 latest debugged version v1.1-release -> 1.1 latest debugged version C# Project Comment The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable More Style /// <summary> /// Extensions: Unclassified <br /> /// ------------------------------------------------ <br /> /// 擴充: 未分類 /// </summary> public static class UtilityExtensions{ } Repository README"
+    "title": "風格指南 | Funique Documentation",
+    "keywords": "風格指南 Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier. 微小的 Commit We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed. 分支命名 The branch naming should follow below v1.0.1 -> The alpha, debuging v1.1 -> The merge version of 1.1 We should use tag to mark the beta version of the branch 標籤命名 The Tag naming should follow below v1.0-release -> 1.0 latest debugged version v1.1-release -> 1.1 latest debugged version C# 專案註釋 The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable More Style /// <summary> /// Extensions: Unclassified <br /> /// ------------------------------------------------ <br /> /// 擴充: 未分類 /// </summary> public static class UtilityExtensions{ } Repository README"
+  },
+  "dev/tool/List.html": {
+    "href": "dev/tool/List.html",
+    "title": "開發好用工具列表 | Funique Documentation",
+    "keywords": "開發好用工具列表 VS Code 插件支援文字編輯器，微軟的開源文字編輯器，網頁開發十分方便 Visual Studio Code Github 介面化 簡單介面化 GIT 流程 Github Desktop FTP 工具 FTP 介面話檔案 IO 操作 Filezilla API 工具 用於網頁開發使用，可以送出 Http Request 並且介面話使用 在 Windows 上安裝指令 Powershell choco install httpie choco upgrade httpie Httpie"
   },
   "index.html": {
     "href": "index.html",
     "title": "Funique Multimedia Framework | Funique Documentation",
-    "keywords": "Funique Multimedia Framework What is FMF ? A list of tools that helps you quick build a funique project. The article will guide you install the plugin to inherit the base and extend the manager features. Why use FMF ? When i first time see the code structure and the way we maintain the codes, i be honest, it is pretty messy, colleague usually copy code file and ignore the dependencies issue or version issue, and often time, the code itself does not provide unit test, so often time, it stuck at environemnt testing stage. To solve this problem, it's pretty commom to thinks that we should sort out the code, and improve the maintainability. FMF will seperate all the codes in to plugins, and each plugins has its own unit testing, the result and view on each repo pages, the support version etc... The dependencies will solve by this way, each plugins has very clear dependencies requirement, so we won't confuse when we trying to pull the login in the projects. Another benifit is that, it's better have a docsmentation here to do things. so people won't ever get lost when login needs to be change. Quick start Streaming Quick Start Unity Quick Start Developer Quick Start Continuous Integration Quick Start"
+    "keywords": "Funique Multimedia Framework Funique 多媒體框架 甚麼是 FMF ? 一列表的工具幫助你快速建置 Funique 專案 本 Wiki 會引導你架設專案、安裝插件、延伸應用 為什麼使用 FMF ? 第一次看到程式庫發現很雜亂，在工作的流程常常複製代碼來回，導致維護版本控制困難。時常代碼本身沒有單元測試，所以卡在結果環境測試階段 解決這個問題需要一個強大的框架，提升維護性。FMF 把組件都分開來做為插件管理。每個插件都有獨立的環境進行單元測試跟 Repo 頁面。 依賴性插件也能解決版本控制問題，每個插件都應該要有明確的依賴需求。 快速開始 串流快速開始 Unity快速開始 開發者快速開始 自動部屬快速開始"
   },
   "README.html": {
     "href": "README.html",
@@ -41,68 +66,78 @@
   },
   "stream/ffmpeg.html": {
     "href": "stream/ffmpeg.html",
-    "title": "FFmpeg Guide | Funique Documentation",
-    "keywords": "FFmpeg Guide FFmpeg is handling the video audio encoding and decoding processes Depend on the version, some have feature we do not have And currently require feature must use custom build one, So that's why we have this fork ID Name Docuemnt 1. Funique FFmpeg Quick Start 2. Official FFmpeg Quick Start We still use official ffmpeg alot, that's why i put the link above Feature Offical FFmpeg Custom Build FFmpeg H.264 Encoder ✔️ ✔️ Hevc Encoder ✔️ ✔️ H.264 RTMP ❌ ✔️ Hevc RTMP ❌ ✔️ HLS ✔️ ❌ As you can see the table above, this is pretty messy. In the future we will have to modify a version that can support all of them Or use alternative solution to prevent this maintaining issue."
+    "title": "FFmpeg 指南 | Funique Documentation",
+    "keywords": "FFmpeg 指南 FFmpeg 可以處裡影音的編碼, 解碼, 轉碼 根據使用的版本, 功能也會有所不同 ID Name Docuemnt 1. Funique FFmpeg Quick Start 2. Official FFmpeg Quick Start 主要還是以官方的 FFmpeg 為主, 除非有特殊的需求才會以自定義的 FFmpeg Feature Offical FFmpeg Custom Build FFmpeg H.264 Encoder ✔️ ✔️ Hevc Encoder ✔️ ✔️ H.264 RTMP ❌ ✔️ Hevc RTMP ❌ ✔️ HLS ✔️ ❌ 你可以看到 支援上很雜亂. 未來想一套全支援的方法論, 讓版本控制的管理成本降低 環境變數 把 FFmpeg 的資料夾加入至系統 Path 環境變數 使用者就可以在系統的任何一個地方使用此指令"
+  },
+  "stream/ffmpeg/indepth.html": {
+    "href": "stream/ffmpeg/indepth.html",
+    "title": "FFmpeg 深度分析 | Funique Documentation",
+    "keywords": "FFmpeg 深度分析"
   },
   "stream/ffmpeg/overview.html": {
     "href": "stream/ffmpeg/overview.html",
-    "title": "FFmpeg Overview | Funique Documentation",
-    "keywords": "FFmpeg Overview The official website"
+    "title": "FFmpeg 指南 | Funique Documentation",
+    "keywords": "FFmpeg 指南 官方網站 常用指令 聲音 刪除聲音 ffmpeg -i \"input.mp4\" -c:v copy -an \"output.mp4” 擷取聲音 ffmpeg -i input.mp4 -vn -acodec copy -preset ultrafast output.aac/m4a/wma 置換聲音 ffmpeg -i video.mp4 -i audio.wav -map 0:v -map 1:a -c:v copy -shortest output.mp4 增加聲音軌道 ffmpeg -i file.mp4 -i audio.wav -codec copy output.mp4 刪除影片 ffmpeg -i \"input.mp4\" -c:affmpeg -i file.mp4 -i audio.wav -codec copy output.mp4 copy -vn \"output.mp3” ffmpeg -ss 19:44 -i $(youtube-dl -f 22 -g URL) -acodec copy -vcodec copy -t 5 Fubuki-Yabe.mp4 ss HH:MM:SS : 起始時間 to HH:MM:SS : 結束時間 t HH:MM:SS : 長度 剪取 結合 擷取 轉檔 Https 把這串加入指令其中 -allowed_extensions ALL -user_agent \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36”"
   },
   "stream/Intro.html": {
     "href": "stream/Intro.html",
-    "title": "Funique Documentation For Streaming | Funique Documentation",
-    "keywords": "Funique Documentation For Streaming In this section you will see how do we map layout of video stream pipeline under our framework. Stream System design part Pipeline FFmpeg A open source commandline tool for encode, decode, transcode FFmpeg Tool Nginx A open source high-performance HTTP server application Nginx Tool"
+    "title": "Funique 文件指南 For 串流 | Funique Documentation",
+    "keywords": "Funique 文件指南 For 串流 這篇會看到串流相關主題的文件 Stream 系統設計部分 Pipeline FFmpeg 開源工具使用, 編碼, 解碼, 轉碼 FFmpeg Tool Nginx 串流伺服器的運用 Nginx Tool"
   },
   "stream/nginx.html": {
     "href": "stream/nginx.html",
-    "title": "Nginx Guide | Funique Documentation",
-    "keywords": "Nginx Guide Custom RTMP streaming web server, This nginx server should have feature below Received RTMP Video Format Sending RTMP Video Format Support HLS Convert Suport DASH Convert ID Name Docuemnt 1. RTMP Server Quick Start"
+    "title": "Nginx 指南 | Funique Documentation",
+    "keywords": "Nginx 指南 自定義的 Nginx 串流伺服器 靜態伺服器 接收 RTMP 信號 轉送 RTMP 信號 支援 HLS 轉碼 支援 DASH 轉碼 ID Name Docuemnt 1. RTMP Server Quick Start"
   },
   "stream/nginx/monitor.html": {
     "href": "stream/nginx/monitor.html",
-    "title": "Monitor Current RTMP Nginx Server State | Funique Documentation",
-    "keywords": "Monitor Current RTMP Nginx Server State Enter URL in the browser, then you can see your server state http://[IP Address]:80/rtmp_stat You will need to refresh the website in order to get update information."
+    "title": "RTMP Nginx 伺服器觀測 | Funique Documentation",
+    "keywords": "RTMP Nginx 伺服器觀測 輸入以下 Pattern 至瀏覽器中，得知你的串流狀態 http://[domain name]:80/rtmp_stat 你必須重新整理才會得到更新後的訊息"
   },
   "stream/nginx/overview.html": {
     "href": "stream/nginx/overview.html",
-    "title": "Nginx Overview | Funique Documentation",
-    "keywords": "Nginx Overview A custom RTMP nginx solution for video stream backend, This application also provide docker image for simple setup."
+    "title": "Nginx 大綱 | Funique Documentation",
+    "keywords": "Nginx 大綱 自定義的 RTMP nginx 串流伺服器，也有提供 Docker image 快速部屬 docker run -d --name rtmp -p 80:80 -p 1935:1935 -v /var/www/html/html/res://c/Users/myusername/Desktop/Test e87870823/rtmp:v1.5"
   },
   "stream/nginx/push.html": {
     "href": "stream/nginx/push.html",
-    "title": "Push Video Stream | Funique Documentation",
-    "keywords": "Push Video Stream Image Website Most of URL use are in the readme file Use OBS as example In the setting panel -> Stream Server -> Server Address Stream Key -> The last part of URL For the above example the URL will become like this rtmp://192.168.61.190:1935/push/pushHD Then you can found the URL utility in the image website url prefix will determine the feature you want to use push -> no transcode, store rtmp video stream only live -> all format, auto transcode live_t -> ts format, auto transcode live_m -> m4s format, auto transcode live_d -> dash format, auto transcode Then the outcome will be like http://192.168.61.190:80/hls/pushHD.m3u8 http://192.168.61.190:80/mp4/pushHD.m3u8 http://192.168.61.190:80/dash/pushHD.m3u8 If you want to manually transcode, use push prefix and use ffmpeg transcode youself You should produce files in your link RTMP folder, so you can call it like below http://192.168.61.190:80/res/custom_stream.m3u8"
+    "title": "推影片串流 | Funique Documentation",
+    "keywords": "推影片串流 映像檔案連結 URL 跟用途都在 Readme.md 中 使用 OBS 作為範例 在設定面板 (Setting) -> 串流 (Stream) 伺服器 -> 位址 串流鑰匙 -> URL 最後的部分 從上面的敘述，形成完整的 URL 會成為這樣 rtmp://192.168.61.190:1935/push/pushHD push -> 不轉碼, 只存流 live -> 轉所有格式 live_t -> 轉 ts 格式 live_m -> 轉 m4s 格式 live_d -> 轉 dash 格式 輸出的 URL 播放會為以下 http://192.168.61.190:80/hls/pushHD.m3u8 http://192.168.61.190:80/mp4/pushHD.m3u8 http://192.168.61.190:80/dash/pushHD.m3u8 如果你想要手動的轉碼，可以用 res 連結槽 http://192.168.61.190:80/res/custom_stream.m3u8"
   },
   "stream/nginx/setup.html": {
     "href": "stream/nginx/setup.html",
-    "title": "Setup Server | Funique Documentation",
-    "keywords": "Setup Server Image Website This application built at Ubuntu 18.04 LTS, If you're using windows machine, you could setup WSL 2 for docker Enable windows WSL Open powershell and enter dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart Docker Environment Setup After above step is finished, you could start install docker now Install Docker After finished installation, it might tell you to restart. after restart type below command to powershell for selecting WSL versin. wsl --set-default-version 2 Then congratulations, you finishing install docker !! Install RTMP Nginx Server Open Terminal and make sure docker desktop application is on Ender command below docker pull e87870823/rtmp:v1.5 Setup Environment Variable For Image Basically, it looks like this Warning You should enter a exist folder for container path !!"
+    "title": "架設串流伺服器 | Funique Documentation",
+    "keywords": "架設串流伺服器 映像檔案 映像檔使用 Ubuntu 18.04 LTS, 如果你使用 Windows 你可以使用 WSL2 Docker Windows 安裝 啟用 windows WSL Powershell 並且輸入 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart Docker 環境設定 在第一步驟完成後，你可以開始安裝 Docker 安裝 Docker 完成安裝後 切換版本至 WSL 2 wsl --set-default-version 2 恭喜，你有了 Docker 在 Windows 環境下 安裝串流伺服器服務 指令安裝 docker run -d --name rtmp -p 80:80 -p 1935:1935 -v /var/www/html/html/res://c/Users/myusername/Desktop/Test e87870823/rtmp:v1.5 GUI 安裝 先用指令拉取 Image 再生成 Container docker pull e87870823/rtmp:v1.5 Warning You should enter a exist folder for container path !! Ubuntu 安裝 sudo apt-get update sudo apt-get install ca-certificates curl gnupg sudo install -m 0755 -d /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg sudo chmod a+r /etc/apt/keyrings/docker.gpg echo \"deb [arch=\"$(dpkg --print-architecture)\" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \"$(. /etc/os-release && echo \"$VERSION_CODENAME\"\" stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
   },
   "stream/pipeline.html": {
     "href": "stream/pipeline.html",
-    "title": "Pipeline Guide | Funique Documentation",
-    "keywords": "Pipeline Guide This document is not about a tool or application. It is about how we provide our clients video stream. You will get every single part together. And have deep understand how the streaming service works."
+    "title": "流程指南 | Funique Documentation",
+    "keywords": "流程指南 This document is not about a tool or application. It is about how we provide our clients video stream. You will get every single part together. And have deep understand how the streaming service works. [!INFO] 某一天會補齊..."
   },
   "stream/pipeline/client.html": {
     "href": "stream/pipeline/client.html",
-    "title": "Client Application | Funique Documentation",
-    "keywords": "Client Application Client is typically means the end user, it's often a program or web browser or video player. These type of client usually have different capability when facing different video stream. Some Example web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web. Some video player does not support H265 or Live stream update, Or m3u8 metadata support. Multi-channel audio cannot transcode into HLS format. Above three points are some example we need to consider when we design a pipeline. Video Player Support Format Avpro Support Format VLC Support Format HLS.js These are the limitation for the video players, So we usually use PotPlayer 64bit to test if our video stream could be play successfully."
+    "title": "客戶端 應用程式 | Funique Documentation",
+    "keywords": "客戶端 應用程式 通常是指能夠播放串流或是影片網址的播放器 範例 web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web. Some video player does not support H265 or Live stream update, Or m3u8 metadata support. Multi-channel audio cannot transcode into HLS format. Above three points are some example we need to consider when we design a pipeline. 常用框架支援格式 Avpro Support Format VLC Support Format HLS.js These are the limitation for the video players, So we usually use PotPlayer 64bit to test if our video stream could be play successfully."
   },
   "stream/pipeline/network.html": {
     "href": "stream/pipeline/network.html",
-    "title": "Network | Funique Documentation",
-    "keywords": "Network The network setup for video stream. This is a complicate issue when scale is large. Warning TODO: Update funique current network implementation"
+    "title": "網路 | Funique Documentation",
+    "keywords": "網路 網路架構 for 串流伺服器 Warning TODO: Update funique current network implementation"
   },
   "stream/pipeline/source.html": {
     "href": "stream/pipeline/source.html",
-    "title": "Video Source | Funique Documentation",
-    "keywords": "Video Source The video source is typically means encoder, This could means SDI video signal or OBS stream. The different between both signal above is capability and size. The video stream will follow the video data format, this usually means the layout of the data, in order to make other end successfully decode. For this document, We will use OBS as example."
+    "title": "影像來源 | Funique Documentation",
+    "keywords": "影像來源 影片來源通常會來自編碼端, 這可能是指串流伺服器 或是 OBS 串流. The different between both signal above is capability and size. The video stream will follow the video data format, this usually means the layout of the data, in order to make other end successfully decode. For this document, We will use OBS as example."
   },
   "stream/pipeline/transcode.html": {
     "href": "stream/pipeline/transcode.html",
     "title": "Transcode | Funique Documentation",
     "keywords": "Transcode A process of decoding, reformatting and re-encoding video stream We often use FFmpeg for HLS, RTMP, SRT, files transcoding. OBS for SDI, video transcoding. The guide for transcoding command detail, please go here [!NOTICE] This document only provide ffmpeg transcode guide for now"
+  },
+  "stream/tool.html": {
+    "href": "stream/tool.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
   },
   "unity/Client/Cinema/QuickStart.html": {
     "href": "unity/Client/Cinema/QuickStart.html",
@@ -111,8 +146,8 @@
   },
   "unity/Client/CinemaGuide.html": {
     "href": "unity/Client/CinemaGuide.html",
-    "title": "Cinema Client Guide | Funique Documentation",
-    "keywords": "Cinema Client Guide Media player component, AVPro, Audio 360 Features [x] AvPro [x] Aduio360 [x] Media Control"
+    "title": "劇院客戶端指南 | Funique Documentation",
+    "keywords": "劇院客戶端指南 媒體播放器, AVPro, Audio 360 功能 [x] FLive [X] Stereo [ ] Cross-Domain [x] AvPro [x] Aduio360 [x] Media Control [x] Subtitles [ ] Custom Mesh"
   },
   "unity/Client/Client/QuickStart.html": {
     "href": "unity/Client/Client/QuickStart.html",
@@ -121,8 +156,8 @@
   },
   "unity/Client/ClientGuide.html": {
     "href": "unity/Client/ClientGuide.html",
-    "title": "Client Client Guide | Funique Documentation",
-    "keywords": "Client Client Guide Features"
+    "title": "遊戲客戶端指南 | Funique Documentation",
+    "keywords": "遊戲客戶端指南 Features"
   },
   "unity/Client/Dissonance/QuickStart.html": {
     "href": "unity/Client/Dissonance/QuickStart.html",
@@ -206,8 +241,8 @@
   },
   "unity/ClientGuide.html": {
     "href": "unity/ClientGuide.html",
-    "title": "Funique Client | Funique Documentation",
-    "keywords": "Funique Client Here is a list of modules that contain client use logic This include received information from server, analysis network packages Media player logic or scene or character movement, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Client Quick Start 3. Dissonance Quick Start 4. Monitor Quick Start 5. Network Quick Start 6. Setting Quick Start 7. UI Quick Start 8. Verify Quick Start 9. Video Quick Start 10. AD Quick Start Back To Intro Basic Start Open any demo scene and find GameManager object in hierarchy And check main component This is the primary configuration component, You modify any value here it will effect the whole application work mode. Everything should be setup already, Unless you have reason or you know what you're doing, do not touch other gameobject."
+    "title": "Funique 客戶端元件 | Funique Documentation",
+    "keywords": "Funique 客戶端元件 Here is a list of modules that contain client use logic This include received information from server, analysis network packages Media player logic or scene or character movement, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Client Quick Start 3. Dissonance Quick Start 4. Monitor Quick Start 5. Network Quick Start 6. Setting Quick Start 7. UI Quick Start 8. Verify Quick Start 9. Video Quick Start 10. AD Quick Start Back To Intro Basic Start Open any demo scene and find GameManager object in hierarchy And check main component This is the primary configuration component, You modify any value here it will effect the whole application work mode. Everything should be setup already, Unless you have reason or you know what you're doing, do not touch other gameobject."
   },
   "unity/Core/CoroutineHelper.html": {
     "href": "unity/Core/CoroutineHelper.html",
@@ -246,18 +281,18 @@
   },
   "unity/CoreGuide.html": {
     "href": "unity/CoreGuide.html",
-    "title": "Funique Core | Funique Documentation",
-    "keywords": "Funique Core The core library is most module rely on It contains the common knowledge of enum, structure, class, methods for server-side client-side. Recommand user install this library in your project before install anything else ID Name Docuemnt 1. Naughty Attributes Quick Start 2. Regex Builder Quick Start 2. Faster Gizmo Quick Start Back To Intro"
+    "title": "Funique 核心 | Funique Documentation",
+    "keywords": "Funique 核心 The core library is most module rely on It contains the common knowledge of enum, structure, class, methods for server-side client-side. Recommand user install this library in your project before install anything else ID Name Docuemnt 1. Naughty Attributes Quick Start 2. Regex Builder Quick Start 2. Faster Gizmo Quick Start Back To Intro"
   },
   "unity/Installation.html": {
     "href": "unity/Installation.html",
-    "title": "Install The Package | Funique Documentation",
-    "keywords": "Install The Package Use Package Manager Project Setting -> Package Manager Enter the funique package registery information Name: Funique URL: https://registry.npmjs.org Scope: tw.funique Then you should be enable to see the list in the package manager window Windows -> Package Manager -> My Registery Quick Setup Project Warning You should already install the latest version of the package prevent debug happening. Find the package name start with integration, It will pull all the package dependencies from modules But even if we pull the project require modules, There still something missing. Yes, the project primary scene. After pull the integration package you should be enable to see the simples scene like below screenshot. Note It is normal to restart the project during the installation, you might install the module that require restart."
+    "title": "安裝包 | Funique Documentation",
+    "keywords": "安裝包 使用 Git 專案 在 Github 組織 下尋找 project 開頭的 repository Clone 到你的資料夾, 以下為範例 git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0 branch 為現在要選取的版本號 或是使用 Github Desktop 進行拉取動作 在根目錄尋找批次檔案 load 下載所有子模組 remove 刪除所有子模組 update 更新所有子模組"
   },
   "unity/intro.html": {
     "href": "unity/intro.html",
-    "title": "Funique Documentation For User | Funique Documentation",
-    "keywords": "Funique Documentation For User In this documentation, you will see how to setup a unity project Inherit framework logic then Writing your own components And contribute help us improve our code quality If you spot a bug or something want to report to dev, you can use the github issue feature You can find it in any project page Post your issues there, we'll investigate them Architecture The funique project has several strict rule apply on each project Before you start build a project, we recommend you read this first Notice Some modules has neutral part of mechanism which could applies to server side or client side, in this scenario we put these part at client side document. Tool Quick Start Funique Tool Client Quick Start Funique Client Server Qucik Start Funique Server"
+    "title": "Funique 文件指南 For 使用者 | Funique Documentation",
+    "keywords": "Funique 文件指南 For 使用者 在這篇中, 你會看到如何架設 Unity 專案 繼承框架邏輯, 編寫自定義元件\\ 如果找到 bugs 可以找到指定的 repo 並且在 issue 回報問題 寫下你的問題, dev 會嘗試改善 架構 Funique 專案有幾個規則套用 在開始以前, 建議先閱讀 這篇 注意 有些模組是通用型的, 可以被套用在伺服器或客戶端. 工具快速開始 Funique Tool 客戶端快速開始 Funique Client 伺服器快速開始 Funique Server"
   },
   "unity/Server/Cinema/QuickStart.html": {
     "href": "unity/Server/Cinema/QuickStart.html",
@@ -341,8 +376,13 @@
   },
   "unity/ServerGuide.html": {
     "href": "unity/ServerGuide.html",
-    "title": "Funique Client | Funique Documentation",
-    "keywords": "Funique Client Here is a list of modules that contain server use logic This include sending information to clients, analysis clients network packages UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Media Quick Start 3. Network Quick Start 4. Player Quick Start 5. Setting Quick Start 6. Streaming Quick Start 7. UI Quick Start 8. Video Quick Start Back To Intro"
+    "title": "Funique 伺服器元件 | Funique Documentation",
+    "keywords": "Funique 伺服器元件 Here is a list of modules that contain server use logic This include sending information to clients, analysis clients network packages UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and even override its methods in order to make it works. ID Name Docuemnt 1. Cinema Quick Start 2. Media Quick Start 3. Network Quick Start 4. Player Quick Start 5. Setting Quick Start 6. Streaming Quick Start 7. UI Quick Start 8. Video Quick Start Back To Intro"
+  },
+  "unity/Setup.html": {
+    "href": "unity/Setup.html",
+    "title": "架設 | Funique Documentation",
+    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop 架構 這是主要的專案架構 統整(Itegration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 這樣可以確保 模組的載入行為批次檔案都會在根目錄 Warning 當專案的依賴性改變之時, 便要手動更改根目錄批次檔案, 否則下一個人將會下載錯誤的依賴模組. 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上"
   },
   "unity/Tool/Designer/QuickStart.html": {
     "href": "unity/Tool/Designer/QuickStart.html",
@@ -356,7 +396,7 @@
   },
   "unity/ToolGuide.html": {
     "href": "unity/ToolGuide.html",
-    "title": "Funique Tool | Funique Documentation",
-    "keywords": "Funique Tool Here is a list of modules that contain neutral use logic This include information analysis, editor tool, hub, etc... UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and use the tool ID Name Docuemnt 1. Designer Quick Start Back To Intro"
+    "title": "Unity 工具 | Funique Documentation",
+    "keywords": "Unity 工具 Here is a list of modules that contain neutral use logic This include information analysis, editor tool, hub, etc... UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and use the tool ID Name Docuemnt 1. Designer Quick Start Back To Intro"
   }
 }

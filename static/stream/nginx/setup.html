@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Setup Server | Funique Documentation </title>
+    <title>&#26550;&#35373;&#20018;&#27969;&#20282;&#26381;&#22120; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Setup Server | Funique Documentation ">
+    <meta name="title" content="&#26550;&#35373;&#20018;&#27969;&#20282;&#26381;&#22120; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,35 +91,46 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="setup-server">Setup Server</h1>
+<h1 id="架設串流伺服器">架設串流伺服器</h1>
 
-<p><a href="https://hub.docker.com/r/e87870823/rtmp">Image Website</a></p>
-<p>This application built at Ubuntu 18.04 LTS, If you're using windows machine, you could setup WSL 2 for docker</p>
-<h2 id="enable-windows-wsl">Enable windows WSL</h2>
-<p>Open powershell and enter</p>
+<p><a href="https://hub.docker.com/r/e87870823/rtmp">映像檔案</a></p>
+<p>映像檔使用 Ubuntu 18.04 LTS, 如果你使用 Windows 你可以使用 WSL2 Docker</p>
+<h1 id="windows-安裝">Windows 安裝</h1>
+<h2 id="啟用-windows-wsl">啟用 windows WSL</h2>
+<p>Powershell 並且輸入</p>
 <pre><code class="lang-powershell">dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 </code></pre>
-<pre><code class="lang-powershell">dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-</code></pre>
-<h2 id="docker-environment-setup">Docker Environment Setup</h2>
-<p>After above step is finished, you could start install docker now</p>
-<p><a href="https://www.docker.com/">Install Docker</a></p>
-<p>After finished installation, it might tell you to restart. after restart type below command to powershell for selecting WSL versin.</p>
+<h2 id="docker-環境設定">Docker 環境設定</h2>
+<p>在第一步驟完成後，你可以開始安裝 Docker</p>
+<p><a href="https://www.docker.com/">安裝 Docker</a></p>
+<p>完成安裝後 切換版本至 WSL 2</p>
 <pre><code class="lang-powershell">wsl --set-default-version 2
 </code></pre>
-<p>Then congratulations, you finishing install docker !!</p>
-<h2 id="install-rtmp-nginx-server">Install RTMP Nginx Server</h2>
-<p>Open Terminal and make sure docker desktop application is on</p>
-<p>Ender command below</p>
+<p>恭喜，你有了 Docker 在 Windows 環境下</p>
+<h2 id="安裝串流伺服器服務">安裝串流伺服器服務</h2>
+<h3 id="指令安裝">指令安裝</h3>
+<pre><code class="lang-powershell">docker run -d --name rtmp -p 80:80 -p 1935:1935 -v /var/www/html/html/res://c/Users/myusername/Desktop/Test e87870823/rtmp:v1.5
+</code></pre>
+<h3 id="gui-安裝">GUI 安裝</h3>
+<p>先用指令拉取 Image 再生成 Container</p>
 <pre><code class="lang-powershell">docker pull e87870823/rtmp:v1.5
 </code></pre>
-<h2 id="setup-environment-variable-for-image">Setup Environment Variable For Image</h2>
-<p>Basically, it looks like this</p>
 <p><img src="../../images/RTMP_Setup.png" alt="RTMP"></p>
 <div class="WARNING">
 <h5>Warning</h5>
 <p>You should enter a exist folder for container path !!</p>
 </div>
+<h1 id="ubuntu-安裝">Ubuntu 安裝</h1>
+<pre><code class="lang-shell">sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+echo &quot;deb [arch=&quot;$(dpkg --print-architecture)&quot; signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu &quot;$(. /etc/os-release &amp;&amp; echo &quot;$VERSION_CODENAME&quot;&quot; stable&quot; | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre>
 </article>
               
                 </div>

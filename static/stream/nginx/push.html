@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Push Video Stream | Funique Documentation </title>
+    <title>&#25512;&#24433;&#29255;&#20018;&#27969; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Push Video Stream | Funique Documentation ">
+    <meta name="title" content="&#25512;&#24433;&#29255;&#20018;&#27969; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,34 +91,31 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="push-video-stream">Push Video Stream</h1>
+<h1 id="推影片串流">推影片串流</h1>
 
-<p><a href="https://hub.docker.com/r/e87870823/rtmp">Image Website</a></p>
-<p>Most of URL use are in the readme file</p>
-<p>Use <a href="https://obsproject.com/">OBS</a> as example</p>
-<p>In the setting panel -&gt; Stream</p>
+<p><a href="https://hub.docker.com/r/e87870823/rtmp">映像檔案連結</a></p>
+<p>URL 跟用途都在 Readme.md 中</p>
+<p>使用 <a href="https://obsproject.com/">OBS</a> 作為範例</p>
+<p>在設定面板 (Setting) -&gt; 串流 (Stream)</p>
 <p><img src="../../images/OBS_Stream.png" alt="OBS_Stream"></p>
-<p>Server -&gt; Server Address
-Stream Key -&gt; The last part of URL</p>
-<p>For the above example the URL will become like this</p>
+<p>伺服器 -&gt; 位址<br>
+串流鑰匙 -&gt; URL 最後的部分</p>
+<p>從上面的敘述，形成完整的 URL 會成為這樣</p>
 <p>rtmp://192.168.61.190:1935/push/pushHD</p>
-<p>Then you can found the URL utility in the image website</p>
-<p>url prefix will determine the feature you want to use</p>
 <ul>
-<li>push -&gt; no transcode, store rtmp video stream only</li>
-<li>live -&gt; all format, auto transcode</li>
-<li>live_t -&gt; ts format, auto transcode</li>
-<li>live_m -&gt; m4s format, auto transcode</li>
-<li>live_d -&gt; dash format, auto transcode</li>
+<li>push -&gt; 不轉碼, 只存流</li>
+<li>live -&gt; 轉所有格式</li>
+<li>live_t -&gt; 轉 ts 格式</li>
+<li>live_m -&gt; 轉 m4s 格式</li>
+<li>live_d -&gt; 轉 dash 格式</li>
 </ul>
-<p>Then the outcome will be like</p>
+<p>輸出的 URL 播放會為以下</p>
 <ul>
 <li><a href="http://192.168.61.190:80/hls/pushHD.m3u8">http://192.168.61.190:80/hls/pushHD.m3u8</a></li>
 <li><a href="http://192.168.61.190:80/mp4/pushHD.m3u8">http://192.168.61.190:80/mp4/pushHD.m3u8</a></li>
 <li><a href="http://192.168.61.190:80/dash/pushHD.m3u8">http://192.168.61.190:80/dash/pushHD.m3u8</a></li>
 </ul>
-<p>If you want to manually transcode, use push prefix and use ffmpeg transcode youself</p>
-<p>You should produce files in your link RTMP folder, so you can call it like below</p>
+<p>如果你想要手動的轉碼，可以用 res 連結槽</p>
 <ul>
 <li><a href="http://192.168.61.190:80/res/custom_stream.m3u8">http://192.168.61.190:80/res/custom_stream.m3u8</a></li>
 </ul>

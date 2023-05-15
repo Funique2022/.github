@@ -39,13 +39,11 @@ docker run -d --name rtmp -p 80:80 -p 1935:1935 -v /var/www/html/html/res://c/Us
 
 ### GUI 安裝
 
+先用指令拉取 Image 再生成 Container
+
 ```powershell
 docker pull e87870823/rtmp:v1.5
 ```
-
-## Setup Environment Variable For Image
-
-Basically, it looks like this
 
 ![RTMP](./../../images/RTMP_Setup.png)
 

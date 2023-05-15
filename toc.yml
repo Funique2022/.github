@@ -4,6 +4,8 @@
   href: stream/
 - name: 開發文件
   href: dev/
+- name: 雲端管理
+  href: cloud/
 - name: 連續部屬
   href: ci/
 - name: GitHub

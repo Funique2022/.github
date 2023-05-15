@@ -1,12 +1,10 @@
-# Transcode
+# 轉碼
 
-A process of decoding, reformatting and re-encoding video stream
+解碼並且把資料再編碼的動作
 
-We often use [FFmpeg](https://ffmpeg.org/) for HLS, RTMP, SRT, files transcoding.
+通常是使用 [FFmpeg](https://ffmpeg.org/) for HLS, RTMP, SRT, 檔案轉碼.
 
-[OBS](https://obsproject.com/) for SDI, video transcoding.
-
-The guide for transcoding command detail, please go [here](./../ffmpeg/overview.md)
+轉碼詳細, 請至: [here](./../ffmpeg/overview.md)
 
 > [!NOTICE]
 > This document only provide ffmpeg transcode guide for now

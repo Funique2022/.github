@@ -1,5 +1,3 @@
-# Funique Documentation For Developer
+# Funique 文件指南 For 開發者
 
-For developer, the pipeline will complete different compare to user.
-
-Anyway, This documentation will guide you to setup the project.
+對開發者的文件, 一些貢獻和開發相關的方法.

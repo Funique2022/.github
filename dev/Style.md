@@ -1,32 +1,30 @@
 # 風格指南
 
-Whether you're trying to contribute the code or applies the custom modify version to your own project. Please follows the rules below, in order to make review easier.
+請符合以下的風格, 使得未來檢視或是修改變得簡單許多
 
 ## 微小的 Commit
 
-We recommend that make each commit as small as possible, it'll be easier review the code change this way. and descript what change, what feature do you add, what kind of bug did you fixed.
+在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析
 
 ## 分支命名
 
-The branch naming should follow below
+分支名稱請符合下方命名方法
 
-* v1.0.1 -> The alpha, debuging
-* v1.1 -> The merge version of 1.1
-
-We should use tag to mark the beta version of the branch
+* v1.0.1 -> Debug 分支
+* v1.0 -> 合併至 v1.0 主分支
 
 ## 標籤命名
 
-The Tag naming should follow below
+標籤名稱請符合下方命名方法
 
-* v1.0-release -> 1.0 latest debugged version
-* v1.1-release -> 1.1 latest debugged version
+* v1.0-release -> 1.0 最新 debugged 版本
+* v1.1-release -> 1.1 最新 debugged 版本
 
-## C# 專案註釋
+## C# 專案註釋 (Optional)
 
-The below example will make it much more clear what this class, function, struct is doing. And it also make visual studio tooltip much more readable
+下方的程式碼註釋能使其他人在 Review 時快速掌握函式的用途
 
-[More Style](https://learn.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments?view=vs-2022)
+[Visual Studio 注釋指南](https://learn.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments?view=vs-2022)
 
 ```csharp
 /// <summary>

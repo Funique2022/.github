@@ -1,5 +1,5 @@
-# Designer Guide
+# 設計指南
 
-Designer plugin is a agnostic unity packages that provides different editor tools helps you quick setup scenes, logic, or improve the pipeline.
+設計指南主要是一堆 Editor 的工具 幫助重複性的行為, 像是 Bundle Package 的打包
 
 ## Components

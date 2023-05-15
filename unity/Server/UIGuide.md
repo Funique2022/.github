@@ -1,11 +1,9 @@
-# UI Server Guide
-
-Manage the user interface mechanism.
+# 伺服器介面指南
 
 ## Features
-- [x] Toolbar manage
-- [x] Panel manage
-- [x] Cinema manage
-- [x] Page manage
-- [x] Right click menu manage
-- [x] Dynamic register right click menu event
+- [x] 工具列管理
+- [x] 面板管理
+- [x] 劇院群組管理
+- [x] 頁面管理
+- [x] 右鍵選單
+- [x] 動態右鍵選單註冊

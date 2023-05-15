@@ -1,4 +1,4 @@
-# Funique Documentation For Continuous Integration
+# Funique 文件指南 For 持續性整合
 
 > [!WARNING]
-> Oh well, We didn't have CI/DI yet. :3
+> 現在還沒有 CI/DI :3

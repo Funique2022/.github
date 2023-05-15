@@ -4,13 +4,13 @@
 
 ## 範例
 
-1. web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web.
+1. 瀏覽器無法直接播放 RTMP 影音串流, 必須轉碼成 HLS / DASH 的格式後播放 m3u8 連結.
 
-2. Some video player does not support H265 or Live stream update, Or m3u8 metadata support.
+2. 部分播放器並不支援 H265 或是即時串流, 或是 m3u8 額外資料.
 
-3. Multi-channel audio cannot transcode into HLS format.
+3. 多聲音軌道無法被轉碼成 HLS 格式.
 
-Above three points are some example we need to consider when we design a pipeline.
+上方幾點是在設計管線時, 需要被列入考慮的部分.
 
 ## 常用框架支援格式
 
@@ -20,4 +20,4 @@ Above three points are some example we need to consider when we design a pipelin
 
 [HLS.js](https://github.com/video-dev/hls.js/)
 
-These are the limitation for the video players, So we usually use [PotPlayer 64bit](https://potplayer.daum.net/) to test if our video stream could be play successfully.
+支援度比較好的播放器: [PotPlayer 64bit](https://potplayer.daum.net/) 用於測試播放方便許多

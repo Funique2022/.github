@@ -1,9 +1,9 @@
-# Monitor Current RTMP Nginx Server State
+# RTMP Nginx 伺服器觀測
 
-Enter URL in the browser, then you can see your server state
+輸入以下 Pattern 至瀏覽器中，得知你的串流狀態
 
-http://[IP Address]:80/rtmp_stat
+http://[domain name]:80/rtmp_stat
 
 ![RTMP_STATE](./../../images/rtmp_stat.png)
 
-You will need to refresh the website in order to get update information.
+你必須重新整理才會得到更新後的訊息

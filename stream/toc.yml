@@ -1,29 +1,33 @@
-- name: Introduction
+- name: 介紹
   href: intro.md
-- name: Stream Pipeline
+- name: 串流流程
   href: pipeline.md
   items:
-  - name: Source
+  - name: 來源
     href: pipeline/source.md
-  - name: Client
+  - name: 客戶端
     href: pipeline/client.md
-  - name: Transcode
+  - name: 再編碼
     href: pipeline/transcode.md
-  - name: Network
+  - name: 網路
     href: pipeline/network.md
-- name: Custom FFmpeg
+- name: ffmpeg 指南
   href: ffmpeg.md
   items:
-  - name: Overview
+  - name: 大綱
     href: ffmpeg/overview.md
-- name: Nginx Streaming Server
+  - name: 深度
+    href: ffmpeg/indepth.md
+- name: Nginx 串流伺服器
   href: nginx.md
   items:
-  - name: Overview
+  - name: 大綱
     href: nginx/overview.md
-  - name: Setup
+  - name: 配置
     href: nginx/setup.md
-  - name: Push
+  - name: 推送
     href: nginx/push.md
-  - name: Monitor
+  - name: 監控
     href: nginx/monitor.md
+- name: 工具
+  href: tool.md

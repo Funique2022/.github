@@ -1,4 +1,4 @@
-# Funique Core
+# Funique 核心
 
 The core library is most module rely on\
 It contains the common knowledge of enum, structure, class, methods for server-side client-side.\

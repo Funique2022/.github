@@ -1,40 +1,34 @@
-# Push Video Stream
+# 推影片串流
 
-[Image Website](https://hub.docker.com/r/e87870823/rtmp)
+[映像檔案連結](https://hub.docker.com/r/e87870823/rtmp)
 
-Most of URL use are in the readme file
+URL 跟用途都在 Readme.md 中
 
-Use [OBS](https://obsproject.com/) as example 
+使用 [OBS](https://obsproject.com/) 作為範例
 
-In the setting panel -> Stream
+在設定面板 (Setting) -> 串流 (Stream)
 
 ![OBS_Stream](./../../images/OBS_Stream.png)
 
-Server -> Server Address
-Stream Key -> The last part of URL
+伺服器 -> 位址\
+串流鑰匙 -> URL 最後的部分
 
-For the above example the URL will become like this
+從上面的敘述，形成完整的 URL 會成為這樣
 
 rtmp://192.168.61.190:1935/push/pushHD
 
-Then you can found the URL utility in the image website
+* push -> 不轉碼, 只存流
+* live -> 轉所有格式
+* live_t -> 轉 ts 格式
+* live_m -> 轉 m4s 格式
+* live_d -> 轉 dash 格式
 
-url prefix will determine the feature you want to use
-
-* push -> no transcode, store rtmp video stream only
-* live -> all format, auto transcode
-* live_t -> ts format, auto transcode
-* live_m -> m4s format, auto transcode
-* live_d -> dash format, auto transcode
-
-Then the outcome will be like
+輸出的 URL 播放會為以下
 
 * http://192.168.61.190:80/hls/pushHD.m3u8
 * http://192.168.61.190:80/mp4/pushHD.m3u8
 * http://192.168.61.190:80/dash/pushHD.m3u8
 
-If you want to manually transcode, use push prefix and use ffmpeg transcode youself
-
-You should produce files in your link RTMP folder, so you can call it like below
+如果你想要手動的轉碼，可以用 res 連結槽
 
 * http://192.168.61.190:80/res/custom_stream.m3u8

@@ -1,33 +1,32 @@
-# Funique Documentation For User
+# Funique 文件指南 For 使用者
 
-In this documentation, you will see how to setup a unity project\
-Inherit framework logic then Writing your own components\
-And contribute help us improve our code quality
+在這篇中, 你會看到如何架設 Unity 專案\
+繼承框架邏輯, 編寫自定義元件\
 
-If you spot a bug or something want to report to dev, you can use the github issue feature\
-You can find it in any project page
+如果找到 bugs 可以找到指定的 repo 並且在 issue 回報問題
 
 ![issue1](../images/github_issue.png)
 
-Post your issues there, we'll investigate them
+寫下你的問題, dev 會嘗試改善
 
 ![issue2](../images/github_issue2.png)
 
-## Architecture
+## 架構
 
-The funique project has several strict rule apply on each project\
-Before you start build a project, we recommend you read [this](./../stream/Intro.md) first
 
-## Notice
+Funique 專案有幾個規則套用\
+在開始以前, 建議先閱讀 [這篇](./../stream/Intro.md)
 
-Some modules has neutral part of mechanism which could applies to server side or client side, in this scenario we put these part at client side document.
+## 注意
 
-## Tool Quick Start
+有些模組是通用型的, 可以被套用在伺服器或客戶端.
+
+## 工具快速開始
 [Funique Tool](./ToolGuide.md)
 
-## Client Quick Start
+## 客戶端快速開始
 [Funique Client](./ClientGuide.md)
 
-## Server Qucik Start
+## 伺服器快速開始
 [Funique Server](./ServerGuide.md)
 

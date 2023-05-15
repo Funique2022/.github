@@ -1,10 +1,8 @@
-# Client Application
+# 客戶端 應用程式
 
-Client is typically means the end user, it's often a program or web browser or video player.
+通常是指能夠播放串流或是影片網址的播放器
 
-These type of client usually have different capability when facing different video stream.
-
-## Some Example
+## 範例
 
 1. web browser cannot play RTMP video stream, it needs to transcode to HLS before use it on the web.
 
@@ -14,7 +12,7 @@ These type of client usually have different capability when facing different vid
 
 Above three points are some example we need to consider when we design a pipeline.
 
-## Video Player Support Format
+## 常用框架支援格式
 
 [Avpro Support Format](https://www.renderheads.com/content/docs/AVProVideo/articles/supportedmedia.html)
 

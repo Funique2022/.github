@@ -1,128 +1,130 @@
-- name: Introduction
+- name: 介紹
   href: intro.md
-- name: Install
+- name: 架設
+  href: Setup.md
+- name: 安裝
   href: Installation.md
-- name: Core
+- name: 核心
   href: CoreGuide.md
   items:
-  - name: Manager
+  - name: 管理員
     href: Core/Manager.md
-  - name: Logger
+  - name: 紀錄
     href: Core/Logger.md
-  - name: Enum Cycle
+  - name: 列舉循環
     href: Core/EnumCycle.md
-  - name: Coroutine
+  - name: 協程
     href: Core/CoroutineHelper.md
-  - name: Extensions
+  - name: 延伸功能
     href: Core/Extensions.md
-  - name: ThirdParty
+  - name: 第三組件
     href: Core/ThirdParty.md
-  - name: Counter
+  - name: 計數器
     href: Core/Counter.md
 
-- name: Tool
+- name: 工具
   href: ToolGuide.md
   items:
-  - name: Designer
+  - name: 設計幫助
     href: Tool/DesignerGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Tool/Designer/QuickStart.md
 
-- name: Client
+- name: 客戶端
   href: ClientGuide.md
   items:
-  - name: Cinema
+  - name: 劇院
     href: Client/CinemaGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Cinema/QuickStart.md
-  - name: Client
+  - name: 遊戲客戶端
     href: Client/ClientGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Client/QuickStart.md
-  - name: Dissonance
+  - name: 聲音
     href: Client/DissonanceGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Dissonance/QuickStart.md
-  - name: Media
+  - name: 媒體邏輯
     href: Client/MediaGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Media/QuickStart.md
-  - name: Monitor
+  - name: 監控
     href: Client/MonitorGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Monitor/QuickStart.md
-  - name: Network
+  - name: 網路
     href: Client/NetworkGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Network/QuickStart.md
-  - name: Setting
+  - name: 設定
     href: Client/SettingGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Setting/QuickStart.md
-  - name: UI
+  - name: 使用者介面
     href: Client/UIGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/UI/QuickStart.md
-  - name: Verify
+  - name: 認證
     href: Client/VerifyGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Verify/QuickStart.md
-  - name: Video
+  - name: 儲存
     href: Client/VideoGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Client/Video/QuickStart.md
   
-- name: Server
+- name: 伺服器端
   href: ServerGuide.md
   items:
-  - name: Cinema
+  - name: 劇院
     href: Server/CinemaGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Cinema/QuickStart.md
-  - name: Media
+  - name: 媒體邏輯
     href: Server/MediaGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Media/QuickStart.md
-  - name: Network
+  - name: 網路
     href: Server/NetworkGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Network/QuickStart.md
-  - name: Player
+  - name: 用戶
     href: Server/PlayerGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Player/QuickStart.md
-  - name: Setting
+  - name: 設定
     href: Server/SettingGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Setting/QuickStart.md
-  - name: Streaming
+  - name: 串流服務
     href: Server/StreamingGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Streaming/QuickStart.md
-  - name: UI
+  - name: 使用者介面
     href: Server/UIGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/UI/QuickStart.md
-  - name: Video
+  - name: 儲存
     href: Server/VideoGuide.md
     items:
-    - name: Quick Start
+    - name: 快速開始
       href: Server/Video/QuickStart.md

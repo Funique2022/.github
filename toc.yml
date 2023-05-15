@@ -1,10 +1,10 @@
-- name: Unity Guide
+- name: Unity 指南
   href: unity/
-- name: Stream Guide
+- name: 串流指南
   href: stream/
-- name: Developer Documentation
+- name: 開發文件
   href: dev/
-- name: Continuous Integration Documentation
+- name: 連續部屬
   href: ci/
 - name: GitHub
   href: https://github.com/Funique2022

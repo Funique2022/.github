@@ -1,6 +1,6 @@
-# Video Source
+# 影像來源
 
-The video source is typically means encoder, This could means SDI video signal or [OBS](https://obsproject.com/) stream.
+影片來源通常會來自編碼端, 這可能是指串流伺服器 或是 [OBS](https://obsproject.com/) 串流.
 
 The different between both signal above is capability and size.
 

@@ -1,25 +1,25 @@
 # Funique Multimedia Framework
 
-## What is FMF ?
+Funique 多媒體框架
 
-A list of tools that helps you quick build a funique project.
+## 甚麼是 FMF ?
 
-The article will guide you install the plugin to inherit the base and extend the manager features.
+一列表的工具幫助你快速建置 Funique 專案
 
-## Why use FMF ?
+本 Wiki 會引導你架設專案、安裝插件、延伸應用
 
-When i first time see the code structure and the way we maintain the codes, i be honest, it is pretty messy, colleague usually copy code file and ignore the dependencies issue or version issue, and often time, the code itself does not provide unit test, so often time, it stuck at environemnt testing stage.
+## 為什麼使用 FMF ?
 
-To solve this problem, it's pretty commom to thinks that we should sort out the code, and improve the maintainability. FMF will seperate all the codes in to plugins, and each plugins has its own unit testing, the result and view on each repo pages, the support version etc...
+第一次看到程式庫發現很雜亂，在工作的流程常常複製代碼來回，導致維護版本控制困難。時常代碼本身沒有單元測試，所以卡在結果環境測試階段
 
-The dependencies will solve by this way, each plugins has very clear dependencies requirement, so we won't confuse when we trying to pull the login in the projects.
+解決這個問題需要一個強大的框架，提升維護性。FMF 把組件都分開來做為插件管理。每個插件都有獨立的環境進行單元測試跟 Repo 頁面。
 
-Another benifit is that, it's better have a docsmentation here to do things. so people won't ever get lost when login needs to be change.
+依賴性插件也能解決版本控制問題，每個插件都應該要有明確的依賴需求。
 
-## Quick start
+## 快速開始
 
-[Streaming Quick Start](./stream/intro.md)\
-[Unity Quick Start](./unity/intro.md)\
-[Developer Quick Start](./dev/intro.md)\
-[Continuous Integration Quick Start](./ci/intro.md)
+[串流快速開始](./stream/intro.md)\
+[Unity快速開始](./unity/intro.md)\
+[開發者快速開始](./dev/intro.md)\
+[自動部屬快速開始](./ci/intro.md)
 

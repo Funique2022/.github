@@ -1,4 +1,4 @@
-# FFmpeg Guide
+# FFmpeg 指南
 
 FFmpeg is handling the video audio encoding and decoding processes\
 Depend on the version, some have feature we do not have\

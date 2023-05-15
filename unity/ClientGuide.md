@@ -1,4 +1,4 @@
-# Funique Client
+# Funique 客戶端元件
 
 Here is a list of modules that contain client use logic\
 This include received information from server, analysis network packages\

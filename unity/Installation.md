@@ -1,35 +1,27 @@
-# Install The Package
+# 安裝包
 
-## Use Package Manager
+## 使用 Git 專案
 
-Project Setting -> Package Manager
+在 [Github 組織](https://github.com/Funique2022) 下尋找 project 開頭的 repository
 
-![pm](../images/PM.png)
+![pm](../images/project_prefix.png)
 
-Enter the funique package registery information
+Clone 到你的資料夾, 以下為範例
 
-Name: Funique\
-URL: https://registry.npmjs.org\
-Scope: tw.funique
+```powershell
+git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0
+```
 
-Then you should be enable to see the list in the package manager window
+branch 為現在要選取的版本號
 
-Windows -> Package Manager -> My Registery
+或是使用 [Github Desktop](https://desktop.github.com/) 進行拉取動作
 
-![pm](../images/PMList.png)
+![Clone](../images/desktop_clone.png)
 
-## Quick Setup Project
+在根目錄尋找批次檔案
 
-> [!WARNING]
-> You should already install the latest version of the package prevent debug happening.
+![Github Repo](../images/pull_repo.png)
 
-Find the package name start with integration, It will pull all the package dependencies from modules
-
-![pm](../images/PMListIntegration.png)
-
-But even if we pull the project require modules, There still something missing. Yes, the project primary scene.
-
-After pull the integration package you should be enable to see the simples scene like below screenshot.
-
-> [!NOTE]
-> It is normal to restart the project during the installation, you might install the module that require restart.
+* load 下載所有子模組
+* remove 刪除所有子模組
+* update 更新所有子模組

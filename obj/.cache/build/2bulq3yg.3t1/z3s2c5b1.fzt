@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#32178;&#36335;&#24555;&#36895;&#38283;&#22987; | Funique Documentation </title>
+    <title>Media Server Logic Qucik Start | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#32178;&#36335;&#24555;&#36895;&#38283;&#22987; | Funique Documentation ">
+    <meta name="title" content="Media Server Logic Qucik Start | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -91,7 +91,7 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="網路快速開始">網路快速開始</h1>
+<h1 id="media-server-logic-qucik-start" sourcefile="unity/Server/Media/QuickStart.md" sourcestartlinenumber="1">Media Server Logic Qucik Start</h1>
 
 </article>
               

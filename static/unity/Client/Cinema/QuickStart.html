@@ -107,18 +107,37 @@
 <li>VideoBtn -&gt; 介面按鈕實體</li>
 <li>Default_Media Player -&gt; 預設 AvPro 播放器</li>
 <li>Default_Stereo Mode -&gt; 預設 Stereo mode 如果偵測失敗的時候</li>
-<li>Options -&gt; AvPro 媒體播放器列表
-<ul>
-<li>Name -&gt; 只是命名</li>
-<li>Meta -&gt; 額外資訊</li>
-<li>Support_Swap -&gt; 支援滑順 (很吃效能)</li>
-<li>Target -&gt; AvPro 媒體播放器元件實體</li>
+<li>Options -&gt; AvPro 媒體播放器列表</li>
+<li>Subtitle_Headon -&gt; PC 螢幕字幕</li>
+<li>Subtitle_Fixed -&gt; 場景 3D 字幕</li>
+<li>Sphere Obj -&gt; 套用影片材質的渲染元件</li>
+<li>Stuck Obj -&gt; 過度使用的模型 (過時)</li>
+<li>Apply To Mesh -&gt; 套用影片材質元件</li>
+<li>Six DOF Scale -&gt; 自由角尺寸</li>
+<li>Sphere Scale -&gt; 圓尺寸常數</li>
 </ul>
+<hr>
+<h3 id="options">Options</h3>
+<ul>
+<li><p>Name -&gt; 只是命名</p>
 </li>
-<li>Stereo Config -&gt; VR 影片的格式, 對照材質, 元件, 管線配置
+<li><p>Meta -&gt; 額外資訊</p>
+</li>
+<li><p>Support_Swap -&gt; 支援滑順 (很吃效能)</p>
+</li>
+<li><p>Target -&gt; AvPro 媒體播放器元件實體</p>
+</li>
+<li><p>Stereo Config -&gt; VR 影片的格式, 對照材質, 元件, 管線配置</p>
+</li>
+</ul>
+<hr>
+<h3 id="stereo-config">Stereo Config</h3>
 <ul>
 <li>Mode -&gt; 模式</li>
-<li>Target 目標配置
+<li>Target 目標配置</li>
+</ul>
+<hr>
+<h3 id="stereo-config-target">Stereo Config Target</h3>
 <ul>
 <li>Apply Mesh Type -&gt; 使用 3D 模型</li>
 <li>Media Filter -&gt; 貼圖的 Filter 模式</li>
@@ -135,19 +154,10 @@
 <li>Is 4 Dof -&gt; 攝影機自由移動</li>
 <li>Is Live -&gt; 是否是 Live</li>
 </ul>
-</li>
-</ul>
-</li>
-<li>Subtitle_Headon -&gt; PC 螢幕字幕</li>
-<li>Subtitle_Fixed -&gt; 場景 3D 字幕</li>
-<li>Sphere Obj -&gt; 套用影片材質的渲染元件</li>
-<li>Stuck Obj -&gt; 過度使用的模型 (過時)</li>
-<li>Apply To Mesh -&gt; 套用影片材質元件</li>
-<li>Six DOF Scale -&gt; 自由角尺寸</li>
-<li>Sphere Scale -&gt; 圓尺寸常數</li>
-</ul>
+<hr>
 <p>在高自定義的場景中, 則是能延伸基礎配置<br>
-詳細查看 HD 結尾的場景</p>
+詳細查看 HD 結尾的場景<br>
+多半都是過去用 Enum 的部分ㄝ, 在 HD 的場景下會以字串 ID Map 進行配置處理</p>
 <h2 id="繼承元件">繼承元件</h2>
 <pre><code class="lang-csharp">// Writing your own manager
 public class CinemaClient : CinemaManagerClientUtility {

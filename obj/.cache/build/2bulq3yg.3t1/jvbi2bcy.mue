@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#32178;&#36335;&#24555;&#36895;&#38283;&#22987; | Funique Documentation </title>
+    <title>Server Network Module Quick Start | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#32178;&#36335;&#24555;&#36895;&#38283;&#22987; | Funique Documentation ">
+    <meta name="title" content="Server Network Module Quick Start | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -91,8 +91,15 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="網路快速開始">網路快速開始</h1>
+<h1 id="server-network-module-quick-start" sourcefile="unity/Server/Network/QuickStart.md" sourcestartlinenumber="1">Server Network Module Quick Start</h1>
 
+<p sourcefile="unity/Server/Network/QuickStart.md" sourcestartlinenumber="3">Create a class inherit network server manager</p>
+<pre><code class="lang-csharp" sourcefile="unity/Server/Network/QuickStart.md" sourcestartlinenumber="5">public class NetworkServer : NetworkManagerServerUtility {
+
+}
+</code></pre>
+<p sourcefile="unity/Server/Network/QuickStart.md" sourcestartlinenumber="11">For API detail, check here</p>
+<p sourcefile="unity/Server/Network/QuickStart.md" sourcestartlinenumber="13"><a href="../../../api/Funique.Network.INetworkServerUtility.html" sourcefile="unity/Server/Network/QuickStart.md" sourcestartlinenumber="13">API Reference</a></p>
 </article>
               
                 </div>

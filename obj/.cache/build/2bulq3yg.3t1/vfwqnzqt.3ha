@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#32178;&#36335;&#24555;&#36895;&#38283;&#22987; | Funique Documentation </title>
+    <title>&#36938;&#25138;&#23458;&#25142;&#31471;&#24555;&#36895;&#38283;&#22987; | Funique Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#32178;&#36335;&#24555;&#36895;&#38283;&#22987; | Funique Documentation ">
+    <meta name="title" content="&#36938;&#25138;&#23458;&#25142;&#31471;&#24555;&#36895;&#38283;&#22987; | Funique Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -91,8 +91,13 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="網路快速開始">網路快速開始</h1>
+<h1 id="遊戲客戶端快速開始" sourcefile="unity/Client/Client/QuickStart.md" sourcestartlinenumber="1">遊戲客戶端快速開始</h1>
 
+<p sourcefile="unity/Client/Client/QuickStart.md" sourcestartlinenumber="3">The problem of this modules is that it contains multiple manager base</p>
+<ul sourcefile="unity/Client/Client/QuickStart.md" sourcestartlinenumber="5">
+<li sourcefile="unity/Client/Client/QuickStart.md" sourcestartlinenumber="5">XR Manager Utility</li>
+<li sourcefile="unity/Client/Client/QuickStart.md" sourcestartlinenumber="6">Android Manager Utility</li>
+</ul>
 </article>
               
                 </div>

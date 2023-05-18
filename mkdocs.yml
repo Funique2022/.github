@@ -1,0 +1,29 @@
+site_name: FMF
+theme: 
+    name: 'ivory'
+nav:
+    - Home: 'index.md'
+    - 'Unity 指南':
+        - '指南': 
+            - '介紹': 'unity/intro.md'
+            - '架設': 'unity/Setup.md'
+            - '安裝': 'unity/Installation.md'
+            - '核心': 'unity/CoreGuide.md'
+        - '核心':
+            - '紀錄': 'unity/Core/Logger.md'
+            - '列舉循環': 'unity/Core/EnumCycle.md'
+            - '協程': 'unity/Core/CoroutineHelper.md'
+            - '延伸功能': 'unity/Core/Extensions.md'
+            - '第三組件': 'unity/Core/ThirdParty.md'
+            - '計數器': 'unity/Core/Counter.md'
+        - '客戶端':
+            - '管理員': 'unity/Client/Manager.md'
+        - '伺服器端':
+            - '劇院': 'unity/Server/Cinema/QuickStart.md'
+        - '工具':
+            - '設計幫助': 'unity/Tool/Designer/QuickStart.md'
+    - '串流指南': 'stream/'
+    - '開發文件': 'dev/'
+    - '雲端管理': 'cloud/'
+    - '連續部屬': 'ci/'
+    - 'GitHub': 'https://github.com/Funique2022'

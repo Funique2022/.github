@@ -25,3 +25,15 @@ branch 為現在要選取的版本號
 * load 下載所有子模組
 * remove 刪除所有子模組
 * update 更新所有子模組
+
+## 有些專案是需要資源的匯入 才會使其成立
+
+這些資源不會放在 git 的雲上面 主要原因是因為容量的限制
+這些會放在 NAS 上的 資源資料夾中
+
+![Res1](../images/gitResource.PNG)
+
+![Res2](../images/gitResource2.PNG)
+
+如圖 會根據專案名稱下有各種資源資料夾\
+把這些資料夾丟到專案資料夾的 Assets 中即可

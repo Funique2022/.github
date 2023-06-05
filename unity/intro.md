@@ -17,16 +17,11 @@
 Funique 專案有幾個規則套用\
 在開始以前, 建議先閱讀 [這篇](./../stream/Intro.md)
 
-## 注意
+> [!NOTE]
+> 有些模組是通用型的, 可以被套用在伺服器或客戶端.
 
-有些模組是通用型的, 可以被套用在伺服器或客戶端.
 
-## 工具快速開始
-[Funique Tool](./ToolGuide.md)
-
-## 客戶端快速開始
-[Funique Client](./ClientGuide.md)
-
-## 伺服器快速開始
-[Funique Server](./ServerGuide.md)
+[工具快速開始](./ToolGuide.md)\
+[客戶端快速開始](./ClientGuide.md)\
+[伺服器快速開始](./ServerGuide.md)
 

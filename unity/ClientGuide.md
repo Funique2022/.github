@@ -4,16 +4,16 @@
 
 | ID  | Name                                                                | Docuemnt                                         |
 | --- | ------------------------------------------------------------------- | ------------------------------------------------ |
-| 1.  | [Cinema](https://github.com/Funique2022/funique_cinema.git)         | [快速開始](./Client/Cinema/QuickStart.md)     |
-| 2.  | [Client](https://github.com/Funique2022/funique_client.git)         | [快速開始](./Client/Client/QuickStart.md)     |
-| 3.  | [Dissonance](https://github.com/Funique2022/funique_dissonance.git) | [快速開始](./Client/Dissonance/QuickStart.md) |
-| 4.  | [Monitor](https://github.com/Funique2022/funique_monitor.git)       | [快速開始](./Client/Monitor/QuickStart.md)    |
-| 5.  | [Network](https://github.com/Funique2022/funique_network.git)       | [快速開始](./Client/Network/QuickStart.md)    |
-| 6.  | [Setting](https://github.com/Funique2022/funique_setting.git)       | [快速開始](./Client/Setting/QuickStart.md)    |
-| 7.  | [UI](https://github.com/Funique2022/funique_ui.git)                 | [快速開始](./Client/UI/QuickStart.md)         |
-| 8.  | [Verify](https://github.com/Funique2022/funique_verify.git)         | [快速開始](./Client/Verify/QuickStart.md)     |
-| 9.  | [Video](https://github.com/Funique2022/funique_video.git)           | [快速開始](./Client/Video/QuickStart.md)      |
-| 10. | [AD](https://github.com/Funique2022/funique_ad.git)                 | [快速開始](./Client/AD/QuickStart.md)         |
+| 1.  | [劇院](https://github.com/Funique2022/funique_cinema.git)         | [快速開始](./Client/Cinema/QuickStart.md)     |
+| 2.  | [遊戲客戶端](https://github.com/Funique2022/funique_client.git)         | [快速開始](./Client/Client/QuickStart.md)     |
+| 3.  | [聲音](https://github.com/Funique2022/funique_dissonance.git) | [快速開始](./Client/Dissonance/QuickStart.md) |
+| 4.  | [監控](https://github.com/Funique2022/funique_monitor.git)       | [快速開始](./Client/Monitor/QuickStart.md)    |
+| 5.  | [網路](https://github.com/Funique2022/funique_network.git)       | [快速開始](./Client/Network/QuickStart.md)    |
+| 6.  | [偏好設定](https://github.com/Funique2022/funique_setting.git)       | [快速開始](./Client/Setting/QuickStart.md)    |
+| 7.  | [使用者介面](https://github.com/Funique2022/funique_ui.git)                 | [快速開始](./Client/UI/QuickStart.md)         |
+| 8.  | [認證](https://github.com/Funique2022/funique_verify.git)         | [快速開始](./Client/Verify/QuickStart.md)     |
+| 9.  | [媒體庫](https://github.com/Funique2022/funique_video.git)           | [快速開始](./Client/Video/QuickStart.md)      |
+| 10. | [廣告](https://github.com/Funique2022/funique_ad.git)                 | [快速開始](./Client/AD/QuickStart.md)         |
 
 [回到介紹](./intro.md)
 
@@ -21,13 +21,17 @@
 
 開啟任何 Demo 場景並且在 Hierarchy 上尋找 GameManager (遊戲管理)
 
+> [!NOTE]
+> Demo 場景的位置在於 Assets/Scripts/Samples/Demo/Scenes\
+> 繼承框架的架構, Demo 整合的物件都會在 Assets/Scripts/Samples/Demo 底下
+
 ![game manager](./../images/SceneGameManager.png)
 
-找 Main 元件
+> [!NOTE]
+> 找到 Main 元件, 這個為 FMF 框架的主管理元件\
+> 這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為\
+> 所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用
 
 ![main](./../images/Main.png)
 
-這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為
-
-所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用
-
+[回到介紹](./intro.md)

@@ -33,7 +33,14 @@
   href: ClientGuide.md
   items:
   - name: 管理員
-    href: Client/Manager.md
+    href: Client/ManagerGuide.md
+    items:
+    - name: 快速開始
+      href: Client/Manager/QuickStart.md
+    - name: 編寫管理員
+      href: Client/Manager/WriteManager.md
+    - name: 套用至遊戲管理員
+      href: Client/Manager/ImportToMain.md
   - name: 劇院
     href: Client/CinemaGuide.md
     items:

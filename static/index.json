@@ -179,10 +179,25 @@
     "title": "遊戲客戶端指南 | Funique Documentation",
     "keywords": "遊戲客戶端指南 Features"
   },
-  "unity/Client/Manager.html": {
-    "href": "unity/Client/Manager.html",
-    "title": "管理員配置 | Funique Documentation",
-    "keywords": "管理員配置 合併所有場景需求管理 We're combine all the necessary manager in a scene to a single script to handle the data for it. Usually it's called Main.cs And it will contain the manager require config data fields For example If you want to change the verify part of logic, and could just open the verify config tab and modify the data and save it. No need to change scene structure or modify multiple component in the different place. Not all the configuration are in the main component, actually. This just combine the global manager config setting fields together. For example If you want to change the behaviour of the client-side cinema media player, you still have to go the target scene object, and modify by youself. API Reference"
+  "unity/Client/Manager/ImportToMain.html": {
+    "href": "unity/Client/Manager/ImportToMain.html",
+    "title": "匯入至場景管理員 | Funique Documentation",
+    "keywords": "匯入至場景管理員 如果你還對定義的管理員有問題請至 自定義的管理員 置入你的 Main 如果你很滿意現在的 Main Class, 可以直接繼承 public class MyMain : Main{ // 在 Editor 會出現這個配置給你調整 [SerializeField] IConfig MyConfig; // 管理員實體 MyManager _MyManager; // 這個是讓其他元件 Casting 的屬性 // 可以用 Interface 或是 Class // 在這個範例使用的是 Class public virtual MyManager _MyManagerModule => _MyManager; // 接著就是把管理員的初始化加進來 protected override void InitManager() { if (_MyManager != null) _MyManager.RegisterConfig(MyConfig); base.InitManager(); } }"
+  },
+  "unity/Client/Manager/QuickStart.html": {
+    "href": "unity/Client/Manager/QuickStart.html",
+    "title": "管理者快速開始 | Funique Documentation",
+    "keywords": "管理者快速開始 Note 繼承前言, 我們能在 Demo 場景中找到 Main 元件掛載在 GameManager 頂層遊戲物件上 Note 這主要是各個模組元件的配置結構 會將所有的模組元件列出來, 以下圖為例子. 這個管理員至少掛載了 UI, Verify 的模組 打開 Verify (認證的元件), 就可以修改配置 Tip 你可以在不改變場景結構的狀況下, 影響程式的運作行為. 這種設計上會比較複雜, 但是自由度是非常的高 如, 想要直接跳過 CRM 的認證登入, 直接勾選 Skip Login, 剩下的交由底層邏輯去判斷"
+  },
+  "unity/Client/Manager/WriteManager.html": {
+    "href": "unity/Client/Manager/WriteManager.html",
+    "title": "編寫管理員 | Funique Documentation",
+    "keywords": "編寫管理員 底層管理員 這一層的管理員只能存取依賴性物件, 但是無法存取整合層的邏輯 主要的用途是底層的邏輯 // IData 為配置的資料結構 // 加上 System.Serializable 是為了能在 Editor 被看到 [System.Serializable] public struct IConfig { [SerializeField] public int MyIntValue; [SerializeField] public string MyStringValue; } // 繼承你的管理員至 IManagerBase public class MyManagerBase : ManagerBase<IConfig> { } 整合層管理員 (選擇性) 這一層的腳本通常會放在 Scripts/Samples/(整合資源名稱) 內 作為最上層的統整資源, 可以存取其他的管理員腳本 // 繼承你的底層管理員 public class MyManager : MyManagerBase { } // 存取方法為 public class myclass { // 之後則可以透過屬性進行存取 MyManager _myManager => EntryBase.Instance.GetModule<MyManager>(); // 建議進行 Cache 優化 // 避免每次都進行搜尋而拖垮效能 MyManager myManager { get { if(_myManager == null) _myManager = EntryBase.Instance.GetModule<MyManager>(); return _myManager; } } MyManager _myManager; }"
+  },
+  "unity/Client/ManagerGuide.html": {
+    "href": "unity/Client/ManagerGuide.html",
+    "title": "管理員指南 | Funique Documentation",
+    "keywords": "管理員指南"
   },
   "unity/Client/Monitor/QuickStart.html": {
     "href": "unity/Client/Monitor/QuickStart.html",
@@ -247,7 +262,7 @@
   "unity/ClientGuide.html": {
     "href": "unity/ClientGuide.html",
     "title": "Funique 客戶端元件 | Funique Documentation",
-    "keywords": "Funique 客戶端元件 所有客戶端會使用到的模組 ID Name Docuemnt 1. Cinema 快速開始 2. Client 快速開始 3. Dissonance 快速開始 4. Monitor 快速開始 5. Network 快速開始 6. Setting 快速開始 7. UI 快速開始 8. Verify 快速開始 9. Video 快速開始 10. AD 快速開始 回到介紹 基本開始 開啟任何 Demo 場景並且在 Hierarchy 上尋找 GameManager (遊戲管理) 找 Main 元件 這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為 所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用"
+    "keywords": "Funique 客戶端元件 所有客戶端會使用到的模組 ID Name Docuemnt 1. 劇院 快速開始 2. 遊戲客戶端 快速開始 3. 聲音 快速開始 4. 監控 快速開始 5. 網路 快速開始 6. 偏好設定 快速開始 7. 使用者介面 快速開始 8. 認證 快速開始 9. 媒體庫 快速開始 10. 廣告 快速開始 回到介紹 基本開始 開啟任何 Demo 場景並且在 Hierarchy 上尋找 GameManager (遊戲管理) Note Demo 場景的位置在於 Assets/Scripts/Samples/Demo/Scenes 繼承框架的架構, Demo 整合的物件都會在 Assets/Scripts/Samples/Demo 底下 Note 找到 Main 元件, 這個為 FMF 框架的主管理元件 這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為 所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用 回到介紹"
   },
   "unity/Core/CoroutineHelper.html": {
     "href": "unity/Core/CoroutineHelper.html",
@@ -287,12 +302,17 @@
   "unity/Installation.html": {
     "href": "unity/Installation.html",
     "title": "安裝包 | Funique Documentation",
-    "keywords": "安裝包 使用 Git 專案 在 Github 組織 下尋找 project 開頭的 repository Clone 到你的資料夾, 以下為範例 git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0 branch 為現在要選取的版本號 或是使用 Github Desktop 進行拉取動作 在根目錄尋找批次檔案 load 下載所有子模組 remove 刪除所有子模組 update 更新所有子模組"
+    "keywords": "安裝包 使用 Git 專案 在 Github 組織 下尋找 project 開頭的 repository Clone 到你的資料夾, 以下為範例 git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0 branch 為現在要選取的版本號 或是使用 Github Desktop 進行拉取動作 在根目錄尋找批次檔案 load 下載所有子模組 remove 刪除所有子模組 update 更新所有子模組 有些專案是需要資源的匯入 才會使其成立 這些資源不會放在 git 的雲上面 主要原因是因為容量的限制 這些會放在 NAS 上的 資源資料夾中 如圖 會根據專案名稱下有各種資源資料夾 把這些資料夾丟到專案資料夾的 Assets 中即可"
   },
   "unity/intro.html": {
     "href": "unity/intro.html",
     "title": "Funique 文件指南 For 使用者 | Funique Documentation",
-    "keywords": "Funique 文件指南 For 使用者 在這篇中, 你會看到如何架設 Unity 專案 繼承框架邏輯, 編寫自定義元件\\ 如果找到 bugs 可以找到指定的 repo 並且在 issue 回報問題 寫下你的問題, dev 會嘗試改善 架構 Funique 專案有幾個規則套用 在開始以前, 建議先閱讀 這篇 注意 有些模組是通用型的, 可以被套用在伺服器或客戶端. 工具快速開始 Funique Tool 客戶端快速開始 Funique Client 伺服器快速開始 Funique Server"
+    "keywords": "Funique 文件指南 For 使用者 在這篇中, 你會看到如何架設 Unity 專案 繼承框架邏輯, 編寫自定義元件\\ 如果找到 bugs 可以找到指定的 repo 並且在 issue 回報問題 寫下你的問題, dev 會嘗試改善 架構 Funique 專案有幾個規則套用 在開始以前, 建議先閱讀 這篇 Note 有些模組是通用型的, 可以被套用在伺服器或客戶端. 專案一覽 工具快速開始 客戶端快速開始 伺服器快速開始"
+  },
+  "unity/List.html": {
+    "href": "unity/List.html",
+    "title": "Funique 專案一覽 | Funique Documentation",
+    "keywords": "Funique 專案一覽 播放器相關 ID Name 1. 客戶端 2. 控制中心 3D 掃描 ID Name 1. 時尚周 2. TOY3 3. 故宮 4. Floor2 5. Template Night 6. 達文西 7. 董心如 遊戲開發 ID Name 工具開發 ID Name 1. 立體聲 2. 導播機 3. 芭比 回到介紹"
   },
   "unity/Server/Cinema/QuickStart.html": {
     "href": "unity/Server/Cinema/QuickStart.html",
@@ -377,7 +397,7 @@
   "unity/ServerGuide.html": {
     "href": "unity/ServerGuide.html",
     "title": "Funique 伺服器元件 | Funique Documentation",
-    "keywords": "Funique 伺服器元件 所有伺服器會使用到的模組 ID Name Docuemnt 1. Cinema 快速開始 2. Media 快速開始 3. Network 快速開始 4. Player 快速開始 5. Setting 快速開始 6. Streaming 快速開始 7. UI 快速開始 8. Video 快速開始 回到介紹"
+    "keywords": "Funique 伺服器元件 所有伺服器會使用到的模組 ID Name Docuemnt 1. 劇院 快速開始 2. 媒體邏輯 快速開始 3. 網路 快速開始 4. 用戶 快速開始 5. 設定 快速開始 6. 串流 快速開始 7. 使用者介面 快速開始 8. 影片庫 快速開始 回到介紹"
   },
   "unity/Setup.html": {
     "href": "unity/Setup.html",
@@ -397,6 +417,6 @@
   "unity/ToolGuide.html": {
     "href": "unity/ToolGuide.html",
     "title": "Unity 工具 | Funique Documentation",
-    "keywords": "Unity 工具 Here is a list of modules that contain neutral use logic This include information analysis, editor tool, hub, etc... UI, server logic, cache, etc... In this documentation, we will show you how to apply the components and use the tool ID Name Docuemnt 1. Designer Quick Start Back To Intro"
+    "keywords": "Unity 工具 一些 Unity 編輯器的腳本, 幫助重複性高的流程. 優化設計過程 ID Name Docuemnt 1. 設計師 快速開始 回到介紹"
   }
 }

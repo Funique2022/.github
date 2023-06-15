@@ -11,7 +11,7 @@
 
 這是主要的專案架構
 
-統整(Itegration) (主要邏輯) 會保存在 `/Assets/Scripts`\
+統整(Integration) (主要邏輯) 會保存在 `/Assets/Scripts`\
 模組(Modules) (通用邏輯) 會保存在 `/Assets/FuniquePlugin/[Module Name]`\
 媒體, 巨大檔案(忽略元件) 會保存在 `/Assets/FuniqueAssets`
 
@@ -28,3 +28,4 @@
 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上
 
 ![example](../images/dependencies.png)
+

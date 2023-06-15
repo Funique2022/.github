@@ -19,7 +19,6 @@
     href: Core/ThirdParty.md
   - name: 計數器
     href: Core/Counter.md
-
 - name: 工具
   href: ToolGuide.md
   items:
@@ -28,7 +27,6 @@
     items:
     - name: 快速開始
       href: Tool/Designer/QuickStart.md
-
 - name: 客戶端
   href: ClientGuide.md
   items:
@@ -81,7 +79,6 @@
     items:
     - name: 快速開始
       href: Client/Video/QuickStart.md
-  
 - name: 伺服器端
   href: ServerGuide.md
   items:

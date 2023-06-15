@@ -7,7 +7,3 @@ public class NetworkServer : NetworkManagerServerUtility {
 
 }
 ```
-
-For API detail, check here
-
-[API Reference](../../../api/Funique.Network.INetworkServerUtility.html)

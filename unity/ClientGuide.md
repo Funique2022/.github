@@ -6,14 +6,13 @@
 | --- | ------------------------------------------------------------------- | ------------------------------------------------ |
 | 1.  | [劇院](https://github.com/Funique2022/funique_cinema.git)         | [快速開始](./Client/Cinema/QuickStart.md)     |
 | 2.  | [遊戲客戶端](https://github.com/Funique2022/funique_client.git)         | [快速開始](./Client/Client/QuickStart.md)     |
-| 3.  | [聲音](https://github.com/Funique2022/funique_dissonance.git) | [快速開始](./Client/Dissonance/QuickStart.md) |
-| 4.  | [監控](https://github.com/Funique2022/funique_monitor.git)       | [快速開始](./Client/Monitor/QuickStart.md)    |
-| 5.  | [網路](https://github.com/Funique2022/funique_network.git)       | [快速開始](./Client/Network/QuickStart.md)    |
-| 6.  | [偏好設定](https://github.com/Funique2022/funique_setting.git)       | [快速開始](./Client/Setting/QuickStart.md)    |
-| 7.  | [使用者介面](https://github.com/Funique2022/funique_ui.git)                 | [快速開始](./Client/UI/QuickStart.md)         |
-| 8.  | [認證](https://github.com/Funique2022/funique_verify.git)         | [快速開始](./Client/Verify/QuickStart.md)     |
-| 9.  | [媒體庫](https://github.com/Funique2022/funique_video.git)           | [快速開始](./Client/Video/QuickStart.md)      |
-| 10. | [廣告](https://github.com/Funique2022/funique_ad.git)                 | [快速開始](./Client/AD/QuickStart.md)         |
+| 3.  | [監控](https://github.com/Funique2022/funique_monitor.git)       | [快速開始](./Client/Monitor/QuickStart.md)    |
+| 4.  | [網路](https://github.com/Funique2022/funique_network.git)       | [快速開始](./Client/Network/QuickStart.md)    |
+| 5.  | [偏好設定](https://github.com/Funique2022/funique_setting.git)       | [快速開始](./Client/Setting/QuickStart.md)    |
+| 6.  | [使用者介面](https://github.com/Funique2022/funique_ui.git)                 | [快速開始](./Client/UI/QuickStart.md)         |
+| 7.  | [認證](https://github.com/Funique2022/funique_verify.git)         | [快速開始](./Client/Verify/QuickStart.md)     |
+| 8.  | [媒體庫](https://github.com/Funique2022/funique_video.git)           | [快速開始](./Client/Video/QuickStart.md)      |
+| 9. | [廣告](https://github.com/Funique2022/funique_ad.git)                 | [快速開始](./Client/AD/QuickStart.md)         |
 
 [回到介紹](./intro.md)
 

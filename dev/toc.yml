@@ -7,7 +7,7 @@
 - name: 貢獻
   href: Contribute.md
 - name: 工具
-  href: tool.md
+  href: Tool.md
   items:
   - name: 開發列表
     href: tool/List.md

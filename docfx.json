@@ -44,7 +44,7 @@
 		"filter": "filter.yml"
       }
     ],
-    "dest": "../_site",
+    "dest": "../static",
     "globalMetadataFiles": [],
     "globalMetadata": {
       "_appName": "Funique",
@@ -59,14 +59,13 @@
     },
     "fileMetadataFiles": [],
     "template": [
-      "default",
-      "templates/discordfx"
+      "default"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
+    "keepFileLink": true,
+    "cleanupCacheHistory": true,
     "disableGitFeatures": false
   }
 }

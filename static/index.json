@@ -69,6 +69,11 @@
     "title": "風格指南 | Funique Documentation",
     "keywords": "風格指南 請符合以下的風格, 使得未來檢視或是修改變得簡單許多 微小的 Commit 在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析 分支命名 分支名稱請符合下方命名方法 v1.0.1 -> Debug 分支 v1.0 -> 合併至 v1.0 主分支 標籤命名 標籤名稱請符合下方命名方法 v1.0-release -> 1.0 最新 debugged 版本 v1.1-release -> 1.1 最新 debugged 版本 C# 專案註釋 (Optional) 下方的程式碼註釋能使其他人在 Review 時快速掌握函式的用途 Visual Studio 注釋指南 /// <summary> /// Extensions: Unclassified <br /> /// ------------------------------------------------ <br /> /// 擴充: 未分類 /// </summary> public static class UtilityExtensions{ } Repository README"
   },
+  "dev/Tool.html": {
+    "href": "dev/Tool.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
   "dev/tool/List.html": {
     "href": "dev/tool/List.html",
     "title": "開發好用工具列表 | Funique Documentation",
@@ -158,6 +163,11 @@
     "href": "stream/tool.html",
     "title": "工具集 | Funique Documentation",
     "keywords": "工具集"
+  },
+  "unity/Client/AD/QuickStart.html": {
+    "href": "unity/Client/AD/QuickStart.html",
+    "title": "廣告快速開始 | Funique Documentation",
+    "keywords": "廣告快速開始"
   },
   "unity/Client/Cinema/QuickStart.html": {
     "href": "unity/Client/Cinema/QuickStart.html",
@@ -262,7 +272,7 @@
   "unity/ClientGuide.html": {
     "href": "unity/ClientGuide.html",
     "title": "Funique 客戶端元件 | Funique Documentation",
-    "keywords": "Funique 客戶端元件 所有客戶端會使用到的模組 ID Name Docuemnt 1. 劇院 快速開始 2. 遊戲客戶端 快速開始 3. 聲音 快速開始 4. 監控 快速開始 5. 網路 快速開始 6. 偏好設定 快速開始 7. 使用者介面 快速開始 8. 認證 快速開始 9. 媒體庫 快速開始 10. 廣告 快速開始 回到介紹 基本開始 開啟任何 Demo 場景並且在 Hierarchy 上尋找 GameManager (遊戲管理) Note Demo 場景的位置在於 Assets/Scripts/Samples/Demo/Scenes 繼承框架的架構, Demo 整合的物件都會在 Assets/Scripts/Samples/Demo 底下 Note 找到 Main 元件, 這個為 FMF 框架的主管理元件 這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為 所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用 回到介紹"
+    "keywords": "Funique 客戶端元件 所有客戶端會使用到的模組 ID Name Docuemnt 1. 劇院 快速開始 2. 遊戲客戶端 快速開始 3. 監控 快速開始 4. 網路 快速開始 5. 偏好設定 快速開始 6. 使用者介面 快速開始 7. 認證 快速開始 8. 媒體庫 快速開始 9. 廣告 快速開始 回到介紹 基本開始 開啟任何 Demo 場景並且在 Hierarchy 上尋找 GameManager (遊戲管理) Note Demo 場景的位置在於 Assets/Scripts/Samples/Demo/Scenes 繼承框架的架構, Demo 整合的物件都會在 Assets/Scripts/Samples/Demo 底下 Note 找到 Main 元件, 這個為 FMF 框架的主管理元件 這個是整個客戶端初始化相關的配置資料集, 透過修改配置來影響之後的執行行為 所有的東西, Demo 場景應該已經設置完畢, 除非有特殊需求, 否則並不用動到場景物件就可以使用 回到介紹"
   },
   "unity/Core/CoroutineHelper.html": {
     "href": "unity/Core/CoroutineHelper.html",
@@ -312,7 +322,7 @@
   "unity/List.html": {
     "href": "unity/List.html",
     "title": "Funique 專案一覽 | Funique Documentation",
-    "keywords": "Funique 專案一覽 播放器相關 ID Name 1. 客戶端 2. 控制中心 3D 掃描 ID Name 1. 時尚周 2. TOY3 3. 故宮 4. Floor2 5. Template Night 6. 達文西 7. 董心如 遊戲開發 ID Name 工具開發 ID Name 1. 立體聲 2. 導播機 3. 芭比 回到介紹"
+    "keywords": "Funique 專案一覽 播放器相關 ID Name 1. 客戶端 2. 控制中心 3D 掃描 ID Name 1. 時尚周 2. TOY3 3. 故宮 4. Floor2 5. Template Night 6. 達文西 7. 董心如 8. 天橋 遊戲開發 ID Name 工具開發 ID Name 1. 立體聲 2. 導播機 3. 芭比 回到介紹"
   },
   "unity/Server/Cinema/QuickStart.html": {
     "href": "unity/Server/Cinema/QuickStart.html",
@@ -337,7 +347,7 @@
   "unity/Server/Network/QuickStart.html": {
     "href": "unity/Server/Network/QuickStart.html",
     "title": "Server Network Module Quick Start | Funique Documentation",
-    "keywords": "Server Network Module Quick Start Create a class inherit network server manager public class NetworkServer : NetworkManagerServerUtility { } For API detail, check here API Reference"
+    "keywords": "Server Network Module Quick Start Create a class inherit network server manager public class NetworkServer : NetworkManagerServerUtility { }"
   },
   "unity/Server/NetworkGuide.html": {
     "href": "unity/Server/NetworkGuide.html",
@@ -367,7 +377,7 @@
   "unity/Server/Streaming/QuickStart.html": {
     "href": "unity/Server/Streaming/QuickStart.html",
     "title": "Server Streaming Module Quick Start | Funique Documentation",
-    "keywords": "Server Streaming Module Quick Start Create a class inherit streaming server manager public class StreamingServer : StreamingManagerUtility { } For API detail, check here API Reference"
+    "keywords": "Server Streaming Module Quick Start Create a class inherit streaming server manager public class StreamingServer : StreamingManagerUtility { }"
   },
   "unity/Server/StreamingGuide.html": {
     "href": "unity/Server/StreamingGuide.html",
@@ -402,12 +412,12 @@
   "unity/Setup.html": {
     "href": "unity/Setup.html",
     "title": "架設 | Funique Documentation",
-    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop 架構 這是主要的專案架構 統整(Itegration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 這樣可以確保 模組的載入行為批次檔案都會在根目錄 Warning 當專案的依賴性改變之時, 便要手動更改根目錄批次檔案, 否則下一個人將會下載錯誤的依賴模組. 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上"
+    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop 架構 這是主要的專案架構 統整(Integration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 這樣可以確保 模組的載入行為批次檔案都會在根目錄 Warning 當專案的依賴性改變之時, 便要手動更改根目錄批次檔案, 否則下一個人將會下載錯誤的依賴模組. 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上"
   },
   "unity/Tool/Designer/QuickStart.html": {
     "href": "unity/Tool/Designer/QuickStart.html",
-    "title": "Funique Deisgner Quick Start | Funique Documentation",
-    "keywords": "Funique Deisgner Quick Start"
+    "title": "設計快速開始 | Funique Documentation",
+    "keywords": "設計快速開始 一些加速開發人員的 Editor 工具 Bundle 幫助 Unity 開發人員模式 元件序列化剪貼 掃描模型快速製作 Prefab"
   },
   "unity/Tool/DesignerGuide.html": {
     "href": "unity/Tool/DesignerGuide.html",

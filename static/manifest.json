@@ -143,6 +143,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "dev/Tool.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/Tool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "dev/backend/Directus.md",
       "output": {
         ".html": {
@@ -182,9 +192,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "dev/toc.yml",
       "output": {
@@ -716,6 +723,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "unity/Client/AD/QuickStart.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Client/AD/QuickStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "unity/Client/Cinema/QuickStart.md",
       "output": {
         ".html": {
@@ -915,9 +932,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "unity/ClientGuide.md",
       "output": {
@@ -1058,9 +1072,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "unity/Server/Network/QuickStart.md",
       "output": {
@@ -1121,9 +1132,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "unity/Server/Streaming/QuickStart.md",
       "output": {

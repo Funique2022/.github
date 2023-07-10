@@ -4,7 +4,8 @@
 
 ## 第三方工具幫助
 [Git](https://git-scm.com/downloads)\
-[Github Desktop](https://desktop.github.com/)
+[Github Desktop](https://desktop.github.com/)\
+[Funique_Package_Manager](https://www.npmjs.com/package/unity_package_manager)
 
 ## 架構
 ![Architecture](./../images/ApplicationArchitecture.png)
@@ -29,3 +30,18 @@
 
 ![example](../images/dependencies.png)
 
+### NPM 工具
+
+下載 Unity 專案管理工具到系統全局環境中
+
+```powershell
+npm i -g unity_package_manager
+```
+
+直接在指令打 fufu 便可以獲得 CLI 使用指南
+
+![FUFU](../images/Fufu.png)
+
+使用 listr 參數
+
+![FUFU](../images/FufuListR.png)

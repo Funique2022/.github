@@ -293,6 +293,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/FuFuListR.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/FuFuListR.PNG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Fufu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Fufu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Main.png",
       "output": {
         "resource": {
@@ -367,6 +387,16 @@
       "output": {
         "resource": {
           "relative_path": "images/RTMP_Setup.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Record.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/Record.PNG"
         }
       },
       "version": ""
@@ -487,6 +517,16 @@
       "output": {
         "resource": {
           "relative_path": "images/mediaplayer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/nodejs_install_thirdparty.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/nodejs_install_thirdparty.jpg"
         }
       },
       "version": ""
@@ -1007,6 +1047,66 @@
       "output": {
         ".html": {
           "relative_path": "unity/CoreGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Fufu/Concept.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Fufu/Concept.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Fufu/Install.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Fufu/Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Fufu/NAS.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Fufu/NAS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Fufu/Package.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Fufu/Package.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Fufu/Project.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Fufu/Project.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/FufuGuide.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/FufuGuide.html"
         }
       },
       "version": ""

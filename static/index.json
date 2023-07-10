@@ -309,6 +309,36 @@
     "title": "Funique 核心 | Funique Documentation",
     "keywords": "Funique 核心 核心庫是大部分的模組依賴的模組 包含了底層列舉, 結構, 類別, 演算法等等 建議在開發前或是使用前直接匯入這個模組 ID Name Docuemnt 1. Naughty Attributes 快速開始 2. Regex Builder 快速開始 2. Faster Gizmo 快速開始 回到介紹"
   },
+  "unity/Fufu/Concept.html": {
+    "href": "unity/Fufu/Concept.html",
+    "title": "概念 | Funique Documentation",
+    "keywords": "概念 用比較簡單的形容就是 專案分成了 大型檔案, 組件, 外殼 這三種類別 而 Fufu 可以省略同步版本時 重複性高的步驟 大型檔案 影片, 模型, 等等大型檔案, 通常會放置 NAS 磁碟槽 組件 獨立可以匯入的 Repo, 有獨立版本控制的組件 外殼 跟著專案 Repo 一起的資料, 通常是一些設定, Unity 插件 快速開始 拉取專案 # 查看專案ID fufu listp # 建立專案至目前 CMD 目錄下 fufu project ID v1.0 同步指令 # 組件 同步 fufu update # 大型檔案 複製下來 fufu copy"
+  },
+  "unity/Fufu/Install.html": {
+    "href": "unity/Fufu/Install.html",
+    "title": "安裝 | Funique Documentation",
+    "keywords": "安裝 首先 我們必須架設好 Node.js + NPM 環境才能使用 Fufu Node.js 在安裝的過程記得勾選 自動安裝必須的第三方工具 等全部安裝好了後, 如果鍵入以下指令至 CMD 中會顯示 Node js 版本 則代表成功的安裝環境了 node --version 確認環境建立後在 CMD 打入此指令安裝 Unity 專案管理工具 npm i -g unity_package_manager 如果以下指令會顯示版本, 則是成功了 fufu --version 可以直接打入 fufu 獲得詳細 CLI 的訊息 fufu"
+  },
+  "unity/Fufu/NAS.html": {
+    "href": "unity/Fufu/NAS.html",
+    "title": "NAS 同步 | Funique Documentation",
+    "keywords": "NAS 同步"
+  },
+  "unity/Fufu/Package.html": {
+    "href": "unity/Fufu/Package.html",
+    "title": "組件匯入 | Funique Documentation",
+    "keywords": "組件匯入"
+  },
+  "unity/Fufu/Project.html": {
+    "href": "unity/Fufu/Project.html",
+    "title": "專案拉取 | Funique Documentation",
+    "keywords": "專案拉取"
+  },
+  "unity/FufuGuide.html": {
+    "href": "unity/FufuGuide.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
   "unity/Installation.html": {
     "href": "unity/Installation.html",
     "title": "安裝包 | Funique Documentation",
@@ -412,7 +442,7 @@
   "unity/Setup.html": {
     "href": "unity/Setup.html",
     "title": "架設 | Funique Documentation",
-    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop 架構 這是主要的專案架構 統整(Integration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 這樣可以確保 模組的載入行為批次檔案都會在根目錄 Warning 當專案的依賴性改變之時, 便要手動更改根目錄批次檔案, 否則下一個人將會下載錯誤的依賴模組. 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上"
+    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop Funique_Package_Manager 架構 這是主要的專案架構 統整(Integration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 這樣可以確保 模組的載入行為批次檔案都會在根目錄 Warning 當專案的依賴性改變之時, 便要手動更改根目錄批次檔案, 否則下一個人將會下載錯誤的依賴模組. 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上 NPM 工具 下載 Unity 專案管理工具到系統全局環境中 npm i -g unity_package_manager 直接在指令打 fufu 便可以獲得 CLI 使用指南 使用 listr 參數"
   },
   "unity/Tool/Designer/QuickStart.html": {
     "href": "unity/Tool/Designer/QuickStart.html",

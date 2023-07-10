@@ -5,18 +5,18 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>架設 | Funique Documentation </title>
+      <title>組件匯入 | Funique Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="架設 | Funique Documentation ">
+      <meta name="title" content="組件匯入 | Funique Documentation ">
     
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -33,8 +33,8 @@
                 <span class="icon-bar"></span>
               </button>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="Funique">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="Funique">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -76,37 +76,8 @@
         <div class="article row grid-right">
           <div class="col-md-12">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="架設">架設</h1>
+<h1 id="組件匯入">組件匯入</h1>
 
-<p>在這一篇中, 你可以了解專案架構</p>
-<h2 id="第三方工具幫助">第三方工具幫助</h2>
-<p><a href="https://git-scm.com/downloads">Git</a><br>
-<a href="https://desktop.github.com/">Github Desktop</a><br>
-<a href="https://www.npmjs.com/package/unity_package_manager">Funique_Package_Manager</a></p>
-<h2 id="架構">架構</h2>
-<p><img src="../images/ApplicationArchitecture.png" alt="Architecture"></p>
-<p>這是主要的專案架構</p>
-<p>統整(Integration) (主要邏輯) 會保存在 <code>/Assets/Scripts</code><br>
-模組(Modules) (通用邏輯) 會保存在 <code>/Assets/FuniquePlugin/[Module Name]</code><br>
-媒體, 巨大檔案(忽略元件) 會保存在 <code>/Assets/FuniqueAssets</code></p>
-<p>這樣可以確保</p>
-<p>模組的載入行為批次檔案都會在根目錄</p>
-<p><img src="../images/pull_repo.png" alt="Module_Action"></p>
-<div class="WARNING">
-<h5>Warning</h5>
-<p>當專案的依賴性改變之時, 便要手動更改根目錄批次檔案, 否則下一個人將會下載錯誤的依賴模組.</p>
-</div>
-<h3 id="依賴性">依賴性</h3>
-<p>每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上</p>
-<p><img src="../images/dependencies.png" alt="example"></p>
-<h3 id="npm-工具">NPM 工具</h3>
-<p>下載 Unity 專案管理工具到系統全局環境中</p>
-<pre><code class="lang-powershell">npm i -g unity_package_manager
-</code></pre>
-<p>直接在指令打 fufu 便可以獲得 CLI 使用指南</p>
-<p><img src="../images/Fufu.png" alt="FUFU"></p>
-<p>使用 listr 參數</p>
-<p><img src="../images/FuFuListR.PNG" alt="FUFU"></p>
 </article>
           </div>
         </div>
@@ -126,8 +97,8 @@
       </footer>
     </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

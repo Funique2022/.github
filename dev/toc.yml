@@ -8,9 +8,6 @@
   href: Contribute.md
 - name: 工具
   href: Tool.md
-  items:
-  - name: 開發列表
-    href: tool/List.md
 - name: 後端
   href: Backend.md
   items:

@@ -24,14 +24,8 @@
   items:
   - name: 安裝
     href: Fufu/Install.md
-  - name: 概念
-    href: Fufu/Concept.md
-  - name: NAS 同步
-    href: Fufu/NAS.md
-  - name: 組件匯入
-    href: Fufu/Package.md
-  - name: 專案拉取
-    href: Fufu/Project.md
+  - name: 指南
+    href: Fufu/Guide.md
 - name: 工具
   href: ToolGuide.md
   items:

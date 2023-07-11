@@ -15,6 +15,8 @@
 node --version
 ```
 
+![NodeVersion](./../../images/NodeVersion.png)
+
 確認環境建立後在 CMD 打入此指令安裝 Unity 專案管理工具
 
 ```powershell
@@ -26,6 +28,8 @@ npm i -g unity_package_manager
 ```powershell
 fufu --version
 ```
+
+![NodeVersion](./../../images/FuFuVersion.png)
 
 可以直接打入 fufu 獲得詳細 CLI 的訊息
 

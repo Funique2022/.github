@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>安裝 | Funique Documentation </title>
+      <title>概念 | Funique Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="安裝 | Funique Documentation ">
+      <meta name="title" content="概念 | Funique Documentation ">
     
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
@@ -76,28 +76,59 @@
         <div class="article row grid-right">
           <div class="col-md-12">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="安裝">安裝</h1>
+<h1 id="概念">概念</h1>
 
-<p>首先 我們必須架設好 Node.js + NPM 環境才能使用 Fufu</p>
-<p><a href="https://nodejs.org/en">Node.js</a></p>
-<p>在安裝的過程記得勾選 自動安裝必須的第三方工具</p>
-<p><img src="../../images/nodejs_install_thirdparty.jpg" alt="third_party"></p>
-<p>等全部安裝好了後, 如果鍵入以下指令至 CMD 中會顯示 Node js 版本<br>
-則代表成功的安裝環境了</p>
-<pre><code class="lang-powershell">node --version
+<p>用比較簡單的形容就是. 專案分成了 大型檔案, 組件, 外殼 這三種類別,而 Fufu 可以省略同步版本時 重複性高的步驟.</p>
+<h3 id="大型檔案">大型檔案</h3>
+<p>影片, 模型, 等等大型檔案, 通常會放置 NAS 磁碟槽. Github 在大於 50 MB 的檔案必須使用 LFS 進行做存放, 其上限也只是 2GB. 無法用於實際開發環境使用. (容量過小)</p>
+<p>而每次專案的拉取或是更新便要從 NAS 拉取檔案則是緩慢的. 在尋找資料夾的過程會消耗不少時間.</p>
+<p>此工具的方案是將複製路徑與對象路徑保存在配置檔案, 並且聆聽 CLI 的指令事件進行複製與備份的動作. 這樣便能實踐一鍵複製的動作.</p>
+<pre><code class="lang-powershell"># 複製下來
+fufu copy
+# 上傳上去
+fufu submit
+# 加入路徑
+fufu filepath &lt;NAS路徑&gt; &lt;相對路徑&gt;
+# 加入路徑 範例
+fufu filepath \\192.168.361.2\Funique_J\XXX\XXX Assets\Plugins
+# 查看目前配置
+fufu list
 </code></pre>
-<p><img src="../../images/NodeVersion.png" alt="NodeVersion"></p>
-<p>確認環境建立後在 CMD 打入此指令安裝 Unity 專案管理工具</p>
-<pre><code class="lang-powershell">npm i -g unity_package_manager
+<h3 id="組件">組件</h3>
+<p>獨立可以匯入的 Repo, 有獨立版本控制的組件. 此乃模組化的需求, 主要的面對多個專案的重複使用.</p>
+<p>專案的組件可以被註冊到 <a href="http://satellite.funique.tv/directus/admin/login">CMS</a> 上, 然後用代號進行 Call</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>在使用 update 以前, 確保有 github 團隊的權限, 否則拉取組件會失敗. 畢竟組件本身設定為私人的</p>
+</div>
+<pre><code class="lang-powershell"># 查看 CMS 上的組件
+fufu listr
+# 加入組件
+fufu add &lt;組件代號&gt; &lt;分支&gt;
+fufu add 0 v1.0 # 使用分支 v1.0
+fufu add 0 . # 使用預設分之
+# 加入組件 URL
+fufu add_url &lt;Repo連結&gt; &lt;資料夾名稱&gt; &lt;分支&gt; &lt;組件/整合專案&gt;
+# 組件/整合專案 會決定去 Scripts 或是去 FuniquePlugin
+# 如果為 1:Scripts 則名稱會被忽略掉
+fufu add_url https:\\github\xxx\xxx.git XXX v1.0 0 # 資料夾名稱為 XXX 分支為 v1.0
+fufu add_url https:\\github\xxx\xxx.git XXX . 0 # 資料夾名稱為 XXX 分支為預設
+fufu add_url https:\\github\xxx\xxx.git XXX v1.0 1 # 資料夾名稱為 Scripts (因為為整合專案, 路徑則固定在 Assets\Scripts) 分支為 v1.0
 </code></pre>
-<p>如果以下指令會顯示版本, 則是成功了</p>
-<pre><code class="lang-powershell">fufu --version
+<h3 id="外殼">外殼</h3>
+<p>跟著專案 Repo 一起的資料, 通常是一些設定, Unity 插件. 此 CLI 專案管理工具同時也提供了一鍵專案架設方案. 在拉取專案的同時會執行以下動作</p>
+<ul>
+<li>拉取所有配置檔案的組件</li>
+<li>拉取所有 NAS 上的大型檔案</li>
+</ul>
+<p>所以在拉取結束的時候, 專案會完整地被建立起來</p>
+<pre><code class="lang-powershell"># 查看 CMS 上的專案
+fufu listp
+# 拉取專案
+fufu project &lt;代號&gt; &lt;分支&gt;
+# 拉取專案 URL
+fufu project_url &lt;專案連結&gt; &lt;分支&gt;
 </code></pre>
-<p><img src="../../images/FuFuVersion.png" alt="NodeVersion"></p>
-<p>可以直接打入 fufu 獲得詳細 CLI 的訊息</p>
-<pre><code class="lang-powershell">fufu
-</code></pre>
-<p><img src="../../images/Fufu.png" alt="Fufu"></p>
 </article>
           </div>
         </div>

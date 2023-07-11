@@ -202,16 +202,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "dev/tool/List.md",
-      "output": {
-        ".html": {
-          "relative_path": "dev/tool/List.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "images/ApplicationArchitecture.png",
       "output": {
@@ -303,6 +293,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/FuFuVersion.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FuFuVersion.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Fufu.png",
       "output": {
         "resource": {
@@ -337,6 +337,16 @@
       "output": {
         "resource": {
           "relative_path": "images/MonitorConfig.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NodeVersion.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NodeVersion.png"
         }
       },
       "version": ""
@@ -1053,10 +1063,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "unity/Fufu/Concept.md",
+      "source_relative_path": "unity/Fufu/Guide.md",
       "output": {
         ".html": {
-          "relative_path": "unity/Fufu/Concept.html"
+          "relative_path": "unity/Fufu/Guide.html"
         }
       },
       "version": ""
@@ -1067,36 +1077,6 @@
       "output": {
         ".html": {
           "relative_path": "unity/Fufu/Install.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "unity/Fufu/NAS.md",
-      "output": {
-        ".html": {
-          "relative_path": "unity/Fufu/NAS.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "unity/Fufu/Package.md",
-      "output": {
-        ".html": {
-          "relative_path": "unity/Fufu/Package.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "unity/Fufu/Project.md",
-      "output": {
-        ".html": {
-          "relative_path": "unity/Fufu/Project.html"
         }
       },
       "version": ""

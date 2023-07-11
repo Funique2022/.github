@@ -78,6 +78,35 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="維護">維護</h1>
 
+<p>讓一個專案的可維護性提高. 建立一個好的規範, 往後在維護的過程中會省掉許多麻煩.</p>
+<h2 id="微小的-commit">微小的 Commit</h2>
+<p>在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析.</p>
+<h2 id="版本號意義">版本號意義</h2>
+<p>v1.2.3</p>
+<ol>
+<li>釋出版本號</li>
+<li>功能版本號</li>
+<li>除錯分支</li>
+</ol>
+<h3 id="釋出版本號">釋出版本號</h3>
+<p>釋出版本號通常要更新, 除非是整個底層的核心重新編寫, 否則是不會動的.</p>
+<h3 id="功能版本號">功能版本號</h3>
+<p>加入新的功能, 或是移除功能的時候才會更新</p>
+<h3 id="除錯分支">除錯分支</h3>
+<h2 id="分支命名">分支命名</h2>
+<p>分支名稱請符合下方命名方法</p>
+<ul>
+<li>v1.0.1 -&gt; Debug 分支</li>
+<li>v1.0 -&gt; 合併至 v1.0 主分支</li>
+</ul>
+<h2 id="標籤命名">標籤命名</h2>
+<p>標籤名稱請符合下方命名方法</p>
+<ul>
+<li>v1.0-release -&gt; 1.0 最新 debugged 版本</li>
+<li>v1.1-release -&gt; 1.1 最新 debugged 版本</li>
+</ul>
+<h2 id="使用-pull-request">使用 Pull Request</h2>
+<p>除錯分支要 Merge 到功能版本號時 使用 Pull Request 留下版本紀錄 (可回朔)</p>
 </article>
           </div>
         </div>

@@ -2,8 +2,6 @@
   href: intro.md
 - name: 架設
   href: Setup.md
-- name: 安裝
-  href: Installation.md
 - name: 核心
   href: CoreGuide.md
   items:
@@ -31,9 +29,6 @@
   items:
   - name: 設計幫助
     href: Tool/DesignerGuide.md
-    items:
-    - name: 快速開始
-      href: Tool/Designer/QuickStart.md
 - name: 客戶端
   href: ClientGuide.md
   items:

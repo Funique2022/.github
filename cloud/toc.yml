@@ -1,7 +1,9 @@
 - name: 介紹
   href: Intro.md
-- name: Wix
-  href: WIX.md
+- name: 微服務
+  href: MicroServices.md
+- name: DNS
+  href: DNS.md
 - name: AWS
   href: AWS.md
 - name: 中華

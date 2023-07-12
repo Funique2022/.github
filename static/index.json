@@ -14,15 +14,20 @@
     "title": "中華 Cloud | Funique Documentation",
     "keywords": "中華 Cloud 登入"
   },
+  "cloud/DNS.html": {
+    "href": "cloud/DNS.html",
+    "title": "DNS | Funique Documentation",
+    "keywords": "DNS"
+  },
   "cloud/Intro.html": {
     "href": "cloud/Intro.html",
     "title": "Funique 文件指南 For 雲端管理者 | Funique Documentation",
-    "keywords": "Funique 文件指南 For 雲端管理者"
+    "keywords": "Funique 文件指南 For 雲端管理者 雲端的管理部分, 使用了許多的第三方服務, 在複雜錯綜的結構下要釐清脈絡需要一定程度的簡易視覺化. 以上為用最粗略的方式繪製出直播與影片串流的脈絡 而原宇宙的脈絡則是更為複雜 以下為前台以及商模的設計 Miro 商模大架構 元素 Breakdown"
   },
-  "cloud/WIX.html": {
-    "href": "cloud/WIX.html",
-    "title": "WIX | Funique Documentation",
-    "keywords": "WIX 登入"
+  "cloud/MicroServices.html": {
+    "href": "cloud/MicroServices.html",
+    "title": "微服務設計 | Funique Documentation",
+    "keywords": "微服務設計 目前設計是採用撰寫服務部屬在各個平台 Firebase, Lightsail, EC2, Google, 外包平台, Etc... Tip 可以使用 Caas 容器服務管理進行統整/維護/更新 一些有用的學習文件 Docker Swarm Portainer 想法是可以開多個實體在 EC2 或是 Lightsail 上, 每個實體都必須是 Linux 基底然後需要有安裝 Docker. 在多個實體間選擇一個 Master 進行資源的管理 以下為在 Web 上能看到的頁面, 可以一個列表下來看到有多少服務在線上, 並且可以隨時更新, Shell 作業. 以下為簡易的微服務的架構 可以製作一個 Scheduler 銜接 Docker 的環境生成實體, 刪除實體, 來達成遊戲伺服器多開的作用."
   },
   "dev/Backend.html": {
     "href": "dev/Backend.html",
@@ -307,7 +312,7 @@
   "unity/Fufu/Guide.html": {
     "href": "unity/Fufu/Guide.html",
     "title": "概念 | Funique Documentation",
-    "keywords": "概念 用比較簡單的形容就是. 專案分成了 大型檔案, 組件, 外殼 這三種類別,而 Fufu 可以省略同步版本時 重複性高的步驟. 大型檔案 影片, 模型, 等等大型檔案, 通常會放置 NAS 磁碟槽. Github 在大於 50 MB 的檔案必須使用 LFS 進行做存放, 其上限也只是 2GB. 無法用於實際開發環境使用. (容量過小) 而每次專案的拉取或是更新便要從 NAS 拉取檔案則是緩慢的. 在尋找資料夾的過程會消耗不少時間. 此工具的方案是將複製路徑與對象路徑保存在配置檔案, 並且聆聽 CLI 的指令事件進行複製與備份的動作. 這樣便能實踐一鍵複製的動作. # 複製下來 fufu copy # 上傳上去 fufu submit # 加入路徑 fufu filepath <NAS路徑> <相對路徑> # 加入路徑 範例 fufu filepath \\\\192.168.361.2\\Funique_J\\XXX\\XXX Assets\\Plugins # 查看目前配置 fufu list 組件 獨立可以匯入的 Repo, 有獨立版本控制的組件. 此乃模組化的需求, 主要的面對多個專案的重複使用. 專案的組件可以被註冊到 CMS 上, 然後用代號進行 Call Warning 在使用 update 以前, 確保有 github 團隊的權限, 否則拉取組件會失敗. 畢竟組件本身設定為私人的 # 查看 CMS 上的組件 fufu listr # 加入組件 fufu add <組件代號> <分支> fufu add 0 v1.0 # 使用分支 v1.0 fufu add 0 . # 使用預設分之 # 加入組件 URL fufu add_url <Repo連結> <資料夾名稱> <分支> <組件/整合專案> # 組件/整合專案 會決定去 Scripts 或是去 FuniquePlugin # 如果為 1:Scripts 則名稱會被忽略掉 fufu add_url https:\\\\github\\xxx\\xxx.git XXX v1.0 0 # 資料夾名稱為 XXX 分支為 v1.0 fufu add_url https:\\\\github\\xxx\\xxx.git XXX . 0 # 資料夾名稱為 XXX 分支為預設 fufu add_url https:\\\\github\\xxx\\xxx.git XXX v1.0 1 # 資料夾名稱為 Scripts (因為為整合專案, 路徑則固定在 Assets\\Scripts) 分支為 v1.0 外殼 跟著專案 Repo 一起的資料, 通常是一些設定, Unity 插件. 此 CLI 專案管理工具同時也提供了一鍵專案架設方案. 在拉取專案的同時會執行以下動作 拉取所有配置檔案的組件 拉取所有 NAS 上的大型檔案 所以在拉取結束的時候, 專案會完整地被建立起來 # 查看 CMS 上的專案 fufu listp # 拉取專案 fufu project <代號> <分支> # 拉取專案 URL fufu project_url <專案連結> <分支>"
+    "keywords": "概念 用比較簡單的形容就是. 專案分成了 大型檔案, 組件, 外殼 這三種類別,而 Fufu 可以省略同步版本時 重複性高的步驟. 大型檔案 影片, 模型, 等等大型檔案, 通常會放置 NAS 磁碟槽. Github 在大於 50 MB 的檔案必須使用 LFS 進行做存放, 其上限也只是 2GB. 無法用於實際開發環境使用. (容量過小) 而每次專案的拉取或是更新便要從 NAS 拉取檔案則是緩慢的. 在尋找資料夾的過程會消耗不少時間. 此工具的方案是將複製路徑與對象路徑保存在配置檔案, 並且聆聽 CLI 的指令事件進行複製與備份的動作. 這樣便能實踐一鍵複製的動作. # 複製下來 fufu copy # 上傳上去 fufu submit # 加入路徑 fufu filepath <NAS路徑> <相對路徑> # 加入路徑 範例 fufu filepath \\\\192.168.361.2\\Funique_J\\XXX\\XXX Assets\\Plugins # 查看目前配置 fufu list 在加入路徑後 可以打入以下指令 查看目前的配置 fufu list 組件 獨立可以匯入的 Repo, 有獨立版本控制的組件. 此乃模組化的需求, 主要的面對多個專案的重複使用. 專案的組件可以被註冊到 CMS 上, 然後用代號進行 Call Tip 關於 CMS 的帳號密碼, 請於管理人員提供 Warning 在使用 update 以前, 確保有 github 團隊的權限, 否則拉取組件會失敗. 畢竟組件本身設定為私人的 # 查看 CMS 上的組件 fufu listr # 加入組件 fufu add <組件代號> <分支> fufu add 0 v1.0 # 使用分支 v1.0 fufu add 0 . # 使用預設分之 # 加入組件 URL fufu add_url <Repo連結> <資料夾名稱> <分支> <組件/整合專案> # 組件/整合專案 會決定去 Scripts 或是去 FuniquePlugin # 如果為 1:Scripts 則名稱會被忽略掉 fufu add_url https:\\\\github\\xxx\\xxx.git XXX v1.0 0 # 資料夾名稱為 XXX 分支為 v1.0 fufu add_url https:\\\\github\\xxx\\xxx.git XXX . 0 # 資料夾名稱為 XXX 分支為預設 fufu add_url https:\\\\github\\xxx\\xxx.git XXX v1.0 1 # 資料夾名稱為 Scripts (因為為整合專案, 路徑則固定在 Assets\\Scripts) 分支為 v1.0 外殼 跟著專案 Repo 一起的資料, 通常是一些設定, Unity 插件. 此 CLI 專案管理工具同時也提供了一鍵專案架設方案. 在拉取專案的同時會執行以下動作 拉取所有配置檔案的組件 拉取所有 NAS 上的大型檔案 所以在拉取結束的時候, 專案會完整地被建立起來 # 查看 CMS 上的專案 fufu listp # 拉取專案 fufu project <代號> <分支> # 拉取專案 URL fufu project_url <專案連結> <分支> 以下為指令的過程解頗"
   },
   "unity/Fufu/Install.html": {
     "href": "unity/Fufu/Install.html",
@@ -318,11 +323,6 @@
     "href": "unity/FufuGuide.html",
     "title": "Fufu 專案管理工具 | Funique Documentation",
     "keywords": "Fufu 專案管理工具 初衷 團隊中有使用不同的版本控制平台, 以及複雜的專案架構造成版本控制困難, 如某些檔案大小上限造成無法上傳之問題. 需要一個統整方案, 以及模組化的方式來解決此問題. 在還沒有此工具以前, 都是手動的使用 Source tree 版本控制軟體 或是 Github Desktop 進行專案的統整. 但是開來開去, Pull, Push 手續重複性高, 所以才想到開發一個 CLI 工具解決此問題. 功能 配置功能 NAS 上傳/下載 Git 組件拉取 (有註冊在 CMS 上的) Git URL 組件拉取 Git 專案拉取 (有註冊在 CMS 上的) Git URL 專案拉取 更換組件分支 以下為軟體使用的預覽圖"
-  },
-  "unity/Installation.html": {
-    "href": "unity/Installation.html",
-    "title": "安裝包 | Funique Documentation",
-    "keywords": "安裝包"
   },
   "unity/intro.html": {
     "href": "unity/intro.html",
@@ -424,15 +424,10 @@
     "title": "架設 | Funique Documentation",
     "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop Funique_Package_Manager Tip 你必須要下載 Git 才能使用專案管理工具 手動架設 Warning 此為手動架設的流程, 新的專案現在使用 Fufu 版本管理工具, 則不再提供批次檔案. 使用 Git 專案 在 Github 組織 下尋找 project 開頭的 repository Warning 你必須要有 Github 組織的權限才可以拉取專案. 如果尚未加入請至於開發團隊申請 Clone 到你的資料夾, 以下為範例 # --branch 為指定分支, 如果不打的話則會拉取預設的分支 git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0 branch 為現在要選取的版本號 或是使用 Github Desktop 進行拉取動作 在根目錄尋找批次檔案 load 下載所有子模組 remove 刪除所有子模組 update 更新所有子模組 Tip 新的專案則是使用 fufu update 來取代批次檔案 有些專案是需要資源的匯入 才會使其成立 這些資源不會放在 git 的上面, 主要原因是因為容量的限制. 這些會放在 NAS 上的 資源資料夾中. 那現在就來手動匯入資源. Tip 新的專案則是使用 fufu copy 複製 NAS 上的檔案下來 以下為範例的 NAS 路徑 (此路徑為動態的) 如圖 會根據專案名稱下有各種資源資料夾 把這些資料夾丟到專案資料夾的 Assets 中即可 專案架構 這是主要的專案架構 統整(Integration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 或其他路徑 這樣可以確保 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上 重複使用 可以單獨用 git 匯入至多個專案, 使其可被重複使用. 避免過多複製代碼動作. 可被測試 單元測試, 簡單講."
   },
-  "unity/Tool/Designer/QuickStart.html": {
-    "href": "unity/Tool/Designer/QuickStart.html",
-    "title": "設計快速開始 | Funique Documentation",
-    "keywords": "設計快速開始 一些加速開發人員的 Editor 工具 Bundle 幫助 Unity 開發人員模式 元件序列化剪貼 掃描模型快速製作 Prefab"
-  },
   "unity/Tool/DesignerGuide.html": {
     "href": "unity/Tool/DesignerGuide.html",
     "title": "設計指南 | Funique Documentation",
-    "keywords": "設計指南 設計指南主要是一堆 Editor 的工具 幫助重複性的行為, 像是 Bundle Package 的打包 Components"
+    "keywords": "設計指南 設計指南主要是一堆 Editor 的工具 幫助重複性的行為, 像是 Bundle Package 的打包 一些加速開發人員的 Editor 工具 Bundle 幫助 這個工具用幫助設計師打包 Unity 資源, 便利於之後動態載入 視窗位置 工具列 -> Funique -> Asset Bundle Helper Prefix 輸出路徑位置 Path 輸出相對路徑 Target 平台目標 詳細 Options 建置的一些 Flags 詳細 按下輸出後, 將會把所有 Assets 裡面註冊的 Assets Bundle 輸出至上方輸入的資料夾內 Unity 開發人員模式 這個項目幫助設計師開啟 Unity Editor 的開發人員模式, 可以調整底部 Unity 的數據, 在一些低層的 Debug 很好用. Inspect 會多出 Debug Internal 模式出來. 開關位置 工具列 -> Funique -> Dev -> On/Off 元件序列化剪貼 腳本元件的漢堡符號右鍵會多出兩個項目, 這個幫助於在不同的 Type 之間也能快速複製元件內容. 比如說我有兩個元件類別 class A { int value; } class B { int value; } 在預設的情況下是無法把 A 的數值複製到 B, 因為類別的不同. 但是序列化複製不一樣的地方是, 他是複製了數據內容的路徑, 所以可以進行套用. 掃描模型快速製作 Prefab Assets 視窗在路徑按右鍵 會以這個路徑掃描子資料夾尋找模型檔案, 然後在 Assets 建立 Prefab 資料夾. 把模型做成 Prefab 套用 Material (獨立輸出) 丟進這個 Prefab 資料夾. 刪除遺失腳本 厭煩了 Missing Scripts 的錯誤? 這個項目可以直接把整個場景的遺失腳本刪除"
   },
   "unity/ToolGuide.html": {
     "href": "unity/ToolGuide.html",

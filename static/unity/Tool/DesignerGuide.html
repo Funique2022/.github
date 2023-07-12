@@ -79,7 +79,40 @@
 <h1 id="設計指南">設計指南</h1>
 
 <p>設計指南主要是一堆 Editor 的工具 幫助重複性的行為, 像是 Bundle Package 的打包</p>
-<h2 id="components">Components</h2>
+<p>一些加速開發人員的 Editor 工具</p>
+<h2 id="bundle-幫助">Bundle 幫助</h2>
+<p>這個工具用幫助設計師打包 Unity 資源, 便利於之後動態載入</p>
+<p>視窗位置</p>
+<p>工具列 -&gt; Funique -&gt; Asset Bundle Helper</p>
+<p><img src="../../images/ABHelper.jpg" alt="ABHelper"></p>
+<ul>
+<li>Prefix 輸出路徑位置</li>
+<li>Path 輸出相對路徑</li>
+<li>Target 平台目標 <a href="https://docs.unity3d.com/ScriptReference/BuildTarget.html">詳細</a></li>
+<li>Options 建置的一些 Flags <a href="https://docs.unity3d.com/ScriptReference/BuildAssetBundleOptions.html">詳細</a></li>
+</ul>
+<p>按下輸出後, 將會把所有 Assets 裡面註冊的 Assets Bundle 輸出至上方輸入的資料夾內</p>
+<h2 id="unity-開發人員模式">Unity 開發人員模式</h2>
+<p>這個項目幫助設計師開啟 Unity Editor 的開發人員模式, 可以調整底部 Unity 的數據, 在一些低層的 Debug 很好用.<br>
+Inspect 會多出 Debug Internal 模式出來.</p>
+<p>開關位置</p>
+<p>工具列 -&gt; Funique -&gt; Dev -&gt; On/Off</p>
+<h2 id="元件序列化剪貼">元件序列化剪貼</h2>
+<p>腳本元件的漢堡符號右鍵會多出兩個項目, 這個幫助於在不同的 Type 之間也能快速複製元件內容.</p>
+<p><img src="../../images/CopySerialized.png" alt="Copy"></p>
+<p>比如說我有兩個元件類別</p>
+<pre><code class="lang-csharp">class A { int value; }
+class B { int value; }
+</code></pre>
+<p>在預設的情況下是無法把 A 的數值複製到 B, 因為類別的不同. 但是序列化複製不一樣的地方是, 他是複製了數據內容的路徑, 所以可以進行套用.</p>
+<h2 id="掃描模型快速製作-prefab">掃描模型快速製作 Prefab</h2>
+<p>Assets 視窗在路徑按右鍵</p>
+<p><img src="../../images/ScanFix.png" alt="ScanFix"></p>
+<p>會以這個路徑掃描子資料夾尋找模型檔案, 然後在 Assets 建立 Prefab 資料夾. 把模型做成 Prefab 套用 Material (獨立輸出) 丟進這個 Prefab 資料夾.</p>
+<h2 id="刪除遺失腳本">刪除遺失腳本</h2>
+<p>厭煩了 Missing Scripts 的錯誤?</p>
+<p><img src="../../images/Missing.png" alt="missing"></p>
+<p>這個項目可以直接把整個場景的遺失腳本刪除</p>
 </article>
           </div>
         </div>

@@ -63,6 +63,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cloud/DNS.md",
+      "output": {
+        ".html": {
+          "relative_path": "cloud/DNS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cloud/Intro.md",
       "output": {
         ".html": {
@@ -73,10 +83,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cloud/WIX.md",
+      "source_relative_path": "cloud/MicroServices.md",
       "output": {
         ".html": {
-          "relative_path": "cloud/WIX.html"
+          "relative_path": "cloud/MicroServices.html"
         }
       },
       "version": ""
@@ -203,6 +213,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/ABHelper.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/ABHelper.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/ApplicationArchitecture.png",
       "output": {
         "resource": {
@@ -283,6 +303,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/CopySerialized.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CopySerialized.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DevTool-ManagePipeline.drawio.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DevTool-ManagePipeline.drawio.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/FuFuListR.PNG",
       "output": {
         "resource": {
@@ -313,6 +353,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/LargeFile.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/LargeFile.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Lightsail.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/Lightsail.PNG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Lightsail_Area.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Lightsail_Area.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Main.png",
       "output": {
         "resource": {
@@ -323,10 +393,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/MediaNetwork.drawio.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/MediaNetwork.drawio.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/MediaPlayerMaster.png",
       "output": {
         "resource": {
           "relative_path": "images/MediaPlayerMaster.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MicroServices-Container_Based_Multiplayer.drawio.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/MicroServices-Container_Based_Multiplayer.drawio.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Missing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Missing.png"
         }
       },
       "version": ""
@@ -407,6 +507,16 @@
       "output": {
         "resource": {
           "relative_path": "images/Record.PNG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScanFix.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScanFix.png"
         }
       },
       "version": ""
@@ -547,6 +657,16 @@
       "output": {
         "resource": {
           "relative_path": "images/npm_publish.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/portainer-container-list-screen.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/portainer-container-list-screen.webp"
         }
       },
       "version": ""
@@ -1093,16 +1213,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "unity/Installation.md",
-      "output": {
-        ".html": {
-          "relative_path": "unity/Installation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "unity/List.md",
       "output": {
         ".html": {
@@ -1293,16 +1403,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "unity/Tool/Designer/QuickStart.md",
-      "output": {
-        ".html": {
-          "relative_path": "unity/Tool/Designer/QuickStart.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "unity/Tool/DesignerGuide.md",
       "output": {
         ".html": {
@@ -1312,6 +1412,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "unity/ToolGuide.md",
       "output": {

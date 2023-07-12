@@ -94,9 +94,17 @@ fufu filepath \\192.168.361.2\Funique_J\XXX\XXX Assets\Plugins
 # 查看目前配置
 fufu list
 </code></pre>
+<p>在加入路徑後 可以打入以下指令 查看目前的配置</p>
+<pre><code class="lang-powershell">fufu list
+</code></pre>
+<p><img src="../../images/LargeFile.jpg" alt="largefile"></p>
 <h3 id="組件">組件</h3>
 <p>獨立可以匯入的 Repo, 有獨立版本控制的組件. 此乃模組化的需求, 主要的面對多個專案的重複使用.</p>
 <p>專案的組件可以被註冊到 <a href="http://satellite.funique.tv/directus/admin/login">CMS</a> 上, 然後用代號進行 Call</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>關於 CMS 的帳號密碼, 請於管理人員提供</p>
+</div>
 <div class="WARNING">
 <h5>Warning</h5>
 <p>在使用 update 以前, 確保有 github 團隊的權限, 否則拉取組件會失敗. 畢竟組件本身設定為私人的</p>
@@ -129,6 +137,8 @@ fufu project &lt;代號&gt; &lt;分支&gt;
 # 拉取專案 URL
 fufu project_url &lt;專案連結&gt; &lt;分支&gt;
 </code></pre>
+<p>以下為指令的過程解頗</p>
+<p><img src="../../images/DevTool-ManagePipeline.drawio.png" alt="Pipeline_CLI"></p>
 </article>
           </div>
         </div>

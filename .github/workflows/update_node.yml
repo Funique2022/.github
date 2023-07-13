@@ -20,8 +20,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Folder structure
-        run: cd / && mkdir app && cd app
+      #- name: Folder structure
+        #run: cd / && mkdir app && cd app
         
       - uses: actions/checkout@v3
         name: Clone docfx git
@@ -41,7 +41,7 @@ jobs:
           ref: web
       
       - name: Copy all files to web branch
-        run: cp -rf /static/* /app/.github/static
+        run: cp -rf ../static/* ../static
         
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Commit update

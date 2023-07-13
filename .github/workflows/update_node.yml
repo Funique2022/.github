@@ -47,3 +47,4 @@ jobs:
         name: Commit update
       
       - name: Upload to docker center
+        run: ls

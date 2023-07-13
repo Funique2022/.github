@@ -41,10 +41,13 @@ jobs:
       
       - uses: EndBug/add-and-commit@v9
         name: Add changes
+        with:
+          cwd: web
       
       - uses: actions-js/push@master
         name: Push changes
         with:
+          directory: web
           github_token: ${{ secrets.ACCESS_TOKEN }}
           branch: web
       

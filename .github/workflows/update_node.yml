@@ -23,7 +23,7 @@ jobs:
       #- name: Folder structure
         #run: cd / && mkdir app && cd app
         
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         name: Clone docfx git
           
       - uses: nikeee/docfx-action@v1.0.0
@@ -31,14 +31,13 @@ jobs:
         with:
           args: docfx.json
           
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         name: Switch web branch
         with:
           ref: web
           path: web
           repository: Funique2022/.github
           token: ${{ secrets.ACCESS_TOKEN }}
-          ssh-key: ${{ secrets.SSH_KEY }}
       
       - name: Copy all files to web branch
         run: cp -rf ../static/* ../static

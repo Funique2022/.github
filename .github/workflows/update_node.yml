@@ -35,6 +35,8 @@ jobs:
         name: Switch web branch
         with:
           ref: web
+          repository: Funique2022/.github
+          token: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Copy all files to web branch
         run: cp -rf ../static/* ../static

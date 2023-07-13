@@ -2,12 +2,37 @@
   "ci/Intro.html": {
     "href": "ci/Intro.html",
     "title": "Funique 文件指南 For 持續性整合 | Funique Documentation",
-    "keywords": "Funique 文件指南 For 持續性整合 Warning 現在還沒有 CI/DI :3"
+    "keywords": "Funique 文件指南 For 持續性整合 Warning 現在還沒有 CI/DI 流程方案 Github Action 學習文件 透過 Github Action 將代碼的合併, 更新綁定事件. 事件可以定義流程像是測試, 建置, 部屬. 可以與 AWS Lightsail 實體上架設 CI/DI 服務進行自動部屬, 自動整合. Warning 這將會是一個龐大的工程..."
   },
   "cloud/AWS.html": {
     "href": "cloud/AWS.html",
     "title": "AWS | Funique Documentation",
     "keywords": "AWS 登入"
+  },
+  "cloud/Backend.html": {
+    "href": "cloud/Backend.html",
+    "title": "後端 | Funique Documentation",
+    "keywords": "後端 [!INFO] 雲端相關, 未來補充"
+  },
+  "cloud/backend/Directus.html": {
+    "href": "cloud/backend/Directus.html",
+    "title": "Directus | Funique Documentation",
+    "keywords": "Directus Directus 是開源的 CMS 框架, 並且有提供自行架設的方案. 官方網站 文件指南 伺服器連接 Tip 目前的分類還算是粗略的 Backend 後台資料 (系統後台應用) Frontend 客戶端資料 (客戶端偏好或是關係應用) Encode 編碼資料 (影片編碼轉碼應用) Developer 開發者資料 (開發人員專用資料)"
+  },
+  "cloud/backend/Docker.html": {
+    "href": "cloud/backend/Docker.html",
+    "title": "Docker | Funique Documentation",
+    "keywords": "Docker 官方網站 容器服務框架, 能將傳統 monolithic (一體式伺服器) 升級成 (Clustering) 叢集架構. 實現多台伺服器應付多應用程式服務. 並且以容器的方式進行管理. 這意味著升級, 維護, 修改, 部屬, 測試都會單元化. 而 Docker 容器管理框架也提供許多功能, 像是網路, 共用磁碟, Swarm, API 控制等等 Docker Swarm 伺服器"
+  },
+  "cloud/backend/Gateway.html": {
+    "href": "cloud/backend/Gateway.html",
+    "title": "| Funique Documentation",
+    "keywords": ""
+  },
+  "cloud/backend/Portainer.html": {
+    "href": "cloud/backend/Portainer.html",
+    "title": "容器管理框架介面 | Funique Documentation",
+    "keywords": "容器管理框架介面 官方網站 官方文件 方便介面管理的框架 Docker Swarm 伺服器 建立服務 建立容器 建立 Stack 加入節點 更新容器"
   },
   "cloud/CHT.html": {
     "href": "cloud/CHT.html",
@@ -17,7 +42,7 @@
   "cloud/DNS.html": {
     "href": "cloud/DNS.html",
     "title": "DNS | Funique Documentation",
-    "keywords": "DNS"
+    "keywords": "DNS 登入"
   },
   "cloud/Intro.html": {
     "href": "cloud/Intro.html",
@@ -29,31 +54,6 @@
     "title": "微服務設計 | Funique Documentation",
     "keywords": "微服務設計 目前設計是採用撰寫服務部屬在各個平台 Firebase, Lightsail, EC2, Google, 外包平台, Etc... Tip 可以使用 Caas 容器服務管理進行統整/維護/更新 一些有用的學習文件 Docker Swarm Portainer 想法是可以開多個實體在 EC2 或是 Lightsail 上, 每個實體都必須是 Linux 基底然後需要有安裝 Docker. 在多個實體間選擇一個 Master 進行資源的管理 以下為在 Web 上能看到的頁面, 可以一個列表下來看到有多少服務在線上, 並且可以隨時更新, Shell 作業. 以下為簡易的微服務的架構 可以製作一個 Scheduler 銜接 Docker 的環境生成實體, 刪除實體, 來達成遊戲伺服器多開的作用."
   },
-  "dev/Backend.html": {
-    "href": "dev/Backend.html",
-    "title": "後端 | Funique Documentation",
-    "keywords": "後端 [!INFO] 雲端相關, 未來補充"
-  },
-  "dev/backend/Directus.html": {
-    "href": "dev/backend/Directus.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "dev/backend/Docker.html": {
-    "href": "dev/backend/Docker.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "dev/backend/Gateway.html": {
-    "href": "dev/backend/Gateway.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
-  "dev/backend/Portainer.html": {
-    "href": "dev/backend/Portainer.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
-  },
   "dev/Contribute.html": {
     "href": "dev/Contribute.html",
     "title": "貢獻者 | Funique Documentation",
@@ -62,12 +62,12 @@
   "dev/Intro.html": {
     "href": "dev/Intro.html",
     "title": "Funique 文件指南 For 開發者 | Funique Documentation",
-    "keywords": "Funique 文件指南 For 開發者 對開發者的文件, 一些貢獻和開發相關的方法."
+    "keywords": "Funique 文件指南 For 開發者 對開發者的文件, 一些貢獻和開發相關的方法. 風格 維護性"
   },
   "dev/Maintainer.html": {
     "href": "dev/Maintainer.html",
     "title": "維護 | Funique Documentation",
-    "keywords": "維護 讓一個專案的可維護性提高. 建立一個好的規範, 往後在維護的過程中會省掉許多麻煩. 微小的 Commit 在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析. 版本號意義 v1.2.3 釋出版本號 功能版本號 除錯分支 釋出版本號 釋出版本號通常要更新, 除非是整個底層的核心重新編寫, 否則是不會動的. 功能版本號 加入新的功能, 或是移除功能的時候才會更新 除錯分支 分支命名 分支名稱請符合下方命名方法 v1.0.1 -> Debug 分支 v1.0 -> 合併至 v1.0 主分支 標籤命名 標籤名稱請符合下方命名方法 v1.0-release -> 1.0 最新 debugged 版本 v1.1-release -> 1.1 最新 debugged 版本 使用 Pull Request 除錯分支要 Merge 到功能版本號時 使用 Pull Request 留下版本紀錄 (可回朔)"
+    "keywords": "維護 讓一個專案的可維護性提高. 建立一個好的規範, 往後在維護的過程中會省掉許多麻煩. 一個專案可能有多個人在線上製作與修改, 每個人的 Unity 版本也可能有差異性. 這時候就需要手動 Commit (不要全部 Commit 把設定都複寫). 修改的程式部分至 Branch 然後 Pull Request 至主要分支. 這種方式就可以視團隊在同一個專案下工作. 微小的 Commit Tip 搭配 Branch 使用能更清楚的紀錄細節, 並且同時兼顧可以回朔的功能. 在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析. 版本號意義 v1.2.3 釋出版本號 功能版本號 除錯分支 釋出版本號 釋出版本號通常要更新, 除非是整個底層的核心重新編寫, 否則是不會動的. 功能版本號 加入新的功能, 或是移除功能的時候才會更新. 除錯分支 功能上的除錯與修正, 測試與維護. 範例 master v1.0 v1.0.1 -> 完成修正後 Merge 至 v1.0 v1.0.2 -> 完成修正後 Merge 至 v1.0 v1.0.3 -> 完成修正後 Merge 至 v1.0 v1.1 v1.1.1 -> 完成修正後 Merge 至 v1.1 v1.1_special_feature v1.1.1_special_feature -> 完成修正後 Merge 至 v1.1_special_feature 這邊的 special_feature 是指拿 v1.1 的版本為基底, 新增一項非正規的特規版本出來 分支命名 分支名稱請符合下方命名方法 v1.0 -> 合併至 v1.0 主分支 v1.0_xxx -> v1.0 為 base 的特規 v1.0.1 -> Debug 分支 標籤命名 標籤名稱請符合下方命名方法, 此為 Release 使用的名稱. v1.0.x-release -> 1.0 最新 debugged 版本 v1.1.x-release -> 1.1 最新 debugged 版本 使用 Pull Request 除錯分支要 Merge 到功能版本號時 使用 Pull Request 留下版本紀錄 (可回朔)"
   },
   "dev/Style.html": {
     "href": "dev/Style.html",

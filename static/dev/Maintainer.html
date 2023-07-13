@@ -1,20 +1,21 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-
+  
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>維護 | Funique Documentation </title>
-      <meta name="viewport" content="width=device-width">
-      <meta name="title" content="維護 | Funique Documentation ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#32173;&#35703; | Funique Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#32173;&#35703; | Funique Documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
     
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
     
@@ -22,7 +23,7 @@
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-
+        
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -32,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-
+              
               <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../logo.svg" alt="Funique">
               </a>
@@ -46,7 +47,7 @@
             </div>
           </div>
         </nav>
-
+        
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -56,7 +57,7 @@
         </div>
       </header>
       <div class="container body-content">
-
+        
         <div id="search-results">
           <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
@@ -66,7 +67,7 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-
+        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,7 +80,12 @@
 <h1 id="維護">維護</h1>
 
 <p>讓一個專案的可維護性提高. 建立一個好的規範, 往後在維護的過程中會省掉許多麻煩.</p>
+<p>一個專案可能有多個人在線上製作與修改, 每個人的 Unity 版本也可能有差異性. 這時候就需要手動 Commit (不要全部 Commit 把設定都複寫). 修改的程式部分至 Branch 然後 Pull Request 至主要分支. 這種方式就可以視團隊在同一個專案下工作.</p>
 <h2 id="微小的-commit">微小的 Commit</h2>
+<div class="TIP">
+<h5>Tip</h5>
+<p>搭配 Branch 使用能更清楚的紀錄細節, 並且同時兼顧可以回朔的功能.</p>
+</div>
 <p>在每個小的更改都進行 Commit, 豐富的紀錄較容易追朔以及分析.</p>
 <h2 id="版本號意義">版本號意義</h2>
 <p>v1.2.3</p>
@@ -88,22 +94,49 @@
 <li>功能版本號</li>
 <li>除錯分支</li>
 </ol>
-<h3 id="釋出版本號">釋出版本號</h3>
+<h4 id="釋出版本號">釋出版本號</h4>
 <p>釋出版本號通常要更新, 除非是整個底層的核心重新編寫, 否則是不會動的.</p>
-<h3 id="功能版本號">功能版本號</h3>
-<p>加入新的功能, 或是移除功能的時候才會更新</p>
-<h3 id="除錯分支">除錯分支</h3>
+<h4 id="功能版本號">功能版本號</h4>
+<p>加入新的功能, 或是移除功能的時候才會更新.</p>
+<h4 id="除錯分支">除錯分支</h4>
+<p>功能上的除錯與修正, 測試與維護.</p>
+<h4 id="範例">範例</h4>
+<ul>
+<li>master
+<ul>
+<li>v1.0
+<ul>
+<li>v1.0.1 -&gt; 完成修正後 Merge 至 v1.0</li>
+<li>v1.0.2 -&gt; 完成修正後 Merge 至 v1.0</li>
+<li>v1.0.3 -&gt; 完成修正後 Merge 至 v1.0</li>
+</ul>
+</li>
+<li>v1.1
+<ul>
+<li>v1.1.1 -&gt; 完成修正後 Merge 至 v1.1</li>
+</ul>
+</li>
+<li>v1.1_special_feature
+<ul>
+<li>v1.1.1_special_feature -&gt; 完成修正後 Merge 至 v1.1_special_feature</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>這邊的 special_feature 是指拿 v1.1 的版本為基底, 新增一項非正規的特規版本出來</p>
 <h2 id="分支命名">分支命名</h2>
 <p>分支名稱請符合下方命名方法</p>
 <ul>
-<li>v1.0.1 -&gt; Debug 分支</li>
 <li>v1.0 -&gt; 合併至 v1.0 主分支</li>
+<li>v1.0_xxx -&gt; v1.0 為 base 的特規</li>
+<li>v1.0.1 -&gt; Debug 分支</li>
 </ul>
 <h2 id="標籤命名">標籤命名</h2>
-<p>標籤名稱請符合下方命名方法</p>
+<p>標籤名稱請符合下方命名方法, 此為 Release 使用的名稱.</p>
 <ul>
-<li>v1.0-release -&gt; 1.0 最新 debugged 版本</li>
-<li>v1.1-release -&gt; 1.1 最新 debugged 版本</li>
+<li>v1.0.x-release -&gt; 1.0 最新 debugged 版本</li>
+<li>v1.1.x-release -&gt; 1.1 最新 debugged 版本</li>
 </ul>
 <h2 id="使用-pull-request">使用 Pull Request</h2>
 <p>除錯分支要 Merge 到功能版本號時 使用 Pull Request 留下版本紀錄 (可回朔)</p>
@@ -111,7 +144,7 @@
           </div>
         </div>
       </div>
-
+      
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -119,14 +152,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-      Funique Inc.<br>Generated by <b>DocFX</b>
-      
+            Funique Inc.<br>Generated by <b>DocFX</b>
+            
           </div>
         </div>
       </footer>
     </div>
-
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

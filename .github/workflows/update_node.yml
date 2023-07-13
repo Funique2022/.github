@@ -40,7 +40,7 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
       
       - name: Copy all files to web branch
-        run: cp -rf ../static/* ../static
+        run: cp -rf ../static/* web/static
         
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Commit update

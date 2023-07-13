@@ -39,6 +39,13 @@ jobs:
           repository: Funique2022/.github
           token: ${{ secrets.ACCESS_TOKEN }}
       
+      - name: Checker
+        run: ls
+      - name: Checker2
+        run: ls web
+      - name: Checker3
+        run: ls ..
+      
       - name: Copy all files to web branch
         run: cp -rf ../static/* web/static
         

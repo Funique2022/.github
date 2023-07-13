@@ -38,6 +38,7 @@ jobs:
           path: web
           repository: Funique2022/.github
           token: ${{ secrets.ACCESS_TOKEN }}
+          ssh-key: ${{ secrets.SSH_KEY }}
       
       - name: Copy all files to web branch
         run: cp -rf ../static/* ../static

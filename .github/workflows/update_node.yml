@@ -39,9 +39,6 @@ jobs:
         with:
           args: docfx_ci.json
       
-      - name: Copy all files to web branch
-        run: cp -rf ../static/* web/static
-      
       - uses: EndBug/add-and-commit@v9
         name: Add changes
       

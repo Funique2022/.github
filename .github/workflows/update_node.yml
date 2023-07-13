@@ -21,7 +21,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Folder structure
-        run: cd / & mkdir app & cd app
+        run: cd / && mkdir app && cd app
         
       - uses: actions/checkout@v3
         name: Clone docfx git

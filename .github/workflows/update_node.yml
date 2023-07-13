@@ -35,6 +35,7 @@ jobs:
         name: Switch web branch
         with:
           ref: web
+          path: web
           repository: Funique2022/.github
           token: ${{ secrets.ACCESS_TOKEN }}
       

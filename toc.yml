@@ -1,5 +1,7 @@
 - name: Unity 指南
   href: unity/
+- name: Artist 指南
+  href: artist/
 - name: 串流指南
   href: stream/
 - name: 開發文件

@@ -4,30 +4,7 @@
 
 映像檔使用 Ubuntu 18.04 LTS, 如果你使用 Windows 你可以使用 WSL2 Docker
 
-# Windows 安裝
-
-## 啟用 windows WSL
-
-Powershell 並且輸入
-
-```powershell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
-
-## Docker 環境設定
-
-在第一步驟完成後，你可以開始安裝 Docker
-
-[安裝 Docker](https://www.docker.com/)
-
-完成安裝後 切換版本至 WSL 2
-
-```powershell
-wsl --set-default-version 2
-```
-
-恭喜，你有了 Docker 在 Windows 環境下
+[參考安裝](../../cloud/backend/Docker.md)
 
 ## 安裝串流伺服器服務
 

@@ -23,6 +23,36 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "artist/Intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "artist/Intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "artist/Version.md",
+      "output": {
+        ".html": {
+          "relative_path": "artist/Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "artist/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "artist/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "ci/Intro.md",
       "output": {
         ".html": {

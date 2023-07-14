@@ -22,7 +22,7 @@
   "cloud/backend/Docker.html": {
     "href": "cloud/backend/Docker.html",
     "title": "Docker | Funique Documentation",
-    "keywords": "Docker 官方網站 容器服務框架, 能將傳統 monolithic (一體式伺服器) 升級成 (Clustering) 叢集架構. 實現多台伺服器應付多應用程式服務. 並且以容器的方式進行管理. 這意味著升級, 維護, 修改, 部屬, 測試都會單元化. 而 Docker 容器管理框架也提供許多功能, 像是網路, 共用磁碟, Swarm, API 控制等等 Docker Swarm 伺服器"
+    "keywords": "Docker 官方網站 容器服務框架, 能將傳統 monolithic (一體式伺服器) 升級成 (Clustering) 叢集架構. 實現多台伺服器應付多應用程式服務. 並且以容器的方式進行管理. 這意味著升級, 維護, 修改, 部屬, 測試都會單元化. 而 Docker 容器管理框架也提供許多功能, 像是網路, 共用磁碟, Swarm, API 控制等等 Docker Swarm 伺服器 Windows 安裝 啟用 windows WSL Powershell 並且輸入 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart Docker 環境設定 在第一步驟完成後，你可以開始安裝 Docker 安裝 Docker 完成安裝後 切換版本至 WSL 2 wsl --set-default-version 2 恭喜，你有了 Docker 在 Windows 環境下"
   },
   "cloud/backend/Gateway.html": {
     "href": "cloud/backend/Gateway.html",
@@ -132,7 +132,7 @@
   "stream/nginx/setup.html": {
     "href": "stream/nginx/setup.html",
     "title": "架設串流伺服器 | Funique Documentation",
-    "keywords": "架設串流伺服器 映像檔案 映像檔使用 Ubuntu 18.04 LTS, 如果你使用 Windows 你可以使用 WSL2 Docker Windows 安裝 啟用 windows WSL Powershell 並且輸入 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart Docker 環境設定 在第一步驟完成後，你可以開始安裝 Docker 安裝 Docker 完成安裝後 切換版本至 WSL 2 wsl --set-default-version 2 恭喜，你有了 Docker 在 Windows 環境下 安裝串流伺服器服務 指令安裝 docker run -d --name rtmp -p 80:80 -p 1935:1935 -v /var/www/html/html/res://c/Users/myusername/Desktop/Test e87870823/rtmp:v1.5 GUI 安裝 先用指令拉取 Image 再生成 Container docker pull e87870823/rtmp:v1.5 Warning You should enter a exist folder for container path !! Ubuntu 安裝 sudo apt-get update sudo apt-get install ca-certificates curl gnupg sudo install -m 0755 -d /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg sudo chmod a+r /etc/apt/keyrings/docker.gpg echo \"deb [arch=\"$(dpkg --print-architecture)\" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \"$(. /etc/os-release && echo \"$VERSION_CODENAME\"\" stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
+    "keywords": "架設串流伺服器 映像檔案 映像檔使用 Ubuntu 18.04 LTS, 如果你使用 Windows 你可以使用 WSL2 Docker 參考安裝 安裝串流伺服器服務 指令安裝 docker run -d --name rtmp -p 80:80 -p 1935:1935 -v /var/www/html/html/res://c/Users/myusername/Desktop/Test e87870823/rtmp:v1.5 GUI 安裝 先用指令拉取 Image 再生成 Container docker pull e87870823/rtmp:v1.5 Warning You should enter a exist folder for container path !! Ubuntu 安裝 sudo apt-get update sudo apt-get install ca-certificates curl gnupg sudo install -m 0755 -d /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg sudo chmod a+r /etc/apt/keyrings/docker.gpg echo \"deb [arch=\"$(dpkg --print-architecture)\" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \"$(. /etc/os-release && echo \"$VERSION_CODENAME\"\" stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
   },
   "stream/pipeline.html": {
     "href": "stream/pipeline.html",

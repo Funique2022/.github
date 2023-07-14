@@ -5,6 +5,8 @@
         "files": [
           "stream/**.md",
           "stream/**.yml",
+          "artist/**.md",
+          "artist/**.yml",
           "ci/**.md",
           "ci/**.yml",
           "cloud/**.md",

@@ -36,8 +36,8 @@
   },
   "cloud/backend/Gateway.html": {
     "href": "cloud/backend/Gateway.html",
-    "title": "| Funique Documentation",
-    "keywords": ""
+    "title": "Gateway | Funique Documentation",
+    "keywords": "Gateway 定義服務與服務之間的關係, 這邊使用了 Nginx 進行 proxy 反向代理. Warning 使用 Nginx Proxy Manager 會使運算資源不高的實體崩潰. 在 Lightsail 上特別危險, 建議不要用. 回歸手動編寫 nginx.conf"
   },
   "cloud/backend/Portainer.html": {
     "href": "cloud/backend/Portainer.html",
@@ -317,7 +317,7 @@
   "unity/CoreGuide.html": {
     "href": "unity/CoreGuide.html",
     "title": "Funique 核心 | Funique Documentation",
-    "keywords": "Funique 核心 核心庫是大部分的模組依賴的模組 包含了底層列舉, 結構, 類別, 演算法等等 建議在開發前或是使用前直接匯入這個模組 ID Name Docuemnt 1. Naughty Attributes 快速開始 2. Regex Builder 快速開始 2. Faster Gizmo 快速開始 回到介紹"
+    "keywords": "Funique 核心 核心庫是大部分的模組依賴的模組 包含了底層列舉, 結構, 類別, 演算法等等 建議在開發前或是使用前直接匯入這個模組 ID Name Docuemnt 1. Naughty Attributes 快速開始 2. Regex Builder 快速開始 3. Faster Gizmo 快速開始 回到介紹"
   },
   "unity/Fufu/Guide.html": {
     "href": "unity/Fufu/Guide.html",
@@ -337,7 +337,7 @@
   "unity/intro.html": {
     "href": "unity/intro.html",
     "title": "Funique 文件指南 For 使用者 | Funique Documentation",
-    "keywords": "Funique 文件指南 For 使用者 在這篇中, 你會看到如何架設 Unity 專案 繼承框架邏輯, 編寫自定義元件\\ 如果找到 bugs 可以找到指定的 repo 並且在 issue 回報問題 寫下你的問題, dev 會嘗試改善 架構 Funique 專案有幾個規則套用 在開始以前, 建議先閱讀 這篇 Note 有些模組是通用型的, 可以被套用在伺服器或客戶端. 專案一覽 工具快速開始 客戶端快速開始 伺服器快速開始"
+    "keywords": "Funique 文件指南 For 使用者 在這篇中, 你會看到如何架設 Unity 專案 繼承框架邏輯, 編寫自定義元件\\ 如果找到 bugs 可以找到指定的 repo 並且在 issue 回報問題 寫下你的問題, dev 會嘗試改善 架構 Funique 專案有幾個規則套用 在開始以前, 建議先閱讀 這篇 Note 有些模組是通用型的, 可以被套用在伺服器或客戶端. 專案一覽 設定須知 工具快速開始 客戶端快速開始 伺服器快速開始"
   },
   "unity/List.html": {
     "href": "unity/List.html",
@@ -429,10 +429,40 @@
     "title": "Funique 伺服器元件 | Funique Documentation",
     "keywords": "Funique 伺服器元件 所有伺服器會使用到的模組 ID Name Docuemnt 1. 劇院 快速開始 2. 媒體邏輯 快速開始 3. 網路 快速開始 4. 用戶 快速開始 5. 設定 快速開始 6. 串流 快速開始 7. 使用者介面 快速開始 8. 影片庫 快速開始 回到介紹"
   },
+  "unity/Setting/Default.html": {
+    "href": "unity/Setting/Default.html",
+    "title": "預設值參考 | Funique Documentation",
+    "keywords": "預設值參考 各 Playe 截圖測試通過版本截圖, 而一些值得參考則在其他頁面 PC Quest 2 Focus 3"
+  },
+  "unity/Setting/Graphics.html": {
+    "href": "unity/Setting/Graphics.html",
+    "title": "畫質設定 | Funique Documentation",
+    "keywords": "畫質設定 小備註: 有沒有 OES Texture 會影響效能... GPU 效能會影響白躁點現象 無 URP 全用 Default 有 URP Depth Texture (深度貼圖, 預設是勾, 全平台 URP 配置下) Opaque Texture (在 Android 平台上 UI 會消失, 別勾) HDR (都不勾) MSAA: Disabled (反鋸齒, OpenXR 配 URp 有 Bug 這個設定不會被套用) Render Scale: 1.1 1.1 (Quest 2) Main Light: Disabled (沒用到光就全關了背)"
+  },
+  "unity/Setting/PlayerSetting.html": {
+    "href": "unity/Setting/PlayerSetting.html",
+    "title": "專案設定 | Funique Documentation",
+    "keywords": "專案設定 介面在 Edit -> Project Setting -> Player Other Setting (主要專案配置) Color Space: Linear (通常都用線性顏色輸出) Graphics API: OpenGLES3 (使用繪圖底層) 以下為常用的 DX11 (PC) OpenGLES3 (Android) 使用其他設定要得知的問題 DX12 (目前用下來還沒有出問題過) 安桌版本不能使用 Vulkan 因為 Avpro 不支援 Texture compression format: ASTC (圖像資源) 這個項目不會影響 avpro 運作, 但是會使包出來的圖像稍微好一點, App size 也會小一點. Scripting Backend: IL2CPP (後台使用) Mono 建置快 執行慢 IL2CPP 執行快 建置慢 C++ Compiler Configuration: Release (會自動優化 CPU 指令) Install Location: Prefer External (其實都會裝在 Android 資料夾下... 所以好像沒差) Internal Access: Require (詢問存取權限, 要讀 Movie 影片或是 DCIM 圖片就要) Write Permission: External SDCard (寫入權限) Managed Stripping Level: Minimal (如果使用 Low 以上的, 可能會有無法預期的 Bug) Active Input Handling: Both (使用的輸入控制) 用 Both 通常是為了插件著想, 有些插件還使用舊版的 Input, 有些則是用新的, 如果單選擇一個後面很容易有問題, 所以建議是留 Both Publish Setting (發布配置) Custom Main Manifest Android 使用的標頭檔案, 打勾則是用自定義的, 如果有其他權限或是設定要更改, 像是 讓播放器可以播放 http 網址的設定, 這些則在寫在他給予連結的檔案中."
+  },
+  "unity/Setting/Quality.html": {
+    "href": "unity/Setting/Quality.html",
+    "title": "品質設定 | Funique Documentation",
+    "keywords": "品質設定"
+  },
+  "unity/Setting/XRSetting.html": {
+    "href": "unity/Setting/XRSetting.html",
+    "title": "XR 設定 | Funique Documentation",
+    "keywords": "XR 設定"
+  },
+  "unity/SettingGuide.html": {
+    "href": "unity/SettingGuide.html",
+    "title": "專案設定需知 | Funique Documentation",
+    "keywords": "專案設定需知 各個專案設定的配置將會影響播放器行為, 其中會影響到畫質, 效能, 體驗. 在過去測試出來的紀錄以及哪一項數據會影響到誰, 會在此項目撰寫清楚. ID Name Docuemnt 1. Project Setting 快速開始 2. Graphics 快速開始 3. Quality 快速開始 4. XR Setting 快速開始 回到介紹"
+  },
   "unity/Setup.html": {
     "href": "unity/Setup.html",
     "title": "架設 | Funique Documentation",
-    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop Funique_Package_Manager Tip 你必須要下載 Git 才能使用專案管理工具 手動架設 Warning 此為手動架設的流程, 新的專案現在使用 Fufu 版本管理工具, 則不再提供批次檔案. 使用 Git 專案 在 Github 組織 下尋找 project 開頭的 repository Warning 你必須要有 Github 組織的權限才可以拉取專案. 如果尚未加入請至於開發團隊申請 Clone 到你的資料夾, 以下為範例 # --branch 為指定分支, 如果不打的話則會拉取預設的分支 git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0 branch 為現在要選取的版本號 或是使用 Github Desktop 進行拉取動作 在根目錄尋找批次檔案 load 下載所有子模組 remove 刪除所有子模組 update 更新所有子模組 Tip 新的專案則是使用 fufu update 來取代批次檔案 有些專案是需要資源的匯入 才會使其成立 這些資源不會放在 git 的上面, 主要原因是因為容量的限制. 這些會放在 NAS 上的 資源資料夾中. 那現在就來手動匯入資源. Tip 新的專案則是使用 fufu copy 複製 NAS 上的檔案下來 以下為範例的 NAS 路徑 (此路徑為動態的) 如圖 會根據專案名稱下有各種資源資料夾 把這些資料夾丟到專案資料夾的 Assets 中即可 專案架構 這是主要的專案架構 統整(Integration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 或其他路徑 這樣可以確保 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上 重複使用 可以單獨用 git 匯入至多個專案, 使其可被重複使用. 避免過多複製代碼動作. 可被測試 單元測試, 簡單講."
+    "keywords": "架設 在這一篇中, 你可以了解專案架構 第三方工具幫助 Git Github Desktop Funique_Package_Manager Tip 你必須要下載 Git 才能使用專案管理工具 手動架設 Warning 此為手動架設的流程, 新的專案現在使用 Fufu 版本管理工具, 則不再提供批次檔案. 使用 Git 專案 在 Github 組織 下尋找 project 開頭的 repository Warning 你必須要有 Github 組織的權限才可以拉取專案. 如果尚未加入請至於開發團隊申請 Clone 到你的資料夾, 以下為範例 # --branch 為指定分支, 如果不打的話則會拉取預設的分支 git clone https://github.com/Funique2022/project_funique_player.git --branch v1.0 branch 為現在要選取的版本號 或是使用 Github Desktop 進行拉取動作 在根目錄尋找批次檔案 load 下載所有子模組 remove 刪除所有子模組 update 更新所有子模組 Tip 新的專案則是使用 fufu update 來取代批次檔案 有些專案是需要資源的匯入 才會使其成立 這些資源不會放在 git 的上面, 主要原因是因為容量的限制. 這些會放在 NAS 上的 資源資料夾中. 那現在就來手動匯入資源. Tip 新的專案則是使用 fufu copy 複製 NAS 上的檔案下來 以下為範例的 NAS 路徑 (此路徑為動態的) 如圖 會根據專案名稱下有各種資源資料夾 把這些資料夾丟到專案資料夾的 Assets 中即可 專案架構 這是主要的專案架構 統整(Integration) (主要邏輯) 會保存在 /Assets/Scripts 模組(Modules) (通用邏輯) 會保存在 /Assets/FuniquePlugin/[Module Name] 媒體, 巨大檔案(忽略元件) 會保存在 /Assets/FuniqueAssets 或其他路徑 Tip 要判斷插件要綁模組還是專案, 看個人. 範例 播放器可以綁模組, 撥放器通常會帶自定義的邏輯判斷, 綁模組也可以統一 Avpro 的版本. 比起綁定專案來說有十足的好處. BetterHTTP 相對來講就比較通用. 可以綁專案, 當然也可以像是建立 Web 名稱的模組, 然後再匯入. 這樣可以確保 依賴性 每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上 重複使用 可以單獨用 git 匯入至多個專案, 使其可被重複使用. 避免過多複製代碼動作. 可被測試 單元測試, 簡單講."
   },
   "unity/Tool/DesignerGuide.html": {
     "href": "unity/Tool/DesignerGuide.html",

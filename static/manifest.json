@@ -813,6 +813,156 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/setting/f300.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/f300.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/f301.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/f301.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/pc00.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/pc00.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/pc01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/pc01.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/pc02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/pc02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/pc03.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/pc03.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/pc04.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/pc04.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/pc05.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/pc05.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q200.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q200.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q201.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q201.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q202.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q202.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q203.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q203.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q204.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q204.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q205.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q205.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/setting/q206.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/setting/q206.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/verify.png",
       "output": {
         "resource": {
@@ -1497,6 +1647,66 @@
       "output": {
         ".html": {
           "relative_path": "unity/ServerGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Setting/Default.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Setting/Default.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Setting/Graphics.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Setting/Graphics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Setting/PlayerSetting.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Setting/PlayerSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Setting/Quality.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Setting/Quality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/Setting/XRSetting.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/Setting/XRSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "unity/SettingGuide.md",
+      "output": {
+        ".html": {
+          "relative_path": "unity/SettingGuide.html"
         }
       },
       "version": ""

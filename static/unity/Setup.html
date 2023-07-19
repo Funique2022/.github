@@ -134,6 +134,12 @@ git clone https://github.com/Funique2022/project_funique_player.git --branch v1.
 <p>統整(Integration) (主要邏輯) 會保存在 <code>/Assets/Scripts</code><br>
 模組(Modules) (通用邏輯) 會保存在 <code>/Assets/FuniquePlugin/[Module Name]</code><br>
 媒體, 巨大檔案(忽略元件) 會保存在 <code>/Assets/FuniqueAssets</code> 或其他路徑</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>要判斷插件要綁模組還是專案, 看個人. 範例
+播放器可以綁模組, 撥放器通常會帶自定義的邏輯判斷, 綁模組也可以統一 Avpro 的版本. 比起綁定專案來說有十足的好處.
+BetterHTTP 相對來講就比較通用. 可以綁專案, 當然也可以像是建立 Web 名稱的模組, 然後再匯入.</p>
+</div>
 <p>這樣可以確保</p>
 <h3 id="依賴性">依賴性</h3>
 <p>每個模組都會有他的依賴性, 這些東西都會寫在模組的 readme.md 上</p>

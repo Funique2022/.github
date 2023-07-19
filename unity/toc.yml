@@ -2,6 +2,19 @@
   href: intro.md
 - name: 架設
   href: Setup.md
+- name: 設定
+  href: SettingGuide.md
+  items:
+  - name: 專案設定
+    href: Setting/PlayerSetting.md
+  - name: 畫質設定
+    href: Setting/Graphics.md
+  - name: 品質設定
+    href: Setting/Quality.md
+  - name: XR 設定
+    href: Setting/XRSetting.md
+  - name: 預設值參考
+    href: Setting/Default.md
 - name: 核心
   href: CoreGuide.md
   items:

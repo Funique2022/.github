@@ -21,6 +21,7 @@ Funique 專案有幾個規則套用\
 > 有些模組是通用型的, 可以被套用在伺服器或客戶端.
 
 [專案一覽](./List.md)\
+[設定須知](./SettingGuide.md)\
 [工具快速開始](./ToolGuide.md)\
 [客戶端快速開始](./ClientGuide.md)\
 [伺服器快速開始](./ServerGuide.md)

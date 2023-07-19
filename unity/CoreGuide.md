@@ -10,7 +10,7 @@
 | --- | ------------------ | ----------------------------------------------------------- |
 | 1.  | Naughty Attributes | [快速開始](https://github.com/dbrizov/NaughtyAttributes) |
 | 2.  | Regex Builder      | [快速開始](https://github.com/karl-/unity-regex-builder) |
-| 2.  | Faster Gizmo       | [快速開始](https://github.com/sverdegd/FastGizmosUnity)  |
+| 3.  | Faster Gizmo       | [快速開始](https://github.com/sverdegd/FastGizmosUnity)  |
 
 [回到介紹](./intro.md)
 
